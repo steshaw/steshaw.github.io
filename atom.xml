@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>Steven Shaw loves programming languages</title>
+    <link href="http://steshaw.org/atom.xml" rel="self" />
+    <link href="http://steshaw.org" />
+    <id>http://steshaw.org/atom.xml</id>
+    <author>
+        <name>Steven Shaw</name>
+        <email>steven+blog@steshaw.org</email>
+    </author>
+    <updated>2012-02-09T00:00:00Z</updated>
+    <entry>
+    <title>"Hello MathJax"</title>
+    <link href="http://steshaw.org/posts/2012-02-09-hello-mathjax.html" />
+    <id>http://steshaw.org/posts/2012-02-09-hello-mathjax.html</id>
+    <published>2012-02-09T00:00:00Z</published>
+    <updated>2012-02-09T00:00:00Z</updated>
+    <summary type="html"><![CDATA[<div class="info">
+    Posted on February  9, 2012
+    
+</div>
+
+<p>MathJax isn’t currently supported out-of-the-box with Octopress. The main reason seems to be that the Markdown processor — rdiscount — doesn’t deal with the MathJax escaping very well. However, since <a href="http://maruku.rubyforge.org/math.xhtml">Maruku supports it</a>, I thought I’d try switching over.</p>
+<p>I made the following two changes:</p>
+<p><code>yml switch Markdown processors in _config.yml markdown: maruku</code></p>
+<p><code>html enable MathJax in source/_includes/custom/head.html http://www.mathjax.org/docs/1.1/start.html &lt;script type=&quot;text/x-mathjax-config&quot;&gt; MathJax.Hub.Config({       tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}       }); &lt;/script&gt; &lt;script type=&quot;text/javascript&quot; src=&quot;path-to-mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML&quot;&gt;&lt;/script&gt;</code></p>
+<p>This allows for inline <span class="math">$\TeX$</span> expressions between dollar signs e.g. <code>$\TeX$</code>. MathJax <em>display</em> expressions (i.e. non-inline) are delimited by double dollar signs:</p>
+<p><code>tex example expression from Paul Snivey's article http://psnively.github.com/2010/03/13/100-proof.html $$\forall x, y : \mathbb{Z}, x &gt; 3 \land y &lt; 2 \Rightarrow x^2 - 2y &gt; 5$$</code></p>
+<p>renders as:</p>
+<p><br /><span class="math">∀<em>x</em>, <em>y</em> : ℤ, <em>x</em> &gt; 3 ∧ <em>y</em> &lt; 2 ⇒ <em>x</em><sup>2</sup> − 2<em>y</em> &gt; 5</span><br /></p>
+<h2 id="right-click-issue">Right-click issue</h2>
+<p>There was also a problem with the theme. When right clicking a MathJax expression, the whole page goes blank! Zete has a great fix for this:</p>
+<p><code>diff fix for right-click http://luikore.github.com/2011/09/good-things-learned-from-octopress/ diff --git a/sass/base/_theme.scss b/sass/base/_theme.scss index 9a50a8b..fc9dc37 100644 --- a/sass/base/_theme.scss +++ b/sass/base/_theme.scss @@ -75,7 +75,7 @@ html {    background: $page-bg image-url('line-tile.png') top left;  }  body { -  &gt; div { +  &gt; div#main {      background: $sidebar-bg $noise-bg;      border-bottom: 1px solid $page-border-bottom;      &gt; div {</code></p>
+<h2 id="futher-reading">Futher reading</h2>
+<ul>
+<li><a href="http://luikore.github.com/2011/09/good-things-learned-from-octopress/">Starting from Octopress</a></li>
+<li><a href="http://doswa.com/2011/07/20/mathjax-in-markdown.html">MathJax in Markdown</a></li>
+<li><a href="http://cwoebker.com/posts/latex-math-magic/">LaTeX Math Magic</a></li>
+</ul>
+]]></summary>
+</entry>
+<entry>
+    <title>"Rebooting with Octopress"</title>
+    <link href="http://steshaw.org/posts/2012-02-03-rebooting-with-octopress.html" />
+    <id>http://steshaw.org/posts/2012-02-03-rebooting-with-octopress.html</id>
+    <published>2012-02-03T00:00:00Z</published>
+    <updated>2012-02-03T00:00:00Z</updated>
+    <summary type="html"><![CDATA[<div class="info">
+    Posted on February  3, 2012
+    
+</div>
+
+<p>I’m starting with a clean slate and moving to <a href="http://octopress.org/">Octopress</a>.</p>
+<p>Haskell source code highlighting appears to work out of the box:</p>
+<p>``` haskell Run length encoding http://rosettacode.org/wiki/Run-length_encoding#Haskell import Data.List (group)</p>
+<p>– Datatypes type Encoded = [(Int, Char)] – An encoded String with form [(times, char), …] type Decoded = String</p>
+<p>– Takes a decoded string and returns an encoded list of tuples rlencode :: Decoded -&gt; Encoded rlencode = map (-&gt; (length g, head g)) . group</p>
+<p>– Takes an encoded list of tuples and returns the associated decoded String rldecode :: Encoded -&gt; Decoded rldecode = concatMap decodeTuple where decodeTuple (n,c) = replicate n c</p>
+<p>main :: IO () main = do – Get input putStr “String to encode:” input &lt;- getLine – Output encoded and decoded versions of input let encoded = rlencode input decoded = rldecode encoded putStrLn $ “Encoded:” ++ show encoded ++ “:” ++ show decoded ```</p>
+<p>as does Scala:</p>
+<div class="sourceCode"><pre class="sourceCode scala"><code class="sourceCode scala"><span class="kw">import</span> scala.<span class="fu">collection</span>.<span class="fu">mutable</span>
+
+<span class="kw">def</span> <span class="fu">countWords</span>(text: String) = {
+  <span class="kw">val</span> counts = mutable.<span class="fu">Map</span>[String, Int]()
+  <span class="kw">for</span> (word &lt;- text.<span class="fu">split</span>(<span class="st">&quot;[ ,!.]+&quot;</span>)) {
+    <span class="kw">val</span> lowerWord = word.<span class="fu">toLowerCase</span>
+    <span class="kw">val</span> oldCount = counts.<span class="fu">getOrElse</span>(lowerWord, <span class="dv">0</span>)
+    <span class="fu">counts</span>(lowerWord) = oldCount + <span class="dv">1</span>
+  }   
+  counts
+}   
+    
+<span class="kw">val</span> text = <span class="st">&quot;See Spot run. Run, Spot. Run!&quot;</span>
+
+<span class="fu">countWords</span>(text) foreach println</code></pre></div>
+]]></summary>
+</entry>
+
+</feed>
