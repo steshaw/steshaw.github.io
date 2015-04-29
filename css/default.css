@@ -21,6 +21,11 @@ body {
 /* Custom page CSS
 -------------------------------------------------- */
 
+.sidebar {
+  margin-top: 20%;
+  opacity: 0.60;
+}
+
 .container {
   max-width: 800px;
 }
