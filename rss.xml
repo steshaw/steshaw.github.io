@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>Steven Shaw's Blog</title>
-    <link href="http://steshaw.org/atom.xml" rel="self" />
+    <link href="http://steshaw.org/rss.xml" rel="self" />
     <link href="http://steshaw.org" />
-    <id>http://steshaw.org/atom.xml</id>
+    <id>http://steshaw.org/rss.xml</id>
     <author>
         <name>Steven Shaw</name>
         <email>steven+blog@steshaw.org</email>
