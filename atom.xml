@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <title>Steven Shaw loves programming languages</title>
+    <title>Steven Shaw's Blog</title>
     <link href="http://steshaw.org/atom.xml" rel="self" />
     <link href="http://steshaw.org" />
     <id>http://steshaw.org/atom.xml</id>
@@ -10,17 +10,18 @@
     </author>
     <updated>2012-02-09T00:00:00Z</updated>
     <entry>
-    <title>"Hello MathJax"</title>
+    <title>Hello MathJax</title>
     <link href="http://steshaw.org/posts/2012-02-09-hello-mathjax.html" />
     <id>http://steshaw.org/posts/2012-02-09-hello-mathjax.html</id>
     <published>2012-02-09T00:00:00Z</published>
     <updated>2012-02-09T00:00:00Z</updated>
-    <summary type="html"><![CDATA[<div class="info">
-    Posted on February  9, 2012
-    
-</div>
+    <summary type="html"><![CDATA[<header class="page-header">
+  <h1 class="entry-title">Hello MathJax</h1>
+  <h2><small><time class="timeago" datetime="2012-02-09 12:46" pubdate> 9 February 2012</time></small></h2>
+</header>
 
-<p>MathJax isn’t currently supported out-of-the-box with Octopress. The main reason seems to be that the Markdown processor — rdiscount — doesn’t deal with the MathJax escaping very well. However, since <a href="http://maruku.rubyforge.org/math.xhtml">Maruku supports it</a>, I thought I’d try switching over.</p>
+<div class="entry-content">
+  <p>MathJax isn’t currently supported out-of-the-box with Octopress. The main reason seems to be that the Markdown processor — rdiscount — doesn’t deal with the MathJax escaping very well. However, since <a href="http://maruku.rubyforge.org/math.xhtml">Maruku supports it</a>, I thought I’d try switching over.</p>
 <p>I made the following two changes:</p>
 <p><code>yml switch Markdown processors in _config.yml markdown: maruku</code></p>
 <p><code>html enable MathJax in source/_includes/custom/head.html http://www.mathjax.org/docs/1.1/start.html &lt;script type=&quot;text/x-mathjax-config&quot;&gt; MathJax.Hub.Config({       tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}       }); &lt;/script&gt; &lt;script type=&quot;text/javascript&quot; src=&quot;path-to-mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML&quot;&gt;&lt;/script&gt;</code></p>
@@ -37,20 +38,40 @@
 <li><a href="http://doswa.com/2011/07/20/mathjax-in-markdown.html">MathJax in Markdown</a></li>
 <li><a href="http://cwoebker.com/posts/latex-math-magic/">LaTeX Math Magic</a></li>
 </ul>
+</div>
+
+<br/>
+
+<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="entry-aside comments"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 ]]></summary>
 </entry>
 <entry>
-    <title>"Rebooting with Octopress"</title>
+    <title>Rebooting with Octopress</title>
     <link href="http://steshaw.org/posts/2012-02-03-rebooting-with-octopress.html" />
     <id>http://steshaw.org/posts/2012-02-03-rebooting-with-octopress.html</id>
     <published>2012-02-03T00:00:00Z</published>
     <updated>2012-02-03T00:00:00Z</updated>
-    <summary type="html"><![CDATA[<div class="info">
-    Posted on February  3, 2012
-    
-</div>
+    <summary type="html"><![CDATA[<header class="page-header">
+  <h1 class="entry-title">Rebooting with Octopress</h1>
+  <h2><small><time class="timeago" datetime="2012-02-03 16:22" pubdate> 3 February 2012</time></small></h2>
+</header>
 
-<p>I’m starting with a clean slate and moving to <a href="http://octopress.org/">Octopress</a>.</p>
+<div class="entry-content">
+  <p>I’m starting with a clean slate and moving to <a href="http://octopress.org/">Octopress</a>.</p>
 <p>Haskell source code highlighting appears to work out of the box:</p>
 <p>``` haskell Run length encoding http://rosettacode.org/wiki/Run-length_encoding#Haskell import Data.List (group)</p>
 <p>– Datatypes type Encoded = [(Int, Char)] – An encoded String with form [(times, char), …] type Decoded = String</p>
@@ -66,13 +87,32 @@
     <span class="kw">val</span> lowerWord = word.<span class="fu">toLowerCase</span>
     <span class="kw">val</span> oldCount = counts.<span class="fu">getOrElse</span>(lowerWord, <span class="dv">0</span>)
     <span class="fu">counts</span>(lowerWord) = oldCount + <span class="dv">1</span>
-  }   
+  }
   counts
-}   
-    
+}
+
 <span class="kw">val</span> text = <span class="st">&quot;See Spot run. Run, Spot. Run!&quot;</span>
 
 <span class="fu">countWords</span>(text) foreach println</code></pre></div>
+</div>
+
+<br/>
+
+<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="entry-aside comments"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 ]]></summary>
 </entry>
 
