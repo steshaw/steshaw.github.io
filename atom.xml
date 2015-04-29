@@ -17,7 +17,7 @@
     <updated>2015-04-29T00:00:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">Blogging with Hakyll</h1>
-  <h2><small><time class="timeago" datetime="2015-04-09 16:30" pubdate>29 April 2015</time></small></h2>
+  <h2><small><time class="timeago" datetime="29 April 2015" pubdate>29 April 2015</time></small></h2>
 </header>
 
 <div class="entry-content">
@@ -90,7 +90,7 @@ main <span class="fu">=</span> putStrLn <span class="st">&quot;Hello, world!&quo
     <updated>2012-02-09T00:00:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">Hello MathJax</h1>
-  <h2><small><time class="timeago" datetime="2012-02-09 12:46" pubdate> 9 February 2012</time></small></h2>
+  <h2><small><time class="timeago" datetime=" 9 February 2012" pubdate> 9 February 2012</time></small></h2>
 </header>
 
 <div class="entry-content">
@@ -140,7 +140,7 @@ main <span class="fu">=</span> putStrLn <span class="st">&quot;Hello, world!&quo
     <updated>2012-02-03T00:00:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">Rebooting with Octopress</h1>
-  <h2><small><time class="timeago" datetime="2012-02-03 16:22" pubdate> 3 February 2012</time></small></h2>
+  <h2><small><time class="timeago" datetime=" 3 February 2012" pubdate> 3 February 2012</time></small></h2>
 </header>
 
 <div class="entry-content">

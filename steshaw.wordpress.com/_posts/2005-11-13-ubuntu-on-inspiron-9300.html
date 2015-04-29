@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-    <title>Steven Shaw - Blogging with Hakyll</title>
+    <title>Steven Shaw - Ubuntu on Inspiron 9300</title>
     <meta name="description" content="Steven Shaw loves programming languages">
     <meta name="author" content="Steven Shaw">
     <meta name="robots" content="index, follow">
@@ -14,8 +14,8 @@
     <!-- Styles -->
     <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
-    <link rel="stylesheet" type="text/css" href="../css/default.css" />
-    <link rel="stylesheet" type="text/css" href="../css/syntax.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/default.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/syntax.css" />
 
     <!-- Google analytics -->
     <script type="text/javascript">
@@ -46,17 +46,17 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="../">Steven Shaw</a>
+          <a class="navbar-brand" href="../../">Steven Shaw</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li class>
-              <a href="../"><i class="fa fa-home"></i> Home</a>
+              <a href="../../"><i class="fa fa-home"></i> Home</a>
             </li>
             <!-- <li><a href="/posts.html"><i class="fa fa-inbox"></i> Posts</a></li> -->
             <!-- <li><a href="/slides"><i class="fa fa-picture-o"></i> Slides</a></li> -->
             <li class>
-              <a href="../about"><i class="fa fa-user"></i> About</a>
+              <a href="../../about"><i class="fa fa-user"></i> About</a>
             </li>
             <!-- <li><a href="/tags.html"><i class="fa fa-tags"></i> Tags</a></li>
             <li>
@@ -83,51 +83,18 @@
         </div>
         <div class="col-sm-10">
           <header class="page-header">
-  <h1 class="entry-title">Blogging with Hakyll</h1>
-  <h2><small><time class="timeago" datetime="29 April 2015" pubdate>29 April 2015</time></small></h2>
+  <h1 class="entry-title">Ubuntu on Inspiron 9300</h1>
+  <h2><small><time class="timeago" datetime="13 November 2005" pubdate>13 November 2005</time></small></h2>
 </header>
 
 <div class="entry-content">
-  <p><em>This blog is a work in progress</em>. Please come back later — or bug me about it :)</p>
-<h1>Outline</h1>
-<ul>
-<li>Hakyll <a href="http://jaspervdj.be/hakyll/" class="uri">http://jaspervdj.be/hakyll/</a></li>
-<li>Getting MathJax working</li>
-<li>Disqus comments</li>
-<li>Google Analytics</li>
-<li>Using CI to auto-deploy (or Travis v Circle)</li>
-<li>Source code syntax highlighting</li>
-</ul>
-<h3>Haskell code</h3>
-<div class="sourceCode"><pre class="sourceCode haskell"><code class="sourceCode haskell"><span class="kw">module</span> <span class="dt">Data.Foo</span>
-
-main <span class="fu">=</span> putStrLn <span class="st">&quot;Hello, world!&quot;</span></code></pre></div>
-<h3>emacs-lisp code</h3>
-<div class="sourceCode"><pre class="sourceCode commonlisp"><code class="sourceCode commonlisp">(<span class="kw">defun</span><span class="fu"> org-xor </span>(a b)
-  <span class="st">&quot;Exclusive or.&quot;</span>
-  (<span class="kw">if</span> a (<span class="kw">not</span> b) b))</code></pre></div>
-<h3>An example</h3>
-<pre class="example"><code>Some example from a text file.
-</code></pre>
-<h3>Some yaml</h3>
-<div class="sourceCode" id="switch Markdown processors in _config.yml"><pre class="sourceCode yaml"><code class="sourceCode yaml"><span class="fu">markdown:</span> maruku</code></pre></div>
-<h3>Some html</h3>
-<div class="sourceCode" id="enable MathJax in source/_includes/custom/head.html http://www.mathjax.org/docs/1.1/start.html"><pre class="sourceCode html"><code class="sourceCode html"><span class="kw">&lt;script</span><span class="ot"> type=</span><span class="st">&quot;text/x-mathjax-config&quot;</span><span class="kw">&gt;</span>
-<span class="ot">MathJax</span>.<span class="ot">Hub</span>.<span class="fu">Config</span>({
-      <span class="dt">tex2jax</span>: {<span class="dt">inlineMath</span>: [[<span class="st">'$'</span>,<span class="st">'$'</span>], [<span class="st">'</span><span class="ch">\\</span><span class="st">('</span>,<span class="st">'</span><span class="ch">\\</span><span class="st">)'</span>]]}
-      });
-&lt;<span class="ot">/script&gt;</span>
-<span class="ot">&lt;script type=&quot;text/javascript</span><span class="st">&quot; src=&quot;</span>path-to-mathjax/<span class="ot">MathJax</span>.<span class="fu">js</span>?config=TeX-AMS-MML_HTMLorMML<span class="st">&quot;&gt;&lt;/script&gt;</span></code></pre></div>
-<h3>Some TeX</h3>
-<pre id="example expression from Paul Snivey's article http://psnively.github.com/2010/03/13/100-proof.html"><code>$$\forall x, y : \mathbb{Z}, x &gt; 3 \land y &lt; 2 \Rightarrow x^2 - 2y &gt; 5$$
-</code></pre>
-<p>Inline TeX: <br /><span class="math">∀<em>x</em>, <em>y</em> : ℤ, <em>x</em> &gt; 3 ∧ <em>y</em> &lt; 2 ⇒ <em>x</em><sup>2</sup> − 2<em>y</em> &gt; 5</span><br /></p>
-<h2>Thanks</h2>
-<ul>
-<li><a href="http://begriffs.com/posts/2014-08-12-create-static-site-with-hakyll-github.html">Begriffs on GitHub and Travis CI</a></li>
-<li><a href="https://github.com/willtim/timphilipwilliams.com">Tim William's Hakyll blog using Boostrap 2.1</a></li>
-<li><a href="http://jaspervdj.be/hakyll/">Jasper Van der Jeugt's Hakyll</a></li>
-</ul>
+  <p>I’ve just been trying out the Live CD of Unbuntu 5.10 this afternoon… and into the evening. I’m really impressed. I’m <em>posting</em> this from my first boot into the live cd! It recognised my hardware very well - the paritions from my external USB drive were mounted, sound card worked, graphics card worked, wireless usb mouse works, touchpad works. Excellent! Just no wireless networking :-(. To get wireless networking working I had to ‘modprobe ipw2200’ and configure the wireless network: ‘ipwconfig eth1 essid’ &amp; ‘ipwconfig eth1 key’, and lastly ‘dhclient’ to request an ip address. You can ‘sudo’ to execute root commands or simply reset the root password via sudo “sudo passwd” and then “su -”.</p>
+<p>I changed the Gnome theme to Clearlooks which I reckon is much nicer that the default Unbuntu theme which is very brown! I’m only on the live cd but I did try installing things - Eclipse, k3b, Gnome desklets, Gmail notifier (and heaps of other stuff). The “Applications-&gt;Add Applications” menu item makes me want to set my Dad up with this distro. Dad has enjoyed Debian in the past but installing software was painful - this is a breeze.</p>
+<p>I wish I was able to eject the live cd in order to test DVD playback but I guess I have to go for a full install for that. I may just be replacing Gentoo after only just getting it up-to-date after behind behind the times for afew months.</p>
+<p>A feature I really miss in the default window manager (metacity) is maximising vertically. I used to use this all the time when I was using another window manager (WindowMaker or Sawmill - can’t remember which). Well, I discovered you can bind a key to do this with metacity. In Unbuntu, go to “System-&gt;Preferences-&gt;Keyboard Shortcuts”. Looks for “Maximize window vertically” and and associate a key. I used ‘F11’ which I had seen mentioned on the forums. I only wish I knew how to add this to the window menu cause that’s where I’m used to using it…</p>
+<p>Some useful resources:</p>
+<p>Getting MP3 players, DVD players, Macromedia Flash, Java and other “restricted” non-free stuff going <a href="https://wiki.ubuntu.com/RestrictedFormats" class="uri">https://wiki.ubuntu.com/RestrictedFormats</a></p>
+<p>Unbuntu starter guide <a href="http://www.ubuntuguide.org/" class="uri">http://www.ubuntuguide.org/</a> Seems like a more up-to-date version of this is available on the live cd and presumably with a regular install. Just click on the ‘Help (get help with Gnome)’ icon or choose System-&gt;Help and then click ‘Unbuntu 5.10 Starter Guide’.</p>
 </div>
 
 <br />
