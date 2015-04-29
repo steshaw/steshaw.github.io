@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-    <title>Steven Shaw's Blog</title>
-    <link href="http://steshaw.org/rss.xml" rel="self" />
-    <link href="http://steshaw.org" />
-    <id>http://steshaw.org/rss.xml</id>
-    <author>
-        <name>Steven Shaw</name>
-        <email>steven+blog@steshaw.org</email>
-    </author>
-    <updated>2015-04-29T00:00:00Z</updated>
-    <entry>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>Steven Shaw's Blog</title>
+        <link>http://steshaw.org</link>
+        <description><![CDATA[Programming Languages and Systems]]></description>
+        <atom:link href="http://steshaw.org/rss.xml" rel="self"
+                   type="application/rss+xml" />
+        <lastBuildDate>Wed, 29 Apr 2015 00:00:00 UT</lastBuildDate>
+        <item>
     <title>Blogging with Hakyll</title>
-    <link href="http://steshaw.org/posts/2015-04-29-blogging-with-hakyll.html" />
-    <id>http://steshaw.org/posts/2015-04-29-blogging-with-hakyll.html</id>
-    <published>2015-04-29T00:00:00Z</published>
-    <updated>2015-04-29T00:00:00Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <link>http://steshaw.org/posts/2015-04-29-blogging-with-hakyll.html</link>
+    <description><![CDATA[<header class="page-header">
   <h1 class="entry-title">Blogging with Hakyll</h1>
   <h2><small><time class="timeago" datetime="2015-04-09 16:30" pubdate>29 April 2015</time></small></h2>
 </header>
@@ -80,15 +76,15 @@ main <span class="fu">=</span> putStrLn <span class="st">&quot;Hello, world!&quo
 </script>
 <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-]]></summary>
-</entry>
-<entry>
+]]></description>
+    <pubDate>Wed, 29 Apr 2015 00:00:00 UT</pubDate>
+    <guid>http://steshaw.org/posts/2015-04-29-blogging-with-hakyll.html</guid>
+    <dc:creator>Steven Shaw</dc:creator>
+</item>
+<item>
     <title>Hello MathJax</title>
-    <link href="http://steshaw.org/posts/2012-02-09-hello-mathjax.html" />
-    <id>http://steshaw.org/posts/2012-02-09-hello-mathjax.html</id>
-    <published>2012-02-09T00:00:00Z</published>
-    <updated>2012-02-09T00:00:00Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <link>http://steshaw.org/posts/2012-02-09-hello-mathjax.html</link>
+    <description><![CDATA[<header class="page-header">
   <h1 class="entry-title">Hello MathJax</h1>
   <h2><small><time class="timeago" datetime="2012-02-09 12:46" pubdate> 9 February 2012</time></small></h2>
 </header>
@@ -130,15 +126,15 @@ main <span class="fu">=</span> putStrLn <span class="st">&quot;Hello, world!&quo
 </script>
 <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-]]></summary>
-</entry>
-<entry>
+]]></description>
+    <pubDate>Thu, 09 Feb 2012 00:00:00 UT</pubDate>
+    <guid>http://steshaw.org/posts/2012-02-09-hello-mathjax.html</guid>
+    <dc:creator>Steven Shaw</dc:creator>
+</item>
+<item>
     <title>Rebooting with Octopress</title>
-    <link href="http://steshaw.org/posts/2012-02-03-rebooting-with-octopress.html" />
-    <id>http://steshaw.org/posts/2012-02-03-rebooting-with-octopress.html</id>
-    <published>2012-02-03T00:00:00Z</published>
-    <updated>2012-02-03T00:00:00Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <link>http://steshaw.org/posts/2012-02-03-rebooting-with-octopress.html</link>
+    <description><![CDATA[<header class="page-header">
   <h1 class="entry-title">Rebooting with Octopress</h1>
   <h2><small><time class="timeago" datetime="2012-02-03 16:22" pubdate> 3 February 2012</time></small></h2>
 </header>
@@ -186,7 +182,11 @@ main <span class="fu">=</span> putStrLn <span class="st">&quot;Hello, world!&quo
 </script>
 <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-]]></summary>
-</entry>
+]]></description>
+    <pubDate>Fri, 03 Feb 2012 00:00:00 UT</pubDate>
+    <guid>http://steshaw.org/posts/2012-02-03-rebooting-with-octopress.html</guid>
+    <dc:creator>Steven Shaw</dc:creator>
+</item>
 
-</feed>
+    </channel>
+</rss>
