@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <title>Steven Shaw - Continuations for curmudgeons</title>
+    <meta name="description" content="Steven Shaw loves programming languages">
+    <meta name="author" content="Steven Shaw">
+    <meta name="robots" content="index, follow">
+
+    <!-- Styles -->
+    <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="../css/default.css" />
+    <link rel="stylesheet" type="text/css" href="../css/syntax.css" />
+
+    <!-- Google analytics -->
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-28913223-1']);
+        _gaq.push(['_trackPageview']);
+        (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="navbar navbar-default navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="../">Steven Shaw</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class>
+              <a href="../"><i class="fa fa-home"></i> Home</a>
+            </li>
+            <!-- <li><a href="/posts.html"><i class="fa fa-inbox"></i> Posts</a></li> -->
+            <!-- <li><a href="/slides"><i class="fa fa-picture-o"></i> Slides</a></li> -->
+            <li class>
+              <a href="../about"><i class="fa fa-user"></i> About</a>
+            </li>
+            <!-- <li><a href="/tags.html"><i class="fa fa-tags"></i> Tags</a></li>
+            <li>
+              <a href="/rss.xml" class="rss-link">
+                <i class="fa fa-rss"></i>
+                <abbr class="initialism"> RSS</abbr>
+              </a>
+            </li> -->
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="sidebar col-sm-2">
+          <div class="sidebar-module">
+            <ul class="list-unstyled">
+              <li><a href="http://twitter.com/steshaw"><i class="fa fa-twitter"> Twitter</i></a></li>
+              <li><a href="http://github.com/steshaw"><i class="fa fa-github"> GitHub</i></a></li>
+              <li><a href="http://linkedin.com/in/steshaw"><i class="fa fa-linkedin-square"> LinkedIn</i></a></li>
+            </ol>
+          </div>
+        </div>
+        <div class="col-sm-10">
+          <header class="page-header">
+  <h1 class="entry-title">Continuations for curmudgeons</h1>
+  <h2><small><time class="timeago" datetime="24 April 2005" pubdate>24 April 2005</time></small></h2>
+</header>
+
+<div class="entry-content">
+  <p>Sam Ruby has a much praised blog entry entitled “<a href="http://www.intertwingly.net/blog/2005/04/13/Continuations-for-Curmudgeons">Continuations for Curmudgeons</a>”.</p>
+<p>I didn’t like the tone of the article which seem to treat the C programmers as some kind of dinasaur with no interest in other languages (or language features).</p>
+<p>There was no mention of Scheme. When learning about continuations I think it’s best to learn from the source. That source appears to be the Scheme programming language. R5RS includes call-with-current-continuation function usually shortened to call/cc. A really good introduction to Scheme with <a href="http://www.ccs.neu.edu/home/dorai/t-y-scheme/t-y-scheme-Z-H-15.html#node_chap_13">coverage of continuations</a> for <a href="http://www.ccs.neu.edu/home/dorai/t-y-scheme/t-y-scheme-Z-H-16.html#node_chap_14">non-trivial applications</a> is contained in Dorai Sitaram’s <a href="http://www.ccs.neu.edu/home/dorai/t-y-scheme/t-y-scheme.html">Teach Yourself Scheme in Fixnum Days</a> (TYSiFD).</p>
+<p>Sam seems to have some confusion about continuations and there relationship to closures, iterators, generators and coroutines. Just because a language has a “yield” keyword doesn’t mean it has first class continuations. Yield is usually used for generators. One of the highlights of TYSiFD is implementing coroutines with continuations.</p>
+<p>Ruby supports first class continuations. The callcc method is available from the Kernel class. I played around with the code from the Ruby documentation of the <a href="http://www.ruby-doc.org/core/classes/Continuation.html">Continuation class</a>. You really don’t need call/cc for the contrived example there:</p>
+<p>[sourcecode language=“ruby”] original_guys = [“Freddie”, “Herbie”, “Ron”, “Max”, “Ringo”]</p>
+<p>puts “method 1: (first-class) continuation” guys = original_guys.clone callcc{|$k|} puts(message = guys.shift) $k.call unless message =~ /^R/;</p>
+<p>puts puts “method 2: continuation with different way of setting global” guys = original_guys.clone callcc{|k| $k = k} puts (message = guys.shift) $k.call unless message =~ /^R/;</p>
+<p>puts puts “method 3: just a loop” guys = original_guys.clone loop { message = guys.shift puts message if (message =~ /^R/) break end }</p>
+<p>puts puts “method 4: (tail) recursion using methods/functions” puts &quot; Ugly - needs guys to be global variable.&quot; $guys = original_guys.clone def myloop message = $guys.shift puts message unless message =~ /^R/ myloop end end myloop</p>
+<p>puts puts “method 5: (tail) recursion using blocks” guys = original_guys.clone myloop = Proc.new{ message = guys.shift puts message unless message =~ /^R/ myloop.call end } myloop.call</p>
+<p>puts puts “method 6: using each and catch/raise” guys = original_guys.clone catch (:early_exit) { guys.each {|item| puts item if item =~ /^R/ throw :early_exit end } } [/sourcecode]</p>
+</div>
+
+<br />
+
+<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="entry-aside comments"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer small">
+      <div class="container">
+        <div class=" text-muted">
+          <div class="entry-unrelated pull-right">
+            <a href="#">Back to top <i class="fa fa-arrow-up"></i></a>
+          </div>
+
+          <span class="source-org vcard copyright">
+            &copy; Steven Shaw 2012-15.
+          </span>
+
+          <br>
+
+          <span class="entry-unrelated">
+            Built with <a href="http://jaspervdj.be/hakyll/">Hakyll</a>,
+            <a href="http://johnmacfarlane.net/pandoc">Pandoc</a>,
+            <a href="http://getbootstrap.com/">Bootstrap</a>
+            and <a href="http://fontawesome.io/">Font Awesome</a>.
+          </span>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JavaScripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  </body>
+</html>

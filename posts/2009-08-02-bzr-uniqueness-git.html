@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <title>Steven Shaw - Bzr uniqueness + Git</title>
+    <meta name="description" content="Steven Shaw loves programming languages">
+    <meta name="author" content="Steven Shaw">
+    <meta name="robots" content="index, follow">
+
+    <!-- Styles -->
+    <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="../css/default.css" />
+    <link rel="stylesheet" type="text/css" href="../css/syntax.css" />
+
+    <!-- Google analytics -->
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-28913223-1']);
+        _gaq.push(['_trackPageview']);
+        (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="navbar navbar-default navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="../">Steven Shaw</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class>
+              <a href="../"><i class="fa fa-home"></i> Home</a>
+            </li>
+            <!-- <li><a href="/posts.html"><i class="fa fa-inbox"></i> Posts</a></li> -->
+            <!-- <li><a href="/slides"><i class="fa fa-picture-o"></i> Slides</a></li> -->
+            <li class>
+              <a href="../about"><i class="fa fa-user"></i> About</a>
+            </li>
+            <!-- <li><a href="/tags.html"><i class="fa fa-tags"></i> Tags</a></li>
+            <li>
+              <a href="/rss.xml" class="rss-link">
+                <i class="fa fa-rss"></i>
+                <abbr class="initialism"> RSS</abbr>
+              </a>
+            </li> -->
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="sidebar col-sm-2">
+          <div class="sidebar-module">
+            <ul class="list-unstyled">
+              <li><a href="http://twitter.com/steshaw"><i class="fa fa-twitter"> Twitter</i></a></li>
+              <li><a href="http://github.com/steshaw"><i class="fa fa-github"> GitHub</i></a></li>
+              <li><a href="http://linkedin.com/in/steshaw"><i class="fa fa-linkedin-square"> LinkedIn</i></a></li>
+            </ol>
+          </div>
+        </div>
+        <div class="col-sm-10">
+          <header class="page-header">
+  <h1 class="entry-title">Bzr uniqueness + Git</h1>
+  <h2><small><time class="timeago" datetime=" 2 August 2009" pubdate> 2 August 2009</time></small></h2>
+</header>
+
+<div class="entry-content">
+  <p>The unique thing about Bzr (compared with say Mercurial) seems to be that the community has developed tools for <a href="http://bazaar-vcs.org/Workflows">some common workflows</a>.</p>
+<p>I’m still using Mercurial for my personal files at home. Since I use Linux as my primary development platform, Git is getting the upper hand for me. I’ll have to give hg2git a try (this will give me the opportunity to finally prune my /Photos directory). The git-svn support is useful when clients are using SVN and you want to work from your laptop. Also the <a href="http://github.com/">GitHub</a> is pretty cool. I’ve <a href="http://github.com/steshaw/">only played around with it</a> but it has paid accounts that could be used for off-site backup and for possibly for source code delivery to clients. I hear that Git works great on Mac but last I heard the support on Windows was still lacking. Git works in cygwin with a native port on the way. I haven’t used Windows for development for a while but always used to install cygwin when I did. However, that’s not necessarily a great solution for regular Windows/.NET guys. If I was doing a .NET project, I’d probably stick with Subversion - git-svn is always there for disconnected development.</p>
+<p>I wonder if there are bzr style workflow solutions for Git…</p>
+</div>
+
+<br />
+
+<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="entry-aside comments"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer small">
+      <div class="container">
+        <div class=" text-muted">
+          <div class="entry-unrelated pull-right">
+            <a href="#">Back to top <i class="fa fa-arrow-up"></i></a>
+          </div>
+
+          <span class="source-org vcard copyright">
+            &copy; Steven Shaw 2012-15.
+          </span>
+
+          <br>
+
+          <span class="entry-unrelated">
+            Built with <a href="http://jaspervdj.be/hakyll/">Hakyll</a>,
+            <a href="http://johnmacfarlane.net/pandoc">Pandoc</a>,
+            <a href="http://getbootstrap.com/">Bootstrap</a>
+            and <a href="http://fontawesome.io/">Font Awesome</a>.
+          </span>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JavaScripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  </body>
+</html>
