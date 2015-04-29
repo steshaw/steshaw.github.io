@@ -55,7 +55,9 @@ main <span class="fu">=</span> putStrLn <span class="st">&quot;Hello, world!&quo
 <ul>
 <li><a href="http://begriffs.com/posts/2014-08-12-create-static-site-with-hakyll-github.html">Begriffs on GitHub and Travis CI</a></li>
 <li><a href="https://github.com/willtim/timphilipwilliams.com">Tim William's Hakyll blog using Boostrap 2.1</a></li>
+<li><a href="http://timbaumann.info/posts/2013-08-04-hakyll-github-and-travis.html" class="uri">http://timbaumann.info/posts/2013-08-04-hakyll-github-and-travis.html</a></li>
 <li><a href="http://jaspervdj.be/hakyll/">Jasper Van der Jeugt's Hakyll</a></li>
+<li><a href="https://github.com/thomasf/exitwp/" class="uri">https://github.com/thomasf/exitwp/</a></li>
 </ul>
 </div>
 
