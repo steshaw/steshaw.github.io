@@ -8,8 +8,64 @@
         <name>Steven Shaw</name>
         <email>steven+blog@steshaw.org</email>
     </author>
-    <updated>2015-04-29T00:00:00Z</updated>
+    <updated>2015-05-01T00:00:00Z</updated>
     <entry>
+    <title>Deploying your Hakyll site with Halcyon</title>
+    <link href="http://steshaw.org/posts/2015-05-01-deploying-your-hakyll-site-with-halcyon.html" />
+    <id>http://steshaw.org/posts/2015-05-01-deploying-your-hakyll-site-with-halcyon.html</id>
+    <published>2015-05-01T00:00:00Z</published>
+    <updated>2015-05-01T00:00:00Z</updated>
+    <summary type="html"><![CDATA[<header class="page-header">
+  <h1 class="entry-title">Deploying your Hakyll site with Halcyon</h1>
+  <h2><small><time class="timeago" datetime=" 1 May 2015" pubdate> 1 May 2015</time></small></h2>
+</header>
+
+<div class="entry-content">
+  <p><em>Draft</em></p>
+<ul>
+<li><p>Using the CircleCI caching system.</p></li>
+<li><p>Local builds.</p></li>
+</ul>
+<h2>References</h2>
+<ul>
+<li><a href="https://github.com/steshaw/steshaw.org" class="uri">https://github.com/steshaw/steshaw.org</a></li>
+<li><a href="https://halcyon.sh/" class="uri">https://halcyon.sh/</a>
+<ul>
+<li><a href="https://halcyon.sh/tutorial/" class="uri">https://halcyon.sh/tutorial/</a></li>
+<li><a href="https://halcyon.sh/reference/" class="uri">https://halcyon.sh/reference/</a></li>
+<li><a href="https://github.com/mietek/halcyon" class="uri">https://github.com/mietek/halcyon</a></li>
+</ul></li>
+<li><a href="https://robots.thoughtbot.com/building-haskell-projects-with-halcyon" class="uri">https://robots.thoughtbot.com/building-haskell-projects-with-halcyon</a>
+<ul>
+<li><a href="https://github.com/thoughtbot/carnival" class="uri">https://github.com/thoughtbot/carnival</a>
+<ul>
+<li><a href="https://github.com/thoughtbot/carnival/blob/master/circle.yml" class="uri">https://github.com/thoughtbot/carnival/blob/master/circle.yml</a></li>
+<li><a href="https://github.com/thoughtbot/carnival/blob/master/bin/halcyon-build" class="uri">https://github.com/thoughtbot/carnival/blob/master/bin/halcyon-build</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</div>
+
+<br/>
+
+<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="entry-aside comments"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+]]></summary>
+</entry>
+<entry>
     <title>Blogging with Hakyll</title>
     <link href="http://steshaw.org/posts/2015-04-29-blogging-with-hakyll.html" />
     <id>http://steshaw.org/posts/2015-04-29-blogging-with-hakyll.html</id>
@@ -21,17 +77,13 @@
 </header>
 
 <div class="entry-content">
-  <p><em>This blog is a work in progress</em>. Please come back later — or bug me about it :)</p>
+  <p><em>This blog is just a draft</em>. Please come back later — or bug me about it :)</p>
 <h1>Outline</h1>
 <ul>
 <li>Hakyll <a href="http://jaspervdj.be/hakyll/" class="uri">http://jaspervdj.be/hakyll/</a></li>
 <li>Getting MathJax working</li>
 <li>Disqus comments</li>
 <li>Google Analytics</li>
-<li>Using CI to auto-deploy (or Travis v Circle)
-<ul>
-<li>Using halcyon to speed up build on Circle.</li>
-</ul></li>
 <li>Source code syntax highlighting</li>
 </ul>
 <h3>Haskell code</h3>
