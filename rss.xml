@@ -24,7 +24,10 @@
 <li>Getting MathJax working</li>
 <li>Disqus comments</li>
 <li>Google Analytics</li>
-<li>Using CI to auto-deploy (or Travis v Circle)</li>
+<li>Using CI to auto-deploy (or Travis v Circle)
+<ul>
+<li>Using halcyon to speed up build on Circle.</li>
+</ul></li>
 <li>Source code syntax highlighting</li>
 </ul>
 <h3>Haskell code</h3>
