@@ -8,8 +8,73 @@
         <name>Steven Shaw</name>
         <email>steven+blog@steshaw.org</email>
     </author>
-    <updated>2015-05-01T00:00:00Z</updated>
+    <updated>2015-05-03T00:00:00Z</updated>
     <entry>
+    <title>Increase size of VirtualBox btrfs partition</title>
+    <link href="http://steshaw.org/posts/2015-05-03-increase-size-of-virtualbox-btrfs-partition.html" />
+    <id>http://steshaw.org/posts/2015-05-03-increase-size-of-virtualbox-btrfs-partition.html</id>
+    <published>2015-05-03T00:00:00Z</published>
+    <updated>2015-05-03T00:00:00Z</updated>
+    <summary type="html"><![CDATA[<header class="page-header">
+  <h1 class="entry-title">Increase size of VirtualBox btrfs partition</h1>
+  <h2><small><time class="timeago" datetime=" 3 May 2015" pubdate> 3 May 2015</time></small></h2>
+</header>
+
+<div class="entry-content">
+  <p>I'd originally allocated the default 8G to my primary partition when installing NixOS. I ran out of disk space when I tried upgrading to KDE 5. This is how I increased the size of the partition.</p>
+<h4>1. Shutdown your VM.</h4>
+<h4>2. Use VirtualBox tools to increase the size of the VDI.</h4>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash">$ <span class="kw">VBoxManage</span> modifyhd NixOS.vdi --resize 20000</code></pre></div>
+<pre class="example"><code>0%...10%...20%...30%...40%...50%...60%...70%...80%...90%...100%
+</code></pre>
+<h4>3. Boot the VM from the NixOS Live CD.</h4>
+<h4>4. Login as <code>root</code>.</h4>
+<h4>5. Resize the partition using <code>fdisk</code>.</h4>
+<p>You have to delete and recreate the partition. In my case, I've only got 1 partition, so it's partition 1. Here I enter the commands: 'p' (print the partition table, 'd' (delete the partition), 'n' (create a new partition), 4 × '&lt;return&gt;' (accept default), 'w' (write/sync the partition table to disk).</p>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash">$ <span class="kw">fdisk</span> /dev/sda</code></pre></div>
+<pre class="example"><code>Command (m for help): p
+…
+/dev/sda1     2048 24575999 245739952 11.7G 83 Linux
+Command (m for help): d
+Selected partition 1
+Partition 1 has been deleted
+Command (m for help): n
+…
+Select (default p): &lt;return&gt;
+Partition number (1-4, default 1): &lt;return&gt;
+First sector (2048-40959999, default 2048): &lt;return&gt;
+Last sector, +sectors or +size{K,M,G,T,P} (2048-40959999, default 40959999): &lt;return&gt; 
+Created a new partition 1 of type &#39;Linux&#39; and of size 19.5 GiB.
+Command (m for help): w
+</code></pre>
+<h4>6. Resize the filesystem.</h4>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash">$ <span class="kw">mkdir</span> /mnt/root
+$ <span class="kw">mount</span> /dev/sda1 /mnt/root
+$ <span class="kw">btrfs</span> filesystem resize max /mnt/root</code></pre></div>
+<h4>7. Reboot and boot from the drive.</h4>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash">$ <span class="kw">reboot</span></code></pre></div>
+</div>
+
+<br/>
+
+<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="entry-aside comments"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+]]></summary>
+</entry>
+<entry>
     <title>Deploying your Hakyll site with Halcyon</title>
     <link href="http://steshaw.org/posts/2015-05-01-deploying-your-hakyll-site-with-halcyon.html" />
     <id>http://steshaw.org/posts/2015-05-01-deploying-your-hakyll-site-with-halcyon.html</id>
