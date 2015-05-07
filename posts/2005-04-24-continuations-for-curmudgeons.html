@@ -15,6 +15,7 @@
     <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
     <link rel="stylesheet" type="text/css" href="../css/default.css" />
+    <link rel="stylesheet" type="text/css" href="../css/syntax-figure.css" />
     <link rel="stylesheet" type="text/css" href="../css/syntax.css" />
 
     <!-- Google analytics -->
@@ -95,13 +96,68 @@
 <p>There was no mention of Scheme. When learning about continuations I think it’s best to learn from the source. That source appears to be the Scheme programming language. R5RS includes call-with-current-continuation function usually shortened to call/cc. A really good introduction to Scheme with <a href="http://www.ccs.neu.edu/home/dorai/t-y-scheme/t-y-scheme-Z-H-15.html#node_chap_13">coverage of continuations</a> for <a href="http://www.ccs.neu.edu/home/dorai/t-y-scheme/t-y-scheme-Z-H-16.html#node_chap_14">non-trivial applications</a> is contained in Dorai Sitaram’s <a href="http://www.ccs.neu.edu/home/dorai/t-y-scheme/t-y-scheme.html">Teach Yourself Scheme in Fixnum Days</a> (TYSiFD).</p>
 <p>Sam seems to have some confusion about continuations and there relationship to closures, iterators, generators and coroutines. Just because a language has a “yield” keyword doesn’t mean it has first class continuations. Yield is usually used for generators. One of the highlights of TYSiFD is implementing coroutines with continuations.</p>
 <p>Ruby supports first class continuations. The callcc method is available from the Kernel class. I played around with the code from the Ruby documentation of the <a href="http://www.ruby-doc.org/core/classes/Continuation.html">Continuation class</a>. You really don’t need call/cc for the contrived example there:</p>
-<p>[sourcecode language=“ruby”] original_guys = [“Freddie”, “Herbie”, “Ron”, “Max”, “Ringo”]</p>
-<p>puts “method 1: (first-class) continuation” guys = original_guys.clone callcc{|$k|} puts(message = guys.shift) $k.call unless message =~ /^R/;</p>
-<p>puts puts “method 2: continuation with different way of setting global” guys = original_guys.clone callcc{|k| $k = k} puts (message = guys.shift) $k.call unless message =~ /^R/;</p>
-<p>puts puts “method 3: just a loop” guys = original_guys.clone loop { message = guys.shift puts message if (message =~ /^R/) break end }</p>
-<p>puts puts “method 4: (tail) recursion using methods/functions” puts &quot; Ugly - needs guys to be global variable.&quot; $guys = original_guys.clone def myloop message = $guys.shift puts message unless message =~ /^R/ myloop end end myloop</p>
-<p>puts puts “method 5: (tail) recursion using blocks” guys = original_guys.clone myloop = Proc.new{ message = guys.shift puts message unless message =~ /^R/ myloop.call end } myloop.call</p>
-<p>puts puts “method 6: using each and catch/raise” guys = original_guys.clone catch (:early_exit) { guys.each {|item| puts item if item =~ /^R/ throw :early_exit end } } [/sourcecode]</p>
+<div class="sourceCode"><pre class="sourceCode ruby"><code class="sourceCode ruby">original_guys = [<span class="st">&quot;Freddie&quot;</span>, <span class="st">&quot;Herbie&quot;</span>, <span class="st">&quot;Ron&quot;</span>, <span class="st">&quot;Max&quot;</span>, <span class="st">&quot;Ringo&quot;</span>]
+
+puts <span class="st">&quot;method 1: (first-class) continuation&quot;</span>
+guys = original_guys.clone
+callcc{|<span class="dt">$k</span>|}
+puts(message = guys.shift)
+<span class="dt">$k</span>.call <span class="kw">unless</span> message =~ <span class="ot">/^R/</span>;
+
+puts
+puts <span class="st">&quot;method 2: continuation with different way of setting global&quot;</span>
+guys = original_guys.clone
+callcc{|k| <span class="dt">$k</span> = k}
+puts (message = guys.shift)
+<span class="dt">$k</span>.call <span class="kw">unless</span> message =~ <span class="ot">/^R/</span>;
+
+puts
+puts <span class="st">&quot;method 3: just a loop&quot;</span>
+guys = original_guys.clone
+loop {
+  message = guys.shift
+  puts message
+  <span class="kw">if</span> (message =~ <span class="ot">/^R/</span>)
+    <span class="kw">break</span>
+  <span class="kw">end</span>
+}
+
+puts
+puts <span class="st">&quot;method 4: (tail) recursion using methods/functions&quot;</span>
+puts <span class="st">&quot;          Ugly - needs guys to be global variable.&quot;</span>
+<span class="dt">$guys</span> = original_guys.clone
+<span class="kw">def</span> myloop
+  message = <span class="dt">$guys</span>.shift
+  puts message
+  <span class="kw">unless</span> message =~ <span class="ot">/^R/</span>
+    myloop
+  <span class="kw">end</span>
+<span class="kw">end</span>
+myloop
+
+puts
+puts <span class="st">&quot;method 5: (tail) recursion using blocks&quot;</span>
+guys = original_guys.clone
+myloop = <span class="dt">Proc</span>.new{
+  message = guys.shift
+  puts message
+  <span class="kw">unless</span> message =~ <span class="ot">/^R/</span>
+    myloop.call
+  <span class="kw">end</span>
+}
+myloop.call
+
+puts
+puts <span class="st">&quot;method 6: using each and catch/raise&quot;</span>
+guys = original_guys.clone
+catch (<span class="st">:early_exit</span>) {
+  guys.each {|item|
+    puts item
+    <span class="kw">if</span> item =~ <span class="ot">/^R/</span>
+      throw <span class="st">:early_exit</span>
+    <span class="kw">end</span>
+  }
+}</code></pre></div>
 </div>
 
 <br />
@@ -152,5 +208,6 @@
     <!-- JavaScripts -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="../js/octopressify.js"></script>
   </body>
 </html>

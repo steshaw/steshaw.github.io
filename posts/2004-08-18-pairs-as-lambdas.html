@@ -15,6 +15,7 @@
     <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
     <link rel="stylesheet" type="text/css" href="../css/default.css" />
+    <link rel="stylesheet" type="text/css" href="../css/syntax-figure.css" />
     <link rel="stylesheet" type="text/css" href="../css/syntax.css" />
 
     <!-- Google analytics -->
@@ -92,12 +93,33 @@
 <div class="entry-content">
   <p>The <a href="http://swiss.csail.mit.edu/classes/6.001/abelson-sussman-lectures/">SICP video lectures</a> talk about how data is not intrinsic. That is, once you have lambda, you have enough to create all the data structures you want. Of course that is without caring for efficiency.</p>
 <p>Here’s some code I was mucking around with the other night:</p>
-<p>[sourcecode gutter=“false”] ; Implement pairs (cons, car, cdr) in terms of lambda.</p>
-<p>(define cons (lambda (a b) (lambda (x) (cond ((eq? x ’car) a) ((eq? x ’cdr) b) (else (error “bad dispatch”))))))</p>
-<p>(define car (lambda (pair) (pair ’car)))</p>
-<p>(define cdr (lambda (pair) (pair ’cdr)))</p>
-<p>; Example to type into the scheme repl. (define a (cons 3 4)) a ; =&gt; a procedure (car a) ; =&gt; 3 (cdr a) ; =&gt; 4 (a 1) ; error “bad dispatch”</p>
-<p>; The following attempts to work out what “error” does. This example will ; probably display “1” and then exit to the repl with “bad dispatch” error. ; It may not as Scheme doesn’t define the order of evaluation for arguments to ; a combination. (+ (display “1”) (a 99) (display “2”)) [/sourcecode]</p>
+<div class="sourceCode"><pre class="sourceCode scheme"><code class="sourceCode scheme"><span class="co">; Implement pairs (cons, car, cdr) in terms of lambda.</span>
+
+(<span class="kw">define</span><span class="fu"> cons</span>
+  (<span class="kw">lambda</span> (a b)
+    (<span class="kw">lambda</span> (x)
+      (<span class="kw">cond</span> ((<span class="kw">eq?</span> x 'car) a)
+            ((<span class="kw">eq?</span> x 'cdr) b)
+            (<span class="kw">else</span> (error <span class="st">&quot;bad dispatch&quot;</span>))))))
+
+(<span class="kw">define</span><span class="fu"> car</span>
+  (<span class="kw">lambda</span> (pair) (pair 'car)))
+
+(<span class="kw">define</span><span class="fu"> cdr</span>
+  (<span class="kw">lambda</span> (pair) (pair 'cdr)))
+
+<span class="co">; Example to type into the scheme repl.</span>
+(<span class="kw">define</span><span class="fu"> a </span>(<span class="kw">cons</span> <span class="dv">3</span> <span class="dv">4</span>))
+a                 <span class="co">; =&gt; a procedure</span>
+(<span class="kw">car</span> a)           <span class="co">; =&gt; 3</span>
+(<span class="kw">cdr</span> a)           <span class="co">; =&gt; 4</span>
+(a <span class="dv">1</span>)             <span class="co">; error &quot;bad dispatch&quot;</span>
+
+<span class="co">; The following attempts to work out what &quot;error&quot; does. This example will</span>
+<span class="co">; probably display &quot;1&quot; and then exit to the repl with &quot;bad dispatch&quot; error.</span>
+<span class="co">; It may not as Scheme doesn't define the order of evaluation for arguments to</span>
+<span class="co">; a combination.</span>
+(<span class="kw">+</span> (<span class="kw">display</span> <span class="st">&quot;1\n&quot;</span>) (a <span class="dv">99</span>) (<span class="kw">display</span> <span class="st">&quot;2\n&quot;</span>))</code></pre></div>
 </div>
 
 <br />
@@ -148,5 +170,6 @@
     <!-- JavaScripts -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="../js/octopressify.js"></script>
   </body>
 </html>

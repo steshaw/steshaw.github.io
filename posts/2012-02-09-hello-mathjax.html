@@ -15,6 +15,7 @@
     <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
     <link rel="stylesheet" type="text/css" href="../css/default.css" />
+    <link rel="stylesheet" type="text/css" href="../css/syntax-figure.css" />
     <link rel="stylesheet" type="text/css" href="../css/syntax.css" />
 
     <!-- Google analytics -->
@@ -92,15 +93,32 @@
 <div class="entry-content">
   <p>MathJax isn’t currently supported out-of-the-box with Octopress. The main reason seems to be that the Markdown processor — rdiscount — doesn’t deal with the MathJax escaping very well. However, since <a href="http://maruku.rubyforge.org/math.xhtml">Maruku supports it</a>, I thought I’d try switching over.</p>
 <p>I made the following two changes:</p>
-<p><code>yml switch Markdown processors in _config.yml markdown: maruku</code></p>
-<p><code>html enable MathJax in source/_includes/custom/head.html http://www.mathjax.org/docs/1.1/start.html &lt;script type=&quot;text/x-mathjax-config&quot;&gt; MathJax.Hub.Config({       tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}       }); &lt;/script&gt; &lt;script type=&quot;text/javascript&quot; src=&quot;path-to-mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML&quot;&gt;&lt;/script&gt;</code></p>
+<pre class="yml" data-title="switch Markdown processors in _config.yml"><code>markdown: maruku</code></pre>
+<div class="sourceCode" data-title="enable MathJax in source/_includes/custom/head.html" data-link="http://www.mathjax.org/docs/1.1/start.html"><pre class="sourceCode html"><code class="sourceCode html"><span class="kw">&lt;script</span><span class="ot"> type=</span><span class="st">&quot;text/x-mathjax-config&quot;</span><span class="kw">&gt;</span>
+<span class="ot">MathJax</span>.<span class="ot">Hub</span>.<span class="fu">Config</span>({
+      <span class="dt">tex2jax</span>: {<span class="dt">inlineMath</span>: [[<span class="st">'$'</span>,<span class="st">'$'</span>], [<span class="st">'</span><span class="ch">\\</span><span class="st">('</span>,<span class="st">'</span><span class="ch">\\</span><span class="st">)'</span>]]}
+      });
+&lt;<span class="ot">/script&gt;</span>
+<span class="ot">&lt;script type=&quot;text/javascript</span><span class="st">&quot; src=&quot;</span>path-to-mathjax/<span class="ot">MathJax</span>.<span class="fu">js</span>?config=TeX-AMS-MML_HTMLorMML<span class="st">&quot;&gt;&lt;/script&gt;</span></code></pre></div>
 <p>This allows for inline <span class="math">$\TeX$</span> expressions between dollar signs e.g. <code>$\TeX$</code>. MathJax <em>display</em> expressions (i.e. non-inline) are delimited by double dollar signs:</p>
-<p><code>tex example expression from Paul Snivey's article http://psnively.github.com/2010/03/13/100-proof.html $$\forall x, y : \mathbb{Z}, x &gt; 3 \land y &lt; 2 \Rightarrow x^2 - 2y &gt; 5$$</code></p>
+<pre class="tex" data-title="example expression from Paul Snivey's article http://psnively.github.com/2010/03/13/100-proof.html"><code>$$\forall x, y : \mathbb{Z}, x &gt; 3 \land y &lt; 2 \Rightarrow x^2 - 2y &gt; 5$$</code></pre>
 <p>renders as:</p>
 <p><br /><span class="math">∀<em>x</em>, <em>y</em> : ℤ, <em>x</em> &gt; 3 ∧ <em>y</em> &lt; 2 ⇒ <em>x</em><sup>2</sup> − 2<em>y</em> &gt; 5</span><br /></p>
 <h2 id="right-click-issue">Right-click issue</h2>
 <p>There was also a problem with the theme. When right clicking a MathJax expression, the whole page goes blank! Zete has a great fix for this:</p>
-<p><code>diff fix for right-click http://luikore.github.com/2011/09/good-things-learned-from-octopress/ diff --git a/sass/base/_theme.scss b/sass/base/_theme.scss index 9a50a8b..fc9dc37 100644 --- a/sass/base/_theme.scss +++ b/sass/base/_theme.scss @@ -75,7 +75,7 @@ html {    background: $page-bg image-url('line-tile.png') top left;  }  body { -  &gt; div { +  &gt; div#main {      background: $sidebar-bg $noise-bg;      border-bottom: 1px solid $page-border-bottom;      &gt; div {</code></p>
+<div class="sourceCode" data-title="fix for right-click" data-link="http://luikore.github.com/2011/09/good-things-learned-from-octopress/"><pre class="sourceCode diff"><code class="sourceCode diff"><span class="kw">diff --git a/sass/base/_theme.scss b/sass/base/_theme.scss</span>
+index 9a50a8b..fc9dc37 100644
+<span class="dt">--- a/sass/base/_theme.scss</span>
+<span class="dt">+++ b/sass/base/_theme.scss</span>
+<span class="dt">@@ -75,7 +75,7 @@ html {</span>
+   background: $page-bg image-url('line-tile.png') top left;
+ }
+ body {
+<span class="st">-  &gt; div {</span>
+<span class="ot">+  &gt; div#main {</span>
+     background: $sidebar-bg $noise-bg;
+     border-bottom: 1px solid $page-border-bottom;
+     &gt; div {</code></pre></div>
 <h2 id="futher-reading">Futher reading</h2>
 <ul>
 <li><a href="http://luikore.github.com/2011/09/good-things-learned-from-octopress/">Starting from Octopress</a></li>
@@ -157,5 +175,6 @@
     <!-- JavaScripts -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="../js/octopressify.js"></script>
   </body>
 </html>

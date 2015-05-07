@@ -253,15 +253,32 @@ main <span class="fu">=</span> putStrLn <span class="st">&quot;Hello, world!&quo
 <div class="entry-content">
   <p>MathJax isn’t currently supported out-of-the-box with Octopress. The main reason seems to be that the Markdown processor — rdiscount — doesn’t deal with the MathJax escaping very well. However, since <a href="http://maruku.rubyforge.org/math.xhtml">Maruku supports it</a>, I thought I’d try switching over.</p>
 <p>I made the following two changes:</p>
-<p><code>yml switch Markdown processors in _config.yml markdown: maruku</code></p>
-<p><code>html enable MathJax in source/_includes/custom/head.html http://www.mathjax.org/docs/1.1/start.html &lt;script type=&quot;text/x-mathjax-config&quot;&gt; MathJax.Hub.Config({       tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}       }); &lt;/script&gt; &lt;script type=&quot;text/javascript&quot; src=&quot;path-to-mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML&quot;&gt;&lt;/script&gt;</code></p>
+<pre class="yml" data-title="switch Markdown processors in _config.yml"><code>markdown: maruku</code></pre>
+<div class="sourceCode" data-title="enable MathJax in source/_includes/custom/head.html" data-link="http://www.mathjax.org/docs/1.1/start.html"><pre class="sourceCode html"><code class="sourceCode html"><span class="kw">&lt;script</span><span class="ot"> type=</span><span class="st">&quot;text/x-mathjax-config&quot;</span><span class="kw">&gt;</span>
+<span class="ot">MathJax</span>.<span class="ot">Hub</span>.<span class="fu">Config</span>({
+      <span class="dt">tex2jax</span>: {<span class="dt">inlineMath</span>: [[<span class="st">&#39;$&#39;</span>,<span class="st">&#39;$&#39;</span>], [<span class="st">&#39;</span><span class="ch">\\</span><span class="st">(&#39;</span>,<span class="st">&#39;</span><span class="ch">\\</span><span class="st">)&#39;</span>]]}
+      });
+&lt;<span class="ot">/script&gt;</span>
+<span class="ot">&lt;script type=&quot;text/javascript</span><span class="st">&quot; src=&quot;</span>path-to-mathjax/<span class="ot">MathJax</span>.<span class="fu">js</span>?config=TeX-AMS-MML_HTMLorMML<span class="st">&quot;&gt;&lt;/script&gt;</span></code></pre></div>
 <p>This allows for inline <span class="math">$\TeX$</span> expressions between dollar signs e.g. <code>$\TeX$</code>. MathJax <em>display</em> expressions (i.e. non-inline) are delimited by double dollar signs:</p>
-<p><code>tex example expression from Paul Snivey's article http://psnively.github.com/2010/03/13/100-proof.html $$\forall x, y : \mathbb{Z}, x &gt; 3 \land y &lt; 2 \Rightarrow x^2 - 2y &gt; 5$$</code></p>
+<pre class="tex" data-title="example expression from Paul Snivey&#39;s article http://psnively.github.com/2010/03/13/100-proof.html"><code>$$\forall x, y : \mathbb{Z}, x &gt; 3 \land y &lt; 2 \Rightarrow x^2 - 2y &gt; 5$$</code></pre>
 <p>renders as:</p>
 <p><br /><span class="math">∀<em>x</em>, <em>y</em> : ℤ, <em>x</em> &gt; 3 ∧ <em>y</em> &lt; 2 ⇒ <em>x</em><sup>2</sup> − 2<em>y</em> &gt; 5</span><br /></p>
 <h2 id="right-click-issue">Right-click issue</h2>
 <p>There was also a problem with the theme. When right clicking a MathJax expression, the whole page goes blank! Zete has a great fix for this:</p>
-<p><code>diff fix for right-click http://luikore.github.com/2011/09/good-things-learned-from-octopress/ diff --git a/sass/base/_theme.scss b/sass/base/_theme.scss index 9a50a8b..fc9dc37 100644 --- a/sass/base/_theme.scss +++ b/sass/base/_theme.scss @@ -75,7 +75,7 @@ html {    background: $page-bg image-url('line-tile.png') top left;  }  body { -  &gt; div { +  &gt; div#main {      background: $sidebar-bg $noise-bg;      border-bottom: 1px solid $page-border-bottom;      &gt; div {</code></p>
+<div class="sourceCode" data-title="fix for right-click" data-link="http://luikore.github.com/2011/09/good-things-learned-from-octopress/"><pre class="sourceCode diff"><code class="sourceCode diff"><span class="kw">diff --git a/sass/base/_theme.scss b/sass/base/_theme.scss</span>
+index 9a50a8b..fc9dc37 100644
+<span class="dt">--- a/sass/base/_theme.scss</span>
+<span class="dt">+++ b/sass/base/_theme.scss</span>
+<span class="dt">@@ -75,7 +75,7 @@ html {</span>
+   background: $page-bg image-url(&#39;line-tile.png&#39;) top left;
+ }
+ body {
+<span class="st">-  &gt; div {</span>
+<span class="ot">+  &gt; div#main {</span>
+     background: $sidebar-bg $noise-bg;
+     border-bottom: 1px solid $page-border-bottom;
+     &gt; div {</code></pre></div>
 <h2 id="futher-reading">Futher reading</h2>
 <ul>
 <li><a href="http://luikore.github.com/2011/09/good-things-learned-from-octopress/">Starting from Octopress</a></li>
@@ -303,11 +320,30 @@ main <span class="fu">=</span> putStrLn <span class="st">&quot;Hello, world!&quo
 <div class="entry-content">
   <p>I’m starting with a clean slate and moving to <a href="http://octopress.org/">Octopress</a>.</p>
 <p>Haskell source code highlighting appears to work out of the box:</p>
-<p>``` haskell Run length encoding http://rosettacode.org/wiki/Run-length_encoding#Haskell import Data.List (group)</p>
-<p>– Datatypes type Encoded = [(Int, Char)] – An encoded String with form [(times, char), …] type Decoded = String</p>
-<p>– Takes a decoded string and returns an encoded list of tuples rlencode :: Decoded -&gt; Encoded rlencode = map (-&gt; (length g, head g)) . group</p>
-<p>– Takes an encoded list of tuples and returns the associated decoded String rldecode :: Encoded -&gt; Decoded rldecode = concatMap decodeTuple where decodeTuple (n,c) = replicate n c</p>
-<p>main :: IO () main = do – Get input putStr “String to encode:” input &lt;- getLine – Output encoded and decoded versions of input let encoded = rlencode input decoded = rldecode encoded putStrLn $ “Encoded:” ++ show encoded ++ “:” ++ show decoded ```</p>
+<div class="sourceCode" data-title="Run length encoding" data-link="http://rosettacode.org/wiki/Run-length_encoding#Haskell"><pre class="sourceCode haskell"><code class="sourceCode haskell"><span class="kw">import </span><span class="dt">Data.List</span> (group)
+
+<span class="co">-- Datatypes</span>
+<span class="kw">type</span> <span class="dt">Encoded</span> <span class="fu">=</span> [(<span class="dt">Int</span>, <span class="dt">Char</span>)]  <span class="co">-- An encoded String with form [(times, char), ...]</span>
+<span class="kw">type</span> <span class="dt">Decoded</span> <span class="fu">=</span> <span class="dt">String</span>
+
+<span class="co">-- Takes a decoded string and returns an encoded list of tuples</span>
+<span class="ot">rlencode ::</span> <span class="dt">Decoded</span> <span class="ot">-&gt;</span> <span class="dt">Encoded</span>
+rlencode <span class="fu">=</span> map (\g <span class="ot">-&gt;</span> (length g, head g)) <span class="fu">.</span> group
+
+<span class="co">-- Takes an encoded list of tuples and returns the associated decoded String</span>
+<span class="ot">rldecode ::</span> <span class="dt">Encoded</span> <span class="ot">-&gt;</span> <span class="dt">Decoded</span>
+rldecode <span class="fu">=</span> concatMap decodeTuple
+    <span class="kw">where</span> decodeTuple (n,c) <span class="fu">=</span> replicate n c
+
+<span class="ot">main ::</span> <span class="dt">IO</span> ()
+main <span class="fu">=</span> <span class="kw">do</span>
+  <span class="co">-- Get input</span>
+  putStr <span class="st">&quot;String to encode: &quot;</span>
+  input <span class="ot">&lt;-</span> getLine
+  <span class="co">-- Output encoded and decoded versions of input</span>
+  <span class="kw">let</span> encoded <span class="fu">=</span> rlencode input
+      decoded <span class="fu">=</span> rldecode encoded
+  putStrLn <span class="fu">$</span> <span class="st">&quot;Encoded: &quot;</span> <span class="fu">++</span> show encoded <span class="fu">++</span> <span class="st">&quot;\nDecoded: &quot;</span> <span class="fu">++</span> show decoded</code></pre></div>
 <p>as does Scala:</p>
 <div class="sourceCode"><pre class="sourceCode scala"><code class="sourceCode scala"><span class="kw">import</span> scala.<span class="fu">collection</span>.<span class="fu">mutable</span>
 
@@ -619,8 +655,13 @@ main <span class="fu">=</span> putStrLn <span class="st">&quot;Hello, world!&quo
 
 <div class="entry-content">
   <p>I recently attended the “Introduction to Scala” course at <a href="http://workingmouse.com/">Working Mouse</a>. The course was run by <a href="http://tmorris.net/">Tony Morris</a> with the help of Tom Adams. I had feared that the course would be a introduction to Scala with Haskell-coloured glasses … and it was just that. However, it was just this that made it interesting. I already know Scala at a basic level so a truly introductory course would have offered little. I knew that Tony was into Haskell and on one hand I wanted to come away with an idea of what a monad was and on the other hand I didn’t want to learn Haskell with Scala syntax. Luck would have it that there turned out to be just two attendees - myself and John Ryan-Brown. Tony was able to accelerate through the introductory material with help from Tom Adams. This freed us up to begin working on monads and emulating type-classes in Scala. It was a really wonderful course that I can’t do justice to in this short post. I did come away knowing what a monad was (but now I’m not quite so sure). I did learn Scala through “Haskell glasses” but that was what was really wonderful about the course.</p>
-<p>So what are monads? Well it appears to be an “ultimate interface” with 3 special methods - return (also called unit), bind and join (where join can be derived from return and bind). My current understanding is that monads are the “ultimate iterator” but I figured I’m supposed to understand that they are an “abstraction over computation”. This is going to take a while to sink in. Here are the signatures for the 3 special methods: [sourcecode gutter=“false”] return :: Monad m =&gt; a -&gt; m a bind :: Monad m =&gt; m a -&gt; (a -&gt; m b) -&gt; m b join :: Monad m =&gt; m (m a) -&gt; m a [/sourcecode]</p>
-<p>In terms of List, return is cons, bind is flatMap and join is flatten. I wasn’t familiar with flatMap but it’s a more general version of map. Map can be implemented in terms of bind/flatMap and unit/cons. [sourcecode language=“scala” gutter=“false”] List(1, 2, 3) map (n =&gt; n + 1) List(1, 2, 3) flatMap (n =&gt; List(n + 1)) [/sourcecode]</p>
+<p>So what are monads? Well it appears to be an “ultimate interface” with 3 special methods - return (also called unit), bind and join (where join can be derived from return and bind). My current understanding is that monads are the “ultimate iterator” but I figured I’m supposed to understand that they are an “abstraction over computation”. This is going to take a while to sink in. Here are the signatures for the 3 special methods:</p>
+<div class="sourceCode"><pre class="sourceCode haskell"><code class="sourceCode haskell"><span class="ot">  return ::</span> <span class="dt">Monad</span> m <span class="ot">=&gt;</span> a <span class="ot">-&gt;</span> m a
+<span class="ot">  bind   ::</span> <span class="dt">Monad</span> m <span class="ot">=&gt;</span> m a <span class="ot">-&gt;</span> (a <span class="ot">-&gt;</span> m b) <span class="ot">-&gt;</span> m b
+<span class="ot">  join   ::</span> <span class="dt">Monad</span> m <span class="ot">=&gt;</span> m (m a) <span class="ot">-&gt;</span> m a</code></pre></div>
+<p>In terms of List, return is cons, bind is flatMap and join is flatten. I wasn’t familiar with flatMap but it’s a more general version of map. Map can be implemented in terms of bind/flatMap and unit/cons.</p>
+<div class="sourceCode"><pre class="sourceCode scala"><code class="sourceCode scala">    List(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>) <span class="fu">map</span> (n =&gt; n + <span class="dv">1</span>)
+    List(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>) <span class="fu">flatMap</span> (n =&gt; List(n + <span class="dv">1</span>))</code></pre></div>
 <p>Since then I’ve been learning a little more about Haskell and Category Theory. It’s really great to have a new avenue of things to study. Haskell certainly has come a long way since I looked at it last.</p>
 <p>Oh and the title of this post… Well it’s kind of a bad joke from day 3. After 3 days of indoctrination I realised that it was leading to the conclusion that a new breed of programmer was required - the hyper-productive monadic programmer for the 21st century. This new breed of programmer would eschew side effects and even OOP in preference to algebraic data types, type classes, implicits, higher order functions, monads and higher kinds. They would impress their friends with deep knowledge of mathematical principles and have an IQ 50 points above decent developers of today. These programmers would be trained to be 10x more productive than their imperative colleagues (coding in Java and C#) - allowing some of us to retire for a better life (perhaps as an economist or financial advisor). All that remains is to work out how much of this is hyperbole and how much sound.</p>
 </div>
@@ -2621,13 +2662,68 @@ Judging
 <p>There was no mention of Scheme. When learning about continuations I think it’s best to learn from the source. That source appears to be the Scheme programming language. R5RS includes call-with-current-continuation function usually shortened to call/cc. A really good introduction to Scheme with <a href="http://www.ccs.neu.edu/home/dorai/t-y-scheme/t-y-scheme-Z-H-15.html#node_chap_13">coverage of continuations</a> for <a href="http://www.ccs.neu.edu/home/dorai/t-y-scheme/t-y-scheme-Z-H-16.html#node_chap_14">non-trivial applications</a> is contained in Dorai Sitaram’s <a href="http://www.ccs.neu.edu/home/dorai/t-y-scheme/t-y-scheme.html">Teach Yourself Scheme in Fixnum Days</a> (TYSiFD).</p>
 <p>Sam seems to have some confusion about continuations and there relationship to closures, iterators, generators and coroutines. Just because a language has a “yield” keyword doesn’t mean it has first class continuations. Yield is usually used for generators. One of the highlights of TYSiFD is implementing coroutines with continuations.</p>
 <p>Ruby supports first class continuations. The callcc method is available from the Kernel class. I played around with the code from the Ruby documentation of the <a href="http://www.ruby-doc.org/core/classes/Continuation.html">Continuation class</a>. You really don’t need call/cc for the contrived example there:</p>
-<p>[sourcecode language=“ruby”] original_guys = [“Freddie”, “Herbie”, “Ron”, “Max”, “Ringo”]</p>
-<p>puts “method 1: (first-class) continuation” guys = original_guys.clone callcc{|$k|} puts(message = guys.shift) $k.call unless message =~ /^R/;</p>
-<p>puts puts “method 2: continuation with different way of setting global” guys = original_guys.clone callcc{|k| $k = k} puts (message = guys.shift) $k.call unless message =~ /^R/;</p>
-<p>puts puts “method 3: just a loop” guys = original_guys.clone loop { message = guys.shift puts message if (message =~ /^R/) break end }</p>
-<p>puts puts “method 4: (tail) recursion using methods/functions” puts &quot; Ugly - needs guys to be global variable.&quot; $guys = original_guys.clone def myloop message = $guys.shift puts message unless message =~ /^R/ myloop end end myloop</p>
-<p>puts puts “method 5: (tail) recursion using blocks” guys = original_guys.clone myloop = Proc.new{ message = guys.shift puts message unless message =~ /^R/ myloop.call end } myloop.call</p>
-<p>puts puts “method 6: using each and catch/raise” guys = original_guys.clone catch (:early_exit) { guys.each {|item| puts item if item =~ /^R/ throw :early_exit end } } [/sourcecode]</p>
+<div class="sourceCode"><pre class="sourceCode ruby"><code class="sourceCode ruby">original_guys = [<span class="st">&quot;Freddie&quot;</span>, <span class="st">&quot;Herbie&quot;</span>, <span class="st">&quot;Ron&quot;</span>, <span class="st">&quot;Max&quot;</span>, <span class="st">&quot;Ringo&quot;</span>]
+
+puts <span class="st">&quot;method 1: (first-class) continuation&quot;</span>
+guys = original_guys.clone
+callcc{|<span class="dt">$k</span>|}
+puts(message = guys.shift)
+<span class="dt">$k</span>.call <span class="kw">unless</span> message =~ <span class="ot">/^R/</span>;
+
+puts
+puts <span class="st">&quot;method 2: continuation with different way of setting global&quot;</span>
+guys = original_guys.clone
+callcc{|k| <span class="dt">$k</span> = k}
+puts (message = guys.shift)
+<span class="dt">$k</span>.call <span class="kw">unless</span> message =~ <span class="ot">/^R/</span>;
+
+puts
+puts <span class="st">&quot;method 3: just a loop&quot;</span>
+guys = original_guys.clone
+loop {
+  message = guys.shift
+  puts message
+  <span class="kw">if</span> (message =~ <span class="ot">/^R/</span>)
+    <span class="kw">break</span>
+  <span class="kw">end</span>
+}
+
+puts
+puts <span class="st">&quot;method 4: (tail) recursion using methods/functions&quot;</span>
+puts <span class="st">&quot;          Ugly - needs guys to be global variable.&quot;</span>
+<span class="dt">$guys</span> = original_guys.clone
+<span class="kw">def</span> myloop
+  message = <span class="dt">$guys</span>.shift
+  puts message
+  <span class="kw">unless</span> message =~ <span class="ot">/^R/</span>
+    myloop
+  <span class="kw">end</span>
+<span class="kw">end</span>
+myloop
+
+puts
+puts <span class="st">&quot;method 5: (tail) recursion using blocks&quot;</span>
+guys = original_guys.clone
+myloop = <span class="dt">Proc</span>.new{
+  message = guys.shift
+  puts message
+  <span class="kw">unless</span> message =~ <span class="ot">/^R/</span>
+    myloop.call
+  <span class="kw">end</span>
+}
+myloop.call
+
+puts
+puts <span class="st">&quot;method 6: using each and catch/raise&quot;</span>
+guys = original_guys.clone
+catch (<span class="st">:early_exit</span>) {
+  guys.each {|item|
+    puts item
+    <span class="kw">if</span> item =~ <span class="ot">/^R/</span>
+      throw <span class="st">:early_exit</span>
+    <span class="kw">end</span>
+  }
+}</code></pre></div>
 </div>
 
 <br/>
@@ -2662,8 +2758,20 @@ Judging
 
 <div class="entry-content">
   <p>I think Bill is dead-on-the-money with <a href="http://www.artima.com/weblogs/viewpost.jsp?thread=92979">the different-language, different-mindset thing</a>. Java can make you feel guilty alright :-). Even when you can get over your own guilt, there’s the struggle with your colleagues who may not have a dynamic mindset.</p>
-<p>I’ve been programming in JavaScript lately (actually more ActionScript 2.0 but some browser based JavaScript too). You’d probably return a single object there rather than multiple: [sourcecode language=“javascript” gutter=“false”] var context = ExamplePage.process(); [/sourcecode] followed by code using context.forumID, context.reply, context.subject and context.body.</p>
-<p>Single objects are constructed easily in JavaScript: [sourcecode language=“javascript” gutter=“false”] function process() { // Do some processing… return { forumID: …, reply: “a reply”, subject: “a subject”, context: “a context” } } [/sourcecode] This is a very lightweight approach. Another poster had a similar solution in Python. There must be a similar way of doing this in Ruby or Groovy.</p>
+<p>I’ve been programming in JavaScript lately (actually more ActionScript 2.0 but some browser based JavaScript too). You’d probably return a single object there rather than multiple:</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript">    <span class="kw">var</span> context = <span class="ot">ExamplePage</span>.<span class="fu">process</span>();</code></pre></div>
+<p>followed by code using context.forumID, context.reply, context.subject and context.body.</p>
+<p>Single objects are constructed easily in JavaScript:</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript">    <span class="kw">function</span> <span class="fu">process</span>() {
+        <span class="co">// Do some processing...</span>
+        <span class="kw">return</span> {
+            <span class="dt">forumID</span>: ...,
+            <span class="dt">reply</span>: <span class="st">&quot;a reply&quot;</span>,
+            <span class="dt">subject</span>: <span class="st">&quot;a subject&quot;</span>,
+            <span class="dt">context</span>: <span class="st">&quot;a context&quot;</span>
+        }
+    }</code></pre></div>
+<p>This is a very lightweight approach. Another poster had a similar solution in Python. There must be a similar way of doing this in Ruby or Groovy.</p>
 <p>It would be great to use Ruby/JRuby, Groovy, JavaScript, Python/Jython or whatever on the Java platform. What’s needed for adoption is buy-in by vendors like Sun and IBM (so that project managers and other developers don’t have a fit when something without the .java or .xml file extension is checked into the repository). It would be nice to have support for these languages in Eclipse (say) with all the usual bells-and-whistes Java programmers have come to rely on to get stuff done - code completion, Javadoc lookup, hyperlinking, refactoring etc. Groovy seems to have alot of momentum including a JSR thing - so maybe something along these lines is not too far away. Maybe it’s already there and I just haven’t looked!</p>
 <p>BTW - have you heard about NoXML? It’s this great new XML technology…</p>
 </div>
@@ -3377,12 +3485,33 @@ Are the relational data model and (especially) SQL the right choices for periste
 <div class="entry-content">
   <p>The <a href="http://swiss.csail.mit.edu/classes/6.001/abelson-sussman-lectures/">SICP video lectures</a> talk about how data is not intrinsic. That is, once you have lambda, you have enough to create all the data structures you want. Of course that is without caring for efficiency.</p>
 <p>Here’s some code I was mucking around with the other night:</p>
-<p>[sourcecode gutter=“false”] ; Implement pairs (cons, car, cdr) in terms of lambda.</p>
-<p>(define cons (lambda (a b) (lambda (x) (cond ((eq? x ’car) a) ((eq? x ’cdr) b) (else (error “bad dispatch”))))))</p>
-<p>(define car (lambda (pair) (pair ’car)))</p>
-<p>(define cdr (lambda (pair) (pair ’cdr)))</p>
-<p>; Example to type into the scheme repl. (define a (cons 3 4)) a ; =&gt; a procedure (car a) ; =&gt; 3 (cdr a) ; =&gt; 4 (a 1) ; error “bad dispatch”</p>
-<p>; The following attempts to work out what “error” does. This example will ; probably display “1” and then exit to the repl with “bad dispatch” error. ; It may not as Scheme doesn’t define the order of evaluation for arguments to ; a combination. (+ (display “1”) (a 99) (display “2”)) [/sourcecode]</p>
+<div class="sourceCode"><pre class="sourceCode scheme"><code class="sourceCode scheme"><span class="co">; Implement pairs (cons, car, cdr) in terms of lambda.</span>
+
+(<span class="kw">define</span><span class="fu"> cons</span>
+  (<span class="kw">lambda</span> (a b)
+    (<span class="kw">lambda</span> (x)
+      (<span class="kw">cond</span> ((<span class="kw">eq?</span> x &#39;car) a)
+            ((<span class="kw">eq?</span> x &#39;cdr) b)
+            (<span class="kw">else</span> (error <span class="st">&quot;bad dispatch&quot;</span>))))))
+
+(<span class="kw">define</span><span class="fu"> car</span>
+  (<span class="kw">lambda</span> (pair) (pair &#39;car)))
+
+(<span class="kw">define</span><span class="fu"> cdr</span>
+  (<span class="kw">lambda</span> (pair) (pair &#39;cdr)))
+
+<span class="co">; Example to type into the scheme repl.</span>
+(<span class="kw">define</span><span class="fu"> a </span>(<span class="kw">cons</span> <span class="dv">3</span> <span class="dv">4</span>))
+a                 <span class="co">; =&gt; a procedure</span>
+(<span class="kw">car</span> a)           <span class="co">; =&gt; 3</span>
+(<span class="kw">cdr</span> a)           <span class="co">; =&gt; 4</span>
+(a <span class="dv">1</span>)             <span class="co">; error &quot;bad dispatch&quot;</span>
+
+<span class="co">; The following attempts to work out what &quot;error&quot; does. This example will</span>
+<span class="co">; probably display &quot;1&quot; and then exit to the repl with &quot;bad dispatch&quot; error.</span>
+<span class="co">; It may not as Scheme doesn&#39;t define the order of evaluation for arguments to</span>
+<span class="co">; a combination.</span>
+(<span class="kw">+</span> (<span class="kw">display</span> <span class="st">&quot;1\n&quot;</span>) (a <span class="dv">99</span>) (<span class="kw">display</span> <span class="st">&quot;2\n&quot;</span>))</code></pre></div>
 </div>
 
 <br/>
