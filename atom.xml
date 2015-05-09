@@ -88,9 +88,13 @@ $ <span class="kw">btrfs</span> filesystem resize max /mnt/root</code></pre></di
 <div class="entry-content">
   <p><em>Draft</em></p>
 <ul>
-<li><p>Using the CircleCI caching system.</p></li>
+<li><p>Do not use the CircleCI caching system as it is slower than just using Halcyon.</p></li>
+<li><p>Set up a private S3 bucket.</p></li>
 <li><p>Local builds.</p></li>
-<li><p>Argh, it keeps recompiling the sandbox, Captain!</p></li>
+<li><p>Ensure you use the magic files if required.</p>
+<ul>
+<li>I needed alex and happy.</li>
+</ul></li>
 </ul>
 <h2>References</h2>
 <ul>
