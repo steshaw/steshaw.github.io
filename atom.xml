@@ -17,6 +17,9 @@
     <updated>2015-05-03T00:00:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">Increase size of VirtualBox btrfs partition</h1>
+  
+    <h4 class="subtitle"></h4>
+  
   <h2><small><time class="timeago" datetime=" 3 May 2015" pubdate> 3 May 2015</time></small></h2>
 </header>
 
@@ -82,6 +85,9 @@ $ <span class="kw">btrfs</span> filesystem resize max /mnt/root</code></pre></di
     <updated>2015-05-01T00:00:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">Deploying your Hakyll site with Halcyon</h1>
+  
+    <h4 class="subtitle"></h4>
+  
   <h2><small><time class="timeago" datetime=" 1 May 2015" pubdate> 1 May 2015</time></small></h2>
 </header>
 
@@ -143,6 +149,9 @@ $ <span class="kw">btrfs</span> filesystem resize max /mnt/root</code></pre></di
     <updated>2015-04-29T00:00:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">Blogging with Hakyll</h1>
+  
+    <h4 class="subtitle"></h4>
+  
   <h2><small><time class="timeago" datetime="29 April 2015" pubdate>29 April 2015</time></small></h2>
 </header>
 
@@ -210,6 +219,78 @@ main <span class="fu">=</span> putStrLn <span class="st">&quot;Hello, world!&quo
 ]]></summary>
 </entry>
 <entry>
+    <title>Adopting a Cambridge Culture</title>
+    <link href="http://steshaw.org/posts/2014-07-17-adopting-a-cambridge-culture.html" />
+    <id>http://steshaw.org/posts/2014-07-17-adopting-a-cambridge-culture.html</id>
+    <published>2014-07-17T00:00:00Z</published>
+    <updated>2014-07-17T00:00:00Z</updated>
+    <summary type="html"><![CDATA[<header class="page-header">
+  <h1 class="entry-title">Adopting a Cambridge Culture</h1>
+  
+    <h4 class="subtitle">Fighting narcissism in the 21st Century</h4>
+  
+  <h2><small><time class="timeago" datetime="17 July 2014" pubdate>17 July 2014</time></small></h2>
+</header>
+
+<div class="entry-content">
+  <p>Cross posted to <a href="https://medium.com/p/2e16ec53137f">Medium</a>.</p>
+<!--
+  <div class="section-background" contenteditable="false"
+  data-image-id="1*sBKC5NEYgKVjDFPbQWX3-A.jpeg" data-width="1025"
+  data-height="768">
+-->
+
+<!--
+  <div class="section-backgroundImage"
+  style="background-image: url(https://d262ilb51hltx0.cloudfront.net/fit/t/1200/960/gradv/29/81/55/1*sBKC5NEYgKVjDFPbQWX3-A.jpeg);">
+-->
+
+<p>Work can be a drag if you find yourself in a den of assholes. Unfortunately, this is becoming more and more common in our narcissist-generating society. I'd like to start a conversation about how we might tackle this problem. Here's an outline of how we might begin to approach the problem: it starts with Robert Sutton's <em>No Asshole Rule</em> and is followed by a <em>Cambridge Culture</em>.</p>
+<h3>The No Asshole Rule</h3>
+<p>There are a lot of assholes out there. I've run into a few more than my fair share --- it seems to be par for the course when you're a contract programmer (I gave up that gig a few years ago but I still have the war stories). Assholes make people feel oppressed, humiliated, de-energised and belittled. In short, they destroy rather than create. The targets of their behaviour tend to be those less powerful --- so assholes in management have a larger area of destruction.</p>
+<p>These assholes can poison your whole organisation, leading to a culture of fear, lower productivity, high staff turnover, general unhappiness and gnashing of teeth.</p>
+<p>The assholes tend to think that their behaviour is justified because it helps to “get the job done”. However, Sutton points out this is a kind of confirmation bias and usually “stuff gets done” despite the behaviour of the asshole --- not <em>because</em> of it.</p>
+<p>The best method of dealing with assholes is avoidance. Don't take on a job, contract or customer if you're going to have to live with assholes. If you find yourself in a den of assholes besides your best efforts then leave as soon as you can manage it. Sutton recommends <em>indifference</em> for putting up with assholes but that's not for me --- I find it very difficult to be indifferent. He also recommends <em>reframing</em> and <em>small wins</em> which seem better coping mechanisms to me. You may find you need to take a break after suffering at the wrong end of an asshole.</p>
+<p>Don't confuse the <em>occasional</em> asshole with the <em>institutional</em> one (Sutton calls this the <em>temporary asshole</em> and the <em>certified asshole</em>). Everyone blows up occasionally and let's their “inner asshole” out --- particularly when under the thumb of an institutional asshole! Don't be too quick to label the strange or unusual as assholes --- Sutton has a book on this topic: <a href="http://www.goodreads.com/book/show/7923731.Wierd_Ideas_that_Work">Weird Ideas that Work</a>. A good tip for preventing the inner-asshole from escaping is: <em>argue like you're right, listen like you're wrong.</em></p>
+<p>I don't believe that assholes are virtuous despite Sutton's reluctant chapter on it. One thing that makes sense is that being an asshole may be a short-cut to power and status --- that is if the weaklings around them let them get away with it ☺. Who doesn't know one or two loud mouth, arrogant, self-professed experts that go on a power-grab and succeed because few resisted? Don't let it happen in your organisation --- unless you're leaving to join or <em>be</em> the competition ;). If you have to put up with the odd asshole from time to time, whatever you do, do <em>not</em> promote them. Keep them in a box, try to reform them (possible if they are only an <em>occasional</em> asshole, unlikely if they are a <em>certified</em> asshole). If that doesn't work out, fire them.</p>
+<p>Remember: <em>a few bad apples can spoil the whole bunch.</em></p>
+<h3>A Cambridge Culture</h3>
+<p>A partial remedy to this situation is to adopt what I like to call a <em>Cambridge Culture</em>. This is as simple as modelling yourself on the behaviour of Simon Peyton Jones. Simon is the lead engineer of the Glorious Glasgow Haskell Compiler (aka GHC). He works at Microsoft Research in Cambridge (hence the name).</p>
+<p>If you don't know Simon, he can be described as a scholar and a gent. While being someone who is very bright, accomplished and energetic; Simon doesn't feel entitled to indulge in behaviour that could be perceived as arrogant, haughty, overbearing, dictatorial etc. Simon also accepts that there are other intelligent folks who might have views that run somewhat counter to his own. In this situation, he is not only tolerant but patiently teaches if those folks are open to it. He also listens carefully to work out where he may be off-track himself (if not completely wrong). As lead of GHC, Simon encourages participation and rarely feels the need to choose an option (from say a bunch of competing but equally decent candidates), instead allowing the community to reach a consensus where possible but breaking deadlocks where necessary. He shys away from the title <em>Benevolent Dictator for Life</em> (BDFL). Simon is definitely not a hater.</p>
+<p>Don't be a hater. If you have to hate anyone, hate the haters :P. You know... don't even hate the haters:</p>
+<blockquote>
+<p>Love the haters, for they know not what they do ☺</p>
+</blockquote>
+<!--
+  </div>
+-->
+
+<!--
+  </div>
+-->
+
+</div>
+
+<br/>
+
+<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="entry-aside comments"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+]]></summary>
+</entry>
+<entry>
     <title>Moving to steshaw.org</title>
     <link href="http://steshaw.org/posts/2012-02-09-moving-to-steshaw-org.html" />
     <id>http://steshaw.org/posts/2012-02-09-moving-to-steshaw-org.html</id>
@@ -217,6 +298,9 @@ main <span class="fu">=</span> putStrLn <span class="st">&quot;Hello, world!&quo
     <updated>2012-02-09T12:09:43Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">Moving to steshaw.org</h1>
+  
+    <h4 class="subtitle"></h4>
+  
   <h2><small><time class="timeago" datetime=" 9 February 2012" pubdate> 9 February 2012</time></small></h2>
 </header>
 
@@ -251,6 +335,9 @@ main <span class="fu">=</span> putStrLn <span class="st">&quot;Hello, world!&quo
     <updated>2012-02-09T00:00:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">Hello MathJax</h1>
+  
+    <h4 class="subtitle"></h4>
+  
   <h2><small><time class="timeago" datetime=" 9 February 2012" pubdate> 9 February 2012</time></small></h2>
 </header>
 
@@ -318,6 +405,9 @@ index 9a50a8b..fc9dc37 100644
     <updated>2012-02-03T00:00:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">Rebooting with Octopress</h1>
+  
+    <h4 class="subtitle"></h4>
+  
   <h2><small><time class="timeago" datetime=" 3 February 2012" pubdate> 3 February 2012</time></small></h2>
 </header>
 
@@ -393,6 +483,9 @@ main <span class="fu">=</span> <span class="kw">do</span>
     <updated>2010-11-28T02:44:29Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">HP Pavilion with Ubuntu 10.10</h1>
+  
+    <h4 class="subtitle"></h4>
+  
   <h2><small><time class="timeago" datetime="28 November 2010" pubdate>28 November 2010</time></small></h2>
 </header>
 
@@ -458,6 +551,9 @@ main <span class="fu">=</span> <span class="kw">do</span>
     <updated>2010-11-23T14:02:56Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">Agile is the status quo</h1>
+  
+    <h4 class="subtitle"></h4>
+  
   <h2><small><time class="timeago" datetime="23 November 2010" pubdate>23 November 2010</time></small></h2>
 </header>
 
@@ -503,6 +599,9 @@ main <span class="fu">=</span> <span class="kw">do</span>
     <updated>2010-05-22T10:16:14Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">Stonking new laptop</h1>
+  
+    <h4 class="subtitle"></h4>
+  
   <h2><small><time class="timeago" datetime="22 May 2010" pubdate>22 May 2010</time></small></h2>
 </header>
 
@@ -546,6 +645,9 @@ main <span class="fu">=</span> <span class="kw">do</span>
     <updated>2009-08-02T00:32:42Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">Bzr uniqueness + Git</h1>
+  
+    <h4 class="subtitle"></h4>
+  
   <h2><small><time class="timeago" datetime=" 2 August 2009" pubdate> 2 August 2009</time></small></h2>
 </header>
 
@@ -582,6 +684,9 @@ main <span class="fu">=</span> <span class="kw">do</span>
     <updated>2009-03-19T17:03:27Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">IBM to buyout Sun Microsystems?</h1>
+  
+    <h4 class="subtitle"></h4>
+  
   <h2><small><time class="timeago" datetime="19 March 2009" pubdate>19 March 2009</time></small></h2>
 </header>
 
@@ -618,6 +723,9 @@ main <span class="fu">=</span> <span class="kw">do</span>
     <updated>2009-01-29T22:43:01Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">WebBeans => Java Contexts and Dependency Injection</h1>
+  
+    <h4 class="subtitle"></h4>
+  
   <h2><small><time class="timeago" datetime="29 January 2009" pubdate>29 January 2009</time></small></h2>
 </header>
 
@@ -654,6 +762,9 @@ main <span class="fu">=</span> <span class="kw">do</span>
     <updated>2008-09-15T02:30:20Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">Hyperproductive Monadic Programmer for the 21st Century</h1>
+  
+    <h4 class="subtitle"></h4>
+  
   <h2><small><time class="timeago" datetime="15 September 2008" pubdate>15 September 2008</time></small></h2>
 </header>
 
@@ -697,6 +808,9 @@ main <span class="fu">=</span> <span class="kw">do</span>
     <updated>2008-08-29T19:30:39Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">Certified ScrumMaster</h1>
+  
+    <h4 class="subtitle"></h4>
+  
   <h2><small><time class="timeago" datetime="29 August 2008" pubdate>29 August 2008</time></small></h2>
 </header>
 
@@ -731,6 +845,9 @@ main <span class="fu">=</span> <span class="kw">do</span>
     <updated>2008-07-30T04:08:20Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">Feature teams</h1>
+  
+    <h4 class="subtitle"></h4>
+  
   <h2><small><time class="timeago" datetime="30 July 2008" pubdate>30 July 2008</time></small></h2>
 </header>
 
@@ -769,6 +886,9 @@ main <span class="fu">=</span> <span class="kw">do</span>
     <updated>2008-06-02T17:00:26Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">From nand to tetris</h1>
+  
+    <h4 class="subtitle"></h4>
+  
   <h2><small><time class="timeago" datetime=" 2 June 2008" pubdate> 2 June 2008</time></small></h2>
 </header>
 
@@ -803,6 +923,9 @@ main <span class="fu">=</span> <span class="kw">do</span>
     <updated>2008-04-22T16:29:29Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">Ext JS 2.1 now GPL :(</h1>
+  
+    <h4 class="subtitle"></h4>
+  
   <h2><small><time class="timeago" datetime="22 April 2008" pubdate>22 April 2008</time></small></h2>
 </header>
 
@@ -841,6 +964,9 @@ main <span class="fu">=</span> <span class="kw">do</span>
     <updated>2008-04-10T14:46:31Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">Super Mario in JavaScript</h1>
+  
+    <h4 class="subtitle"></h4>
+  
   <h2><small><time class="timeago" datetime="10 April 2008" pubdate>10 April 2008</time></small></h2>
 </header>
 
@@ -876,6 +1002,9 @@ main <span class="fu">=</span> <span class="kw">do</span>
     <updated>2007-09-18T11:29:43Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">Rob Pike on concurrency</h1>
+  
+    <h4 class="subtitle"></h4>
+  
   <h2><small><time class="timeago" datetime="18 September 2007" pubdate>18 September 2007</time></small></h2>
 </header>
 
@@ -910,6 +1039,9 @@ main <span class="fu">=</span> <span class="kw">do</span>
     <updated>2007-08-24T11:14:21Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">Java Puzzlers</h1>
+  
+    <h4 class="subtitle"></h4>
+  
   <h2><small><time class="timeago" datetime="24 August 2007" pubdate>24 August 2007</time></small></h2>
 </header>
 
@@ -944,6 +1076,9 @@ main <span class="fu">=</span> <span class="kw">do</span>
     <updated>2007-08-14T11:13:13Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">First steps to Scala</h1>
+  
+    <h4 class="subtitle"></h4>
+  
   <h2><small><time class="timeago" datetime="14 August 2007" pubdate>14 August 2007</time></small></h2>
 </header>
 
@@ -978,6 +1113,9 @@ main <span class="fu">=</span> <span class="kw">do</span>
     <updated>2007-07-22T20:28:09Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">More praise for Wicket</h1>
+  
+    <h4 class="subtitle"></h4>
+  
   <h2><small><time class="timeago" datetime="22 July 2007" pubdate>22 July 2007</time></small></h2>
 </header>
 
@@ -1012,6 +1150,9 @@ main <span class="fu">=</span> <span class="kw">do</span>
     <updated>2007-06-24T13:50:26Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">MacTax – Mac prices in the UK</h1>
+  
+    <h4 class="subtitle"></h4>
+  
   <h2><small><time class="timeago" datetime="24 June 2007" pubdate>24 June 2007</time></small></h2>
 </header>
 
@@ -1049,6 +1190,9 @@ main <span class="fu">=</span> <span class="kw">do</span>
     <updated>2007-06-18T14:39:20Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">Exceptions – checked or not?</h1>
+  
+    <h4 class="subtitle"></h4>
+  
   <h2><small><time class="timeago" datetime="18 June 2007" pubdate>18 June 2007</time></small></h2>
 </header>
 
@@ -1090,6 +1234,9 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
     <updated>2007-06-11T22:14:47Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">'DSCM: Mercurial or Bazaar?'</h1>
+  
+    <h4 class="subtitle"></h4>
+  
   <h2><small><time class="timeago" datetime="11 June 2007" pubdate>11 June 2007</time></small></h2>
 </header>
 
@@ -1129,6 +1276,9 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
     <updated>2007-05-31T14:52:30Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">Closures for Java</h1>
+  
+    <h4 class="subtitle"></h4>
+  
   <h2><small><time class="timeago" datetime="31 May 2007" pubdate>31 May 2007</time></small></h2>
 </header>
 
@@ -1164,6 +1314,9 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
     <updated>2007-05-30T11:13:45Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">GWT not just for SPAs!</h1>
+  
+    <h4 class="subtitle"></h4>
+  
   <h2><small><time class="timeago" datetime="30 May 2007" pubdate>30 May 2007</time></small></h2>
 </header>
 
@@ -1198,6 +1351,9 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
     <updated>2007-05-30T11:06:08Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">WiFi or WiFry?</h1>
+  
+    <h4 class="subtitle"></h4>
+  
   <h2><small><time class="timeago" datetime="30 May 2007" pubdate>30 May 2007</time></small></h2>
 </header>
 
@@ -1232,6 +1388,9 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
     <updated>2007-05-29T23:57:05Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">Rails jabs at Java</h1>
+  
+    <h4 class="subtitle"></h4>
+  
   <h2><small><time class="timeago" datetime="29 May 2007" pubdate>29 May 2007</time></small></h2>
 </header>
 
@@ -1268,6 +1427,9 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
     <updated>2007-05-28T17:12:07Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">Oh no, not Yet Another Web Framework!</h1>
+  
+    <h4 class="subtitle"></h4>
+  
   <h2><small><time class="timeago" datetime="28 May 2007" pubdate>28 May 2007</time></small></h2>
 </header>
 
@@ -1311,6 +1473,9 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
     <updated>2007-05-25T16:44:28Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">Thoughts on web application frameworks</h1>
+  
+    <h4 class="subtitle"></h4>
+  
   <h2><small><time class="timeago" datetime="25 May 2007" pubdate>25 May 2007</time></small></h2>
 </header>
 
@@ -1361,6 +1526,9 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
     <updated>2007-05-20T04:47:19Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">SAP's innovation drivers</h1>
+  
+    <h4 class="subtitle"></h4>
+  
   <h2><small><time class="timeago" datetime="20 May 2007" pubdate>20 May 2007</time></small></h2>
 </header>
 
@@ -1406,6 +1574,9 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
     <updated>2007-05-06T18:19:21Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">Guice</h1>
+  
+    <h4 class="subtitle"></h4>
+  
   <h2><small><time class="timeago" datetime=" 6 May 2007" pubdate> 6 May 2007</time></small></h2>
 </header>
 
@@ -1441,6 +1612,9 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
     <updated>2007-05-01T00:44:49Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">CrudPage for Click?</h1>
+  
+    <h4 class="subtitle"></h4>
+  
   <h2><small><time class="timeago" datetime=" 1 May 2007" pubdate> 1 May 2007</time></small></h2>
 </header>
 
@@ -1475,6 +1649,9 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
     <updated>2007-03-17T22:15:55Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">Bertrand Meyer on UML</h1>
+  
+    <h4 class="subtitle"></h4>
+  
   <h2><small><time class="timeago" datetime="17 March 2007" pubdate>17 March 2007</time></small></h2>
 </header>
 
@@ -1531,6 +1708,9 @@ My long search had not been in vain. It had led me to a full appreciation of the
     <updated>2007-03-16T00:20:58Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">Wishing for Scrum</h1>
+  
+    <h4 class="subtitle"></h4>
+  
   <h2><small><time class="timeago" datetime="16 March 2007" pubdate>16 March 2007</time></small></h2>
 </header>
 
@@ -1567,6 +1747,9 @@ My long search had not been in vain. It had led me to a full appreciation of the
     <updated>2007-01-30T00:48:02Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">Give it a REST</h1>
+  
+    <h4 class="subtitle"></h4>
+  
   <h2><small><time class="timeago" datetime="30 January 2007" pubdate>30 January 2007</time></small></h2>
 </header>
 
@@ -1601,6 +1784,9 @@ My long search had not been in vain. It had led me to a full appreciation of the
     <updated>2007-01-03T14:07:11Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">Neal Gafter on Closures for Java</h1>
+  
+    <h4 class="subtitle"></h4>
+  
   <h2><small><time class="timeago" datetime=" 3 January 2007" pubdate> 3 January 2007</time></small></h2>
 </header>
 
@@ -1643,6 +1829,9 @@ My long search had not been in vain. It had led me to a full appreciation of the
     <updated>2006-12-17T19:17:01Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">Python 3000 – Nothing radical</h1>
+  
+    <h4 class="subtitle"></h4>
+  
   <h2><small><time class="timeago" datetime="17 December 2006" pubdate>17 December 2006</time></small></h2>
 </header>
 
@@ -1677,6 +1866,9 @@ My long search had not been in vain. It had led me to a full appreciation of the
     <updated>2006-08-12T00:06:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">Scala adds Erlang-style actors</h1>
+  
+    <h4 class="subtitle"></h4>
+  
   <h2><small><time class="timeago" datetime="12 August 2006" pubdate>12 August 2006</time></small></h2>
 </header>
 
@@ -1711,6 +1903,9 @@ My long search had not been in vain. It had led me to a full appreciation of the
     <updated>2006-07-02T16:42:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">CSP for Java programmers</h1>
+  
+    <h4 class="subtitle"></h4>
+  
   <h2><small><time class="timeago" datetime=" 2 July 2006" pubdate> 2 July 2006</time></small></h2>
 </header>
 
@@ -1746,6 +1941,9 @@ My long search had not been in vain. It had led me to a full appreciation of the
     <updated>2006-06-02T20:53:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">INTJ again</h1>
+  
+    <h4 class="subtitle"></h4>
+  
   <h2><small><time class="timeago" datetime=" 2 June 2006" pubdate> 2 June 2006</time></small></h2>
 </header>
 
@@ -1842,6 +2040,9 @@ Judging
     <updated>2006-05-27T21:21:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">Got Firefox 1.5? You've got SVG!</h1>
+  
+    <h4 class="subtitle"></h4>
+  
   <h2><small><time class="timeago" datetime="27 May 2006" pubdate>27 May 2006</time></small></h2>
 </header>
 
@@ -1882,6 +2083,9 @@ Judging
     <updated>2006-05-24T18:09:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">Typecase for Java</h1>
+  
+    <h4 class="subtitle"></h4>
+  
   <h2><small><time class="timeago" datetime="24 May 2006" pubdate>24 May 2006</time></small></h2>
 </header>
 
@@ -1918,6 +2122,9 @@ Judging
     <updated>2006-05-21T20:10:46Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">Software Engineering Radio</h1>
+  
+    <h4 class="subtitle"></h4>
+  
   <h2><small><time class="timeago" datetime="21 May 2006" pubdate>21 May 2006</time></small></h2>
 </header>
 
@@ -1952,6 +2159,9 @@ Judging
     <updated>2006-05-08T10:55:58Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">Playing with WebStart</h1>
+  
+    <h4 class="subtitle"></h4>
+  
   <h2><small><time class="timeago" datetime=" 8 May 2006" pubdate> 8 May 2006</time></small></h2>
 </header>
 
@@ -1986,6 +2196,9 @@ Judging
     <updated>2006-05-01T03:19:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">XML Abuse</h1>
+  
+    <h4 class="subtitle"></h4>
+  
   <h2><small><time class="timeago" datetime=" 1 May 2006" pubdate> 1 May 2006</time></small></h2>
 </header>
 
@@ -2020,6 +2233,9 @@ Judging
     <updated>2006-04-27T19:17:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">'SOA: Shift to success'</h1>
+  
+    <h4 class="subtitle"></h4>
+  
   <h2><small><time class="timeago" datetime="27 April 2006" pubdate>27 April 2006</time></small></h2>
 </header>
 
@@ -2056,6 +2272,9 @@ Judging
     <updated>2006-04-23T05:07:06Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">Programming Language Inventor or Serial Killer?</h1>
+  
+    <h4 class="subtitle"></h4>
+  
   <h2><small><time class="timeago" datetime="23 April 2006" pubdate>23 April 2006</time></small></h2>
 </header>
 
@@ -2090,6 +2309,9 @@ Judging
     <updated>2006-04-21T05:17:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">JPMorgan's Tyger project</h1>
+  
+    <h4 class="subtitle"></h4>
+  
   <h2><small><time class="timeago" datetime="21 April 2006" pubdate>21 April 2006</time></small></h2>
 </header>
 
@@ -2124,6 +2346,9 @@ Judging
     <updated>2006-04-05T12:01:59Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">Process engines and webflow</h1>
+  
+    <h4 class="subtitle"></h4>
+  
   <h2><small><time class="timeago" datetime=" 5 April 2006" pubdate> 5 April 2006</time></small></h2>
 </header>
 
@@ -2158,6 +2383,9 @@ Judging
     <updated>2006-03-27T18:17:18Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">XML – the big picture</h1>
+  
+    <h4 class="subtitle"></h4>
+  
   <h2><small><time class="timeago" datetime="27 March 2006" pubdate>27 March 2006</time></small></h2>
 </header>
 
@@ -2192,6 +2420,9 @@ Judging
     <updated>2006-03-27T17:55:20Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">Product development on the Mac?</h1>
+  
+    <h4 class="subtitle"></h4>
+  
   <h2><small><time class="timeago" datetime="27 March 2006" pubdate>27 March 2006</time></small></h2>
 </header>
 
@@ -2226,6 +2457,9 @@ Judging
     <updated>2006-02-28T23:09:06Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">Space…the final frontier</h1>
+  
+    <h4 class="subtitle"></h4>
+  
   <h2><small><time class="timeago" datetime="28 February 2006" pubdate>28 February 2006</time></small></h2>
 </header>
 
@@ -2260,6 +2494,9 @@ Judging
     <updated>2006-02-25T07:26:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">Computer games – a blast from the past</h1>
+  
+    <h4 class="subtitle"></h4>
+  
   <h2><small><time class="timeago" datetime="25 February 2006" pubdate>25 February 2006</time></small></h2>
 </header>
 
@@ -2294,6 +2531,9 @@ Judging
     <updated>2006-02-01T03:27:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">When can I get a fix of language goodness?</h1>
+  
+    <h4 class="subtitle"></h4>
+  
   <h2><small><time class="timeago" datetime=" 1 February 2006" pubdate> 1 February 2006</time></small></h2>
 </header>
 
@@ -2331,6 +2571,9 @@ Judging
     <updated>2006-02-01T00:13:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">Code as data != closures</h1>
+  
+    <h4 class="subtitle"></h4>
+  
   <h2><small><time class="timeago" datetime=" 1 February 2006" pubdate> 1 February 2006</time></small></h2>
 </header>
 
@@ -2367,6 +2610,9 @@ Judging
     <updated>2006-01-18T13:13:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">w3 Principles of Design</h1>
+  
+    <h4 class="subtitle"></h4>
+  
   <h2><small><time class="timeago" datetime="18 January 2006" pubdate>18 January 2006</time></small></h2>
 </header>
 
@@ -2402,6 +2648,9 @@ Judging
     <updated>2006-01-10T14:55:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">Better *is* better and worse is worse</h1>
+  
+    <h4 class="subtitle"></h4>
+  
   <h2><small><time class="timeago" datetime="10 January 2006" pubdate>10 January 2006</time></small></h2>
 </header>
 
@@ -2437,6 +2686,9 @@ Judging
     <updated>2005-12-07T23:01:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">Ruby on .NET?</h1>
+  
+    <h4 class="subtitle"></h4>
+  
   <h2><small><time class="timeago" datetime=" 7 December 2005" pubdate> 7 December 2005</time></small></h2>
 </header>
 
@@ -2473,6 +2725,9 @@ Judging
     <updated>2005-12-07T22:31:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">Ubuntu Breezy under VMware Player</h1>
+  
+    <h4 class="subtitle"></h4>
+  
   <h2><small><time class="timeago" datetime=" 7 December 2005" pubdate> 7 December 2005</time></small></h2>
 </header>
 
@@ -2513,6 +2768,9 @@ Judging
     <updated>2005-12-04T16:25:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">Getting lost in the Wikipedia</h1>
+  
+    <h4 class="subtitle"></h4>
+  
   <h2><small><time class="timeago" datetime=" 4 December 2005" pubdate> 4 December 2005</time></small></h2>
 </header>
 
@@ -2548,6 +2806,9 @@ Judging
     <updated>2005-11-13T19:55:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">Ubuntu on Inspiron 9300</h1>
+  
+    <h4 class="subtitle"></h4>
+  
   <h2><small><time class="timeago" datetime="13 November 2005" pubdate>13 November 2005</time></small></h2>
 </header>
 
@@ -2588,6 +2849,9 @@ Judging
     <updated>2005-10-25T12:18:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">Dependency Injection – Vitally Important or Totally Irrelevant</h1>
+  
+    <h4 class="subtitle"></h4>
+  
   <h2><small><time class="timeago" datetime="25 October 2005" pubdate>25 October 2005</time></small></h2>
 </header>
 
@@ -2622,6 +2886,9 @@ Judging
     <updated>2005-05-02T14:49:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">Java…Ruby…Groovy</h1>
+  
+    <h4 class="subtitle"></h4>
+  
   <h2><small><time class="timeago" datetime=" 2 May 2005" pubdate> 2 May 2005</time></small></h2>
 </header>
 
@@ -2657,6 +2924,9 @@ Judging
     <updated>2005-04-24T20:04:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">Continuations for curmudgeons</h1>
+  
+    <h4 class="subtitle"></h4>
+  
   <h2><small><time class="timeago" datetime="24 April 2005" pubdate>24 April 2005</time></small></h2>
 </header>
 
@@ -2757,6 +3027,9 @@ catch (<span class="st">:early_exit</span>) {
     <updated>2005-02-22T05:26:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">Static versus dynamic attitude</h1>
+  
+    <h4 class="subtitle"></h4>
+  
   <h2><small><time class="timeago" datetime="22 February 2005" pubdate>22 February 2005</time></small></h2>
 </header>
 
@@ -2807,6 +3080,9 @@ catch (<span class="st">:early_exit</span>) {
     <updated>2005-02-22T04:51:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">SOAP is brain dead</h1>
+  
+    <h4 class="subtitle"></h4>
+  
   <h2><small><time class="timeago" datetime="22 February 2005" pubdate>22 February 2005</time></small></h2>
 </header>
 
@@ -2841,6 +3117,9 @@ catch (<span class="st">:early_exit</span>) {
     <updated>2005-02-22T04:33:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">NoXML and web service specifications!</h1>
+  
+    <h4 class="subtitle"></h4>
+  
   <h2><small><time class="timeago" datetime="22 February 2005" pubdate>22 February 2005</time></small></h2>
 </header>
 
@@ -2877,6 +3156,9 @@ catch (<span class="st">:early_exit</span>) {
     <updated>2005-02-21T13:29:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">Mock object framework talk</h1>
+  
+    <h4 class="subtitle"></h4>
+  
   <h2><small><time class="timeago" datetime="21 February 2005" pubdate>21 February 2005</time></small></h2>
 </header>
 
@@ -2911,6 +3193,9 @@ catch (<span class="st">:early_exit</span>) {
     <updated>2005-02-21T02:44:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">Fonts on Gentoo</h1>
+  
+    <h4 class="subtitle"></h4>
+  
   <h2><small><time class="timeago" datetime="21 February 2005" pubdate>21 February 2005</time></small></h2>
 </header>
 
@@ -2945,6 +3230,9 @@ catch (<span class="st">:early_exit</span>) {
     <updated>2005-02-17T01:48:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">Transactional caches</h1>
+  
+    <h4 class="subtitle"></h4>
+  
   <h2><small><time class="timeago" datetime="17 February 2005" pubdate>17 February 2005</time></small></h2>
 </header>
 
@@ -2979,6 +3267,9 @@ catch (<span class="st">:early_exit</span>) {
     <updated>2005-02-16T10:55:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">Interviewing programmers</h1>
+  
+    <h4 class="subtitle"></h4>
+  
   <h2><small><time class="timeago" datetime="16 February 2005" pubdate>16 February 2005</time></small></h2>
 </header>
 
@@ -3015,6 +3306,9 @@ catch (<span class="st">:early_exit</span>) {
     <updated>2005-01-24T01:07:30Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">Developer Testing with Kent Beck</h1>
+  
+    <h4 class="subtitle"></h4>
+  
   <h2><small><time class="timeago" datetime="24 January 2005" pubdate>24 January 2005</time></small></h2>
 </header>
 
@@ -3050,6 +3344,9 @@ catch (<span class="st">:early_exit</span>) {
     <updated>2005-01-01T07:06:09Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">Hibernate in Action</h1>
+  
+    <h4 class="subtitle"></h4>
+  
   <h2><small><time class="timeago" datetime=" 1 January 2005" pubdate> 1 January 2005</time></small></h2>
 </header>
 
@@ -3093,6 +3390,9 @@ Are the relational data model and (especially) SQL the right choices for periste
     <updated>2004-10-22T09:53:52Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">Avoid round trips!</h1>
+  
+    <h4 class="subtitle"></h4>
+  
   <h2><small><time class="timeago" datetime="22 October 2004" pubdate>22 October 2004</time></small></h2>
 </header>
 
@@ -3127,6 +3427,9 @@ Are the relational data model and (especially) SQL the right choices for periste
     <updated>2004-09-27T13:46:33Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">Movitz – a Lisp OS platform</h1>
+  
+    <h4 class="subtitle"></h4>
+  
   <h2><small><time class="timeago" datetime="27 September 2004" pubdate>27 September 2004</time></small></h2>
 </header>
 
@@ -3161,6 +3464,9 @@ Are the relational data model and (especially) SQL the right choices for periste
     <updated>2004-09-27T13:16:46Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">WCL and shared libraries</h1>
+  
+    <h4 class="subtitle"></h4>
+  
   <h2><small><time class="timeago" datetime="27 September 2004" pubdate>27 September 2004</time></small></h2>
 </header>
 
@@ -3197,6 +3503,9 @@ Are the relational data model and (especially) SQL the right choices for periste
     <updated>2004-09-15T21:55:22Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">CPU Scheduling</h1>
+  
+    <h4 class="subtitle"></h4>
+  
   <h2><small><time class="timeago" datetime="15 September 2004" pubdate>15 September 2004</time></small></h2>
 </header>
 
@@ -3232,6 +3541,9 @@ Are the relational data model and (especially) SQL the right choices for periste
     <updated>2004-09-15T18:12:43Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">Misunderstandings about closures</h1>
+  
+    <h4 class="subtitle"></h4>
+  
   <h2><small><time class="timeago" datetime="15 September 2004" pubdate>15 September 2004</time></small></h2>
 </header>
 
@@ -3269,6 +3581,9 @@ Are the relational data model and (especially) SQL the right choices for periste
     <updated>2004-08-30T17:42:40Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">RealPlayer10 on Linux</h1>
+  
+    <h4 class="subtitle"></h4>
+  
   <h2><small><time class="timeago" datetime="30 August 2004" pubdate>30 August 2004</time></small></h2>
 </header>
 
@@ -3303,6 +3618,9 @@ Are the relational data model and (especially) SQL the right choices for periste
     <updated>2004-08-30T14:08:24Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">Spring and Hibernate</h1>
+  
+    <h4 class="subtitle"></h4>
+  
   <h2><small><time class="timeago" datetime="30 August 2004" pubdate>30 August 2004</time></small></h2>
 </header>
 
@@ -3345,6 +3663,9 @@ Are the relational data model and (especially) SQL the right choices for periste
     <updated>2004-08-30T07:17:14Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">Abelson and Sussman lectures</h1>
+  
+    <h4 class="subtitle"></h4>
+  
   <h2><small><time class="timeago" datetime="30 August 2004" pubdate>30 August 2004</time></small></h2>
 </header>
 
@@ -3379,6 +3700,9 @@ Are the relational data model and (especially) SQL the right choices for periste
     <updated>2004-08-29T06:17:57Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">The Koan of Side Effects</h1>
+  
+    <h4 class="subtitle"></h4>
+  
   <h2><small><time class="timeago" datetime="29 August 2004" pubdate>29 August 2004</time></small></h2>
 </header>
 
@@ -3413,6 +3737,9 @@ Are the relational data model and (especially) SQL the right choices for periste
     <updated>2004-08-22T13:52:14Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">Erlang the Movie</h1>
+  
+    <h4 class="subtitle"></h4>
+  
   <h2><small><time class="timeago" datetime="22 August 2004" pubdate>22 August 2004</time></small></h2>
 </header>
 
@@ -3449,6 +3776,9 @@ Are the relational data model and (especially) SQL the right choices for periste
     <updated>2004-08-22T10:46:50Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">SwingWorker race condition</h1>
+  
+    <h4 class="subtitle"></h4>
+  
   <h2><small><time class="timeago" datetime="22 August 2004" pubdate>22 August 2004</time></small></h2>
 </header>
 
@@ -3483,6 +3813,9 @@ Are the relational data model and (especially) SQL the right choices for periste
     <updated>2004-08-18T12:37:07Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">Pairs as lambdas</h1>
+  
+    <h4 class="subtitle"></h4>
+  
   <h2><small><time class="timeago" datetime="18 August 2004" pubdate>18 August 2004</time></small></h2>
 </header>
 
@@ -3545,6 +3878,9 @@ a                 <span class="co">; =&gt; a procedure</span>
     <updated>2004-08-14T18:14:10Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">The Python Paradox</h1>
+  
+    <h4 class="subtitle"></h4>
+  
   <h2><small><time class="timeago" datetime="14 August 2004" pubdate>14 August 2004</time></small></h2>
 </header>
 
@@ -3582,6 +3918,9 @@ a                 <span class="co">; =&gt; a procedure</span>
     <updated>2004-08-09T15:56:34Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
   <h1 class="entry-title">Neverwinter Nights on Linux</h1>
+  
+    <h4 class="subtitle"></h4>
+  
   <h2><small><time class="timeago" datetime=" 9 August 2004" pubdate> 9 August 2004</time></small></h2>
 </header>
 
