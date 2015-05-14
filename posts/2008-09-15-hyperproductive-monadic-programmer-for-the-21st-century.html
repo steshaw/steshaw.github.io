@@ -17,6 +17,7 @@
     <link rel="stylesheet" type="text/css" href="../css/default.css" />
     <link rel="stylesheet" type="text/css" href="../css/syntax-figure.css" />
     <link rel="stylesheet" type="text/css" href="../css/syntax.css" />
+    <link href="http://fonts.googleapis.com/css?family=Roboto:900,300italic,400" rel="stylesheet" type="text/css">
 
     <!-- Google analytics { -->
     <script>
@@ -84,16 +85,16 @@
             </ol>
           </div>
         </div>
-        <div class="col-sm-10">
+        <div class="col-sm-10 content">
           <header class="page-header">
-  <h1 class="entry-title">Hyperproductive Monadic Programmer for the 21st Century</h1>
+  <h1 class="post-title">Hyperproductive Monadic Programmer for the 21st Century</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle"></h4>
   
-  <h2><small><time class="timeago" datetime="15 September 2008" pubdate>15 September 2008</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime="15 September 2008" pubdate>15 September 2008</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p>I recently attended the “Introduction to Scala” course at <a href="http://workingmouse.com/">Working Mouse</a>. The course was run by <a href="http://tmorris.net/">Tony Morris</a> with the help of Tom Adams. I had feared that the course would be a introduction to Scala with Haskell-coloured glasses … and it was just that. However, it was just this that made it interesting. I already know Scala at a basic level so a truly introductory course would have offered little. I knew that Tony was into Haskell and on one hand I wanted to come away with an idea of what a monad was and on the other hand I didn’t want to learn Haskell with Scala syntax. Luck would have it that there turned out to be just two attendees - myself and John Ryan-Brown. Tony was able to accelerate through the introductory material with help from Tom Adams. This freed us up to begin working on monads and emulating type-classes in Scala. It was a really wonderful course that I can’t do justice to in this short post. I did come away knowing what a monad was (but now I’m not quite so sure). I did learn Scala through “Haskell glasses” but that was what was really wonderful about the course.</p>
 <p>So what are monads? Well it appears to be an “ultimate interface” with 3 special methods - return (also called unit), bind and join (where join can be derived from return and bind). My current understanding is that monads are the “ultimate iterator” but I figured I’m supposed to understand that they are an “abstraction over computation”. This is going to take a while to sink in. Here are the signatures for the 3 special methods:</p>
 <div class="sourceCode"><pre class="sourceCode haskell"><code class="sourceCode haskell"><span class="ot">  return ::</span> <span class="dt">Monad</span> m <span class="ot">=&gt;</span> a <span class="ot">-&gt;</span> m a
@@ -108,8 +109,8 @@
 
 <br />
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname

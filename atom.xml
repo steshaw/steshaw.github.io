@@ -16,14 +16,14 @@
     <published>2015-05-03T00:00:00Z</published>
     <updated>2015-05-03T00:00:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">Increase size of VirtualBox btrfs partition</h1>
+  <h1 class="post-title">Increase size of VirtualBox btrfs partition</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle"></h4>
   
-  <h2><small><time class="timeago" datetime=" 3 May 2015" pubdate> 3 May 2015</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime=" 3 May 2015" pubdate> 3 May 2015</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p>I'd originally allocated the default 8G to my primary partition when installing NixOS. I ran out of disk space when I tried upgrading to KDE 5. This is how I increased the size of the partition.</p>
 <h4>1. Shutdown your VM.</h4>
 <h4>2. Use VirtualBox tools to increase the size of the VDI.</h4>
@@ -60,8 +60,8 @@ $ <span class="kw">btrfs</span> filesystem resize max /mnt/root</code></pre></di
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
@@ -84,14 +84,14 @@ $ <span class="kw">btrfs</span> filesystem resize max /mnt/root</code></pre></di
     <published>2015-05-01T00:00:00Z</published>
     <updated>2015-05-01T00:00:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">Deploying your Hakyll site with Halcyon</h1>
+  <h1 class="post-title">Deploying your Hakyll site with Halcyon</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle"></h4>
   
-  <h2><small><time class="timeago" datetime=" 1 May 2015" pubdate> 1 May 2015</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime=" 1 May 2015" pubdate> 1 May 2015</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p><em>Draft</em></p>
 <ul>
 <li><p>Do not use the CircleCI caching system as it is slower than just using Halcyon.</p></li>
@@ -124,8 +124,8 @@ $ <span class="kw">btrfs</span> filesystem resize max /mnt/root</code></pre></di
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
@@ -148,14 +148,14 @@ $ <span class="kw">btrfs</span> filesystem resize max /mnt/root</code></pre></di
     <published>2015-04-29T00:00:00Z</published>
     <updated>2015-04-29T00:00:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">Blogging with Hakyll</h1>
+  <h1 class="post-title">Blogging with Hakyll</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle"></h4>
   
-  <h2><small><time class="timeago" datetime="29 April 2015" pubdate>29 April 2015</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime="29 April 2015" pubdate>29 April 2015</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p><em>Draft</em></p>
 <h1>Outline</h1>
 <ul>
@@ -201,8 +201,8 @@ main <span class="fu">=</span> putStrLn <span class="st">&quot;Hello, world!&quo
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
@@ -225,14 +225,14 @@ main <span class="fu">=</span> putStrLn <span class="st">&quot;Hello, world!&quo
     <published>2014-07-17T00:00:00Z</published>
     <updated>2014-07-17T00:00:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">Adopting a Cambridge Culture</h1>
+  <h1 class="post-title">Adopting a Cambridge Culture</h1>
   
-    <h4 class="subtitle">Fighting narcissism in the 21st Century</h4>
+    <h4 class="post-subtitle">Fighting narcissism in the 21st Century</h4>
   
-  <h2><small><time class="timeago" datetime="17 July 2014" pubdate>17 July 2014</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime="17 July 2014" pubdate>17 July 2014</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p>Cross-posted to <a href="https://medium.com/p/2e16ec53137f">Medium</a>.</p>
 <!--
   <div class="section-background" contenteditable="false"
@@ -247,7 +247,7 @@ main <span class="fu">=</span> putStrLn <span class="st">&quot;Hello, world!&quo
 
 <p>Work can be a drag if you find yourself in a den of assholes. Unfortunately, this is becoming more and more common in our narcissist-generating society. I'd like to start a conversation about how we might tackle this problem. Here's an outline of how we might begin to approach the problem.</p>
 <p>TL/DR: start with Robert Sutton's <em>No Asshole Rule</em> and follow that up with modelling your behaviour on a gentleman (that's where the <em>Cambridge Culture</em> comes in).</p>
-<h3>The No Asshole Rule</h3>
+<h2>The No Asshole Rule</h2>
 <p>There are a lot of assholes out there. I've run into a few more than my fair share — it seems to be par for the course when you're a contract programmer (I gave up that gig a few years ago but I still have the war stories). Assholes make people feel oppressed, humiliated, de-energised and belittled. In short, they destroy rather than create. The targets of their behaviour tend to be those less powerful — so assholes in management have a larger area of destruction.</p>
 <p>These assholes can poison your whole organisation, leading to a culture of fear, lower productivity, high staff turnover, general unhappiness and gnashing of teeth.</p>
 <p>The assholes tend to think that their behaviour is justified because it helps to “get the job done”. However, Sutton points out this is a kind of confirmation bias and usually “stuff gets done” despite the behaviour of the asshole — not <em>because</em> of it.</p>
@@ -255,7 +255,7 @@ main <span class="fu">=</span> putStrLn <span class="st">&quot;Hello, world!&quo
 <p>Don't confuse the <em>occasional</em> asshole with the <em>institutional</em> one (Sutton calls this the <em>temporary asshole</em> and the <em>certified asshole</em>). Everyone blows up occasionally and let's their “inner asshole” out — particularly when under the thumb of an institutional asshole! Don't be too quick to label the strange or unusual as assholes — Sutton has a book on this topic: <a href="http://www.goodreads.com/book/show/7923731.Wierd_Ideas_that_Work">Weird Ideas that Work</a>. A good tip for preventing the inner-asshole from escaping is: <em>argue like you're right, listen like you're wrong.</em></p>
 <p>I don't believe that assholes are virtuous despite Sutton's reluctant chapter on it. One thing that makes sense is that being an asshole may be a short-cut to power and status — that is if the weaklings around them let them get away with it ☺. Who doesn't know one or two loud mouth, arrogant, self-professed experts that go on a power-grab and succeed because few resisted? Don't let it happen in your organisation — unless you're leaving to join or <em>be</em> the competition ;). If you have to put up with the odd asshole from time to time, whatever you do, do <em>not</em> promote them. Keep them in a box, try to reform them (possible if they are only an <em>occasional</em> asshole, unlikely if they are a <em>certified</em> asshole). If that doesn't work out, fire them.</p>
 <p>Remember: <em>a few bad apples can spoil the whole bunch.</em></p>
-<h3>A Cambridge Culture</h3>
+<h2>A Cambridge Culture</h2>
 <p>A partial remedy to this situation is to adopt what I like to call a <em>Cambridge Culture</em>. This is as simple as modelling yourself on the behaviour of Simon Peyton Jones. Simon is the lead engineer of the Glorious Glasgow Haskell Compiler (aka GHC). He works at Microsoft Research in Cambridge (hence the name).</p>
 <p>If you don't know Simon, he can be described as a scholar and a gent. While being someone who is very bright, accomplished and energetic; Simon doesn't feel entitled to indulge in behaviour that could be perceived as arrogant, haughty, overbearing, dictatorial etc. Simon also accepts that there are other intelligent folks who might have views that run somewhat counter to his own. In this situation, he is not only tolerant but patiently teaches if those folks are open to it. He also listens carefully to work out where he may be off-track himself (if not completely wrong). As lead of GHC, Simon encourages participation and rarely feels the need to choose an option (from say a bunch of competing but equally decent candidates), instead allowing the community to reach a consensus where possible but breaking deadlocks where necessary. He shys away from the title <em>Benevolent Dictator for Life</em> (BDFL). Simon is definitely not a hater.</p>
 <p>Don't be a hater. If you have to hate anyone, hate the haters :P. You know... don't even hate the haters:</p>
@@ -274,8 +274,8 @@ main <span class="fu">=</span> putStrLn <span class="st">&quot;Hello, world!&quo
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
@@ -298,21 +298,21 @@ main <span class="fu">=</span> putStrLn <span class="st">&quot;Hello, world!&quo
     <published>2012-02-09T12:09:43Z</published>
     <updated>2012-02-09T12:09:43Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">Moving to steshaw.org</h1>
+  <h1 class="post-title">Moving to steshaw.org</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle"></h4>
   
-  <h2><small><time class="timeago" datetime=" 9 February 2012" pubdate> 9 February 2012</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime=" 9 February 2012" pubdate> 9 February 2012</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p>Goodbye <a href="http://wordpress.com/">wordpress.com</a>, it’s been good. Now blogging at <a href="http://steshaw.org">steshaw.org</a></p>
 </div>
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
@@ -335,14 +335,14 @@ main <span class="fu">=</span> putStrLn <span class="st">&quot;Hello, world!&quo
     <published>2012-02-09T00:00:00Z</published>
     <updated>2012-02-09T00:00:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">Hello MathJax</h1>
+  <h1 class="post-title">Hello MathJax</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle"></h4>
   
-  <h2><small><time class="timeago" datetime=" 9 February 2012" pubdate> 9 February 2012</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime=" 9 February 2012" pubdate> 9 February 2012</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p>MathJax isn’t currently supported out-of-the-box with Octopress. The main reason seems to be that the Markdown processor — rdiscount — doesn’t deal with the MathJax escaping very well. However, since <a href="http://maruku.rubyforge.org/math.xhtml">Maruku supports it</a>, I thought I’d try switching over.</p>
 <p>I made the following two changes:</p>
 <pre class="yml" data-title="switch Markdown processors in _config.yml"><code>markdown: maruku</code></pre>
@@ -381,8 +381,8 @@ index 9a50a8b..fc9dc37 100644
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
@@ -405,14 +405,14 @@ index 9a50a8b..fc9dc37 100644
     <published>2012-02-03T00:00:00Z</published>
     <updated>2012-02-03T00:00:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">Rebooting with Octopress</h1>
+  <h1 class="post-title">Rebooting with Octopress</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle"></h4>
   
-  <h2><small><time class="timeago" datetime=" 3 February 2012" pubdate> 3 February 2012</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime=" 3 February 2012" pubdate> 3 February 2012</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p>I’m starting with a clean slate and moving to <a href="http://octopress.org/">Octopress</a>.</p>
 <p>Haskell source code highlighting appears to work out of the box:</p>
 <div class="sourceCode" data-title="Run length encoding" data-link="http://rosettacode.org/wiki/Run-length_encoding#Haskell"><pre class="sourceCode haskell"><code class="sourceCode haskell"><span class="kw">import </span><span class="dt">Data.List</span> (group)
@@ -459,8 +459,8 @@ main <span class="fu">=</span> <span class="kw">do</span>
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
@@ -483,14 +483,14 @@ main <span class="fu">=</span> <span class="kw">do</span>
     <published>2010-11-28T02:44:29Z</published>
     <updated>2010-11-28T02:44:29Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">HP Pavilion with Ubuntu 10.10</h1>
+  <h1 class="post-title">HP Pavilion with Ubuntu 10.10</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle"></h4>
   
-  <h2><small><time class="timeago" datetime="28 November 2010" pubdate>28 November 2010</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime="28 November 2010" pubdate>28 November 2010</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p>I’ve been asked for an update of my <a href="http://steshaw.wordpress.com/2010/05/22/stonking-new-laptop/">experiences with my HP Pavilion dv6 3042TX</a> - in particular with Ubuntu. A <a href="http://steshaw.wordpress.com/2010/05/22/stonking-new-laptop/#comment-81">reader</a> has found that this notebook can now be purchased here in Australia for $1,299. That is a fine price indeed! At that price, I would have considered “self insuring” and not spending the addition $200 or so on an extended warranty. However, I must say that I sometimes have regrets about not getting a <a href="http://www.apple.com/au/macbookpro/">Mac</a>. Here are some of my experiences and advice:</p>
 <h3 id="the-good">The good</h3>
 <ul>
@@ -527,8 +527,8 @@ main <span class="fu">=</span> <span class="kw">do</span>
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
@@ -551,14 +551,14 @@ main <span class="fu">=</span> <span class="kw">do</span>
     <published>2010-11-23T14:02:56Z</published>
     <updated>2010-11-23T14:02:56Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">Agile is the status quo</h1>
+  <h1 class="post-title">Agile is the status quo</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle"></h4>
   
-  <h2><small><time class="timeago" datetime="23 November 2010" pubdate>23 November 2010</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime="23 November 2010" pubdate>23 November 2010</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p>Robert C. Martin (aka Uncle Bob) has written a provocative article, <a href="http://cleancoder.posterous.com/what-killed-waterfall-could-kill-agile">What Killed Waterfall Could Kill Agile</a>. Besides its main trust, it also contains some interesting historical tidbits in the history of the agile movement.</p>
 <p>Here’ my 2c. Disclaimer/background: programming since age 11, interested in “big” methods in the 90s, XP since 1999 and became a CSM 2 years ago.</p>
 <p>The problem isn’t certification per se. The CSM after all is just a 2 day training course! It’s hard to argue that education is detrimental. There certainly is a problem with what Bob calls “elitism” or (better) authority without responsibility. Perhaps there’s also a problem with how organisations are perceiving the CSM and role of Scrum Master. I haven’t experienced it myself. In my case, I have noted serious scepticism about the usefulness of the CSM. As long as it is merely considered a 2 two day training program then I don’t think it does any harm (it merely does what a 2 day training course can do). No doubt it was marketing genius to make attending a course “qualify” someone for a certificate :). I took the course when I was flush with cash from working in the UK. I attended in order to show my interest in Scrum/XP to potential clients and team mates. I did also hope to learn something at the course :). I did note that the course was full project-management types… to the degree that I felt somewhat out of place - so I think I know where Bob is coming from.</p>
@@ -575,8 +575,8 @@ main <span class="fu">=</span> <span class="kw">do</span>
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
@@ -599,14 +599,14 @@ main <span class="fu">=</span> <span class="kw">do</span>
     <published>2010-05-22T10:16:14Z</published>
     <updated>2010-05-22T10:16:14Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">Stonking new laptop</h1>
+  <h1 class="post-title">Stonking new laptop</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle"></h4>
   
-  <h2><small><time class="timeago" datetime="22 May 2010" pubdate>22 May 2010</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime="22 May 2010" pubdate>22 May 2010</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p>I’m writing this from my new laptop! <strong>Stop the presses:</strong> it’s <em>not</em> a Mac! :) In fact, I’m trying out Windows Live Writer to publish this post…</p>
 <p><a href="http://steshaw.files.wordpress.com/2010/05/hp-pavilion-dv6.jpeg"><img src="http://steshaw.files.wordpress.com/2010/05/hp-pavilion-dv6.jpeg?w=300" /></a></p>
 <p>Technical specifications:</p>
@@ -621,8 +621,8 @@ main <span class="fu">=</span> <span class="kw">do</span>
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
@@ -645,14 +645,14 @@ main <span class="fu">=</span> <span class="kw">do</span>
     <published>2009-08-02T00:32:42Z</published>
     <updated>2009-08-02T00:32:42Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">Bzr uniqueness + Git</h1>
+  <h1 class="post-title">Bzr uniqueness + Git</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle"></h4>
   
-  <h2><small><time class="timeago" datetime=" 2 August 2009" pubdate> 2 August 2009</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime=" 2 August 2009" pubdate> 2 August 2009</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p>The unique thing about Bzr (compared with say Mercurial) seems to be that the community has developed tools for <a href="http://bazaar-vcs.org/Workflows">some common workflows</a>.</p>
 <p>I’m still using Mercurial for my personal files at home. Since I use Linux as my primary development platform, Git is getting the upper hand for me. I’ll have to give hg2git a try (this will give me the opportunity to finally prune my /Photos directory). The git-svn support is useful when clients are using SVN and you want to work from your laptop. Also the <a href="http://github.com/">GitHub</a> is pretty cool. I’ve <a href="http://github.com/steshaw/">only played around with it</a> but it has paid accounts that could be used for off-site backup and for possibly for source code delivery to clients. I hear that Git works great on Mac but last I heard the support on Windows was still lacking. Git works in cygwin with a native port on the way. I haven’t used Windows for development for a while but always used to install cygwin when I did. However, that’s not necessarily a great solution for regular Windows/.NET guys. If I was doing a .NET project, I’d probably stick with Subversion - git-svn is always there for disconnected development.</p>
 <p>I wonder if there are bzr style workflow solutions for Git…</p>
@@ -660,8 +660,8 @@ main <span class="fu">=</span> <span class="kw">do</span>
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
@@ -684,14 +684,14 @@ main <span class="fu">=</span> <span class="kw">do</span>
     <published>2009-03-19T17:03:27Z</published>
     <updated>2009-03-19T17:03:27Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">IBM to buyout Sun Microsystems?</h1>
+  <h1 class="post-title">IBM to buyout Sun Microsystems?</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle"></h4>
   
-  <h2><small><time class="timeago" datetime="19 March 2009" pubdate>19 March 2009</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime="19 March 2009" pubdate>19 March 2009</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p><a href="http://www.guardian.co.uk/technology/2009/mar/18/ibm-sun-microsystems">This story paints a gloomy outlook for Sun Microsystems</a>. This purchase would certainly end the “wars” between IBM and Sun over Java… One has to wonder what it would mean for the future of Java (the language, the platform, everything). At least HotSpot and the class library are open source now.</p>
 <p>My understanding is that Microsoft are cashed up in this economic crisis. Plus they’ve even hired Neal Gafter. Microsoft hire a lot of very good guys. With Gafter over at Microsoft, I wonder if that influenced the decision to squash closures for Java… That was the dumbest move for Java. I suppose it doesn’t really matter: for me, Scala is the next Java.</p>
 <p>I wonder if businesses will be more likely to adopt .NET rather than Java now though and really turn the tide. This global recession is turning out to be what I call <em>The Greater Depression</em>, some <em>The Second Great Depression</em> and still some other young ’uns <em>The Great Depression 2.0</em>. I wonder who will come out on top? With ReSharper, Visual Studio is actually pretty good! So, no excuses - go brush up those C# skills! ;)</p>
@@ -699,8 +699,8 @@ main <span class="fu">=</span> <span class="kw">do</span>
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
@@ -723,14 +723,14 @@ main <span class="fu">=</span> <span class="kw">do</span>
     <published>2009-01-29T22:43:01Z</published>
     <updated>2009-01-29T22:43:01Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">WebBeans => Java Contexts and Dependency Injection</h1>
+  <h1 class="post-title">WebBeans => Java Contexts and Dependency Injection</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle"></h4>
   
-  <h2><small><time class="timeago" datetime="29 January 2009" pubdate>29 January 2009</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime="29 January 2009" pubdate>29 January 2009</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p>I’ve been watching the WebBeans/JSR-299 specification for quite some time. After some discussion on the webbeans mailing list, the name was recently changed to Java Contexts and Dependency Injection. This removes the “dependency” on “Web” part. Since it’s effectively a new component model for Java, it didn’t make sense to restrict it to Web environments. The new name is long and not as catchy … maybe it’ll become known as JCDI.</p>
 <p><a href="http://in.relation.to/Bloggers/RevisedPublicDraftOfJSR299JavaContextsAndDependencyInjection">An updated public draft is now available</a>. Other useful information - particularly the introductory guide - can be found on the <a href="http://www.seamframework.org/WebBeans">Seam Framework wiki</a>.</p>
 <p>The specification draws much from <a href="http://seamframework.org">Seam</a> and <a href="http://code.google.com/p/google-guice/">Guice</a> and consequently Gavin King and Bob Lee. Congratulations to all involved in the specification. It’s really worth looking at particularly if you haven’t been using Seam 2 or Guice 2. I find myself particularly drawn to Guice 2. I hope they release it soon :).</p>
@@ -738,8 +738,8 @@ main <span class="fu">=</span> <span class="kw">do</span>
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
@@ -762,14 +762,14 @@ main <span class="fu">=</span> <span class="kw">do</span>
     <published>2008-09-15T02:30:20Z</published>
     <updated>2008-09-15T02:30:20Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">Hyperproductive Monadic Programmer for the 21st Century</h1>
+  <h1 class="post-title">Hyperproductive Monadic Programmer for the 21st Century</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle"></h4>
   
-  <h2><small><time class="timeago" datetime="15 September 2008" pubdate>15 September 2008</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime="15 September 2008" pubdate>15 September 2008</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p>I recently attended the “Introduction to Scala” course at <a href="http://workingmouse.com/">Working Mouse</a>. The course was run by <a href="http://tmorris.net/">Tony Morris</a> with the help of Tom Adams. I had feared that the course would be a introduction to Scala with Haskell-coloured glasses … and it was just that. However, it was just this that made it interesting. I already know Scala at a basic level so a truly introductory course would have offered little. I knew that Tony was into Haskell and on one hand I wanted to come away with an idea of what a monad was and on the other hand I didn’t want to learn Haskell with Scala syntax. Luck would have it that there turned out to be just two attendees - myself and John Ryan-Brown. Tony was able to accelerate through the introductory material with help from Tom Adams. This freed us up to begin working on monads and emulating type-classes in Scala. It was a really wonderful course that I can’t do justice to in this short post. I did come away knowing what a monad was (but now I’m not quite so sure). I did learn Scala through “Haskell glasses” but that was what was really wonderful about the course.</p>
 <p>So what are monads? Well it appears to be an “ultimate interface” with 3 special methods - return (also called unit), bind and join (where join can be derived from return and bind). My current understanding is that monads are the “ultimate iterator” but I figured I’m supposed to understand that they are an “abstraction over computation”. This is going to take a while to sink in. Here are the signatures for the 3 special methods:</p>
 <div class="sourceCode"><pre class="sourceCode haskell"><code class="sourceCode haskell"><span class="ot">  return ::</span> <span class="dt">Monad</span> m <span class="ot">=&gt;</span> a <span class="ot">-&gt;</span> m a
@@ -784,8 +784,8 @@ main <span class="fu">=</span> <span class="kw">do</span>
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
@@ -808,21 +808,21 @@ main <span class="fu">=</span> <span class="kw">do</span>
     <published>2008-08-29T19:30:39Z</published>
     <updated>2008-08-29T19:30:39Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">Certified ScrumMaster</h1>
+  <h1 class="post-title">Certified ScrumMaster</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle"></h4>
   
-  <h2><small><time class="timeago" datetime="29 August 2008" pubdate>29 August 2008</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime="29 August 2008" pubdate>29 August 2008</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p>I finally got around to doing the Scrum course and <a href="http://www.scrumalliance.org/profiles/38923-steven-shaw">became a CSM</a> :). Many thanks to Jens Østergaard of <a href="http://scrum.dk">Scrum.dk</a> for making it a good two days.</p>
 </div>
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
@@ -845,14 +845,14 @@ main <span class="fu">=</span> <span class="kw">do</span>
     <published>2008-07-30T04:08:20Z</published>
     <updated>2008-07-30T04:08:20Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">Feature teams</h1>
+  <h1 class="post-title">Feature teams</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle"></h4>
   
-  <h2><small><time class="timeago" datetime="30 July 2008" pubdate>30 July 2008</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime="30 July 2008" pubdate>30 July 2008</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p>I am glad to see InfoQ have posted a <a href="http://www.infoq.com/articles/scaling-lean-agile-feature-teams">writeup about scaling agile teams using feature teams</a> rather than component teams. This includes a downloadable chapter in the latest book by Craig Larman on the subject. We used to call this working vertically or horizontally. It has also been called cross-functional teams. I have always preferred to work vertically for the following reasons:</p>
 <ul>
 <li><p>Less people needed to reach a consensus about interfaces between layers of the application.</p></li>
@@ -862,8 +862,8 @@ main <span class="fu">=</span> <span class="kw">do</span>
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
@@ -886,21 +886,21 @@ main <span class="fu">=</span> <span class="kw">do</span>
     <published>2008-06-02T17:00:26Z</published>
     <updated>2008-06-02T17:00:26Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">From nand to tetris</h1>
+  <h1 class="post-title">From nand to tetris</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle"></h4>
   
-  <h2><small><time class="timeago" datetime=" 2 June 2008" pubdate> 2 June 2008</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime=" 2 June 2008" pubdate> 2 June 2008</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p>This looks like a great course+book: <a href="http://www.idc.ac.il/tecs/">The elements of computing systems</a>.</p>
 </div>
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
@@ -923,14 +923,14 @@ main <span class="fu">=</span> <span class="kw">do</span>
     <published>2008-04-22T16:29:29Z</published>
     <updated>2008-04-22T16:29:29Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">Ext JS 2.1 now GPL :(</h1>
+  <h1 class="post-title">Ext JS 2.1 now GPL :(</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle"></h4>
   
-  <h2><small><time class="timeago" datetime="22 April 2008" pubdate>22 April 2008</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime="22 April 2008" pubdate>22 April 2008</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p>Unfortunately <a href="http://extjs.com/blog/2008/04/21/ext-js-21-and-ext-gwt-10-released-preview-of-ext-js-30">Ext JS 2.1 (and Ext GWT 1.0) have been released under the GPL</a>. This will make Ext more difficult to sell to corporate clients.</p>
 <p>Ext JS 2.0.2 is still available for download under a LGPL licence and can be used with the <a href="http://code.google.com/webtoolkit/">GWT</a> integration found in the <a href="http://gwt-ext.com/download/">GWT-Ext project</a> (not to be confused with Ext GWT). i.e. GWT-Ext 2.0.3 and Ext 2.0.2 are still both LGPL. I wonder if Ext GWT 1.0 (GPL) started life as GWT-Ext 2.0.3 (LGPL)…</p>
 <p>I wonder if a fork will appear… or perhaps a <a href="http://developer.yahoo.com/yui/">Yahoo! UI</a> on <a href="http://code.google.com/webtoolkit/">GWT</a> or a <a href="http://www.tibco.com/devnet/gi/">Tibco GI</a> on <a href="http://code.google.com/webtoolkit/">GWT</a>. Both <a href="http://developer.yahoo.com/yui/">YUI</a> and <a href="http://www.tibco.com/devnet/gi/">GI</a> are BSD and so very business friendly.</p>
@@ -940,8 +940,8 @@ main <span class="fu">=</span> <span class="kw">do</span>
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
@@ -964,22 +964,22 @@ main <span class="fu">=</span> <span class="kw">do</span>
     <published>2008-04-10T14:46:31Z</published>
     <updated>2008-04-10T14:46:31Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">Super Mario in JavaScript</h1>
+  <h1 class="post-title">Super Mario in JavaScript</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle"></h4>
   
-  <h2><small><time class="timeago" datetime="10 April 2008" pubdate>10 April 2008</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime="10 April 2008" pubdate>10 April 2008</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p>It’s amazing to see <a href="http://blog.nihilogic.dk/2008/04/super-mario-in-14kb-javascript.html">this implemented in JavaScript</a>!</p>
 <p>Note that there seems to be only one level to the game which isn’t entirely implemented. It’s the concept that such a beast can be implemented in JavaScript rather than Flash that’s interesting.</p>
 </div>
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
@@ -1002,21 +1002,21 @@ main <span class="fu">=</span> <span class="kw">do</span>
     <published>2007-09-18T11:29:43Z</published>
     <updated>2007-09-18T11:29:43Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">Rob Pike on concurrency</h1>
+  <h1 class="post-title">Rob Pike on concurrency</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle"></h4>
   
-  <h2><small><time class="timeago" datetime="18 September 2007" pubdate>18 September 2007</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime="18 September 2007" pubdate>18 September 2007</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p>Watch this <a href="http://video.google.com/videoplay?docid=810232012617965344">great Google talk with Rob Pike</a>. He talks about concurrent processes and message passing in the context of Newsqueak - a programming language that he wrote 20 years ago. What he describes is very similar to the Erlang programming model except that channels are first class citizens.</p>
 </div>
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
@@ -1039,21 +1039,21 @@ main <span class="fu">=</span> <span class="kw">do</span>
     <published>2007-08-24T11:14:21Z</published>
     <updated>2007-08-24T11:14:21Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">Java Puzzlers</h1>
+  <h1 class="post-title">Java Puzzlers</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle"></h4>
   
-  <h2><small><time class="timeago" datetime="24 August 2007" pubdate>24 August 2007</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime="24 August 2007" pubdate>24 August 2007</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p>Go directly to <a href="http://video.google.com/videoplay?docid=9214177555401838409">here</a> if you think you know all the dark corners of the Java language and APIs. It’s a really worthwhile Google TechTalk. You will come away thinking that you had better set up automated <a href="http://findbugs.sourceforge.net/">FindBugs</a> analysis of your code!</p>
 </div>
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
@@ -1076,21 +1076,21 @@ main <span class="fu">=</span> <span class="kw">do</span>
     <published>2007-08-14T11:13:13Z</published>
     <updated>2007-08-14T11:13:13Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">First steps to Scala</h1>
+  <h1 class="post-title">First steps to Scala</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle"></h4>
   
-  <h2><small><time class="timeago" datetime="14 August 2007" pubdate>14 August 2007</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime="14 August 2007" pubdate>14 August 2007</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p>If you’re interested in the Scala programming language then <a href="http://www.artima.com/scalazine/articles/steps.html">this article</a> will come in handy. I learned a couple of things. In particular, I didn’t realise that you could instantiate an object with a trait (effectively changing the trait from the one specified in the class definition). Very interested in how that is implemented.</p>
 </div>
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
@@ -1113,21 +1113,21 @@ main <span class="fu">=</span> <span class="kw">do</span>
     <published>2007-07-22T20:28:09Z</published>
     <updated>2007-07-22T20:28:09Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">More praise for Wicket</h1>
+  <h1 class="post-title">More praise for Wicket</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle"></h4>
   
-  <h2><small><time class="timeago" datetime="22 July 2007" pubdate>22 July 2007</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime="22 July 2007" pubdate>22 July 2007</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p><a href="http://wicket.apache.org/">Wicket</a> has finally graduated to become a top level Apache project and is receiving a much <a href="http://jlawmi.blogspot.com/2007/06/reasons-to-love-wicket.html">praise</a> as <a href="http://xhab.blogspot.com/2007/07/top-10-reasons-why-you-should-try.html">ever</a>.</p>
 </div>
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
@@ -1144,20 +1144,20 @@ main <span class="fu">=</span> <span class="kw">do</span>
 ]]></summary>
 </entry>
 <entry>
-    <title>MacTax – Mac prices in the UK</title>
+    <title>MacTax</title>
     <link href="http://steshaw.org/posts/2007-06-24-mactax-mac-prices-in-the-uk.html" />
     <id>http://steshaw.org/posts/2007-06-24-mactax-mac-prices-in-the-uk.html</id>
     <published>2007-06-24T13:50:26Z</published>
     <updated>2007-06-24T13:50:26Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">MacTax – Mac prices in the UK</h1>
+  <h1 class="post-title">MacTax</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle">Mac prices in the UK</h4>
   
-  <h2><small><time class="timeago" datetime="24 June 2007" pubdate>24 June 2007</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime="24 June 2007" pubdate>24 June 2007</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p>I would really like to try a Mac as my next computer. I’ve been meaning to ever since they went UNIX :D . Haven’t decided yet between a MacBook, MacBook Pro or iMac. However, I keep coming back to the pricing … particularly here the UK and I hear it’s the same throughout Europe.</p>
 <p>A basic spec 15&quot; MacBook Pro is £1,300 in the UK and only $2,000 in the US… Almost 600USD more expensive :(</p>
 <p>The standard iMac 24&quot; is £1,350 in the UK and only $2,000 in the US… Almost 700USD more expensive :(</p>
@@ -1166,8 +1166,8 @@ main <span class="fu">=</span> <span class="kw">do</span>
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
@@ -1190,14 +1190,14 @@ main <span class="fu">=</span> <span class="kw">do</span>
     <published>2007-06-18T14:39:20Z</published>
     <updated>2007-06-18T14:39:20Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">Exceptions – checked or not?</h1>
+  <h1 class="post-title">Exceptions – checked or not?</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle"></h4>
   
-  <h2><small><time class="timeago" datetime="18 June 2007" pubdate>18 June 2007</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime="18 June 2007" pubdate>18 June 2007</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p>The <a href="http://javaposse.com/index.php?post_id=226047">Java Posse #127</a> podcast talks about the possibility of removing checked exceptions from the Java language. The JavaPosse folks seem to universally like them. No one knew what Scala did with respect to checked exceptions. Turns out that it <a href="http://www.scala-lang.org/docu/faq.html#id2243896">does not have them</a>!</p>
 <blockquote>
 <p>3.3. Why are there no throws annotations on methods, unlike in Java?</p>
@@ -1210,8 +1210,8 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
@@ -1228,20 +1228,20 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
 ]]></summary>
 </entry>
 <entry>
-    <title>'DSCM: Mercurial or Bazaar?'</title>
+    <title>DSCM: Mercurial or Bazaar?</title>
     <link href="http://steshaw.org/posts/2007-06-11-dscm-mercurial-or-bazaar.html" />
     <id>http://steshaw.org/posts/2007-06-11-dscm-mercurial-or-bazaar.html</id>
     <published>2007-06-11T22:14:47Z</published>
     <updated>2007-06-11T22:14:47Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">'DSCM: Mercurial or Bazaar?'</h1>
+  <h1 class="post-title">DSCM: Mercurial or Bazaar?</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle"></h4>
   
-  <h2><small><time class="timeago" datetime="11 June 2007" pubdate>11 June 2007</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime="11 June 2007" pubdate>11 June 2007</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p>I just recently switched over to using Mercurial for all SCM needs. I figured that the Mercurial team had solved the rename problem by now. However, I just noticed <a href="http://www.markshuttleworth.com/archives/123">Mark Shuttleworth’s entry</a> on the topic. It seems Bazaar could still be in the running as the DSCM of choice. However with Sun choosing it for OpenSolaris and now OpenJDK it kinda becomes inevitable for Java developer to go with Mercurial. After all, Mercurial has Eclipse and Netbeans plugins. But then again, I love to restructure my tree… Then again I don’t merge with anyone right now ;).</p>
 <p><a href="http://moinmoin.wikiwikiweb.de/NewVCS">Why MoinMoin chose Mercurial</a></p>
 <p><a href="http://www.opensolaris.org/os/community/tools/scm/history/">Why OpenSolaris chose Mercurial</a> (GIT and Bazaar being the other finalists)</p>
@@ -1252,8 +1252,8 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
@@ -1276,22 +1276,22 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
     <published>2007-05-31T14:52:30Z</published>
     <updated>2007-05-31T14:52:30Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">Closures for Java</h1>
+  <h1 class="post-title">Closures for Java</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle"></h4>
   
-  <h2><small><time class="timeago" datetime="31 May 2007" pubdate>31 May 2007</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime="31 May 2007" pubdate>31 May 2007</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p>Just watched Neal Gafter’s <a href="http://video.google.com/videoplay?docid=4051253555018153503">Google tech talk about closures</a> again. I really hope that the community gets behind this proposal. Let’s do it right rather than opting for any “pragmatic” solution that amount to a concise syntax for anonymous classes. Gafter’s proposed will allow the “language” to change between updates to the Java Language Specification. This will allow more experimentation and innovation. I encourage you to watch the video for the details. Additional information can be gleaned from the <a href="http://www.bejug.org/confluenceBeJUG/display/PARLEYS/Neal+Gafter+JavaPolis+2006+interview">JavaPolis interview</a>.</p>
 <p>There has appeared a <a href="http://www.javac.info/consensus-closures-jsr.html">consensus proposal</a> on the javac.info site. It does appear that Bob Lee (Crazy Bob) has been turned around. I hope the consensus is not a compromise on the original proposal’s intent.</p>
 </div>
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
@@ -1314,21 +1314,21 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
     <published>2007-05-30T11:13:45Z</published>
     <updated>2007-05-30T11:13:45Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">GWT not just for SPAs!</h1>
+  <h1 class="post-title">GWT not just for SPAs!</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle"></h4>
   
-  <h2><small><time class="timeago" datetime="30 May 2007" pubdate>30 May 2007</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime="30 May 2007" pubdate>30 May 2007</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p>Bruce Johnson busts the myth that Google Web Toolkit is only for single page applications - amongst other things - <a href="http://www.infoq.com/presentations/gwt">in the video presentation available from InfoQ</a>.</p>
 </div>
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
@@ -1351,21 +1351,21 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
     <published>2007-05-30T11:06:08Z</published>
     <updated>2007-05-30T11:06:08Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">WiFi or WiFry?</h1>
+  <h1 class="post-title">WiFi or WiFry?</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle"></h4>
   
-  <h2><small><time class="timeago" datetime="30 May 2007" pubdate>30 May 2007</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime="30 May 2007" pubdate>30 May 2007</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p>Starting to hear <a href="http://www.contractoruk.com/news/003268.html">worrying reports</a> about the heath dangers of WiFi radiation. I certainly hope it’s unfounded as I am not sure what I’d do without always on, wireless broadband!</p>
 </div>
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
@@ -1388,14 +1388,14 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
     <published>2007-05-29T23:57:05Z</published>
     <updated>2007-05-29T23:57:05Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">Rails jabs at Java</h1>
+  <h1 class="post-title">Rails jabs at Java</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle"></h4>
   
-  <h2><small><time class="timeago" datetime="29 May 2007" pubdate>29 May 2007</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime="29 May 2007" pubdate>29 May 2007</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p>A hilarious jab at Java :). A must watch!</p>
 <p>[youtube=http://www.youtube.com/watch?v=PQbuyKUaKFo]</p>
 <p>The <a href="http://www.railsenvy.com/2007/5/15/hi-i-m-ruby-on-rails-part-2">other ads in the series</a> are also worth a look!</p>
@@ -1403,8 +1403,8 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
@@ -1427,14 +1427,14 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
     <published>2007-05-28T17:12:07Z</published>
     <updated>2007-05-28T17:12:07Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">Oh no, not Yet Another Web Framework!</h1>
+  <h1 class="post-title">Oh no, not Yet Another Web Framework!</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle"></h4>
   
-  <h2><small><time class="timeago" datetime="28 May 2007" pubdate>28 May 2007</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime="28 May 2007" pubdate>28 May 2007</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p>Just browsing through the <a href="http://opensource.thoughtworks.com/">Thoughtworks open source projects</a> (after finding <a href="http://buildix.thoughtworks.com/">Buildix</a> and backing up). I noticed YAJWF (Yet another Java web framework) - or perhaps just YAWF (Yet another web framework) - the <a href="http://waffle.codehaus.org/">Waffle Web Framework</a>. I could not contain the reaction: “Oh no, not yet <em>another</em> Java web framework :(”. However, I had this feeling a couple of years ago when the main author of the <a href="http://click.sf.net">Click framework</a> was promoting his framework on the <a href="http://ajug.org.au">AJUG</a> mailing list. At the time I was developing UI with Macromedia Flex and didn’t feel all the full frontal pain of regular web development. I am currently experiencing Spring MVC (without Webflow) and I feel the pain - oh, I feel it! Click looks to relieve the exact pain I am feeling on my current project but Wicket looks to have a brighter future (and more future proof).</p>
 <p>I haven’t looked at Waffle yet. There are too many others to consider first. This is my current short list:</p>
 <ul>
@@ -1449,8 +1449,8 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
@@ -1473,14 +1473,14 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
     <published>2007-05-25T16:44:28Z</published>
     <updated>2007-05-25T16:44:28Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">Thoughts on web application frameworks</h1>
+  <h1 class="post-title">Thoughts on web application frameworks</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle"></h4>
   
-  <h2><small><time class="timeago" datetime="25 May 2007" pubdate>25 May 2007</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime="25 May 2007" pubdate>25 May 2007</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p>Here’s a brain dump of my current thoughts on Web Frameworks:</p>
 <ul>
 <li><p><a href="http://click.sf.net/">Click</a> with <a href="http://openrico.org/">OpenRico</a>. A simple and effective however there are some gaps for more complex flows. Some good OpenRico examples for simple DHTML effects and AJAX.</p></li>
@@ -1502,8 +1502,8 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
@@ -1526,14 +1526,14 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
     <published>2007-05-20T04:47:19Z</published>
     <updated>2007-05-20T04:47:19Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">SAP's innovation drivers</h1>
+  <h1 class="post-title">SAP's innovation drivers</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle"></h4>
   
-  <h2><small><time class="timeago" datetime="20 May 2007" pubdate>20 May 2007</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime="20 May 2007" pubdate>20 May 2007</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p>Here is an interest article from sdtimes about<a href="http://www.sdtimes.com/printArticle/LatestNews-20070501-17.html">SAP’s 7 Drivers of Development Innovation</a>.</p>
 <p>To summarize:</p>
 <ol style="list-style-type: decimal">
@@ -1550,8 +1550,8 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
@@ -1574,22 +1574,22 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
     <published>2007-05-06T18:19:21Z</published>
     <updated>2007-05-06T18:19:21Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">Guice</h1>
+  <h1 class="post-title">Guice</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle"></h4>
   
-  <h2><small><time class="timeago" datetime=" 6 May 2007" pubdate> 6 May 2007</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime=" 6 May 2007" pubdate> 6 May 2007</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p>Just watched an <a href="http://video.google.com/videoplay?docid=6068447410873108038&amp;q=user%3A%22Google+engEDU">intro to Guice video</a> from Google. Looks pretty interesting. Be nice to have less Spring beans configuration files :).</p>
 <p><a href="http://video.google.com/videosearch?q=user%3A%22Google+engEDU%22&amp;so=1">Lots of other interesting Google talks</a> are available!</p>
 </div>
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
@@ -1612,21 +1612,21 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
     <published>2007-05-01T00:44:49Z</published>
     <updated>2007-05-01T00:44:49Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">CrudPage for Click?</h1>
+  <h1 class="post-title">CrudPage for Click?</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle"></h4>
   
-  <h2><small><time class="timeago" datetime=" 1 May 2007" pubdate> 1 May 2007</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime=" 1 May 2007" pubdate> 1 May 2007</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p><a href="http://www.devmedia.com.br/articles/viewcomp.asp?comp=3344">Portuguese Article on CrudPage</a> for Click (<a href="http://translate.google.com/translate?u=http%3A%2F%2Fwww.devmedia.com.br%2Farticles%2Fviewcomp.asp%3Fcomp%3D3344&amp;langpair=pt%7Cen&amp;hl=en&amp;ie=UTF-8&amp;oe=UTF-8&amp;prev=%2Flanguage_tools">translation here</a>). Compelling but mysterious :)</p>
 </div>
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
@@ -1649,14 +1649,14 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
     <published>2007-03-17T22:15:55Z</published>
     <updated>2007-03-17T22:15:55Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">Bertrand Meyer on UML</h1>
+  <h1 class="post-title">Bertrand Meyer on UML</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle"></h4>
   
-  <h2><small><time class="timeago" datetime="17 March 2007" pubdate>17 March 2007</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime="17 March 2007" pubdate>17 March 2007</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p>Via <a href="http://article.gmane.org/gmane.comp.lang.lightweight/4396">ll1-discuss</a></p>
 <blockquote>
 <p><a href="http://archive.eiffel.com/doc/manuals/technology/bmarticles/uml/page.html">UML: The Positive Spin</a> by Bertrand Meyer</p>
@@ -1684,8 +1684,8 @@ My long search had not been in vain. It had led me to a full appreciation of the
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
@@ -1708,14 +1708,14 @@ My long search had not been in vain. It had led me to a full appreciation of the
     <published>2007-03-16T00:20:58Z</published>
     <updated>2007-03-16T00:20:58Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">Wishing for Scrum</h1>
+  <h1 class="post-title">Wishing for Scrum</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle"></h4>
   
-  <h2><small><time class="timeago" datetime="16 March 2007" pubdate>16 March 2007</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime="16 March 2007" pubdate>16 March 2007</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p>My current client is running our project as a heavy RUP process :( . Big design up front with Rose UML diagrams, tedious and restrictive coding standard, manual code review Word documents and ClearCase LT 2003 with mandatory reserved locking. I find myself Googling Agile and Scrum much more often lately :) . It’s even got me thinking that I should take the Certified Scrum Master training (or at least attend a <a href="http://skillsmatter.com/scrum-in-the-brain-session-03-2007">free talk coming up at SkillsMatter</a>).</p>
 <p>A quick start article I found is called <a href="http://www.controlchaos.com/old-site/implem.htm">Begin Using Scrum</a>…</p>
 <p>I’m also a little concerned that Scrum Alliance are too inflexible after reading <a href="http://agilethinking.net/blog/2007/02/21/when-is-scrum-not-scrum/">“When is Scrum not Scrum?”</a>. So perhaps formal training is not the way to go…</p>
@@ -1723,8 +1723,8 @@ My long search had not been in vain. It had led me to a full appreciation of the
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
@@ -1747,21 +1747,21 @@ My long search had not been in vain. It had led me to a full appreciation of the
     <published>2007-01-30T00:48:02Z</published>
     <updated>2007-01-30T00:48:02Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">Give it a REST</h1>
+  <h1 class="post-title">Give it a REST</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle"></h4>
   
-  <h2><small><time class="timeago" datetime="30 January 2007" pubdate>30 January 2007</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime="30 January 2007" pubdate>30 January 2007</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p>WS-* v REST, the wars continue ;). A <a href="http://www.sdtimes.com/fullcolumn/column-20070115-02.html">short article by Larry O’Brien</a> explains why REST+POX beats WS-* for SOA.</p>
 </div>
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
@@ -1784,14 +1784,14 @@ My long search had not been in vain. It had led me to a full appreciation of the
     <published>2007-01-03T14:07:11Z</published>
     <updated>2007-01-03T14:07:11Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">Neal Gafter on Closures for Java</h1>
+  <h1 class="post-title">Neal Gafter on Closures for Java</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle"></h4>
   
-  <h2><small><time class="timeago" datetime=" 3 January 2007" pubdate> 3 January 2007</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime=" 3 January 2007" pubdate> 3 January 2007</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p>A <a href="http://www.bejug.org/confluenceBeJUG/display/PARLEYS/Closures+for+Java">interesting talk by Neal Gafter</a>. Neal explains some of the problems with using anonymous inner classes and how closures will address those. With closures for Java being sold to developers it seems like they are much closer to being added to the official language specification. Yippie!</p>
 <p>References from the talk:</p>
 <pre><code>[http://www.javac.info](http://www.javac.info)
@@ -1805,8 +1805,8 @@ My long search had not been in vain. It had led me to a full appreciation of the
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
@@ -1829,21 +1829,21 @@ My long search had not been in vain. It had led me to a full appreciation of the
     <published>2006-12-17T19:17:01Z</published>
     <updated>2006-12-17T19:17:01Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">Python 3000 – Nothing radical</h1>
+  <h1 class="post-title">Python 3000 – Nothing radical</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle"></h4>
   
-  <h2><small><time class="timeago" datetime="17 December 2006" pubdate>17 December 2006</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime="17 December 2006" pubdate>17 December 2006</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p>An interesting talk by Guido van Rossum is available at <a href="http://video.google.com/videoplay?docid=-6459339159268485356">google video</a>. Nothing radical in Python 3000. Mostly a cleanup release that breaks backwards compatibility. Some consideration is given to Common Lisp like generic functions but I cannot imagine they will enter Python 3000 (too much is needed).</p>
 </div>
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
@@ -1866,21 +1866,21 @@ My long search had not been in vain. It had led me to a full appreciation of the
     <published>2006-08-12T00:06:00Z</published>
     <updated>2006-08-12T00:06:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">Scala adds Erlang-style actors</h1>
+  <h1 class="post-title">Scala adds Erlang-style actors</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle"></h4>
   
-  <h2><small><time class="timeago" datetime="12 August 2006" pubdate>12 August 2006</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime="12 August 2006" pubdate>12 August 2006</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p><a href="http://scala.epfl.ch/downloads/changes.html">Scala 2.1.7</a> and above now come with an Actors library which effectively gives Scala an Erlang style programming model. There is a very interesting <a href="http://lambda-the-ultimate.org/node/1615">paper about the library</a> (linked from Lambda the Ultimate). Scala is really looking great. Let’s hope that Scala is the Java of the future :).</p>
 </div>
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
@@ -1903,22 +1903,22 @@ My long search had not been in vain. It had led me to a full appreciation of the
     <published>2006-07-02T16:42:00Z</published>
     <updated>2006-07-02T16:42:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">CSP for Java programmers</h1>
+  <h1 class="post-title">CSP for Java programmers</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle"></h4>
   
-  <h2><small><time class="timeago" datetime=" 2 July 2006" pubdate> 2 July 2006</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime=" 2 July 2006" pubdate> 2 July 2006</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p>Finally read through this series from IBM developerworks. It’s a worthwhile read for anyone interested in alternatives to doing shared-memory concurrency. JCSP is kinda like an Erlang library for Java (but unfortunately the threads aren’t as lightweight).</p>
 <p>[ <a href="http://www-128.ibm.com/developerworks/java/library/j-csp1.html">Part 1</a> <a href="http://www-128.ibm.com/developerworks/java/library/j-csp2/">Part 2</a> <a href="http://www-128.ibm.com/developerworks/java/library/j-csp3.html">Part 3</a> ]</p>
 </div>
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
@@ -1941,14 +1941,14 @@ My long search had not been in vain. It had led me to a full appreciation of the
     <published>2006-06-02T20:53:00Z</published>
     <updated>2006-06-02T20:53:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">INTJ again</h1>
+  <h1 class="post-title">INTJ again</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle"></h4>
   
-  <h2><small><time class="timeago" datetime=" 2 June 2006" pubdate> 2 June 2006</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime=" 2 June 2006" pubdate> 2 June 2006</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p>Just took this free <a href="http://www.humanmetrics.com/cgi-win/JTypes2.asp">Online Myer-Brigg personality type test</a> and I came out as INTJ again. I fiddled with some of the questions that could go either way but …still INTJ. Here are the results:</p>
 <table style="margin-left:auto;margin-right:auto;" border="1">
 <tbody>
@@ -2016,8 +2016,8 @@ Judging
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
@@ -2040,14 +2040,14 @@ Judging
     <published>2006-05-27T21:21:00Z</published>
     <updated>2006-05-27T21:21:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">Got Firefox 1.5? You've got SVG!</h1>
+  <h1 class="post-title">Got Firefox 1.5? You've got SVG!</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle"></h4>
   
-  <h2><small><time class="timeago" datetime="27 May 2006" pubdate>27 May 2006</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime="27 May 2006" pubdate>27 May 2006</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p>I’ve been using Firefox 1.5 for a while but didn’t realise it comes with some builtin SVG support (a subset of SVG 1.1). Some interesting links:</p>
 <p><a href="http://xtech06.usefulinc.com/schedule/paper/25">Dynamic SVG generation under Firefox 1.5 using JavaScript, XML and XSLT</a></p>
 <p><a href="http://xtech06.usefulinc.com/schedule/paper/137">Building Rich, Encapsulated Widgets Using XBL, XForms and SVG</a></p>
@@ -2059,8 +2059,8 @@ Judging
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
@@ -2083,14 +2083,14 @@ Judging
     <published>2006-05-24T18:09:00Z</published>
     <updated>2006-05-24T18:09:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">Typecase for Java</h1>
+  <h1 class="post-title">Typecase for Java</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle"></h4>
   
-  <h2><small><time class="timeago" datetime="24 May 2006" pubdate>24 May 2006</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime="24 May 2006" pubdate>24 May 2006</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p>I was just reading Stephen Colebourne’s blog. He is the other of <a href="http://joda-time.sourceforge.net/">Joda-Time</a> which looks to be a useful replacement for java.util.Calendar and java.util.DateTime… but I digress.</p>
 <p>I was digging into the blog and found <a href="http://www.jroller.com/page/scolebourne?entry=adding_auto_casts_to_java">an entry about adding autocasts to Java</a> by reusing the instanceof “syntax”. I quite like the proposed “syntax” (which is really nothing, the compiler just detects were you are using instanceof already). The consensus in the blog comments is that there’s a problem with the syntax because the variable can be assigned to. However that can be fixed by mearly disallowing assignment to the variable inside the instanceof block. All that said, it is much cleaner to use a special syntax like typecase to do this which introduces a variable binding. In this way, the expression need not just be a variables but could be a full expression - perhaps a method call e.g. the problem is shown by “if (fred.getBar() instanceof FooBar) {”.</p>
 <p>Of course, this has been done before with the typecase expression like in <a href="http://en.wikipedia.org/wiki/Modula-3">Modula-3</a>. Modula-3 is a very cool but dead language, a prerunner to Java with a more Modula/Pascal syntax. Check out the <a href="http://www-plan.cs.colorado.edu/diwan/modula3/typecase.html">language spec for typecase</a>. Unfortunately the original Modula-3 site, SRC, is down, perhaps try <a href="http://research.compaq.com/SRC/m3defn/html/typecase.html">SRC later</a> or <a href="http://66.249.93.104/search?q=cache:hHoV1NdS_AYJ:research.compaq.com/SRC/m3defn/html/typecase.html+typecase+modula-3&amp;hl=en&amp;amp;gl=uk&amp;ct=clnk&amp;cd=1">Google’s cache of the original typecase page</a>.</p>
@@ -2098,8 +2098,8 @@ Judging
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
@@ -2122,21 +2122,21 @@ Judging
     <published>2006-05-21T20:10:46Z</published>
     <updated>2006-05-21T20:10:46Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">Software Engineering Radio</h1>
+  <h1 class="post-title">Software Engineering Radio</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle"></h4>
   
-  <h2><small><time class="timeago" datetime="21 May 2006" pubdate>21 May 2006</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime="21 May 2006" pubdate>21 May 2006</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p>Discovered a “new” Java-related podcast, <a href="http://seradio.libsyn.com/">Software Engineering Radio</a>. The interview with Ted Neward is good. Inspired me to take deeper look at Scala now that it’s gone 2.0.</p>
 </div>
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
@@ -2159,21 +2159,21 @@ Judging
     <published>2006-05-08T10:55:58Z</published>
     <updated>2006-05-08T10:55:58Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">Playing with WebStart</h1>
+  <h1 class="post-title">Playing with WebStart</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle"></h4>
   
-  <h2><small><time class="timeago" datetime=" 8 May 2006" pubdate> 8 May 2006</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime=" 8 May 2006" pubdate> 8 May 2006</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p>I played around with WebStart this weekend to get my first WebStarted Swing app up and going. Click here to <a href="http://abstractsimplicity.org/FirstWebStart/FirstWebStart.jnlp">Click here to start</a>. It’s signed but uses the PersistenceService anyway to save the contents of the editor pane between invocations. The lower pane is a my debug console :).</p>
 </div>
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
@@ -2196,21 +2196,21 @@ Judging
     <published>2006-05-01T03:19:00Z</published>
     <updated>2006-05-01T03:19:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">XML Abuse</h1>
+  <h1 class="post-title">XML Abuse</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle"></h4>
   
-  <h2><small><time class="timeago" datetime=" 1 May 2006" pubdate> 1 May 2006</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime=" 1 May 2006" pubdate> 1 May 2006</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p>Just in case you’re still abusing XML, here’s <a href="http://www.ddj.com/dept/architect/184414926">some pretty clear advice from back in 2002</a> from the author of <a href="http://integrationpatterns.com">Integration Patterns</a>.</p>
 </div>
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
@@ -2233,14 +2233,14 @@ Judging
     <published>2006-04-27T19:17:00Z</published>
     <updated>2006-04-27T19:17:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">'SOA: Shift to success'</h1>
+  <h1 class="post-title">'SOA: Shift to success'</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle"></h4>
   
-  <h2><small><time class="timeago" datetime="27 April 2006" pubdate>27 April 2006</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime="27 April 2006" pubdate>27 April 2006</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p>I just watched the online presentation “SOA: Shift to success” (available from Sun’s <a href="http://www.sun.com/products/soa/index.jsp">SOA</a> site). It made my stomach churn :).</p>
 <p>It claims to offer a talk on the “latest SOA trends, architectural strategies and benefits” but really all you will learn is the latest marketese in the SOA space. It’s pretty clear how Sun thinks about SOA as the link from the presentation, http://www.sun.com/soa, redirects to http://www.sun.com/products/soa/index.jsp. So click there and purchase yourself a SOA today ;).</p>
 <p>Some highlights were: “almost zero code applications” (with no discussion of ifs and buts), “composite applications” (just another name for component applications) and it’s all going to be pragmatic and open source (but for some reason you can only download a free trial).</p>
@@ -2248,8 +2248,8 @@ Judging
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
@@ -2272,21 +2272,21 @@ Judging
     <published>2006-04-23T05:07:06Z</published>
     <updated>2006-04-23T05:07:06Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">Programming Language Inventor or Serial Killer?</h1>
+  <h1 class="post-title">Programming Language Inventor or Serial Killer?</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle"></h4>
   
-  <h2><small><time class="timeago" datetime="23 April 2006" pubdate>23 April 2006</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime="23 April 2006" pubdate>23 April 2006</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p>A strange but fun quiz - <a href="http://www.malevole.com/mv/misc/killerquiz/">Programming Language Inventor or Serial Killer?</a> via <a href="http://www.vector.org.uk/?submit=entry&amp;url=http://vector.org.uk/weblog/archive/000091.html">An entry on the Vector.org.uk homepage about the possible cause of autism</a>.</p>
 </div>
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
@@ -2309,21 +2309,21 @@ Judging
     <published>2006-04-21T05:17:00Z</published>
     <updated>2006-04-21T05:17:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">JPMorgan's Tyger project</h1>
+  <h1 class="post-title">JPMorgan's Tyger project</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle"></h4>
   
-  <h2><small><time class="timeago" datetime="21 April 2006" pubdate>21 April 2006</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime="21 April 2006" pubdate>21 April 2006</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p>Tyger is JPMorgan’s open source stack for Java applications. Check out the following article - <a href="http://www.watersonline.com/public/showPage.html?page=322256">JPMorgan’s ‘Tyger’ Roars Ahead</a>. Tyger is based Apache+Tomcat, Spring, Maven, and Hibernate or iBatis for RDBMS integration. It’s good to see that the banks take open source seriously.</p>
 </div>
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
@@ -2346,21 +2346,21 @@ Judging
     <published>2006-04-05T12:01:59Z</published>
     <updated>2006-04-05T12:01:59Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">Process engines and webflow</h1>
+  <h1 class="post-title">Process engines and webflow</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle"></h4>
   
-  <h2><small><time class="timeago" datetime=" 5 April 2006" pubdate> 5 April 2006</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime=" 5 April 2006" pubdate> 5 April 2006</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p>The JBoss guys have noticed that Business Process engines and webflow engines, at their most general, require a common engine - the continuation engine. They say <a href="http://www.jboss.com/products/jbpm">“Additionally, jBPM enables pageflow control in web applications”</a>.</p>
 </div>
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
@@ -2383,21 +2383,21 @@ Judging
     <published>2006-03-27T18:17:18Z</published>
     <updated>2006-03-27T18:17:18Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">XML – the big picture</h1>
+  <h1 class="post-title">XML – the big picture</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle"></h4>
   
-  <h2><small><time class="timeago" datetime="27 March 2006" pubdate>27 March 2006</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime="27 March 2006" pubdate>27 March 2006</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p>Take a look at the <a href="http://kensall.com/big-picture">Big Picture of the XML Family of Specifications by Ken Sall</a>. Yikes!</p>
 </div>
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
@@ -2420,21 +2420,21 @@ Judging
     <published>2006-03-27T17:55:20Z</published>
     <updated>2006-03-27T17:55:20Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">Product development on the Mac?</h1>
+  <h1 class="post-title">Product development on the Mac?</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle"></h4>
   
-  <h2><small><time class="timeago" datetime="27 March 2006" pubdate>27 March 2006</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime="27 March 2006" pubdate>27 March 2006</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p>Thinking about product development particularly on the Mac platform? Wil Shipley <a href="http://wilshipley.com/blog/2005/06/student-talk-from-wwdc-2005.html">provides advice and encouragement</a>.</p>
 </div>
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
@@ -2457,21 +2457,21 @@ Judging
     <published>2006-02-28T23:09:06Z</published>
     <updated>2006-02-28T23:09:06Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">Space…the final frontier</h1>
+  <h1 class="post-title">Space…the final frontier</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle"></h4>
   
-  <h2><small><time class="timeago" datetime="28 February 2006" pubdate>28 February 2006</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime="28 February 2006" pubdate>28 February 2006</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p>Take a peek at this: <a href="http://www.physorg.com/news10789.html">Physicist to Present New Exact Solution of Einstein’s Gravitational Field Equation</a> (via <a href="http://www.cdegroot.com/blog/">Cees de Groot</a>).</p>
 </div>
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
@@ -2494,21 +2494,21 @@ Judging
     <published>2006-02-25T07:26:00Z</published>
     <updated>2006-02-25T07:26:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">Computer games – a blast from the past</h1>
+  <h1 class="post-title">Computer games – a blast from the past</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle"></h4>
   
-  <h2><small><time class="timeago" datetime="25 February 2006" pubdate>25 February 2006</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime="25 February 2006" pubdate>25 February 2006</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p>I’ve been watching more video and listening to more audio (podcasts) lately on my computer. One way to do this is searching via Google. This is one of the videos I found - <a href="http://video.google.com/videoplay?docid=-422890025950694425&amp;q=Computer+History+Museum">“Now and Then: Computer Graphics in Games”</a>. Makers of Myst, Prince of Perisa and The Sims talk about their games and discuss issues of games developement. Really very interesting stuff.</p>
 </div>
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
@@ -2531,14 +2531,14 @@ Judging
     <published>2006-02-01T03:27:00Z</published>
     <updated>2006-02-01T03:27:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">When can I get a fix of language goodness?</h1>
+  <h1 class="post-title">When can I get a fix of language goodness?</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle"></h4>
   
-  <h2><small><time class="timeago" datetime=" 1 February 2006" pubdate> 1 February 2006</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime=" 1 February 2006" pubdate> 1 February 2006</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p>After reading a recent paper by Erik Meijer and Peter Drayton I am convinced that I’ll be programming in C# or one of it’s descendents sooner rather than later in order to get my fix of language goodness.</p>
 <p>The paper is “<a href="http://pico.vub.ac.be/~wdmeuter/RDL04/papers/Meijer.pdf">Static Typing Where Possible, Dynamic Typing When Needed: The End of the Cold War Between Programming Languages</a>”. I think of this as “How to have your cake and eat it too” for the programming language community :). I really loved the paper. My eyes glazed over at one or two type equations but perhaps I’ll get back to those :). It’s a laundry list of cool language features most of which I would want in my favorite language and others that I’d like to tweak a little bit probably.</p>
 <p>I loved the rant on XML: “XML is a prime example of retarded innovation”. I really hate how people love XML. NoXML. Ok? They even mention that it’d be better to use something akin to CORBA style IDL for interplanguage communication between the CLR and JVM worlds using a binary wire format. But let’s not leave out scripting languages like Perl, Python and Ruby. Perhaps something like Joe Armstrong’s <a href="http://www.sics.se/~joe/ubf/site/home.html">Universal Binary Format</a> - UDF - is worth considering in this space. <a href="http://www.caucho.com/hessian/">Hessian</a> is another reasonable looking solution to this (even if it does seem to fall on the “Java rulez” side of things).</p>
@@ -2547,8 +2547,8 @@ Judging
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
@@ -2571,14 +2571,14 @@ Judging
     <published>2006-02-01T00:13:00Z</published>
     <updated>2006-02-01T00:13:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">Code as data != closures</h1>
+  <h1 class="post-title">Code as data != closures</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle"></h4>
   
-  <h2><small><time class="timeago" datetime=" 1 February 2006" pubdate> 1 February 2006</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime=" 1 February 2006" pubdate> 1 February 2006</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p>I was just taking another peek at the Groovy site and notice this beauty:</p>
 <p><a href="http://groovy.codehaus.org/Tutorial+2+-+Code+as+data%2C+or+closures?nocache">Code as data (a.k.a. “closures”)</a></p>
 <p>They should get their facts straight!</p>
@@ -2586,8 +2586,8 @@ Judging
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
@@ -2610,22 +2610,22 @@ Judging
     <published>2006-01-18T13:13:00Z</published>
     <updated>2006-01-18T13:13:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">w3 Principles of Design</h1>
+  <h1 class="post-title">w3 Principles of Design</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle"></h4>
   
-  <h2><small><time class="timeago" datetime="18 January 2006" pubdate>18 January 2006</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime="18 January 2006" pubdate>18 January 2006</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p>The w3 <a href="http://www.w3.org/DesignIssues/Principles.html">Principles of Design</a> is an interesting read. In particular, the Principle of Least Power is interesting. This principle doesn’t seem to get much attention these days in software design with DSLs being often embedded. That is “internal” rather than “external” (in <a href="http://www.martinfowler.com/bliki/DomainSpecificLanguage.html">Fowlers terminology</a>). This makes the languages harder to analyse and therefore tools are harder to build.</p>
 <p><a href="http://www.w3.org/DesignIssues/Overview.html">More w3 design issues here</a>.</p>
 </div>
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
@@ -2648,22 +2648,22 @@ Judging
     <published>2006-01-10T14:55:00Z</published>
     <updated>2006-01-10T14:55:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">Better *is* better and worse is worse</h1>
+  <h1 class="post-title">Better *is* better and worse is worse</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle"></h4>
   
-  <h2><small><time class="timeago" datetime="10 January 2006" pubdate>10 January 2006</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime="10 January 2006" pubdate>10 January 2006</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p>I’ve read the original <a href="http://www.dreamsongs.com/WorseIsBetter.html">Worse Is Better</a> article by Richard Gabriel a couple of times now. I discovered it via my interest in programming languages (Lisp in this case).</p>
 <p>Jim Waldo reminds us that Better really is <em>better</em> in Artima article <a href="http://www.artima.com/weblogs/viewpost.jsp?thread=24807">Worse is worse</a>.</p>
 </div>
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
@@ -2686,14 +2686,14 @@ Judging
     <published>2005-12-07T23:01:00Z</published>
     <updated>2005-12-07T23:01:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">Ruby on .NET?</h1>
+  <h1 class="post-title">Ruby on .NET?</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle"></h4>
   
-  <h2><small><time class="timeago" datetime=" 7 December 2005" pubdate> 7 December 2005</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime=" 7 December 2005" pubdate> 7 December 2005</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p>I appears that researchers at <a href="http://qut.edu.au">QUT</a>’s <a href="http://www.plas.fit.qut.edu.au">Programming Languages and Systems</a> group are working on an implementation of Ruby for .NET. The “secret” is reveal <a href="http://www.plas.fit.qut.edu.au/gppg">on this page</a>. The work is support by Microsoft Research. Davis Thomas also mentions it in an article about the <a href="http://www.jot.fm/issues/issue_2005_11/column1">emergence of agile languages</a>. There seem to be no other sources of information at present.</p>
 <p>It turns out that <a href="http://sky.fit.qut.edu.au/~gough/">John Gough</a> organised a birds of a feather for <a href="http://decomp.ulb.ac.be/events/dls05/implementingdynamiclanguagesonthe.netclr/">Implementing Dynamic Languages on the .NET CLR</a> at the <a href="http://decomp.ulb.ac.be:8082/events/dls05/program/">Dynamic Languages Symposium</a> back in October (2005).</p>
 <p>QUT is my old university and John Gough my was my favorite lecturer. I studied compiler construction under John and later wrote a small compiler under his supervision in C# targetting .NET (and using his book <a href="http://www.amazon.co.uk/exec/obidos/ASIN/0130622966/qid=1133997392/sr=1-1/ref=sr_1_8_1/026-1033995-8778027">Compiling for the .NET CLR</a> as a resource). It’s a small world. I’m working in the UK at the moment. The guy who sits next to me at work comes from South Africa. He studied under <a href="http://www.scifac.ru.ac.za/cspt/">Pat Terry</a> at <a href="http://www.ru.ac.za/">Rhodes University</a>. Pat is also a compiler guy. John and him were involved on the Modula-2 language commitee. Turn’s out that I used Pat’s Coco/R (<a href="http://www.scifac.ru.ac.za/coco/#CSHARP">C# version</a>) on that project.</p>
@@ -2701,8 +2701,8 @@ Judging
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
@@ -2725,14 +2725,14 @@ Judging
     <published>2005-12-07T22:31:00Z</published>
     <updated>2005-12-07T22:31:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">Ubuntu Breezy under VMware Player</h1>
+  <h1 class="post-title">Ubuntu Breezy under VMware Player</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle"></h4>
   
-  <h2><small><time class="timeago" datetime=" 7 December 2005" pubdate> 7 December 2005</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime=" 7 December 2005" pubdate> 7 December 2005</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p>I tried the following instructions for getting Ubuntu working on VMwware Player</p>
 <p><a href="http://johnbokma.com/mexit/2005/11/07/vmware-player-ubuntu-installation.html" class="uri">http://johnbokma.com/mexit/2005/11/07/vmware-player-ubuntu-installation.html</a></p>
 <p>Instructions are for Ubuntu Hoary but worked fine for me. I installed this at work under Windows XP. Now I enjoy Linux goodness on the desktop at work :-). Hopefully this will annoy desktop support services a bit less than me repartitioning the disk and installing Ubuntu directy on the hardware. The downside is that it’s a bit sluggish. I haven’t tried Eclipse yet - still using my Windows version. The upside is that I can still read my Outlook based email and doing event/calendaring there and also access IE only intranet and Windows/IE only software like Mecury TestDirector.</p>
@@ -2744,8 +2744,8 @@ Judging
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
@@ -2768,22 +2768,22 @@ Judging
     <published>2005-12-04T16:25:00Z</published>
     <updated>2005-12-04T16:25:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">Getting lost in the Wikipedia</h1>
+  <h1 class="post-title">Getting lost in the Wikipedia</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle"></h4>
   
-  <h2><small><time class="timeago" datetime=" 4 December 2005" pubdate> 4 December 2005</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime=" 4 December 2005" pubdate> 4 December 2005</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p>More and more lately, I’ve noticed myself reading the Wikipedia. It appears prominently in many of my Google searches. I’ve heard it critized because the content is not reviewed (some guy was bent out of shape about a comment about him being involved with the assasination of JFK - rightly so). Anyhow, I’ve only found the information excellent.</p>
 <p>Get lost in the Wikipedia - some starting points: <a href="http://en.wikipedia.org/wiki/X86">x86</a>, <a href="http://en.wikipedia.org/wiki/UNCOL">UNCOL</a>.</p>
 </div>
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
@@ -2806,14 +2806,14 @@ Judging
     <published>2005-11-13T19:55:00Z</published>
     <updated>2005-11-13T19:55:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">Ubuntu on Inspiron 9300</h1>
+  <h1 class="post-title">Ubuntu on Inspiron 9300</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle"></h4>
   
-  <h2><small><time class="timeago" datetime="13 November 2005" pubdate>13 November 2005</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime="13 November 2005" pubdate>13 November 2005</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p>I’ve just been trying out the Live CD of Unbuntu 5.10 this afternoon… and into the evening. I’m really impressed. I’m <em>posting</em> this from my first boot into the live cd! It recognised my hardware very well - the paritions from my external USB drive were mounted, sound card worked, graphics card worked, wireless usb mouse works, touchpad works. Excellent! Just no wireless networking :-(. To get wireless networking working I had to ‘modprobe ipw2200’ and configure the wireless network: ‘ipwconfig eth1 essid’ &amp; ‘ipwconfig eth1 key’, and lastly ‘dhclient’ to request an ip address. You can ‘sudo’ to execute root commands or simply reset the root password via sudo “sudo passwd” and then “su -”.</p>
 <p>I changed the Gnome theme to Clearlooks which I reckon is much nicer that the default Unbuntu theme which is very brown! I’m only on the live cd but I did try installing things - Eclipse, k3b, Gnome desklets, Gmail notifier (and heaps of other stuff). The “Applications-&gt;Add Applications” menu item makes me want to set my Dad up with this distro. Dad has enjoyed Debian in the past but installing software was painful - this is a breeze.</p>
 <p>I wish I was able to eject the live cd in order to test DVD playback but I guess I have to go for a full install for that. I may just be replacing Gentoo after only just getting it up-to-date after behind behind the times for afew months.</p>
@@ -2825,8 +2825,8 @@ Judging
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
@@ -2843,27 +2843,27 @@ Judging
 ]]></summary>
 </entry>
 <entry>
-    <title>Dependency Injection – Vitally Important or Totally Irrelevant</title>
+    <title>Dependency Injection</title>
     <link href="http://steshaw.org/posts/2005-10-25-dependency-injection-vitally-important-or-totally-irrelevant.html" />
     <id>http://steshaw.org/posts/2005-10-25-dependency-injection-vitally-important-or-totally-irrelevant.html</id>
     <published>2005-10-25T12:18:00Z</published>
     <updated>2005-10-25T12:18:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">Dependency Injection – Vitally Important or Totally Irrelevant</h1>
+  <h1 class="post-title">Dependency Injection</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle">Vitally Important or Totally Irrelevant</h4>
   
-  <h2><small><time class="timeago" datetime="25 October 2005" pubdate>25 October 2005</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime="25 October 2005" pubdate>25 October 2005</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p>Jim Weirich has an <a href="http://www.onestepback.org/articles/depinj/">excellent presentation</a> that will make Java developers think differently about dependency injection.</p>
 </div>
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
@@ -2886,22 +2886,22 @@ Judging
     <published>2005-05-02T14:49:00Z</published>
     <updated>2005-05-02T14:49:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">Java…Ruby…Groovy</h1>
+  <h1 class="post-title">Java…Ruby…Groovy</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle"></h4>
   
-  <h2><small><time class="timeago" datetime=" 2 May 2005" pubdate> 2 May 2005</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime=" 2 May 2005" pubdate> 2 May 2005</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p><a href="http://onestepback.org/articles/groovy/groovyspeed.html" class="uri">http://onestepback.org/articles/groovy/groovyspeed.html</a></p>
 <p>If you read the entire article above please note that closures have <em>indefinite</em> extent , not <em>dynamic</em> extent.</p>
 </div>
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
@@ -2924,14 +2924,14 @@ Judging
     <published>2005-04-24T20:04:00Z</published>
     <updated>2005-04-24T20:04:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">Continuations for curmudgeons</h1>
+  <h1 class="post-title">Continuations for curmudgeons</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle"></h4>
   
-  <h2><small><time class="timeago" datetime="24 April 2005" pubdate>24 April 2005</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime="24 April 2005" pubdate>24 April 2005</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p>Sam Ruby has a much praised blog entry entitled “<a href="http://www.intertwingly.net/blog/2005/04/13/Continuations-for-Curmudgeons">Continuations for Curmudgeons</a>”.</p>
 <p>I didn’t like the tone of the article which seem to treat the C programmers as some kind of dinasaur with no interest in other languages (or language features).</p>
 <p>There was no mention of Scheme. When learning about continuations I think it’s best to learn from the source. That source appears to be the Scheme programming language. R5RS includes call-with-current-continuation function usually shortened to call/cc. A really good introduction to Scheme with <a href="http://www.ccs.neu.edu/home/dorai/t-y-scheme/t-y-scheme-Z-H-15.html#node_chap_13">coverage of continuations</a> for <a href="http://www.ccs.neu.edu/home/dorai/t-y-scheme/t-y-scheme-Z-H-16.html#node_chap_14">non-trivial applications</a> is contained in Dorai Sitaram’s <a href="http://www.ccs.neu.edu/home/dorai/t-y-scheme/t-y-scheme.html">Teach Yourself Scheme in Fixnum Days</a> (TYSiFD).</p>
@@ -3003,8 +3003,8 @@ catch (<span class="st">:early_exit</span>) {
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
@@ -3027,14 +3027,14 @@ catch (<span class="st">:early_exit</span>) {
     <published>2005-02-22T05:26:00Z</published>
     <updated>2005-02-22T05:26:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">Static versus dynamic attitude</h1>
+  <h1 class="post-title">Static versus dynamic attitude</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle"></h4>
   
-  <h2><small><time class="timeago" datetime="22 February 2005" pubdate>22 February 2005</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime="22 February 2005" pubdate>22 February 2005</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p>I think Bill is dead-on-the-money with <a href="http://www.artima.com/weblogs/viewpost.jsp?thread=92979">the different-language, different-mindset thing</a>. Java can make you feel guilty alright :-). Even when you can get over your own guilt, there’s the struggle with your colleagues who may not have a dynamic mindset.</p>
 <p>I’ve been programming in JavaScript lately (actually more ActionScript 2.0 but some browser based JavaScript too). You’d probably return a single object there rather than multiple:</p>
 <div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript">    <span class="kw">var</span> context = <span class="ot">ExamplePage</span>.<span class="fu">process</span>();</code></pre></div>
@@ -3056,8 +3056,8 @@ catch (<span class="st">:early_exit</span>) {
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
@@ -3080,21 +3080,21 @@ catch (<span class="st">:early_exit</span>) {
     <published>2005-02-22T04:51:00Z</published>
     <updated>2005-02-22T04:51:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">SOAP is brain dead</h1>
+  <h1 class="post-title">SOAP is brain dead</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle"></h4>
   
-  <h2><small><time class="timeago" datetime="22 February 2005" pubdate>22 February 2005</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime="22 February 2005" pubdate>22 February 2005</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p>Hmmm. <a href="http://www.artima.com/weblogs/viewpost.jsp?thread=95113">Seems SOAP is out and REST is in</a>. Not quite NoXML, just no SOAP. Being British, it’s not hard to imagine getting by without a little soap :-).</p>
 </div>
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
@@ -3117,14 +3117,14 @@ catch (<span class="st">:early_exit</span>) {
     <published>2005-02-22T04:33:00Z</published>
     <updated>2005-02-22T04:33:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">NoXML and web service specifications!</h1>
+  <h1 class="post-title">NoXML and web service specifications!</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle"></h4>
   
-  <h2><small><time class="timeago" datetime="22 February 2005" pubdate>22 February 2005</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime="22 February 2005" pubdate>22 February 2005</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p>Think you know something about XML and Web services? Check out <a href="http://wiki.apache.org/ws/WebServiceSpecifications">all these web service standards</a>. Oh my! Just say no. No!</p>
 <p>The only XML technology that I’d like to share with you right now is the upcoming NoXML. It will usher in an exicting new world to software development. The best XML technology ever.</p>
 <p>NoXML - wonderful new XML technology!</p>
@@ -3132,8 +3132,8 @@ catch (<span class="st">:early_exit</span>) {
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
@@ -3156,21 +3156,21 @@ catch (<span class="st">:early_exit</span>) {
     <published>2005-02-21T13:29:00Z</published>
     <updated>2005-02-21T13:29:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">Mock object framework talk</h1>
+  <h1 class="post-title">Mock object framework talk</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle"></h4>
   
-  <h2><small><time class="timeago" datetime="21 February 2005" pubdate>21 February 2005</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime="21 February 2005" pubdate>21 February 2005</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p>Andy Marks gave <a href="http://www.corvine.org/blog/archives/2005/02/java_mock_objec_1.html">a talk on mock object frameworks</a> at the <a href="http://www.ajug.org.au/qjug/">AJUG</a> tonight (my first visit to AJUG for some time). I had happened to review some frameworks the week before. The talk solidified my decision to use <a href="http://easymock.org/">EasyMock</a> should the need arise.</p>
 </div>
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
@@ -3193,21 +3193,21 @@ catch (<span class="st">:early_exit</span>) {
     <published>2005-02-21T02:44:00Z</published>
     <updated>2005-02-21T02:44:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">Fonts on Gentoo</h1>
+  <h1 class="post-title">Fonts on Gentoo</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle"></h4>
   
-  <h2><small><time class="timeago" datetime="21 February 2005" pubdate>21 February 2005</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime="21 February 2005" pubdate>21 February 2005</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p>Finally got my fonts sorted out on Gentoo. All the info is in the <a href="http://gentoo-wiki.com/HOWTO_Xorg_and_Fonts">Gentoo Xorg fonts HOWTO</a>.</p>
 </div>
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
@@ -3230,21 +3230,21 @@ catch (<span class="st">:early_exit</span>) {
     <published>2005-02-17T01:48:00Z</published>
     <updated>2005-02-17T01:48:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">Transactional caches</h1>
+  <h1 class="post-title">Transactional caches</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle"></h4>
   
-  <h2><small><time class="timeago" datetime="17 February 2005" pubdate>17 February 2005</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime="17 February 2005" pubdate>17 February 2005</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p>The <a href="http://www.theserverside.com/talks/video.tss?id=CameronPurdy&amp;format=http">interview with Cameron Purdy at TSS</a> was a good read. Afew years back I was very interested in object databases and then [distributed] transactional caches. A coworker at ADC (now Intec) from the research lab put me onto the <a href="http://ali-www.cs.umass.edu/~steveb/pubs/abstracts.html#thesis">work of Stephen Blackburn</a>.</p>
 </div>
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
@@ -3267,14 +3267,14 @@ catch (<span class="st">:early_exit</span>) {
     <published>2005-02-16T10:55:00Z</published>
     <updated>2005-02-16T10:55:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">Interviewing programmers</h1>
+  <h1 class="post-title">Interviewing programmers</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle"></h4>
   
-  <h2><small><time class="timeago" datetime="16 February 2005" pubdate>16 February 2005</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime="16 February 2005" pubdate>16 February 2005</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p>If you’re interviewing, you might find the following links useful.</p>
 <p><a href="http://www.artima.com/wbc/interprogP.html">Interviewing Programmers (Artima)</a></p>
 <p><a href="http://www.itconversations.com/shows/detail392.html">Hiring technies and nerds</a></p>
@@ -3282,8 +3282,8 @@ catch (<span class="st">:early_exit</span>) {
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
@@ -3306,22 +3306,22 @@ catch (<span class="st">:early_exit</span>) {
     <published>2005-01-24T01:07:30Z</published>
     <updated>2005-01-24T01:07:30Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">Developer Testing with Kent Beck</h1>
+  <h1 class="post-title">Developer Testing with Kent Beck</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle"></h4>
   
-  <h2><small><time class="timeago" datetime="24 January 2005" pubdate>24 January 2005</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime="24 January 2005" pubdate>24 January 2005</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p>Check out <a href="http://www.itconversations.com/shows/detail301.html">this talk with Kent Beck about developer testing</a>.</p>
 <p>I’m worried about the distinction Kent tries to make between Quality and Healthy software. Kent’s decription of “healthy software” is what I think of as “quality software”.</p>
 </div>
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
@@ -3344,14 +3344,14 @@ catch (<span class="st">:early_exit</span>) {
     <published>2005-01-01T07:06:09Z</published>
     <updated>2005-01-01T07:06:09Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">Hibernate in Action</h1>
+  <h1 class="post-title">Hibernate in Action</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle"></h4>
   
-  <h2><small><time class="timeago" datetime=" 1 January 2005" pubdate> 1 January 2005</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime=" 1 January 2005" pubdate> 1 January 2005</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p>Finally finished Rod Johnson’s “J2EE Design and Development” afew weeks ago. I’ve plowed through the Hibernate doco and now I’m onto “Hibernate in Action”. I was surprised to find the following inane comment:</p>
 <blockquote>
 Doing away with Java and SQL and starting from scratch isn’t considered elegant.
@@ -3366,8 +3366,8 @@ Are the relational data model and (especially) SQL the right choices for periste
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
@@ -3390,21 +3390,21 @@ Are the relational data model and (especially) SQL the right choices for periste
     <published>2004-10-22T09:53:52Z</published>
     <updated>2004-10-22T09:53:52Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">Avoid round trips!</h1>
+  <h1 class="post-title">Avoid round trips!</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle"></h4>
   
-  <h2><small><time class="timeago" datetime="22 October 2004" pubdate>22 October 2004</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime="22 October 2004" pubdate>22 October 2004</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p>Just watched Ted Neward’s <a href="http://www.theserverside.com/talks/videos/TedNeward/interview.tss?bandwidth=dsl">TSS tech talk</a>. It resonated with me quite well. He revealed that his new book - Effective Enterprise Java - is sumed up by the phrase: “Avoid round trips!”. I like his “let’s not get religious about OO” attitude. He seems a little closed to dynamically typed languages and talks about “strong typing” when he means “static typing”. Anyways, he’s trying out Smalltalk so there’s hope :). All the talk of REST and “spaces” (JavaSpaces, T-Spaces etc) leads me to think of the Erlang and Oz models of concurrency (like a generalisation of the UNIX pipe). These languages need more proponents!</p>
 </div>
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
@@ -3427,21 +3427,21 @@ Are the relational data model and (especially) SQL the right choices for periste
     <published>2004-09-27T13:46:33Z</published>
     <updated>2004-09-27T13:46:33Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">Movitz – a Lisp OS platform</h1>
+  <h1 class="post-title">Movitz – a Lisp OS platform</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle"></h4>
   
-  <h2><small><time class="timeago" datetime="27 September 2004" pubdate>27 September 2004</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime="27 September 2004" pubdate>27 September 2004</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p>Wow. You hear alot of rumours about Lisp-based operating systems but you rarely come across a project that appears active. <a href="http://common-lisp.net/project/movitz/">Movitz</a> looks like a promising <em>active</em> LispOS project! It’s goal is to provide a development platform to run CL-based kernels on x86 PCs “on the metal”. I guess these restrictions make it doable. I’d prefer to see CL or Scheme combined with Linux or FreeBSD kernel so that you could still have a viable usable system and also experiement with OS ideas using lisp. In this respect, <a href="http://www.abstractnonsense.com/schemix/">Schemix</a> looks interesting. It’s a Scheme interpreter (based on <a href="http://tinyscheme.sf.net">TinyScheme</a>) patched into the Linux kernel. I haven’t looked at it closely but imagine that it’s interpreted nature means that it is probably only useful for early prototyping of ideas and certainly for exploring and learning about the kernel.</p>
 </div>
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
@@ -3464,14 +3464,14 @@ Are the relational data model and (especially) SQL the right choices for periste
     <published>2004-09-27T13:16:46Z</published>
     <updated>2004-09-27T13:16:46Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">WCL and shared libraries</h1>
+  <h1 class="post-title">WCL and shared libraries</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle"></h4>
   
-  <h2><small><time class="timeago" datetime="27 September 2004" pubdate>27 September 2004</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime="27 September 2004" pubdate>27 September 2004</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p>Just read about <a href="http://wcl.kontiki.com/">WCL</a>, a Common Lisp (CL) implementation I wasn’t aware of. The <a href="http://wcl.kontiki.com/downloads/lfp-paper.ps">paper</a> talks about how CL is compiled to C and linked into a shared library. This allows a memory efficient delivery environment. i.e. CL application share code via shared libraries including the core system/libraries. I missed whether the CL compiler is available at runtime which would be a drawback. Many problems were solved but still afew remained such as relocated data with embedded pointers in the shared library (causing slower startup times), generational GC is not implemented, the compiler could be more sophisticated and there is no thread support. The project appears to be stalled.</p>
 <p>I wonder whether other CL implementations such as <a href="http://www.gnu.org/software/gcl/">GCL</a> and <a href="http://ecls.sourceforge.net/">ECL</a> using the CL-&gt;C method are able to provide sharing through shared libraries?</p>
 <p>Java programs have similar problems that WCL attempts to solve for CL. When the same Java program is loaded by separate JVMs (in different processes), they don’t share any code. i.e. the classes will be jitted multiple times …being stored in memory multiple times. I believe that this problem occurs even within the <em>same</em> JVM when the class files are loaded via different class loaders! I’ve yet to confirm that though. This is one of the reasons why Java application take up alot of memory. Seems to be a problem with 1.4.2 anyways. Perhaps 1.5 fixes this problem. Microsoft’s CLR deals with this situation by using the assembly is the unit of deployment and having each assembly contain a version number. I imagine that with the CLR (and other CLI implementations), that each assembly is only compiled once within the same process. This doesn’t however solve the “multiple process runnings CLRs” problem though I believe there is an ahead-of-time option which stores compiled assemblies in an on-disk cache - this would would likely solve the problem (as long as the compiled assemblies are loaded into shared memory like a shared library).</p>
@@ -3479,8 +3479,8 @@ Are the relational data model and (especially) SQL the right choices for periste
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
@@ -3503,22 +3503,22 @@ Are the relational data model and (especially) SQL the right choices for periste
     <published>2004-09-15T21:55:22Z</published>
     <updated>2004-09-15T21:55:22Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">CPU Scheduling</h1>
+  <h1 class="post-title">CPU Scheduling</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle"></h4>
   
-  <h2><small><time class="timeago" datetime="15 September 2004" pubdate>15 September 2004</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime="15 September 2004" pubdate>15 September 2004</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p>I’m slowing working my way through the <a href="http://webcast.berkeley.edu/courses/archive.html?prog=116&amp;group=57">cs162 lectures from Berkeley</a>. Just watched the <a href="http://webcast.berkeley.edu/courses/replay.php?prog=116&amp;amp;group=57&amp;date=20040225&amp;rep=real">CPU Scheduling lecture</a>. I had the realisation that CPU scheduling is “just” resource sharing (der), like shoppers sharing the checkout operators on their way out of the store. Alan talked about optimal scheduling algorithms for “perfect” situation. I think it was FIFO was provably optimal when considering time to completion and SRTF (shortest running task first?) was provably optimal when considering average response time. FIFO works when all jobs are the same length, SRFT is more general but you have to guess about how long a job will run. I had the thought that if there are optimal schedulers for certain situations then wouldn’t it be great to be able to specify what scheduling algorithm to use for certain processes? You could even allow user-designed schedulers to which you assign your jobs. Then you could have a heirarchy of schedulers and a super-scheduler that moves jobs/tasks between the different schedulers…. or you could use the lottery algorithm that Alan talked about towards the end of the lecture. It has nice properties like avoiding starvation (in particular of long running tasks) and easy to understand fairness. Anyways I still think it would be great to have a Lisp-based operating system, perhaps as a layer above Linux (cause you don’t want to write all those device drivers do you) that would allow experimentation with custom scheduling algorithms and heirarchies of schedulers.</p>
 <p>The other potentially interesting thing about a LispOS is that you could do away with reserving stack space for each thread. One of the problems with having lots of processes (and threads) is that it consumes alot of memory even if each thread only gets afew kilobytes it mounts up quickly. With Lisp you needn’t use the stack to hold “procedure activations”, you could put them in the garbage collected heap (actually you might want to optimise that a bit and put them in a special “stack” heap and only move/link them into the gc-heap if necessary). This way threads only take as much “stack” as they need. Also “stack space” grows as required (just as the heap grows as required). Potential problems would be efficiency of the gc-heap - particularly memory allocation speed - and slightly larger activation frames due to embedded pointers.</p>
 </div>
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
@@ -3541,14 +3541,14 @@ Are the relational data model and (especially) SQL the right choices for periste
     <published>2004-09-15T18:12:43Z</published>
     <updated>2004-09-15T18:12:43Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">Misunderstandings about closures</h1>
+  <h1 class="post-title">Misunderstandings about closures</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle"></h4>
   
-  <h2><small><time class="timeago" datetime="15 September 2004" pubdate>15 September 2004</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime="15 September 2004" pubdate>15 September 2004</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p>Even the “big names you know” in the Java software development community <a href="http://www.almaer.com/blog/archives/000435.html">can make mistakes when it comes to closures</a>.</p>
 <p>Gavin King thinks that closures wouldn’t work in Java because of checked exceptions. However, since the use of checked exception is optional you can use “closures” (annonmous inner classes) pretty well if you either don’t use checked exception or alternatively wrap checked exceptions with unchecked exception (like the JDBC template in Spring). I was wondering if it would be possible to have you cake and eat it too on this point with Java 1.5 generics - another poster says it is possible to parameterise on the checked exceptions. I hope that’s true because that’s the best of both worlds - “closures” and checked exceptions - or at least living life without wrapping every last damn checked exception in an unchecked one ;-).</p>
 <p>James Strachan commented that closures have made it into C# 2.0. Another poster correctly pointed out that this is just <em>not</em> the case. I can understand why you’d thnk that - you really have to read between the lines in those Microsoft articles ;-). With all the good .NET stuff coming out of Microsoft lately I’m surprised they didn’t correct this properly in C# 2.0. I much prefer their implementation of generics - it’s not based on type erasure like in the Java.</p>
@@ -3557,8 +3557,8 @@ Are the relational data model and (especially) SQL the right choices for periste
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
@@ -3581,21 +3581,21 @@ Are the relational data model and (especially) SQL the right choices for periste
     <published>2004-08-30T17:42:40Z</published>
     <updated>2004-08-30T17:42:40Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">RealPlayer10 on Linux</h1>
+  <h1 class="post-title">RealPlayer10 on Linux</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle"></h4>
   
-  <h2><small><time class="timeago" datetime="30 August 2004" pubdate>30 August 2004</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime="30 August 2004" pubdate>30 August 2004</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p>I was recently having trouble with sound and RealPlayer10 on Linux. It turns out that RealPlayer10 (and Helix Player) only support the older OSS sound drivers (rather than the newer ALSA drivers). I was on 2.6.6. I downloaded 2.6.8.1 and this time only compiled the OSS drivers and not the ALSA ones. Be aware that you should not (perhaps cannot) load both OSS and ALSA drivers.</p>
 </div>
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
@@ -3618,14 +3618,14 @@ Are the relational data model and (especially) SQL the right choices for periste
     <published>2004-08-30T14:08:24Z</published>
     <updated>2004-08-30T14:08:24Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">Spring and Hibernate</h1>
+  <h1 class="post-title">Spring and Hibernate</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle"></h4>
   
-  <h2><small><time class="timeago" datetime="30 August 2004" pubdate>30 August 2004</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime="30 August 2004" pubdate>30 August 2004</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p>We’re using Hibernate at work but not Spring yet. We are using WebLogic Web Services and Flash Remoting which potentially make Spring less useful. However, I’m been reading alot about Spring lately and related topics lately:</p>
 <ul>
 <li><a href="http://www.onjava.com/lpt/a/4952">Demonstrating Spring’s Finesse</a></li>
@@ -3639,8 +3639,8 @@ Are the relational data model and (especially) SQL the right choices for periste
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
@@ -3663,21 +3663,21 @@ Are the relational data model and (especially) SQL the right choices for periste
     <published>2004-08-30T07:17:14Z</published>
     <updated>2004-08-30T07:17:14Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">Abelson and Sussman lectures</h1>
+  <h1 class="post-title">Abelson and Sussman lectures</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle"></h4>
   
-  <h2><small><time class="timeago" datetime="30 August 2004" pubdate>30 August 2004</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime="30 August 2004" pubdate>30 August 2004</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p>I finished the <a href="http://swiss.csail.mit.edu/classes/6.001/abelson-sussman-lectures/">SICP videos</a> last weekend (although I need to return to the last 4). I wanted to get back to finish watching a lecture webcast series for the subject <a href="http://webcast.berkeley.edu/courses/archive.html?prog=116&amp;group=57">Operating Systems and Systems Programming</a> from Berkeley. I’ve seen a previous years lecture series but I’m pretty sure I didn’t finish. It’s all in Real media format so you need RealPlayer. It’s not so good on dialup - I hardly get a frame but the audio is ok.</p>
 </div>
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
@@ -3700,21 +3700,21 @@ Are the relational data model and (especially) SQL the right choices for periste
     <published>2004-08-29T06:17:57Z</published>
     <updated>2004-08-29T06:17:57Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">The Koan of Side Effects</h1>
+  <h1 class="post-title">The Koan of Side Effects</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle"></h4>
   
-  <h2><small><time class="timeago" datetime="29 August 2004" pubdate>29 August 2004</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime="29 August 2004" pubdate>29 August 2004</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p>I had a laugh at <a href="http://web.archive.org/web/20031105005932/www.bagley.org/~doug/ocaml/Notes/okoans.shtml">this</a> (via <a href="news://comp.lang.functional">comp.lang.functional</a>).</p>
 </div>
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
@@ -3737,14 +3737,14 @@ Are the relational data model and (especially) SQL the right choices for periste
     <published>2004-08-22T13:52:14Z</published>
     <updated>2004-08-22T13:52:14Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">Erlang the Movie</h1>
+  <h1 class="post-title">Erlang the Movie</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle"></h4>
   
-  <h2><small><time class="timeago" datetime="22 August 2004" pubdate>22 August 2004</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime="22 August 2004" pubdate>22 August 2004</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p>Just watched <a href="http://lambda-the-ultimate.org/node/view/197">Erlang the Movie</a> from 1990 (200M, via lambda-the-ultimate). Such a laugh I had to watch again :-). However, there was a serious demonstration of a “hot software upgrade” technology which allowed the system software to be patched while continuing uninterrupted in “24x7” style.</p>
 <p>I downloaded the movie via <a href="http://bitconjurer.org/BitTorrent/">BitTorrent</a> using <a href="http://bittornado.com/">BitTornado</a>. You can “apt-get install bittornado-gui” if you’re on Debian.</p>
 <p><a href="http://erlang.org">Erlang</a> is a programming language that uses message passing concurrency rather than shared state concurrency (as in Java). Some other languages with message passing concurrency are <a href="http://mozart-oz.org/">Oz</a>, <a href="http://erights.org">E</a>, <a href="http://www.iolanguage.com/">Io</a> and apparently MultiLisp<a href="http://mozart-oz.org"></a> (a Scheme dialect).</p>
@@ -3752,8 +3752,8 @@ Are the relational data model and (especially) SQL the right choices for periste
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
@@ -3776,21 +3776,21 @@ Are the relational data model and (especially) SQL the right choices for periste
     <published>2004-08-22T10:46:50Z</published>
     <updated>2004-08-22T10:46:50Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">SwingWorker race condition</h1>
+  <h1 class="post-title">SwingWorker race condition</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle"></h4>
   
-  <h2><small><time class="timeago" datetime="22 August 2004" pubdate>22 August 2004</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime="22 August 2004" pubdate>22 August 2004</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p>I was reading about the problems related to shared state concurrency (as opposed to message passing concurrency as in Erlang and Oz). I came across the following <a href="http://c2.com/cgi/wiki?SwingWorkerRaceCondition">interesting bug described on the wiki</a> discovered by Luke Gorrie. There is also a <a href="http://java.sun.com/products/jfc/tsc/articles/threads/update.html">reference to a Sun article</a> describing the bug and the solution. This is ancient history but probably a problem misunderstood by many Java programmers.</p>
 </div>
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
@@ -3813,14 +3813,14 @@ Are the relational data model and (especially) SQL the right choices for periste
     <published>2004-08-18T12:37:07Z</published>
     <updated>2004-08-18T12:37:07Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">Pairs as lambdas</h1>
+  <h1 class="post-title">Pairs as lambdas</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle"></h4>
   
-  <h2><small><time class="timeago" datetime="18 August 2004" pubdate>18 August 2004</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime="18 August 2004" pubdate>18 August 2004</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p>The <a href="http://swiss.csail.mit.edu/classes/6.001/abelson-sussman-lectures/">SICP video lectures</a> talk about how data is not intrinsic. That is, once you have lambda, you have enough to create all the data structures you want. Of course that is without caring for efficiency.</p>
 <p>Here’s some code I was mucking around with the other night:</p>
 <div class="sourceCode"><pre class="sourceCode scheme"><code class="sourceCode scheme"><span class="co">; Implement pairs (cons, car, cdr) in terms of lambda.</span>
@@ -3854,8 +3854,8 @@ a                 <span class="co">; =&gt; a procedure</span>
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
@@ -3878,14 +3878,14 @@ a                 <span class="co">; =&gt; a procedure</span>
     <published>2004-08-14T18:14:10Z</published>
     <updated>2004-08-14T18:14:10Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">The Python Paradox</h1>
+  <h1 class="post-title">The Python Paradox</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle"></h4>
   
-  <h2><small><time class="timeago" datetime="14 August 2004" pubdate>14 August 2004</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime="14 August 2004" pubdate>14 August 2004</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p><a href="http://www.paulgraham.com/pypar.html" class="uri">http://www.paulgraham.com/pypar.html</a></p>
 <p>I learnt Python afew years ago. I’ve moved onto Ruby for day to day tasks and am studying Scheme and Common Lisp when I can spare a moment.</p>
 <p>Today I was watching another couple of videos from the <a href="http://swiss.csail.mit.edu/classes/6.001/abelson-sussman-lectures/">Abelson and Sussman collection</a>. It’s about 9G of divx movies. I’m pretty dedicated to my lisp education - I’m only on 32k dialup connection. I watched 6a&amp;b about streams (again) and then got onto the very amusing lectures on meta circular evaluation (7a&amp;b). Very funny - a must see for any lisp enthusiast.</p>
@@ -3894,8 +3894,8 @@ a                 <span class="co">; =&gt; a procedure</span>
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
@@ -3918,14 +3918,14 @@ a                 <span class="co">; =&gt; a procedure</span>
     <published>2004-08-09T15:56:34Z</published>
     <updated>2004-08-09T15:56:34Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="entry-title">Neverwinter Nights on Linux</h1>
+  <h1 class="post-title">Neverwinter Nights on Linux</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle"></h4>
   
-  <h2><small><time class="timeago" datetime=" 9 August 2004" pubdate> 9 August 2004</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime=" 9 August 2004" pubdate> 9 August 2004</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p>For anyone wanting to get nwn going on Linux will find <a href="http://www.linuxjournal.com/article.php?sid=7377">this</a> a useful resource. In case you miss the important links:</p>
 <p>A <a href="http://icculus.org/%7Eravage/nwn/#hotu">GUI nwn installer</a> which looks cool.</p>
 <p><a href="http://home.woh.rr.com/nwmovies/">Getting the Bink movies to play in-game</a>.</p>
@@ -3936,8 +3936,8 @@ a                 <span class="co">; =&gt; a procedure</span>
 
 <br/>
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname

@@ -17,6 +17,7 @@
     <link rel="stylesheet" type="text/css" href="../css/default.css" />
     <link rel="stylesheet" type="text/css" href="../css/syntax-figure.css" />
     <link rel="stylesheet" type="text/css" href="../css/syntax.css" />
+    <link href="http://fonts.googleapis.com/css?family=Roboto:900,300italic,400" rel="stylesheet" type="text/css">
 
     <!-- Google analytics { -->
     <script>
@@ -84,16 +85,16 @@
             </ol>
           </div>
         </div>
-        <div class="col-sm-10">
+        <div class="col-sm-10 content">
           <header class="page-header">
-  <h1 class="entry-title">Misunderstandings about closures</h1>
+  <h1 class="post-title">Misunderstandings about closures</h1>
   
-    <h4 class="subtitle"></h4>
+    <h4 class="post-subtitle"></h4>
   
-  <h2><small><time class="timeago" datetime="15 September 2004" pubdate>15 September 2004</time></small></h2>
+  <h4 class="post-date"><small><time class="timeago" datetime="15 September 2004" pubdate>15 September 2004</time></small></h4>
 </header>
 
-<div class="entry-content">
+<div class="post-content">
   <p>Even the “big names you know” in the Java software development community <a href="http://www.almaer.com/blog/archives/000435.html">can make mistakes when it comes to closures</a>.</p>
 <p>Gavin King thinks that closures wouldn’t work in Java because of checked exceptions. However, since the use of checked exception is optional you can use “closures” (annonmous inner classes) pretty well if you either don’t use checked exception or alternatively wrap checked exceptions with unchecked exception (like the JDBC template in Spring). I was wondering if it would be possible to have you cake and eat it too on this point with Java 1.5 generics - another poster says it is possible to parameterise on the checked exceptions. I hope that’s true because that’s the best of both worlds - “closures” and checked exceptions - or at least living life without wrapping every last damn checked exception in an unchecked one ;-).</p>
 <p>James Strachan commented that closures have made it into C# 2.0. Another poster correctly pointed out that this is just <em>not</em> the case. I can understand why you’d thnk that - you really have to read between the lines in those Microsoft articles ;-). With all the good .NET stuff coming out of Microsoft lately I’m surprised they didn’t correct this properly in C# 2.0. I much prefer their implementation of generics - it’s not based on type erasure like in the Java.</p>
@@ -102,8 +103,8 @@
 
 <br />
 
-<!-- <div id="disqus_thread" class="entry-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="entry-aside comments"></div>
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
