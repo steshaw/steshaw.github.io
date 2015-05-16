@@ -54,6 +54,12 @@ $ <span class="kw">btrfs</span> filesystem resize max /mnt/root</code></pre></di
 <div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash">$ <span class="kw">reboot</span></code></pre></div>
 </div>
 
+
+<div class="tags">
+  <a href="/tags/NixOS.html">NixOS</a>, <a href="/tags/Linux.html">Linux</a>
+</div>
+
+
 <br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
@@ -117,6 +123,12 @@ $ <span class="kw">btrfs</span> filesystem resize max /mnt/root</code></pre></di
 </ul></li>
 </ul>
 </div>
+
+
+<div class="tags">
+  <a href="/tags/Hakyll.html">Hakyll</a>, <a href="/tags/Halcyon.html">Halcyon</a>, <a href="/tags/CircleCI.html">CircleCI</a>
+</div>
+
 
 <br/>
 
@@ -195,6 +207,12 @@ main <span class="fu">=</span> putStrLn <span class="st">&quot;Hello, world!&quo
 </ul>
 </div>
 
+
+<div class="tags">
+  <a href="/tags/Haskell.html">Haskell</a>, <a href="/tags/Hakyll.html">Hakyll</a>
+</div>
+
+
 <br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
@@ -229,7 +247,11 @@ main <span class="fu">=</span> putStrLn <span class="st">&quot;Hello, world!&quo
 </header>
 
 <div class="post-content">
-  <p>Cross-posted to <a href="https://medium.com/p/2e16ec53137f">Medium</a>.</p>
+  <div class="cross-posted">
+
+<p>Cross-posted to <a href="https://medium.com/p/2e16ec53137f">Medium</a>.</p>
+</div>
+
 <!--
   <div class="section-background" contenteditable="false"
   data-image-id="1*sBKC5NEYgKVjDFPbQWX3-A.jpeg" data-width="1025"
@@ -268,6 +290,12 @@ main <span class="fu">=</span> putStrLn <span class="st">&quot;Hello, world!&quo
 
 </div>
 
+
+<div class="tags">
+  <a href="/tags/Software%20Engineering.html">Software Engineering</a>, <a href="/tags/Teams.html">Teams</a>
+</div>
+
+
 <br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
@@ -304,6 +332,12 @@ main <span class="fu">=</span> putStrLn <span class="st">&quot;Hello, world!&quo
 <div class="post-content">
   <p>Goodbye <a href="http://wordpress.com/">wordpress.com</a>, it’s been good. Now blogging at <a href="http://steshaw.org">steshaw.org</a></p>
 </div>
+
+
+<div class="tags">
+  
+</div>
+
 
 <br/>
 
@@ -374,6 +408,12 @@ index 9a50a8b..fc9dc37 100644
 <li><a href="http://cwoebker.com/posts/latex-math-magic/">LaTeX Math Magic</a></li>
 </ul>
 </div>
+
+
+<div class="tags">
+  <a href="/tags/Octopress.html">Octopress</a>, <a href="/tags/MathJax.html">MathJax</a>
+</div>
+
 
 <br/>
 
@@ -453,6 +493,12 @@ main <span class="fu">=</span> <span class="kw">do</span>
 <span class="fu">countWords</span>(text) foreach println</code></pre></div>
 </div>
 
+
+<div class="tags">
+  <a href="/tags/Octopress.html">Octopress</a>
+</div>
+
+
 <br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
@@ -521,6 +567,12 @@ main <span class="fu">=</span> <span class="kw">do</span>
 <p>Since I won’t be purchasing a new notebook until next year, I am hoping that the rumoured April MacBook Pro update will make the decision easier. Hoping for higher resolution displays like MacBook Air, cheaper flash/ssd storage option, quad-cores, Mac OS X Lion and cheaper 8G RAM option. Hopefully a combination of Apple and a rising AUD can deliver. It’s quite possible that the AUD could come crashing down before then though :(.</p>
 </div>
 
+
+<div class="tags">
+  <a href="/tags/Apple.html">Apple</a>, <a href="/tags/Computer%20Hardware.html">Computer Hardware</a>, <a href="/tags/HP.html">HP</a>, <a href="/tags/Mac.html">Mac</a>, <a href="/tags/Ubuntu.html">Ubuntu</a>
+</div>
+
+
 <br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
@@ -569,6 +621,12 @@ main <span class="fu">=</span> <span class="kw">do</span>
 <p>Most people fail on that last point. <strong>Don’t</strong>.</p>
 </div>
 
+
+<div class="tags">
+  <a href="/tags/Agile.html">Agile</a>, <a href="/tags/Software%20Engineering.html">Software Engineering</a>
+</div>
+
+
 <br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
@@ -615,6 +673,12 @@ main <span class="fu">=</span> <span class="kw">do</span>
 <p>I also considered the new MacBook Pro 15“. Because of the price, it seems only possible to consider the bottom of the range MacBook Pro starting at $2199. On the upside, the cheapest new MacBook Pro 15” is faster than the most expensive older MacBook Pro 17&quot; (according to Geekbench). It’s a dual core i5 2.4GHz machine. I was very disappointed that Apple didn’t make them quad core but I suppose it’s a compromise with battery life - and profit margin ;). Primate Labs lists the Geekbench score of this laptop at <a href="http://www.primatelabs.ca/blog/2010/04/macbookpro-benchmarks/">4806</a> compared to the amazing 5600 that I’m seeing on the 3042TX (according to Geekbench this makes my notebook faster that the most expensive MacBook Pro 17“). The Apple build quality is better but the new HP’s are really getting there. The Mac’s display is more high-res at 1400x900 compared to the HP’s 1366x768. However, it only comes with 4G of RAM by default and a HDD half the size at 320G. Not that it’s really a big deal to me but the MacBook only comes with a 256M graphics card, no Blu-ray and no fingerprint reader. I do miss the vertical screen real estate with the HP but I think it’s a worthwhile compromise. I also miss the MagSafe power port - with the Pavilion you need it connected to the power more often and since the power plug sticks out so far, it’s awkward and relatively easy to get it caught on the lounge/couch/sofa or something. I’ve already got an iMac 27” + 8G of RAM with Snow Leopard so the other upside with this notebook is that I get a copy of Windows 7 should I need to do any .NET development. I’m already taking a look at PowerShell that came preinstalled (many Unix-like aliases are provided but ‘ls’ still looks like a dodgy old ‘DIR’ command – yes, yes – I’m sure there’s heaps of good stuff in there like object-valued pipelines). The extended 3yr warranty for the MacBook is a staggering $579! That would make a total of $2778. If I up-spec the RAM to 8G and the HDD to a 500G 5400rpm (not quite the 640G that I have) and the price leaps to $3,477.99 - very nearly twice as much as what I paid and still no Blu-ray, HDMI out or 1G graphics card… As you can imagine, it is a very difficult price to justify even for the Apple build quality, higher resolution display, battery life and MagSafe power adapter. Don’t worry about the OS, I won’t be using Windows 7 day-to-day. I’ll get all my *nix goodness by installing Ubuntu Lucid Lynx shortly. Then I’ll be able to apt-get all my favourite applications. Apt/dpkg is better than MacPorts - binary packaging is a must for anyone who values their time - something I learned from a year or two with Gentoo prior to making the move to Ubuntu. Also keen to see how OpenSolaris might work out as a notebook OS - all that GNU goodness with ZFS too. I recently heard that FreeBSD has ZFS too so perhaps I should go that way. I do tend to prefer BSD/MIT/X11 over GPL/LGPL.</p>
 </div>
 
+
+<div class="tags">
+  <a href="/tags/Apple.html">Apple</a>, <a href="/tags/Computer%20Hardware.html">Computer Hardware</a>, <a href="/tags/HP.html">HP</a>, <a href="/tags/Mac.html">Mac</a>, <a href="/tags/Mac%20pricing.html">Mac pricing</a>
+</div>
+
+
 <br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
@@ -653,6 +717,12 @@ main <span class="fu">=</span> <span class="kw">do</span>
 <p>I’m still using Mercurial for my personal files at home. Since I use Linux as my primary development platform, Git is getting the upper hand for me. I’ll have to give hg2git a try (this will give me the opportunity to finally prune my /Photos directory). The git-svn support is useful when clients are using SVN and you want to work from your laptop. Also the <a href="http://github.com/">GitHub</a> is pretty cool. I’ve <a href="http://github.com/steshaw/">only played around with it</a> but it has paid accounts that could be used for off-site backup and for possibly for source code delivery to clients. I hear that Git works great on Mac but last I heard the support on Windows was still lacking. Git works in cygwin with a native port on the way. I haven’t used Windows for development for a while but always used to install cygwin when I did. However, that’s not necessarily a great solution for regular Windows/.NET guys. If I was doing a .NET project, I’d probably stick with Subversion - git-svn is always there for disconnected development.</p>
 <p>I wonder if there are bzr style workflow solutions for Git…</p>
 </div>
+
+
+<div class="tags">
+  <a href="/tags/Bazaar.html">Bazaar</a>, <a href="/tags/DVCS.html">DVCS</a>, <a href="/tags/Git.html">Git</a>, <a href="/tags/Mercurial.html">Mercurial</a>
+</div>
+
 
 <br/>
 
@@ -693,6 +763,12 @@ main <span class="fu">=</span> <span class="kw">do</span>
 <p>I wonder if businesses will be more likely to adopt .NET rather than Java now though and really turn the tide. This global recession is turning out to be what I call <em>The Greater Depression</em>, some <em>The Second Great Depression</em> and still some other young ’uns <em>The Great Depression 2.0</em>. I wonder who will come out on top? With ReSharper, Visual Studio is actually pretty good! So, no excuses - go brush up those C# skills! ;)</p>
 </div>
 
+
+<div class="tags">
+  <a href="/tags/C%23.html">C#</a>, <a href="/tags/Closures.html">Closures</a>, <a href="/tags/IBM.html">IBM</a>, <a href="/tags/Java.html">Java</a>, <a href="/tags/Microsoft.html">Microsoft</a>, <a href="/tags/Neal%20Gafter.html">Neal Gafter</a>, <a href="/tags/Sun.html">Sun</a>
+</div>
+
+
 <br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
@@ -731,6 +807,12 @@ main <span class="fu">=</span> <span class="kw">do</span>
 <p><a href="http://in.relation.to/Bloggers/RevisedPublicDraftOfJSR299JavaContextsAndDependencyInjection">An updated public draft is now available</a>. Other useful information - particularly the introductory guide - can be found on the <a href="http://www.seamframework.org/WebBeans">Seam Framework wiki</a>.</p>
 <p>The specification draws much from <a href="http://seamframework.org">Seam</a> and <a href="http://code.google.com/p/google-guice/">Guice</a> and consequently Gavin King and Bob Lee. Congratulations to all involved in the specification. It’s really worth looking at particularly if you haven’t been using Seam 2 or Guice 2. I find myself particularly drawn to Guice 2. I hope they release it soon :).</p>
 </div>
+
+
+<div class="tags">
+  <a href="/tags/Dependency%20Injection.html">Dependency Injection</a>, <a href="/tags/Guice.html">Guice</a>, <a href="/tags/Java.html">Java</a>, <a href="/tags/JCDI.html">JCDI</a>, <a href="/tags/JEE.html">JEE</a>, <a href="/tags/Seam.html">Seam</a>, <a href="/tags/Web.html">Web</a>, <a href="/tags/WebBeans.html">WebBeans</a>
+</div>
+
 
 <br/>
 
@@ -778,6 +860,12 @@ main <span class="fu">=</span> <span class="kw">do</span>
 <p>Oh and the title of this post… Well it’s kind of a bad joke from day 3. After 3 days of indoctrination I realised that it was leading to the conclusion that a new breed of programmer was required - the hyper-productive monadic programmer for the 21st century. This new breed of programmer would eschew side effects and even OOP in preference to algebraic data types, type classes, implicits, higher order functions, monads and higher kinds. They would impress their friends with deep knowledge of mathematical principles and have an IQ 50 points above decent developers of today. These programmers would be trained to be 10x more productive than their imperative colleagues (coding in Java and C#) - allowing some of us to retire for a better life (perhaps as an economist or financial advisor). All that remains is to work out how much of this is hyperbole and how much sound.</p>
 </div>
 
+
+<div class="tags">
+  <a href="/tags/Category%20Theory.html">Category Theory</a>, <a href="/tags/Functional%20Programming.html">Functional Programming</a>, <a href="/tags/Haskell.html">Haskell</a>, <a href="/tags/Monads.html">Monads</a>, <a href="/tags/Productivity.html">Productivity</a>, <a href="/tags/Scala.html">Scala</a>
+</div>
+
+
 <br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
@@ -814,6 +902,12 @@ main <span class="fu">=</span> <span class="kw">do</span>
 <div class="post-content">
   <p>I finally got around to doing the Scrum course and <a href="http://www.scrumalliance.org/profiles/38923-steven-shaw">became a CSM</a> :). Many thanks to Jens Østergaard of <a href="http://scrum.dk">Scrum.dk</a> for making it a good two days.</p>
 </div>
+
+
+<div class="tags">
+  <a href="/tags/Agile.html">Agile</a>, <a href="/tags/Scrum.html">Scrum</a>, <a href="/tags/Software%20Process.html">Software Process</a>
+</div>
+
 
 <br/>
 
@@ -856,6 +950,12 @@ main <span class="fu">=</span> <span class="kw">do</span>
 </ul>
 </div>
 
+
+<div class="tags">
+  <a href="/tags/Productivity.html">Productivity</a>, <a href="/tags/Software%20Design.html">Software Design</a>, <a href="/tags/Software%20Process.html">Software Process</a>
+</div>
+
+
 <br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
@@ -892,6 +992,12 @@ main <span class="fu">=</span> <span class="kw">do</span>
 <div class="post-content">
   <p>This looks like a great course+book: <a href="http://www.idc.ac.il/tecs/">The elements of computing systems</a>.</p>
 </div>
+
+
+<div class="tags">
+  <a href="/tags/Compilers.html">Compilers</a>, <a href="/tags/Computer%20Architecture.html">Computer Architecture</a>, <a href="/tags/Computer%20Hardware.html">Computer Hardware</a>, <a href="/tags/Operating%20Systems.html">Operating Systems</a>, <a href="/tags/Programming%20Languages.html">Programming Languages</a>
+</div>
+
 
 <br/>
 
@@ -934,6 +1040,12 @@ main <span class="fu">=</span> <span class="kw">do</span>
 <p>Update: more info can be found <a href="http://www.jroller.com/sjivan/entry/my_response_to_jack_slocum">in a post by the author of GWT-Ext</a>.</p>
 </div>
 
+
+<div class="tags">
+  <a href="/tags/Ext%20GWT.html">Ext GWT</a>, <a href="/tags/Ext%20JS.html">Ext JS</a>, <a href="/tags/GWT.html">GWT</a>, <a href="/tags/GWT-Ext.html">GWT-Ext</a>, <a href="/tags/Java.html">Java</a>, <a href="/tags/JavaScript.html">JavaScript</a>, <a href="/tags/Web.html">Web</a>, <a href="/tags/YUI.html">YUI</a>
+</div>
+
+
 <br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
@@ -972,6 +1084,12 @@ main <span class="fu">=</span> <span class="kw">do</span>
 <p>Note that there seems to be only one level to the game which isn’t entirely implemented. It’s the concept that such a beast can be implemented in JavaScript rather than Flash that’s interesting.</p>
 </div>
 
+
+<div class="tags">
+  <a href="/tags/Computer%20Games.html">Computer Games</a>, <a href="/tags/JavaScript.html">JavaScript</a>, <a href="/tags/Web.html">Web</a>
+</div>
+
+
 <br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
@@ -1008,6 +1126,12 @@ main <span class="fu">=</span> <span class="kw">do</span>
 <div class="post-content">
   <p>Watch this <a href="http://video.google.com/videoplay?docid=810232012617965344">great Google talk with Rob Pike</a>. He talks about concurrent processes and message passing in the context of Newsqueak - a programming language that he wrote 20 years ago. What he describes is very similar to the Erlang programming model except that channels are first class citizens.</p>
 </div>
+
+
+<div class="tags">
+  <a href="/tags/Concurrent%20Programming.html">Concurrent Programming</a>, <a href="/tags/Erlang.html">Erlang</a>, <a href="/tags/Message%20Passing.html">Message Passing</a>, <a href="/tags/Newsqueak.html">Newsqueak</a>, <a href="/tags/Programming%20Languages.html">Programming Languages</a>, <a href="/tags/Rob%20Pike.html">Rob Pike</a>
+</div>
+
 
 <br/>
 
@@ -1046,6 +1170,12 @@ main <span class="fu">=</span> <span class="kw">do</span>
   <p>Go directly to <a href="http://video.google.com/videoplay?docid=9214177555401838409">here</a> if you think you know all the dark corners of the Java language and APIs. It’s a really worthwhile Google TechTalk. You will come away thinking that you had better set up automated <a href="http://findbugs.sourceforge.net/">FindBugs</a> analysis of your code!</p>
 </div>
 
+
+<div class="tags">
+  <a href="/tags/FindBugs.html">FindBugs</a>, <a href="/tags/Google%20Tech%20Talks.html">Google Tech Talks</a>, <a href="/tags/Java.html">Java</a>, <a href="/tags/Josh%20Block.html">Josh Block</a>
+</div>
+
+
 <br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
@@ -1083,6 +1213,12 @@ main <span class="fu">=</span> <span class="kw">do</span>
   <p>If you’re interested in the Scala programming language then <a href="http://www.artima.com/scalazine/articles/steps.html">this article</a> will come in handy. I learned a couple of things. In particular, I didn’t realise that you could instantiate an object with a trait (effectively changing the trait from the one specified in the class definition). Very interested in how that is implemented.</p>
 </div>
 
+
+<div class="tags">
+  <a href="/tags/JVM.html">JVM</a>, <a href="/tags/Scala.html">Scala</a>
+</div>
+
+
 <br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
@@ -1119,6 +1255,12 @@ main <span class="fu">=</span> <span class="kw">do</span>
 <div class="post-content">
   <p><a href="http://wicket.apache.org/">Wicket</a> has finally graduated to become a top level Apache project and is receiving a much <a href="http://jlawmi.blogspot.com/2007/06/reasons-to-love-wicket.html">praise</a> as <a href="http://xhab.blogspot.com/2007/07/top-10-reasons-why-you-should-try.html">ever</a>.</p>
 </div>
+
+
+<div class="tags">
+  <a href="/tags/Apache%20Wicket.html">Apache Wicket</a>, <a href="/tags/Java.html">Java</a>, <a href="/tags/Web.html">Web</a>
+</div>
+
 
 <br/>
 
@@ -1159,6 +1301,12 @@ main <span class="fu">=</span> <span class="kw">do</span>
 <p>The standard iMac 24&quot; is £1,350 in the UK and only $2,000 in the US… Almost 700USD more expensive :(</p>
 <p>Where does the MacTax go?</p>
 </div>
+
+
+<div class="tags">
+  <a href="/tags/Mac.html">Mac</a>, <a href="/tags/Mac%20pricing.html">Mac pricing</a>, <a href="/tags/MacBook%20Pro.html">MacBook Pro</a>, <a href="/tags/UK.html">UK</a>, <a href="/tags/Unix.html">Unix</a>
+</div>
+
 
 <br/>
 
@@ -1204,6 +1352,12 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
 <p>I’m still digging into <a href="http://dev2dev.bea.com/pub/a/2006/11/effective-exceptions.html">an article on dev2dev</a> which promotes checked exceptions and points out that that the times they get annoying is where the Java API was poorly designed. For me this still points that checked exceptions are a experimental language feature perhaps best left out of industry programming languages for now.</p>
 </div>
 
+
+<div class="tags">
+  <a href="/tags/C%23.html">C#</a>, <a href="/tags/Java.html">Java</a>, <a href="/tags/Programming%20Languages.html">Programming Languages</a>, <a href="/tags/Scala.html">Scala</a>
+</div>
+
+
 <br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
@@ -1246,6 +1400,12 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
 <p>I’m happy with my choice of Mercurial but Bazaar will be the one to watch as they work towards 1.0 focusing on performance and documentation improvements.</p>
 </div>
 
+
+<div class="tags">
+  <a href="/tags/Bazaar.html">Bazaar</a>, <a href="/tags/DVCS.html">DVCS</a>, <a href="/tags/Git.html">Git</a>, <a href="/tags/Mercurial.html">Mercurial</a>
+</div>
+
+
 <br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
@@ -1284,6 +1444,12 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
 <p>There has appeared a <a href="http://www.javac.info/consensus-closures-jsr.html">consensus proposal</a> on the javac.info site. It does appear that Bob Lee (Crazy Bob) has been turned around. I hope the consensus is not a compromise on the original proposal’s intent.</p>
 </div>
 
+
+<div class="tags">
+  <a href="/tags/Bob%20Lee%20-%20Closures%20-%20Java%20-%20Neal%20Gafter.html">Bob Lee - Closures - Java - Neal Gafter</a>
+</div>
+
+
 <br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
@@ -1321,6 +1487,12 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
   <p>Bruce Johnson busts the myth that Google Web Toolkit is only for single page applications - amongst other things - <a href="http://www.infoq.com/presentations/gwt">in the video presentation available from InfoQ</a>.</p>
 </div>
 
+
+<div class="tags">
+  <a href="/tags/GWT.html">GWT</a>, <a href="/tags/Java.html">Java</a>
+</div>
+
+
 <br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
@@ -1357,6 +1529,12 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
 <div class="post-content">
   <p>Starting to hear <a href="http://www.contractoruk.com/news/003268.html">worrying reports</a> about the heath dangers of WiFi radiation. I certainly hope it’s unfounded as I am not sure what I’d do without always on, wireless broadband!</p>
 </div>
+
+
+<div class="tags">
+  <a href="/tags/WiFi.html">WiFi</a>
+</div>
+
 
 <br/>
 
@@ -1396,6 +1574,12 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
 <p>[youtube=http://www.youtube.com/watch?v=PQbuyKUaKFo]</p>
 <p>The <a href="http://www.railsenvy.com/2007/5/15/hi-i-m-ruby-on-rails-part-2">other ads in the series</a> are also worth a look!</p>
 </div>
+
+
+<div class="tags">
+  <a href="/tags/Humour.html">Humour</a>, <a href="/tags/Java.html">Java</a>, <a href="/tags/Ruby%20on%20Rails.html">Ruby on Rails</a>
+</div>
+
 
 <br/>
 
@@ -1442,6 +1626,12 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
 <p>There are sooo many web frameworks out there. It <em>is</em> so easy to have the reaction: not another please, please, no no no! There is certainly a need for a few. The move away from “model 2 mvc” frameworks is gaining momentum now (thank goodness). The term “model 2 mvc” seems laughable now :). Web frameworks are getting <a href="http://www.theserverside.com/news/thread.tss?thread_id=39358">compared</a> <a href="http://www.theserverside.com/news/thread.tss?thread_id=44939">all</a> <a href="http://www.theserverside.com/news/thread.tss?thread_id=39484">the</a> <a href="http://www.theserverside.com/news/thread.tss?thread_id=40127">time</a>! The people involved are often parochial and the forums can get heated :) .</p>
 <p>It’d be nice if there were some ideal framework for Java developers (those .NET guys sure have it easy!). The reality is that many frameworks would be suitable. Choose one that works for you and keeps you productive (i.e. avoid model2/action based frameworks if you have much interactive to deal with). I’m currently hoping that Wicket gains an upper hand. <a href="http://jobserve.com">JobServe</a> lists zero Wicket contracts currently though :( .</p>
 </div>
+
+
+<div class="tags">
+  <a href="/tags/Apache%20Click.html">Apache Click</a>, <a href="/tags/Apache%20Tapestry.html">Apache Tapestry</a>, <a href="/tags/IceFaces.html">IceFaces</a>, <a href="/tags/Java.html">Java</a>, <a href="/tags/JSF.html">JSF</a>, <a href="/tags/RichFaces.html">RichFaces</a>, <a href="/tags/Seam.html">Seam</a>, <a href="/tags/Spring%20MVC.html">Spring MVC</a>, <a href="/tags/Web.html">Web</a>
+</div>
+
 
 <br/>
 
@@ -1496,6 +1686,12 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
 <p>will update again soon…</p>
 </div>
 
+
+<div class="tags">
+  <a href="/tags/Apache%20Click.html">Apache Click</a>, <a href="/tags/GWT.html">GWT</a>, <a href="/tags/Java.html">Java</a>, <a href="/tags/JavaScript.html">JavaScript</a>, <a href="/tags/JSF.html">JSF</a>, <a href="/tags/Tibco%20GI.html">Tibco GI</a>, <a href="/tags/Web.html">Web</a>, <a href="/tags/YUI.html">YUI</a>
+</div>
+
+
 <br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
@@ -1544,6 +1740,12 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
 <p>I’m not entirely convinced about point 7 but the other points are certainly sound.</p>
 </div>
 
+
+<div class="tags">
+  <a href="/tags/In-Memory%20Databases.html">In-Memory Databases</a>, <a href="/tags/SAAS.html">SAAS</a>, <a href="/tags/SAP.html">SAP</a>, <a href="/tags/SOA.html">SOA</a>
+</div>
+
+
 <br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
@@ -1582,6 +1784,12 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
 <p><a href="http://video.google.com/videosearch?q=user%3A%22Google+engEDU%22&amp;so=1">Lots of other interesting Google talks</a> are available!</p>
 </div>
 
+
+<div class="tags">
+  <a href="/tags/Dependency%20Injection.html">Dependency Injection</a>, <a href="/tags/Google%20Tech%20Talks.html">Google Tech Talks</a>, <a href="/tags/Guice.html">Guice</a>, <a href="/tags/Java.html">Java</a>
+</div>
+
+
 <br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
@@ -1618,6 +1826,12 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
 <div class="post-content">
   <p><a href="http://www.devmedia.com.br/articles/viewcomp.asp?comp=3344">Portuguese Article on CrudPage</a> for Click (<a href="http://translate.google.com/translate?u=http%3A%2F%2Fwww.devmedia.com.br%2Farticles%2Fviewcomp.asp%3Fcomp%3D3344&amp;langpair=pt%7Cen&amp;hl=en&amp;ie=UTF-8&amp;oe=UTF-8&amp;prev=%2Flanguage_tools">translation here</a>). Compelling but mysterious :)</p>
 </div>
+
+
+<div class="tags">
+  <a href="/tags/Apache%20Click.html">Apache Click</a>, <a href="/tags/Java.html">Java</a>, <a href="/tags/Web.html">Web</a>
+</div>
+
 
 <br/>
 
@@ -1678,6 +1892,12 @@ My long search had not been in vain. It had led me to a full appreciation of the
 <p>What a wonderful post. Thanks to Vadim Nasardinov. The <a href="http://archive.eiffel.com/doc/manuals/technology/bmarticles/uml/page.html">full article referenced</a> is also worth a read.</p>
 </div>
 
+
+<div class="tags">
+  <a href="/tags/Bertrand%20Meyer.html">Bertrand Meyer</a>, <a href="/tags/UML.html">UML</a>
+</div>
+
+
 <br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
@@ -1717,6 +1937,12 @@ My long search had not been in vain. It had led me to a full appreciation of the
 <p>I’m also a little concerned that Scrum Alliance are too inflexible after reading <a href="http://agilethinking.net/blog/2007/02/21/when-is-scrum-not-scrum/">“When is Scrum not Scrum?”</a>. So perhaps formal training is not the way to go…</p>
 </div>
 
+
+<div class="tags">
+  <a href="/tags/Agile.html">Agile</a>, <a href="/tags/Scrum.html">Scrum</a>, <a href="/tags/Software%20Process.html">Software Process</a>
+</div>
+
+
 <br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
@@ -1753,6 +1979,12 @@ My long search had not been in vain. It had led me to a full appreciation of the
 <div class="post-content">
   <p>WS-* v REST, the wars continue ;). A <a href="http://www.sdtimes.com/fullcolumn/column-20070115-02.html">short article by Larry O’Brien</a> explains why REST+POX beats WS-* for SOA.</p>
 </div>
+
+
+<div class="tags">
+  <a href="/tags/Distributed%20Computing.html">Distributed Computing</a>, <a href="/tags/REST.html">REST</a>, <a href="/tags/SOA.html">SOA</a>, <a href="/tags/Web%20Services.html">Web Services</a>
+</div>
+
 
 <br/>
 
@@ -1799,6 +2031,12 @@ My long search had not been in vain. It had led me to a full appreciation of the
 <p>Seems <a href="http://www.gafter.com/~neal/resume.html">from Neal’s resume</a> that closures are indeed “proposed for inclusion in JDK7” :)</p>
 </div>
 
+
+<div class="tags">
+  <a href="/tags/Closures.html">Closures</a>, <a href="/tags/Java.html">Java</a>, <a href="/tags/Neal%20Gafter.html">Neal Gafter</a>
+</div>
+
+
 <br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
@@ -1835,6 +2073,12 @@ My long search had not been in vain. It had led me to a full appreciation of the
 <div class="post-content">
   <p>An interesting talk by Guido van Rossum is available at <a href="http://video.google.com/videoplay?docid=-6459339159268485356">google video</a>. Nothing radical in Python 3000. Mostly a cleanup release that breaks backwards compatibility. Some consideration is given to Common Lisp like generic functions but I cannot imagine they will enter Python 3000 (too much is needed).</p>
 </div>
+
+
+<div class="tags">
+  <a href="/tags/Python.html">Python</a>
+</div>
+
 
 <br/>
 
@@ -1873,6 +2117,12 @@ My long search had not been in vain. It had led me to a full appreciation of the
   <p><a href="http://scala.epfl.ch/downloads/changes.html">Scala 2.1.7</a> and above now come with an Actors library which effectively gives Scala an Erlang style programming model. There is a very interesting <a href="http://lambda-the-ultimate.org/node/1615">paper about the library</a> (linked from Lambda the Ultimate). Scala is really looking great. Let’s hope that Scala is the Java of the future :).</p>
 </div>
 
+
+<div class="tags">
+  <a href="/tags/Actors.html">Actors</a>, <a href="/tags/Concurrent%20Programming.html">Concurrent Programming</a>, <a href="/tags/Erlang.html">Erlang</a>, <a href="/tags/Scala.html">Scala</a>
+</div>
+
+
 <br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
@@ -1910,6 +2160,12 @@ My long search had not been in vain. It had led me to a full appreciation of the
   <p>Finally read through this series from IBM developerworks. It’s a worthwhile read for anyone interested in alternatives to doing shared-memory concurrency. JCSP is kinda like an Erlang library for Java (but unfortunately the threads aren’t as lightweight).</p>
 <p>[ <a href="http://www-128.ibm.com/developerworks/java/library/j-csp1.html">Part 1</a> <a href="http://www-128.ibm.com/developerworks/java/library/j-csp2/">Part 2</a> <a href="http://www-128.ibm.com/developerworks/java/library/j-csp3.html">Part 3</a> ]</p>
 </div>
+
+
+<div class="tags">
+  <a href="/tags/Concurrent%20Programming.html">Concurrent Programming</a>, <a href="/tags/CSP.html">CSP</a>, <a href="/tags/Erlang.html">Erlang</a>
+</div>
+
 
 <br/>
 
@@ -2010,6 +2266,12 @@ Judging
 <p>It seems to think that I don’t think! I assure you that I <em>do</em> think :-). Really!</p>
 </div>
 
+
+<div class="tags">
+  <a href="/tags/Personality%20Typing.html">Personality Typing</a>
+</div>
+
+
 <br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
@@ -2053,6 +2315,12 @@ Judging
 <p><a href="http://upload.wikimedia.org/wikipedia/commons/f/fd/Ghostscript_Tiger.svg"><img src="http://upload.wikimedia.org/wikipedia/commons/f/fd/Ghostscript_Tiger.svg" alt="the famous SVG tiger" /></a></p>
 </div>
 
+
+<div class="tags">
+  <a href="/tags/Firefox.html">Firefox</a>, <a href="/tags/SVG.html">SVG</a>, <a href="/tags/Web.html">Web</a>
+</div>
+
+
 <br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
@@ -2092,6 +2360,12 @@ Judging
 <p>Of course, this has been done before with the typecase expression like in <a href="http://en.wikipedia.org/wiki/Modula-3">Modula-3</a>. Modula-3 is a very cool but dead language, a prerunner to Java with a more Modula/Pascal syntax. Check out the <a href="http://www-plan.cs.colorado.edu/diwan/modula3/typecase.html">language spec for typecase</a>. Unfortunately the original Modula-3 site, SRC, is down, perhaps try <a href="http://research.compaq.com/SRC/m3defn/html/typecase.html">SRC later</a> or <a href="http://66.249.93.104/search?q=cache:hHoV1NdS_AYJ:research.compaq.com/SRC/m3defn/html/typecase.html+typecase+modula-3&amp;hl=en&amp;amp;gl=uk&amp;ct=clnk&amp;cd=1">Google’s cache of the original typecase page</a>.</p>
 </div>
 
+
+<div class="tags">
+  <a href="/tags/Java.html">Java</a>, <a href="/tags/Modula-3.html">Modula-3</a>, <a href="/tags/Programming%20Languages.html">Programming Languages</a>
+</div>
+
+
 <br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
@@ -2128,6 +2402,12 @@ Judging
 <div class="post-content">
   <p>Discovered a “new” Java-related podcast, <a href="http://seradio.libsyn.com/">Software Engineering Radio</a>. The interview with Ted Neward is good. Inspired me to take deeper look at Scala now that it’s gone 2.0.</p>
 </div>
+
+
+<div class="tags">
+  <a href="/tags/Scala.html">Scala</a>, <a href="/tags/Software%20Engineering%20Radio.html">Software Engineering Radio</a>, <a href="/tags/Ted%20Neward.html">Ted Neward</a>
+</div>
+
 
 <br/>
 
@@ -2166,6 +2446,12 @@ Judging
   <p>I played around with WebStart this weekend to get my first WebStarted Swing app up and going. Click here to <a href="http://abstractsimplicity.org/FirstWebStart/FirstWebStart.jnlp">Click here to start</a>. It’s signed but uses the PersistenceService anyway to save the contents of the editor pane between invocations. The lower pane is a my debug console :).</p>
 </div>
 
+
+<div class="tags">
+  <a href="/tags/Java.html">Java</a>, <a href="/tags/Java%20Web%20Start.html">Java Web Start</a>, <a href="/tags/Swing.html">Swing</a>
+</div>
+
+
 <br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
@@ -2202,6 +2488,12 @@ Judging
 <div class="post-content">
   <p>Just in case you’re still abusing XML, here’s <a href="http://www.ddj.com/dept/architect/184414926">some pretty clear advice from back in 2002</a> from the author of <a href="http://integrationpatterns.com">Integration Patterns</a>.</p>
 </div>
+
+
+<div class="tags">
+  <a href="/tags/Application%20Integration.html">Application Integration</a>, <a href="/tags/NoXML.html">NoXML</a>, <a href="/tags/XML.html">XML</a>
+</div>
+
 
 <br/>
 
@@ -2242,6 +2534,12 @@ Judging
 <p>Some highlights were: “almost zero code applications” (with no discussion of ifs and buts), “composite applications” (just another name for component applications) and it’s all going to be pragmatic and open source (but for some reason you can only download a free trial).</p>
 </div>
 
+
+<div class="tags">
+  <a href="/tags/Application%20Integration.html">Application Integration</a>, <a href="/tags/Distributed%20Computing.html">Distributed Computing</a>, <a href="/tags/EAI.html">EAI</a>, <a href="/tags/SOA.html">SOA</a>
+</div>
+
+
 <br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
@@ -2278,6 +2576,12 @@ Judging
 <div class="post-content">
   <p>A strange but fun quiz - <a href="http://www.malevole.com/mv/misc/killerquiz/">Programming Language Inventor or Serial Killer?</a> via <a href="http://www.vector.org.uk/?submit=entry&amp;url=http://vector.org.uk/weblog/archive/000091.html">An entry on the Vector.org.uk homepage about the possible cause of autism</a>.</p>
 </div>
+
+
+<div class="tags">
+  <a href="/tags/APL.html">APL</a>, <a href="/tags/J.html">J</a>, <a href="/tags/K.html">K</a>, <a href="/tags/Programming%20Languages.html">Programming Languages</a>
+</div>
+
 
 <br/>
 
@@ -2316,6 +2620,12 @@ Judging
   <p>Tyger is JPMorgan’s open source stack for Java applications. Check out the following article - <a href="http://www.watersonline.com/public/showPage.html?page=322256">JPMorgan’s ‘Tyger’ Roars Ahead</a>. Tyger is based Apache+Tomcat, Spring, Maven, and Hibernate or iBatis for RDBMS integration. It’s good to see that the banks take open source seriously.</p>
 </div>
 
+
+<div class="tags">
+  <a href="/tags/Hibernate.html">Hibernate</a>, <a href="/tags/iBatis.html">iBatis</a>, <a href="/tags/Java.html">Java</a>, <a href="/tags/Maven.html">Maven</a>, <a href="/tags/ORM.html">ORM</a>, <a href="/tags/Spring.html">Spring</a>
+</div>
+
+
 <br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
@@ -2352,6 +2662,12 @@ Judging
 <div class="post-content">
   <p>The JBoss guys have noticed that Business Process engines and webflow engines, at their most general, require a common engine - the continuation engine. They say <a href="http://www.jboss.com/products/jbpm">“Additionally, jBPM enables pageflow control in web applications”</a>.</p>
 </div>
+
+
+<div class="tags">
+  <a href="/tags/Continuations.html">Continuations</a>, <a href="/tags/Process%20Calculi.html">Process Calculi</a>, <a href="/tags/Workflow.html">Workflow</a>
+</div>
+
 
 <br/>
 
@@ -2390,6 +2706,12 @@ Judging
   <p>Take a look at the <a href="http://kensall.com/big-picture">Big Picture of the XML Family of Specifications by Ken Sall</a>. Yikes!</p>
 </div>
 
+
+<div class="tags">
+  <a href="/tags/NoXML.html">NoXML</a>, <a href="/tags/XML.html">XML</a>
+</div>
+
+
 <br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
@@ -2426,6 +2748,12 @@ Judging
 <div class="post-content">
   <p>Thinking about product development particularly on the Mac platform? Wil Shipley <a href="http://wilshipley.com/blog/2005/06/student-talk-from-wwdc-2005.html">provides advice and encouragement</a>.</p>
 </div>
+
+
+<div class="tags">
+  <a href="/tags/Application%20Development.html">Application Development</a>, <a href="/tags/Mac.html">Mac</a>, <a href="/tags/Wil%20Shipley.html">Wil Shipley</a>
+</div>
+
 
 <br/>
 
@@ -2464,6 +2792,12 @@ Judging
   <p>Take a peek at this: <a href="http://www.physorg.com/news10789.html">Physicist to Present New Exact Solution of Einstein’s Gravitational Field Equation</a> (via <a href="http://www.cdegroot.com/blog/">Cees de Groot</a>).</p>
 </div>
 
+
+<div class="tags">
+  <a href="/tags/Physics.html">Physics</a>
+</div>
+
+
 <br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
@@ -2500,6 +2834,12 @@ Judging
 <div class="post-content">
   <p>I’ve been watching more video and listening to more audio (podcasts) lately on my computer. One way to do this is searching via Google. This is one of the videos I found - <a href="http://video.google.com/videoplay?docid=-422890025950694425&amp;q=Computer+History+Museum">“Now and Then: Computer Graphics in Games”</a>. Makers of Myst, Prince of Perisa and The Sims talk about their games and discuss issues of games developement. Really very interesting stuff.</p>
 </div>
+
+
+<div class="tags">
+  <a href="/tags/Computer%20Games.html">Computer Games</a>, <a href="/tags/Computer%20Graphics.html">Computer Graphics</a>
+</div>
+
 
 <br/>
 
@@ -2541,6 +2881,12 @@ Judging
 <p>… more to come on this post</p>
 </div>
 
+
+<div class="tags">
+  <a href="/tags/C%23.html">C#</a>, <a href="/tags/Erik%20Meijer.html">Erik Meijer</a>, <a href="/tags/Programming%20Languages.html">Programming Languages</a>
+</div>
+
+
 <br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
@@ -2580,6 +2926,12 @@ Judging
 <p>They should get their facts straight!</p>
 </div>
 
+
+<div class="tags">
+  <a href="/tags/Closures.html">Closures</a>, <a href="/tags/Groovy.html">Groovy</a>
+</div>
+
+
 <br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
@@ -2617,6 +2969,12 @@ Judging
   <p>The w3 <a href="http://www.w3.org/DesignIssues/Principles.html">Principles of Design</a> is an interesting read. In particular, the Principle of Least Power is interesting. This principle doesn’t seem to get much attention these days in software design with DSLs being often embedded. That is “internal” rather than “external” (in <a href="http://www.martinfowler.com/bliki/DomainSpecificLanguage.html">Fowlers terminology</a>). This makes the languages harder to analyse and therefore tools are harder to build.</p>
 <p><a href="http://www.w3.org/DesignIssues/Overview.html">More w3 design issues here</a>.</p>
 </div>
+
+
+<div class="tags">
+  <a href="/tags/DSLs.html">DSLs</a>, <a href="/tags/HTML.html">HTML</a>, <a href="/tags/Software%20Design.html">Software Design</a>
+</div>
+
 
 <br/>
 
@@ -2656,6 +3014,12 @@ Judging
 <p>Jim Waldo reminds us that Better really is <em>better</em> in Artima article <a href="http://www.artima.com/weblogs/viewpost.jsp?thread=24807">Worse is worse</a>.</p>
 </div>
 
+
+<div class="tags">
+  <a href="/tags/Lisp.html">Lisp</a>, <a href="/tags/Programming%20Languages.html">Programming Languages</a>, <a href="/tags/Software%20Design.html">Software Design</a>
+</div>
+
+
 <br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
@@ -2694,6 +3058,12 @@ Judging
 <p>It turns out that <a href="http://sky.fit.qut.edu.au/~gough/">John Gough</a> organised a birds of a feather for <a href="http://decomp.ulb.ac.be/events/dls05/implementingdynamiclanguagesonthe.netclr/">Implementing Dynamic Languages on the .NET CLR</a> at the <a href="http://decomp.ulb.ac.be:8082/events/dls05/program/">Dynamic Languages Symposium</a> back in October (2005).</p>
 <p>QUT is my old university and John Gough my was my favorite lecturer. I studied compiler construction under John and later wrote a small compiler under his supervision in C# targetting .NET (and using his book <a href="http://www.amazon.co.uk/exec/obidos/ASIN/0130622966/qid=1133997392/sr=1-1/ref=sr_1_8_1/026-1033995-8778027">Compiling for the .NET CLR</a> as a resource). It’s a small world. I’m working in the UK at the moment. The guy who sits next to me at work comes from South Africa. He studied under <a href="http://www.scifac.ru.ac.za/cspt/">Pat Terry</a> at <a href="http://www.ru.ac.za/">Rhodes University</a>. Pat is also a compiler guy. John and him were involved on the Modula-2 language commitee. Turn’s out that I used Pat’s Coco/R (<a href="http://www.scifac.ru.ac.za/coco/#CSHARP">C# version</a>) on that project.</p>
 </div>
+
+
+<div class="tags">
+  <a href="/tags/.NET.html">.NET</a>, <a href="/tags/CLR.html">CLR</a>, <a href="/tags/Coco/R.html">Coco/R</a>, <a href="/tags/Compilers.html">Compilers</a>, <a href="/tags/Programming%20Languages.html">Programming Languages</a>, <a href="/tags/Ruby.html">Ruby</a>
+</div>
+
 
 <br/>
 
@@ -2738,6 +3108,12 @@ Judging
 <p>All take a look at <a href="http://johnbokma.com/vmware-player/" class="uri">http://johnbokma.com/vmware-player/</a>. In fact take a look at the whole site <a href="http://johnbokma.com/" class="uri">http://johnbokma.com/</a></p>
 </div>
 
+
+<div class="tags">
+  <a href="/tags/Linux.html">Linux</a>, <a href="/tags/Ubuntu.html">Ubuntu</a>, <a href="/tags/VMware.html">VMware</a>
+</div>
+
+
 <br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
@@ -2775,6 +3151,12 @@ Judging
   <p>More and more lately, I’ve noticed myself reading the Wikipedia. It appears prominently in many of my Google searches. I’ve heard it critized because the content is not reviewed (some guy was bent out of shape about a comment about him being involved with the assasination of JFK - rightly so). Anyhow, I’ve only found the information excellent.</p>
 <p>Get lost in the Wikipedia - some starting points: <a href="http://en.wikipedia.org/wiki/X86">x86</a>, <a href="http://en.wikipedia.org/wiki/UNCOL">UNCOL</a>.</p>
 </div>
+
+
+<div class="tags">
+  <a href="/tags/UNCOL.html">UNCOL</a>, <a href="/tags/Wikipedia.html">Wikipedia</a>, <a href="/tags/x86.html">x86</a>
+</div>
+
 
 <br/>
 
@@ -2819,6 +3201,12 @@ Judging
 <p>Unbuntu starter guide <a href="http://www.ubuntuguide.org/" class="uri">http://www.ubuntuguide.org/</a> Seems like a more up-to-date version of this is available on the live cd and presumably with a regular install. Just click on the ‘Help (get help with Gnome)’ icon or choose System-&gt;Help and then click ‘Unbuntu 5.10 Starter Guide’.</p>
 </div>
 
+
+<div class="tags">
+  <a href="/tags/Gnome.html">Gnome</a>, <a href="/tags/Linux.html">Linux</a>, <a href="/tags/Ubuntu.html">Ubuntu</a>
+</div>
+
+
 <br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
@@ -2855,6 +3243,12 @@ Judging
 <div class="post-content">
   <p>Jim Weirich has an <a href="http://www.onestepback.org/articles/depinj/">excellent presentation</a> that will make Java developers think differently about dependency injection.</p>
 </div>
+
+
+<div class="tags">
+  <a href="/tags/Dependency%20Injection.html">Dependency Injection</a>, <a href="/tags/Java.html">Java</a>, <a href="/tags/Ruby.html">Ruby</a>
+</div>
+
 
 <br/>
 
@@ -2893,6 +3287,12 @@ Judging
   <p><a href="http://onestepback.org/articles/groovy/groovyspeed.html" class="uri">http://onestepback.org/articles/groovy/groovyspeed.html</a></p>
 <p>If you read the entire article above please note that closures have <em>indefinite</em> extent , not <em>dynamic</em> extent.</p>
 </div>
+
+
+<div class="tags">
+  <a href="/tags/Closures.html">Closures</a>, <a href="/tags/Groovy.html">Groovy</a>, <a href="/tags/Java.html">Java</a>, <a href="/tags/Programming%20Languages.html">Programming Languages</a>, <a href="/tags/Ruby.html">Ruby</a>
+</div>
+
 
 <br/>
 
@@ -2997,6 +3397,12 @@ catch (<span class="st">:early_exit</span>) {
 }</code></pre></div>
 </div>
 
+
+<div class="tags">
+  <a href="/tags/call/cc.html">call/cc</a>, <a href="/tags/Continuations.html">Continuations</a>, <a href="/tags/Programming%20Languages.html">Programming Languages</a>, <a href="/tags/Ruby.html">Ruby</a>, <a href="/tags/Scheme.html">Scheme</a>
+</div>
+
+
 <br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
@@ -3050,6 +3456,12 @@ catch (<span class="st">:early_exit</span>) {
 <p>BTW - have you heard about NoXML? It’s this great new XML technology…</p>
 </div>
 
+
+<div class="tags">
+  <a href="/tags/ActionScript.html">ActionScript</a>, <a href="/tags/Dynamic%20Typing.html">Dynamic Typing</a>, <a href="/tags/Groovy.html">Groovy</a>, <a href="/tags/Java.html">Java</a>, <a href="/tags/JavaScript.html">JavaScript</a>, <a href="/tags/Programming%20Languages.html">Programming Languages</a>, <a href="/tags/Python.html">Python</a>, <a href="/tags/Ruby.html">Ruby</a>, <a href="/tags/Static%20Typing.html">Static Typing</a>
+</div>
+
+
 <br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
@@ -3086,6 +3498,12 @@ catch (<span class="st">:early_exit</span>) {
 <div class="post-content">
   <p>Hmmm. <a href="http://www.artima.com/weblogs/viewpost.jsp?thread=95113">Seems SOAP is out and REST is in</a>. Not quite NoXML, just no SOAP. Being British, it’s not hard to imagine getting by without a little soap :-).</p>
 </div>
+
+
+<div class="tags">
+  <a href="/tags/Distributed%20Computing.html">Distributed Computing</a>, <a href="/tags/NoXML.html">NoXML</a>, <a href="/tags/REST.html">REST</a>, <a href="/tags/SOAP.html">SOAP</a>
+</div>
+
 
 <br/>
 
@@ -3126,6 +3544,12 @@ catch (<span class="st">:early_exit</span>) {
 <p>NoXML - wonderful new XML technology!</p>
 </div>
 
+
+<div class="tags">
+  <a href="/tags/Distributed%20Computing.html">Distributed Computing</a>, <a href="/tags/Network%20Programming.html">Network Programming</a>, <a href="/tags/NoXML.html">NoXML</a>, <a href="/tags/Web%20Services.html">Web Services</a>, <a href="/tags/XML.html">XML</a>
+</div>
+
+
 <br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
@@ -3162,6 +3586,12 @@ catch (<span class="st">:early_exit</span>) {
 <div class="post-content">
   <p>Andy Marks gave <a href="http://www.corvine.org/blog/archives/2005/02/java_mock_objec_1.html">a talk on mock object frameworks</a> at the <a href="http://www.ajug.org.au/qjug/">AJUG</a> tonight (my first visit to AJUG for some time). I had happened to review some frameworks the week before. The talk solidified my decision to use <a href="http://easymock.org/">EasyMock</a> should the need arise.</p>
 </div>
+
+
+<div class="tags">
+  <a href="/tags/Java.html">Java</a>, <a href="/tags/Mocks.html">Mocks</a>, <a href="/tags/Testing.html">Testing</a>
+</div>
+
 
 <br/>
 
@@ -3200,6 +3630,12 @@ catch (<span class="st">:early_exit</span>) {
   <p>Finally got my fonts sorted out on Gentoo. All the info is in the <a href="http://gentoo-wiki.com/HOWTO_Xorg_and_Fonts">Gentoo Xorg fonts HOWTO</a>.</p>
 </div>
 
+
+<div class="tags">
+  <a href="/tags/Linux.html">Linux</a>
+</div>
+
+
 <br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
@@ -3236,6 +3672,12 @@ catch (<span class="st">:early_exit</span>) {
 <div class="post-content">
   <p>The <a href="http://www.theserverside.com/talks/video.tss?id=CameronPurdy&amp;format=http">interview with Cameron Purdy at TSS</a> was a good read. Afew years back I was very interested in object databases and then [distributed] transactional caches. A coworker at ADC (now Intec) from the research lab put me onto the <a href="http://ali-www.cs.umass.edu/~steveb/pubs/abstracts.html#thesis">work of Stephen Blackburn</a>.</p>
 </div>
+
+
+<div class="tags">
+  <a href="/tags/Distributed%20Computing.html">Distributed Computing</a>
+</div>
+
 
 <br/>
 
@@ -3276,6 +3718,12 @@ catch (<span class="st">:early_exit</span>) {
 <p><a href="http://www.itconversations.com/shows/detail392.html">Hiring technies and nerds</a></p>
 </div>
 
+
+<div class="tags">
+  <a href="/tags/Hiring.html">Hiring</a>, <a href="/tags/Management.html">Management</a>
+</div>
+
+
 <br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
@@ -3313,6 +3761,12 @@ catch (<span class="st">:early_exit</span>) {
   <p>Check out <a href="http://www.itconversations.com/shows/detail301.html">this talk with Kent Beck about developer testing</a>.</p>
 <p>I’m worried about the distinction Kent tries to make between Quality and Healthy software. Kent’s decription of “healthy software” is what I think of as “quality software”.</p>
 </div>
+
+
+<div class="tags">
+  <a href="/tags/Quality.html">Quality</a>, <a href="/tags/Testing.html">Testing</a>
+</div>
+
 
 <br/>
 
@@ -3360,6 +3814,12 @@ Are the relational data model and (especially) SQL the right choices for periste
 <p>Probably true if a little overstated. Hibernate certainly take a practical stance to object persistence.</p>
 </div>
 
+
+<div class="tags">
+  <a href="/tags/Hibernate.html">Hibernate</a>, <a href="/tags/Java.html">Java</a>, <a href="/tags/ORM.html">ORM</a>, <a href="/tags/Spring.html">Spring</a>
+</div>
+
+
 <br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
@@ -3397,6 +3857,12 @@ Are the relational data model and (especially) SQL the right choices for periste
   <p>Just watched Ted Neward’s <a href="http://www.theserverside.com/talks/videos/TedNeward/interview.tss?bandwidth=dsl">TSS tech talk</a>. It resonated with me quite well. He revealed that his new book - Effective Enterprise Java - is sumed up by the phrase: “Avoid round trips!”. I like his “let’s not get religious about OO” attitude. He seems a little closed to dynamically typed languages and talks about “strong typing” when he means “static typing”. Anyways, he’s trying out Smalltalk so there’s hope :). All the talk of REST and “spaces” (JavaSpaces, T-Spaces etc) leads me to think of the Erlang and Oz models of concurrency (like a generalisation of the UNIX pipe). These languages need more proponents!</p>
 </div>
 
+
+<div class="tags">
+  <a href="/tags/Distributed%20Computing.html">Distributed Computing</a>, <a href="/tags/Erlang.html">Erlang</a>, <a href="/tags/Network%20Programming.html">Network Programming</a>, <a href="/tags/Oz.html">Oz</a>
+</div>
+
+
 <br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
@@ -3433,6 +3899,12 @@ Are the relational data model and (especially) SQL the right choices for periste
 <div class="post-content">
   <p>Wow. You hear alot of rumours about Lisp-based operating systems but you rarely come across a project that appears active. <a href="http://common-lisp.net/project/movitz/">Movitz</a> looks like a promising <em>active</em> LispOS project! It’s goal is to provide a development platform to run CL-based kernels on x86 PCs “on the metal”. I guess these restrictions make it doable. I’d prefer to see CL or Scheme combined with Linux or FreeBSD kernel so that you could still have a viable usable system and also experiement with OS ideas using lisp. In this respect, <a href="http://www.abstractnonsense.com/schemix/">Schemix</a> looks interesting. It’s a Scheme interpreter (based on <a href="http://tinyscheme.sf.net">TinyScheme</a>) patched into the Linux kernel. I haven’t looked at it closely but imagine that it’s interpreted nature means that it is probably only useful for early prototyping of ideas and certainly for exploring and learning about the kernel.</p>
 </div>
+
+
+<div class="tags">
+  <a href="/tags/Lisp.html">Lisp</a>, <a href="/tags/Operating%20Systems.html">Operating Systems</a>, <a href="/tags/Scheme.html">Scheme</a>
+</div>
+
 
 <br/>
 
@@ -3473,6 +3945,12 @@ Are the relational data model and (especially) SQL the right choices for periste
 <p>Java programs have similar problems that WCL attempts to solve for CL. When the same Java program is loaded by separate JVMs (in different processes), they don’t share any code. i.e. the classes will be jitted multiple times …being stored in memory multiple times. I believe that this problem occurs even within the <em>same</em> JVM when the class files are loaded via different class loaders! I’ve yet to confirm that though. This is one of the reasons why Java application take up alot of memory. Seems to be a problem with 1.4.2 anyways. Perhaps 1.5 fixes this problem. Microsoft’s CLR deals with this situation by using the assembly is the unit of deployment and having each assembly contain a version number. I imagine that with the CLR (and other CLI implementations), that each assembly is only compiled once within the same process. This doesn’t however solve the “multiple process runnings CLRs” problem though I believe there is an ahead-of-time option which stores compiled assemblies in an on-disk cache - this would would likely solve the problem (as long as the compiled assemblies are loaded into shared memory like a shared library).</p>
 </div>
 
+
+<div class="tags">
+  <a href="/tags/CLI.html">CLI</a>, <a href="/tags/CLR.html">CLR</a>, <a href="/tags/Common%20Lisp.html">Common Lisp</a>, <a href="/tags/Java.html">Java</a>, <a href="/tags/JVM.html">JVM</a>, <a href="/tags/Lisp.html">Lisp</a>
+</div>
+
+
 <br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
@@ -3510,6 +3988,12 @@ Are the relational data model and (especially) SQL the right choices for periste
   <p>I’m slowing working my way through the <a href="http://webcast.berkeley.edu/courses/archive.html?prog=116&amp;group=57">cs162 lectures from Berkeley</a>. Just watched the <a href="http://webcast.berkeley.edu/courses/replay.php?prog=116&amp;amp;group=57&amp;date=20040225&amp;rep=real">CPU Scheduling lecture</a>. I had the realisation that CPU scheduling is “just” resource sharing (der), like shoppers sharing the checkout operators on their way out of the store. Alan talked about optimal scheduling algorithms for “perfect” situation. I think it was FIFO was provably optimal when considering time to completion and SRTF (shortest running task first?) was provably optimal when considering average response time. FIFO works when all jobs are the same length, SRFT is more general but you have to guess about how long a job will run. I had the thought that if there are optimal schedulers for certain situations then wouldn’t it be great to be able to specify what scheduling algorithm to use for certain processes? You could even allow user-designed schedulers to which you assign your jobs. Then you could have a heirarchy of schedulers and a super-scheduler that moves jobs/tasks between the different schedulers…. or you could use the lottery algorithm that Alan talked about towards the end of the lecture. It has nice properties like avoiding starvation (in particular of long running tasks) and easy to understand fairness. Anyways I still think it would be great to have a Lisp-based operating system, perhaps as a layer above Linux (cause you don’t want to write all those device drivers do you) that would allow experimentation with custom scheduling algorithms and heirarchies of schedulers.</p>
 <p>The other potentially interesting thing about a LispOS is that you could do away with reserving stack space for each thread. One of the problems with having lots of processes (and threads) is that it consumes alot of memory even if each thread only gets afew kilobytes it mounts up quickly. With Lisp you needn’t use the stack to hold “procedure activations”, you could put them in the garbage collected heap (actually you might want to optimise that a bit and put them in a special “stack” heap and only move/link them into the gc-heap if necessary). This way threads only take as much “stack” as they need. Also “stack space” grows as required (just as the heap grows as required). Potential problems would be efficiency of the gc-heap - particularly memory allocation speed - and slightly larger activation frames due to embedded pointers.</p>
 </div>
+
+
+<div class="tags">
+  <a href="/tags/Lisp.html">Lisp</a>, <a href="/tags/Operating%20Systems.html">Operating Systems</a>
+</div>
+
 
 <br/>
 
@@ -3551,6 +4035,12 @@ Are the relational data model and (especially) SQL the right choices for periste
 <p>Martin Fowler (if you follow the link through to his article) is right on the money. Closures are good. Lisp is good. Ruby is good. Smalltalk is good. You gotta love Martin.</p>
 </div>
 
+
+<div class="tags">
+  <a href="/tags/C%23.html">C#</a>, <a href="/tags/Closures.html">Closures</a>, <a href="/tags/Functional%20Programming.html">Functional Programming</a>, <a href="/tags/Java.html">Java</a>, <a href="/tags/Spring.html">Spring</a>
+</div>
+
+
 <br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
@@ -3587,6 +4077,12 @@ Are the relational data model and (especially) SQL the right choices for periste
 <div class="post-content">
   <p>I was recently having trouble with sound and RealPlayer10 on Linux. It turns out that RealPlayer10 (and Helix Player) only support the older OSS sound drivers (rather than the newer ALSA drivers). I was on 2.6.6. I downloaded 2.6.8.1 and this time only compiled the OSS drivers and not the ALSA ones. Be aware that you should not (perhaps cannot) load both OSS and ALSA drivers.</p>
 </div>
+
+
+<div class="tags">
+  <a href="/tags/Linux.html">Linux</a>
+</div>
+
 
 <br/>
 
@@ -3633,6 +4129,12 @@ Are the relational data model and (especially) SQL the right choices for periste
 <p>Looks like “Better, Faster, Lighter Java” would be a good but small book. Probably not necessary if you just use Spring, Hibernate etc. Also, Rod Johnson’s newest book “<a href="http://www.wiley.com/WileyCDA/WileyTitle/productCd-0764558315.html">Expert One-on-One J2EE Development without EJB</a>” could be good but when you already believe it…</p>
 </div>
 
+
+<div class="tags">
+  <a href="/tags/Hibernate.html">Hibernate</a>, <a href="/tags/Java.html">Java</a>, <a href="/tags/ORM.html">ORM</a>, <a href="/tags/Spring.html">Spring</a>
+</div>
+
+
 <br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
@@ -3670,6 +4172,12 @@ Are the relational data model and (especially) SQL the right choices for periste
   <p>I finished the <a href="http://swiss.csail.mit.edu/classes/6.001/abelson-sussman-lectures/">SICP videos</a> last weekend (although I need to return to the last 4). I wanted to get back to finish watching a lecture webcast series for the subject <a href="http://webcast.berkeley.edu/courses/archive.html?prog=116&amp;group=57">Operating Systems and Systems Programming</a> from Berkeley. I’ve seen a previous years lecture series but I’m pretty sure I didn’t finish. It’s all in Real media format so you need RealPlayer. It’s not so good on dialup - I hardly get a frame but the audio is ok.</p>
 </div>
 
+
+<div class="tags">
+  <a href="/tags/Operating%20Systems.html">Operating Systems</a>, <a href="/tags/Scheme.html">Scheme</a>, <a href="/tags/SICP.html">SICP</a>
+</div>
+
+
 <br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
@@ -3706,6 +4214,12 @@ Are the relational data model and (especially) SQL the right choices for periste
 <div class="post-content">
   <p>I had a laugh at <a href="http://web.archive.org/web/20031105005932/www.bagley.org/~doug/ocaml/Notes/okoans.shtml">this</a> (via <a href="news://comp.lang.functional">comp.lang.functional</a>).</p>
 </div>
+
+
+<div class="tags">
+  <a href="/tags/Functional%20Programming.html">Functional Programming</a>, <a href="/tags/OCaml.html">OCaml</a>
+</div>
+
 
 <br/>
 
@@ -3746,6 +4260,12 @@ Are the relational data model and (especially) SQL the right choices for periste
 <p><a href="http://erlang.org">Erlang</a> is a programming language that uses message passing concurrency rather than shared state concurrency (as in Java). Some other languages with message passing concurrency are <a href="http://mozart-oz.org/">Oz</a>, <a href="http://erights.org">E</a>, <a href="http://www.iolanguage.com/">Io</a> and apparently MultiLisp<a href="http://mozart-oz.org"></a> (a Scheme dialect).</p>
 </div>
 
+
+<div class="tags">
+  <a href="/tags/Erlang.html">Erlang</a>
+</div>
+
+
 <br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
@@ -3782,6 +4302,12 @@ Are the relational data model and (especially) SQL the right choices for periste
 <div class="post-content">
   <p>I was reading about the problems related to shared state concurrency (as opposed to message passing concurrency as in Erlang and Oz). I came across the following <a href="http://c2.com/cgi/wiki?SwingWorkerRaceCondition">interesting bug described on the wiki</a> discovered by Luke Gorrie. There is also a <a href="http://java.sun.com/products/jfc/tsc/articles/threads/update.html">reference to a Sun article</a> describing the bug and the solution. This is ancient history but probably a problem misunderstood by many Java programmers.</p>
 </div>
+
+
+<div class="tags">
+  <a href="/tags/Erlang.html">Erlang</a>, <a href="/tags/Java.html">Java</a>, <a href="/tags/Oz.html">Oz</a>, <a href="/tags/Swing.html">Swing</a>
+</div>
+
 
 <br/>
 
@@ -3848,6 +4374,12 @@ a                 <span class="co">; =&gt; a procedure</span>
 (<span class="kw">+</span> (<span class="kw">display</span> <span class="st">&quot;1\n&quot;</span>) (a <span class="dv">99</span>) (<span class="kw">display</span> <span class="st">&quot;2\n&quot;</span>))</code></pre></div>
 </div>
 
+
+<div class="tags">
+  <a href="/tags/Scheme.html">Scheme</a>
+</div>
+
+
 <br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
@@ -3887,6 +4419,12 @@ a                 <span class="co">; =&gt; a procedure</span>
 <p>Today I was watching another couple of videos from the <a href="http://swiss.csail.mit.edu/classes/6.001/abelson-sussman-lectures/">Abelson and Sussman collection</a>. It’s about 9G of divx movies. I’m pretty dedicated to my lisp education - I’m only on 32k dialup connection. I watched 6a&amp;b about streams (again) and then got onto the very amusing lectures on meta circular evaluation (7a&amp;b). Very funny - a must see for any lisp enthusiast.</p>
 <p>I was also reviewing multithreading issues in Common Lisp implementations via <a href="http://cormanlisp.com/Multi-threaded%20Lisp.ppt">the slides from Roger Corman’s talk on the subject</a>.</p>
 </div>
+
+
+<div class="tags">
+  <a href="/tags/Lisp.html">Lisp</a>, <a href="/tags/Python%20Scheme.html">Python Scheme</a>
+</div>
+
 
 <br/>
 
@@ -3929,6 +4467,12 @@ a                 <span class="co">; =&gt; a procedure</span>
 <p><a href="http://grokthis.net/%7Enwwine/nwnwine-HOWTO.html">Getting the toolset to work on Linux under Wine</a></p>
 <p>I’ve been thinking about changing over from <a href="http://debian.org/">Debian</a> to <a href="http://gentoo.org/">Gentoo</a>. I noticed that Gentoo has a <a href="http://packages.gentoo.org/ebuilds/?nwn-1.62">nwn ebuild</a>.</p>
 </div>
+
+
+<div class="tags">
+  <a href="/tags/Computer%20Games.html">Computer Games</a>, <a href="/tags/Linux.html">Linux</a>
+</div>
+
 
 <br/>
 
