@@ -398,7 +398,7 @@ main <span class="fu">=</span> putStrLn <span class="st">&quot;Hello, world!&quo
   
   <div class="post-footer-row">
     <div class="tags">
-      <i class="fa fa-tags"></i> 
+      <i class="fa fa-tags"></i> <a href="/tags/wordpress/index.html">WordPress</a>
     </div>
   </div>
   <div class="clear"></div>
