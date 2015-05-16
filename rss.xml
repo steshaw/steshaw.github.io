@@ -54,13 +54,26 @@ $ <span class="kw">btrfs</span> filesystem resize max /mnt/root</code></pre></di
 <div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash">$ <span class="kw">reboot</span></code></pre></div>
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/nixos/index.html">NixOS</a>, <a href="/tags/linux/index.html">Linux</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> <a href="/tags/nixos/index.html">NixOS</a>, <a href="/tags/linux/index.html">Linux</a>
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2015-05-01-deploying-your-hakyll-site-with-halcyon.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
@@ -124,13 +137,28 @@ $ <span class="kw">btrfs</span> filesystem resize max /mnt/root</code></pre></di
 </ul>
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/hakyll/index.html">Hakyll</a>, <a href="/tags/halcyon/index.html">Halcyon</a>, <a href="/tags/circleci/index.html">CircleCI</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> <a href="/tags/hakyll/index.html">Hakyll</a>, <a href="/tags/halcyon/index.html">Halcyon</a>, <a href="/tags/circleci/index.html">CircleCI</a>
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2015-04-29-blogging-with-hakyll.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+      <a class="btn btn-default" href="/posts/2015-05-03-increase-size-of-virtualbox-btrfs-partition.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
@@ -207,13 +235,28 @@ main <span class="fu">=</span> putStrLn <span class="st">&quot;Hello, world!&quo
 </ul>
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/haskell/index.html">Haskell</a>, <a href="/tags/hakyll/index.html">Hakyll</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> <a href="/tags/haskell/index.html">Haskell</a>, <a href="/tags/hakyll/index.html">Hakyll</a>
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2014-07-17-adopting-a-cambridge-culture.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+      <a class="btn btn-default" href="/posts/2015-05-01-deploying-your-hakyll-site-with-halcyon.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
@@ -289,13 +332,28 @@ main <span class="fu">=</span> putStrLn <span class="st">&quot;Hello, world!&quo
 
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/software-engineering/index.html">Software Engineering</a>, <a href="/tags/teams/index.html">Teams</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> <a href="/tags/software-engineering/index.html">Software Engineering</a>, <a href="/tags/teams/index.html">Teams</a>
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2012-02-09-moving-to-steshaw-org.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+      <a class="btn btn-default" href="/posts/2015-04-29-blogging-with-hakyll.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
@@ -332,13 +390,28 @@ main <span class="fu">=</span> putStrLn <span class="st">&quot;Hello, world!&quo
   <p>Goodbye <a href="http://wordpress.com/">wordpress.com</a>, it’s been good. Now blogging at <a href="http://steshaw.org">steshaw.org</a></p>
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> 
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> 
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2012-02-09-hello-mathjax.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+      <a class="btn btn-default" href="/posts/2014-07-17-adopting-a-cambridge-culture.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
@@ -408,13 +481,28 @@ index 9a50a8b..fc9dc37 100644
 </ul>
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/octopress/index.html">Octopress</a>, <a href="/tags/mathjax/index.html">MathJax</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> <a href="/tags/octopress/index.html">Octopress</a>, <a href="/tags/mathjax/index.html">MathJax</a>
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2012-02-03-rebooting-with-octopress.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+      <a class="btn btn-default" href="/posts/2012-02-09-moving-to-steshaw-org.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
@@ -492,13 +580,28 @@ main <span class="fu">=</span> <span class="kw">do</span>
 <span class="fu">countWords</span>(text) foreach println</code></pre></div>
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/octopress/index.html">Octopress</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> <a href="/tags/octopress/index.html">Octopress</a>
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2010-11-28-hp-pavilion-with-ubuntu-10-10.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+      <a class="btn btn-default" href="/posts/2012-02-09-hello-mathjax.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
@@ -566,13 +669,28 @@ main <span class="fu">=</span> <span class="kw">do</span>
 <p>Since I won’t be purchasing a new notebook until next year, I am hoping that the rumoured April MacBook Pro update will make the decision easier. Hoping for higher resolution displays like MacBook Air, cheaper flash/ssd storage option, quad-cores, Mac OS X Lion and cheaper 8G RAM option. Hopefully a combination of Apple and a rising AUD can deliver. It’s quite possible that the AUD could come crashing down before then though :(.</p>
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/apple/index.html">Apple</a>, <a href="/tags/computer-hardware/index.html">Computer Hardware</a>, <a href="/tags/hp/index.html">HP</a>, <a href="/tags/mac/index.html">Mac</a>, <a href="/tags/ubuntu/index.html">Ubuntu</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> <a href="/tags/apple/index.html">Apple</a>, <a href="/tags/computer-hardware/index.html">Computer Hardware</a>, <a href="/tags/hp/index.html">HP</a>, <a href="/tags/mac/index.html">Mac</a>, <a href="/tags/ubuntu/index.html">Ubuntu</a>
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2010-11-23-agile-is-the-status-quo.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+      <a class="btn btn-default" href="/posts/2012-02-03-rebooting-with-octopress.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
@@ -620,13 +738,28 @@ main <span class="fu">=</span> <span class="kw">do</span>
 <p>Most people fail on that last point. <strong>Don’t</strong>.</p>
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/agile/index.html">Agile</a>, <a href="/tags/software-engineering/index.html">Software Engineering</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> <a href="/tags/agile/index.html">Agile</a>, <a href="/tags/software-engineering/index.html">Software Engineering</a>
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2010-05-22-stonking-new-laptop.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+      <a class="btn btn-default" href="/posts/2010-11-28-hp-pavilion-with-ubuntu-10-10.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
@@ -672,13 +805,28 @@ main <span class="fu">=</span> <span class="kw">do</span>
 <p>I also considered the new MacBook Pro 15“. Because of the price, it seems only possible to consider the bottom of the range MacBook Pro starting at $2199. On the upside, the cheapest new MacBook Pro 15” is faster than the most expensive older MacBook Pro 17&quot; (according to Geekbench). It’s a dual core i5 2.4GHz machine. I was very disappointed that Apple didn’t make them quad core but I suppose it’s a compromise with battery life - and profit margin ;). Primate Labs lists the Geekbench score of this laptop at <a href="http://www.primatelabs.ca/blog/2010/04/macbookpro-benchmarks/">4806</a> compared to the amazing 5600 that I’m seeing on the 3042TX (according to Geekbench this makes my notebook faster that the most expensive MacBook Pro 17“). The Apple build quality is better but the new HP’s are really getting there. The Mac’s display is more high-res at 1400x900 compared to the HP’s 1366x768. However, it only comes with 4G of RAM by default and a HDD half the size at 320G. Not that it’s really a big deal to me but the MacBook only comes with a 256M graphics card, no Blu-ray and no fingerprint reader. I do miss the vertical screen real estate with the HP but I think it’s a worthwhile compromise. I also miss the MagSafe power port - with the Pavilion you need it connected to the power more often and since the power plug sticks out so far, it’s awkward and relatively easy to get it caught on the lounge/couch/sofa or something. I’ve already got an iMac 27” + 8G of RAM with Snow Leopard so the other upside with this notebook is that I get a copy of Windows 7 should I need to do any .NET development. I’m already taking a look at PowerShell that came preinstalled (many Unix-like aliases are provided but ‘ls’ still looks like a dodgy old ‘DIR’ command – yes, yes – I’m sure there’s heaps of good stuff in there like object-valued pipelines). The extended 3yr warranty for the MacBook is a staggering $579! That would make a total of $2778. If I up-spec the RAM to 8G and the HDD to a 500G 5400rpm (not quite the 640G that I have) and the price leaps to $3,477.99 - very nearly twice as much as what I paid and still no Blu-ray, HDMI out or 1G graphics card… As you can imagine, it is a very difficult price to justify even for the Apple build quality, higher resolution display, battery life and MagSafe power adapter. Don’t worry about the OS, I won’t be using Windows 7 day-to-day. I’ll get all my *nix goodness by installing Ubuntu Lucid Lynx shortly. Then I’ll be able to apt-get all my favourite applications. Apt/dpkg is better than MacPorts - binary packaging is a must for anyone who values their time - something I learned from a year or two with Gentoo prior to making the move to Ubuntu. Also keen to see how OpenSolaris might work out as a notebook OS - all that GNU goodness with ZFS too. I recently heard that FreeBSD has ZFS too so perhaps I should go that way. I do tend to prefer BSD/MIT/X11 over GPL/LGPL.</p>
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/apple/index.html">Apple</a>, <a href="/tags/computer-hardware/index.html">Computer Hardware</a>, <a href="/tags/hp/index.html">HP</a>, <a href="/tags/mac/index.html">Mac</a>, <a href="/tags/mac-pricing/index.html">Mac pricing</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> <a href="/tags/apple/index.html">Apple</a>, <a href="/tags/computer-hardware/index.html">Computer Hardware</a>, <a href="/tags/hp/index.html">HP</a>, <a href="/tags/mac/index.html">Mac</a>, <a href="/tags/mac-pricing/index.html">Mac pricing</a>
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2009-08-02-bzr-uniqueness-git.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+      <a class="btn btn-default" href="/posts/2010-11-23-agile-is-the-status-quo.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
@@ -717,13 +865,28 @@ main <span class="fu">=</span> <span class="kw">do</span>
 <p>I wonder if there are bzr style workflow solutions for Git…</p>
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/bazaar/index.html">Bazaar</a>, <a href="/tags/dvcs/index.html">DVCS</a>, <a href="/tags/git/index.html">Git</a>, <a href="/tags/mercurial/index.html">Mercurial</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> <a href="/tags/bazaar/index.html">Bazaar</a>, <a href="/tags/dvcs/index.html">DVCS</a>, <a href="/tags/git/index.html">Git</a>, <a href="/tags/mercurial/index.html">Mercurial</a>
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2009-03-19-ibm-to-buyout-sun-microsystems.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+      <a class="btn btn-default" href="/posts/2010-05-22-stonking-new-laptop.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
@@ -762,13 +925,28 @@ main <span class="fu">=</span> <span class="kw">do</span>
 <p>I wonder if businesses will be more likely to adopt .NET rather than Java now though and really turn the tide. This global recession is turning out to be what I call <em>The Greater Depression</em>, some <em>The Second Great Depression</em> and still some other young ’uns <em>The Great Depression 2.0</em>. I wonder who will come out on top? With ReSharper, Visual Studio is actually pretty good! So, no excuses - go brush up those C# skills! ;)</p>
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/c/index.html">C#</a>, <a href="/tags/closures/index.html">Closures</a>, <a href="/tags/ibm/index.html">IBM</a>, <a href="/tags/java/index.html">Java</a>, <a href="/tags/microsoft/index.html">Microsoft</a>, <a href="/tags/neal-gafter/index.html">Neal Gafter</a>, <a href="/tags/sun/index.html">Sun</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> <a href="/tags/c/index.html">C#</a>, <a href="/tags/closures/index.html">Closures</a>, <a href="/tags/ibm/index.html">IBM</a>, <a href="/tags/java/index.html">Java</a>, <a href="/tags/microsoft/index.html">Microsoft</a>, <a href="/tags/neal-gafter/index.html">Neal Gafter</a>, <a href="/tags/sun/index.html">Sun</a>
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2009-01-29-webbeans-java-contexts-and-dependency-injection.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+      <a class="btn btn-default" href="/posts/2009-08-02-bzr-uniqueness-git.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
@@ -807,13 +985,28 @@ main <span class="fu">=</span> <span class="kw">do</span>
 <p>The specification draws much from <a href="http://seamframework.org">Seam</a> and <a href="http://code.google.com/p/google-guice/">Guice</a> and consequently Gavin King and Bob Lee. Congratulations to all involved in the specification. It’s really worth looking at particularly if you haven’t been using Seam 2 or Guice 2. I find myself particularly drawn to Guice 2. I hope they release it soon :).</p>
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/dependency-injection/index.html">Dependency Injection</a>, <a href="/tags/guice/index.html">Guice</a>, <a href="/tags/java/index.html">Java</a>, <a href="/tags/jcdi/index.html">JCDI</a>, <a href="/tags/jee/index.html">JEE</a>, <a href="/tags/seam/index.html">Seam</a>, <a href="/tags/web/index.html">Web</a>, <a href="/tags/webbeans/index.html">WebBeans</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> <a href="/tags/dependency-injection/index.html">Dependency Injection</a>, <a href="/tags/guice/index.html">Guice</a>, <a href="/tags/java/index.html">Java</a>, <a href="/tags/jcdi/index.html">JCDI</a>, <a href="/tags/jee/index.html">JEE</a>, <a href="/tags/seam/index.html">Seam</a>, <a href="/tags/web/index.html">Web</a>, <a href="/tags/webbeans/index.html">WebBeans</a>
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2008-09-15-hyperproductive-monadic-programmer-for-the-21st-century.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+      <a class="btn btn-default" href="/posts/2009-03-19-ibm-to-buyout-sun-microsystems.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
@@ -859,13 +1052,28 @@ main <span class="fu">=</span> <span class="kw">do</span>
 <p>Oh and the title of this post… Well it’s kind of a bad joke from day 3. After 3 days of indoctrination I realised that it was leading to the conclusion that a new breed of programmer was required - the hyper-productive monadic programmer for the 21st century. This new breed of programmer would eschew side effects and even OOP in preference to algebraic data types, type classes, implicits, higher order functions, monads and higher kinds. They would impress their friends with deep knowledge of mathematical principles and have an IQ 50 points above decent developers of today. These programmers would be trained to be 10x more productive than their imperative colleagues (coding in Java and C#) - allowing some of us to retire for a better life (perhaps as an economist or financial advisor). All that remains is to work out how much of this is hyperbole and how much sound.</p>
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/category-theory/index.html">Category Theory</a>, <a href="/tags/functional-programming/index.html">Functional Programming</a>, <a href="/tags/haskell/index.html">Haskell</a>, <a href="/tags/monads/index.html">Monads</a>, <a href="/tags/productivity/index.html">Productivity</a>, <a href="/tags/scala/index.html">Scala</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> <a href="/tags/category-theory/index.html">Category Theory</a>, <a href="/tags/functional-programming/index.html">Functional Programming</a>, <a href="/tags/haskell/index.html">Haskell</a>, <a href="/tags/monads/index.html">Monads</a>, <a href="/tags/productivity/index.html">Productivity</a>, <a href="/tags/scala/index.html">Scala</a>
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2008-08-29-certified-scrummaster.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+      <a class="btn btn-default" href="/posts/2009-01-29-webbeans-java-contexts-and-dependency-injection.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
@@ -902,13 +1110,28 @@ main <span class="fu">=</span> <span class="kw">do</span>
   <p>I finally got around to doing the Scrum course and <a href="http://www.scrumalliance.org/profiles/38923-steven-shaw">became a CSM</a> :). Many thanks to Jens Østergaard of <a href="http://scrum.dk">Scrum.dk</a> for making it a good two days.</p>
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/agile/index.html">Agile</a>, <a href="/tags/scrum/index.html">Scrum</a>, <a href="/tags/software-process/index.html">Software Process</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> <a href="/tags/agile/index.html">Agile</a>, <a href="/tags/scrum/index.html">Scrum</a>, <a href="/tags/software-process/index.html">Software Process</a>
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2008-07-30-feature-teams.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+      <a class="btn btn-default" href="/posts/2008-09-15-hyperproductive-monadic-programmer-for-the-21st-century.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
@@ -949,13 +1172,28 @@ main <span class="fu">=</span> <span class="kw">do</span>
 </ul>
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/productivity/index.html">Productivity</a>, <a href="/tags/software-design/index.html">Software Design</a>, <a href="/tags/software-process/index.html">Software Process</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> <a href="/tags/productivity/index.html">Productivity</a>, <a href="/tags/software-design/index.html">Software Design</a>, <a href="/tags/software-process/index.html">Software Process</a>
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2008-06-02-from-nand-to-tetris.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+      <a class="btn btn-default" href="/posts/2008-08-29-certified-scrummaster.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
@@ -992,13 +1230,28 @@ main <span class="fu">=</span> <span class="kw">do</span>
   <p>This looks like a great course+book: <a href="http://www.idc.ac.il/tecs/">The elements of computing systems</a>.</p>
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/compilers/index.html">Compilers</a>, <a href="/tags/computer-architecture/index.html">Computer Architecture</a>, <a href="/tags/computer-hardware/index.html">Computer Hardware</a>, <a href="/tags/operating-systems/index.html">Operating Systems</a>, <a href="/tags/programming-languages/index.html">Programming Languages</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> <a href="/tags/compilers/index.html">Compilers</a>, <a href="/tags/computer-architecture/index.html">Computer Architecture</a>, <a href="/tags/computer-hardware/index.html">Computer Hardware</a>, <a href="/tags/operating-systems/index.html">Operating Systems</a>, <a href="/tags/programming-languages/index.html">Programming Languages</a>
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2008-04-22-ext-js-21-now-gpl.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+      <a class="btn btn-default" href="/posts/2008-07-30-feature-teams.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
@@ -1039,13 +1292,28 @@ main <span class="fu">=</span> <span class="kw">do</span>
 <p>Update: more info can be found <a href="http://www.jroller.com/sjivan/entry/my_response_to_jack_slocum">in a post by the author of GWT-Ext</a>.</p>
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/ext-gwt/index.html">Ext GWT</a>, <a href="/tags/ext-js/index.html">Ext JS</a>, <a href="/tags/gwt/index.html">GWT</a>, <a href="/tags/gwtext/index.html">GWT-Ext</a>, <a href="/tags/java/index.html">Java</a>, <a href="/tags/javascript/index.html">JavaScript</a>, <a href="/tags/web/index.html">Web</a>, <a href="/tags/yui/index.html">YUI</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> <a href="/tags/ext-gwt/index.html">Ext GWT</a>, <a href="/tags/ext-js/index.html">Ext JS</a>, <a href="/tags/gwt/index.html">GWT</a>, <a href="/tags/gwtext/index.html">GWT-Ext</a>, <a href="/tags/java/index.html">Java</a>, <a href="/tags/javascript/index.html">JavaScript</a>, <a href="/tags/web/index.html">Web</a>, <a href="/tags/yui/index.html">YUI</a>
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2008-04-10-super-mario-in-javascript.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+      <a class="btn btn-default" href="/posts/2008-06-02-from-nand-to-tetris.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
@@ -1083,13 +1351,28 @@ main <span class="fu">=</span> <span class="kw">do</span>
 <p>Note that there seems to be only one level to the game which isn’t entirely implemented. It’s the concept that such a beast can be implemented in JavaScript rather than Flash that’s interesting.</p>
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/computer-games/index.html">Computer Games</a>, <a href="/tags/javascript/index.html">JavaScript</a>, <a href="/tags/web/index.html">Web</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> <a href="/tags/computer-games/index.html">Computer Games</a>, <a href="/tags/javascript/index.html">JavaScript</a>, <a href="/tags/web/index.html">Web</a>
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2007-09-18-rob-pike-on-concurrsency.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+      <a class="btn btn-default" href="/posts/2008-04-22-ext-js-21-now-gpl.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
@@ -1126,13 +1409,28 @@ main <span class="fu">=</span> <span class="kw">do</span>
   <p>Watch this <a href="http://video.google.com/videoplay?docid=810232012617965344">great Google talk with Rob Pike</a>. He talks about concurrent processes and message passing in the context of Newsqueak - a programming language that he wrote 20 years ago. What he describes is very similar to the Erlang programming model except that channels are first class citizens.</p>
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/concurrent-programming/index.html">Concurrent Programming</a>, <a href="/tags/erlang/index.html">Erlang</a>, <a href="/tags/message-passing/index.html">Message Passing</a>, <a href="/tags/newsqueak/index.html">Newsqueak</a>, <a href="/tags/programming-languages/index.html">Programming Languages</a>, <a href="/tags/rob-pike/index.html">Rob Pike</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> <a href="/tags/concurrent-programming/index.html">Concurrent Programming</a>, <a href="/tags/erlang/index.html">Erlang</a>, <a href="/tags/message-passing/index.html">Message Passing</a>, <a href="/tags/newsqueak/index.html">Newsqueak</a>, <a href="/tags/programming-languages/index.html">Programming Languages</a>, <a href="/tags/rob-pike/index.html">Rob Pike</a>
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2007-08-24-java-puzzlers.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+      <a class="btn btn-default" href="/posts/2008-04-10-super-mario-in-javascript.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
@@ -1169,13 +1467,28 @@ main <span class="fu">=</span> <span class="kw">do</span>
   <p>Go directly to <a href="http://video.google.com/videoplay?docid=9214177555401838409">here</a> if you think you know all the dark corners of the Java language and APIs. It’s a really worthwhile Google TechTalk. You will come away thinking that you had better set up automated <a href="http://findbugs.sourceforge.net/">FindBugs</a> analysis of your code!</p>
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/findbugs/index.html">FindBugs</a>, <a href="/tags/google-tech-talks/index.html">Google Tech Talks</a>, <a href="/tags/java/index.html">Java</a>, <a href="/tags/josh-block/index.html">Josh Block</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> <a href="/tags/findbugs/index.html">FindBugs</a>, <a href="/tags/google-tech-talks/index.html">Google Tech Talks</a>, <a href="/tags/java/index.html">Java</a>, <a href="/tags/josh-block/index.html">Josh Block</a>
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2007-08-14-first-steps-to-scala.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+      <a class="btn btn-default" href="/posts/2007-09-18-rob-pike-on-concurrsency.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
@@ -1212,13 +1525,28 @@ main <span class="fu">=</span> <span class="kw">do</span>
   <p>If you’re interested in the Scala programming language then <a href="http://www.artima.com/scalazine/articles/steps.html">this article</a> will come in handy. I learned a couple of things. In particular, I didn’t realise that you could instantiate an object with a trait (effectively changing the trait from the one specified in the class definition). Very interested in how that is implemented.</p>
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/jvm/index.html">JVM</a>, <a href="/tags/scala/index.html">Scala</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> <a href="/tags/jvm/index.html">JVM</a>, <a href="/tags/scala/index.html">Scala</a>
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2007-07-22-more-praise-for-wicket.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+      <a class="btn btn-default" href="/posts/2007-08-24-java-puzzlers.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
@@ -1255,13 +1583,28 @@ main <span class="fu">=</span> <span class="kw">do</span>
   <p><a href="http://wicket.apache.org/">Wicket</a> has finally graduated to become a top level Apache project and is receiving a much <a href="http://jlawmi.blogspot.com/2007/06/reasons-to-love-wicket.html">praise</a> as <a href="http://xhab.blogspot.com/2007/07/top-10-reasons-why-you-should-try.html">ever</a>.</p>
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/apache-wicket/index.html">Apache Wicket</a>, <a href="/tags/java/index.html">Java</a>, <a href="/tags/web/index.html">Web</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> <a href="/tags/apache-wicket/index.html">Apache Wicket</a>, <a href="/tags/java/index.html">Java</a>, <a href="/tags/web/index.html">Web</a>
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2007-06-24-mactax-mac-prices-in-the-uk.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+      <a class="btn btn-default" href="/posts/2007-08-14-first-steps-to-scala.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
@@ -1301,13 +1644,28 @@ main <span class="fu">=</span> <span class="kw">do</span>
 <p>Where does the MacTax go?</p>
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/mac/index.html">Mac</a>, <a href="/tags/mac-pricing/index.html">Mac pricing</a>, <a href="/tags/macbook-pro/index.html">MacBook Pro</a>, <a href="/tags/uk/index.html">UK</a>, <a href="/tags/unix/index.html">Unix</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> <a href="/tags/mac/index.html">Mac</a>, <a href="/tags/mac-pricing/index.html">Mac pricing</a>, <a href="/tags/macbook-pro/index.html">MacBook Pro</a>, <a href="/tags/uk/index.html">UK</a>, <a href="/tags/unix/index.html">Unix</a>
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2007-06-18-exceptions-checked-or-not.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+      <a class="btn btn-default" href="/posts/2007-07-22-more-praise-for-wicket.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
@@ -1351,13 +1709,28 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
 <p>I’m still digging into <a href="http://dev2dev.bea.com/pub/a/2006/11/effective-exceptions.html">an article on dev2dev</a> which promotes checked exceptions and points out that that the times they get annoying is where the Java API was poorly designed. For me this still points that checked exceptions are a experimental language feature perhaps best left out of industry programming languages for now.</p>
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/c/index.html">C#</a>, <a href="/tags/java/index.html">Java</a>, <a href="/tags/programming-languages/index.html">Programming Languages</a>, <a href="/tags/scala/index.html">Scala</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> <a href="/tags/c/index.html">C#</a>, <a href="/tags/java/index.html">Java</a>, <a href="/tags/programming-languages/index.html">Programming Languages</a>, <a href="/tags/scala/index.html">Scala</a>
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2007-06-11-dscm-mercurial-or-bazaar.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+      <a class="btn btn-default" href="/posts/2007-06-24-mactax-mac-prices-in-the-uk.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
@@ -1399,13 +1772,28 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
 <p>I’m happy with my choice of Mercurial but Bazaar will be the one to watch as they work towards 1.0 focusing on performance and documentation improvements.</p>
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/bazaar/index.html">Bazaar</a>, <a href="/tags/dvcs/index.html">DVCS</a>, <a href="/tags/git/index.html">Git</a>, <a href="/tags/mercurial/index.html">Mercurial</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> <a href="/tags/bazaar/index.html">Bazaar</a>, <a href="/tags/dvcs/index.html">DVCS</a>, <a href="/tags/git/index.html">Git</a>, <a href="/tags/mercurial/index.html">Mercurial</a>
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2007-05-31-java-closures-again.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+      <a class="btn btn-default" href="/posts/2007-06-18-exceptions-checked-or-not.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
@@ -1443,13 +1831,28 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
 <p>There has appeared a <a href="http://www.javac.info/consensus-closures-jsr.html">consensus proposal</a> on the javac.info site. It does appear that Bob Lee (Crazy Bob) has been turned around. I hope the consensus is not a compromise on the original proposal’s intent.</p>
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/bob-lee--closures--java--neal-gafter/index.html">Bob Lee - Closures - Java - Neal Gafter</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> <a href="/tags/bob-lee--closures--java--neal-gafter/index.html">Bob Lee - Closures - Java - Neal Gafter</a>
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2007-05-30-wifi-or-wifry.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+      <a class="btn btn-default" href="/posts/2007-06-11-dscm-mercurial-or-bazaar.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
@@ -1486,13 +1889,28 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
   <p>Bruce Johnson busts the myth that Google Web Toolkit is only for single page applications - amongst other things - <a href="http://www.infoq.com/presentations/gwt">in the video presentation available from InfoQ</a>.</p>
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/gwt/index.html">GWT</a>, <a href="/tags/java/index.html">Java</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> <a href="/tags/gwt/index.html">GWT</a>, <a href="/tags/java/index.html">Java</a>
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2007-05-29-rails-jabs-at-java.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+      <a class="btn btn-default" href="/posts/2007-05-30-wifi-or-wifry.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
@@ -1529,13 +1947,28 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
   <p>Starting to hear <a href="http://www.contractoruk.com/news/003268.html">worrying reports</a> about the heath dangers of WiFi radiation. I certainly hope it’s unfounded as I am not sure what I’d do without always on, wireless broadband!</p>
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/wifi/index.html">WiFi</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> <a href="/tags/wifi/index.html">WiFi</a>
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2007-05-30-gwt-not-just-for-spas.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+      <a class="btn btn-default" href="/posts/2007-05-31-java-closures-again.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
@@ -1574,13 +2007,28 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
 <p>The <a href="http://www.railsenvy.com/2007/5/15/hi-i-m-ruby-on-rails-part-2">other ads in the series</a> are also worth a look!</p>
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/humour/index.html">Humour</a>, <a href="/tags/java/index.html">Java</a>, <a href="/tags/ruby-on-rails/index.html">Ruby on Rails</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> <a href="/tags/humour/index.html">Humour</a>, <a href="/tags/java/index.html">Java</a>, <a href="/tags/ruby-on-rails/index.html">Ruby on Rails</a>
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2007-05-28-oh-no-not-yet-another-web-framework.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+      <a class="btn btn-default" href="/posts/2007-05-30-gwt-not-just-for-spas.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
@@ -1626,13 +2074,28 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
 <p>It’d be nice if there were some ideal framework for Java developers (those .NET guys sure have it easy!). The reality is that many frameworks would be suitable. Choose one that works for you and keeps you productive (i.e. avoid model2/action based frameworks if you have much interactive to deal with). I’m currently hoping that Wicket gains an upper hand. <a href="http://jobserve.com">JobServe</a> lists zero Wicket contracts currently though :( .</p>
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/apache-click/index.html">Apache Click</a>, <a href="/tags/apache-tapestry/index.html">Apache Tapestry</a>, <a href="/tags/icefaces/index.html">IceFaces</a>, <a href="/tags/java/index.html">Java</a>, <a href="/tags/jsf/index.html">JSF</a>, <a href="/tags/richfaces/index.html">RichFaces</a>, <a href="/tags/seam/index.html">Seam</a>, <a href="/tags/spring-mvc/index.html">Spring MVC</a>, <a href="/tags/web/index.html">Web</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> <a href="/tags/apache-click/index.html">Apache Click</a>, <a href="/tags/apache-tapestry/index.html">Apache Tapestry</a>, <a href="/tags/icefaces/index.html">IceFaces</a>, <a href="/tags/java/index.html">Java</a>, <a href="/tags/jsf/index.html">JSF</a>, <a href="/tags/richfaces/index.html">RichFaces</a>, <a href="/tags/seam/index.html">Seam</a>, <a href="/tags/spring-mvc/index.html">Spring MVC</a>, <a href="/tags/web/index.html">Web</a>
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2007-05-25-thoughts-on-web-application-frameworks.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+      <a class="btn btn-default" href="/posts/2007-05-29-rails-jabs-at-java.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
@@ -1685,13 +2148,28 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
 <p>will update again soon…</p>
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/apache-click/index.html">Apache Click</a>, <a href="/tags/gwt/index.html">GWT</a>, <a href="/tags/java/index.html">Java</a>, <a href="/tags/javascript/index.html">JavaScript</a>, <a href="/tags/jsf/index.html">JSF</a>, <a href="/tags/tibco-gi/index.html">Tibco GI</a>, <a href="/tags/web/index.html">Web</a>, <a href="/tags/yui/index.html">YUI</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> <a href="/tags/apache-click/index.html">Apache Click</a>, <a href="/tags/gwt/index.html">GWT</a>, <a href="/tags/java/index.html">Java</a>, <a href="/tags/javascript/index.html">JavaScript</a>, <a href="/tags/jsf/index.html">JSF</a>, <a href="/tags/tibco-gi/index.html">Tibco GI</a>, <a href="/tags/web/index.html">Web</a>, <a href="/tags/yui/index.html">YUI</a>
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2007-05-20-saps-innovation-drivers.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+      <a class="btn btn-default" href="/posts/2007-05-28-oh-no-not-yet-another-web-framework.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
@@ -1739,13 +2217,28 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
 <p>I’m not entirely convinced about point 7 but the other points are certainly sound.</p>
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/inmemory-databases/index.html">In-Memory Databases</a>, <a href="/tags/saas/index.html">SAAS</a>, <a href="/tags/sap/index.html">SAP</a>, <a href="/tags/soa/index.html">SOA</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> <a href="/tags/inmemory-databases/index.html">In-Memory Databases</a>, <a href="/tags/saas/index.html">SAAS</a>, <a href="/tags/sap/index.html">SAP</a>, <a href="/tags/soa/index.html">SOA</a>
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2007-05-06-guice.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+      <a class="btn btn-default" href="/posts/2007-05-25-thoughts-on-web-application-frameworks.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
@@ -1783,13 +2276,28 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
 <p><a href="http://video.google.com/videosearch?q=user%3A%22Google+engEDU%22&amp;so=1">Lots of other interesting Google talks</a> are available!</p>
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/dependency-injection/index.html">Dependency Injection</a>, <a href="/tags/google-tech-talks/index.html">Google Tech Talks</a>, <a href="/tags/guice/index.html">Guice</a>, <a href="/tags/java/index.html">Java</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> <a href="/tags/dependency-injection/index.html">Dependency Injection</a>, <a href="/tags/google-tech-talks/index.html">Google Tech Talks</a>, <a href="/tags/guice/index.html">Guice</a>, <a href="/tags/java/index.html">Java</a>
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2007-05-01-crudpage-for-click.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+      <a class="btn btn-default" href="/posts/2007-05-20-saps-innovation-drivers.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
@@ -1826,13 +2334,28 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
   <p><a href="http://www.devmedia.com.br/articles/viewcomp.asp?comp=3344">Portuguese Article on CrudPage</a> for Click (<a href="http://translate.google.com/translate?u=http%3A%2F%2Fwww.devmedia.com.br%2Farticles%2Fviewcomp.asp%3Fcomp%3D3344&amp;langpair=pt%7Cen&amp;hl=en&amp;ie=UTF-8&amp;oe=UTF-8&amp;prev=%2Flanguage_tools">translation here</a>). Compelling but mysterious :)</p>
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/apache-click/index.html">Apache Click</a>, <a href="/tags/java/index.html">Java</a>, <a href="/tags/web/index.html">Web</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> <a href="/tags/apache-click/index.html">Apache Click</a>, <a href="/tags/java/index.html">Java</a>, <a href="/tags/web/index.html">Web</a>
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2007-03-17-bertrand-meyer-on-uml.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+      <a class="btn btn-default" href="/posts/2007-05-06-guice.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
@@ -1891,13 +2414,28 @@ My long search had not been in vain. It had led me to a full appreciation of the
 <p>What a wonderful post. Thanks to Vadim Nasardinov. The <a href="http://archive.eiffel.com/doc/manuals/technology/bmarticles/uml/page.html">full article referenced</a> is also worth a read.</p>
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/bertrand-meyer/index.html">Bertrand Meyer</a>, <a href="/tags/uml/index.html">UML</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> <a href="/tags/bertrand-meyer/index.html">Bertrand Meyer</a>, <a href="/tags/uml/index.html">UML</a>
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2007-03-16-wishing-for-scrum.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+      <a class="btn btn-default" href="/posts/2007-05-01-crudpage-for-click.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
@@ -1936,13 +2474,28 @@ My long search had not been in vain. It had led me to a full appreciation of the
 <p>I’m also a little concerned that Scrum Alliance are too inflexible after reading <a href="http://agilethinking.net/blog/2007/02/21/when-is-scrum-not-scrum/">“When is Scrum not Scrum?”</a>. So perhaps formal training is not the way to go…</p>
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/agile/index.html">Agile</a>, <a href="/tags/scrum/index.html">Scrum</a>, <a href="/tags/software-process/index.html">Software Process</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> <a href="/tags/agile/index.html">Agile</a>, <a href="/tags/scrum/index.html">Scrum</a>, <a href="/tags/software-process/index.html">Software Process</a>
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2007-01-30-give-it-a-rest.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+      <a class="btn btn-default" href="/posts/2007-03-17-bertrand-meyer-on-uml.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
@@ -1979,13 +2532,28 @@ My long search had not been in vain. It had led me to a full appreciation of the
   <p>WS-* v REST, the wars continue ;). A <a href="http://www.sdtimes.com/fullcolumn/column-20070115-02.html">short article by Larry O’Brien</a> explains why REST+POX beats WS-* for SOA.</p>
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/distributed-computing/index.html">Distributed Computing</a>, <a href="/tags/rest/index.html">REST</a>, <a href="/tags/soa/index.html">SOA</a>, <a href="/tags/web-services/index.html">Web Services</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> <a href="/tags/distributed-computing/index.html">Distributed Computing</a>, <a href="/tags/rest/index.html">REST</a>, <a href="/tags/soa/index.html">SOA</a>, <a href="/tags/web-services/index.html">Web Services</a>
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2007-01-03-neal-gafter-on-closures-for-java.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+      <a class="btn btn-default" href="/posts/2007-03-16-wishing-for-scrum.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
@@ -2030,13 +2598,28 @@ My long search had not been in vain. It had led me to a full appreciation of the
 <p>Seems <a href="http://www.gafter.com/~neal/resume.html">from Neal’s resume</a> that closures are indeed “proposed for inclusion in JDK7” :)</p>
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/closures/index.html">Closures</a>, <a href="/tags/java/index.html">Java</a>, <a href="/tags/neal-gafter/index.html">Neal Gafter</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> <a href="/tags/closures/index.html">Closures</a>, <a href="/tags/java/index.html">Java</a>, <a href="/tags/neal-gafter/index.html">Neal Gafter</a>
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2006-12-17-python3000-nothing-radical.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+      <a class="btn btn-default" href="/posts/2007-01-30-give-it-a-rest.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
@@ -2073,13 +2656,28 @@ My long search had not been in vain. It had led me to a full appreciation of the
   <p>An interesting talk by Guido van Rossum is available at <a href="http://video.google.com/videoplay?docid=-6459339159268485356">google video</a>. Nothing radical in Python 3000. Mostly a cleanup release that breaks backwards compatibility. Some consideration is given to Common Lisp like generic functions but I cannot imagine they will enter Python 3000 (too much is needed).</p>
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/python/index.html">Python</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> <a href="/tags/python/index.html">Python</a>
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2006-08-12-scala-language-gets-erlang-style-actors-library.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+      <a class="btn btn-default" href="/posts/2007-01-03-neal-gafter-on-closures-for-java.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
@@ -2116,13 +2714,28 @@ My long search had not been in vain. It had led me to a full appreciation of the
   <p><a href="http://scala.epfl.ch/downloads/changes.html">Scala 2.1.7</a> and above now come with an Actors library which effectively gives Scala an Erlang style programming model. There is a very interesting <a href="http://lambda-the-ultimate.org/node/1615">paper about the library</a> (linked from Lambda the Ultimate). Scala is really looking great. Let’s hope that Scala is the Java of the future :).</p>
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/actors/index.html">Actors</a>, <a href="/tags/concurrent-programming/index.html">Concurrent Programming</a>, <a href="/tags/erlang/index.html">Erlang</a>, <a href="/tags/scala/index.html">Scala</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> <a href="/tags/actors/index.html">Actors</a>, <a href="/tags/concurrent-programming/index.html">Concurrent Programming</a>, <a href="/tags/erlang/index.html">Erlang</a>, <a href="/tags/scala/index.html">Scala</a>
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2006-07-02-csp-for-java-programmers.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+      <a class="btn btn-default" href="/posts/2006-12-17-python3000-nothing-radical.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
@@ -2160,13 +2773,28 @@ My long search had not been in vain. It had led me to a full appreciation of the
 <p>[ <a href="http://www-128.ibm.com/developerworks/java/library/j-csp1.html">Part 1</a> <a href="http://www-128.ibm.com/developerworks/java/library/j-csp2/">Part 2</a> <a href="http://www-128.ibm.com/developerworks/java/library/j-csp3.html">Part 3</a> ]</p>
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/concurrent-programming/index.html">Concurrent Programming</a>, <a href="/tags/csp/index.html">CSP</a>, <a href="/tags/erlang/index.html">Erlang</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> <a href="/tags/concurrent-programming/index.html">Concurrent Programming</a>, <a href="/tags/csp/index.html">CSP</a>, <a href="/tags/erlang/index.html">Erlang</a>
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2006-06-02-intj-again.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+      <a class="btn btn-default" href="/posts/2006-08-12-scala-language-gets-erlang-style-actors-library.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
@@ -2265,13 +2893,28 @@ Judging
 <p>It seems to think that I don’t think! I assure you that I <em>do</em> think :-). Really!</p>
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/personality-typing/index.html">Personality Typing</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> <a href="/tags/personality-typing/index.html">Personality Typing</a>
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2006-05-27-got-firefox-15-youve-got-svg.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+      <a class="btn btn-default" href="/posts/2006-07-02-csp-for-java-programmers.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
@@ -2314,13 +2957,28 @@ Judging
 <p><a href="http://upload.wikimedia.org/wikipedia/commons/f/fd/Ghostscript_Tiger.svg"><img src="http://upload.wikimedia.org/wikipedia/commons/f/fd/Ghostscript_Tiger.svg" alt="the famous SVG tiger" /></a></p>
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/firefox/index.html">Firefox</a>, <a href="/tags/svg/index.html">SVG</a>, <a href="/tags/web/index.html">Web</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> <a href="/tags/firefox/index.html">Firefox</a>, <a href="/tags/svg/index.html">SVG</a>, <a href="/tags/web/index.html">Web</a>
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2006-05-24-typecase-for-java.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+      <a class="btn btn-default" href="/posts/2006-06-02-intj-again.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
@@ -2359,13 +3017,28 @@ Judging
 <p>Of course, this has been done before with the typecase expression like in <a href="http://en.wikipedia.org/wiki/Modula-3">Modula-3</a>. Modula-3 is a very cool but dead language, a prerunner to Java with a more Modula/Pascal syntax. Check out the <a href="http://www-plan.cs.colorado.edu/diwan/modula3/typecase.html">language spec for typecase</a>. Unfortunately the original Modula-3 site, SRC, is down, perhaps try <a href="http://research.compaq.com/SRC/m3defn/html/typecase.html">SRC later</a> or <a href="http://66.249.93.104/search?q=cache:hHoV1NdS_AYJ:research.compaq.com/SRC/m3defn/html/typecase.html+typecase+modula-3&amp;hl=en&amp;amp;gl=uk&amp;ct=clnk&amp;cd=1">Google’s cache of the original typecase page</a>.</p>
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/java/index.html">Java</a>, <a href="/tags/modula3/index.html">Modula-3</a>, <a href="/tags/programming-languages/index.html">Programming Languages</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> <a href="/tags/java/index.html">Java</a>, <a href="/tags/modula3/index.html">Modula-3</a>, <a href="/tags/programming-languages/index.html">Programming Languages</a>
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2006-05-21-software-engineering-radio.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+      <a class="btn btn-default" href="/posts/2006-05-27-got-firefox-15-youve-got-svg.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
@@ -2402,13 +3075,28 @@ Judging
   <p>Discovered a “new” Java-related podcast, <a href="http://seradio.libsyn.com/">Software Engineering Radio</a>. The interview with Ted Neward is good. Inspired me to take deeper look at Scala now that it’s gone 2.0.</p>
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/scala/index.html">Scala</a>, <a href="/tags/software-engineering-radio/index.html">Software Engineering Radio</a>, <a href="/tags/ted-neward/index.html">Ted Neward</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> <a href="/tags/scala/index.html">Scala</a>, <a href="/tags/software-engineering-radio/index.html">Software Engineering Radio</a>, <a href="/tags/ted-neward/index.html">Ted Neward</a>
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2006-05-08-playing-with-webstart.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+      <a class="btn btn-default" href="/posts/2006-05-24-typecase-for-java.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
@@ -2445,13 +3133,28 @@ Judging
   <p>I played around with WebStart this weekend to get my first WebStarted Swing app up and going. Click here to <a href="http://abstractsimplicity.org/FirstWebStart/FirstWebStart.jnlp">Click here to start</a>. It’s signed but uses the PersistenceService anyway to save the contents of the editor pane between invocations. The lower pane is a my debug console :).</p>
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/java/index.html">Java</a>, <a href="/tags/java-web-start/index.html">Java Web Start</a>, <a href="/tags/swing/index.html">Swing</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> <a href="/tags/java/index.html">Java</a>, <a href="/tags/java-web-start/index.html">Java Web Start</a>, <a href="/tags/swing/index.html">Swing</a>
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2006-05-01-xml-abuse.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+      <a class="btn btn-default" href="/posts/2006-05-21-software-engineering-radio.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
@@ -2488,13 +3191,28 @@ Judging
   <p>Just in case you’re still abusing XML, here’s <a href="http://www.ddj.com/dept/architect/184414926">some pretty clear advice from back in 2002</a> from the author of <a href="http://integrationpatterns.com">Integration Patterns</a>.</p>
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/application-integration/index.html">Application Integration</a>, <a href="/tags/noxml/index.html">NoXML</a>, <a href="/tags/xml/index.html">XML</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> <a href="/tags/application-integration/index.html">Application Integration</a>, <a href="/tags/noxml/index.html">NoXML</a>, <a href="/tags/xml/index.html">XML</a>
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2006-04-27-soa-shift-to-success.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+      <a class="btn btn-default" href="/posts/2006-05-08-playing-with-webstart.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
@@ -2533,13 +3251,28 @@ Judging
 <p>Some highlights were: “almost zero code applications” (with no discussion of ifs and buts), “composite applications” (just another name for component applications) and it’s all going to be pragmatic and open source (but for some reason you can only download a free trial).</p>
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/application-integration/index.html">Application Integration</a>, <a href="/tags/distributed-computing/index.html">Distributed Computing</a>, <a href="/tags/eai/index.html">EAI</a>, <a href="/tags/soa/index.html">SOA</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> <a href="/tags/application-integration/index.html">Application Integration</a>, <a href="/tags/distributed-computing/index.html">Distributed Computing</a>, <a href="/tags/eai/index.html">EAI</a>, <a href="/tags/soa/index.html">SOA</a>
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2006-04-23-programming-language-inventor-or-serial-killer.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+      <a class="btn btn-default" href="/posts/2006-05-01-xml-abuse.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
@@ -2576,13 +3309,28 @@ Judging
   <p>A strange but fun quiz - <a href="http://www.malevole.com/mv/misc/killerquiz/">Programming Language Inventor or Serial Killer?</a> via <a href="http://www.vector.org.uk/?submit=entry&amp;url=http://vector.org.uk/weblog/archive/000091.html">An entry on the Vector.org.uk homepage about the possible cause of autism</a>.</p>
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/apl/index.html">APL</a>, <a href="/tags/j/index.html">J</a>, <a href="/tags/k/index.html">K</a>, <a href="/tags/programming-languages/index.html">Programming Languages</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> <a href="/tags/apl/index.html">APL</a>, <a href="/tags/j/index.html">J</a>, <a href="/tags/k/index.html">K</a>, <a href="/tags/programming-languages/index.html">Programming Languages</a>
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2006-04-21-tyger-java-based-open-source-stack-at-jpmorgan.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+      <a class="btn btn-default" href="/posts/2006-04-27-soa-shift-to-success.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
@@ -2619,13 +3367,28 @@ Judging
   <p>Tyger is JPMorgan’s open source stack for Java applications. Check out the following article - <a href="http://www.watersonline.com/public/showPage.html?page=322256">JPMorgan’s ‘Tyger’ Roars Ahead</a>. Tyger is based Apache+Tomcat, Spring, Maven, and Hibernate or iBatis for RDBMS integration. It’s good to see that the banks take open source seriously.</p>
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/hibernate/index.html">Hibernate</a>, <a href="/tags/ibatis/index.html">iBatis</a>, <a href="/tags/java/index.html">Java</a>, <a href="/tags/maven/index.html">Maven</a>, <a href="/tags/orm/index.html">ORM</a>, <a href="/tags/spring/index.html">Spring</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> <a href="/tags/hibernate/index.html">Hibernate</a>, <a href="/tags/ibatis/index.html">iBatis</a>, <a href="/tags/java/index.html">Java</a>, <a href="/tags/maven/index.html">Maven</a>, <a href="/tags/orm/index.html">ORM</a>, <a href="/tags/spring/index.html">Spring</a>
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2006-04-05-process-engines-and-webflow.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+      <a class="btn btn-default" href="/posts/2006-04-23-programming-language-inventor-or-serial-killer.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
@@ -2662,13 +3425,28 @@ Judging
   <p>The JBoss guys have noticed that Business Process engines and webflow engines, at their most general, require a common engine - the continuation engine. They say <a href="http://www.jboss.com/products/jbpm">“Additionally, jBPM enables pageflow control in web applications”</a>.</p>
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/continuations/index.html">Continuations</a>, <a href="/tags/process-calculi/index.html">Process Calculi</a>, <a href="/tags/workflow/index.html">Workflow</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> <a href="/tags/continuations/index.html">Continuations</a>, <a href="/tags/process-calculi/index.html">Process Calculi</a>, <a href="/tags/workflow/index.html">Workflow</a>
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2006-03-27-xml-the-big-picture.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+      <a class="btn btn-default" href="/posts/2006-04-21-tyger-java-based-open-source-stack-at-jpmorgan.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
@@ -2705,13 +3483,28 @@ Judging
   <p>Take a look at the <a href="http://kensall.com/big-picture">Big Picture of the XML Family of Specifications by Ken Sall</a>. Yikes!</p>
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/noxml/index.html">NoXML</a>, <a href="/tags/xml/index.html">XML</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> <a href="/tags/noxml/index.html">NoXML</a>, <a href="/tags/xml/index.html">XML</a>
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2006-03-27-product-development-on-the-mac.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+      <a class="btn btn-default" href="/posts/2006-04-05-process-engines-and-webflow.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
@@ -2748,13 +3541,28 @@ Judging
   <p>Thinking about product development particularly on the Mac platform? Wil Shipley <a href="http://wilshipley.com/blog/2005/06/student-talk-from-wwdc-2005.html">provides advice and encouragement</a>.</p>
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/application-development/index.html">Application Development</a>, <a href="/tags/mac/index.html">Mac</a>, <a href="/tags/wil-shipley/index.html">Wil Shipley</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> <a href="/tags/application-development/index.html">Application Development</a>, <a href="/tags/mac/index.html">Mac</a>, <a href="/tags/wil-shipley/index.html">Wil Shipley</a>
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2006-02-28-spacethe-final-frontier.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+      <a class="btn btn-default" href="/posts/2006-03-27-xml-the-big-picture.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
@@ -2791,13 +3599,28 @@ Judging
   <p>Take a peek at this: <a href="http://www.physorg.com/news10789.html">Physicist to Present New Exact Solution of Einstein’s Gravitational Field Equation</a> (via <a href="http://www.cdegroot.com/blog/">Cees de Groot</a>).</p>
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/physics/index.html">Physics</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> <a href="/tags/physics/index.html">Physics</a>
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2006-02-25-computer-games-a-blast-from-the-past.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+      <a class="btn btn-default" href="/posts/2006-03-27-product-development-on-the-mac.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
@@ -2834,13 +3657,28 @@ Judging
   <p>I’ve been watching more video and listening to more audio (podcasts) lately on my computer. One way to do this is searching via Google. This is one of the videos I found - <a href="http://video.google.com/videoplay?docid=-422890025950694425&amp;q=Computer+History+Museum">“Now and Then: Computer Graphics in Games”</a>. Makers of Myst, Prince of Perisa and The Sims talk about their games and discuss issues of games developement. Really very interesting stuff.</p>
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/computer-games/index.html">Computer Games</a>, <a href="/tags/computer-graphics/index.html">Computer Graphics</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> <a href="/tags/computer-games/index.html">Computer Games</a>, <a href="/tags/computer-graphics/index.html">Computer Graphics</a>
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2006-02-01-when-can-i-get-a-fix-of-language-goodness.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+      <a class="btn btn-default" href="/posts/2006-02-28-spacethe-final-frontier.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
@@ -2880,13 +3718,28 @@ Judging
 <p>… more to come on this post</p>
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/c/index.html">C#</a>, <a href="/tags/erik-meijer/index.html">Erik Meijer</a>, <a href="/tags/programming-languages/index.html">Programming Languages</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> <a href="/tags/c/index.html">C#</a>, <a href="/tags/erik-meijer/index.html">Erik Meijer</a>, <a href="/tags/programming-languages/index.html">Programming Languages</a>
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2006-02-01-code-as-data-closures.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+      <a class="btn btn-default" href="/posts/2006-02-25-computer-games-a-blast-from-the-past.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
@@ -2925,13 +3778,28 @@ Judging
 <p>They should get their facts straight!</p>
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/closures/index.html">Closures</a>, <a href="/tags/groovy/index.html">Groovy</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> <a href="/tags/closures/index.html">Closures</a>, <a href="/tags/groovy/index.html">Groovy</a>
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2006-01-18-w3-principles-of-design.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+      <a class="btn btn-default" href="/posts/2006-02-01-when-can-i-get-a-fix-of-language-goodness.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
@@ -2969,13 +3837,28 @@ Judging
 <p><a href="http://www.w3.org/DesignIssues/Overview.html">More w3 design issues here</a>.</p>
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/dsls/index.html">DSLs</a>, <a href="/tags/html/index.html">HTML</a>, <a href="/tags/software-design/index.html">Software Design</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> <a href="/tags/dsls/index.html">DSLs</a>, <a href="/tags/html/index.html">HTML</a>, <a href="/tags/software-design/index.html">Software Design</a>
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2006-01-10-better-is-better-and-worse-is-worse.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+      <a class="btn btn-default" href="/posts/2006-02-01-code-as-data-closures.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
@@ -3013,13 +3896,28 @@ Judging
 <p>Jim Waldo reminds us that Better really is <em>better</em> in Artima article <a href="http://www.artima.com/weblogs/viewpost.jsp?thread=24807">Worse is worse</a>.</p>
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/lisp/index.html">Lisp</a>, <a href="/tags/programming-languages/index.html">Programming Languages</a>, <a href="/tags/software-design/index.html">Software Design</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> <a href="/tags/lisp/index.html">Lisp</a>, <a href="/tags/programming-languages/index.html">Programming Languages</a>, <a href="/tags/software-design/index.html">Software Design</a>
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2005-12-07-ubuntu-breezy-under-vmware-player.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+      <a class="btn btn-default" href="/posts/2006-01-18-w3-principles-of-design.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
@@ -3058,13 +3956,28 @@ Judging
 <p>QUT is my old university and John Gough my was my favorite lecturer. I studied compiler construction under John and later wrote a small compiler under his supervision in C# targetting .NET (and using his book <a href="http://www.amazon.co.uk/exec/obidos/ASIN/0130622966/qid=1133997392/sr=1-1/ref=sr_1_8_1/026-1033995-8778027">Compiling for the .NET CLR</a> as a resource). It’s a small world. I’m working in the UK at the moment. The guy who sits next to me at work comes from South Africa. He studied under <a href="http://www.scifac.ru.ac.za/cspt/">Pat Terry</a> at <a href="http://www.ru.ac.za/">Rhodes University</a>. Pat is also a compiler guy. John and him were involved on the Modula-2 language commitee. Turn’s out that I used Pat’s Coco/R (<a href="http://www.scifac.ru.ac.za/coco/#CSHARP">C# version</a>) on that project.</p>
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/net/index.html">.NET</a>, <a href="/tags/clr/index.html">CLR</a>, <a href="/tags/cocor/index.html">Coco/R</a>, <a href="/tags/compilers/index.html">Compilers</a>, <a href="/tags/programming-languages/index.html">Programming Languages</a>, <a href="/tags/ruby/index.html">Ruby</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> <a href="/tags/net/index.html">.NET</a>, <a href="/tags/clr/index.html">CLR</a>, <a href="/tags/cocor/index.html">Coco/R</a>, <a href="/tags/compilers/index.html">Compilers</a>, <a href="/tags/programming-languages/index.html">Programming Languages</a>, <a href="/tags/ruby/index.html">Ruby</a>
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2005-12-04-getting-lost-in-the-wikipedia.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+      <a class="btn btn-default" href="/posts/2005-12-07-ubuntu-breezy-under-vmware-player.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
@@ -3107,13 +4020,28 @@ Judging
 <p>All take a look at <a href="http://johnbokma.com/vmware-player/" class="uri">http://johnbokma.com/vmware-player/</a>. In fact take a look at the whole site <a href="http://johnbokma.com/" class="uri">http://johnbokma.com/</a></p>
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/linux/index.html">Linux</a>, <a href="/tags/ubuntu/index.html">Ubuntu</a>, <a href="/tags/vmware/index.html">VMware</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> <a href="/tags/linux/index.html">Linux</a>, <a href="/tags/ubuntu/index.html">Ubuntu</a>, <a href="/tags/vmware/index.html">VMware</a>
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2005-12-07-ruby-on-net.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+      <a class="btn btn-default" href="/posts/2006-01-10-better-is-better-and-worse-is-worse.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
@@ -3151,13 +4079,28 @@ Judging
 <p>Get lost in the Wikipedia - some starting points: <a href="http://en.wikipedia.org/wiki/X86">x86</a>, <a href="http://en.wikipedia.org/wiki/UNCOL">UNCOL</a>.</p>
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/uncol/index.html">UNCOL</a>, <a href="/tags/wikipedia/index.html">Wikipedia</a>, <a href="/tags/x86/index.html">x86</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> <a href="/tags/uncol/index.html">UNCOL</a>, <a href="/tags/wikipedia/index.html">Wikipedia</a>, <a href="/tags/x86/index.html">x86</a>
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2005-11-13-ubuntu-on-inspiron-9300.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+      <a class="btn btn-default" href="/posts/2005-12-07-ruby-on-net.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
@@ -3200,13 +4143,28 @@ Judging
 <p>Unbuntu starter guide <a href="http://www.ubuntuguide.org/" class="uri">http://www.ubuntuguide.org/</a> Seems like a more up-to-date version of this is available on the live cd and presumably with a regular install. Just click on the ‘Help (get help with Gnome)’ icon or choose System-&gt;Help and then click ‘Unbuntu 5.10 Starter Guide’.</p>
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/gnome/index.html">Gnome</a>, <a href="/tags/linux/index.html">Linux</a>, <a href="/tags/ubuntu/index.html">Ubuntu</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> <a href="/tags/gnome/index.html">Gnome</a>, <a href="/tags/linux/index.html">Linux</a>, <a href="/tags/ubuntu/index.html">Ubuntu</a>
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2005-10-25-dependency-injection-vitally-important-or-totally-irrelevant.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+      <a class="btn btn-default" href="/posts/2005-12-04-getting-lost-in-the-wikipedia.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
@@ -3243,13 +4201,28 @@ Judging
   <p>Jim Weirich has an <a href="http://www.onestepback.org/articles/depinj/">excellent presentation</a> that will make Java developers think differently about dependency injection.</p>
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/dependency-injection/index.html">Dependency Injection</a>, <a href="/tags/java/index.html">Java</a>, <a href="/tags/ruby/index.html">Ruby</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> <a href="/tags/dependency-injection/index.html">Dependency Injection</a>, <a href="/tags/java/index.html">Java</a>, <a href="/tags/ruby/index.html">Ruby</a>
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2005-05-02-javarubygroovy.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+      <a class="btn btn-default" href="/posts/2005-11-13-ubuntu-on-inspiron-9300.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
@@ -3287,13 +4260,28 @@ Judging
 <p>If you read the entire article above please note that closures have <em>indefinite</em> extent , not <em>dynamic</em> extent.</p>
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/closures/index.html">Closures</a>, <a href="/tags/groovy/index.html">Groovy</a>, <a href="/tags/java/index.html">Java</a>, <a href="/tags/programming-languages/index.html">Programming Languages</a>, <a href="/tags/ruby/index.html">Ruby</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> <a href="/tags/closures/index.html">Closures</a>, <a href="/tags/groovy/index.html">Groovy</a>, <a href="/tags/java/index.html">Java</a>, <a href="/tags/programming-languages/index.html">Programming Languages</a>, <a href="/tags/ruby/index.html">Ruby</a>
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2005-04-24-continuations-for-curmudgeons.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+      <a class="btn btn-default" href="/posts/2005-10-25-dependency-injection-vitally-important-or-totally-irrelevant.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
@@ -3396,13 +4384,28 @@ catch (<span class="st">:early_exit</span>) {
 }</code></pre></div>
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/callcc/index.html">call/cc</a>, <a href="/tags/continuations/index.html">Continuations</a>, <a href="/tags/programming-languages/index.html">Programming Languages</a>, <a href="/tags/ruby/index.html">Ruby</a>, <a href="/tags/scheme/index.html">Scheme</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> <a href="/tags/callcc/index.html">call/cc</a>, <a href="/tags/continuations/index.html">Continuations</a>, <a href="/tags/programming-languages/index.html">Programming Languages</a>, <a href="/tags/ruby/index.html">Ruby</a>, <a href="/tags/scheme/index.html">Scheme</a>
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2005-02-22-static-versus-dynamic-attitude.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+      <a class="btn btn-default" href="/posts/2005-05-02-javarubygroovy.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
@@ -3455,13 +4458,28 @@ catch (<span class="st">:early_exit</span>) {
 <p>BTW - have you heard about NoXML? It’s this great new XML technology…</p>
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/actionscript/index.html">ActionScript</a>, <a href="/tags/dynamic-typing/index.html">Dynamic Typing</a>, <a href="/tags/groovy/index.html">Groovy</a>, <a href="/tags/java/index.html">Java</a>, <a href="/tags/javascript/index.html">JavaScript</a>, <a href="/tags/programming-languages/index.html">Programming Languages</a>, <a href="/tags/python/index.html">Python</a>, <a href="/tags/ruby/index.html">Ruby</a>, <a href="/tags/static-typing/index.html">Static Typing</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> <a href="/tags/actionscript/index.html">ActionScript</a>, <a href="/tags/dynamic-typing/index.html">Dynamic Typing</a>, <a href="/tags/groovy/index.html">Groovy</a>, <a href="/tags/java/index.html">Java</a>, <a href="/tags/javascript/index.html">JavaScript</a>, <a href="/tags/programming-languages/index.html">Programming Languages</a>, <a href="/tags/python/index.html">Python</a>, <a href="/tags/ruby/index.html">Ruby</a>, <a href="/tags/static-typing/index.html">Static Typing</a>
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2005-02-22-soap-is-brain-dead.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+      <a class="btn btn-default" href="/posts/2005-04-24-continuations-for-curmudgeons.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
@@ -3498,13 +4516,28 @@ catch (<span class="st">:early_exit</span>) {
   <p>Hmmm. <a href="http://www.artima.com/weblogs/viewpost.jsp?thread=95113">Seems SOAP is out and REST is in</a>. Not quite NoXML, just no SOAP. Being British, it’s not hard to imagine getting by without a little soap :-).</p>
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/distributed-computing/index.html">Distributed Computing</a>, <a href="/tags/noxml/index.html">NoXML</a>, <a href="/tags/rest/index.html">REST</a>, <a href="/tags/soap/index.html">SOAP</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> <a href="/tags/distributed-computing/index.html">Distributed Computing</a>, <a href="/tags/noxml/index.html">NoXML</a>, <a href="/tags/rest/index.html">REST</a>, <a href="/tags/soap/index.html">SOAP</a>
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2005-02-22-noxml-and-web-service-specifications.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+      <a class="btn btn-default" href="/posts/2005-02-22-static-versus-dynamic-attitude.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
@@ -3543,13 +4576,28 @@ catch (<span class="st">:early_exit</span>) {
 <p>NoXML - wonderful new XML technology!</p>
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/distributed-computing/index.html">Distributed Computing</a>, <a href="/tags/network-programming/index.html">Network Programming</a>, <a href="/tags/noxml/index.html">NoXML</a>, <a href="/tags/web-services/index.html">Web Services</a>, <a href="/tags/xml/index.html">XML</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> <a href="/tags/distributed-computing/index.html">Distributed Computing</a>, <a href="/tags/network-programming/index.html">Network Programming</a>, <a href="/tags/noxml/index.html">NoXML</a>, <a href="/tags/web-services/index.html">Web Services</a>, <a href="/tags/xml/index.html">XML</a>
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2005-02-21-mock-object-framework-talk.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+      <a class="btn btn-default" href="/posts/2005-02-22-soap-is-brain-dead.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
@@ -3586,13 +4634,28 @@ catch (<span class="st">:early_exit</span>) {
   <p>Andy Marks gave <a href="http://www.corvine.org/blog/archives/2005/02/java_mock_objec_1.html">a talk on mock object frameworks</a> at the <a href="http://www.ajug.org.au/qjug/">AJUG</a> tonight (my first visit to AJUG for some time). I had happened to review some frameworks the week before. The talk solidified my decision to use <a href="http://easymock.org/">EasyMock</a> should the need arise.</p>
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/java/index.html">Java</a>, <a href="/tags/mocks/index.html">Mocks</a>, <a href="/tags/testing/index.html">Testing</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> <a href="/tags/java/index.html">Java</a>, <a href="/tags/mocks/index.html">Mocks</a>, <a href="/tags/testing/index.html">Testing</a>
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2005-02-21-fonts-on-gentoo.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+      <a class="btn btn-default" href="/posts/2005-02-22-noxml-and-web-service-specifications.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
@@ -3629,13 +4692,28 @@ catch (<span class="st">:early_exit</span>) {
   <p>Finally got my fonts sorted out on Gentoo. All the info is in the <a href="http://gentoo-wiki.com/HOWTO_Xorg_and_Fonts">Gentoo Xorg fonts HOWTO</a>.</p>
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/linux/index.html">Linux</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> <a href="/tags/linux/index.html">Linux</a>
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2005-02-17-transactional-caches.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+      <a class="btn btn-default" href="/posts/2005-02-21-mock-object-framework-talk.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
@@ -3672,13 +4750,28 @@ catch (<span class="st">:early_exit</span>) {
   <p>The <a href="http://www.theserverside.com/talks/video.tss?id=CameronPurdy&amp;format=http">interview with Cameron Purdy at TSS</a> was a good read. Afew years back I was very interested in object databases and then [distributed] transactional caches. A coworker at ADC (now Intec) from the research lab put me onto the <a href="http://ali-www.cs.umass.edu/~steveb/pubs/abstracts.html#thesis">work of Stephen Blackburn</a>.</p>
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/distributed-computing/index.html">Distributed Computing</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> <a href="/tags/distributed-computing/index.html">Distributed Computing</a>
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2005-02-16-interviewing-programmers.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+      <a class="btn btn-default" href="/posts/2005-02-21-fonts-on-gentoo.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
@@ -3717,13 +4810,28 @@ catch (<span class="st">:early_exit</span>) {
 <p><a href="http://www.itconversations.com/shows/detail392.html">Hiring technies and nerds</a></p>
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/hiring/index.html">Hiring</a>, <a href="/tags/management/index.html">Management</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> <a href="/tags/hiring/index.html">Hiring</a>, <a href="/tags/management/index.html">Management</a>
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2005-01-24-developer-testing-with-kent-beck.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+      <a class="btn btn-default" href="/posts/2005-02-17-transactional-caches.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
@@ -3761,13 +4869,28 @@ catch (<span class="st">:early_exit</span>) {
 <p>I’m worried about the distinction Kent tries to make between Quality and Healthy software. Kent’s decription of “healthy software” is what I think of as “quality software”.</p>
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/quality/index.html">Quality</a>, <a href="/tags/testing/index.html">Testing</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> <a href="/tags/quality/index.html">Quality</a>, <a href="/tags/testing/index.html">Testing</a>
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2005-01-01-hibernate-in-action.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+      <a class="btn btn-default" href="/posts/2005-02-16-interviewing-programmers.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
@@ -3813,13 +4936,28 @@ Are the relational data model and (especially) SQL the right choices for periste
 <p>Probably true if a little overstated. Hibernate certainly take a practical stance to object persistence.</p>
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/hibernate/index.html">Hibernate</a>, <a href="/tags/java/index.html">Java</a>, <a href="/tags/orm/index.html">ORM</a>, <a href="/tags/spring/index.html">Spring</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> <a href="/tags/hibernate/index.html">Hibernate</a>, <a href="/tags/java/index.html">Java</a>, <a href="/tags/orm/index.html">ORM</a>, <a href="/tags/spring/index.html">Spring</a>
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2004-10-22-avoid-round-trips.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+      <a class="btn btn-default" href="/posts/2005-01-24-developer-testing-with-kent-beck.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
@@ -3856,13 +4994,28 @@ Are the relational data model and (especially) SQL the right choices for periste
   <p>Just watched Ted Neward’s <a href="http://www.theserverside.com/talks/videos/TedNeward/interview.tss?bandwidth=dsl">TSS tech talk</a>. It resonated with me quite well. He revealed that his new book - Effective Enterprise Java - is sumed up by the phrase: “Avoid round trips!”. I like his “let’s not get religious about OO” attitude. He seems a little closed to dynamically typed languages and talks about “strong typing” when he means “static typing”. Anyways, he’s trying out Smalltalk so there’s hope :). All the talk of REST and “spaces” (JavaSpaces, T-Spaces etc) leads me to think of the Erlang and Oz models of concurrency (like a generalisation of the UNIX pipe). These languages need more proponents!</p>
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/distributed-computing/index.html">Distributed Computing</a>, <a href="/tags/erlang/index.html">Erlang</a>, <a href="/tags/network-programming/index.html">Network Programming</a>, <a href="/tags/oz/index.html">Oz</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> <a href="/tags/distributed-computing/index.html">Distributed Computing</a>, <a href="/tags/erlang/index.html">Erlang</a>, <a href="/tags/network-programming/index.html">Network Programming</a>, <a href="/tags/oz/index.html">Oz</a>
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2004-09-27-wcl-and-shared-libraries.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+      <a class="btn btn-default" href="/posts/2005-01-01-hibernate-in-action.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
@@ -3899,13 +5052,28 @@ Are the relational data model and (especially) SQL the right choices for periste
   <p>Wow. You hear alot of rumours about Lisp-based operating systems but you rarely come across a project that appears active. <a href="http://common-lisp.net/project/movitz/">Movitz</a> looks like a promising <em>active</em> LispOS project! It’s goal is to provide a development platform to run CL-based kernels on x86 PCs “on the metal”. I guess these restrictions make it doable. I’d prefer to see CL or Scheme combined with Linux or FreeBSD kernel so that you could still have a viable usable system and also experiement with OS ideas using lisp. In this respect, <a href="http://www.abstractnonsense.com/schemix/">Schemix</a> looks interesting. It’s a Scheme interpreter (based on <a href="http://tinyscheme.sf.net">TinyScheme</a>) patched into the Linux kernel. I haven’t looked at it closely but imagine that it’s interpreted nature means that it is probably only useful for early prototyping of ideas and certainly for exploring and learning about the kernel.</p>
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/lisp/index.html">Lisp</a>, <a href="/tags/operating-systems/index.html">Operating Systems</a>, <a href="/tags/scheme/index.html">Scheme</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> <a href="/tags/lisp/index.html">Lisp</a>, <a href="/tags/operating-systems/index.html">Operating Systems</a>, <a href="/tags/scheme/index.html">Scheme</a>
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2004-09-15-misunderstandings-about-closures.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+      <a class="btn btn-default" href="/posts/2004-09-27-wcl-and-shared-libraries.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
@@ -3944,13 +5112,28 @@ Are the relational data model and (especially) SQL the right choices for periste
 <p>Java programs have similar problems that WCL attempts to solve for CL. When the same Java program is loaded by separate JVMs (in different processes), they don’t share any code. i.e. the classes will be jitted multiple times …being stored in memory multiple times. I believe that this problem occurs even within the <em>same</em> JVM when the class files are loaded via different class loaders! I’ve yet to confirm that though. This is one of the reasons why Java application take up alot of memory. Seems to be a problem with 1.4.2 anyways. Perhaps 1.5 fixes this problem. Microsoft’s CLR deals with this situation by using the assembly is the unit of deployment and having each assembly contain a version number. I imagine that with the CLR (and other CLI implementations), that each assembly is only compiled once within the same process. This doesn’t however solve the “multiple process runnings CLRs” problem though I believe there is an ahead-of-time option which stores compiled assemblies in an on-disk cache - this would would likely solve the problem (as long as the compiled assemblies are loaded into shared memory like a shared library).</p>
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/cli/index.html">CLI</a>, <a href="/tags/clr/index.html">CLR</a>, <a href="/tags/common-lisp/index.html">Common Lisp</a>, <a href="/tags/java/index.html">Java</a>, <a href="/tags/jvm/index.html">JVM</a>, <a href="/tags/lisp/index.html">Lisp</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> <a href="/tags/cli/index.html">CLI</a>, <a href="/tags/clr/index.html">CLR</a>, <a href="/tags/common-lisp/index.html">Common Lisp</a>, <a href="/tags/java/index.html">Java</a>, <a href="/tags/jvm/index.html">JVM</a>, <a href="/tags/lisp/index.html">Lisp</a>
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2004-09-27-movitz-a-lisp-os-platform.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+      <a class="btn btn-default" href="/posts/2004-10-22-avoid-round-trips.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
@@ -3988,13 +5171,28 @@ Are the relational data model and (especially) SQL the right choices for periste
 <p>The other potentially interesting thing about a LispOS is that you could do away with reserving stack space for each thread. One of the problems with having lots of processes (and threads) is that it consumes alot of memory even if each thread only gets afew kilobytes it mounts up quickly. With Lisp you needn’t use the stack to hold “procedure activations”, you could put them in the garbage collected heap (actually you might want to optimise that a bit and put them in a special “stack” heap and only move/link them into the gc-heap if necessary). This way threads only take as much “stack” as they need. Also “stack space” grows as required (just as the heap grows as required). Potential problems would be efficiency of the gc-heap - particularly memory allocation speed - and slightly larger activation frames due to embedded pointers.</p>
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/lisp/index.html">Lisp</a>, <a href="/tags/operating-systems/index.html">Operating Systems</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> <a href="/tags/lisp/index.html">Lisp</a>, <a href="/tags/operating-systems/index.html">Operating Systems</a>
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2004-08-30-spring-and-hibernate.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+      <a class="btn btn-default" href="/posts/2004-09-15-misunderstandings-about-closures.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
@@ -4034,13 +5232,28 @@ Are the relational data model and (especially) SQL the right choices for periste
 <p>Martin Fowler (if you follow the link through to his article) is right on the money. Closures are good. Lisp is good. Ruby is good. Smalltalk is good. You gotta love Martin.</p>
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/c/index.html">C#</a>, <a href="/tags/closures/index.html">Closures</a>, <a href="/tags/functional-programming/index.html">Functional Programming</a>, <a href="/tags/java/index.html">Java</a>, <a href="/tags/spring/index.html">Spring</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> <a href="/tags/c/index.html">C#</a>, <a href="/tags/closures/index.html">Closures</a>, <a href="/tags/functional-programming/index.html">Functional Programming</a>, <a href="/tags/java/index.html">Java</a>, <a href="/tags/spring/index.html">Spring</a>
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2004-09-15-cpu-scheduling.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+      <a class="btn btn-default" href="/posts/2004-09-27-movitz-a-lisp-os-platform.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
@@ -4077,13 +5290,28 @@ Are the relational data model and (especially) SQL the right choices for periste
   <p>I was recently having trouble with sound and RealPlayer10 on Linux. It turns out that RealPlayer10 (and Helix Player) only support the older OSS sound drivers (rather than the newer ALSA drivers). I was on 2.6.6. I downloaded 2.6.8.1 and this time only compiled the OSS drivers and not the ALSA ones. Be aware that you should not (perhaps cannot) load both OSS and ALSA drivers.</p>
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/linux/index.html">Linux</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> <a href="/tags/linux/index.html">Linux</a>
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2004-08-30-abelson-and-sussman-lectures.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+      <a class="btn btn-default" href="/posts/2004-08-30-spring-and-hibernate.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
@@ -4128,13 +5356,28 @@ Are the relational data model and (especially) SQL the right choices for periste
 <p>Looks like “Better, Faster, Lighter Java” would be a good but small book. Probably not necessary if you just use Spring, Hibernate etc. Also, Rod Johnson’s newest book “<a href="http://www.wiley.com/WileyCDA/WileyTitle/productCd-0764558315.html">Expert One-on-One J2EE Development without EJB</a>” could be good but when you already believe it…</p>
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/hibernate/index.html">Hibernate</a>, <a href="/tags/java/index.html">Java</a>, <a href="/tags/orm/index.html">ORM</a>, <a href="/tags/spring/index.html">Spring</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> <a href="/tags/hibernate/index.html">Hibernate</a>, <a href="/tags/java/index.html">Java</a>, <a href="/tags/orm/index.html">ORM</a>, <a href="/tags/spring/index.html">Spring</a>
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2004-08-30-realplayer10-on-linux.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+      <a class="btn btn-default" href="/posts/2004-09-15-cpu-scheduling.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
@@ -4171,13 +5414,28 @@ Are the relational data model and (especially) SQL the right choices for periste
   <p>I finished the <a href="http://swiss.csail.mit.edu/classes/6.001/abelson-sussman-lectures/">SICP videos</a> last weekend (although I need to return to the last 4). I wanted to get back to finish watching a lecture webcast series for the subject <a href="http://webcast.berkeley.edu/courses/archive.html?prog=116&amp;group=57">Operating Systems and Systems Programming</a> from Berkeley. I’ve seen a previous years lecture series but I’m pretty sure I didn’t finish. It’s all in Real media format so you need RealPlayer. It’s not so good on dialup - I hardly get a frame but the audio is ok.</p>
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/operating-systems/index.html">Operating Systems</a>, <a href="/tags/scheme/index.html">Scheme</a>, <a href="/tags/sicp/index.html">SICP</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> <a href="/tags/operating-systems/index.html">Operating Systems</a>, <a href="/tags/scheme/index.html">Scheme</a>, <a href="/tags/sicp/index.html">SICP</a>
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2004-08-29-the-koan-of-side-effects.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+      <a class="btn btn-default" href="/posts/2004-08-30-realplayer10-on-linux.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
@@ -4214,13 +5472,28 @@ Are the relational data model and (especially) SQL the right choices for periste
   <p>I had a laugh at <a href="http://web.archive.org/web/20031105005932/www.bagley.org/~doug/ocaml/Notes/okoans.shtml">this</a> (via <a href="news://comp.lang.functional">comp.lang.functional</a>).</p>
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/functional-programming/index.html">Functional Programming</a>, <a href="/tags/ocaml/index.html">OCaml</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> <a href="/tags/functional-programming/index.html">Functional Programming</a>, <a href="/tags/ocaml/index.html">OCaml</a>
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2004-08-22-swingworker-race-condition.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+      <a class="btn btn-default" href="/posts/2004-08-30-abelson-and-sussman-lectures.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
@@ -4259,13 +5532,28 @@ Are the relational data model and (especially) SQL the right choices for periste
 <p><a href="http://erlang.org">Erlang</a> is a programming language that uses message passing concurrency rather than shared state concurrency (as in Java). Some other languages with message passing concurrency are <a href="http://mozart-oz.org/">Oz</a>, <a href="http://erights.org">E</a>, <a href="http://www.iolanguage.com/">Io</a> and apparently MultiLisp<a href="http://mozart-oz.org"></a> (a Scheme dialect).</p>
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/erlang/index.html">Erlang</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> <a href="/tags/erlang/index.html">Erlang</a>
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2004-08-18-pairs-as-lambdas.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+      <a class="btn btn-default" href="/posts/2004-08-22-swingworker-race-condition.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
@@ -4302,13 +5590,28 @@ Are the relational data model and (especially) SQL the right choices for periste
   <p>I was reading about the problems related to shared state concurrency (as opposed to message passing concurrency as in Erlang and Oz). I came across the following <a href="http://c2.com/cgi/wiki?SwingWorkerRaceCondition">interesting bug described on the wiki</a> discovered by Luke Gorrie. There is also a <a href="http://java.sun.com/products/jfc/tsc/articles/threads/update.html">reference to a Sun article</a> describing the bug and the solution. This is ancient history but probably a problem misunderstood by many Java programmers.</p>
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/erlang/index.html">Erlang</a>, <a href="/tags/java/index.html">Java</a>, <a href="/tags/oz/index.html">Oz</a>, <a href="/tags/swing/index.html">Swing</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> <a href="/tags/erlang/index.html">Erlang</a>, <a href="/tags/java/index.html">Java</a>, <a href="/tags/oz/index.html">Oz</a>, <a href="/tags/swing/index.html">Swing</a>
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2004-08-22-erlang-the-movie.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+      <a class="btn btn-default" href="/posts/2004-08-29-the-koan-of-side-effects.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
@@ -4373,13 +5676,28 @@ a                 <span class="co">; =&gt; a procedure</span>
 (<span class="kw">+</span> (<span class="kw">display</span> <span class="st">&quot;1\n&quot;</span>) (a <span class="dv">99</span>) (<span class="kw">display</span> <span class="st">&quot;2\n&quot;</span>))</code></pre></div>
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/scheme/index.html">Scheme</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> <a href="/tags/scheme/index.html">Scheme</a>
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2004-08-14-the-python-paradox.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+      <a class="btn btn-default" href="/posts/2004-08-22-erlang-the-movie.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
@@ -4419,13 +5737,28 @@ a                 <span class="co">; =&gt; a procedure</span>
 <p>I was also reviewing multithreading issues in Common Lisp implementations via <a href="http://cormanlisp.com/Multi-threaded%20Lisp.ppt">the slides from Roger Corman’s talk on the subject</a>.</p>
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/lisp/index.html">Lisp</a>, <a href="/tags/python-scheme/index.html">Python Scheme</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> <a href="/tags/lisp/index.html">Lisp</a>, <a href="/tags/python-scheme/index.html">Python Scheme</a>
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2004-08-09-neverwinter-nights-on-linux.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+      <a class="btn btn-default" href="/posts/2004-08-18-pairs-as-lambdas.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
@@ -4467,13 +5800,26 @@ a                 <span class="co">; =&gt; a procedure</span>
 <p>I’ve been thinking about changing over from <a href="http://debian.org/">Debian</a> to <a href="http://gentoo.org/">Gentoo</a>. I noticed that Gentoo has a <a href="http://packages.gentoo.org/ebuilds/?nwn-1.62">nwn ebuild</a>.</p>
 </div>
 
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/computer-games/index.html">Computer Games</a>, <a href="/tags/linux/index.html">Linux</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
 
-<div class="tags">
-  <i class="fa fa-tags"></i> <a href="/tags/computer-games/index.html">Computer Games</a>, <a href="/tags/linux/index.html">Linux</a>
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      
+      <a class="btn btn-default" href="/posts/2004-08-14-the-python-paradox.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      
+    </div>
+  </div>
+  <div class="clear"></div>
 </div>
-
-
-<br/>
 
 <!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
 <div id="disqus_thread" class="post-aside comments"></div>
