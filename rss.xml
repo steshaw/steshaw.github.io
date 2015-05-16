@@ -794,7 +794,10 @@ main <span class="fu">=</span> <span class="kw">do</span>
 
 <div class="post-content">
   <p>I’m writing this from my new laptop! <strong>Stop the presses:</strong> it’s <em>not</em> a Mac! :) In fact, I’m trying out Windows Live Writer to publish this post…</p>
-<p><a href="http://steshaw.files.wordpress.com/2010/05/hp-pavilion-dv6.jpeg"><img src="http://steshaw.files.wordpress.com/2010/05/hp-pavilion-dv6.jpeg?w=300" /></a></p>
+<div class="figure">
+<img src="/images/hp-pavilion-dv6.png" />
+
+</div>
 <p>Technical specifications:</p>
 <blockquote>
 <blockquote>
