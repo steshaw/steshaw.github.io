@@ -6,7 +6,7 @@
     <id>http://steshaw.org/atom.xml</id>
     <author>
         <name>Steven Shaw</name>
-        <email>steven+blog@steshaw.org</email>
+        <email>steven+feed@steshaw.org</email>
     </author>
     <updated>2015-05-03T00:00:00Z</updated>
     <entry>
@@ -60,7 +60,7 @@ $ <span class="kw">btrfs</span> filesystem resize max /mnt/root</code></pre></di
 
 
 <div class="tags">
-  <a href="/tags/NixOS.html">NixOS</a>, <a href="/tags/Linux.html">Linux</a>
+  <a href="/tags/nixos.html">NixOS</a>, <a href="/tags/linux.html">Linux</a>
 </div>
 
 
@@ -130,7 +130,7 @@ $ <span class="kw">btrfs</span> filesystem resize max /mnt/root</code></pre></di
 
 
 <div class="tags">
-  <a href="/tags/Hakyll.html">Hakyll</a>, <a href="/tags/Halcyon.html">Halcyon</a>, <a href="/tags/CircleCI.html">CircleCI</a>
+  <a href="/tags/hakyll.html">Hakyll</a>, <a href="/tags/halcyon.html">Halcyon</a>, <a href="/tags/circleci.html">CircleCI</a>
 </div>
 
 
@@ -213,7 +213,7 @@ main <span class="fu">=</span> putStrLn <span class="st">&quot;Hello, world!&quo
 
 
 <div class="tags">
-  <a href="/tags/Haskell.html">Haskell</a>, <a href="/tags/Hakyll.html">Hakyll</a>
+  <a href="/tags/haskell.html">Haskell</a>, <a href="/tags/hakyll.html">Hakyll</a>
 </div>
 
 
@@ -296,7 +296,7 @@ main <span class="fu">=</span> putStrLn <span class="st">&quot;Hello, world!&quo
 
 
 <div class="tags">
-  <a href="/tags/Software%20Engineering.html">Software Engineering</a>, <a href="/tags/Teams.html">Teams</a>
+  <a href="/tags/software-engineering.html">Software Engineering</a>, <a href="/tags/teams.html">Teams</a>
 </div>
 
 
@@ -415,7 +415,7 @@ index 9a50a8b..fc9dc37 100644
 
 
 <div class="tags">
-  <a href="/tags/Octopress.html">Octopress</a>, <a href="/tags/MathJax.html">MathJax</a>
+  <a href="/tags/octopress.html">Octopress</a>, <a href="/tags/mathjax.html">MathJax</a>
 </div>
 
 
@@ -499,7 +499,7 @@ main <span class="fu">=</span> <span class="kw">do</span>
 
 
 <div class="tags">
-  <a href="/tags/Octopress.html">Octopress</a>
+  <a href="/tags/octopress.html">Octopress</a>
 </div>
 
 
@@ -573,7 +573,7 @@ main <span class="fu">=</span> <span class="kw">do</span>
 
 
 <div class="tags">
-  <a href="/tags/Apple.html">Apple</a>, <a href="/tags/Computer%20Hardware.html">Computer Hardware</a>, <a href="/tags/HP.html">HP</a>, <a href="/tags/Mac.html">Mac</a>, <a href="/tags/Ubuntu.html">Ubuntu</a>
+  <a href="/tags/apple.html">Apple</a>, <a href="/tags/computer-hardware.html">Computer Hardware</a>, <a href="/tags/hp.html">HP</a>, <a href="/tags/mac.html">Mac</a>, <a href="/tags/ubuntu.html">Ubuntu</a>
 </div>
 
 
@@ -627,7 +627,7 @@ main <span class="fu">=</span> <span class="kw">do</span>
 
 
 <div class="tags">
-  <a href="/tags/Agile.html">Agile</a>, <a href="/tags/Software%20Engineering.html">Software Engineering</a>
+  <a href="/tags/agile.html">Agile</a>, <a href="/tags/software-engineering.html">Software Engineering</a>
 </div>
 
 
@@ -679,7 +679,7 @@ main <span class="fu">=</span> <span class="kw">do</span>
 
 
 <div class="tags">
-  <a href="/tags/Apple.html">Apple</a>, <a href="/tags/Computer%20Hardware.html">Computer Hardware</a>, <a href="/tags/HP.html">HP</a>, <a href="/tags/Mac.html">Mac</a>, <a href="/tags/Mac%20pricing.html">Mac pricing</a>
+  <a href="/tags/apple.html">Apple</a>, <a href="/tags/computer-hardware.html">Computer Hardware</a>, <a href="/tags/hp.html">HP</a>, <a href="/tags/mac.html">Mac</a>, <a href="/tags/mac-pricing.html">Mac pricing</a>
 </div>
 
 
@@ -724,7 +724,7 @@ main <span class="fu">=</span> <span class="kw">do</span>
 
 
 <div class="tags">
-  <a href="/tags/Bazaar.html">Bazaar</a>, <a href="/tags/DVCS.html">DVCS</a>, <a href="/tags/Git.html">Git</a>, <a href="/tags/Mercurial.html">Mercurial</a>
+  <a href="/tags/bazaar.html">Bazaar</a>, <a href="/tags/dvcs.html">DVCS</a>, <a href="/tags/git.html">Git</a>, <a href="/tags/mercurial.html">Mercurial</a>
 </div>
 
 
@@ -769,7 +769,7 @@ main <span class="fu">=</span> <span class="kw">do</span>
 
 
 <div class="tags">
-  <a href="/tags/C%23.html">C#</a>, <a href="/tags/Closures.html">Closures</a>, <a href="/tags/IBM.html">IBM</a>, <a href="/tags/Java.html">Java</a>, <a href="/tags/Microsoft.html">Microsoft</a>, <a href="/tags/Neal%20Gafter.html">Neal Gafter</a>, <a href="/tags/Sun.html">Sun</a>
+  <a href="/tags/c.html">C#</a>, <a href="/tags/closures.html">Closures</a>, <a href="/tags/ibm.html">IBM</a>, <a href="/tags/java.html">Java</a>, <a href="/tags/microsoft.html">Microsoft</a>, <a href="/tags/neal-gafter.html">Neal Gafter</a>, <a href="/tags/sun.html">Sun</a>
 </div>
 
 
@@ -814,7 +814,7 @@ main <span class="fu">=</span> <span class="kw">do</span>
 
 
 <div class="tags">
-  <a href="/tags/Dependency%20Injection.html">Dependency Injection</a>, <a href="/tags/Guice.html">Guice</a>, <a href="/tags/Java.html">Java</a>, <a href="/tags/JCDI.html">JCDI</a>, <a href="/tags/JEE.html">JEE</a>, <a href="/tags/Seam.html">Seam</a>, <a href="/tags/Web.html">Web</a>, <a href="/tags/WebBeans.html">WebBeans</a>
+  <a href="/tags/dependency-injection.html">Dependency Injection</a>, <a href="/tags/guice.html">Guice</a>, <a href="/tags/java.html">Java</a>, <a href="/tags/jcdi.html">JCDI</a>, <a href="/tags/jee.html">JEE</a>, <a href="/tags/seam.html">Seam</a>, <a href="/tags/web.html">Web</a>, <a href="/tags/webbeans.html">WebBeans</a>
 </div>
 
 
@@ -866,7 +866,7 @@ main <span class="fu">=</span> <span class="kw">do</span>
 
 
 <div class="tags">
-  <a href="/tags/Category%20Theory.html">Category Theory</a>, <a href="/tags/Functional%20Programming.html">Functional Programming</a>, <a href="/tags/Haskell.html">Haskell</a>, <a href="/tags/Monads.html">Monads</a>, <a href="/tags/Productivity.html">Productivity</a>, <a href="/tags/Scala.html">Scala</a>
+  <a href="/tags/category-theory.html">Category Theory</a>, <a href="/tags/functional-programming.html">Functional Programming</a>, <a href="/tags/haskell.html">Haskell</a>, <a href="/tags/monads.html">Monads</a>, <a href="/tags/productivity.html">Productivity</a>, <a href="/tags/scala.html">Scala</a>
 </div>
 
 
@@ -909,7 +909,7 @@ main <span class="fu">=</span> <span class="kw">do</span>
 
 
 <div class="tags">
-  <a href="/tags/Agile.html">Agile</a>, <a href="/tags/Scrum.html">Scrum</a>, <a href="/tags/Software%20Process.html">Software Process</a>
+  <a href="/tags/agile.html">Agile</a>, <a href="/tags/scrum.html">Scrum</a>, <a href="/tags/software-process.html">Software Process</a>
 </div>
 
 
@@ -956,7 +956,7 @@ main <span class="fu">=</span> <span class="kw">do</span>
 
 
 <div class="tags">
-  <a href="/tags/Productivity.html">Productivity</a>, <a href="/tags/Software%20Design.html">Software Design</a>, <a href="/tags/Software%20Process.html">Software Process</a>
+  <a href="/tags/productivity.html">Productivity</a>, <a href="/tags/software-design.html">Software Design</a>, <a href="/tags/software-process.html">Software Process</a>
 </div>
 
 
@@ -999,7 +999,7 @@ main <span class="fu">=</span> <span class="kw">do</span>
 
 
 <div class="tags">
-  <a href="/tags/Compilers.html">Compilers</a>, <a href="/tags/Computer%20Architecture.html">Computer Architecture</a>, <a href="/tags/Computer%20Hardware.html">Computer Hardware</a>, <a href="/tags/Operating%20Systems.html">Operating Systems</a>, <a href="/tags/Programming%20Languages.html">Programming Languages</a>
+  <a href="/tags/compilers.html">Compilers</a>, <a href="/tags/computer-architecture.html">Computer Architecture</a>, <a href="/tags/computer-hardware.html">Computer Hardware</a>, <a href="/tags/operating-systems.html">Operating Systems</a>, <a href="/tags/programming-languages.html">Programming Languages</a>
 </div>
 
 
@@ -1046,7 +1046,7 @@ main <span class="fu">=</span> <span class="kw">do</span>
 
 
 <div class="tags">
-  <a href="/tags/Ext%20GWT.html">Ext GWT</a>, <a href="/tags/Ext%20JS.html">Ext JS</a>, <a href="/tags/GWT.html">GWT</a>, <a href="/tags/GWT-Ext.html">GWT-Ext</a>, <a href="/tags/Java.html">Java</a>, <a href="/tags/JavaScript.html">JavaScript</a>, <a href="/tags/Web.html">Web</a>, <a href="/tags/YUI.html">YUI</a>
+  <a href="/tags/ext-gwt.html">Ext GWT</a>, <a href="/tags/ext-js.html">Ext JS</a>, <a href="/tags/gwt.html">GWT</a>, <a href="/tags/gwtext.html">GWT-Ext</a>, <a href="/tags/java.html">Java</a>, <a href="/tags/javascript.html">JavaScript</a>, <a href="/tags/web.html">Web</a>, <a href="/tags/yui.html">YUI</a>
 </div>
 
 
@@ -1090,7 +1090,7 @@ main <span class="fu">=</span> <span class="kw">do</span>
 
 
 <div class="tags">
-  <a href="/tags/Computer%20Games.html">Computer Games</a>, <a href="/tags/JavaScript.html">JavaScript</a>, <a href="/tags/Web.html">Web</a>
+  <a href="/tags/computer-games.html">Computer Games</a>, <a href="/tags/javascript.html">JavaScript</a>, <a href="/tags/web.html">Web</a>
 </div>
 
 
@@ -1133,7 +1133,7 @@ main <span class="fu">=</span> <span class="kw">do</span>
 
 
 <div class="tags">
-  <a href="/tags/Concurrent%20Programming.html">Concurrent Programming</a>, <a href="/tags/Erlang.html">Erlang</a>, <a href="/tags/Message%20Passing.html">Message Passing</a>, <a href="/tags/Newsqueak.html">Newsqueak</a>, <a href="/tags/Programming%20Languages.html">Programming Languages</a>, <a href="/tags/Rob%20Pike.html">Rob Pike</a>
+  <a href="/tags/concurrent-programming.html">Concurrent Programming</a>, <a href="/tags/erlang.html">Erlang</a>, <a href="/tags/message-passing.html">Message Passing</a>, <a href="/tags/newsqueak.html">Newsqueak</a>, <a href="/tags/programming-languages.html">Programming Languages</a>, <a href="/tags/rob-pike.html">Rob Pike</a>
 </div>
 
 
@@ -1176,7 +1176,7 @@ main <span class="fu">=</span> <span class="kw">do</span>
 
 
 <div class="tags">
-  <a href="/tags/FindBugs.html">FindBugs</a>, <a href="/tags/Google%20Tech%20Talks.html">Google Tech Talks</a>, <a href="/tags/Java.html">Java</a>, <a href="/tags/Josh%20Block.html">Josh Block</a>
+  <a href="/tags/findbugs.html">FindBugs</a>, <a href="/tags/google-tech-talks.html">Google Tech Talks</a>, <a href="/tags/java.html">Java</a>, <a href="/tags/josh-block.html">Josh Block</a>
 </div>
 
 
@@ -1219,7 +1219,7 @@ main <span class="fu">=</span> <span class="kw">do</span>
 
 
 <div class="tags">
-  <a href="/tags/JVM.html">JVM</a>, <a href="/tags/Scala.html">Scala</a>
+  <a href="/tags/jvm.html">JVM</a>, <a href="/tags/scala.html">Scala</a>
 </div>
 
 
@@ -1262,7 +1262,7 @@ main <span class="fu">=</span> <span class="kw">do</span>
 
 
 <div class="tags">
-  <a href="/tags/Apache%20Wicket.html">Apache Wicket</a>, <a href="/tags/Java.html">Java</a>, <a href="/tags/Web.html">Web</a>
+  <a href="/tags/apache-wicket.html">Apache Wicket</a>, <a href="/tags/java.html">Java</a>, <a href="/tags/web.html">Web</a>
 </div>
 
 
@@ -1308,7 +1308,7 @@ main <span class="fu">=</span> <span class="kw">do</span>
 
 
 <div class="tags">
-  <a href="/tags/Mac.html">Mac</a>, <a href="/tags/Mac%20pricing.html">Mac pricing</a>, <a href="/tags/MacBook%20Pro.html">MacBook Pro</a>, <a href="/tags/UK.html">UK</a>, <a href="/tags/Unix.html">Unix</a>
+  <a href="/tags/mac.html">Mac</a>, <a href="/tags/mac-pricing.html">Mac pricing</a>, <a href="/tags/macbook-pro.html">MacBook Pro</a>, <a href="/tags/uk.html">UK</a>, <a href="/tags/unix.html">Unix</a>
 </div>
 
 
@@ -1358,7 +1358,7 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
 
 
 <div class="tags">
-  <a href="/tags/C%23.html">C#</a>, <a href="/tags/Java.html">Java</a>, <a href="/tags/Programming%20Languages.html">Programming Languages</a>, <a href="/tags/Scala.html">Scala</a>
+  <a href="/tags/c.html">C#</a>, <a href="/tags/java.html">Java</a>, <a href="/tags/programming-languages.html">Programming Languages</a>, <a href="/tags/scala.html">Scala</a>
 </div>
 
 
@@ -1406,7 +1406,7 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
 
 
 <div class="tags">
-  <a href="/tags/Bazaar.html">Bazaar</a>, <a href="/tags/DVCS.html">DVCS</a>, <a href="/tags/Git.html">Git</a>, <a href="/tags/Mercurial.html">Mercurial</a>
+  <a href="/tags/bazaar.html">Bazaar</a>, <a href="/tags/dvcs.html">DVCS</a>, <a href="/tags/git.html">Git</a>, <a href="/tags/mercurial.html">Mercurial</a>
 </div>
 
 
@@ -1450,7 +1450,7 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
 
 
 <div class="tags">
-  <a href="/tags/Bob%20Lee%20-%20Closures%20-%20Java%20-%20Neal%20Gafter.html">Bob Lee - Closures - Java - Neal Gafter</a>
+  <a href="/tags/bob-lee--closures--java--neal-gafter.html">Bob Lee - Closures - Java - Neal Gafter</a>
 </div>
 
 
@@ -1493,7 +1493,7 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
 
 
 <div class="tags">
-  <a href="/tags/GWT.html">GWT</a>, <a href="/tags/Java.html">Java</a>
+  <a href="/tags/gwt.html">GWT</a>, <a href="/tags/java.html">Java</a>
 </div>
 
 
@@ -1536,7 +1536,7 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
 
 
 <div class="tags">
-  <a href="/tags/WiFi.html">WiFi</a>
+  <a href="/tags/wifi.html">WiFi</a>
 </div>
 
 
@@ -1581,7 +1581,7 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
 
 
 <div class="tags">
-  <a href="/tags/Humour.html">Humour</a>, <a href="/tags/Java.html">Java</a>, <a href="/tags/Ruby%20on%20Rails.html">Ruby on Rails</a>
+  <a href="/tags/humour.html">Humour</a>, <a href="/tags/java.html">Java</a>, <a href="/tags/ruby-on-rails.html">Ruby on Rails</a>
 </div>
 
 
@@ -1633,7 +1633,7 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
 
 
 <div class="tags">
-  <a href="/tags/Apache%20Click.html">Apache Click</a>, <a href="/tags/Apache%20Tapestry.html">Apache Tapestry</a>, <a href="/tags/IceFaces.html">IceFaces</a>, <a href="/tags/Java.html">Java</a>, <a href="/tags/JSF.html">JSF</a>, <a href="/tags/RichFaces.html">RichFaces</a>, <a href="/tags/Seam.html">Seam</a>, <a href="/tags/Spring%20MVC.html">Spring MVC</a>, <a href="/tags/Web.html">Web</a>
+  <a href="/tags/apache-click.html">Apache Click</a>, <a href="/tags/apache-tapestry.html">Apache Tapestry</a>, <a href="/tags/icefaces.html">IceFaces</a>, <a href="/tags/java.html">Java</a>, <a href="/tags/jsf.html">JSF</a>, <a href="/tags/richfaces.html">RichFaces</a>, <a href="/tags/seam.html">Seam</a>, <a href="/tags/spring-mvc.html">Spring MVC</a>, <a href="/tags/web.html">Web</a>
 </div>
 
 
@@ -1692,7 +1692,7 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
 
 
 <div class="tags">
-  <a href="/tags/Apache%20Click.html">Apache Click</a>, <a href="/tags/GWT.html">GWT</a>, <a href="/tags/Java.html">Java</a>, <a href="/tags/JavaScript.html">JavaScript</a>, <a href="/tags/JSF.html">JSF</a>, <a href="/tags/Tibco%20GI.html">Tibco GI</a>, <a href="/tags/Web.html">Web</a>, <a href="/tags/YUI.html">YUI</a>
+  <a href="/tags/apache-click.html">Apache Click</a>, <a href="/tags/gwt.html">GWT</a>, <a href="/tags/java.html">Java</a>, <a href="/tags/javascript.html">JavaScript</a>, <a href="/tags/jsf.html">JSF</a>, <a href="/tags/tibco-gi.html">Tibco GI</a>, <a href="/tags/web.html">Web</a>, <a href="/tags/yui.html">YUI</a>
 </div>
 
 
@@ -1746,7 +1746,7 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
 
 
 <div class="tags">
-  <a href="/tags/In-Memory%20Databases.html">In-Memory Databases</a>, <a href="/tags/SAAS.html">SAAS</a>, <a href="/tags/SAP.html">SAP</a>, <a href="/tags/SOA.html">SOA</a>
+  <a href="/tags/inmemory-databases.html">In-Memory Databases</a>, <a href="/tags/saas.html">SAAS</a>, <a href="/tags/sap.html">SAP</a>, <a href="/tags/soa.html">SOA</a>
 </div>
 
 
@@ -1790,7 +1790,7 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
 
 
 <div class="tags">
-  <a href="/tags/Dependency%20Injection.html">Dependency Injection</a>, <a href="/tags/Google%20Tech%20Talks.html">Google Tech Talks</a>, <a href="/tags/Guice.html">Guice</a>, <a href="/tags/Java.html">Java</a>
+  <a href="/tags/dependency-injection.html">Dependency Injection</a>, <a href="/tags/google-tech-talks.html">Google Tech Talks</a>, <a href="/tags/guice.html">Guice</a>, <a href="/tags/java.html">Java</a>
 </div>
 
 
@@ -1833,7 +1833,7 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
 
 
 <div class="tags">
-  <a href="/tags/Apache%20Click.html">Apache Click</a>, <a href="/tags/Java.html">Java</a>, <a href="/tags/Web.html">Web</a>
+  <a href="/tags/apache-click.html">Apache Click</a>, <a href="/tags/java.html">Java</a>, <a href="/tags/web.html">Web</a>
 </div>
 
 
@@ -1898,7 +1898,7 @@ My long search had not been in vain. It had led me to a full appreciation of the
 
 
 <div class="tags">
-  <a href="/tags/Bertrand%20Meyer.html">Bertrand Meyer</a>, <a href="/tags/UML.html">UML</a>
+  <a href="/tags/bertrand-meyer.html">Bertrand Meyer</a>, <a href="/tags/uml.html">UML</a>
 </div>
 
 
@@ -1943,7 +1943,7 @@ My long search had not been in vain. It had led me to a full appreciation of the
 
 
 <div class="tags">
-  <a href="/tags/Agile.html">Agile</a>, <a href="/tags/Scrum.html">Scrum</a>, <a href="/tags/Software%20Process.html">Software Process</a>
+  <a href="/tags/agile.html">Agile</a>, <a href="/tags/scrum.html">Scrum</a>, <a href="/tags/software-process.html">Software Process</a>
 </div>
 
 
@@ -1986,7 +1986,7 @@ My long search had not been in vain. It had led me to a full appreciation of the
 
 
 <div class="tags">
-  <a href="/tags/Distributed%20Computing.html">Distributed Computing</a>, <a href="/tags/REST.html">REST</a>, <a href="/tags/SOA.html">SOA</a>, <a href="/tags/Web%20Services.html">Web Services</a>
+  <a href="/tags/distributed-computing.html">Distributed Computing</a>, <a href="/tags/rest.html">REST</a>, <a href="/tags/soa.html">SOA</a>, <a href="/tags/web-services.html">Web Services</a>
 </div>
 
 
@@ -2037,7 +2037,7 @@ My long search had not been in vain. It had led me to a full appreciation of the
 
 
 <div class="tags">
-  <a href="/tags/Closures.html">Closures</a>, <a href="/tags/Java.html">Java</a>, <a href="/tags/Neal%20Gafter.html">Neal Gafter</a>
+  <a href="/tags/closures.html">Closures</a>, <a href="/tags/java.html">Java</a>, <a href="/tags/neal-gafter.html">Neal Gafter</a>
 </div>
 
 
@@ -2080,7 +2080,7 @@ My long search had not been in vain. It had led me to a full appreciation of the
 
 
 <div class="tags">
-  <a href="/tags/Python.html">Python</a>
+  <a href="/tags/python.html">Python</a>
 </div>
 
 
@@ -2123,7 +2123,7 @@ My long search had not been in vain. It had led me to a full appreciation of the
 
 
 <div class="tags">
-  <a href="/tags/Actors.html">Actors</a>, <a href="/tags/Concurrent%20Programming.html">Concurrent Programming</a>, <a href="/tags/Erlang.html">Erlang</a>, <a href="/tags/Scala.html">Scala</a>
+  <a href="/tags/actors.html">Actors</a>, <a href="/tags/concurrent-programming.html">Concurrent Programming</a>, <a href="/tags/erlang.html">Erlang</a>, <a href="/tags/scala.html">Scala</a>
 </div>
 
 
@@ -2167,7 +2167,7 @@ My long search had not been in vain. It had led me to a full appreciation of the
 
 
 <div class="tags">
-  <a href="/tags/Concurrent%20Programming.html">Concurrent Programming</a>, <a href="/tags/CSP.html">CSP</a>, <a href="/tags/Erlang.html">Erlang</a>
+  <a href="/tags/concurrent-programming.html">Concurrent Programming</a>, <a href="/tags/csp.html">CSP</a>, <a href="/tags/erlang.html">Erlang</a>
 </div>
 
 
@@ -2272,7 +2272,7 @@ Judging
 
 
 <div class="tags">
-  <a href="/tags/Personality%20Typing.html">Personality Typing</a>
+  <a href="/tags/personality-typing.html">Personality Typing</a>
 </div>
 
 
@@ -2321,7 +2321,7 @@ Judging
 
 
 <div class="tags">
-  <a href="/tags/Firefox.html">Firefox</a>, <a href="/tags/SVG.html">SVG</a>, <a href="/tags/Web.html">Web</a>
+  <a href="/tags/firefox.html">Firefox</a>, <a href="/tags/svg.html">SVG</a>, <a href="/tags/web.html">Web</a>
 </div>
 
 
@@ -2366,7 +2366,7 @@ Judging
 
 
 <div class="tags">
-  <a href="/tags/Java.html">Java</a>, <a href="/tags/Modula-3.html">Modula-3</a>, <a href="/tags/Programming%20Languages.html">Programming Languages</a>
+  <a href="/tags/java.html">Java</a>, <a href="/tags/modula3.html">Modula-3</a>, <a href="/tags/programming-languages.html">Programming Languages</a>
 </div>
 
 
@@ -2409,7 +2409,7 @@ Judging
 
 
 <div class="tags">
-  <a href="/tags/Scala.html">Scala</a>, <a href="/tags/Software%20Engineering%20Radio.html">Software Engineering Radio</a>, <a href="/tags/Ted%20Neward.html">Ted Neward</a>
+  <a href="/tags/scala.html">Scala</a>, <a href="/tags/software-engineering-radio.html">Software Engineering Radio</a>, <a href="/tags/ted-neward.html">Ted Neward</a>
 </div>
 
 
@@ -2452,7 +2452,7 @@ Judging
 
 
 <div class="tags">
-  <a href="/tags/Java.html">Java</a>, <a href="/tags/Java%20Web%20Start.html">Java Web Start</a>, <a href="/tags/Swing.html">Swing</a>
+  <a href="/tags/java.html">Java</a>, <a href="/tags/java-web-start.html">Java Web Start</a>, <a href="/tags/swing.html">Swing</a>
 </div>
 
 
@@ -2495,7 +2495,7 @@ Judging
 
 
 <div class="tags">
-  <a href="/tags/Application%20Integration.html">Application Integration</a>, <a href="/tags/NoXML.html">NoXML</a>, <a href="/tags/XML.html">XML</a>
+  <a href="/tags/application-integration.html">Application Integration</a>, <a href="/tags/noxml.html">NoXML</a>, <a href="/tags/xml.html">XML</a>
 </div>
 
 
@@ -2540,7 +2540,7 @@ Judging
 
 
 <div class="tags">
-  <a href="/tags/Application%20Integration.html">Application Integration</a>, <a href="/tags/Distributed%20Computing.html">Distributed Computing</a>, <a href="/tags/EAI.html">EAI</a>, <a href="/tags/SOA.html">SOA</a>
+  <a href="/tags/application-integration.html">Application Integration</a>, <a href="/tags/distributed-computing.html">Distributed Computing</a>, <a href="/tags/eai.html">EAI</a>, <a href="/tags/soa.html">SOA</a>
 </div>
 
 
@@ -2583,7 +2583,7 @@ Judging
 
 
 <div class="tags">
-  <a href="/tags/APL.html">APL</a>, <a href="/tags/J.html">J</a>, <a href="/tags/K.html">K</a>, <a href="/tags/Programming%20Languages.html">Programming Languages</a>
+  <a href="/tags/apl.html">APL</a>, <a href="/tags/j.html">J</a>, <a href="/tags/k.html">K</a>, <a href="/tags/programming-languages.html">Programming Languages</a>
 </div>
 
 
@@ -2626,7 +2626,7 @@ Judging
 
 
 <div class="tags">
-  <a href="/tags/Hibernate.html">Hibernate</a>, <a href="/tags/iBatis.html">iBatis</a>, <a href="/tags/Java.html">Java</a>, <a href="/tags/Maven.html">Maven</a>, <a href="/tags/ORM.html">ORM</a>, <a href="/tags/Spring.html">Spring</a>
+  <a href="/tags/hibernate.html">Hibernate</a>, <a href="/tags/ibatis.html">iBatis</a>, <a href="/tags/java.html">Java</a>, <a href="/tags/maven.html">Maven</a>, <a href="/tags/orm.html">ORM</a>, <a href="/tags/spring.html">Spring</a>
 </div>
 
 
@@ -2669,7 +2669,7 @@ Judging
 
 
 <div class="tags">
-  <a href="/tags/Continuations.html">Continuations</a>, <a href="/tags/Process%20Calculi.html">Process Calculi</a>, <a href="/tags/Workflow.html">Workflow</a>
+  <a href="/tags/continuations.html">Continuations</a>, <a href="/tags/process-calculi.html">Process Calculi</a>, <a href="/tags/workflow.html">Workflow</a>
 </div>
 
 
@@ -2712,7 +2712,7 @@ Judging
 
 
 <div class="tags">
-  <a href="/tags/NoXML.html">NoXML</a>, <a href="/tags/XML.html">XML</a>
+  <a href="/tags/noxml.html">NoXML</a>, <a href="/tags/xml.html">XML</a>
 </div>
 
 
@@ -2755,7 +2755,7 @@ Judging
 
 
 <div class="tags">
-  <a href="/tags/Application%20Development.html">Application Development</a>, <a href="/tags/Mac.html">Mac</a>, <a href="/tags/Wil%20Shipley.html">Wil Shipley</a>
+  <a href="/tags/application-development.html">Application Development</a>, <a href="/tags/mac.html">Mac</a>, <a href="/tags/wil-shipley.html">Wil Shipley</a>
 </div>
 
 
@@ -2798,7 +2798,7 @@ Judging
 
 
 <div class="tags">
-  <a href="/tags/Physics.html">Physics</a>
+  <a href="/tags/physics.html">Physics</a>
 </div>
 
 
@@ -2841,7 +2841,7 @@ Judging
 
 
 <div class="tags">
-  <a href="/tags/Computer%20Games.html">Computer Games</a>, <a href="/tags/Computer%20Graphics.html">Computer Graphics</a>
+  <a href="/tags/computer-games.html">Computer Games</a>, <a href="/tags/computer-graphics.html">Computer Graphics</a>
 </div>
 
 
@@ -2887,7 +2887,7 @@ Judging
 
 
 <div class="tags">
-  <a href="/tags/C%23.html">C#</a>, <a href="/tags/Erik%20Meijer.html">Erik Meijer</a>, <a href="/tags/Programming%20Languages.html">Programming Languages</a>
+  <a href="/tags/c.html">C#</a>, <a href="/tags/erik-meijer.html">Erik Meijer</a>, <a href="/tags/programming-languages.html">Programming Languages</a>
 </div>
 
 
@@ -2932,7 +2932,7 @@ Judging
 
 
 <div class="tags">
-  <a href="/tags/Closures.html">Closures</a>, <a href="/tags/Groovy.html">Groovy</a>
+  <a href="/tags/closures.html">Closures</a>, <a href="/tags/groovy.html">Groovy</a>
 </div>
 
 
@@ -2976,7 +2976,7 @@ Judging
 
 
 <div class="tags">
-  <a href="/tags/DSLs.html">DSLs</a>, <a href="/tags/HTML.html">HTML</a>, <a href="/tags/Software%20Design.html">Software Design</a>
+  <a href="/tags/dsls.html">DSLs</a>, <a href="/tags/html.html">HTML</a>, <a href="/tags/software-design.html">Software Design</a>
 </div>
 
 
@@ -3020,7 +3020,7 @@ Judging
 
 
 <div class="tags">
-  <a href="/tags/Lisp.html">Lisp</a>, <a href="/tags/Programming%20Languages.html">Programming Languages</a>, <a href="/tags/Software%20Design.html">Software Design</a>
+  <a href="/tags/lisp.html">Lisp</a>, <a href="/tags/programming-languages.html">Programming Languages</a>, <a href="/tags/software-design.html">Software Design</a>
 </div>
 
 
@@ -3065,7 +3065,7 @@ Judging
 
 
 <div class="tags">
-  <a href="/tags/.NET.html">.NET</a>, <a href="/tags/CLR.html">CLR</a>, <a href="/tags/Coco/R.html">Coco/R</a>, <a href="/tags/Compilers.html">Compilers</a>, <a href="/tags/Programming%20Languages.html">Programming Languages</a>, <a href="/tags/Ruby.html">Ruby</a>
+  <a href="/tags/net.html">.NET</a>, <a href="/tags/clr.html">CLR</a>, <a href="/tags/cocor.html">Coco/R</a>, <a href="/tags/compilers.html">Compilers</a>, <a href="/tags/programming-languages.html">Programming Languages</a>, <a href="/tags/ruby.html">Ruby</a>
 </div>
 
 
@@ -3114,7 +3114,7 @@ Judging
 
 
 <div class="tags">
-  <a href="/tags/Linux.html">Linux</a>, <a href="/tags/Ubuntu.html">Ubuntu</a>, <a href="/tags/VMware.html">VMware</a>
+  <a href="/tags/linux.html">Linux</a>, <a href="/tags/ubuntu.html">Ubuntu</a>, <a href="/tags/vmware.html">VMware</a>
 </div>
 
 
@@ -3158,7 +3158,7 @@ Judging
 
 
 <div class="tags">
-  <a href="/tags/UNCOL.html">UNCOL</a>, <a href="/tags/Wikipedia.html">Wikipedia</a>, <a href="/tags/x86.html">x86</a>
+  <a href="/tags/uncol.html">UNCOL</a>, <a href="/tags/wikipedia.html">Wikipedia</a>, <a href="/tags/x86.html">x86</a>
 </div>
 
 
@@ -3207,7 +3207,7 @@ Judging
 
 
 <div class="tags">
-  <a href="/tags/Gnome.html">Gnome</a>, <a href="/tags/Linux.html">Linux</a>, <a href="/tags/Ubuntu.html">Ubuntu</a>
+  <a href="/tags/gnome.html">Gnome</a>, <a href="/tags/linux.html">Linux</a>, <a href="/tags/ubuntu.html">Ubuntu</a>
 </div>
 
 
@@ -3250,7 +3250,7 @@ Judging
 
 
 <div class="tags">
-  <a href="/tags/Dependency%20Injection.html">Dependency Injection</a>, <a href="/tags/Java.html">Java</a>, <a href="/tags/Ruby.html">Ruby</a>
+  <a href="/tags/dependency-injection.html">Dependency Injection</a>, <a href="/tags/java.html">Java</a>, <a href="/tags/ruby.html">Ruby</a>
 </div>
 
 
@@ -3294,7 +3294,7 @@ Judging
 
 
 <div class="tags">
-  <a href="/tags/Closures.html">Closures</a>, <a href="/tags/Groovy.html">Groovy</a>, <a href="/tags/Java.html">Java</a>, <a href="/tags/Programming%20Languages.html">Programming Languages</a>, <a href="/tags/Ruby.html">Ruby</a>
+  <a href="/tags/closures.html">Closures</a>, <a href="/tags/groovy.html">Groovy</a>, <a href="/tags/java.html">Java</a>, <a href="/tags/programming-languages.html">Programming Languages</a>, <a href="/tags/ruby.html">Ruby</a>
 </div>
 
 
@@ -3403,7 +3403,7 @@ catch (<span class="st">:early_exit</span>) {
 
 
 <div class="tags">
-  <a href="/tags/call/cc.html">call/cc</a>, <a href="/tags/Continuations.html">Continuations</a>, <a href="/tags/Programming%20Languages.html">Programming Languages</a>, <a href="/tags/Ruby.html">Ruby</a>, <a href="/tags/Scheme.html">Scheme</a>
+  <a href="/tags/callcc.html">call/cc</a>, <a href="/tags/continuations.html">Continuations</a>, <a href="/tags/programming-languages.html">Programming Languages</a>, <a href="/tags/ruby.html">Ruby</a>, <a href="/tags/scheme.html">Scheme</a>
 </div>
 
 
@@ -3462,7 +3462,7 @@ catch (<span class="st">:early_exit</span>) {
 
 
 <div class="tags">
-  <a href="/tags/ActionScript.html">ActionScript</a>, <a href="/tags/Dynamic%20Typing.html">Dynamic Typing</a>, <a href="/tags/Groovy.html">Groovy</a>, <a href="/tags/Java.html">Java</a>, <a href="/tags/JavaScript.html">JavaScript</a>, <a href="/tags/Programming%20Languages.html">Programming Languages</a>, <a href="/tags/Python.html">Python</a>, <a href="/tags/Ruby.html">Ruby</a>, <a href="/tags/Static%20Typing.html">Static Typing</a>
+  <a href="/tags/actionscript.html">ActionScript</a>, <a href="/tags/dynamic-typing.html">Dynamic Typing</a>, <a href="/tags/groovy.html">Groovy</a>, <a href="/tags/java.html">Java</a>, <a href="/tags/javascript.html">JavaScript</a>, <a href="/tags/programming-languages.html">Programming Languages</a>, <a href="/tags/python.html">Python</a>, <a href="/tags/ruby.html">Ruby</a>, <a href="/tags/static-typing.html">Static Typing</a>
 </div>
 
 
@@ -3505,7 +3505,7 @@ catch (<span class="st">:early_exit</span>) {
 
 
 <div class="tags">
-  <a href="/tags/Distributed%20Computing.html">Distributed Computing</a>, <a href="/tags/NoXML.html">NoXML</a>, <a href="/tags/REST.html">REST</a>, <a href="/tags/SOAP.html">SOAP</a>
+  <a href="/tags/distributed-computing.html">Distributed Computing</a>, <a href="/tags/noxml.html">NoXML</a>, <a href="/tags/rest.html">REST</a>, <a href="/tags/soap.html">SOAP</a>
 </div>
 
 
@@ -3550,7 +3550,7 @@ catch (<span class="st">:early_exit</span>) {
 
 
 <div class="tags">
-  <a href="/tags/Distributed%20Computing.html">Distributed Computing</a>, <a href="/tags/Network%20Programming.html">Network Programming</a>, <a href="/tags/NoXML.html">NoXML</a>, <a href="/tags/Web%20Services.html">Web Services</a>, <a href="/tags/XML.html">XML</a>
+  <a href="/tags/distributed-computing.html">Distributed Computing</a>, <a href="/tags/network-programming.html">Network Programming</a>, <a href="/tags/noxml.html">NoXML</a>, <a href="/tags/web-services.html">Web Services</a>, <a href="/tags/xml.html">XML</a>
 </div>
 
 
@@ -3593,7 +3593,7 @@ catch (<span class="st">:early_exit</span>) {
 
 
 <div class="tags">
-  <a href="/tags/Java.html">Java</a>, <a href="/tags/Mocks.html">Mocks</a>, <a href="/tags/Testing.html">Testing</a>
+  <a href="/tags/java.html">Java</a>, <a href="/tags/mocks.html">Mocks</a>, <a href="/tags/testing.html">Testing</a>
 </div>
 
 
@@ -3636,7 +3636,7 @@ catch (<span class="st">:early_exit</span>) {
 
 
 <div class="tags">
-  <a href="/tags/Linux.html">Linux</a>
+  <a href="/tags/linux.html">Linux</a>
 </div>
 
 
@@ -3679,7 +3679,7 @@ catch (<span class="st">:early_exit</span>) {
 
 
 <div class="tags">
-  <a href="/tags/Distributed%20Computing.html">Distributed Computing</a>
+  <a href="/tags/distributed-computing.html">Distributed Computing</a>
 </div>
 
 
@@ -3724,7 +3724,7 @@ catch (<span class="st">:early_exit</span>) {
 
 
 <div class="tags">
-  <a href="/tags/Hiring.html">Hiring</a>, <a href="/tags/Management.html">Management</a>
+  <a href="/tags/hiring.html">Hiring</a>, <a href="/tags/management.html">Management</a>
 </div>
 
 
@@ -3768,7 +3768,7 @@ catch (<span class="st">:early_exit</span>) {
 
 
 <div class="tags">
-  <a href="/tags/Quality.html">Quality</a>, <a href="/tags/Testing.html">Testing</a>
+  <a href="/tags/quality.html">Quality</a>, <a href="/tags/testing.html">Testing</a>
 </div>
 
 
@@ -3820,7 +3820,7 @@ Are the relational data model and (especially) SQL the right choices for periste
 
 
 <div class="tags">
-  <a href="/tags/Hibernate.html">Hibernate</a>, <a href="/tags/Java.html">Java</a>, <a href="/tags/ORM.html">ORM</a>, <a href="/tags/Spring.html">Spring</a>
+  <a href="/tags/hibernate.html">Hibernate</a>, <a href="/tags/java.html">Java</a>, <a href="/tags/orm.html">ORM</a>, <a href="/tags/spring.html">Spring</a>
 </div>
 
 
@@ -3863,7 +3863,7 @@ Are the relational data model and (especially) SQL the right choices for periste
 
 
 <div class="tags">
-  <a href="/tags/Distributed%20Computing.html">Distributed Computing</a>, <a href="/tags/Erlang.html">Erlang</a>, <a href="/tags/Network%20Programming.html">Network Programming</a>, <a href="/tags/Oz.html">Oz</a>
+  <a href="/tags/distributed-computing.html">Distributed Computing</a>, <a href="/tags/erlang.html">Erlang</a>, <a href="/tags/network-programming.html">Network Programming</a>, <a href="/tags/oz.html">Oz</a>
 </div>
 
 
@@ -3906,7 +3906,7 @@ Are the relational data model and (especially) SQL the right choices for periste
 
 
 <div class="tags">
-  <a href="/tags/Lisp.html">Lisp</a>, <a href="/tags/Operating%20Systems.html">Operating Systems</a>, <a href="/tags/Scheme.html">Scheme</a>
+  <a href="/tags/lisp.html">Lisp</a>, <a href="/tags/operating-systems.html">Operating Systems</a>, <a href="/tags/scheme.html">Scheme</a>
 </div>
 
 
@@ -3951,7 +3951,7 @@ Are the relational data model and (especially) SQL the right choices for periste
 
 
 <div class="tags">
-  <a href="/tags/CLI.html">CLI</a>, <a href="/tags/CLR.html">CLR</a>, <a href="/tags/Common%20Lisp.html">Common Lisp</a>, <a href="/tags/Java.html">Java</a>, <a href="/tags/JVM.html">JVM</a>, <a href="/tags/Lisp.html">Lisp</a>
+  <a href="/tags/cli.html">CLI</a>, <a href="/tags/clr.html">CLR</a>, <a href="/tags/common-lisp.html">Common Lisp</a>, <a href="/tags/java.html">Java</a>, <a href="/tags/jvm.html">JVM</a>, <a href="/tags/lisp.html">Lisp</a>
 </div>
 
 
@@ -3995,7 +3995,7 @@ Are the relational data model and (especially) SQL the right choices for periste
 
 
 <div class="tags">
-  <a href="/tags/Lisp.html">Lisp</a>, <a href="/tags/Operating%20Systems.html">Operating Systems</a>
+  <a href="/tags/lisp.html">Lisp</a>, <a href="/tags/operating-systems.html">Operating Systems</a>
 </div>
 
 
@@ -4041,7 +4041,7 @@ Are the relational data model and (especially) SQL the right choices for periste
 
 
 <div class="tags">
-  <a href="/tags/C%23.html">C#</a>, <a href="/tags/Closures.html">Closures</a>, <a href="/tags/Functional%20Programming.html">Functional Programming</a>, <a href="/tags/Java.html">Java</a>, <a href="/tags/Spring.html">Spring</a>
+  <a href="/tags/c.html">C#</a>, <a href="/tags/closures.html">Closures</a>, <a href="/tags/functional-programming.html">Functional Programming</a>, <a href="/tags/java.html">Java</a>, <a href="/tags/spring.html">Spring</a>
 </div>
 
 
@@ -4084,7 +4084,7 @@ Are the relational data model and (especially) SQL the right choices for periste
 
 
 <div class="tags">
-  <a href="/tags/Linux.html">Linux</a>
+  <a href="/tags/linux.html">Linux</a>
 </div>
 
 
@@ -4135,7 +4135,7 @@ Are the relational data model and (especially) SQL the right choices for periste
 
 
 <div class="tags">
-  <a href="/tags/Hibernate.html">Hibernate</a>, <a href="/tags/Java.html">Java</a>, <a href="/tags/ORM.html">ORM</a>, <a href="/tags/Spring.html">Spring</a>
+  <a href="/tags/hibernate.html">Hibernate</a>, <a href="/tags/java.html">Java</a>, <a href="/tags/orm.html">ORM</a>, <a href="/tags/spring.html">Spring</a>
 </div>
 
 
@@ -4178,7 +4178,7 @@ Are the relational data model and (especially) SQL the right choices for periste
 
 
 <div class="tags">
-  <a href="/tags/Operating%20Systems.html">Operating Systems</a>, <a href="/tags/Scheme.html">Scheme</a>, <a href="/tags/SICP.html">SICP</a>
+  <a href="/tags/operating-systems.html">Operating Systems</a>, <a href="/tags/scheme.html">Scheme</a>, <a href="/tags/sicp.html">SICP</a>
 </div>
 
 
@@ -4221,7 +4221,7 @@ Are the relational data model and (especially) SQL the right choices for periste
 
 
 <div class="tags">
-  <a href="/tags/Functional%20Programming.html">Functional Programming</a>, <a href="/tags/OCaml.html">OCaml</a>
+  <a href="/tags/functional-programming.html">Functional Programming</a>, <a href="/tags/ocaml.html">OCaml</a>
 </div>
 
 
@@ -4266,7 +4266,7 @@ Are the relational data model and (especially) SQL the right choices for periste
 
 
 <div class="tags">
-  <a href="/tags/Erlang.html">Erlang</a>
+  <a href="/tags/erlang.html">Erlang</a>
 </div>
 
 
@@ -4309,7 +4309,7 @@ Are the relational data model and (especially) SQL the right choices for periste
 
 
 <div class="tags">
-  <a href="/tags/Erlang.html">Erlang</a>, <a href="/tags/Java.html">Java</a>, <a href="/tags/Oz.html">Oz</a>, <a href="/tags/Swing.html">Swing</a>
+  <a href="/tags/erlang.html">Erlang</a>, <a href="/tags/java.html">Java</a>, <a href="/tags/oz.html">Oz</a>, <a href="/tags/swing.html">Swing</a>
 </div>
 
 
@@ -4380,7 +4380,7 @@ a                 <span class="co">; =&gt; a procedure</span>
 
 
 <div class="tags">
-  <a href="/tags/Scheme.html">Scheme</a>
+  <a href="/tags/scheme.html">Scheme</a>
 </div>
 
 
@@ -4426,7 +4426,7 @@ a                 <span class="co">; =&gt; a procedure</span>
 
 
 <div class="tags">
-  <a href="/tags/Lisp.html">Lisp</a>, <a href="/tags/Python%20Scheme.html">Python Scheme</a>
+  <a href="/tags/lisp.html">Lisp</a>, <a href="/tags/python-scheme.html">Python Scheme</a>
 </div>
 
 
@@ -4474,7 +4474,7 @@ a                 <span class="co">; =&gt; a procedure</span>
 
 
 <div class="tags">
-  <a href="/tags/Computer%20Games.html">Computer Games</a>, <a href="/tags/Linux.html">Linux</a>
+  <a href="/tags/computer-games.html">Computer Games</a>, <a href="/tags/linux.html">Linux</a>
 </div>
 
 
