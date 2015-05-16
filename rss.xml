@@ -56,7 +56,7 @@ $ <span class="kw">btrfs</span> filesystem resize max /mnt/root</code></pre></di
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"><a href="/tags/nixos/index.html">NixOS</a>, <a href="/tags/linux/index.html">Linux</a></tags>
+  <i class="fa fa-tags"></i> <a href="/tags/nixos/index.html">NixOS</a>, <a href="/tags/linux/index.html">Linux</a>
 </div>
 
 
@@ -126,7 +126,7 @@ $ <span class="kw">btrfs</span> filesystem resize max /mnt/root</code></pre></di
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"><a href="/tags/hakyll/index.html">Hakyll</a>, <a href="/tags/halcyon/index.html">Halcyon</a>, <a href="/tags/circleci/index.html">CircleCI</a></tags>
+  <i class="fa fa-tags"></i> <a href="/tags/hakyll/index.html">Hakyll</a>, <a href="/tags/halcyon/index.html">Halcyon</a>, <a href="/tags/circleci/index.html">CircleCI</a>
 </div>
 
 
@@ -209,7 +209,7 @@ main <span class="fu">=</span> putStrLn <span class="st">&quot;Hello, world!&quo
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"><a href="/tags/haskell/index.html">Haskell</a>, <a href="/tags/hakyll/index.html">Hakyll</a></tags>
+  <i class="fa fa-tags"></i> <a href="/tags/haskell/index.html">Haskell</a>, <a href="/tags/hakyll/index.html">Hakyll</a>
 </div>
 
 
@@ -247,10 +247,9 @@ main <span class="fu">=</span> putStrLn <span class="st">&quot;Hello, world!&quo
 </header>
 
 <div class="post-content">
-  <div class="cross-posted">
-
-<p>Cross-posted to <a href="https://medium.com/p/2e16ec53137f">Medium</a>.</p>
-</div>
+  <a class="btn btn-default cross-posted" href="https://medium.com/p/2e16ec53137f">
+  <i class="fa fa-medium"></i> Cross-posted to Medium
+</a>
 
 <!--
   <div class="section-background" contenteditable="false"
@@ -292,7 +291,7 @@ main <span class="fu">=</span> putStrLn <span class="st">&quot;Hello, world!&quo
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"><a href="/tags/software-engineering/index.html">Software Engineering</a>, <a href="/tags/teams/index.html">Teams</a></tags>
+  <i class="fa fa-tags"></i> <a href="/tags/software-engineering/index.html">Software Engineering</a>, <a href="/tags/teams/index.html">Teams</a>
 </div>
 
 
@@ -335,7 +334,7 @@ main <span class="fu">=</span> putStrLn <span class="st">&quot;Hello, world!&quo
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"></tags>
+  <i class="fa fa-tags"></i> 
 </div>
 
 
@@ -411,7 +410,7 @@ index 9a50a8b..fc9dc37 100644
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"><a href="/tags/octopress/index.html">Octopress</a>, <a href="/tags/mathjax/index.html">MathJax</a></tags>
+  <i class="fa fa-tags"></i> <a href="/tags/octopress/index.html">Octopress</a>, <a href="/tags/mathjax/index.html">MathJax</a>
 </div>
 
 
@@ -495,7 +494,7 @@ main <span class="fu">=</span> <span class="kw">do</span>
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"><a href="/tags/octopress/index.html">Octopress</a></tags>
+  <i class="fa fa-tags"></i> <a href="/tags/octopress/index.html">Octopress</a>
 </div>
 
 
@@ -555,21 +554,21 @@ main <span class="fu">=</span> <span class="kw">do</span>
 <li><p>With Ubuntu 10.10 after resuming from hibernate I get odd graphics flickering “effects” which is particularly bad when dragging or playing video. Basically you will end up rebooting. I have found no solution for this.</p></li>
 <li><p>With Ubuntu 10.10 the touchpad will not work well. Dragging sends the pointer crazy and right click does not work at all. I found a solution https://bugs.launchpad.net/ubuntu/maverick/+source/linux/+bug/582809/comments/94 but unfortunately now the pointer moves too slowly and increasing the sensitivity does not work.</p></li>
 </ul>
-<h3 id="advice">Advice</h3>
-<h4 id="stick-with-ubuntu-10.04">Stick with Ubuntu 10.04</h4>
+<h2 id="advice">Advice</h2>
+<h3 id="stick-with-ubuntu-10.04">Stick with Ubuntu 10.04</h3>
 <p>The touchpad problems didn’t happen with Ubuntu 10.04 and I’m fairly certain that the screen flickering following a resume didn’t occur either. So if you’re going to install Ubuntu, I’d currently recommend 10.04.</p>
-<h4 id="run-windows-7-with-ubuntu-10.10-in-a-box">Run Windows 7 (with Ubuntu 10.10 in a box)</h4>
+<h3 id="run-windows-7-with-ubuntu-10.10-in-a-box">Run Windows 7 (with Ubuntu 10.10 in a box)</h3>
 <p>This is the option I’ve currently adopted. This way I have no problems with Google Chrome and the npviewer.bin because there’s a 64-bit version of flash. It also has other good effects such as being able to run the latest version of Skype, have my fingerprint reader work for logging in (this is quite a time saver because I tend to use strong passwords). Of course, to get software development done I installed Ubuntu 10.10 with VirtualBox. In this way I have no problems with the touchpad. Running the operating system that the manufacturer intended has certainly caused less headaches (and time wasters). Using VirtualBox seems quite performant and I’m not stuck with a compromise such as Cygwin.</p>
-<h5 id="plea-to-canoncial-and-manufacturers">Plea to Canoncial and manufacturers</h5>
+<h4 id="plea-to-canoncial-and-manufacturers">Plea to Canoncial and manufacturers</h4>
 <p>Perhaps it’s just that 10.10 is a disaster (at least running native/raw on HP hardware) but I can’t help but think that it’s imperative that Canonical find a way to have manufacturers buy into Ubuntu and test/preinstall it on their hardware. There was a time when Dell were doing this at least in the US and EU (but even then only on a small subset of their range). I used to enjoy the days of searching for solutions for hardware problems, diving into configuration files and configuring X etc. I learnt a lot through those experiences. However, now that I’m older I suppose, I value my time more. I hear this argument from Apple fan boys all the time. Unfortunately it’s true. I do think that Linux and Ubuntu in particular is a better software development platform. The weath of software available using APT is a big part of that. Also that APT uses binary packages. Easy software installations isn’t so important if you don’t experiment with new programming languages and libraries etc that often.</p>
-<h4 id="buy-a-mac">Buy a Mac :)</h4>
+<h3 id="buy-a-mac">Buy a Mac :)</h3>
 <p>The other option is, of course, to buy a MacBook. Since I already have an iMac in case I need more power, I’ve been thinking about purchasing a 11&quot; MacBook Air next year. I’ve tested one in-store an it seems quite nimble for such a little beast and the screen resolution is the same as my current laptop - 1366x768. I’d certainly have no more need for my 11.6&quot; netbook (which won’t run Ubuntu Unity btw because of gma500/poulbo graphics driver issues - sigh!). Perhaps the 11&quot; wouldn’t cut it for Java development though. I haven’t tried IntelliJ on it in-store yet. A fine but more expensive option is the 13&quot; MacBook Air. The same resolution as a 15&quot; MacBook Pro. Currently the 13&quot; MacBook Air will set up back $2,078.00 including 4G RAM and 3 year warranty. If I had to choose again right now, I’d be picking between 11 and 13 inch MacBook Airs.</p>
 <p>Since I won’t be purchasing a new notebook until next year, I am hoping that the rumoured April MacBook Pro update will make the decision easier. Hoping for higher resolution displays like MacBook Air, cheaper flash/ssd storage option, quad-cores, Mac OS X Lion and cheaper 8G RAM option. Hopefully a combination of Apple and a rising AUD can deliver. It’s quite possible that the AUD could come crashing down before then though :(.</p>
 </div>
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"><a href="/tags/apple/index.html">Apple</a>, <a href="/tags/computer-hardware/index.html">Computer Hardware</a>, <a href="/tags/hp/index.html">HP</a>, <a href="/tags/mac/index.html">Mac</a>, <a href="/tags/ubuntu/index.html">Ubuntu</a></tags>
+  <i class="fa fa-tags"></i> <a href="/tags/apple/index.html">Apple</a>, <a href="/tags/computer-hardware/index.html">Computer Hardware</a>, <a href="/tags/hp/index.html">HP</a>, <a href="/tags/mac/index.html">Mac</a>, <a href="/tags/ubuntu/index.html">Ubuntu</a>
 </div>
 
 
@@ -623,7 +622,7 @@ main <span class="fu">=</span> <span class="kw">do</span>
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"><a href="/tags/agile/index.html">Agile</a>, <a href="/tags/software-engineering/index.html">Software Engineering</a></tags>
+  <i class="fa fa-tags"></i> <a href="/tags/agile/index.html">Agile</a>, <a href="/tags/software-engineering/index.html">Software Engineering</a>
 </div>
 
 
@@ -675,7 +674,7 @@ main <span class="fu">=</span> <span class="kw">do</span>
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"><a href="/tags/apple/index.html">Apple</a>, <a href="/tags/computer-hardware/index.html">Computer Hardware</a>, <a href="/tags/hp/index.html">HP</a>, <a href="/tags/mac/index.html">Mac</a>, <a href="/tags/mac-pricing/index.html">Mac pricing</a></tags>
+  <i class="fa fa-tags"></i> <a href="/tags/apple/index.html">Apple</a>, <a href="/tags/computer-hardware/index.html">Computer Hardware</a>, <a href="/tags/hp/index.html">HP</a>, <a href="/tags/mac/index.html">Mac</a>, <a href="/tags/mac-pricing/index.html">Mac pricing</a>
 </div>
 
 
@@ -720,7 +719,7 @@ main <span class="fu">=</span> <span class="kw">do</span>
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"><a href="/tags/bazaar/index.html">Bazaar</a>, <a href="/tags/dvcs/index.html">DVCS</a>, <a href="/tags/git/index.html">Git</a>, <a href="/tags/mercurial/index.html">Mercurial</a></tags>
+  <i class="fa fa-tags"></i> <a href="/tags/bazaar/index.html">Bazaar</a>, <a href="/tags/dvcs/index.html">DVCS</a>, <a href="/tags/git/index.html">Git</a>, <a href="/tags/mercurial/index.html">Mercurial</a>
 </div>
 
 
@@ -765,7 +764,7 @@ main <span class="fu">=</span> <span class="kw">do</span>
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"><a href="/tags/c/index.html">C#</a>, <a href="/tags/closures/index.html">Closures</a>, <a href="/tags/ibm/index.html">IBM</a>, <a href="/tags/java/index.html">Java</a>, <a href="/tags/microsoft/index.html">Microsoft</a>, <a href="/tags/neal-gafter/index.html">Neal Gafter</a>, <a href="/tags/sun/index.html">Sun</a></tags>
+  <i class="fa fa-tags"></i> <a href="/tags/c/index.html">C#</a>, <a href="/tags/closures/index.html">Closures</a>, <a href="/tags/ibm/index.html">IBM</a>, <a href="/tags/java/index.html">Java</a>, <a href="/tags/microsoft/index.html">Microsoft</a>, <a href="/tags/neal-gafter/index.html">Neal Gafter</a>, <a href="/tags/sun/index.html">Sun</a>
 </div>
 
 
@@ -810,7 +809,7 @@ main <span class="fu">=</span> <span class="kw">do</span>
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"><a href="/tags/dependency-injection/index.html">Dependency Injection</a>, <a href="/tags/guice/index.html">Guice</a>, <a href="/tags/java/index.html">Java</a>, <a href="/tags/jcdi/index.html">JCDI</a>, <a href="/tags/jee/index.html">JEE</a>, <a href="/tags/seam/index.html">Seam</a>, <a href="/tags/web/index.html">Web</a>, <a href="/tags/webbeans/index.html">WebBeans</a></tags>
+  <i class="fa fa-tags"></i> <a href="/tags/dependency-injection/index.html">Dependency Injection</a>, <a href="/tags/guice/index.html">Guice</a>, <a href="/tags/java/index.html">Java</a>, <a href="/tags/jcdi/index.html">JCDI</a>, <a href="/tags/jee/index.html">JEE</a>, <a href="/tags/seam/index.html">Seam</a>, <a href="/tags/web/index.html">Web</a>, <a href="/tags/webbeans/index.html">WebBeans</a>
 </div>
 
 
@@ -862,7 +861,7 @@ main <span class="fu">=</span> <span class="kw">do</span>
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"><a href="/tags/category-theory/index.html">Category Theory</a>, <a href="/tags/functional-programming/index.html">Functional Programming</a>, <a href="/tags/haskell/index.html">Haskell</a>, <a href="/tags/monads/index.html">Monads</a>, <a href="/tags/productivity/index.html">Productivity</a>, <a href="/tags/scala/index.html">Scala</a></tags>
+  <i class="fa fa-tags"></i> <a href="/tags/category-theory/index.html">Category Theory</a>, <a href="/tags/functional-programming/index.html">Functional Programming</a>, <a href="/tags/haskell/index.html">Haskell</a>, <a href="/tags/monads/index.html">Monads</a>, <a href="/tags/productivity/index.html">Productivity</a>, <a href="/tags/scala/index.html">Scala</a>
 </div>
 
 
@@ -905,7 +904,7 @@ main <span class="fu">=</span> <span class="kw">do</span>
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"><a href="/tags/agile/index.html">Agile</a>, <a href="/tags/scrum/index.html">Scrum</a>, <a href="/tags/software-process/index.html">Software Process</a></tags>
+  <i class="fa fa-tags"></i> <a href="/tags/agile/index.html">Agile</a>, <a href="/tags/scrum/index.html">Scrum</a>, <a href="/tags/software-process/index.html">Software Process</a>
 </div>
 
 
@@ -952,7 +951,7 @@ main <span class="fu">=</span> <span class="kw">do</span>
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"><a href="/tags/productivity/index.html">Productivity</a>, <a href="/tags/software-design/index.html">Software Design</a>, <a href="/tags/software-process/index.html">Software Process</a></tags>
+  <i class="fa fa-tags"></i> <a href="/tags/productivity/index.html">Productivity</a>, <a href="/tags/software-design/index.html">Software Design</a>, <a href="/tags/software-process/index.html">Software Process</a>
 </div>
 
 
@@ -995,7 +994,7 @@ main <span class="fu">=</span> <span class="kw">do</span>
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"><a href="/tags/compilers/index.html">Compilers</a>, <a href="/tags/computer-architecture/index.html">Computer Architecture</a>, <a href="/tags/computer-hardware/index.html">Computer Hardware</a>, <a href="/tags/operating-systems/index.html">Operating Systems</a>, <a href="/tags/programming-languages/index.html">Programming Languages</a></tags>
+  <i class="fa fa-tags"></i> <a href="/tags/compilers/index.html">Compilers</a>, <a href="/tags/computer-architecture/index.html">Computer Architecture</a>, <a href="/tags/computer-hardware/index.html">Computer Hardware</a>, <a href="/tags/operating-systems/index.html">Operating Systems</a>, <a href="/tags/programming-languages/index.html">Programming Languages</a>
 </div>
 
 
@@ -1042,7 +1041,7 @@ main <span class="fu">=</span> <span class="kw">do</span>
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"><a href="/tags/ext-gwt/index.html">Ext GWT</a>, <a href="/tags/ext-js/index.html">Ext JS</a>, <a href="/tags/gwt/index.html">GWT</a>, <a href="/tags/gwtext/index.html">GWT-Ext</a>, <a href="/tags/java/index.html">Java</a>, <a href="/tags/javascript/index.html">JavaScript</a>, <a href="/tags/web/index.html">Web</a>, <a href="/tags/yui/index.html">YUI</a></tags>
+  <i class="fa fa-tags"></i> <a href="/tags/ext-gwt/index.html">Ext GWT</a>, <a href="/tags/ext-js/index.html">Ext JS</a>, <a href="/tags/gwt/index.html">GWT</a>, <a href="/tags/gwtext/index.html">GWT-Ext</a>, <a href="/tags/java/index.html">Java</a>, <a href="/tags/javascript/index.html">JavaScript</a>, <a href="/tags/web/index.html">Web</a>, <a href="/tags/yui/index.html">YUI</a>
 </div>
 
 
@@ -1086,7 +1085,7 @@ main <span class="fu">=</span> <span class="kw">do</span>
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"><a href="/tags/computer-games/index.html">Computer Games</a>, <a href="/tags/javascript/index.html">JavaScript</a>, <a href="/tags/web/index.html">Web</a></tags>
+  <i class="fa fa-tags"></i> <a href="/tags/computer-games/index.html">Computer Games</a>, <a href="/tags/javascript/index.html">JavaScript</a>, <a href="/tags/web/index.html">Web</a>
 </div>
 
 
@@ -1129,7 +1128,7 @@ main <span class="fu">=</span> <span class="kw">do</span>
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"><a href="/tags/concurrent-programming/index.html">Concurrent Programming</a>, <a href="/tags/erlang/index.html">Erlang</a>, <a href="/tags/message-passing/index.html">Message Passing</a>, <a href="/tags/newsqueak/index.html">Newsqueak</a>, <a href="/tags/programming-languages/index.html">Programming Languages</a>, <a href="/tags/rob-pike/index.html">Rob Pike</a></tags>
+  <i class="fa fa-tags"></i> <a href="/tags/concurrent-programming/index.html">Concurrent Programming</a>, <a href="/tags/erlang/index.html">Erlang</a>, <a href="/tags/message-passing/index.html">Message Passing</a>, <a href="/tags/newsqueak/index.html">Newsqueak</a>, <a href="/tags/programming-languages/index.html">Programming Languages</a>, <a href="/tags/rob-pike/index.html">Rob Pike</a>
 </div>
 
 
@@ -1172,7 +1171,7 @@ main <span class="fu">=</span> <span class="kw">do</span>
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"><a href="/tags/findbugs/index.html">FindBugs</a>, <a href="/tags/google-tech-talks/index.html">Google Tech Talks</a>, <a href="/tags/java/index.html">Java</a>, <a href="/tags/josh-block/index.html">Josh Block</a></tags>
+  <i class="fa fa-tags"></i> <a href="/tags/findbugs/index.html">FindBugs</a>, <a href="/tags/google-tech-talks/index.html">Google Tech Talks</a>, <a href="/tags/java/index.html">Java</a>, <a href="/tags/josh-block/index.html">Josh Block</a>
 </div>
 
 
@@ -1215,7 +1214,7 @@ main <span class="fu">=</span> <span class="kw">do</span>
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"><a href="/tags/jvm/index.html">JVM</a>, <a href="/tags/scala/index.html">Scala</a></tags>
+  <i class="fa fa-tags"></i> <a href="/tags/jvm/index.html">JVM</a>, <a href="/tags/scala/index.html">Scala</a>
 </div>
 
 
@@ -1258,7 +1257,7 @@ main <span class="fu">=</span> <span class="kw">do</span>
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"><a href="/tags/apache-wicket/index.html">Apache Wicket</a>, <a href="/tags/java/index.html">Java</a>, <a href="/tags/web/index.html">Web</a></tags>
+  <i class="fa fa-tags"></i> <a href="/tags/apache-wicket/index.html">Apache Wicket</a>, <a href="/tags/java/index.html">Java</a>, <a href="/tags/web/index.html">Web</a>
 </div>
 
 
@@ -1304,7 +1303,7 @@ main <span class="fu">=</span> <span class="kw">do</span>
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"><a href="/tags/mac/index.html">Mac</a>, <a href="/tags/mac-pricing/index.html">Mac pricing</a>, <a href="/tags/macbook-pro/index.html">MacBook Pro</a>, <a href="/tags/uk/index.html">UK</a>, <a href="/tags/unix/index.html">Unix</a></tags>
+  <i class="fa fa-tags"></i> <a href="/tags/mac/index.html">Mac</a>, <a href="/tags/mac-pricing/index.html">Mac pricing</a>, <a href="/tags/macbook-pro/index.html">MacBook Pro</a>, <a href="/tags/uk/index.html">UK</a>, <a href="/tags/unix/index.html">Unix</a>
 </div>
 
 
@@ -1354,7 +1353,7 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"><a href="/tags/c/index.html">C#</a>, <a href="/tags/java/index.html">Java</a>, <a href="/tags/programming-languages/index.html">Programming Languages</a>, <a href="/tags/scala/index.html">Scala</a></tags>
+  <i class="fa fa-tags"></i> <a href="/tags/c/index.html">C#</a>, <a href="/tags/java/index.html">Java</a>, <a href="/tags/programming-languages/index.html">Programming Languages</a>, <a href="/tags/scala/index.html">Scala</a>
 </div>
 
 
@@ -1402,7 +1401,7 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"><a href="/tags/bazaar/index.html">Bazaar</a>, <a href="/tags/dvcs/index.html">DVCS</a>, <a href="/tags/git/index.html">Git</a>, <a href="/tags/mercurial/index.html">Mercurial</a></tags>
+  <i class="fa fa-tags"></i> <a href="/tags/bazaar/index.html">Bazaar</a>, <a href="/tags/dvcs/index.html">DVCS</a>, <a href="/tags/git/index.html">Git</a>, <a href="/tags/mercurial/index.html">Mercurial</a>
 </div>
 
 
@@ -1446,7 +1445,7 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"><a href="/tags/bob-lee--closures--java--neal-gafter/index.html">Bob Lee - Closures - Java - Neal Gafter</a></tags>
+  <i class="fa fa-tags"></i> <a href="/tags/bob-lee--closures--java--neal-gafter/index.html">Bob Lee - Closures - Java - Neal Gafter</a>
 </div>
 
 
@@ -1489,7 +1488,7 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"><a href="/tags/gwt/index.html">GWT</a>, <a href="/tags/java/index.html">Java</a></tags>
+  <i class="fa fa-tags"></i> <a href="/tags/gwt/index.html">GWT</a>, <a href="/tags/java/index.html">Java</a>
 </div>
 
 
@@ -1532,7 +1531,7 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"><a href="/tags/wifi/index.html">WiFi</a></tags>
+  <i class="fa fa-tags"></i> <a href="/tags/wifi/index.html">WiFi</a>
 </div>
 
 
@@ -1577,7 +1576,7 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"><a href="/tags/humour/index.html">Humour</a>, <a href="/tags/java/index.html">Java</a>, <a href="/tags/ruby-on-rails/index.html">Ruby on Rails</a></tags>
+  <i class="fa fa-tags"></i> <a href="/tags/humour/index.html">Humour</a>, <a href="/tags/java/index.html">Java</a>, <a href="/tags/ruby-on-rails/index.html">Ruby on Rails</a>
 </div>
 
 
@@ -1629,7 +1628,7 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"><a href="/tags/apache-click/index.html">Apache Click</a>, <a href="/tags/apache-tapestry/index.html">Apache Tapestry</a>, <a href="/tags/icefaces/index.html">IceFaces</a>, <a href="/tags/java/index.html">Java</a>, <a href="/tags/jsf/index.html">JSF</a>, <a href="/tags/richfaces/index.html">RichFaces</a>, <a href="/tags/seam/index.html">Seam</a>, <a href="/tags/spring-mvc/index.html">Spring MVC</a>, <a href="/tags/web/index.html">Web</a></tags>
+  <i class="fa fa-tags"></i> <a href="/tags/apache-click/index.html">Apache Click</a>, <a href="/tags/apache-tapestry/index.html">Apache Tapestry</a>, <a href="/tags/icefaces/index.html">IceFaces</a>, <a href="/tags/java/index.html">Java</a>, <a href="/tags/jsf/index.html">JSF</a>, <a href="/tags/richfaces/index.html">RichFaces</a>, <a href="/tags/seam/index.html">Seam</a>, <a href="/tags/spring-mvc/index.html">Spring MVC</a>, <a href="/tags/web/index.html">Web</a>
 </div>
 
 
@@ -1688,7 +1687,7 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"><a href="/tags/apache-click/index.html">Apache Click</a>, <a href="/tags/gwt/index.html">GWT</a>, <a href="/tags/java/index.html">Java</a>, <a href="/tags/javascript/index.html">JavaScript</a>, <a href="/tags/jsf/index.html">JSF</a>, <a href="/tags/tibco-gi/index.html">Tibco GI</a>, <a href="/tags/web/index.html">Web</a>, <a href="/tags/yui/index.html">YUI</a></tags>
+  <i class="fa fa-tags"></i> <a href="/tags/apache-click/index.html">Apache Click</a>, <a href="/tags/gwt/index.html">GWT</a>, <a href="/tags/java/index.html">Java</a>, <a href="/tags/javascript/index.html">JavaScript</a>, <a href="/tags/jsf/index.html">JSF</a>, <a href="/tags/tibco-gi/index.html">Tibco GI</a>, <a href="/tags/web/index.html">Web</a>, <a href="/tags/yui/index.html">YUI</a>
 </div>
 
 
@@ -1742,7 +1741,7 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"><a href="/tags/inmemory-databases/index.html">In-Memory Databases</a>, <a href="/tags/saas/index.html">SAAS</a>, <a href="/tags/sap/index.html">SAP</a>, <a href="/tags/soa/index.html">SOA</a></tags>
+  <i class="fa fa-tags"></i> <a href="/tags/inmemory-databases/index.html">In-Memory Databases</a>, <a href="/tags/saas/index.html">SAAS</a>, <a href="/tags/sap/index.html">SAP</a>, <a href="/tags/soa/index.html">SOA</a>
 </div>
 
 
@@ -1786,7 +1785,7 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"><a href="/tags/dependency-injection/index.html">Dependency Injection</a>, <a href="/tags/google-tech-talks/index.html">Google Tech Talks</a>, <a href="/tags/guice/index.html">Guice</a>, <a href="/tags/java/index.html">Java</a></tags>
+  <i class="fa fa-tags"></i> <a href="/tags/dependency-injection/index.html">Dependency Injection</a>, <a href="/tags/google-tech-talks/index.html">Google Tech Talks</a>, <a href="/tags/guice/index.html">Guice</a>, <a href="/tags/java/index.html">Java</a>
 </div>
 
 
@@ -1829,7 +1828,7 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"><a href="/tags/apache-click/index.html">Apache Click</a>, <a href="/tags/java/index.html">Java</a>, <a href="/tags/web/index.html">Web</a></tags>
+  <i class="fa fa-tags"></i> <a href="/tags/apache-click/index.html">Apache Click</a>, <a href="/tags/java/index.html">Java</a>, <a href="/tags/web/index.html">Web</a>
 </div>
 
 
@@ -1894,7 +1893,7 @@ My long search had not been in vain. It had led me to a full appreciation of the
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"><a href="/tags/bertrand-meyer/index.html">Bertrand Meyer</a>, <a href="/tags/uml/index.html">UML</a></tags>
+  <i class="fa fa-tags"></i> <a href="/tags/bertrand-meyer/index.html">Bertrand Meyer</a>, <a href="/tags/uml/index.html">UML</a>
 </div>
 
 
@@ -1939,7 +1938,7 @@ My long search had not been in vain. It had led me to a full appreciation of the
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"><a href="/tags/agile/index.html">Agile</a>, <a href="/tags/scrum/index.html">Scrum</a>, <a href="/tags/software-process/index.html">Software Process</a></tags>
+  <i class="fa fa-tags"></i> <a href="/tags/agile/index.html">Agile</a>, <a href="/tags/scrum/index.html">Scrum</a>, <a href="/tags/software-process/index.html">Software Process</a>
 </div>
 
 
@@ -1982,7 +1981,7 @@ My long search had not been in vain. It had led me to a full appreciation of the
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"><a href="/tags/distributed-computing/index.html">Distributed Computing</a>, <a href="/tags/rest/index.html">REST</a>, <a href="/tags/soa/index.html">SOA</a>, <a href="/tags/web-services/index.html">Web Services</a></tags>
+  <i class="fa fa-tags"></i> <a href="/tags/distributed-computing/index.html">Distributed Computing</a>, <a href="/tags/rest/index.html">REST</a>, <a href="/tags/soa/index.html">SOA</a>, <a href="/tags/web-services/index.html">Web Services</a>
 </div>
 
 
@@ -2033,7 +2032,7 @@ My long search had not been in vain. It had led me to a full appreciation of the
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"><a href="/tags/closures/index.html">Closures</a>, <a href="/tags/java/index.html">Java</a>, <a href="/tags/neal-gafter/index.html">Neal Gafter</a></tags>
+  <i class="fa fa-tags"></i> <a href="/tags/closures/index.html">Closures</a>, <a href="/tags/java/index.html">Java</a>, <a href="/tags/neal-gafter/index.html">Neal Gafter</a>
 </div>
 
 
@@ -2076,7 +2075,7 @@ My long search had not been in vain. It had led me to a full appreciation of the
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"><a href="/tags/python/index.html">Python</a></tags>
+  <i class="fa fa-tags"></i> <a href="/tags/python/index.html">Python</a>
 </div>
 
 
@@ -2119,7 +2118,7 @@ My long search had not been in vain. It had led me to a full appreciation of the
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"><a href="/tags/actors/index.html">Actors</a>, <a href="/tags/concurrent-programming/index.html">Concurrent Programming</a>, <a href="/tags/erlang/index.html">Erlang</a>, <a href="/tags/scala/index.html">Scala</a></tags>
+  <i class="fa fa-tags"></i> <a href="/tags/actors/index.html">Actors</a>, <a href="/tags/concurrent-programming/index.html">Concurrent Programming</a>, <a href="/tags/erlang/index.html">Erlang</a>, <a href="/tags/scala/index.html">Scala</a>
 </div>
 
 
@@ -2163,7 +2162,7 @@ My long search had not been in vain. It had led me to a full appreciation of the
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"><a href="/tags/concurrent-programming/index.html">Concurrent Programming</a>, <a href="/tags/csp/index.html">CSP</a>, <a href="/tags/erlang/index.html">Erlang</a></tags>
+  <i class="fa fa-tags"></i> <a href="/tags/concurrent-programming/index.html">Concurrent Programming</a>, <a href="/tags/csp/index.html">CSP</a>, <a href="/tags/erlang/index.html">Erlang</a>
 </div>
 
 
@@ -2268,7 +2267,7 @@ Judging
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"><a href="/tags/personality-typing/index.html">Personality Typing</a></tags>
+  <i class="fa fa-tags"></i> <a href="/tags/personality-typing/index.html">Personality Typing</a>
 </div>
 
 
@@ -2317,7 +2316,7 @@ Judging
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"><a href="/tags/firefox/index.html">Firefox</a>, <a href="/tags/svg/index.html">SVG</a>, <a href="/tags/web/index.html">Web</a></tags>
+  <i class="fa fa-tags"></i> <a href="/tags/firefox/index.html">Firefox</a>, <a href="/tags/svg/index.html">SVG</a>, <a href="/tags/web/index.html">Web</a>
 </div>
 
 
@@ -2362,7 +2361,7 @@ Judging
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"><a href="/tags/java/index.html">Java</a>, <a href="/tags/modula3/index.html">Modula-3</a>, <a href="/tags/programming-languages/index.html">Programming Languages</a></tags>
+  <i class="fa fa-tags"></i> <a href="/tags/java/index.html">Java</a>, <a href="/tags/modula3/index.html">Modula-3</a>, <a href="/tags/programming-languages/index.html">Programming Languages</a>
 </div>
 
 
@@ -2405,7 +2404,7 @@ Judging
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"><a href="/tags/scala/index.html">Scala</a>, <a href="/tags/software-engineering-radio/index.html">Software Engineering Radio</a>, <a href="/tags/ted-neward/index.html">Ted Neward</a></tags>
+  <i class="fa fa-tags"></i> <a href="/tags/scala/index.html">Scala</a>, <a href="/tags/software-engineering-radio/index.html">Software Engineering Radio</a>, <a href="/tags/ted-neward/index.html">Ted Neward</a>
 </div>
 
 
@@ -2448,7 +2447,7 @@ Judging
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"><a href="/tags/java/index.html">Java</a>, <a href="/tags/java-web-start/index.html">Java Web Start</a>, <a href="/tags/swing/index.html">Swing</a></tags>
+  <i class="fa fa-tags"></i> <a href="/tags/java/index.html">Java</a>, <a href="/tags/java-web-start/index.html">Java Web Start</a>, <a href="/tags/swing/index.html">Swing</a>
 </div>
 
 
@@ -2491,7 +2490,7 @@ Judging
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"><a href="/tags/application-integration/index.html">Application Integration</a>, <a href="/tags/noxml/index.html">NoXML</a>, <a href="/tags/xml/index.html">XML</a></tags>
+  <i class="fa fa-tags"></i> <a href="/tags/application-integration/index.html">Application Integration</a>, <a href="/tags/noxml/index.html">NoXML</a>, <a href="/tags/xml/index.html">XML</a>
 </div>
 
 
@@ -2536,7 +2535,7 @@ Judging
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"><a href="/tags/application-integration/index.html">Application Integration</a>, <a href="/tags/distributed-computing/index.html">Distributed Computing</a>, <a href="/tags/eai/index.html">EAI</a>, <a href="/tags/soa/index.html">SOA</a></tags>
+  <i class="fa fa-tags"></i> <a href="/tags/application-integration/index.html">Application Integration</a>, <a href="/tags/distributed-computing/index.html">Distributed Computing</a>, <a href="/tags/eai/index.html">EAI</a>, <a href="/tags/soa/index.html">SOA</a>
 </div>
 
 
@@ -2579,7 +2578,7 @@ Judging
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"><a href="/tags/apl/index.html">APL</a>, <a href="/tags/j/index.html">J</a>, <a href="/tags/k/index.html">K</a>, <a href="/tags/programming-languages/index.html">Programming Languages</a></tags>
+  <i class="fa fa-tags"></i> <a href="/tags/apl/index.html">APL</a>, <a href="/tags/j/index.html">J</a>, <a href="/tags/k/index.html">K</a>, <a href="/tags/programming-languages/index.html">Programming Languages</a>
 </div>
 
 
@@ -2622,7 +2621,7 @@ Judging
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"><a href="/tags/hibernate/index.html">Hibernate</a>, <a href="/tags/ibatis/index.html">iBatis</a>, <a href="/tags/java/index.html">Java</a>, <a href="/tags/maven/index.html">Maven</a>, <a href="/tags/orm/index.html">ORM</a>, <a href="/tags/spring/index.html">Spring</a></tags>
+  <i class="fa fa-tags"></i> <a href="/tags/hibernate/index.html">Hibernate</a>, <a href="/tags/ibatis/index.html">iBatis</a>, <a href="/tags/java/index.html">Java</a>, <a href="/tags/maven/index.html">Maven</a>, <a href="/tags/orm/index.html">ORM</a>, <a href="/tags/spring/index.html">Spring</a>
 </div>
 
 
@@ -2665,7 +2664,7 @@ Judging
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"><a href="/tags/continuations/index.html">Continuations</a>, <a href="/tags/process-calculi/index.html">Process Calculi</a>, <a href="/tags/workflow/index.html">Workflow</a></tags>
+  <i class="fa fa-tags"></i> <a href="/tags/continuations/index.html">Continuations</a>, <a href="/tags/process-calculi/index.html">Process Calculi</a>, <a href="/tags/workflow/index.html">Workflow</a>
 </div>
 
 
@@ -2708,7 +2707,7 @@ Judging
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"><a href="/tags/noxml/index.html">NoXML</a>, <a href="/tags/xml/index.html">XML</a></tags>
+  <i class="fa fa-tags"></i> <a href="/tags/noxml/index.html">NoXML</a>, <a href="/tags/xml/index.html">XML</a>
 </div>
 
 
@@ -2751,7 +2750,7 @@ Judging
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"><a href="/tags/application-development/index.html">Application Development</a>, <a href="/tags/mac/index.html">Mac</a>, <a href="/tags/wil-shipley/index.html">Wil Shipley</a></tags>
+  <i class="fa fa-tags"></i> <a href="/tags/application-development/index.html">Application Development</a>, <a href="/tags/mac/index.html">Mac</a>, <a href="/tags/wil-shipley/index.html">Wil Shipley</a>
 </div>
 
 
@@ -2794,7 +2793,7 @@ Judging
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"><a href="/tags/physics/index.html">Physics</a></tags>
+  <i class="fa fa-tags"></i> <a href="/tags/physics/index.html">Physics</a>
 </div>
 
 
@@ -2837,7 +2836,7 @@ Judging
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"><a href="/tags/computer-games/index.html">Computer Games</a>, <a href="/tags/computer-graphics/index.html">Computer Graphics</a></tags>
+  <i class="fa fa-tags"></i> <a href="/tags/computer-games/index.html">Computer Games</a>, <a href="/tags/computer-graphics/index.html">Computer Graphics</a>
 </div>
 
 
@@ -2883,7 +2882,7 @@ Judging
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"><a href="/tags/c/index.html">C#</a>, <a href="/tags/erik-meijer/index.html">Erik Meijer</a>, <a href="/tags/programming-languages/index.html">Programming Languages</a></tags>
+  <i class="fa fa-tags"></i> <a href="/tags/c/index.html">C#</a>, <a href="/tags/erik-meijer/index.html">Erik Meijer</a>, <a href="/tags/programming-languages/index.html">Programming Languages</a>
 </div>
 
 
@@ -2928,7 +2927,7 @@ Judging
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"><a href="/tags/closures/index.html">Closures</a>, <a href="/tags/groovy/index.html">Groovy</a></tags>
+  <i class="fa fa-tags"></i> <a href="/tags/closures/index.html">Closures</a>, <a href="/tags/groovy/index.html">Groovy</a>
 </div>
 
 
@@ -2972,7 +2971,7 @@ Judging
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"><a href="/tags/dsls/index.html">DSLs</a>, <a href="/tags/html/index.html">HTML</a>, <a href="/tags/software-design/index.html">Software Design</a></tags>
+  <i class="fa fa-tags"></i> <a href="/tags/dsls/index.html">DSLs</a>, <a href="/tags/html/index.html">HTML</a>, <a href="/tags/software-design/index.html">Software Design</a>
 </div>
 
 
@@ -3016,7 +3015,7 @@ Judging
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"><a href="/tags/lisp/index.html">Lisp</a>, <a href="/tags/programming-languages/index.html">Programming Languages</a>, <a href="/tags/software-design/index.html">Software Design</a></tags>
+  <i class="fa fa-tags"></i> <a href="/tags/lisp/index.html">Lisp</a>, <a href="/tags/programming-languages/index.html">Programming Languages</a>, <a href="/tags/software-design/index.html">Software Design</a>
 </div>
 
 
@@ -3061,7 +3060,7 @@ Judging
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"><a href="/tags/net/index.html">.NET</a>, <a href="/tags/clr/index.html">CLR</a>, <a href="/tags/cocor/index.html">Coco/R</a>, <a href="/tags/compilers/index.html">Compilers</a>, <a href="/tags/programming-languages/index.html">Programming Languages</a>, <a href="/tags/ruby/index.html">Ruby</a></tags>
+  <i class="fa fa-tags"></i> <a href="/tags/net/index.html">.NET</a>, <a href="/tags/clr/index.html">CLR</a>, <a href="/tags/cocor/index.html">Coco/R</a>, <a href="/tags/compilers/index.html">Compilers</a>, <a href="/tags/programming-languages/index.html">Programming Languages</a>, <a href="/tags/ruby/index.html">Ruby</a>
 </div>
 
 
@@ -3110,7 +3109,7 @@ Judging
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"><a href="/tags/linux/index.html">Linux</a>, <a href="/tags/ubuntu/index.html">Ubuntu</a>, <a href="/tags/vmware/index.html">VMware</a></tags>
+  <i class="fa fa-tags"></i> <a href="/tags/linux/index.html">Linux</a>, <a href="/tags/ubuntu/index.html">Ubuntu</a>, <a href="/tags/vmware/index.html">VMware</a>
 </div>
 
 
@@ -3154,7 +3153,7 @@ Judging
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"><a href="/tags/uncol/index.html">UNCOL</a>, <a href="/tags/wikipedia/index.html">Wikipedia</a>, <a href="/tags/x86/index.html">x86</a></tags>
+  <i class="fa fa-tags"></i> <a href="/tags/uncol/index.html">UNCOL</a>, <a href="/tags/wikipedia/index.html">Wikipedia</a>, <a href="/tags/x86/index.html">x86</a>
 </div>
 
 
@@ -3203,7 +3202,7 @@ Judging
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"><a href="/tags/gnome/index.html">Gnome</a>, <a href="/tags/linux/index.html">Linux</a>, <a href="/tags/ubuntu/index.html">Ubuntu</a></tags>
+  <i class="fa fa-tags"></i> <a href="/tags/gnome/index.html">Gnome</a>, <a href="/tags/linux/index.html">Linux</a>, <a href="/tags/ubuntu/index.html">Ubuntu</a>
 </div>
 
 
@@ -3246,7 +3245,7 @@ Judging
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"><a href="/tags/dependency-injection/index.html">Dependency Injection</a>, <a href="/tags/java/index.html">Java</a>, <a href="/tags/ruby/index.html">Ruby</a></tags>
+  <i class="fa fa-tags"></i> <a href="/tags/dependency-injection/index.html">Dependency Injection</a>, <a href="/tags/java/index.html">Java</a>, <a href="/tags/ruby/index.html">Ruby</a>
 </div>
 
 
@@ -3290,7 +3289,7 @@ Judging
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"><a href="/tags/closures/index.html">Closures</a>, <a href="/tags/groovy/index.html">Groovy</a>, <a href="/tags/java/index.html">Java</a>, <a href="/tags/programming-languages/index.html">Programming Languages</a>, <a href="/tags/ruby/index.html">Ruby</a></tags>
+  <i class="fa fa-tags"></i> <a href="/tags/closures/index.html">Closures</a>, <a href="/tags/groovy/index.html">Groovy</a>, <a href="/tags/java/index.html">Java</a>, <a href="/tags/programming-languages/index.html">Programming Languages</a>, <a href="/tags/ruby/index.html">Ruby</a>
 </div>
 
 
@@ -3399,7 +3398,7 @@ catch (<span class="st">:early_exit</span>) {
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"><a href="/tags/callcc/index.html">call/cc</a>, <a href="/tags/continuations/index.html">Continuations</a>, <a href="/tags/programming-languages/index.html">Programming Languages</a>, <a href="/tags/ruby/index.html">Ruby</a>, <a href="/tags/scheme/index.html">Scheme</a></tags>
+  <i class="fa fa-tags"></i> <a href="/tags/callcc/index.html">call/cc</a>, <a href="/tags/continuations/index.html">Continuations</a>, <a href="/tags/programming-languages/index.html">Programming Languages</a>, <a href="/tags/ruby/index.html">Ruby</a>, <a href="/tags/scheme/index.html">Scheme</a>
 </div>
 
 
@@ -3458,7 +3457,7 @@ catch (<span class="st">:early_exit</span>) {
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"><a href="/tags/actionscript/index.html">ActionScript</a>, <a href="/tags/dynamic-typing/index.html">Dynamic Typing</a>, <a href="/tags/groovy/index.html">Groovy</a>, <a href="/tags/java/index.html">Java</a>, <a href="/tags/javascript/index.html">JavaScript</a>, <a href="/tags/programming-languages/index.html">Programming Languages</a>, <a href="/tags/python/index.html">Python</a>, <a href="/tags/ruby/index.html">Ruby</a>, <a href="/tags/static-typing/index.html">Static Typing</a></tags>
+  <i class="fa fa-tags"></i> <a href="/tags/actionscript/index.html">ActionScript</a>, <a href="/tags/dynamic-typing/index.html">Dynamic Typing</a>, <a href="/tags/groovy/index.html">Groovy</a>, <a href="/tags/java/index.html">Java</a>, <a href="/tags/javascript/index.html">JavaScript</a>, <a href="/tags/programming-languages/index.html">Programming Languages</a>, <a href="/tags/python/index.html">Python</a>, <a href="/tags/ruby/index.html">Ruby</a>, <a href="/tags/static-typing/index.html">Static Typing</a>
 </div>
 
 
@@ -3501,7 +3500,7 @@ catch (<span class="st">:early_exit</span>) {
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"><a href="/tags/distributed-computing/index.html">Distributed Computing</a>, <a href="/tags/noxml/index.html">NoXML</a>, <a href="/tags/rest/index.html">REST</a>, <a href="/tags/soap/index.html">SOAP</a></tags>
+  <i class="fa fa-tags"></i> <a href="/tags/distributed-computing/index.html">Distributed Computing</a>, <a href="/tags/noxml/index.html">NoXML</a>, <a href="/tags/rest/index.html">REST</a>, <a href="/tags/soap/index.html">SOAP</a>
 </div>
 
 
@@ -3546,7 +3545,7 @@ catch (<span class="st">:early_exit</span>) {
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"><a href="/tags/distributed-computing/index.html">Distributed Computing</a>, <a href="/tags/network-programming/index.html">Network Programming</a>, <a href="/tags/noxml/index.html">NoXML</a>, <a href="/tags/web-services/index.html">Web Services</a>, <a href="/tags/xml/index.html">XML</a></tags>
+  <i class="fa fa-tags"></i> <a href="/tags/distributed-computing/index.html">Distributed Computing</a>, <a href="/tags/network-programming/index.html">Network Programming</a>, <a href="/tags/noxml/index.html">NoXML</a>, <a href="/tags/web-services/index.html">Web Services</a>, <a href="/tags/xml/index.html">XML</a>
 </div>
 
 
@@ -3589,7 +3588,7 @@ catch (<span class="st">:early_exit</span>) {
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"><a href="/tags/java/index.html">Java</a>, <a href="/tags/mocks/index.html">Mocks</a>, <a href="/tags/testing/index.html">Testing</a></tags>
+  <i class="fa fa-tags"></i> <a href="/tags/java/index.html">Java</a>, <a href="/tags/mocks/index.html">Mocks</a>, <a href="/tags/testing/index.html">Testing</a>
 </div>
 
 
@@ -3632,7 +3631,7 @@ catch (<span class="st">:early_exit</span>) {
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"><a href="/tags/linux/index.html">Linux</a></tags>
+  <i class="fa fa-tags"></i> <a href="/tags/linux/index.html">Linux</a>
 </div>
 
 
@@ -3675,7 +3674,7 @@ catch (<span class="st">:early_exit</span>) {
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"><a href="/tags/distributed-computing/index.html">Distributed Computing</a></tags>
+  <i class="fa fa-tags"></i> <a href="/tags/distributed-computing/index.html">Distributed Computing</a>
 </div>
 
 
@@ -3720,7 +3719,7 @@ catch (<span class="st">:early_exit</span>) {
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"><a href="/tags/hiring/index.html">Hiring</a>, <a href="/tags/management/index.html">Management</a></tags>
+  <i class="fa fa-tags"></i> <a href="/tags/hiring/index.html">Hiring</a>, <a href="/tags/management/index.html">Management</a>
 </div>
 
 
@@ -3764,7 +3763,7 @@ catch (<span class="st">:early_exit</span>) {
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"><a href="/tags/quality/index.html">Quality</a>, <a href="/tags/testing/index.html">Testing</a></tags>
+  <i class="fa fa-tags"></i> <a href="/tags/quality/index.html">Quality</a>, <a href="/tags/testing/index.html">Testing</a>
 </div>
 
 
@@ -3816,7 +3815,7 @@ Are the relational data model and (especially) SQL the right choices for periste
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"><a href="/tags/hibernate/index.html">Hibernate</a>, <a href="/tags/java/index.html">Java</a>, <a href="/tags/orm/index.html">ORM</a>, <a href="/tags/spring/index.html">Spring</a></tags>
+  <i class="fa fa-tags"></i> <a href="/tags/hibernate/index.html">Hibernate</a>, <a href="/tags/java/index.html">Java</a>, <a href="/tags/orm/index.html">ORM</a>, <a href="/tags/spring/index.html">Spring</a>
 </div>
 
 
@@ -3859,7 +3858,7 @@ Are the relational data model and (especially) SQL the right choices for periste
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"><a href="/tags/distributed-computing/index.html">Distributed Computing</a>, <a href="/tags/erlang/index.html">Erlang</a>, <a href="/tags/network-programming/index.html">Network Programming</a>, <a href="/tags/oz/index.html">Oz</a></tags>
+  <i class="fa fa-tags"></i> <a href="/tags/distributed-computing/index.html">Distributed Computing</a>, <a href="/tags/erlang/index.html">Erlang</a>, <a href="/tags/network-programming/index.html">Network Programming</a>, <a href="/tags/oz/index.html">Oz</a>
 </div>
 
 
@@ -3902,7 +3901,7 @@ Are the relational data model and (especially) SQL the right choices for periste
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"><a href="/tags/lisp/index.html">Lisp</a>, <a href="/tags/operating-systems/index.html">Operating Systems</a>, <a href="/tags/scheme/index.html">Scheme</a></tags>
+  <i class="fa fa-tags"></i> <a href="/tags/lisp/index.html">Lisp</a>, <a href="/tags/operating-systems/index.html">Operating Systems</a>, <a href="/tags/scheme/index.html">Scheme</a>
 </div>
 
 
@@ -3947,7 +3946,7 @@ Are the relational data model and (especially) SQL the right choices for periste
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"><a href="/tags/cli/index.html">CLI</a>, <a href="/tags/clr/index.html">CLR</a>, <a href="/tags/common-lisp/index.html">Common Lisp</a>, <a href="/tags/java/index.html">Java</a>, <a href="/tags/jvm/index.html">JVM</a>, <a href="/tags/lisp/index.html">Lisp</a></tags>
+  <i class="fa fa-tags"></i> <a href="/tags/cli/index.html">CLI</a>, <a href="/tags/clr/index.html">CLR</a>, <a href="/tags/common-lisp/index.html">Common Lisp</a>, <a href="/tags/java/index.html">Java</a>, <a href="/tags/jvm/index.html">JVM</a>, <a href="/tags/lisp/index.html">Lisp</a>
 </div>
 
 
@@ -3991,7 +3990,7 @@ Are the relational data model and (especially) SQL the right choices for periste
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"><a href="/tags/lisp/index.html">Lisp</a>, <a href="/tags/operating-systems/index.html">Operating Systems</a></tags>
+  <i class="fa fa-tags"></i> <a href="/tags/lisp/index.html">Lisp</a>, <a href="/tags/operating-systems/index.html">Operating Systems</a>
 </div>
 
 
@@ -4037,7 +4036,7 @@ Are the relational data model and (especially) SQL the right choices for periste
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"><a href="/tags/c/index.html">C#</a>, <a href="/tags/closures/index.html">Closures</a>, <a href="/tags/functional-programming/index.html">Functional Programming</a>, <a href="/tags/java/index.html">Java</a>, <a href="/tags/spring/index.html">Spring</a></tags>
+  <i class="fa fa-tags"></i> <a href="/tags/c/index.html">C#</a>, <a href="/tags/closures/index.html">Closures</a>, <a href="/tags/functional-programming/index.html">Functional Programming</a>, <a href="/tags/java/index.html">Java</a>, <a href="/tags/spring/index.html">Spring</a>
 </div>
 
 
@@ -4080,7 +4079,7 @@ Are the relational data model and (especially) SQL the right choices for periste
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"><a href="/tags/linux/index.html">Linux</a></tags>
+  <i class="fa fa-tags"></i> <a href="/tags/linux/index.html">Linux</a>
 </div>
 
 
@@ -4131,7 +4130,7 @@ Are the relational data model and (especially) SQL the right choices for periste
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"><a href="/tags/hibernate/index.html">Hibernate</a>, <a href="/tags/java/index.html">Java</a>, <a href="/tags/orm/index.html">ORM</a>, <a href="/tags/spring/index.html">Spring</a></tags>
+  <i class="fa fa-tags"></i> <a href="/tags/hibernate/index.html">Hibernate</a>, <a href="/tags/java/index.html">Java</a>, <a href="/tags/orm/index.html">ORM</a>, <a href="/tags/spring/index.html">Spring</a>
 </div>
 
 
@@ -4174,7 +4173,7 @@ Are the relational data model and (especially) SQL the right choices for periste
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"><a href="/tags/operating-systems/index.html">Operating Systems</a>, <a href="/tags/scheme/index.html">Scheme</a>, <a href="/tags/sicp/index.html">SICP</a></tags>
+  <i class="fa fa-tags"></i> <a href="/tags/operating-systems/index.html">Operating Systems</a>, <a href="/tags/scheme/index.html">Scheme</a>, <a href="/tags/sicp/index.html">SICP</a>
 </div>
 
 
@@ -4217,7 +4216,7 @@ Are the relational data model and (especially) SQL the right choices for periste
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"><a href="/tags/functional-programming/index.html">Functional Programming</a>, <a href="/tags/ocaml/index.html">OCaml</a></tags>
+  <i class="fa fa-tags"></i> <a href="/tags/functional-programming/index.html">Functional Programming</a>, <a href="/tags/ocaml/index.html">OCaml</a>
 </div>
 
 
@@ -4262,7 +4261,7 @@ Are the relational data model and (especially) SQL the right choices for periste
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"><a href="/tags/erlang/index.html">Erlang</a></tags>
+  <i class="fa fa-tags"></i> <a href="/tags/erlang/index.html">Erlang</a>
 </div>
 
 
@@ -4305,7 +4304,7 @@ Are the relational data model and (especially) SQL the right choices for periste
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"><a href="/tags/erlang/index.html">Erlang</a>, <a href="/tags/java/index.html">Java</a>, <a href="/tags/oz/index.html">Oz</a>, <a href="/tags/swing/index.html">Swing</a></tags>
+  <i class="fa fa-tags"></i> <a href="/tags/erlang/index.html">Erlang</a>, <a href="/tags/java/index.html">Java</a>, <a href="/tags/oz/index.html">Oz</a>, <a href="/tags/swing/index.html">Swing</a>
 </div>
 
 
@@ -4376,7 +4375,7 @@ a                 <span class="co">; =&gt; a procedure</span>
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"><a href="/tags/scheme/index.html">Scheme</a></tags>
+  <i class="fa fa-tags"></i> <a href="/tags/scheme/index.html">Scheme</a>
 </div>
 
 
@@ -4422,7 +4421,7 @@ a                 <span class="co">; =&gt; a procedure</span>
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"><a href="/tags/lisp/index.html">Lisp</a>, <a href="/tags/python-scheme/index.html">Python Scheme</a></tags>
+  <i class="fa fa-tags"></i> <a href="/tags/lisp/index.html">Lisp</a>, <a href="/tags/python-scheme/index.html">Python Scheme</a>
 </div>
 
 
@@ -4470,7 +4469,7 @@ a                 <span class="co">; =&gt; a procedure</span>
 
 
 <div class="tags">
-  <i class="fa fa-tags"></i><span class="tags"><a href="/tags/computer-games/index.html">Computer Games</a>, <a href="/tags/linux/index.html">Linux</a></tags>
+  <i class="fa fa-tags"></i> <a href="/tags/computer-games/index.html">Computer Games</a>, <a href="/tags/linux/index.html">Linux</a>
 </div>
 
 
