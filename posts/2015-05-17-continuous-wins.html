@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-    <title>Steven Shaw - Increase size of VirtualBox btrfs partition</title>
+    <title>Steven Shaw - Continuous Wins</title>
     <meta name="description" content="Steven Shaw loves programming languages">
     <meta name="author" content="Steven Shaw">
     <meta name="robots" content="index, follow">
@@ -87,53 +87,36 @@
         </div>
         <div class="col-sm-10 content">
           <header class="page-header">
-  <h1 class="post-title">Increase size of VirtualBox btrfs partition</h1>
+  <h1 class="post-title">Continuous Wins</h1>
   
-    <h4 class="post-subtitle"></h4>
+    <h4 class="post-subtitle">Winning trumps self-flagellation!</h4>
   
-  <h4 class="post-date"><small><time class="timeago" datetime=" 3 May 2015" pubdate> 3 May 2015</time></small></h4>
+  <h4 class="post-date"><small><time class="timeago" datetime="17 May 2015" pubdate>17 May 2015</time></small></h4>
 </header>
 
 <div class="post-content">
-  <p>I'd originally allocated the default 8G to my primary partition when installing NixOS. I ran out of disk space when I tried upgrading to KDE 5. This is how I increased the size of the partition.</p>
-<h4>1. Shutdown your VM.</h4>
-<h4>2. Use VirtualBox tools to increase the size of the VDI.</h4>
-<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash">$ <span class="kw">VBoxManage</span> modifyhd NixOS.vdi --resize 20000</code></pre></div>
-<pre class="example"><code>0%...10%...20%...30%...40%...50%...60%...70%...80%...90%...100%
-</code></pre>
-<h4>3. Boot the VM from the NixOS Live CD.</h4>
-<h4>4. Login as <code>root</code>.</h4>
-<h4>5. Resize the partition using <code>fdisk</code>.</h4>
-<p>You have to delete and recreate the partition. In my case, I've only got 1 partition, so it's partition 1. Here I enter the commands: 'p' (print the partition table, 'd' (delete the partition), 'n' (create a new partition), 4 × '&lt;return&gt;' (accept default), 'w' (write/sync the partition table to disk).</p>
-<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash">$ <span class="kw">fdisk</span> /dev/sda</code></pre></div>
-<pre class="example"><code>Command (m for help): p
-…
-/dev/sda1     2048 24575999 245739952 11.7G 83 Linux
-Command (m for help): d
-Selected partition 1
-Partition 1 has been deleted
-Command (m for help): n
-…
-Select (default p): &lt;return&gt;
-Partition number (1-4, default 1): &lt;return&gt;
-First sector (2048-40959999, default 2048): &lt;return&gt;
-Last sector, +sectors or +size{K,M,G,T,P} (2048-40959999, default 40959999): &lt;return&gt; 
-Created a new partition 1 of type 'Linux' and of size 19.5 GiB.
-Command (m for help): w
-</code></pre>
-<h4>6. Resize the filesystem.</h4>
-<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash">$ <span class="kw">mkdir</span> /mnt/root
-$ <span class="kw">mount</span> /dev/sda1 /mnt/root
-$ <span class="kw">btrfs</span> filesystem resize max /mnt/root</code></pre></div>
-<h4>7. Reboot and boot from the drive.</h4>
-<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash">$ <span class="kw">reboot</span></code></pre></div>
+  <a class="btn btn-default cross-posted" href="https://medium.com/p/4a06ec8b792b">
+  <i class="fa fa-medium"></i> Cross-posted to Medium
+</a>
+
+<p>Do we really need time boxes to “encourage” people work productively?</p>
+<p>Something I've noticed time and again in teams that adopt iterations (aka sprints, time boxes etc) is that there's a whole lot of angst and waste.</p>
+<ul>
+<li><p>… in planning meetings.</p></li>
+<li><p>… doing detailed estimation. Original estimates, fudge factors, padding the estimates, worrying about the estimates becoming deadlines. Related is the under-loading of an iteration (so that you can have a “successful” iteration by completing all tasks allocated to it), or over-loading the iteration (overconfidence which often leads to “failure” and gnashing of teeth).</p></li>
+<li><p>… in retrospective meetings, self-flagellating over “failed” iterations where not everything planned was “done”. Alternatively, self-congratulating over iterations that were simply unloaded.</p></li>
+</ul>
+<p>One could argue that this represents a dysfunctional team but I've seen it too often to simply dismiss these instances as poorly functioning teams. We need to look at the bigger picture and take a critical look at the process itself. The closest to “working” I've seen with teams doing iterations is amongst those that are very conservative with the tasks allocated to an iteration, who then pull additional tasks into the iteration if time allows. Why the pretence of the iteration at all?</p>
+<p>On the flip-side, whenever I've had the opportunity to develop with a completely pull-based workflow, I've found that I really love it! This on-demand style is a continuous flow of work rather than a series of punctuated iterations of fixed length. It's what I like to call <em>Continuous Wins</em>! It's simple: you have a prioritised list of tasks/features, grab the next one you'd like to do (near the top of the queue), do it — cheer — and start over. Rather than stressing about artificial deadlines, you can win whenever you complete a task. Depending on the task, you could be celebrating every few hours or every few days. Also, you have the flexibility to work on tasks that are longer than a typical iteration. Thus you may “win big” after a few weeks on a complex task requiring some serious investigation/experimentation. What's more is that you don't need to spend time breaking it down into tasks that fit into your iterations. Though be careful not to let this become an excuse to avoid chunking up tasks/features where possible. It's a judgment call. Use your common sense — there are no rules to blindly follow!</p>
+<p>I've been told that this style of development is aligned with the Lean/Kanban approach (though it has nothing to do with billboards or necessarily visualising the workflow in any way — that's an orthogonal and probably important and useful technique). This continuous flow style prevents the problems I've noticed with iterations. You can work at a productive pace without “over-loading” or “under-loading” an iteration. There's less waste on planning meetings, retrospectives and detailed estimation. Stress is reduced because estimates are deemphasised and do not become deadlines. Developers are happier, more productive and more likely to produce their best work.</p>
+<p>Let's forget iterations and detailed estimates! Develop a vision, a roadmap, list your tasks/features, prioritise these based on user-value/cost/marketing/etc. (yes, with some <em>broad</em> estimates here), then <strong>do it</strong>, <em>one by one</em> and win continuously!</p>
 </div>
 
 <div class="post-footer">
   
   <div class="post-footer-row">
     <div class="tags">
-      <i class="fa fa-tags"></i> <a href="../tags/nixos/index.html">NixOS</a>, <a href="../tags/linux/index.html">Linux</a>
+      <i class="fa fa-tags"></i> <a href="../tags/software-engineering/index.html">Software Engineering</a>, <a href="../tags/teams/index.html">Teams</a>, <a href="../tags/lean/index.html">Lean</a>, <a href="../tags/agile/index.html">Agile</a>, <a href="../tags/kanban/index.html">Kanban</a>
     </div>
   </div>
   <div class="clear"></div>
@@ -142,10 +125,8 @@ $ <span class="kw">btrfs</span> filesystem resize max /mnt/root</code></pre></di
   <div class="post-footer-row">
     <div class="post-nav">
       
-      <a class="btn btn-default" href="../posts/2015-05-01-deploying-your-hakyll-site-with-halcyon.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      <a class="btn btn-default" href="../posts/2015-05-03-increase-size-of-virtualbox-btrfs-partition.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
       
-      
-      <a class="btn btn-default" href="../posts/2015-05-17-continuous-wins.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
       
     </div>
   </div>
