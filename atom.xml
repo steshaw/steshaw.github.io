@@ -16,17 +16,28 @@
     <published>2015-05-17T00:00:00Z</published>
     <updated>2015-05-17T00:00:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">Continuous Wins</h1>
-  
-    <h4 class="post-subtitle">Winning trumps self-flagellation!</h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime="17 May 2015" pubdate>17 May 2015</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">Continuous Wins</h1>
+        
+          <h4 class="post-subtitle">Winning trumps self-flagellation!</h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime="17 May 2015" pubdate>17 May 2015</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
-  <a class="btn btn-default cross-posted" href="https://medium.com/p/4a06ec8b792b">
-  <i class="fa fa-medium"></i> Cross-posted to Medium
-</a>
+  <div class="header-image" data-header-image-url="/images/pull-build-win.png" data-header-image-height="345" />
+
+<div class="medium-url" data-medium-url="https://medium.com/p/4a06ec8b792b" />
 
 <p>Do we really need time boxes to “encourage” people to work productively?</p>
 <h2>Developing with iterations</h2>
@@ -88,11 +99,22 @@
     <published>2015-05-03T00:00:00Z</published>
     <updated>2015-05-03T00:00:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">Increase size of VirtualBox btrfs partition</h1>
-  
-    <h4 class="post-subtitle"></h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime=" 3 May 2015" pubdate> 3 May 2015</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">Increase size of VirtualBox btrfs partition</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime=" 3 May 2015" pubdate> 3 May 2015</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
@@ -177,11 +199,22 @@ $ <span class="kw">btrfs</span> filesystem resize max /mnt/root</code></pre></di
     <published>2015-05-01T00:00:00Z</published>
     <updated>2015-05-01T00:00:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">Deploying your Hakyll site with Halcyon</h1>
-  
-    <h4 class="post-subtitle"></h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime=" 1 May 2015" pubdate> 1 May 2015</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">Deploying your Hakyll site with Halcyon</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime=" 1 May 2015" pubdate> 1 May 2015</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
@@ -262,11 +295,22 @@ $ <span class="kw">btrfs</span> filesystem resize max /mnt/root</code></pre></di
     <published>2015-04-29T00:00:00Z</published>
     <updated>2015-04-29T00:00:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">Blogging with Hakyll</h1>
-  
-    <h4 class="post-subtitle"></h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime="29 April 2015" pubdate>29 April 2015</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">Blogging with Hakyll</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime="29 April 2015" pubdate>29 April 2015</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
@@ -360,17 +404,28 @@ main <span class="fu">=</span> putStrLn <span class="st">&quot;Hello, world!&quo
     <published>2014-07-17T00:00:00Z</published>
     <updated>2014-07-17T00:00:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">Adopting a Cambridge Culture</h1>
-  
-    <h4 class="post-subtitle">Fighting narcissism in the 21st Century</h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime="17 July 2014" pubdate>17 July 2014</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">Adopting a Cambridge Culture</h1>
+        
+          <h4 class="post-subtitle">Fighting narcissism in the 21st Century</h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime="17 July 2014" pubdate>17 July 2014</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
-  <a class="btn btn-default cross-posted" href="https://medium.com/p/2e16ec53137f">
-  <i class="fa fa-medium"></i> Cross-posted to Medium
-</a>
+  <div class="header-image" data-header-image-url="/images/cambridge.jpeg" data-header-image-height="640" />
+
+<div class="medium-url" data-medium-url="https://medium.com/p/2e16ec53137f" />
 
 <!--
   <div class="section-background" contenteditable="false"
@@ -457,11 +512,22 @@ main <span class="fu">=</span> putStrLn <span class="st">&quot;Hello, world!&quo
     <published>2012-02-09T12:09:43Z</published>
     <updated>2012-02-09T12:09:43Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">Moving to steshaw.org</h1>
-  
-    <h4 class="post-subtitle"></h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime=" 9 February 2012" pubdate> 9 February 2012</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">Moving to steshaw.org</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime=" 9 February 2012" pubdate> 9 February 2012</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
@@ -515,11 +581,22 @@ main <span class="fu">=</span> putStrLn <span class="st">&quot;Hello, world!&quo
     <published>2012-02-09T00:00:00Z</published>
     <updated>2012-02-09T00:00:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">Hello MathJax</h1>
-  
-    <h4 class="post-subtitle"></h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime=" 9 February 2012" pubdate> 9 February 2012</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">Hello MathJax</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime=" 9 February 2012" pubdate> 9 February 2012</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
@@ -606,11 +683,22 @@ index 9a50a8b..fc9dc37 100644
     <published>2012-02-03T00:00:00Z</published>
     <updated>2012-02-03T00:00:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">Rebooting with Octopress</h1>
-  
-    <h4 class="post-subtitle"></h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime=" 3 February 2012" pubdate> 3 February 2012</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">Rebooting with Octopress</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime=" 3 February 2012" pubdate> 3 February 2012</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
@@ -705,11 +793,22 @@ main <span class="fu">=</span> <span class="kw">do</span>
     <published>2010-11-28T02:44:29Z</published>
     <updated>2010-11-28T02:44:29Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">HP Pavilion with Ubuntu 10.10</h1>
-  
-    <h4 class="post-subtitle"></h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime="28 November 2010" pubdate>28 November 2010</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">HP Pavilion with Ubuntu 10.10</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime="28 November 2010" pubdate>28 November 2010</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
@@ -794,11 +893,22 @@ main <span class="fu">=</span> <span class="kw">do</span>
     <published>2010-11-23T14:02:56Z</published>
     <updated>2010-11-23T14:02:56Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">Agile is the status quo</h1>
-  
-    <h4 class="post-subtitle"></h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime="23 November 2010" pubdate>23 November 2010</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">Agile is the status quo</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime="23 November 2010" pubdate>23 November 2010</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
@@ -863,11 +973,22 @@ main <span class="fu">=</span> <span class="kw">do</span>
     <published>2010-05-22T10:16:14Z</published>
     <updated>2010-05-22T10:16:14Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">Stonking new laptop</h1>
-  
-    <h4 class="post-subtitle"></h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime="22 May 2010" pubdate>22 May 2010</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">Stonking new laptop</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime="22 May 2010" pubdate>22 May 2010</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
@@ -933,11 +1054,22 @@ main <span class="fu">=</span> <span class="kw">do</span>
     <published>2009-08-02T00:32:42Z</published>
     <updated>2009-08-02T00:32:42Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">Bzr uniqueness + Git</h1>
-  
-    <h4 class="post-subtitle"></h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime=" 2 August 2009" pubdate> 2 August 2009</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">Bzr uniqueness + Git</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime=" 2 August 2009" pubdate> 2 August 2009</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
@@ -993,11 +1125,22 @@ main <span class="fu">=</span> <span class="kw">do</span>
     <published>2009-03-19T17:03:27Z</published>
     <updated>2009-03-19T17:03:27Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">IBM to buyout Sun Microsystems?</h1>
-  
-    <h4 class="post-subtitle"></h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime="19 March 2009" pubdate>19 March 2009</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">IBM to buyout Sun Microsystems?</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime="19 March 2009" pubdate>19 March 2009</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
@@ -1053,11 +1196,22 @@ main <span class="fu">=</span> <span class="kw">do</span>
     <published>2009-01-29T22:43:01Z</published>
     <updated>2009-01-29T22:43:01Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">WebBeans => Java Contexts and Dependency Injection</h1>
-  
-    <h4 class="post-subtitle"></h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime="29 January 2009" pubdate>29 January 2009</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">WebBeans => Java Contexts and Dependency Injection</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime="29 January 2009" pubdate>29 January 2009</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
@@ -1113,11 +1267,22 @@ main <span class="fu">=</span> <span class="kw">do</span>
     <published>2008-09-15T02:30:20Z</published>
     <updated>2008-09-15T02:30:20Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">Hyperproductive Monadic Programmer for the 21st Century</h1>
-  
-    <h4 class="post-subtitle"></h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime="15 September 2008" pubdate>15 September 2008</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">Hyperproductive Monadic Programmer for the 21st Century</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime="15 September 2008" pubdate>15 September 2008</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
@@ -1180,11 +1345,22 @@ main <span class="fu">=</span> <span class="kw">do</span>
     <published>2008-08-29T19:30:39Z</published>
     <updated>2008-08-29T19:30:39Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">Certified ScrumMaster</h1>
-  
-    <h4 class="post-subtitle"></h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime="29 August 2008" pubdate>29 August 2008</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">Certified ScrumMaster</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime="29 August 2008" pubdate>29 August 2008</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
@@ -1238,11 +1414,22 @@ main <span class="fu">=</span> <span class="kw">do</span>
     <published>2008-07-30T04:08:20Z</published>
     <updated>2008-07-30T04:08:20Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">Feature teams</h1>
-  
-    <h4 class="post-subtitle"></h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime="30 July 2008" pubdate>30 July 2008</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">Feature teams</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime="30 July 2008" pubdate>30 July 2008</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
@@ -1300,11 +1487,22 @@ main <span class="fu">=</span> <span class="kw">do</span>
     <published>2008-06-02T17:00:26Z</published>
     <updated>2008-06-02T17:00:26Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">From nand to tetris</h1>
-  
-    <h4 class="post-subtitle"></h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime=" 2 June 2008" pubdate> 2 June 2008</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">From nand to tetris</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime=" 2 June 2008" pubdate> 2 June 2008</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
@@ -1358,11 +1556,22 @@ main <span class="fu">=</span> <span class="kw">do</span>
     <published>2008-04-22T16:29:29Z</published>
     <updated>2008-04-22T16:29:29Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">Ext JS 2.1 now GPL :(</h1>
-  
-    <h4 class="post-subtitle"></h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime="22 April 2008" pubdate>22 April 2008</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">Ext JS 2.1 now GPL :(</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime="22 April 2008" pubdate>22 April 2008</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
@@ -1420,11 +1629,22 @@ main <span class="fu">=</span> <span class="kw">do</span>
     <published>2008-04-10T14:46:31Z</published>
     <updated>2008-04-10T14:46:31Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">Super Mario in JavaScript</h1>
-  
-    <h4 class="post-subtitle"></h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime="10 April 2008" pubdate>10 April 2008</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">Super Mario in JavaScript</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime="10 April 2008" pubdate>10 April 2008</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
@@ -1479,11 +1699,22 @@ main <span class="fu">=</span> <span class="kw">do</span>
     <published>2007-09-18T11:29:43Z</published>
     <updated>2007-09-18T11:29:43Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">Rob Pike on concurrency</h1>
-  
-    <h4 class="post-subtitle"></h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime="18 September 2007" pubdate>18 September 2007</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">Rob Pike on concurrency</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime="18 September 2007" pubdate>18 September 2007</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
@@ -1537,11 +1768,22 @@ main <span class="fu">=</span> <span class="kw">do</span>
     <published>2007-08-24T11:14:21Z</published>
     <updated>2007-08-24T11:14:21Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">Java Puzzlers</h1>
-  
-    <h4 class="post-subtitle"></h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime="24 August 2007" pubdate>24 August 2007</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">Java Puzzlers</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime="24 August 2007" pubdate>24 August 2007</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
@@ -1595,11 +1837,22 @@ main <span class="fu">=</span> <span class="kw">do</span>
     <published>2007-08-14T11:13:13Z</published>
     <updated>2007-08-14T11:13:13Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">First steps to Scala</h1>
-  
-    <h4 class="post-subtitle"></h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime="14 August 2007" pubdate>14 August 2007</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">First steps to Scala</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime="14 August 2007" pubdate>14 August 2007</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
@@ -1653,11 +1906,22 @@ main <span class="fu">=</span> <span class="kw">do</span>
     <published>2007-07-22T20:28:09Z</published>
     <updated>2007-07-22T20:28:09Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">More praise for Wicket</h1>
-  
-    <h4 class="post-subtitle"></h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime="22 July 2007" pubdate>22 July 2007</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">More praise for Wicket</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime="22 July 2007" pubdate>22 July 2007</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
@@ -1711,11 +1975,22 @@ main <span class="fu">=</span> <span class="kw">do</span>
     <published>2007-06-24T13:50:26Z</published>
     <updated>2007-06-24T13:50:26Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">MacTax</h1>
-  
-    <h4 class="post-subtitle">Mac prices in the UK</h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime="24 June 2007" pubdate>24 June 2007</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">MacTax</h1>
+        
+          <h4 class="post-subtitle">Mac prices in the UK</h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime="24 June 2007" pubdate>24 June 2007</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
@@ -1772,11 +2047,22 @@ main <span class="fu">=</span> <span class="kw">do</span>
     <published>2007-06-18T14:39:20Z</published>
     <updated>2007-06-18T14:39:20Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">Exceptions – checked or not?</h1>
-  
-    <h4 class="post-subtitle"></h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime="18 June 2007" pubdate>18 June 2007</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">Exceptions – checked or not?</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime="18 June 2007" pubdate>18 June 2007</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
@@ -1837,11 +2123,22 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
     <published>2007-06-11T22:14:47Z</published>
     <updated>2007-06-11T22:14:47Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">DSCM: Mercurial or Bazaar?</h1>
-  
-    <h4 class="post-subtitle"></h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime="11 June 2007" pubdate>11 June 2007</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">DSCM: Mercurial or Bazaar?</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime="11 June 2007" pubdate>11 June 2007</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
@@ -1900,11 +2197,22 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
     <published>2007-05-31T14:52:30Z</published>
     <updated>2007-05-31T14:52:30Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">Closures for Java</h1>
-  
-    <h4 class="post-subtitle"></h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime="31 May 2007" pubdate>31 May 2007</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">Closures for Java</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime="31 May 2007" pubdate>31 May 2007</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
@@ -1959,11 +2267,22 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
     <published>2007-05-30T11:13:45Z</published>
     <updated>2007-05-30T11:13:45Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">GWT not just for SPAs!</h1>
-  
-    <h4 class="post-subtitle"></h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime="30 May 2007" pubdate>30 May 2007</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">GWT not just for SPAs!</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime="30 May 2007" pubdate>30 May 2007</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
@@ -2017,11 +2336,22 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
     <published>2007-05-30T11:06:08Z</published>
     <updated>2007-05-30T11:06:08Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">WiFi or WiFry?</h1>
-  
-    <h4 class="post-subtitle"></h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime="30 May 2007" pubdate>30 May 2007</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">WiFi or WiFry?</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime="30 May 2007" pubdate>30 May 2007</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
@@ -2075,11 +2405,22 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
     <published>2007-05-29T23:57:05Z</published>
     <updated>2007-05-29T23:57:05Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">Rails jabs at Java</h1>
-  
-    <h4 class="post-subtitle"></h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime="29 May 2007" pubdate>29 May 2007</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">Rails jabs at Java</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime="29 May 2007" pubdate>29 May 2007</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
@@ -2136,11 +2477,22 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
     <published>2007-05-28T17:12:07Z</published>
     <updated>2007-05-28T17:12:07Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">Oh no, not Yet Another Web Framework!</h1>
-  
-    <h4 class="post-subtitle"></h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime="28 May 2007" pubdate>28 May 2007</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">Oh no, not Yet Another Web Framework!</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime="28 May 2007" pubdate>28 May 2007</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
@@ -2203,11 +2555,22 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
     <published>2007-05-25T16:44:28Z</published>
     <updated>2007-05-25T16:44:28Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">Thoughts on web application frameworks</h1>
-  
-    <h4 class="post-subtitle"></h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime="25 May 2007" pubdate>25 May 2007</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">Thoughts on web application frameworks</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime="25 May 2007" pubdate>25 May 2007</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
@@ -2277,11 +2640,22 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
     <published>2007-05-20T04:47:19Z</published>
     <updated>2007-05-20T04:47:19Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">SAP's innovation drivers</h1>
-  
-    <h4 class="post-subtitle"></h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime="20 May 2007" pubdate>20 May 2007</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">SAP's innovation drivers</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime="20 May 2007" pubdate>20 May 2007</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
@@ -2346,11 +2720,22 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
     <published>2007-05-06T18:19:21Z</published>
     <updated>2007-05-06T18:19:21Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">Guice</h1>
-  
-    <h4 class="post-subtitle"></h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime=" 6 May 2007" pubdate> 6 May 2007</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">Guice</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime=" 6 May 2007" pubdate> 6 May 2007</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
@@ -2405,11 +2790,22 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
     <published>2007-05-01T00:44:49Z</published>
     <updated>2007-05-01T00:44:49Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">CrudPage for Click?</h1>
-  
-    <h4 class="post-subtitle"></h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime=" 1 May 2007" pubdate> 1 May 2007</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">CrudPage for Click?</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime=" 1 May 2007" pubdate> 1 May 2007</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
@@ -2463,11 +2859,22 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
     <published>2007-03-17T22:15:55Z</published>
     <updated>2007-03-17T22:15:55Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">Bertrand Meyer on UML</h1>
-  
-    <h4 class="post-subtitle"></h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime="17 March 2007" pubdate>17 March 2007</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">Bertrand Meyer on UML</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime="17 March 2007" pubdate>17 March 2007</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
@@ -2543,11 +2950,22 @@ My long search had not been in vain. It had led me to a full appreciation of the
     <published>2007-03-16T00:20:58Z</published>
     <updated>2007-03-16T00:20:58Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">Wishing for Scrum</h1>
-  
-    <h4 class="post-subtitle"></h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime="16 March 2007" pubdate>16 March 2007</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">Wishing for Scrum</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime="16 March 2007" pubdate>16 March 2007</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
@@ -2603,11 +3021,22 @@ My long search had not been in vain. It had led me to a full appreciation of the
     <published>2007-01-30T00:48:02Z</published>
     <updated>2007-01-30T00:48:02Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">Give it a REST</h1>
-  
-    <h4 class="post-subtitle"></h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime="30 January 2007" pubdate>30 January 2007</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">Give it a REST</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime="30 January 2007" pubdate>30 January 2007</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
@@ -2661,11 +3090,22 @@ My long search had not been in vain. It had led me to a full appreciation of the
     <published>2007-01-03T14:07:11Z</published>
     <updated>2007-01-03T14:07:11Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">Neal Gafter on Closures for Java</h1>
-  
-    <h4 class="post-subtitle"></h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime=" 3 January 2007" pubdate> 3 January 2007</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">Neal Gafter on Closures for Java</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime=" 3 January 2007" pubdate> 3 January 2007</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
@@ -2729,11 +3169,22 @@ My long search had not been in vain. It had led me to a full appreciation of the
     <published>2006-12-17T19:17:01Z</published>
     <updated>2006-12-17T19:17:01Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">Python 3000 – Nothing radical</h1>
-  
-    <h4 class="post-subtitle"></h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime="17 December 2006" pubdate>17 December 2006</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">Python 3000 – Nothing radical</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime="17 December 2006" pubdate>17 December 2006</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
@@ -2787,11 +3238,22 @@ My long search had not been in vain. It had led me to a full appreciation of the
     <published>2006-08-12T00:06:00Z</published>
     <updated>2006-08-12T00:06:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">Scala adds Erlang-style actors</h1>
-  
-    <h4 class="post-subtitle"></h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime="12 August 2006" pubdate>12 August 2006</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">Scala adds Erlang-style actors</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime="12 August 2006" pubdate>12 August 2006</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
@@ -2845,11 +3307,22 @@ My long search had not been in vain. It had led me to a full appreciation of the
     <published>2006-07-02T16:42:00Z</published>
     <updated>2006-07-02T16:42:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">CSP for Java programmers</h1>
-  
-    <h4 class="post-subtitle"></h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime=" 2 July 2006" pubdate> 2 July 2006</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">CSP for Java programmers</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime=" 2 July 2006" pubdate> 2 July 2006</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
@@ -2904,11 +3377,22 @@ My long search had not been in vain. It had led me to a full appreciation of the
     <published>2006-06-02T20:53:00Z</published>
     <updated>2006-06-02T20:53:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">INTJ again</h1>
-  
-    <h4 class="post-subtitle"></h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime=" 2 June 2006" pubdate> 2 June 2006</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">INTJ again</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime=" 2 June 2006" pubdate> 2 June 2006</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
@@ -3024,11 +3508,22 @@ Judging
     <published>2006-05-27T21:21:00Z</published>
     <updated>2006-05-27T21:21:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">Got Firefox 1.5? You've got SVG!</h1>
-  
-    <h4 class="post-subtitle"></h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime="27 May 2006" pubdate>27 May 2006</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">Got Firefox 1.5? You've got SVG!</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime="27 May 2006" pubdate>27 May 2006</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
@@ -3088,11 +3583,22 @@ Judging
     <published>2006-05-24T18:09:00Z</published>
     <updated>2006-05-24T18:09:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">Typecase for Java</h1>
-  
-    <h4 class="post-subtitle"></h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime="24 May 2006" pubdate>24 May 2006</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">Typecase for Java</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime="24 May 2006" pubdate>24 May 2006</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
@@ -3148,11 +3654,22 @@ Judging
     <published>2006-05-21T20:10:46Z</published>
     <updated>2006-05-21T20:10:46Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">Software Engineering Radio</h1>
-  
-    <h4 class="post-subtitle"></h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime="21 May 2006" pubdate>21 May 2006</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">Software Engineering Radio</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime="21 May 2006" pubdate>21 May 2006</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
@@ -3206,11 +3723,22 @@ Judging
     <published>2006-05-08T10:55:58Z</published>
     <updated>2006-05-08T10:55:58Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">Playing with WebStart</h1>
-  
-    <h4 class="post-subtitle"></h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime=" 8 May 2006" pubdate> 8 May 2006</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">Playing with WebStart</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime=" 8 May 2006" pubdate> 8 May 2006</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
@@ -3264,11 +3792,22 @@ Judging
     <published>2006-05-01T03:19:00Z</published>
     <updated>2006-05-01T03:19:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">XML Abuse</h1>
-  
-    <h4 class="post-subtitle"></h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime=" 1 May 2006" pubdate> 1 May 2006</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">XML Abuse</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime=" 1 May 2006" pubdate> 1 May 2006</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
@@ -3322,11 +3861,22 @@ Judging
     <published>2006-04-27T19:17:00Z</published>
     <updated>2006-04-27T19:17:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">SOA: Shift to success</h1>
-  
-    <h4 class="post-subtitle"></h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime="27 April 2006" pubdate>27 April 2006</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">SOA: Shift to success</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime="27 April 2006" pubdate>27 April 2006</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
@@ -3382,11 +3932,22 @@ Judging
     <published>2006-04-23T05:07:06Z</published>
     <updated>2006-04-23T05:07:06Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">Programming Language Inventor or Serial Killer?</h1>
-  
-    <h4 class="post-subtitle"></h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime="23 April 2006" pubdate>23 April 2006</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">Programming Language Inventor or Serial Killer?</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime="23 April 2006" pubdate>23 April 2006</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
@@ -3440,11 +4001,22 @@ Judging
     <published>2006-04-21T05:17:00Z</published>
     <updated>2006-04-21T05:17:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">JPMorgan's Tyger project</h1>
-  
-    <h4 class="post-subtitle"></h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime="21 April 2006" pubdate>21 April 2006</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">JPMorgan's Tyger project</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime="21 April 2006" pubdate>21 April 2006</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
@@ -3498,11 +4070,22 @@ Judging
     <published>2006-04-05T12:01:59Z</published>
     <updated>2006-04-05T12:01:59Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">Process engines and webflow</h1>
-  
-    <h4 class="post-subtitle"></h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime=" 5 April 2006" pubdate> 5 April 2006</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">Process engines and webflow</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime=" 5 April 2006" pubdate> 5 April 2006</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
@@ -3556,11 +4139,22 @@ Judging
     <published>2006-03-27T18:17:18Z</published>
     <updated>2006-03-27T18:17:18Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">XML – the big picture</h1>
-  
-    <h4 class="post-subtitle"></h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime="27 March 2006" pubdate>27 March 2006</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">XML – the big picture</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime="27 March 2006" pubdate>27 March 2006</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
@@ -3614,11 +4208,22 @@ Judging
     <published>2006-03-27T17:55:20Z</published>
     <updated>2006-03-27T17:55:20Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">Product development on the Mac?</h1>
-  
-    <h4 class="post-subtitle"></h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime="27 March 2006" pubdate>27 March 2006</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">Product development on the Mac?</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime="27 March 2006" pubdate>27 March 2006</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
@@ -3672,11 +4277,22 @@ Judging
     <published>2006-02-28T23:09:06Z</published>
     <updated>2006-02-28T23:09:06Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">Space…the final frontier</h1>
-  
-    <h4 class="post-subtitle"></h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime="28 February 2006" pubdate>28 February 2006</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">Space…the final frontier</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime="28 February 2006" pubdate>28 February 2006</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
@@ -3730,11 +4346,22 @@ Judging
     <published>2006-02-25T07:26:00Z</published>
     <updated>2006-02-25T07:26:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">Computer games – a blast from the past</h1>
-  
-    <h4 class="post-subtitle"></h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime="25 February 2006" pubdate>25 February 2006</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">Computer games – a blast from the past</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime="25 February 2006" pubdate>25 February 2006</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
@@ -3788,11 +4415,22 @@ Judging
     <published>2006-02-01T03:27:00Z</published>
     <updated>2006-02-01T03:27:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">When can I get a fix of language goodness?</h1>
-  
-    <h4 class="post-subtitle"></h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime=" 1 February 2006" pubdate> 1 February 2006</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">When can I get a fix of language goodness?</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime=" 1 February 2006" pubdate> 1 February 2006</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
@@ -3849,11 +4487,22 @@ Judging
     <published>2006-02-01T00:13:00Z</published>
     <updated>2006-02-01T00:13:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">Code as data != closures</h1>
-  
-    <h4 class="post-subtitle"></h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime=" 1 February 2006" pubdate> 1 February 2006</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">Code as data != closures</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime=" 1 February 2006" pubdate> 1 February 2006</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
@@ -3909,11 +4558,22 @@ Judging
     <published>2006-01-18T13:13:00Z</published>
     <updated>2006-01-18T13:13:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">w3 Principles of Design</h1>
-  
-    <h4 class="post-subtitle"></h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime="18 January 2006" pubdate>18 January 2006</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">w3 Principles of Design</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime="18 January 2006" pubdate>18 January 2006</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
@@ -3968,11 +4628,22 @@ Judging
     <published>2006-01-10T14:55:00Z</published>
     <updated>2006-01-10T14:55:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">Better *is* better and worse is worse</h1>
-  
-    <h4 class="post-subtitle"></h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime="10 January 2006" pubdate>10 January 2006</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">Better *is* better and worse is worse</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime="10 January 2006" pubdate>10 January 2006</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
@@ -4027,11 +4698,22 @@ Judging
     <published>2005-12-07T23:01:00Z</published>
     <updated>2005-12-07T23:01:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">Ruby on .NET?</h1>
-  
-    <h4 class="post-subtitle"></h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime=" 7 December 2005" pubdate> 7 December 2005</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">Ruby on .NET?</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime=" 7 December 2005" pubdate> 7 December 2005</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
@@ -4087,11 +4769,22 @@ Judging
     <published>2005-12-07T22:31:00Z</published>
     <updated>2005-12-07T22:31:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">Ubuntu Breezy under VMware Player</h1>
-  
-    <h4 class="post-subtitle"></h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime=" 7 December 2005" pubdate> 7 December 2005</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">Ubuntu Breezy under VMware Player</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime=" 7 December 2005" pubdate> 7 December 2005</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
@@ -4151,11 +4844,22 @@ Judging
     <published>2005-12-04T16:25:00Z</published>
     <updated>2005-12-04T16:25:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">Getting lost in the Wikipedia</h1>
-  
-    <h4 class="post-subtitle"></h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime=" 4 December 2005" pubdate> 4 December 2005</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">Getting lost in the Wikipedia</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime=" 4 December 2005" pubdate> 4 December 2005</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
@@ -4210,11 +4914,22 @@ Judging
     <published>2005-11-13T19:55:00Z</published>
     <updated>2005-11-13T19:55:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">Ubuntu on Inspiron 9300</h1>
-  
-    <h4 class="post-subtitle"></h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime="13 November 2005" pubdate>13 November 2005</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">Ubuntu on Inspiron 9300</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime="13 November 2005" pubdate>13 November 2005</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
@@ -4274,11 +4989,22 @@ Judging
     <published>2005-10-25T12:18:00Z</published>
     <updated>2005-10-25T12:18:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">Dependency Injection</h1>
-  
-    <h4 class="post-subtitle">Vitally Important or Totally Irrelevant</h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime="25 October 2005" pubdate>25 October 2005</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">Dependency Injection</h1>
+        
+          <h4 class="post-subtitle">Vitally Important or Totally Irrelevant</h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime="25 October 2005" pubdate>25 October 2005</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
@@ -4332,11 +5058,22 @@ Judging
     <published>2005-05-02T14:49:00Z</published>
     <updated>2005-05-02T14:49:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">Java…Ruby…Groovy</h1>
-  
-    <h4 class="post-subtitle"></h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime=" 2 May 2005" pubdate> 2 May 2005</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">Java…Ruby…Groovy</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime=" 2 May 2005" pubdate> 2 May 2005</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
@@ -4391,11 +5128,22 @@ Judging
     <published>2005-04-24T20:04:00Z</published>
     <updated>2005-04-24T20:04:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">Continuations for curmudgeons</h1>
-  
-    <h4 class="post-subtitle"></h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime="24 April 2005" pubdate>24 April 2005</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">Continuations for curmudgeons</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime="24 April 2005" pubdate>24 April 2005</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
@@ -4515,11 +5263,22 @@ catch (<span class="st">:early_exit</span>) {
     <published>2005-02-22T05:26:00Z</published>
     <updated>2005-02-22T05:26:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">Static versus dynamic attitude</h1>
-  
-    <h4 class="post-subtitle"></h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime="22 February 2005" pubdate>22 February 2005</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">Static versus dynamic attitude</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime="22 February 2005" pubdate>22 February 2005</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
@@ -4589,11 +5348,22 @@ catch (<span class="st">:early_exit</span>) {
     <published>2005-02-22T04:51:00Z</published>
     <updated>2005-02-22T04:51:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">SOAP is brain dead</h1>
-  
-    <h4 class="post-subtitle"></h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime="22 February 2005" pubdate>22 February 2005</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">SOAP is brain dead</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime="22 February 2005" pubdate>22 February 2005</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
@@ -4647,11 +5417,22 @@ catch (<span class="st">:early_exit</span>) {
     <published>2005-02-22T04:33:00Z</published>
     <updated>2005-02-22T04:33:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">NoXML and web service specifications!</h1>
-  
-    <h4 class="post-subtitle"></h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime="22 February 2005" pubdate>22 February 2005</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">NoXML and web service specifications!</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime="22 February 2005" pubdate>22 February 2005</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
@@ -4707,11 +5488,22 @@ catch (<span class="st">:early_exit</span>) {
     <published>2005-02-21T13:29:00Z</published>
     <updated>2005-02-21T13:29:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">Mock object framework talk</h1>
-  
-    <h4 class="post-subtitle"></h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime="21 February 2005" pubdate>21 February 2005</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">Mock object framework talk</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime="21 February 2005" pubdate>21 February 2005</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
@@ -4765,11 +5557,22 @@ catch (<span class="st">:early_exit</span>) {
     <published>2005-02-21T02:44:00Z</published>
     <updated>2005-02-21T02:44:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">Fonts on Gentoo</h1>
-  
-    <h4 class="post-subtitle"></h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime="21 February 2005" pubdate>21 February 2005</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">Fonts on Gentoo</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime="21 February 2005" pubdate>21 February 2005</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
@@ -4823,11 +5626,22 @@ catch (<span class="st">:early_exit</span>) {
     <published>2005-02-17T01:48:00Z</published>
     <updated>2005-02-17T01:48:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">Transactional caches</h1>
-  
-    <h4 class="post-subtitle"></h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime="17 February 2005" pubdate>17 February 2005</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">Transactional caches</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime="17 February 2005" pubdate>17 February 2005</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
@@ -4881,11 +5695,22 @@ catch (<span class="st">:early_exit</span>) {
     <published>2005-02-16T10:55:00Z</published>
     <updated>2005-02-16T10:55:00Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">Interviewing programmers</h1>
-  
-    <h4 class="post-subtitle"></h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime="16 February 2005" pubdate>16 February 2005</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">Interviewing programmers</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime="16 February 2005" pubdate>16 February 2005</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
@@ -4941,11 +5766,22 @@ catch (<span class="st">:early_exit</span>) {
     <published>2005-01-24T01:07:30Z</published>
     <updated>2005-01-24T01:07:30Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">Developer Testing with Kent Beck</h1>
-  
-    <h4 class="post-subtitle"></h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime="24 January 2005" pubdate>24 January 2005</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">Developer Testing with Kent Beck</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime="24 January 2005" pubdate>24 January 2005</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
@@ -5000,11 +5836,22 @@ catch (<span class="st">:early_exit</span>) {
     <published>2005-01-01T07:06:09Z</published>
     <updated>2005-01-01T07:06:09Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">Hibernate in Action</h1>
-  
-    <h4 class="post-subtitle"></h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime=" 1 January 2005" pubdate> 1 January 2005</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">Hibernate in Action</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime=" 1 January 2005" pubdate> 1 January 2005</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
@@ -5067,11 +5914,22 @@ Are the relational data model and (especially) SQL the right choices for periste
     <published>2004-10-22T09:53:52Z</published>
     <updated>2004-10-22T09:53:52Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">Avoid round trips!</h1>
-  
-    <h4 class="post-subtitle"></h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime="22 October 2004" pubdate>22 October 2004</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">Avoid round trips!</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime="22 October 2004" pubdate>22 October 2004</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
@@ -5125,11 +5983,22 @@ Are the relational data model and (especially) SQL the right choices for periste
     <published>2004-09-27T13:46:33Z</published>
     <updated>2004-09-27T13:46:33Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">Movitz – a Lisp OS platform</h1>
-  
-    <h4 class="post-subtitle"></h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime="27 September 2004" pubdate>27 September 2004</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">Movitz – a Lisp OS platform</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime="27 September 2004" pubdate>27 September 2004</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
@@ -5183,11 +6052,22 @@ Are the relational data model and (especially) SQL the right choices for periste
     <published>2004-09-27T13:16:46Z</published>
     <updated>2004-09-27T13:16:46Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">WCL and shared libraries</h1>
-  
-    <h4 class="post-subtitle"></h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime="27 September 2004" pubdate>27 September 2004</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">WCL and shared libraries</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime="27 September 2004" pubdate>27 September 2004</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
@@ -5243,11 +6123,22 @@ Are the relational data model and (especially) SQL the right choices for periste
     <published>2004-09-15T21:55:22Z</published>
     <updated>2004-09-15T21:55:22Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">CPU Scheduling</h1>
-  
-    <h4 class="post-subtitle"></h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime="15 September 2004" pubdate>15 September 2004</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">CPU Scheduling</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime="15 September 2004" pubdate>15 September 2004</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
@@ -5302,11 +6193,22 @@ Are the relational data model and (especially) SQL the right choices for periste
     <published>2004-09-15T18:12:43Z</published>
     <updated>2004-09-15T18:12:43Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">Misunderstandings about closures</h1>
-  
-    <h4 class="post-subtitle"></h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime="15 September 2004" pubdate>15 September 2004</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">Misunderstandings about closures</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime="15 September 2004" pubdate>15 September 2004</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
@@ -5363,11 +6265,22 @@ Are the relational data model and (especially) SQL the right choices for periste
     <published>2004-08-30T17:42:40Z</published>
     <updated>2004-08-30T17:42:40Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">RealPlayer10 on Linux</h1>
-  
-    <h4 class="post-subtitle"></h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime="30 August 2004" pubdate>30 August 2004</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">RealPlayer10 on Linux</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime="30 August 2004" pubdate>30 August 2004</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
@@ -5421,11 +6334,22 @@ Are the relational data model and (especially) SQL the right choices for periste
     <published>2004-08-30T14:08:24Z</published>
     <updated>2004-08-30T14:08:24Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">Spring and Hibernate</h1>
-  
-    <h4 class="post-subtitle"></h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime="30 August 2004" pubdate>30 August 2004</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">Spring and Hibernate</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime="30 August 2004" pubdate>30 August 2004</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
@@ -5487,11 +6411,22 @@ Are the relational data model and (especially) SQL the right choices for periste
     <published>2004-08-30T07:17:14Z</published>
     <updated>2004-08-30T07:17:14Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">Abelson and Sussman lectures</h1>
-  
-    <h4 class="post-subtitle"></h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime="30 August 2004" pubdate>30 August 2004</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">Abelson and Sussman lectures</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime="30 August 2004" pubdate>30 August 2004</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
@@ -5545,11 +6480,22 @@ Are the relational data model and (especially) SQL the right choices for periste
     <published>2004-08-29T06:17:57Z</published>
     <updated>2004-08-29T06:17:57Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">The Koan of Side Effects</h1>
-  
-    <h4 class="post-subtitle"></h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime="29 August 2004" pubdate>29 August 2004</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">The Koan of Side Effects</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime="29 August 2004" pubdate>29 August 2004</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
@@ -5603,11 +6549,22 @@ Are the relational data model and (especially) SQL the right choices for periste
     <published>2004-08-22T13:52:14Z</published>
     <updated>2004-08-22T13:52:14Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">Erlang the Movie</h1>
-  
-    <h4 class="post-subtitle"></h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime="22 August 2004" pubdate>22 August 2004</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">Erlang the Movie</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime="22 August 2004" pubdate>22 August 2004</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
@@ -5663,11 +6620,22 @@ Are the relational data model and (especially) SQL the right choices for periste
     <published>2004-08-22T10:46:50Z</published>
     <updated>2004-08-22T10:46:50Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">SwingWorker race condition</h1>
-  
-    <h4 class="post-subtitle"></h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime="22 August 2004" pubdate>22 August 2004</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">SwingWorker race condition</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime="22 August 2004" pubdate>22 August 2004</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
@@ -5721,11 +6689,22 @@ Are the relational data model and (especially) SQL the right choices for periste
     <published>2004-08-18T12:37:07Z</published>
     <updated>2004-08-18T12:37:07Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">Pairs as lambdas</h1>
-  
-    <h4 class="post-subtitle"></h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime="18 August 2004" pubdate>18 August 2004</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">Pairs as lambdas</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime="18 August 2004" pubdate>18 August 2004</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
@@ -5807,11 +6786,22 @@ a                 <span class="co">; =&gt; a procedure</span>
     <published>2004-08-14T18:14:10Z</published>
     <updated>2004-08-14T18:14:10Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">The Python Paradox</h1>
-  
-    <h4 class="post-subtitle"></h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime="14 August 2004" pubdate>14 August 2004</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">The Python Paradox</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime="14 August 2004" pubdate>14 August 2004</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
@@ -5868,11 +6858,22 @@ a                 <span class="co">; =&gt; a procedure</span>
     <published>2004-08-09T15:56:34Z</published>
     <updated>2004-08-09T15:56:34Z</updated>
     <summary type="html"><![CDATA[<header class="page-header">
-  <h1 class="post-title">Neverwinter Nights on Linux</h1>
-  
-    <h4 class="post-subtitle"></h4>
-  
-  <h4 class="post-date"><small><time class="timeago" datetime=" 9 August 2004" pubdate> 9 August 2004</time></small></h4>
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">Neverwinter Nights on Linux</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime=" 9 August 2004" pubdate> 9 August 2004</time></small></h4>
+      </div>
+    </div>
+  </div>
 </header>
 
 <div class="post-content">
