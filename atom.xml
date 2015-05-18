@@ -29,7 +29,7 @@
 </a>
 
 <p>Do we really need time boxes to “encourage” people to work productively?</p>
-<p>## Developing with iterations</p>
+<h2>Developing with iterations</h2>
 <p>Something I've noticed time and again in teams that adopt iterations (aka sprints, time boxes etc) is that there's a whole lot of angst and waste.</p>
 <ul>
 <li><p>… in planning meetings.</p></li>
@@ -37,7 +37,7 @@
 <li><p>… in retrospective meetings, self-flagellating over “failed” iterations where not everything planned was “done”. Alternatively, self-congratulating over iterations that were simply unloaded.</p></li>
 </ul>
 <p>One could argue that this represents a dysfunctional team but I've seen it too often to simply dismiss these instances as poorly functioning teams. We need to look at the bigger picture and take a critical look at the process itself. The closest to “working” I've seen with teams doing iterations is amongst those that are very conservative with the tasks allocated to an iteration, who then pull additional tasks into the iteration if time allows. Why the pretence of the iteration at all?</p>
-<p>## Enter the pull-based workflow</p>
+<h2>Enter the pull-based workflow</h2>
 <p>On the flip-side, whenever I've had the opportunity to develop with a completely pull-based workflow, I've found that I really love it! This on-demand style is a continuous flow of work rather than a series of punctuated iterations of fixed length. It's what I like to call <em>Continuous Wins</em>! It's simple: you have a prioritised list of tasks/features, grab the next one you'd like to do (near the top of the queue), do it — cheer — and start over. Rather than stressing about artificial deadlines, you can win whenever you complete a task. Depending on the task, you could be celebrating every few hours or every few days. Also, you have the flexibility to work on tasks that are longer than a typical iteration. Thus you may “win big” after a few weeks on a complex task requiring some serious investigation/experimentation. What's more is that you don't need to spend time breaking it down into tasks that fit into your iterations. Though be careful not to let this become an excuse to avoid chunking up tasks/features where possible. It's a judgment call. Use your common sense — there are no rules to blindly follow!</p>
 <p>I've been told that this style of development is aligned with the Lean/Kanban approach (though it has nothing to do with billboards or necessarily visualising the workflow in any way — that's an orthogonal and probably important and useful technique). This continuous flow style prevents the problems I've noticed with iterations. You can work at a productive pace without “over-loading” or “under-loading” an iteration. There's less waste on planning meetings, retrospectives and detailed estimation. Stress is reduced because estimates are deemphasised and do not become deadlines. Developers are happier, more productive and more likely to produce their best work.</p>
 <p>Let's forget iterations and detailed estimates! Develop a vision, a roadmap, list your tasks/features, prioritise these based on user-value/cost/marketing/etc. (yes, with some <em>broad</em> estimates here), then <strong>do it</strong>, <em>one by one</em> and win continuously!</p>
