@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-    <title>Steven Shaw - Continuous Wins</title>
+    <title>Steven Shaw - Fermat's Last Theorem</title>
     <meta name="description" content="Steven Shaw loves programming languages">
     <meta name="author" content="Steven Shaw">
     <meta name="robots" content="index, follow">
@@ -104,41 +104,52 @@
   <div class="header-image-bg">
     <div class="post-header">
       <div class="post-header-content">
-        <h1 class="post-title">Continuous Wins</h1>
+        <h1 class="post-title">Fermat's Last Theorem</h1>
         
-          <h4 class="post-subtitle">Winning trumps self-flagellation!</h4>
+          <h4 class="post-subtitle"></h4>
         
-        <h4 class="post-date"><small><time class="timeago" datetime="17 May 2015" pubdate>17 May 2015</time></small></h4>
+        <h4 class="post-date"><small><time class="timeago" datetime=" 8 June 2015" pubdate> 8 June 2015</time></small></h4>
       </div>
     </div>
   </div>
 </header>
 
 <div class="post-content">
-  <div class="header-image" data-header-image-url="/images/pull-build-win.png" data-header-image-height="345"></div>
+  <iframe src="https://player.vimeo.com/video/18216532?byline=0&portrait=0" width="500" height="279" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
-<div class="medium-url" data-medium-url="https://medium.com/@steshaw/continuous-wins-4a06ec8b792b"></div>
-
-<p>Do we really need time boxes to “encourage” people to work productively?</p>
-<h2>Developing with iterations</h2>
-<p>Something I've noticed time and again in teams that adopt iterations (aka sprints, time boxes etc) is that there's a whole lot of angst and waste.</p>
+<p>This is a wonderful documentary! It's the story of a simple mathematical problem that went unsolved for centuries. It starts with <em>Pythagoras' theorem</em>,</p>
+<div class="eqtion">
+<p>x<sup>2</sup> + y<sup>2</sup> = z<sup>2</sup></p>
+</div>
+<p>What are the whole number solutions of this equation?</p>
+<div class="eqtion">
+<p>3<sup>2</sup> + 4<sup>2</sup> = 5<sup>2</sup><br /> 5<sup>2</sup> + 12<sup>2</sup> = 13<sup>2</sup><br /> ...</p>
+</div>
+<p>Fermat wondered if this could be extended to the following equations:</p>
+<div class="eqtion">
+<p>x<sup>3</sup> + y<sup>3</sup> = z<sup>3</sup><br /> x<sup>4</sup> + y<sup>4</sup> = z<sup>4</sup><br /> ...<br /> x<sup>n</sup> + y<sup>n</sup> = z<sup>n</sup></p>
+</div>
+<p>Fermat could find no whole number solutions to this more general equation. Fermat's conjecture was that:</p>
+<div class="eqtion">
+<p>There are no whole number solutions were n &gt; 2.</p>
+</div>
+<p>It was 1637 when Fermat made the marginal note in Arithmetica—a book he was reading at the time—stating his conjecture and mentioning that he had a proof that would not &quot;fit in the margin&quot;. It's this conjecture that became known as <em>Fermat's Last Theorem</em>. The proof lay undiscovered for centuries!</p>
+<p>In 1963, a 10 year old boy came across a book in the local library about Fermat's Last Theorem. He instantly became obsessed with this wonderfully simple problem—a problem simple enough for a 10 year old to understand! This boy was Andrew Wiles. Andrew was so taken with the problem that he eventually became a professor of mathematics. After giving up on the problem for some time, he eventually saw his opportunity as some of the pieces moved into place. He then worked on the problem full-time for <em>7 years</em>. For the first 2 years, he merely explored the problem, not knowing where to begin. Finally, he cracked it! However, there's a gut wrenching twist to the story that means that the proof takes another year to nail down. I won't spoil that here.</p>
+<blockquote>
+<p>I never use a computer. I sometimes ... write ... scribble. I do doodles. I start trying to ... to find patterns, really. —Andrew Wiles</p>
+</blockquote>
+References:
 <ul>
-<li><p>… in planning meetings.</p></li>
-<li><p>… doing detailed estimation. Original estimates, fudge factors, padding the estimates, worrying about the estimates becoming deadlines. Related is the under-loading of an iteration (so that you can have a “successful” iteration by completing all tasks allocated to it), or over-loading the iteration (overconfidence which often leads to “failure” and gnashing of teeth).</p></li>
-<li><p>… in retrospective meetings, self-flagellating over “failed” iterations where not everything planned was “done”. Alternatively, self-congratulating over iterations that were simply unloaded.</p></li>
+<li><a href="http://en.wikipedia.org/wiki/Andrew_Wiles">Andrew Wiles on Wikipedia</a></li>
+<li><a href="http://www.pbs.org/wgbh/nova/physics/andrew-wiles-fermat.html">Andrew Wiles on Solving Fermat</a></li>
 </ul>
-<p>One could argue that this represents a dysfunctional team but I've seen it too often to simply dismiss these instances as poorly functioning teams. We need to look at the bigger picture and take a critical look at the process itself. The closest to “working” I've seen with teams doing iterations is amongst those that are very conservative with the tasks allocated to an iteration, who then pull additional tasks into the iteration if time allows. Why the pretence of the iteration at all?</p>
-<h2>Enter the pull-based workflow</h2>
-<p>On the flip-side, whenever I've had the opportunity to develop with a completely pull-based workflow, I've found that I really love it! This on-demand style is a continuous flow of work rather than a series of punctuated iterations of fixed length. It's what I like to call <em>Continuous Wins</em>! It's simple: you have a prioritised list of tasks/features, grab the next one you'd like to do (near the top of the queue), do it — cheer — and start over. Rather than stressing about artificial deadlines, you can win whenever you complete a task. Depending on the task, you could be celebrating every few hours or every few days. Also, you have the flexibility to work on tasks that are longer than a typical iteration. Thus you may “win big” after a few weeks on a complex task requiring some serious investigation/experimentation. What's more is that you don't need to spend time breaking it down into tasks that fit into your iterations. Though be careful not to let this become an excuse to avoid chunking up tasks/features where possible. It's a judgment call. Use your common sense — there are no rules to blindly follow!</p>
-<p>I've been told that this style of development is aligned with the Lean/Kanban approach (though it has nothing to do with billboards or necessarily visualising the workflow in any way — that's an orthogonal and probably important and useful technique). This continuous flow style prevents the problems I've noticed with iterations. You can work at a productive pace without “over-loading” or “under-loading” an iteration. There's less waste on planning meetings, retrospectives and detailed estimation. Stress is reduced because estimates are deemphasised and do not become deadlines. Developers are happier, more productive and more likely to produce their best work.</p>
-<p>Let's forget iterations and detailed estimates! Develop a vision, a roadmap, list your tasks/features, prioritise these based on user-value/cost/marketing/etc. (yes, with some <em>broad</em> estimates here), then <strong>do it</strong>, <em>one by one</em> and win continuously!</p>
 </div>
 
 <div class="post-footer">
   
   <div class="post-footer-row">
     <div class="tags">
-      <i class="fa fa-tags"></i> <a href="../../../../../tags/software-engineering/index.html">Software Engineering</a>, <a href="../../../../../tags/teams/index.html">Teams</a>, <a href="../../../../../tags/lean/index.html">Lean</a>, <a href="../../../../../tags/agile/index.html">Agile</a>, <a href="../../../../../tags/kanban/index.html">Kanban</a>
+      <i class="fa fa-tags"></i> <a href="../../../../../tags/maths/index.html">maths</a>
     </div>
   </div>
   <div class="clear"></div>
@@ -147,10 +158,8 @@
   <div class="post-footer-row">
     <div class="post-nav">
       
-      <a class="btn btn-default" href="../../../../../posts/2015/05/03/increase-size-of-virtualbox-btrfs-partition/index.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      <a class="btn btn-default" href="../../../../../posts/2015/05/17/continuous-wins/index.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
       
-      
-      <a class="btn btn-default" href="../../../../../posts/2015/06/08/fermats-last-theorem/index.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
       
     </div>
   </div>

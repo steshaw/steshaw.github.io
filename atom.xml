@@ -8,8 +8,102 @@
         <name>Steven Shaw</name>
         <email>steven+feed@steshaw.org</email>
     </author>
-    <updated>2015-05-17T00:00:00Z</updated>
+    <updated>2015-06-08T00:00:00Z</updated>
     <entry>
+    <title>Fermat's Last Theorem</title>
+    <link href="http://steshaw.org/posts/2015/06/08/fermats-last-theorem/index.html" />
+    <id>http://steshaw.org/posts/2015/06/08/fermats-last-theorem/index.html</id>
+    <published>2015-06-08T00:00:00Z</published>
+    <updated>2015-06-08T00:00:00Z</updated>
+    <summary type="html"><![CDATA[<header class="page-header">
+  <div class="cross-posted-to-medium">
+    <a class="btn btn-default">
+      <i class="fa fa-medium"></i> Cross-posted to Medium
+    </a>
+  </div>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">Fermat's Last Theorem</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime=" 8 June 2015" pubdate> 8 June 2015</time></small></h4>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="post-content">
+  <iframe src="https://player.vimeo.com/video/18216532?byline=0&portrait=0" width="500" height="279" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+<p>This is a wonderful documentary! It's the story of a simple mathematical problem that went unsolved for centuries. It starts with <em>Pythagoras' theorem</em>,</p>
+<div class="eqtion">
+<p>x<sup>2</sup> + y<sup>2</sup> = z<sup>2</sup></p>
+</div>
+<p>What are the whole number solutions of this equation?</p>
+<div class="eqtion">
+<p>3<sup>2</sup> + 4<sup>2</sup> = 5<sup>2</sup><br /> 5<sup>2</sup> + 12<sup>2</sup> = 13<sup>2</sup><br /> ...</p>
+</div>
+<p>Fermat wondered if this could be extended to the following equations:</p>
+<div class="eqtion">
+<p>x<sup>3</sup> + y<sup>3</sup> = z<sup>3</sup><br /> x<sup>4</sup> + y<sup>4</sup> = z<sup>4</sup><br /> ...<br /> x<sup>n</sup> + y<sup>n</sup> = z<sup>n</sup></p>
+</div>
+<p>Fermat could find no whole number solutions to this more general equation. Fermat's conjecture was that:</p>
+<div class="eqtion">
+<p>There are no whole number solutions were n &gt; 2.</p>
+</div>
+<p>It was 1637 when Fermat made the marginal note in Arithmetica—a book he was reading at the time—stating his conjecture and mentioning that he had a proof that would not &quot;fit in the margin&quot;. It's this conjecture that became known as <em>Fermat's Last Theorem</em>. The proof lay undiscovered for centuries!</p>
+<p>In 1963, a 10 year old boy came across a book in the local library about Fermat's Last Theorem. He instantly became obsessed with this wonderfully simple problem—a problem simple enough for a 10 year old to understand! This boy was Andrew Wiles. Andrew was so taken with the problem that he eventually became a professor of mathematics. After giving up on the problem for some time, he eventually saw his opportunity as some of the pieces moved into place. He then worked on the problem full-time for <em>7 years</em>. For the first 2 years, he merely explored the problem, not knowing where to begin. Finally, he cracked it! However, there's a gut wrenching twist to the story that means that the proof takes another year to nail down. I won't spoil that here.</p>
+<blockquote>
+<p>I never use a computer. I sometimes ... write ... scribble. I do doodles. I start trying to ... to find patterns, really. —Andrew Wiles</p>
+</blockquote>
+References:
+<ul>
+<li><a href="http://en.wikipedia.org/wiki/Andrew_Wiles">Andrew Wiles on Wikipedia</a></li>
+<li><a href="http://www.pbs.org/wgbh/nova/physics/andrew-wiles-fermat.html">Andrew Wiles on Solving Fermat</a></li>
+</ul>
+</div>
+
+<div class="post-footer">
+  
+  <div class="post-footer-row">
+    <div class="tags">
+      <i class="fa fa-tags"></i> <a href="/tags/maths/index.html">maths</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+  
+
+  <div class="post-footer-row">
+    <div class="post-nav">
+      
+      <a class="btn btn-default" href="/posts/2015/05/17/continuous-wins/index.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      
+      
+    </div>
+  </div>
+  <div class="clear"></div>
+</div>
+
+<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
+<div id="disqus_thread" class="post-aside comments"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+]]></summary>
+</entry>
+<entry>
     <title>Continuous Wins</title>
     <link href="http://steshaw.org/posts/2015/05/17/continuous-wins/index.html" />
     <id>http://steshaw.org/posts/2015/05/17/continuous-wins/index.html</id>
@@ -69,6 +163,8 @@
       
       <a class="btn btn-default" href="/posts/2015/05/03/increase-size-of-virtualbox-btrfs-partition/index.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
       
+      
+      <a class="btn btn-default" href="/posts/2015/06/08/fermats-last-theorem/index.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
       
     </div>
   </div>
