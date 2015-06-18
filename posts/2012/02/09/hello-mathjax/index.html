@@ -60,7 +60,10 @@
             <!-- <li><a href="/posts.html"><i class="fa fa-inbox"></i> Posts</a></li> -->
             <!-- <li><a href="/slides"><i class="fa fa-picture-o"></i> Slides</a></li> -->
             <li>
-              <a href="../../../../../plt"><i class="fa fa-cubes"></i> PLT</a>
+              <a href="../../../../../plt">λΠ PLT</a>
+            </li>
+            <li>
+              <a href="http://triplet-src.github.io"><i class="fa fa-cubes"></i> SRC</a>
             </li>
             <li>
               <a href="../../../../../radar"><i class="fa fa-bullseye"></i> Radar</a>
@@ -119,15 +122,15 @@
 <p>I made the following two changes:</p>
 <pre class="yml" data-title="switch Markdown processors in _config.yml"><code>markdown: maruku</code></pre>
 <div class="sourceCode" data-title="enable MathJax in source/_includes/custom/head.html" data-link="http://www.mathjax.org/docs/1.1/start.html"><pre class="sourceCode html"><code class="sourceCode html"><span class="kw">&lt;script</span><span class="ot"> type=</span><span class="st">&quot;text/x-mathjax-config&quot;</span><span class="kw">&gt;</span>
-<span class="ot">MathJax</span>.<span class="ot">Hub</span>.<span class="fu">Config</span>({
-      <span class="dt">tex2jax</span>: {<span class="dt">inlineMath</span>: [[<span class="st">'$'</span>,<span class="st">'$'</span>], [<span class="st">'</span><span class="ch">\\</span><span class="st">('</span>,<span class="st">'</span><span class="ch">\\</span><span class="st">)'</span>]]}
-      });
-&lt;<span class="ot">/script&gt;</span>
-<span class="ot">&lt;script type=&quot;text/javascript</span><span class="st">&quot; src=&quot;</span>path-to-mathjax/<span class="ot">MathJax</span>.<span class="fu">js</span>?config=TeX-AMS-MML_HTMLorMML<span class="st">&quot;&gt;&lt;/script&gt;</span></code></pre></div>
-<p>This allows for inline <span class="math">$\TeX$</span> expressions between dollar signs e.g. <code>$\TeX$</code>. MathJax <em>display</em> expressions (i.e. non-inline) are delimited by double dollar signs:</p>
+<span class="va">MathJax</span>.<span class="va">Hub</span>.<span class="at">Config</span>(<span class="op">{</span>
+      <span class="dt">tex2jax</span><span class="op">:</span> <span class="op">{</span><span class="dt">inlineMath</span><span class="op">:</span> [[<span class="st">'$'</span><span class="op">,</span><span class="st">'$'</span>]<span class="op">,</span> [<span class="st">'</span><span class="sc">\\</span><span class="st">('</span><span class="op">,</span><span class="st">'</span><span class="sc">\\</span><span class="st">)'</span>]]<span class="op">}</span>
+      <span class="op">}</span>)<span class="op">;</span>
+<span class="op">&lt;</span><span class="ss">/script&gt;</span>
+<span class="ss">&lt;script type=&quot;text/javascript</span><span class="st">&quot; src=&quot;</span>path<span class="op">-</span>to<span class="op">-</span>mathjax/<span class="va">MathJax</span>.<span class="at">js</span><span class="op">?</span>config<span class="op">=</span>TeX<span class="op">-</span>AMS<span class="op">-</span>MML_HTMLorMML<span class="st">&quot;&gt;&lt;/script&gt;</span></code></pre></div>
+<p>This allows for inline <span class="math inline">$\TeX$</span> expressions between dollar signs e.g. <code>$\TeX$</code>. MathJax <em>display</em> expressions (i.e. non-inline) are delimited by double dollar signs:</p>
 <pre class="tex" data-title="example expression from Paul Snivey's article http://psnively.github.com/2010/03/13/100-proof.html"><code>$$\forall x, y : \mathbb{Z}, x &gt; 3 \land y &lt; 2 \Rightarrow x^2 - 2y &gt; 5$$</code></pre>
 <p>renders as:</p>
-<p><br /><span class="math">∀<em>x</em>, <em>y</em> : ℤ, <em>x</em> &gt; 3 ∧ <em>y</em> &lt; 2 ⇒ <em>x</em><sup>2</sup> − 2<em>y</em> &gt; 5</span><br /></p>
+<p><br /><span class="math display">∀<em>x</em>, <em>y</em> : ℤ, <em>x</em> &gt; 3 ∧ <em>y</em> &lt; 2 ⇒ <em>x</em><sup>2</sup> − 2<em>y</em> &gt; 5</span><br /></p>
 <h2 id="right-click-issue">Right-click issue</h2>
 <p>There was also a problem with the theme. When right clicking a MathJax expression, the whole page goes blank! Zete has a great fix for this:</p>
 <div class="sourceCode" data-title="fix for right-click" data-link="http://luikore.github.com/2011/09/good-things-learned-from-octopress/"><pre class="sourceCode diff"><code class="sourceCode diff"><span class="kw">diff --git a/sass/base/_theme.scss b/sass/base/_theme.scss</span>

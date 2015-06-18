@@ -33,26 +33,31 @@
 <div class="post-content">
   <iframe src="https://player.vimeo.com/video/18216532?byline=0&portrait=0" width="500" height="279" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
-<p>This is a wonderful documentary! It's the story of a simple mathematical problem that went unsolved for centuries. It starts with <em>Pythagoras' theorem</em>,</p>
+<p>This is a wonderful documentary! It’s the story of a simple mathematical problem that went unsolved for centuries. It starts with <em>Pythagoras’ theorem</em>,</p>
 <div class="eqtion">
 <p>x<sup>2</sup> + y<sup>2</sup> = z<sup>2</sup></p>
 </div>
 <p>What are the whole number solutions of this equation?</p>
 <div class="eqtion">
-<p>3<sup>2</sup> + 4<sup>2</sup> = 5<sup>2</sup><br /> 5<sup>2</sup> + 12<sup>2</sup> = 13<sup>2</sup><br /> ...</p>
+<p>3<sup>2</sup> + 4<sup>2</sup> = 5<sup>2</sup><br />
+ 5<sup>2</sup> + 12<sup>2</sup> = 13<sup>2</sup><br />
+ …</p>
 </div>
 <p>Fermat wondered if this could be extended to the following equations:</p>
 <div class="eqtion">
-<p>x<sup>3</sup> + y<sup>3</sup> = z<sup>3</sup><br /> x<sup>4</sup> + y<sup>4</sup> = z<sup>4</sup><br /> ...<br /> x<sup>n</sup> + y<sup>n</sup> = z<sup>n</sup></p>
+<p>x<sup>3</sup> + y<sup>3</sup> = z<sup>3</sup><br />
+ x<sup>4</sup> + y<sup>4</sup> = z<sup>4</sup><br />
+ …<br />
+ x<sup>n</sup> + y<sup>n</sup> = z<sup>n</sup></p>
 </div>
-<p>Fermat could find no whole number solutions to this more general equation. Fermat's conjecture was that:</p>
+<p>Fermat could find no whole number solutions to this more general equation. Fermat’s conjecture was that:</p>
 <div class="eqtion">
 <p>There are no whole number solutions were n &gt; 2.</p>
 </div>
-<p>It was 1637 when Fermat made the marginal note in Arithmetica—a book he was reading at the time—stating his conjecture and mentioning that he had a proof that would not &quot;fit in the margin&quot;. It's this conjecture that became known as <em>Fermat's Last Theorem</em>. The proof lay undiscovered for centuries!</p>
-<p>In 1963, a 10 year old boy came across a book in the local library about Fermat's Last Theorem. He instantly became obsessed with this wonderfully simple problem—a problem simple enough for a 10 year old to understand! This boy was Andrew Wiles. Andrew was so taken with the problem that he eventually became a professor of mathematics. After giving up on the problem for some time, he eventually saw his opportunity as some of the pieces moved into place. He then worked on the problem full-time for <em>7 years</em>. For the first 2 years, he merely explored the problem, not knowing where to begin. Finally, he cracked it! However, there's a gut wrenching twist to the story that means that the proof takes another year to nail down. I won't spoil that here.</p>
+<p>It was 1637 when Fermat made the marginal note in Arithmetica—a book he was reading at the time—stating his conjecture and mentioning that he had a proof that would not “fit in the margin”. It’s this conjecture that became known as <em>Fermat’s Last Theorem</em>. The proof lay undiscovered for centuries!</p>
+<p>In 1963, a 10 year old boy came across a book in the local library about Fermat’s Last Theorem. He instantly became obsessed with this wonderfully simple problem—a problem simple enough for a 10 year old to understand! This boy was Andrew Wiles. Andrew was so taken with the problem that he eventually became a professor of mathematics. After giving up on the problem for some time, he eventually saw his opportunity as some of the pieces moved into place. He then worked on the problem full-time for <em>7 years</em>. For the first 2 years, he merely explored the problem, not knowing where to begin. Finally, he cracked it! However, there’s a gut wrenching twist to the story that means that the proof takes another year to nail down. I won’t spoil that here.</p>
 <blockquote>
-<p>I never use a computer. I sometimes ... write ... scribble. I do doodles. I start trying to ... to find patterns, really. —Andrew Wiles</p>
+<p>I never use a computer. I sometimes … write … scribble. I do doodles. I start trying to … to find patterns, really. —Andrew Wiles</p>
 </blockquote>
 References:
 <ul>
@@ -131,17 +136,17 @@ References:
 
 <p>Do we really need time boxes to “encourage” people to work productively?</p>
 <h2>Developing with iterations</h2>
-<p>Something I've noticed time and again in teams that adopt iterations (aka sprints, time boxes etc) is that there's a whole lot of angst and waste.</p>
+<p>Something I’ve noticed time and again in teams that adopt iterations (aka sprints, time boxes etc) is that there’s a whole lot of angst and waste.</p>
 <ul>
 <li><p>… in planning meetings.</p></li>
 <li><p>… doing detailed estimation. Original estimates, fudge factors, padding the estimates, worrying about the estimates becoming deadlines. Related is the under-loading of an iteration (so that you can have a “successful” iteration by completing all tasks allocated to it), or over-loading the iteration (overconfidence which often leads to “failure” and gnashing of teeth).</p></li>
 <li><p>… in retrospective meetings, self-flagellating over “failed” iterations where not everything planned was “done”. Alternatively, self-congratulating over iterations that were simply unloaded.</p></li>
 </ul>
-<p>One could argue that this represents a dysfunctional team but I've seen it too often to simply dismiss these instances as poorly functioning teams. We need to look at the bigger picture and take a critical look at the process itself. The closest to “working” I've seen with teams doing iterations is amongst those that are very conservative with the tasks allocated to an iteration, who then pull additional tasks into the iteration if time allows. Why the pretence of the iteration at all?</p>
+<p>One could argue that this represents a dysfunctional team but I’ve seen it too often to simply dismiss these instances as poorly functioning teams. We need to look at the bigger picture and take a critical look at the process itself. The closest to “working” I’ve seen with teams doing iterations is amongst those that are very conservative with the tasks allocated to an iteration, who then pull additional tasks into the iteration if time allows. Why the pretence of the iteration at all?</p>
 <h2>Enter the pull-based workflow</h2>
-<p>On the flip-side, whenever I've had the opportunity to develop with a completely pull-based workflow, I've found that I really love it! This on-demand style is a continuous flow of work rather than a series of punctuated iterations of fixed length. It's what I like to call <em>Continuous Wins</em>! It's simple: you have a prioritised list of tasks/features, grab the next one you'd like to do (near the top of the queue), do it — cheer — and start over. Rather than stressing about artificial deadlines, you can win whenever you complete a task. Depending on the task, you could be celebrating every few hours or every few days. Also, you have the flexibility to work on tasks that are longer than a typical iteration. Thus you may “win big” after a few weeks on a complex task requiring some serious investigation/experimentation. What's more is that you don't need to spend time breaking it down into tasks that fit into your iterations. Though be careful not to let this become an excuse to avoid chunking up tasks/features where possible. It's a judgment call. Use your common sense — there are no rules to blindly follow!</p>
-<p>I've been told that this style of development is aligned with the Lean/Kanban approach (though it has nothing to do with billboards or necessarily visualising the workflow in any way — that's an orthogonal and probably important and useful technique). This continuous flow style prevents the problems I've noticed with iterations. You can work at a productive pace without “over-loading” or “under-loading” an iteration. There's less waste on planning meetings, retrospectives and detailed estimation. Stress is reduced because estimates are deemphasised and do not become deadlines. Developers are happier, more productive and more likely to produce their best work.</p>
-<p>Let's forget iterations and detailed estimates! Develop a vision, a roadmap, list your tasks/features, prioritise these based on user-value/cost/marketing/etc. (yes, with some <em>broad</em> estimates here), then <strong>do it</strong>, <em>one by one</em> and win continuously!</p>
+<p>On the flip-side, whenever I’ve had the opportunity to develop with a completely pull-based workflow, I’ve found that I really love it! This on-demand style is a continuous flow of work rather than a series of punctuated iterations of fixed length. It’s what I like to call <em>Continuous Wins</em>! It’s simple: you have a prioritised list of tasks/features, grab the next one you’d like to do (near the top of the queue), do it — cheer — and start over. Rather than stressing about artificial deadlines, you can win whenever you complete a task. Depending on the task, you could be celebrating every few hours or every few days. Also, you have the flexibility to work on tasks that are longer than a typical iteration. Thus you may “win big” after a few weeks on a complex task requiring some serious investigation/experimentation. What’s more is that you don’t need to spend time breaking it down into tasks that fit into your iterations. Though be careful not to let this become an excuse to avoid chunking up tasks/features where possible. It’s a judgment call. Use your common sense — there are no rules to blindly follow!</p>
+<p>I’ve been told that this style of development is aligned with the Lean/Kanban approach (though it has nothing to do with billboards or necessarily visualising the workflow in any way — that’s an orthogonal and probably important and useful technique). This continuous flow style prevents the problems I’ve noticed with iterations. You can work at a productive pace without “over-loading” or “under-loading” an iteration. There’s less waste on planning meetings, retrospectives and detailed estimation. Stress is reduced because estimates are deemphasised and do not become deadlines. Developers are happier, more productive and more likely to produce their best work.</p>
+<p>Let’s forget iterations and detailed estimates! Develop a vision, a roadmap, list your tasks/features, prioritise these based on user-value/cost/marketing/etc. (yes, with some <em>broad</em> estimates here), then <strong>do it</strong>, <em>one by one</em> and win continuously!</p>
 </div>
 
 <div class="post-footer">
@@ -210,7 +215,7 @@ References:
 </header>
 
 <div class="post-content">
-  <p>I'd originally allocated the default 8G to my primary partition when installing NixOS. I ran out of disk space when I tried upgrading to KDE 5. This is how I increased the size of the partition.</p>
+  <p>I’d originally allocated the default 8G to my primary partition when installing NixOS. I ran out of disk space when I tried upgrading to KDE 5. This is how I increased the size of the partition.</p>
 <h4>1. Shutdown your VM.</h4>
 <h4>2. Use VirtualBox tools to increase the size of the VDI.</h4>
 <div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash">$ <span class="kw">VBoxManage</span> modifyhd NixOS.vdi --resize 20000</code></pre></div>
@@ -219,7 +224,7 @@ References:
 <h4>3. Boot the VM from the NixOS Live CD.</h4>
 <h4>4. Login as <code>root</code>.</h4>
 <h4>5. Resize the partition using <code>fdisk</code>.</h4>
-<p>You have to delete and recreate the partition. In my case, I've only got 1 partition, so it's partition 1. Here I enter the commands: 'p' (print the partition table, 'd' (delete the partition), 'n' (create a new partition), 4 × '&lt;return&gt;' (accept default), 'w' (write/sync the partition table to disk).</p>
+<p>You have to delete and recreate the partition. In my case, I’ve only got 1 partition, so it’s partition 1. Here I enter the commands: ‘p’ (print the partition table, ‘d’ (delete the partition), ‘n’ (create a new partition), 4 × ‘&lt;return&gt;’ (accept default), ‘w’ (write/sync the partition table to disk).</p>
 <div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash">$ <span class="kw">fdisk</span> /dev/sda</code></pre></div>
 <pre class="example"><code>Command (m for help): p
 …
@@ -430,22 +435,23 @@ main <span class="fu">=</span> putStrLn <span class="st">&quot;Hello, world!&quo
 <div class="sourceCode" id="switch Markdown processors in _config.yml"><pre class="sourceCode yaml"><code class="sourceCode yaml"><span class="fu">markdown:</span> maruku</code></pre></div>
 <h3>Some html</h3>
 <div class="sourceCode" id="enable MathJax in source/_includes/custom/head.html http://www.mathjax.org/docs/1.1/start.html"><pre class="sourceCode html"><code class="sourceCode html"><span class="kw">&lt;script</span><span class="ot"> type=</span><span class="st">&quot;text/x-mathjax-config&quot;</span><span class="kw">&gt;</span>
-<span class="ot">MathJax</span>.<span class="ot">Hub</span>.<span class="fu">Config</span>({
-      <span class="dt">tex2jax</span>: {<span class="dt">inlineMath</span>: [[<span class="st">&#39;$&#39;</span>,<span class="st">&#39;$&#39;</span>], [<span class="st">&#39;</span><span class="ch">\\</span><span class="st">(&#39;</span>,<span class="st">&#39;</span><span class="ch">\\</span><span class="st">)&#39;</span>]]}
-      });
-&lt;<span class="ot">/script&gt;</span>
-<span class="ot">&lt;script type=&quot;text/javascript</span><span class="st">&quot; src=&quot;</span>path-to-mathjax/<span class="ot">MathJax</span>.<span class="fu">js</span>?config=TeX-AMS-MML_HTMLorMML<span class="st">&quot;&gt;&lt;/script&gt;</span></code></pre></div>
+<span class="va">MathJax</span>.<span class="va">Hub</span>.<span class="at">Config</span>(<span class="op">{</span>
+      <span class="dt">tex2jax</span><span class="op">:</span> <span class="op">{</span><span class="dt">inlineMath</span><span class="op">:</span> [[<span class="st">&#39;$&#39;</span><span class="op">,</span><span class="st">&#39;$&#39;</span>]<span class="op">,</span> [<span class="st">&#39;</span><span class="sc">\\</span><span class="st">(&#39;</span><span class="op">,</span><span class="st">&#39;</span><span class="sc">\\</span><span class="st">)&#39;</span>]]<span class="op">}</span>
+      <span class="op">}</span>)<span class="op">;</span>
+<span class="op">&lt;</span><span class="ss">/script&gt;</span>
+<span class="ss">&lt;script type=&quot;text/javascript</span><span class="st">&quot; src=&quot;</span>path<span class="op">-</span>to<span class="op">-</span>mathjax/<span class="va">MathJax</span>.<span class="at">js</span><span class="op">?</span>config<span class="op">=</span>TeX<span class="op">-</span>AMS<span class="op">-</span>MML_HTMLorMML<span class="st">&quot;&gt;&lt;/script&gt;</span></code></pre></div>
 <h3>Some TeX</h3>
 <pre id="example expression from Paul Snivey&#39;s article http://psnively.github.com/2010/03/13/100-proof.html"><code>$$\forall x, y : \mathbb{Z}, x &gt; 3 \land y &lt; 2 \Rightarrow x^2 - 2y &gt; 5$$
 </code></pre>
-<p>Inline TeX: <br /><span class="math">∀<em>x</em>, <em>y</em> : ℤ, <em>x</em> &gt; 3 ∧ <em>y</em> &lt; 2 ⇒ <em>x</em><sup>2</sup> − 2<em>y</em> &gt; 5</span><br /></p>
+<p>Inline TeX: <br /><span class="math display">∀<em>x</em>, <em>y</em> : ℤ, <em>x</em> &gt; 3 ∧ <em>y</em> &lt; 2 ⇒ <em>x</em><sup>2</sup> − 2<em>y</em> &gt; 5</span><br /></p>
 <h2>Thanks</h2>
 <ul>
 <li><a href="http://begriffs.com/posts/2014-08-12-create-static-site-with-hakyll-github.html">Begriffs on GitHub and Travis CI</a></li>
-<li><a href="https://github.com/willtim/timphilipwilliams.com">Tim William's Hakyll blog using Boostrap 2.1</a></li>
+<li><a href="https://github.com/willtim/timphilipwilliams.com">Tim William’s Hakyll blog using Boostrap 2.1</a></li>
 <li><a href="http://timbaumann.info/posts/2013-08-04-hakyll-github-and-travis.html" class="uri">http://timbaumann.info/posts/2013-08-04-hakyll-github-and-travis.html</a></li>
-<li><a href="http://jaspervdj.be/hakyll/">Jasper Van der Jeugt's Hakyll</a></li>
+<li><a href="http://jaspervdj.be/hakyll/">Jasper Van der Jeugt’s Hakyll</a></li>
 <li><a href="https://github.com/thomasf/exitwp/" class="uri">https://github.com/thomasf/exitwp/</a></li>
+<li><a href="http://nixos.org/nix/" class="uri">http://nixos.org/nix/</a></li>
 </ul>
 </div>
 
@@ -530,20 +536,20 @@ main <span class="fu">=</span> putStrLn <span class="st">&quot;Hello, world!&quo
   style="background-image: url(https://d262ilb51hltx0.cloudfront.net/fit/t/1200/960/gradv/29/81/55/1*sBKC5NEYgKVjDFPbQWX3-A.jpeg);">
 -->
 
-<p>Work can be a drag if you find yourself in a den of assholes. Unfortunately, this is becoming more and more common in our narcissist-generating society. I'd like to start a conversation about how we might tackle this problem. Here's an outline of how we might begin to approach the problem.</p>
-<p>TL/DR: start with Robert Sutton's <em>No Asshole Rule</em> and follow that up with modelling your behaviour on a gentleman (that's where the <em>Cambridge Culture</em> comes in).</p>
+<p>Work can be a drag if you find yourself in a den of assholes. Unfortunately, this is becoming more and more common in our narcissist-generating society. I’d like to start a conversation about how we might tackle this problem. Here’s an outline of how we might begin to approach the problem.</p>
+<p>TL/DR: start with Robert Sutton’s <em>No Asshole Rule</em> and follow that up with modelling your behaviour on a gentleman (that’s where the <em>Cambridge Culture</em> comes in).</p>
 <h2>The No Asshole Rule</h2>
-<p>There are a lot of assholes out there. I've run into a few more than my fair share — it seems to be par for the course when you're a contract programmer (I gave up that gig a few years ago but I still have the war stories). Assholes make people feel oppressed, humiliated, de-energised and belittled. In short, they destroy rather than create. The targets of their behaviour tend to be those less powerful — so assholes in management have a larger area of destruction.</p>
+<p>There are a lot of assholes out there. I’ve run into a few more than my fair share — it seems to be par for the course when you’re a contract programmer (I gave up that gig a few years ago but I still have the war stories). Assholes make people feel oppressed, humiliated, de-energised and belittled. In short, they destroy rather than create. The targets of their behaviour tend to be those less powerful — so assholes in management have a larger area of destruction.</p>
 <p>These assholes can poison your whole organisation, leading to a culture of fear, lower productivity, high staff turnover, general unhappiness and gnashing of teeth.</p>
 <p>The assholes tend to think that their behaviour is justified because it helps to “get the job done”. However, Sutton points out this is a kind of confirmation bias and usually “stuff gets done” despite the behaviour of the asshole — not <em>because</em> of it.</p>
-<p>The best method of dealing with assholes is avoidance. Don't take on a job, contract or customer if you're going to have to live with assholes. If you find yourself in a den of assholes besides your best efforts then leave as soon as you can manage it. Sutton recommends <em>indifference</em> for putting up with assholes but that's not for me — I find it very difficult to be indifferent. He also recommends <em>reframing</em> and <em>small wins</em> which seem better coping mechanisms to me. You may find you need to take a break after suffering at the wrong end of an asshole.</p>
-<p>Don't confuse the <em>occasional</em> asshole with the <em>institutional</em> one (Sutton calls this the <em>temporary asshole</em> and the <em>certified asshole</em>). Everyone blows up occasionally and let's their “inner asshole” out — particularly when under the thumb of an institutional asshole! Don't be too quick to label the strange or unusual as assholes — Sutton has a book on this topic: <a href="http://www.goodreads.com/book/show/7923731.Wierd_Ideas_that_Work">Weird Ideas that Work</a>. A good tip for preventing the inner-asshole from escaping is: <em>argue like you're right, listen like you're wrong.</em></p>
-<p>I don't believe that assholes are virtuous despite Sutton's reluctant chapter on it. One thing that makes sense is that being an asshole may be a short-cut to power and status — that is if the weaklings around them let them get away with it ☺. Who doesn't know one or two loud mouth, arrogant, self-professed experts that go on a power-grab and succeed because few resisted? Don't let it happen in your organisation — unless you're leaving to join or <em>be</em> the competition ;). If you have to put up with the odd asshole from time to time, whatever you do, do <em>not</em> promote them. Keep them in a box, try to reform them (possible if they are only an <em>occasional</em> asshole, unlikely if they are a <em>certified</em> asshole). If that doesn't work out, fire them.</p>
+<p>The best method of dealing with assholes is avoidance. Don’t take on a job, contract or customer if you’re going to have to live with assholes. If you find yourself in a den of assholes besides your best efforts then leave as soon as you can manage it. Sutton recommends <em>indifference</em> for putting up with assholes but that’s not for me — I find it very difficult to be indifferent. He also recommends <em>reframing</em> and <em>small wins</em> which seem better coping mechanisms to me. You may find you need to take a break after suffering at the wrong end of an asshole.</p>
+<p>Don’t confuse the <em>occasional</em> asshole with the <em>institutional</em> one (Sutton calls this the <em>temporary asshole</em> and the <em>certified asshole</em>). Everyone blows up occasionally and let’s their “inner asshole” out — particularly when under the thumb of an institutional asshole! Don’t be too quick to label the strange or unusual as assholes — Sutton has a book on this topic: <a href="http://www.goodreads.com/book/show/7923731.Wierd_Ideas_that_Work">Weird Ideas that Work</a>. A good tip for preventing the inner-asshole from escaping is: <em>argue like you’re right, listen like you’re wrong.</em></p>
+<p>I don’t believe that assholes are virtuous despite Sutton’s reluctant chapter on it. One thing that makes sense is that being an asshole may be a short-cut to power and status — that is if the weaklings around them let them get away with it ☺. Who doesn’t know one or two loud mouth, arrogant, self-professed experts that go on a power-grab and succeed because few resisted? Don’t let it happen in your organisation — unless you’re leaving to join or <em>be</em> the competition ;). If you have to put up with the odd asshole from time to time, whatever you do, do <em>not</em> promote them. Keep them in a box, try to reform them (possible if they are only an <em>occasional</em> asshole, unlikely if they are a <em>certified</em> asshole). If that doesn’t work out, fire them.</p>
 <p>Remember: <em>a few bad apples can spoil the whole bunch.</em></p>
 <h2>A Cambridge Culture</h2>
 <p>A partial remedy to this situation is to adopt what I like to call a <em>Cambridge Culture</em>. This is as simple as modelling yourself on the behaviour of Simon Peyton Jones. Simon is the lead engineer of the Glorious Glasgow Haskell Compiler (aka GHC). He works at Microsoft Research in Cambridge (hence the name).</p>
-<p>If you don't know Simon, he can be described as a scholar and a gent. While being someone who is very bright, accomplished and energetic; Simon doesn't feel entitled to indulge in behaviour that could be perceived as arrogant, haughty, overbearing, dictatorial etc. Simon also accepts that there are other intelligent folks who might have views that run somewhat counter to his own. In this situation, he is not only tolerant but patiently teaches if those folks are open to it. He also listens carefully to work out where he may be off-track himself (if not completely wrong). As lead of GHC, Simon encourages participation and rarely feels the need to choose an option (from say a bunch of competing but equally decent candidates), instead allowing the community to reach a consensus where possible but breaking deadlocks where necessary. He shys away from the title <em>Benevolent Dictator for Life</em> (BDFL). Simon is definitely not a hater.</p>
-<p>Don't be a hater. If you have to hate anyone, hate the haters :P. You know... don't even hate the haters:</p>
+<p>If you don’t know Simon, he can be described as a scholar and a gent. While being someone who is very bright, accomplished and energetic; Simon doesn’t feel entitled to indulge in behaviour that could be perceived as arrogant, haughty, overbearing, dictatorial etc. Simon also accepts that there are other intelligent folks who might have views that run somewhat counter to his own. In this situation, he is not only tolerant but patiently teaches if those folks are open to it. He also listens carefully to work out where he may be off-track himself (if not completely wrong). As lead of GHC, Simon encourages participation and rarely feels the need to choose an option (from say a bunch of competing but equally decent candidates), instead allowing the community to reach a consensus where possible but breaking deadlocks where necessary. He shys away from the title <em>Benevolent Dictator for Life</em> (BDFL). Simon is definitely not a hater.</p>
+<p>Don’t be a hater. If you have to hate anyone, hate the haters :P. You know… don’t even hate the haters:</p>
 <blockquote>
 <p>Love the haters, for they know not what they do ☺</p>
 </blockquote>
@@ -696,15 +702,15 @@ main <span class="fu">=</span> putStrLn <span class="st">&quot;Hello, world!&quo
 <p>I made the following two changes:</p>
 <pre class="yml" data-title="switch Markdown processors in _config.yml"><code>markdown: maruku</code></pre>
 <div class="sourceCode" data-title="enable MathJax in source/_includes/custom/head.html" data-link="http://www.mathjax.org/docs/1.1/start.html"><pre class="sourceCode html"><code class="sourceCode html"><span class="kw">&lt;script</span><span class="ot"> type=</span><span class="st">&quot;text/x-mathjax-config&quot;</span><span class="kw">&gt;</span>
-<span class="ot">MathJax</span>.<span class="ot">Hub</span>.<span class="fu">Config</span>({
-      <span class="dt">tex2jax</span>: {<span class="dt">inlineMath</span>: [[<span class="st">&#39;$&#39;</span>,<span class="st">&#39;$&#39;</span>], [<span class="st">&#39;</span><span class="ch">\\</span><span class="st">(&#39;</span>,<span class="st">&#39;</span><span class="ch">\\</span><span class="st">)&#39;</span>]]}
-      });
-&lt;<span class="ot">/script&gt;</span>
-<span class="ot">&lt;script type=&quot;text/javascript</span><span class="st">&quot; src=&quot;</span>path-to-mathjax/<span class="ot">MathJax</span>.<span class="fu">js</span>?config=TeX-AMS-MML_HTMLorMML<span class="st">&quot;&gt;&lt;/script&gt;</span></code></pre></div>
-<p>This allows for inline <span class="math">$\TeX$</span> expressions between dollar signs e.g. <code>$\TeX$</code>. MathJax <em>display</em> expressions (i.e. non-inline) are delimited by double dollar signs:</p>
+<span class="va">MathJax</span>.<span class="va">Hub</span>.<span class="at">Config</span>(<span class="op">{</span>
+      <span class="dt">tex2jax</span><span class="op">:</span> <span class="op">{</span><span class="dt">inlineMath</span><span class="op">:</span> [[<span class="st">&#39;$&#39;</span><span class="op">,</span><span class="st">&#39;$&#39;</span>]<span class="op">,</span> [<span class="st">&#39;</span><span class="sc">\\</span><span class="st">(&#39;</span><span class="op">,</span><span class="st">&#39;</span><span class="sc">\\</span><span class="st">)&#39;</span>]]<span class="op">}</span>
+      <span class="op">}</span>)<span class="op">;</span>
+<span class="op">&lt;</span><span class="ss">/script&gt;</span>
+<span class="ss">&lt;script type=&quot;text/javascript</span><span class="st">&quot; src=&quot;</span>path<span class="op">-</span>to<span class="op">-</span>mathjax/<span class="va">MathJax</span>.<span class="at">js</span><span class="op">?</span>config<span class="op">=</span>TeX<span class="op">-</span>AMS<span class="op">-</span>MML_HTMLorMML<span class="st">&quot;&gt;&lt;/script&gt;</span></code></pre></div>
+<p>This allows for inline <span class="math inline">$\TeX$</span> expressions between dollar signs e.g. <code>$\TeX$</code>. MathJax <em>display</em> expressions (i.e. non-inline) are delimited by double dollar signs:</p>
 <pre class="tex" data-title="example expression from Paul Snivey&#39;s article http://psnively.github.com/2010/03/13/100-proof.html"><code>$$\forall x, y : \mathbb{Z}, x &gt; 3 \land y &lt; 2 \Rightarrow x^2 - 2y &gt; 5$$</code></pre>
 <p>renders as:</p>
-<p><br /><span class="math">∀<em>x</em>, <em>y</em> : ℤ, <em>x</em> &gt; 3 ∧ <em>y</em> &lt; 2 ⇒ <em>x</em><sup>2</sup> − 2<em>y</em> &gt; 5</span><br /></p>
+<p><br /><span class="math display">∀<em>x</em>, <em>y</em> : ℤ, <em>x</em> &gt; 3 ∧ <em>y</em> &lt; 2 ⇒ <em>x</em><sup>2</sup> − 2<em>y</em> &gt; 5</span><br /></p>
 <h2 id="right-click-issue">Right-click issue</h2>
 <p>There was also a problem with the theme. When right clicking a MathJax expression, the whole page goes blank! Zete has a great fix for this:</p>
 <div class="sourceCode" data-title="fix for right-click" data-link="http://luikore.github.com/2011/09/good-things-learned-from-octopress/"><pre class="sourceCode diff"><code class="sourceCode diff"><span class="kw">diff --git a/sass/base/_theme.scss b/sass/base/_theme.scss</span>
@@ -1086,13 +1092,21 @@ main <span class="fu">=</span> <span class="kw">do</span>
 <div class="post-content">
   <p>I’m writing this from my new laptop! <strong>Stop the presses:</strong> it’s <em>not</em> a Mac! :) In fact, I’m trying out Windows Live Writer to publish this post…</p>
 <div class="figure">
-<img src="/images/hp-pavilion-dv6.png" />
+<img src="/images/hp-pavilion-dv6.png" alt="" />
 
 </div>
 <p>Technical specifications:</p>
 <blockquote>
 <blockquote>
-<p>HP Pavilion dv6 3042TX<br />Intel i7-720QM quad-core processor 1.6GHz turbo to 2.8GHz<br />8G DDR3 SDRAM<br />15.6&quot; HP BrightView LED display @ 1366x768<br />ATI Mobility Radeon HD 5650 with 1G DDR3 dedicated graphics memory<br />640G HDD 5400RPM<br />Blu-ray ROM<br />6 cell battery - only around 1.5 hours battery life :(<br />Windows 7 Home Premium x64</p>
+<p>HP Pavilion dv6 3042TX<br />
+Intel i7-720QM quad-core processor 1.6GHz turbo to 2.8GHz<br />
+8G DDR3 SDRAM<br />
+15.6&quot; HP BrightView LED display @ 1366x768<br />
+ATI Mobility Radeon HD 5650 with 1G DDR3 dedicated graphics memory<br />
+640G HDD 5400RPM<br />
+Blu-ray ROM<br />
+6 cell battery - only around 1.5 hours battery life :(<br />
+Windows 7 Home Premium x64</p>
 </blockquote>
 </blockquote>
 <p>Got it from Officeworks who do a 5% off any advertised price. The latest Clive Peter’s catalogue has it for $1799 - that’s $200 off the RRP. The Clive Peter’s deal also threw in a wireless MS mouse but Officeworks wouldn’t include any bonuses in their price-match. No matter as I have a mouse and Clive Peters have only just had their doors closed by the administrators! The price of the laptop itself was $1709.05 and to that I added an extended warranty to cover me for 3 years at $189, bringing the total price to $1898.05. I noticed that Harvey Norman are offering 16% off all desktops and laptops this weekend so it might be possible to get a slightly better deal from them (saving an additional $30 or so - no idea about their extended warranty though - maybe you’d lose there). The Geekbench score of this thing is as high as 5600.</p>
@@ -5380,18 +5394,18 @@ catch (<span class="st">:early_exit</span>) {
 <div class="post-content">
   <p>I think Bill is dead-on-the-money with <a href="http://www.artima.com/weblogs/viewpost.jsp?thread=92979">the different-language, different-mindset thing</a>. Java can make you feel guilty alright :-). Even when you can get over your own guilt, there’s the struggle with your colleagues who may not have a dynamic mindset.</p>
 <p>I’ve been programming in JavaScript lately (actually more ActionScript 2.0 but some browser based JavaScript too). You’d probably return a single object there rather than multiple:</p>
-<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript">    <span class="kw">var</span> context = <span class="ot">ExamplePage</span>.<span class="fu">process</span>();</code></pre></div>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript">    <span class="kw">var</span> context <span class="op">=</span> <span class="va">ExamplePage</span>.<span class="at">process</span>()<span class="op">;</span></code></pre></div>
 <p>followed by code using context.forumID, context.reply, context.subject and context.body.</p>
 <p>Single objects are constructed easily in JavaScript:</p>
-<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript">    <span class="kw">function</span> <span class="fu">process</span>() {
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript">    <span class="kw">function</span> <span class="at">process</span>() <span class="op">{</span>
         <span class="co">// Do some processing...</span>
-        <span class="kw">return</span> {
-            <span class="dt">forumID</span>: ...,
-            <span class="dt">reply</span>: <span class="st">&quot;a reply&quot;</span>,
-            <span class="dt">subject</span>: <span class="st">&quot;a subject&quot;</span>,
-            <span class="dt">context</span>: <span class="st">&quot;a context&quot;</span>
-        }
-    }</code></pre></div>
+        <span class="cf">return</span> <span class="op">{</span>
+            <span class="dt">forumID</span><span class="op">:</span> ...<span class="op">,</span>
+            <span class="dt">reply</span><span class="op">:</span> <span class="st">&quot;a reply&quot;</span><span class="op">,</span>
+            <span class="dt">subject</span><span class="op">:</span> <span class="st">&quot;a subject&quot;</span><span class="op">,</span>
+            <span class="dt">context</span><span class="op">:</span> <span class="st">&quot;a context&quot;</span>
+        <span class="op">}</span>
+    <span class="op">}</span></code></pre></div>
 <p>This is a very lightweight approach. Another poster had a similar solution in Python. There must be a similar way of doing this in Ruby or Groovy.</p>
 <p>It would be great to use Ruby/JRuby, Groovy, JavaScript, Python/Jython or whatever on the Java platform. What’s needed for adoption is buy-in by vendors like Sun and IBM (so that project managers and other developers don’t have a fit when something without the .java or .xml file extension is checked into the repository). It would be nice to have support for these languages in Eclipse (say) with all the usual bells-and-whistles Java programmers have come to rely on to get stuff done - code completion, Javadoc lookup, hyperlinking, refactoring etc. Groovy seems to have alot of momentum including a JSR thing - so maybe something along these lines is not too far away. Maybe it’s already there and I just haven’t looked!</p>
 <p>BTW - have you heard about NoXML? It’s this great new XML technology…</p>

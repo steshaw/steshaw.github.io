@@ -60,7 +60,10 @@
             <!-- <li><a href="/posts.html"><i class="fa fa-inbox"></i> Posts</a></li> -->
             <!-- <li><a href="/slides"><i class="fa fa-picture-o"></i> Slides</a></li> -->
             <li>
-              <a href="../../../../../plt"><i class="fa fa-cubes"></i> PLT</a>
+              <a href="../../../../../plt">λΠ PLT</a>
+            </li>
+            <li>
+              <a href="http://triplet-src.github.io"><i class="fa fa-cubes"></i> SRC</a>
             </li>
             <li>
               <a href="../../../../../radar"><i class="fa fa-bullseye"></i> Radar</a>
@@ -139,22 +142,23 @@ main <span class="fu">=</span> putStrLn <span class="st">&quot;Hello, world!&quo
 <div class="sourceCode" id="switch Markdown processors in _config.yml"><pre class="sourceCode yaml"><code class="sourceCode yaml"><span class="fu">markdown:</span> maruku</code></pre></div>
 <h3>Some html</h3>
 <div class="sourceCode" id="enable MathJax in source/_includes/custom/head.html http://www.mathjax.org/docs/1.1/start.html"><pre class="sourceCode html"><code class="sourceCode html"><span class="kw">&lt;script</span><span class="ot"> type=</span><span class="st">&quot;text/x-mathjax-config&quot;</span><span class="kw">&gt;</span>
-<span class="ot">MathJax</span>.<span class="ot">Hub</span>.<span class="fu">Config</span>({
-      <span class="dt">tex2jax</span>: {<span class="dt">inlineMath</span>: [[<span class="st">'$'</span>,<span class="st">'$'</span>], [<span class="st">'</span><span class="ch">\\</span><span class="st">('</span>,<span class="st">'</span><span class="ch">\\</span><span class="st">)'</span>]]}
-      });
-&lt;<span class="ot">/script&gt;</span>
-<span class="ot">&lt;script type=&quot;text/javascript</span><span class="st">&quot; src=&quot;</span>path-to-mathjax/<span class="ot">MathJax</span>.<span class="fu">js</span>?config=TeX-AMS-MML_HTMLorMML<span class="st">&quot;&gt;&lt;/script&gt;</span></code></pre></div>
+<span class="va">MathJax</span>.<span class="va">Hub</span>.<span class="at">Config</span>(<span class="op">{</span>
+      <span class="dt">tex2jax</span><span class="op">:</span> <span class="op">{</span><span class="dt">inlineMath</span><span class="op">:</span> [[<span class="st">'$'</span><span class="op">,</span><span class="st">'$'</span>]<span class="op">,</span> [<span class="st">'</span><span class="sc">\\</span><span class="st">('</span><span class="op">,</span><span class="st">'</span><span class="sc">\\</span><span class="st">)'</span>]]<span class="op">}</span>
+      <span class="op">}</span>)<span class="op">;</span>
+<span class="op">&lt;</span><span class="ss">/script&gt;</span>
+<span class="ss">&lt;script type=&quot;text/javascript</span><span class="st">&quot; src=&quot;</span>path<span class="op">-</span>to<span class="op">-</span>mathjax/<span class="va">MathJax</span>.<span class="at">js</span><span class="op">?</span>config<span class="op">=</span>TeX<span class="op">-</span>AMS<span class="op">-</span>MML_HTMLorMML<span class="st">&quot;&gt;&lt;/script&gt;</span></code></pre></div>
 <h3>Some TeX</h3>
 <pre id="example expression from Paul Snivey's article http://psnively.github.com/2010/03/13/100-proof.html"><code>$$\forall x, y : \mathbb{Z}, x &gt; 3 \land y &lt; 2 \Rightarrow x^2 - 2y &gt; 5$$
 </code></pre>
-<p>Inline TeX: <br /><span class="math">∀<em>x</em>, <em>y</em> : ℤ, <em>x</em> &gt; 3 ∧ <em>y</em> &lt; 2 ⇒ <em>x</em><sup>2</sup> − 2<em>y</em> &gt; 5</span><br /></p>
+<p>Inline TeX: <br /><span class="math display">∀<em>x</em>, <em>y</em> : ℤ, <em>x</em> &gt; 3 ∧ <em>y</em> &lt; 2 ⇒ <em>x</em><sup>2</sup> − 2<em>y</em> &gt; 5</span><br /></p>
 <h2>Thanks</h2>
 <ul>
 <li><a href="http://begriffs.com/posts/2014-08-12-create-static-site-with-hakyll-github.html">Begriffs on GitHub and Travis CI</a></li>
-<li><a href="https://github.com/willtim/timphilipwilliams.com">Tim William's Hakyll blog using Boostrap 2.1</a></li>
+<li><a href="https://github.com/willtim/timphilipwilliams.com">Tim William’s Hakyll blog using Boostrap 2.1</a></li>
 <li><a href="http://timbaumann.info/posts/2013-08-04-hakyll-github-and-travis.html" class="uri">http://timbaumann.info/posts/2013-08-04-hakyll-github-and-travis.html</a></li>
-<li><a href="http://jaspervdj.be/hakyll/">Jasper Van der Jeugt's Hakyll</a></li>
+<li><a href="http://jaspervdj.be/hakyll/">Jasper Van der Jeugt’s Hakyll</a></li>
 <li><a href="https://github.com/thomasf/exitwp/" class="uri">https://github.com/thomasf/exitwp/</a></li>
+<li><a href="http://nixos.org/nix/" class="uri">http://nixos.org/nix/</a></li>
 </ul>
 </div>
 
