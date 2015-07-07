@@ -1,6 +1,6 @@
-all: index.html notes.html
+all: conquer-cabal-hell-with-nix.html notes.html
 
-NAME1 := index
+NAME1 := conquer-cabal-hell-with-nix
 $(NAME1).html: $(NAME1).org
 	../bin/build $(NAME1)
 
