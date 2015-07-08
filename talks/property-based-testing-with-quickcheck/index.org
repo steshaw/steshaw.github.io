@@ -1,6 +1,6 @@
 ** Testing properties with QuickCheck
 
-#+BEGIN_HTML
+#+begin_html
 <style>
   section.slide.level2.present {
     height: 455px;
@@ -9,11 +9,7 @@
     color: green;
   }
 </style>
-#+END_HTML
-
-** "Choose your own adventure"
-
-Lightning talk, [[http://www.meetup.com/Brisbane-Software-Testers-Meetup/][Brisbane Software Testers]]
+#+end_html
 
 #+begin_html
 <div style="margin-top: 3em; position: fixed; bottom: 0; right: 0;">
@@ -24,11 +20,15 @@ Lightning talk, [[http://www.meetup.com/Brisbane-Software-Testers-Meetup/][Brisb
 #+end_html
 
 
+** "Choose your own adventure"
+
+Lightning talk, [[http://www.meetup.com/Brisbane-Software-Testers-Meetup/][Brisbane Software Testers]]
+
+
 ** Quick overview
 
 - Test properties of your programs.
 - Randomised test inputs.
-
 
 #+begin_html
 <p>
@@ -39,7 +39,13 @@ Lightning talk, [[http://www.meetup.com/Brisbane-Software-Testers-Meetup/][Brisb
 
 ** Appeal to authority
 
-- [[http://thinkrelevance.com/blog/2013/11/26/better-than-unit-tests][Better than unit tests]], [[http://www.michaelnygard.com][Michael Nygard]] (2013)
+#+begin_html
+<br>
+#+end_html
+
+#+begin_quote
+[[http://thinkrelevance.com/blog/2013/11/26/better-than-unit-tests][Better than unit tests]]---[[http://www.michaelnygard.com][Michael Nygard]] (2013)
+#+end_quote
 
 
 ** Testing UI
