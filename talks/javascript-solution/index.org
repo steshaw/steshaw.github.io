@@ -2,6 +2,7 @@
 PureScript
 ==========
 
+- JavaScript backend (others in progress).
 - Awesome items from @paf31's talk http://functorial.com/purescript-slides/#/3
   - Functional Graphics with HTML 5 Canvas
   - Property-Based Testing with QuickCheck
@@ -11,3 +12,4 @@ PureScript
 Idris
 =====
 
+- JavaScript backend.
