@@ -1,6 +1,5 @@
 
-PureScript
-==========
+** PureScript
 
 - JavaScript backend (others in progress).
 - Awesome items from @paf31's talk http://functorial.com/purescript-slides/#/3
@@ -9,7 +8,6 @@ PureScript
   - Declarative UIs with scrap-your-markup
 
 
-Idris
-=====
+** Idris
 
 - JavaScript backend.
