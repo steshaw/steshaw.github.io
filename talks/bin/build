@@ -39,7 +39,7 @@ function BeamerPdf {
 }
 
 function DeckTapePdf {
-  pdf="${pdfBase}.decktape.pdf"
+  pdf="${pdfBase}.pdf"
   url="file://$(pwd)/${name}.html"
   decktape reveal ${url} ${pdf}
 }
