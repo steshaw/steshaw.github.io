@@ -8,11 +8,14 @@
 ** Meta
 
 - History
-  - Blues
-  - Rocks
-  - Heavy metal
-  - Funk / Disco
-  - Hip hop
+  - Sequential
+    - Blues
+    - Rocks
+    - Heavy metal
+    - Funk / Disco
+    - Hip hop
+  - What happened to the history
+    - Folk
 
 - Rock / Pop / RnB
 
@@ -47,6 +50,13 @@ Really speaks to the repitlian brain of rock listeners
 That's gonna be like an orgasm.
 -- Janis Joplin
 #+end_quote
+
+#+begin_quote
+Acid laced physecia rock
+--- ??? on "Break on through to the other side" by The Doors
+#+end_quote
+
+
 
 
 ** Tracks from The Joy of the Guitar Riff
@@ -84,6 +94,8 @@ That's gonna be like an orgasm.
   - Blowing in the wind---Bob Dylan
   - How does it feel?---Bob Dylan
   - Hard?--Bob Dylan
+- Break on through to the other side---The Doors
+- Friends, the end---The Doors
 
 
 - Nothing from:
