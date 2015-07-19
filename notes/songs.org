@@ -1,5 +1,4 @@
 
-
 * Guitar
 
 - Steve Vai
@@ -16,12 +15,15 @@
     - Hip hop
   - What happened to the history
     - Folk
+    - [[https://en.wikipedia.org/wiki/Psychedelic_rock][Psychedelic rock]]
 
 - Rock / Pop / RnB
 
 - Satanic chord?
 
 - Hip hop formed from "Good times"
+
+- Kaysan Radio
 
 
 #+begin_quote
@@ -52,7 +54,7 @@ That's gonna be like an orgasm.
 #+end_quote
 
 #+begin_quote
-Acid laced physecia rock
+Acid laced psychedelic rock
 --- ??? on "Break on through to the other side" by The Doors
 #+end_quote
 
@@ -96,11 +98,23 @@ Acid laced physecia rock
   - Hard?--Bob Dylan
 - Break on through to the other side---The Doors
 - Friends, the end---The Doors
+- Can't hurry love
+- Sgt. Pepper's Lonely Hearts Club Band / With A Little Help From My Friends---Beatles
+- Way otta here---Jimi Hendrix
+- Voodoo child---Jimi Hendrix
+- Electric Ladyland---Jimi Hendrix
 
 
-- Nothing from:
+- ???
+  - Who
+  - Dusty Springfield
+  - ???
+  - ???
+
+- Mentioned:
+  - Pink Floyd
+  - Soft Machine
   - Rolling Stones
-  - Beatles
   - Kinks
 
 
