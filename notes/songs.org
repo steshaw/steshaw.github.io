@@ -2,6 +2,8 @@
 
 * Guitar
 
+- Steve Vai
+- Joe Satrinani
 
 ** Meta
 
@@ -36,6 +38,16 @@ Curt smells like teens spirit
 -- Curt's girl (?)
 #+end_quote
 
+#+begin_quote
+Really speaks to the repitlian brain of rock listeners
+-- ???
+#+end_quote
+
+#+begin_quote
+That's gonna be like an orgasm.
+-- Janis Joplin
+#+end_quote
+
 
 ** Tracks from The Joy of the Guitar Riff
 
@@ -44,6 +56,7 @@ Curt smells like teens spirit
 - You really got me
 - Who?
 - Satisfaction
+- Girl you really got me going
 - Communication breakdown, Led Zepplin
 - Black bird, Paul McCartney
 - [[https://youtu.be/vsl3gBVO2k4][Bohemian Rhapsody]], Queen
@@ -63,7 +76,8 @@ Curt smells like teens spirit
   - ???
 - Smells like teen spirit, Nirvana
 
+- Da da dit da da daaah da
 
-- Steve Vai
-- Joe Satrinani
+- Tooty fruity ol' roody
+- All shook up, Elvis Presley
 
