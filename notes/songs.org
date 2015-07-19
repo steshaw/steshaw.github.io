@@ -31,6 +31,10 @@ The guitar is a piece of wood with strings on it. There's no rulebook attached t
 "We were just high. We wanted to share that" XXX from "The Joy of the guitar riff"
 #+end_quote
 
+#+begin_quote
+Curt smells like teens spirit
+-- Curt's girl (?)
+#+end_quote
 
 
 ** Tracks from The Joy of the Guitar Riff
