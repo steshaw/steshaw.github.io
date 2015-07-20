@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <title>Steven Shaw's Blog</title>
+    <title>Steven Shaw</title>
     <link href="http://steshaw.org/atom.xml" rel="self" />
     <link href="http://steshaw.org" />
     <id>http://steshaw.org/atom.xml</id>
