@@ -59,7 +59,7 @@ They rewrote their “push” code in Go.
 <p>We now almost never have reliability-impacting events that can be tracked back to the API layer – a massive shift from a year ago. Now when we have timeouts or errors, it’s usually constrained to a single app – because one app is issuing a very inefficient query that causes timeouts or full table scans for their app, or it’s a database-related co-tenancy problem that we can resolve by automatically rebalancing or filtering bad actors.&quot;</p>
 </blockquote>
 <p>What does it mean?</p>
-<h2>Faster builds, tests and deploys</h2>
+<h2 id="faster-builds-tests-and-deploys">Faster builds, tests and deploys</h2>
 <blockquote>
 <p>As if that weren’t enough, the time it takes to run our full integration test suite dropped from 25 minutes to 2 minutes, and the time to do a full API server deploy with rolling restarts dropped from 30 minutes to 3 minutes. The go API server restarts gracefully so no load balancer juggling and prewarming is necessary.</p>
 </blockquote>

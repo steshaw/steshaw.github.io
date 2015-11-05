@@ -111,8 +111,8 @@
           </div>
         </div>
         <div class="col-sm-10 content">
-          <h1>Lambda Jam 2014</h1>
-<h2>Ed Kmett Keynote - Functionally Oblivious &amp; Succinct Data Structures</h2>
+          <h1 id="lambda-jam-2014">Lambda Jam 2014</h1>
+<h2 id="ed-kmett-keynote---functionally-oblivious-succinct-data-structures">Ed Kmett Keynote - Functionally Oblivious &amp; Succinct Data Structures</h2>
 <ul>
 <li>“point query”?</li>
 <li><strong>offset</strong> binary search</li>
@@ -141,19 +141,19 @@
 <li>always sequential writes on disk!!</li>
 <li>movtivated by having a datastore that can cope with adhoc queries without good indexes.</li>
 </ul>
-<h3>Further information:</h3>
+<h3 id="further-information">Further information:</h3>
 <ul>
 <li>wavlets trees paper</li>
 <li>computational geometry papers</li>
 </ul>
-<h2>Manuel Chakravarty - FFI - inline Objective-C with TH</h2>
+<h2 id="manuel-chakravarty---ffi---inline-objective-c-with-th">Manuel Chakravarty - FFI - inline Objective-C with TH</h2>
 <ul>
 <li>ExpQ - the type of Haskell expressions</li>
 <li>quasi-quotations: [| … |]</li>
 <li>Geofrey Mainland - quasi-quotes for any other language.</li>
 </ul>
 <div class="sourceCode"><pre class="sourceCode Haskell"><code class="sourceCode haskell">  add n <span class="fu">=</span> [cfun<span class="fu">|</span> int addConstant(int x) { return x <span class="fu">+</span> <span class="fu">$</span>int<span class="fu">:</span>n;  } <span class="fu">|</span>]</code></pre></div>
-<h2>Tim McGillgrist - Raft in Erlang</h2>
+<h2 id="tim-mcgillgrist---raft-in-erlang">Tim McGillgrist - Raft in Erlang</h2>
 <ul>
 <li>understandable concensus algorithm</li>
 <li>uses - configuration management, distributed transaction, distributed lock manager, dns, resource discovery</li>
@@ -187,7 +187,7 @@
 <li>functionally equivalent to [multi-]paxos.</li>
 <li>also similarly efficient (at least in the happy case)</li>
 </ul>
-<h2>Declan Conlan - faster sorting ??</h2>
+<h2 id="declan-conlan---faster-sorting">Declan Conlan - faster sorting ??</h2>
 <ul>
 <li>exotic sorts: counting sort, radix sort, bucket sort</li>
 <li>these rely on exploiting the structure of the data.</li>
@@ -221,7 +221,7 @@ update <span class="fu">=</span> flip (<span class="fu">:</span>)
 bdiscNat (<span class="ot">n ::</span> <span class="dt">Int</span>) update xs <span class="fu">=</span>
   map reverse (elems (accumArray update [] (<span class="dv">0</span>, n<span class="fu">-</span><span class="dv">1</span>) xs))</code></pre></div>
 <p>Haskell</p>
-<h2>Tony Morris - A modern history of lenses</h2>
+<h2 id="tony-morris---a-modern-history-of-lenses">Tony Morris - A modern history of lenses</h2>
 <ul>
 <li>Twan van Laarhoven <a href="http://twanvl.nl/" class="uri">http://twanvl.nl/</a></li>
 </ul>
@@ -279,7 +279,7 @@ bdiscNat (<span class="ot">n ::</span> <span class="dt">Int</span>) update xs <s
 <li>negative position?</li>
 <li><p>positive position?</p></li>
 </ul>
-<h2>Edward Kmett, cache oblivious sparse matrix multiplication</h2>
+<h2 id="edward-kmett-cache-oblivious-sparse-matrix-multiplication">Edward Kmett, cache oblivious sparse matrix multiplication</h2>
 <ul>
 <li>Morton Order ?</li>
 <li>From Wikipedia:</li>

@@ -132,7 +132,7 @@
 
 <div class="post-content">
   <p><em>Draft</em></p>
-<h1>Outline</h1>
+<h1 id="outline">Outline</h1>
 <ul>
 <li>Hakyll <a href="http://jaspervdj.be/hakyll/" class="uri">http://jaspervdj.be/hakyll/</a></li>
 <li>Getting MathJax working</li>
@@ -140,31 +140,31 @@
 <li>Google Analytics</li>
 <li>Source code syntax highlighting</li>
 </ul>
-<h3>Haskell code</h3>
+<h3 id="haskell-code">Haskell code</h3>
 <div class="sourceCode"><pre class="sourceCode haskell"><code class="sourceCode haskell"><span class="kw">module</span> <span class="dt">Data.Foo</span>
 
 main <span class="fu">=</span> putStrLn <span class="st">&quot;Hello, world!&quot;</span></code></pre></div>
-<h3>emacs-lisp code</h3>
+<h3 id="emacs-lisp-code">emacs-lisp code</h3>
 <div class="sourceCode"><pre class="sourceCode commonlisp"><code class="sourceCode commonlisp">(<span class="kw">defun</span><span class="fu"> org-xor </span>(a b)
   <span class="st">&quot;Exclusive or.&quot;</span>
   (<span class="kw">if</span> a (<span class="kw">not</span> b) b))</code></pre></div>
-<h3>An example</h3>
+<h3 id="an-example">An example</h3>
 <pre class="example"><code>Some example from a text file.
 </code></pre>
-<h3>Some yaml</h3>
+<h3 id="some-yaml">Some yaml</h3>
 <div class="sourceCode" id="switch Markdown processors in _config.yml"><pre class="sourceCode yaml"><code class="sourceCode yaml"><span class="fu">markdown:</span> maruku</code></pre></div>
-<h3>Some html</h3>
+<h3 id="some-html">Some html</h3>
 <div class="sourceCode" id="enable MathJax in source/_includes/custom/head.html http://www.mathjax.org/docs/1.1/start.html"><pre class="sourceCode html"><code class="sourceCode html"><span class="kw">&lt;script</span><span class="ot"> type=</span><span class="st">&quot;text/x-mathjax-config&quot;</span><span class="kw">&gt;</span>
 <span class="va">MathJax</span>.<span class="va">Hub</span>.<span class="at">Config</span>(<span class="op">{</span>
       <span class="dt">tex2jax</span><span class="op">:</span> <span class="op">{</span><span class="dt">inlineMath</span><span class="op">:</span> [[<span class="st">'$'</span><span class="op">,</span><span class="st">'$'</span>]<span class="op">,</span> [<span class="st">'</span><span class="sc">\\</span><span class="st">('</span><span class="op">,</span><span class="st">'</span><span class="sc">\\</span><span class="st">)'</span>]]<span class="op">}</span>
       <span class="op">}</span>)<span class="op">;</span>
 <span class="op">&lt;</span><span class="ss">/script&gt;</span>
 <span class="ss">&lt;script type=&quot;text/javascript</span><span class="st">&quot; src=&quot;</span>path<span class="op">-</span>to<span class="op">-</span>mathjax/<span class="va">MathJax</span>.<span class="at">js</span><span class="op">?</span>config<span class="op">=</span>TeX<span class="op">-</span>AMS<span class="op">-</span>MML_HTMLorMML<span class="st">&quot;&gt;&lt;/script&gt;</span></code></pre></div>
-<h3>Some TeX</h3>
+<h3 id="some-tex">Some TeX</h3>
 <pre id="example expression from Paul Snivey's article http://psnively.github.com/2010/03/13/100-proof.html"><code>$$\forall x, y : \mathbb{Z}, x &gt; 3 \land y &lt; 2 \Rightarrow x^2 - 2y &gt; 5$$
 </code></pre>
 <p>Inline TeX: <br /><span class="math display">∀<em>x</em>, <em>y</em> : ℤ, <em>x</em> &gt; 3 ∧ <em>y</em> &lt; 2 ⇒ <em>x</em><sup>2</sup> − 2<em>y</em> &gt; 5</span><br /></p>
-<h2>Thanks</h2>
+<h2 id="thanks">Thanks</h2>
 <ul>
 <li><a href="http://begriffs.com/posts/2014-08-12-create-static-site-with-hakyll-github.html">Begriffs on GitHub and Travis CI</a></li>
 <li><a href="https://github.com/willtim/timphilipwilliams.com">Tim William’s Hakyll blog using Boostrap 2.1</a></li>

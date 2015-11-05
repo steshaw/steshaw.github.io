@@ -139,7 +139,7 @@ References:
 <div class="medium-url" data-medium-url="https://medium.com/@steshaw/continuous-wins-4a06ec8b792b" />
 
 <p>Do we really need time boxes to “encourage” people to work productively?</p>
-<h2>Developing with iterations</h2>
+<h2 id="developing-with-iterations">Developing with iterations</h2>
 <p>Something I’ve noticed time and again in teams that adopt iterations (aka sprints, time boxes etc) is that there’s a whole lot of angst and waste.</p>
 <ul>
 <li><p>… in planning meetings.</p></li>
@@ -147,7 +147,7 @@ References:
 <li><p>… in retrospective meetings, self-flagellating over “failed” iterations where not everything planned was “done”. Alternatively, self-congratulating over iterations that were simply unloaded.</p></li>
 </ul>
 <p>One could argue that this represents a dysfunctional team but I’ve seen it too often to simply dismiss these instances as poorly functioning teams. We need to look at the bigger picture and take a critical look at the process itself. The closest to “working” I’ve seen with teams doing iterations is amongst those that are very conservative with the tasks allocated to an iteration, who then pull additional tasks into the iteration if time allows. Why the pretence of the iteration at all?</p>
-<h2>Enter the pull-based workflow</h2>
+<h2 id="enter-the-pull-based-workflow">Enter the pull-based workflow</h2>
 <p>On the flip-side, whenever I’ve had the opportunity to develop with a completely pull-based workflow, I’ve found that I really love it! This on-demand style is a continuous flow of work rather than a series of punctuated iterations of fixed length. It’s what I like to call <em>Continuous Wins</em>! It’s simple: you have a prioritised list of tasks/features, grab the next one you’d like to do (near the top of the queue), do it — cheer — and start over. Rather than stressing about artificial deadlines, you can win whenever you complete a task. Depending on the task, you could be celebrating every few hours or every few days. Also, you have the flexibility to work on tasks that are longer than a typical iteration. Thus you may “win big” after a few weeks on a complex task requiring some serious investigation/experimentation. What’s more is that you don’t need to spend time breaking it down into tasks that fit into your iterations. Though be careful not to let this become an excuse to avoid chunking up tasks/features where possible. It’s a judgment call. Use your common sense — there are no rules to blindly follow!</p>
 <p>I’ve been told that this style of development is aligned with the Lean/Kanban approach (though it has nothing to do with billboards or necessarily visualising the workflow in any way — that’s an orthogonal and probably important and useful technique). This continuous flow style prevents the problems I’ve noticed with iterations. You can work at a productive pace without “over-loading” or “under-loading” an iteration. There’s less waste on planning meetings, retrospectives and detailed estimation. Stress is reduced because estimates are deemphasised and do not become deadlines. Developers are happier, more productive and more likely to produce their best work.</p>
 <p>Let’s forget iterations and detailed estimates! Develop a vision, a roadmap, list your tasks/features, prioritise these based on user-value/cost/marketing/etc. (yes, with some <em>broad</em> estimates here), then <strong>do it</strong>, <em>one by one</em> and win continuously!</p>
@@ -220,14 +220,14 @@ References:
 
 <div class="post-content">
   <p>I’d originally allocated the default 8G to my primary partition when installing NixOS. I ran out of disk space when I tried upgrading to KDE 5. This is how I increased the size of the partition.</p>
-<h4>1. Shutdown your VM.</h4>
-<h4>2. Use VirtualBox tools to increase the size of the VDI.</h4>
+<h4 id="shutdown-your-vm.">1. Shutdown your VM.</h4>
+<h4 id="use-virtualbox-tools-to-increase-the-size-of-the-vdi.">2. Use VirtualBox tools to increase the size of the VDI.</h4>
 <div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash">$ <span class="kw">VBoxManage</span> modifyhd NixOS.vdi --resize 20000</code></pre></div>
 <pre class="example"><code>0%...10%...20%...30%...40%...50%...60%...70%...80%...90%...100%
 </code></pre>
-<h4>3. Boot the VM from the NixOS Live CD.</h4>
-<h4>4. Login as <code>root</code>.</h4>
-<h4>5. Resize the partition using <code>fdisk</code>.</h4>
+<h4 id="boot-the-vm-from-the-nixos-live-cd.">3. Boot the VM from the NixOS Live CD.</h4>
+<h4 id="login-as-root.">4. Login as <code>root</code>.</h4>
+<h4 id="resize-the-partition-using-fdisk.">5. Resize the partition using <code>fdisk</code>.</h4>
 <p>You have to delete and recreate the partition. In my case, I’ve only got 1 partition, so it’s partition 1. Here I enter the commands: ‘p’ (print the partition table, ‘d’ (delete the partition), ‘n’ (create a new partition), 4 × ‘&lt;return&gt;’ (accept default), ‘w’ (write/sync the partition table to disk).</p>
 <div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash">$ <span class="kw">fdisk</span> /dev/sda</code></pre></div>
 <pre class="example"><code>Command (m for help): p
@@ -245,11 +245,11 @@ Last sector, +sectors or +size{K,M,G,T,P} (2048-40959999, default 40959999): &lt
 Created a new partition 1 of type &#39;Linux&#39; and of size 19.5 GiB.
 Command (m for help): w
 </code></pre>
-<h4>6. Resize the filesystem.</h4>
+<h4 id="resize-the-filesystem.">6. Resize the filesystem.</h4>
 <div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash">$ <span class="kw">mkdir</span> /mnt/root
 $ <span class="kw">mount</span> /dev/sda1 /mnt/root
 $ <span class="kw">btrfs</span> filesystem resize max /mnt/root</code></pre></div>
-<h4>7. Reboot and boot from the drive.</h4>
+<h4 id="reboot-and-boot-from-the-drive.">7. Reboot and boot from the drive.</h4>
 <div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash">$ <span class="kw">reboot</span></code></pre></div>
 </div>
 
@@ -329,7 +329,7 @@ $ <span class="kw">btrfs</span> filesystem resize max /mnt/root</code></pre></di
 <li>I needed alex and happy.</li>
 </ul></li>
 </ul>
-<h2>References</h2>
+<h2 id="references">References</h2>
 <ul>
 <li><a href="https://github.com/steshaw/steshaw.org" class="uri">https://github.com/steshaw/steshaw.org</a></li>
 <li><a href="https://halcyon.sh/" class="uri">https://halcyon.sh/</a>
@@ -416,7 +416,7 @@ $ <span class="kw">btrfs</span> filesystem resize max /mnt/root</code></pre></di
 
 <div class="post-content">
   <p><em>Draft</em></p>
-<h1>Outline</h1>
+<h1 id="outline">Outline</h1>
 <ul>
 <li>Hakyll <a href="http://jaspervdj.be/hakyll/" class="uri">http://jaspervdj.be/hakyll/</a></li>
 <li>Getting MathJax working</li>
@@ -424,31 +424,31 @@ $ <span class="kw">btrfs</span> filesystem resize max /mnt/root</code></pre></di
 <li>Google Analytics</li>
 <li>Source code syntax highlighting</li>
 </ul>
-<h3>Haskell code</h3>
+<h3 id="haskell-code">Haskell code</h3>
 <div class="sourceCode"><pre class="sourceCode haskell"><code class="sourceCode haskell"><span class="kw">module</span> <span class="dt">Data.Foo</span>
 
 main <span class="fu">=</span> putStrLn <span class="st">&quot;Hello, world!&quot;</span></code></pre></div>
-<h3>emacs-lisp code</h3>
+<h3 id="emacs-lisp-code">emacs-lisp code</h3>
 <div class="sourceCode"><pre class="sourceCode commonlisp"><code class="sourceCode commonlisp">(<span class="kw">defun</span><span class="fu"> org-xor </span>(a b)
   <span class="st">&quot;Exclusive or.&quot;</span>
   (<span class="kw">if</span> a (<span class="kw">not</span> b) b))</code></pre></div>
-<h3>An example</h3>
+<h3 id="an-example">An example</h3>
 <pre class="example"><code>Some example from a text file.
 </code></pre>
-<h3>Some yaml</h3>
+<h3 id="some-yaml">Some yaml</h3>
 <div class="sourceCode" id="switch Markdown processors in _config.yml"><pre class="sourceCode yaml"><code class="sourceCode yaml"><span class="fu">markdown:</span> maruku</code></pre></div>
-<h3>Some html</h3>
+<h3 id="some-html">Some html</h3>
 <div class="sourceCode" id="enable MathJax in source/_includes/custom/head.html http://www.mathjax.org/docs/1.1/start.html"><pre class="sourceCode html"><code class="sourceCode html"><span class="kw">&lt;script</span><span class="ot"> type=</span><span class="st">&quot;text/x-mathjax-config&quot;</span><span class="kw">&gt;</span>
 <span class="va">MathJax</span>.<span class="va">Hub</span>.<span class="at">Config</span>(<span class="op">{</span>
       <span class="dt">tex2jax</span><span class="op">:</span> <span class="op">{</span><span class="dt">inlineMath</span><span class="op">:</span> [[<span class="st">&#39;$&#39;</span><span class="op">,</span><span class="st">&#39;$&#39;</span>]<span class="op">,</span> [<span class="st">&#39;</span><span class="sc">\\</span><span class="st">(&#39;</span><span class="op">,</span><span class="st">&#39;</span><span class="sc">\\</span><span class="st">)&#39;</span>]]<span class="op">}</span>
       <span class="op">}</span>)<span class="op">;</span>
 <span class="op">&lt;</span><span class="ss">/script&gt;</span>
 <span class="ss">&lt;script type=&quot;text/javascript</span><span class="st">&quot; src=&quot;</span>path<span class="op">-</span>to<span class="op">-</span>mathjax/<span class="va">MathJax</span>.<span class="at">js</span><span class="op">?</span>config<span class="op">=</span>TeX<span class="op">-</span>AMS<span class="op">-</span>MML_HTMLorMML<span class="st">&quot;&gt;&lt;/script&gt;</span></code></pre></div>
-<h3>Some TeX</h3>
+<h3 id="some-tex">Some TeX</h3>
 <pre id="example expression from Paul Snivey&#39;s article http://psnively.github.com/2010/03/13/100-proof.html"><code>$$\forall x, y : \mathbb{Z}, x &gt; 3 \land y &lt; 2 \Rightarrow x^2 - 2y &gt; 5$$
 </code></pre>
 <p>Inline TeX: <br /><span class="math display">∀<em>x</em>, <em>y</em> : ℤ, <em>x</em> &gt; 3 ∧ <em>y</em> &lt; 2 ⇒ <em>x</em><sup>2</sup> − 2<em>y</em> &gt; 5</span><br /></p>
-<h2>Thanks</h2>
+<h2 id="thanks">Thanks</h2>
 <ul>
 <li><a href="http://begriffs.com/posts/2014-08-12-create-static-site-with-hakyll-github.html">Begriffs on GitHub and Travis CI</a></li>
 <li><a href="https://github.com/willtim/timphilipwilliams.com">Tim William’s Hakyll blog using Boostrap 2.1</a></li>
@@ -542,7 +542,7 @@ main <span class="fu">=</span> putStrLn <span class="st">&quot;Hello, world!&quo
 
 <p>Work can be a drag if you find yourself in a den of assholes. Unfortunately, this is becoming more and more common in our narcissist-generating society. I’d like to start a conversation about how we might tackle this problem. Here’s an outline of how we might begin to approach the problem.</p>
 <p>TL/DR: start with Robert Sutton’s <em>No Asshole Rule</em> and follow that up with modelling your behaviour on a gentleman (that’s where the <em>Cambridge Culture</em> comes in).</p>
-<h2>The No Asshole Rule</h2>
+<h2 id="the-no-asshole-rule">The No Asshole Rule</h2>
 <p>There are a lot of assholes out there. I’ve run into a few more than my fair share — it seems to be par for the course when you’re a contract programmer (I gave up that gig a few years ago but I still have the war stories). Assholes make people feel oppressed, humiliated, de-energised and belittled. In short, they destroy rather than create. The targets of their behaviour tend to be those less powerful — so assholes in management have a larger area of destruction.</p>
 <p>These assholes can poison your whole organisation, leading to a culture of fear, lower productivity, high staff turnover, general unhappiness and gnashing of teeth.</p>
 <p>The assholes tend to think that their behaviour is justified because it helps to “get the job done”. However, Sutton points out this is a kind of confirmation bias and usually “stuff gets done” despite the behaviour of the asshole — not <em>because</em> of it.</p>
@@ -550,7 +550,7 @@ main <span class="fu">=</span> putStrLn <span class="st">&quot;Hello, world!&quo
 <p>Don’t confuse the <em>occasional</em> asshole with the <em>institutional</em> one (Sutton calls this the <em>temporary asshole</em> and the <em>certified asshole</em>). Everyone blows up occasionally and let’s their “inner asshole” out — particularly when under the thumb of an institutional asshole! Don’t be too quick to label the strange or unusual as assholes — Sutton has a book on this topic: <a href="http://www.goodreads.com/book/show/7923731.Wierd_Ideas_that_Work">Weird Ideas that Work</a>. A good tip for preventing the inner-asshole from escaping is: <em>argue like you’re right, listen like you’re wrong.</em></p>
 <p>I don’t believe that assholes are virtuous despite Sutton’s reluctant chapter on it. One thing that makes sense is that being an asshole may be a short-cut to power and status — that is if the weaklings around them let them get away with it ☺. Who doesn’t know one or two loud mouth, arrogant, self-professed experts that go on a power-grab and succeed because few resisted? Don’t let it happen in your organisation — unless you’re leaving to join or <em>be</em> the competition ;). If you have to put up with the odd asshole from time to time, whatever you do, do <em>not</em> promote them. Keep them in a box, try to reform them (possible if they are only an <em>occasional</em> asshole, unlikely if they are a <em>certified</em> asshole). If that doesn’t work out, fire them.</p>
 <p>Remember: <em>a few bad apples can spoil the whole bunch.</em></p>
-<h2>A Cambridge Culture</h2>
+<h2 id="a-cambridge-culture">A Cambridge Culture</h2>
 <p>A partial remedy to this situation is to adopt what I like to call a <em>Cambridge Culture</em>. This is as simple as modelling yourself on the behaviour of Simon Peyton Jones. Simon is the lead engineer of the Glorious Glasgow Haskell Compiler (aka GHC). He works at Microsoft Research in Cambridge (hence the name).</p>
 <p>If you don’t know Simon, he can be described as a scholar and a gent. While being someone who is very bright, accomplished and energetic; Simon doesn’t feel entitled to indulge in behaviour that could be perceived as arrogant, haughty, overbearing, dictatorial etc. Simon also accepts that there are other intelligent folks who might have views that run somewhat counter to his own. In this situation, he is not only tolerant but patiently teaches if those folks are open to it. He also listens carefully to work out where he may be off-track himself (if not completely wrong). As lead of GHC, Simon encourages participation and rarely feels the need to choose an option (from say a bunch of competing but equally decent candidates), instead allowing the community to reach a consensus where possible but breaking deadlocks where necessary. He shys away from the title <em>Benevolent Dictator for Life</em> (BDFL). Simon is definitely not a hater.</p>
 <p>Don’t be a hater. If you have to hate anyone, hate the haters :P. You know… don’t even hate the haters:</p>
