@@ -40,15 +40,15 @@
 <p>What are the whole number solutions of this equation?</p>
 <div class="eqtion">
 <p>3<sup>2</sup> + 4<sup>2</sup> = 5<sup>2</sup><br />
- 5<sup>2</sup> + 12<sup>2</sup> = 13<sup>2</sup><br />
- …</p>
+5<sup>2</sup> + 12<sup>2</sup> = 13<sup>2</sup><br />
+…</p>
 </div>
 <p>Fermat wondered if this could be extended to the following equations:</p>
 <div class="eqtion">
 <p>x<sup>3</sup> + y<sup>3</sup> = z<sup>3</sup><br />
- x<sup>4</sup> + y<sup>4</sup> = z<sup>4</sup><br />
- …<br />
- x<sup>n</sup> + y<sup>n</sup> = z<sup>n</sup></p>
+x<sup>4</sup> + y<sup>4</sup> = z<sup>4</sup><br />
+…<br />
+x<sup>n</sup> + y<sup>n</sup> = z<sup>n</sup></p>
 </div>
 <p>Fermat could find no whole number solutions to this more general equation. Fermat’s conjecture was that:</p>
 <div class="eqtion">
@@ -700,7 +700,7 @@ main <span class="fu">=</span> putStrLn <span class="st">&quot;Hello, world!&quo
 <div class="post-content">
   <p>MathJax isn’t currently supported out-of-the-box with Octopress. The main reason seems to be that the Markdown processor — rdiscount — doesn’t deal with the MathJax escaping very well. However, since <a href="http://maruku.rubyforge.org/math.xhtml">Maruku supports it</a>, I thought I’d try switching over.</p>
 <p>I made the following two changes:</p>
-<pre class="yml" data-title="switch Markdown processors in _config.yml"><code>markdown: maruku</code></pre>
+<div class="sourceCode" data-title="switch Markdown processors in _config.yml"><pre class="sourceCode yml"><code class="sourceCode yaml"><span class="fu">markdown:</span> maruku</code></pre></div>
 <div class="sourceCode" data-title="enable MathJax in source/_includes/custom/head.html" data-link="http://www.mathjax.org/docs/1.1/start.html"><pre class="sourceCode html"><code class="sourceCode html"><span class="kw">&lt;script</span><span class="ot"> type=</span><span class="st">&quot;text/x-mathjax-config&quot;</span><span class="kw">&gt;</span>
 <span class="va">MathJax</span>.<span class="va">Hub</span>.<span class="at">Config</span>(<span class="op">{</span>
       <span class="dt">tex2jax</span><span class="op">:</span> <span class="op">{</span><span class="dt">inlineMath</span><span class="op">:</span> [[<span class="st">&#39;$&#39;</span><span class="op">,</span><span class="st">&#39;$&#39;</span>]<span class="op">,</span> [<span class="st">&#39;</span><span class="sc">\\</span><span class="st">(&#39;</span><span class="op">,</span><span class="st">&#39;</span><span class="sc">\\</span><span class="st">)&#39;</span>]]<span class="op">}</span>
@@ -708,7 +708,7 @@ main <span class="fu">=</span> putStrLn <span class="st">&quot;Hello, world!&quo
 <span class="op">&lt;</span><span class="ss">/script&gt;</span>
 <span class="ss">&lt;script type=&quot;text/javascript</span><span class="st">&quot; src=&quot;</span>path<span class="op">-</span>to<span class="op">-</span>mathjax/<span class="va">MathJax</span>.<span class="at">js</span><span class="op">?</span>config<span class="op">=</span>TeX<span class="op">-</span>AMS<span class="op">-</span>MML_HTMLorMML<span class="st">&quot;&gt;&lt;/script&gt;</span></code></pre></div>
 <p>This allows for inline <span class="math inline">$\TeX$</span> expressions between dollar signs e.g. <code>$\TeX$</code>. MathJax <em>display</em> expressions (i.e. non-inline) are delimited by double dollar signs:</p>
-<pre class="tex" data-title="example expression from Paul Snivey&#39;s article http://psnively.github.com/2010/03/13/100-proof.html"><code>$$\forall x, y : \mathbb{Z}, x &gt; 3 \land y &lt; 2 \Rightarrow x^2 - 2y &gt; 5$$</code></pre>
+<div class="sourceCode" data-title="example expression from Paul Snivey&#39;s article http://psnively.github.com/2010/03/13/100-proof.html"><pre class="sourceCode tex"><code class="sourceCode latex">$$\forall x, y : \mathbb{Z}, x &gt; 3 \land y &lt; 2 \Rightarrow x^2 - 2y &gt; 5$$</code></pre></div>
 <p>renders as:</p>
 <p><br /><span class="math display">∀<em>x</em>, <em>y</em> : ℤ, <em>x</em> &gt; 3 ∧ <em>y</em> &lt; 2 ⇒ <em>x</em><sup>2</sup> − 2<em>y</em> &gt; 5</span><br /></p>
 <h2 id="right-click-issue">Right-click issue</h2>
@@ -1092,7 +1092,7 @@ main <span class="fu">=</span> <span class="kw">do</span>
 <div class="post-content">
   <p>I’m writing this from my new laptop! <strong>Stop the presses:</strong> it’s <em>not</em> a Mac! :) In fact, I’m trying out Windows Live Writer to publish this post…</p>
 <div class="figure">
-<img src="/images/hp-pavilion-dv6.png" alt="" />
+<img src="/images/hp-pavilion-dv6.png" />
 
 </div>
 <p>Technical specifications:</p>
