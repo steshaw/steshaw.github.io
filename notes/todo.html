@@ -155,6 +155,11 @@
 </ul></li>
 <li>it’s all delimited control.</li>
 <li>perhaps we don’t need laziness even for modular list/collection methods mentioned by Lennart Augustsson.</li>
+</ul>
+<pre><code>  any :: (a -&gt; Bool) -&gt; [a] -&gt; Bool
+  any p = or . map p
+</code></pre>
+<ul>
 <li>take a look at the point of laziness article by Robert Harper.</li>
 <li>scan FPiS for uses of laziness or call-by-name.</li>
 <li>Implement this stuff in Idris and/or Scala to try it out.</li>
