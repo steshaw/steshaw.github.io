@@ -116,17 +116,58 @@
         </div>
         <div class="col-sm-10 content">
           <ul>
-<li><p>Read some <a href="https://wiki.haskell.org/Research_papers/Functional_pearls">Functional Pearls</a></p></li>
-<li>Do some pipes programming
+<li>Read some <a href="https://wiki.haskell.org/Research_papers/Functional_pearls">Functional Pearls</a></li>
+</ul>
+<h2 id="do-some-pipes-programming">Do some pipes programming</h2>
 <ul>
 <li><a href="https://ocharles.org.uk/talks/2013-09-18-pipes.pdf" class="uri">https://ocharles.org.uk/talks/2013-09-18-pipes.pdf</a></li>
 <li><a href="https://www.schoolofhaskell.com/school/to-infinity-and-beyond/pick-of-the-week/Pipes%20tutorial">https://www.schoolofhaskell.com/school/to-infinity-and-beyond/pick-of-the-week/Pipes%20tutorial</a></li>
+</ul>
+<h2 id="strict-non-strict">Strict / non-strict</h2>
+<ul>
+<li>strict/cbv (with at least optional call-by-name) v non-strict/lazy/cb-need</li>
+<li>with stream transducers, generators (Simple Generators), pipes, conduits, machines, iteratees, Clojures’s transducers/reducers etc for stream processing. These work well with strict languages.
+<ul>
+<li><a href="https://dl.dropboxusercontent.com/u/4588997/Machines.pdf" class="uri">https://dl.dropboxusercontent.com/u/4588997/Machines.pdf</a></li>
 </ul></li>
-<li>Contribute to intellij-scala
+<li>with delimited control for (tree) search.
+<ul>
+<li><a href="http://okmij.org/ftp/continuations/#reify-search" class="uri">http://okmij.org/ftp/continuations/#reify-search</a></li>
+<li>tree search was the defining reason from John Huges Why FP Matters IIRC.</li>
+</ul></li>
+<li>it’s all delimited control.</li>
+<li>perhaps we don’t need laziness even for modular list/collection methods mentioned by Lennart Augustsson.</li>
+<li>take a look at the point of laziness article by Robert Harper.</li>
+<li>scan FPiS for uses of laziness or call-by-name.</li>
+<li>Implement this stuff in Idris and/or Scala to try it out.</li>
+</ul>
+<h2 id="effects">Effects</h2>
+<ul>
+<li>implement monad transformers</li>
+<li>take a look at algebraic effects.</li>
+<li>Idris
+<ul>
+<li><a href="https://eb.host.cs.st-andrews.ac.uk/drafts/effects.pdf" class="uri">https://eb.host.cs.st-andrews.ac.uk/drafts/effects.pdf</a></li>
+</ul></li>
+<li>PureScript.
+<ul>
+<li><a href="http://www.purescript.org/learn/eff/" class="uri">http://www.purescript.org/learn/eff/</a></li>
+</ul></li>
+<li>Eff
+<ul>
+<li><a href="http://www.eff-lang.org" class="uri">http://www.eff-lang.org</a></li>
+</ul></li>
+<li>Frank.
+<ul>
+<li><a href="https://personal.cis.strath.ac.uk/conor.mcbride/pub/Frank/" class="uri">https://personal.cis.strath.ac.uk/conor.mcbride/pub/Frank/</a></li>
+</ul></li>
+<li>Koka</li>
+</ul>
+<h2 id="contribute-to-intellij-scala">Contribute to intellij-scala</h2>
 <ul>
 <li><a href="http://blog.jetbrains.com/scala/2016/04/21/how-to-contribute-to-intellij-scala-plugin/" class="uri">http://blog.jetbrains.com/scala/2016/04/21/how-to-contribute-to-intellij-scala-plugin/</a></li>
-</ul></li>
-<li>Web frameworks in Haskell.
+</ul>
+<h2 id="web-frameworks-in-haskell.">Web frameworks in Haskell.</h2>
 <ul>
 <li>Try out Scotty, Spock, Yesod, Snap, Servant.
 <ul>
@@ -135,7 +176,8 @@
 <li>Write a REST/JSON client in Haskell (Twitter/GitHub client, say).</li>
 <li>Write a REST/JSON server in Haskell.</li>
 <li>Write a “sessionless” web app in Haskell.</li>
-</ul></li>
+</ul>
+<ul>
 <li><p>Convert the <a href="http://tldp.org/LDP/abs/html/string-manipulation.html">horrors of Bash</a> to the wonders of Turtle Haskell</p></li>
 <li><p>Understand/Demystify “Auto in Agda”</p></li>
 <li>Swift parser for Haskell
@@ -148,15 +190,17 @@
 </ul></li>
 <li><p>Prove that total languages can safely use fusion (because they can evaluated non-strictly).</p></li>
 <li><p>Port otcc to Idris / F* / Haskell.</p></li>
-<li>Build “courseware” (aka course notes/slides):
+<li>Write notes/slides/courseware for
 <ul>
 <li>Advanced Functional Programming</li>
 <li>Dependently Typed Functional Programming (with Idris)</li>
 <li>Compilers (for Functional Programming Languages)</li>
 <li>Type Theory including Higher Type Theory (aka H[o]TT)</li>
 </ul></li>
-<li>Demystifying Compilers (aka course notes/slides for Compilers course)
+</ul>
+<h2 id="demystifying-compilers">Demystifying Compilers</h2>
 <ul>
+<li>aka course notes/slides/courseware.</li>
 <li>blog series to replace “Let’s write a compiler”</li>
 <li>“The essense of compilation” compiling a simple language in the smallest possible compiler. (inspired by <a href="http://www.timphilipwilliams.com/posts/2014-05-22-the-essence-of-compilation.html" class="uri">http://www.timphilipwilliams.com/posts/2014-05-22-the-essence-of-compilation.html</a>)</li>
 <li>skeleton
@@ -174,29 +218,31 @@
 <li>Compile to CLR/CLI.</li>
 </ul></li>
 </ul></li>
-</ul></li>
+</ul>
+<ul>
 <li><p>Demystifying Programming Languages</p></li>
 <li><p>Demystifying Dependent Types (aka course notes/slides for Dependent Types course)</p></li>
-<li>Demystifying Automated Deduction (aka course notes/slides for Automated Deduction)
+</ul>
+<h2 id="demystifying-automated-deduction-aka-course-notesslides-for-automated-deduction">Demystifying Automated Deduction (aka course notes/slides for Automated Deduction)</h2>
 <ul>
 <li>The theorem prover from ML for the Working Programmer.</li>
 <li>Djinn walkthrough.</li>
-</ul></li>
-<li>Demystifying Proof Assistants
+</ul>
+<h2 id="demystifying-proof-assistants">Demystifying Proof Assistants</h2>
 <ul>
 <li>Introduction to Coq.</li>
 <li>Introduction to Agda.</li>
 <li>Introduction to Isabelle.</li>
 <li>Introduction to Twelf.</li>
-</ul></li>
-<li>Nix or Package all the things
+</ul>
+<h2 id="nix-or-package-all-the-things">Nix or Package all the things</h2>
 <ul>
 <li>Nix for your dotfiles.</li>
 <li>Nix for your development environment configuration.</li>
 <li>Nix for your own tools (aka etools at Ephox).</li>
 <li>Nix for your (proprietary) software products.</li>
-</ul></li>
-<li>Rational Startup Movement
+</ul>
+<h2 id="rational-startup-movement">Rational Startup Movement</h2>
 <ul>
 <li>Start writing up “The Rational Startup”
 <ul>
@@ -205,17 +251,17 @@
 <li>PureScript.</li>
 <li>To Scala or not to Scala, yep, that’s the question.</li>
 </ul></li>
-</ul></li>
+</ul>
+<ul>
 <li>Port <a href="https://twitter.com/li_haoyi">Li Haoyi</a>’s Scala-JS examples to PureScript.
 <ul>
 <li><a href="https://gist.github.com/lihaoyi/9443f8e0ecc68d1058ad" class="uri">https://gist.github.com/lihaoyi/9443f8e0ecc68d1058ad</a></li>
-<li>then Idris</li>
-<li>then Glorious GHCJS</li>
+<li>Idris &amp; Glorious GHCJS.</li>
 </ul></li>
 <li><p>Design and implement a Systems Programming Languages suitable for gamedev.</p></li>
 <li><p>Read “On Bullshit” “spoken word” as “performance art”.</p></li>
 <li><p>Write an essay/book “On Money”. inspired by “On Bullshit” and “On Assholes”</p></li>
-<li><p>Sell ADC shares. Carry forward huge capital loss on tax.</p></li>
+<li><p>Find ADC/Intec shares.</p></li>
 </ul>
         </div>
       </div>
