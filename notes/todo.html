@@ -154,7 +154,10 @@
 <li>tree search was the defining reason from John Huges Why FP Matters IIRC.</li>
 </ul></li>
 <li>it’s all delimited control.</li>
-<li>perhaps we don’t need laziness even for modular list/collection methods mentioned by Lennart Augustsson.</li>
+<li>perhaps we don’t need laziness even for modular list/collection methods mentioned by Lennart Augustsson.
+<ul>
+<li><a href="http://augustss.blogspot.com.au/2011/05/more-points-for-lazy-evaluation-in.html" class="uri">http://augustss.blogspot.com.au/2011/05/more-points-for-lazy-evaluation-in.html</a></li>
+</ul></li>
 </ul>
 <pre><code>  any :: (a -&gt; Bool) -&gt; [a] -&gt; Bool
   any p = or . map p
