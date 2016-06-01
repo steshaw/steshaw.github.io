@@ -117,12 +117,12 @@
           </div>
         </div>
         <div class="col-sm-10 content">
-          <h1 id="current">Current</h1>
+          <h1 id="now">Now</h1>
 <h2 id="learn-tlc-theory">Learn TLC Theory</h2>
 <h3 id="type-theory">Type Theory</h3>
 <ul>
 <li><p><a href="https://www.cis.upenn.edu/~bcpierce/sf/">Software Foundations</a></p></li>
-<li><p>So you wanna learn type theory? <a href="http://purelytheoretical.com/sywtltt.html" class="uri">http://purelytheoretical.com/sywtltt.html</a></p></li>
+<li><p><em>So you wanna learn type theory?</em></p></li>
 <li><p><a href="https://github.com/type-theory/learn-tt" class="uri">https://github.com/type-theory/learn-tt</a></p></li>
 </ul>
 <h3 id="proof-theory">Proof Theory</h3>
@@ -131,6 +131,7 @@
 <ul>
 <li><a href="http://www.cs.cmu.edu/~fp/courses/15317-f09/lectures/02-natded.pdf" class="uri">http://www.cs.cmu.edu/~fp/courses/15317-f09/lectures/02-natded.pdf</a></li>
 </ul></li>
+<li><p><a href="http://jozefg.bitbucket.org/posts/2015-02-11-proof-theory1.html" class="uri">http://jozefg.bitbucket.org/posts/2015-02-11-proof-theory1.html</a></p></li>
 <li><p><a href="http://math.ucsd.edu/~sbuss/ResearchWeb/handbookI/" class="uri">http://math.ucsd.edu/~sbuss/ResearchWeb/handbookI/</a></p></li>
 <li>Proof Theory Foundations
 <ul>
@@ -138,7 +139,7 @@
 <li><a href="http://www.cs.mcgill.ca/~bpientka/oplss/" class="uri">http://www.cs.mcgill.ca/~bpientka/oplss/</a></li>
 <li><a href="http://www.cs.mcgill.ca/~bpientka/oplss/book.pdf" class="uri">http://www.cs.mcgill.ca/~bpientka/oplss/book.pdf</a></li>
 </ul></li>
-<li><p>[[<a href="https://www.cs.uoregon.edu/research/summerschool/summer05/lectures/outline.pdf" class="uri">https://www.cs.uoregon.edu/research/summerschool/summer05/lectures/outline.pdf</a>][Constructive Logic notes] by Robert Harper, 2005 Summer School.</p></li>
+<li><p><a href="https://www.cs.uoregon.edu/research/summerschool/summer05/lectures/outline.pdf">Constructive Logic notes</a> by Robert Harper, 2005 Summer School.</p></li>
 </ul>
 <h3 id="category-theory">Category Theory</h3>
 <ul>
@@ -147,7 +148,41 @@
 <li><a href="http://www.andrew.cmu.edu/user/awodey/SummerSchool/" class="uri">http://www.andrew.cmu.edu/user/awodey/SummerSchool/</a></li>
 </ul></li>
 </ul>
-<h1 id="later">Later</h1>
+<h1 id="next">Next</h1>
+<h2 id="demystifying-type-theory">Demystifying Type Theory</h2>
+<ul>
+<li>Explain predicative/impredicative. intensional/extensional.</li>
+<li>Explain variants such as UTT, OTT, CTT, CoC, CoiC, Idris TT…</li>
+<li><a href="http://www.cs.nott.ac.uk/~psztxa/talks/constructive-06.pdf">Should Extensional Type Theory be considered harmful?</a></li>
+<li><p>Recommended by Stephanie Weirich <a href="http://plmw2014.inria.fr/talks/weirich-plmw14.pdf" class="uri">http://plmw2014.inria.fr/talks/weirich-plmw14.pdf</a></p>
+<ul>
+<li>Per Martin-Löf. Constructive mathematics and computer programming, 1982</li>
+<li>Nordstrom, Petersson, and Smith. Programming in Martin-Löf’s Type Theory, 1990</li>
+<li>Barendregt. “Lambda Calculi with Types.” Handbook of Logic in Computer Science II, 1992</li>
+<li>Harper, Honsell, Plotkin. “A Framework for Defining Logics.” JACM 1993</li>
+<li>Aspinall and Hoffman. “Dependent types.” ATTAPL, 2004</li>
+<li>Sørensen and Urzyczyn, Lectures on the Curry-Howard Isomorphism, 2006</li>
+<li>Homotopy Type Theory: Univalent Foundations of Mathematics, 2013</li>
+</ul></li>
+<li><p>build courseware notes/articles/slides for TT/DTs course.</p></li>
+</ul>
+<h3 id="implement-dependently-typed-pl">Implement Dependently Typed PL</h3>
+<ul>
+<li><p>Recommeded by Stephanie Weirich <a href="http://plmw2014.inria.fr/talks/weirich-plmw14.pdf" class="uri">http://plmw2014.inria.fr/talks/weirich-plmw14.pdf</a>. She says: “Don’t have to start from scratch” – Löh, McBride, Swierstra. “A Tutorial Implementation of a Dependently Typed Lambda Calculus.” Fundamenta Informa(cae, 2001 – Lectures on implementing Idris (www.idris-lang.org) – My OPLSS 2013 lectures &amp; pi-forall github repository</p></li>
+<li>Dig up my version of Simply Easy[ier]. Do a version in Idris? Perhaps stick to Haskell and implement readline style repl.
+<ul>
+<li><a href="https://github.com/freebroccolo/dtlc.rs" class="uri">https://github.com/freebroccolo/dtlc.rs</a></li>
+</ul></li>
+<li><p>Contribute to Idris <a href="http://www.idris-lang.org/help-required/" class="uri">http://www.idris-lang.org/help-required/</a></p></li>
+</ul>
+<h3 id="continue-with-pfpl">Continue with PFPL</h3>
+<ul>
+<li>Implement Abstract Binding Trees (in Idris?).
+<ul>
+<li><a href="http://semantic-domain.blogspot.com.au/2015/03/abstract-binding-trees.html" class="uri">http://semantic-domain.blogspot.com.au/2015/03/abstract-binding-trees.html</a></li>
+<li><a href="http://semantic-domain.blogspot.com.au/2015/03/abstract-binding-trees-addendum.html" class="uri">http://semantic-domain.blogspot.com.au/2015/03/abstract-binding-trees-addendum.html</a></li>
+</ul></li>
+</ul>
 <h2 id="logic-programming">Logic Programming</h2>
 <ul>
 <li><a href="http://people.cs.uchicago.edu/~odonnell/Scholar/Technical_papers/Intro_Logic_Prog/description.html">Logic and Logic Programming</a></li>
@@ -168,43 +203,9 @@
 </ul></li>
 <li><a href="http://crypto.stanford.edu/~blynn/haskell/papers.html" class="uri">http://crypto.stanford.edu/~blynn/haskell/papers.html</a></li>
 </ul>
-<h2 id="dependent-types-reading-list">Dependent Types reading list</h2>
-<ul>
-<li><p>Recommended by Stephanie Weirich <a href="http://plmw2014.inria.fr/talks/weirich-plmw14.pdf" class="uri">http://plmw2014.inria.fr/talks/weirich-plmw14.pdf</a></p>
-<ul>
-<li>Per MarSn Löf. Construc(ve mathema(cs and computer programming, 1982</li>
-<li>Nordstrom, Petersson, and Smith. Programming in Mar(n- Löf’s Type Theory, 1990</li>
-<li>Barendregt. “Lambda Calculi with Types.” Handbook of Logic in Computer Science II, 1992</li>
-<li>Harper, Honsell, Plotkin. “A Framework for Defining Logics.” JACM 1993</li>
-<li>Aspinall and Hoffman. “Dependent types.” ATTAPL, 2004</li>
-<li>Sørensen and Urzyczyn, Lectures on the Curry-Howard Isomorphism, 2006</li>
-<li>Homotopy Type Theory: Univalent Foundations of Mathematics, 2013</li>
-</ul></li>
-</ul>
-<h2 id="implement-dependently-typed-pl">Implement Dependently Typed PL</h2>
-<ul>
-<li><p>Recommeded by Stephanie Weirich <a href="http://plmw2014.inria.fr/talks/weirich-plmw14.pdf" class="uri">http://plmw2014.inria.fr/talks/weirich-plmw14.pdf</a>. She says: “Don’t have to start from scratch” – Löh, McBride, Swierstra. “A Tutorial ImplementaSon of a Dependently Typed Lambda Calculus.” Fundamenta Informa(cae, 2001 – Lectures on implementing Idris (www.idris-lang.org) – My OPLSS 2013 lectures &amp; pi-forall github repository</p></li>
-<li>Dig up my version of Simply Easy[ier].
-<ul>
-<li><a href="https://github.com/freebroccolo/dtlc.rs" class="uri">https://github.com/freebroccolo/dtlc.rs</a></li>
-</ul></li>
-<li><p>Contribute to Idris <a href="http://www.idris-lang.org/help-required/" class="uri">http://www.idris-lang.org/help-required/</a></p></li>
-</ul>
-<h2 id="continue-with-pfpl.">Continue with PFPL.</h2>
-<ul>
-<li>[ ] Implement Abstract Binding Trees (in Idris?).
-<ul>
-<li><a href="http://semantic-domain.blogspot.com.au/2015/03/abstract-binding-trees.html" class="uri">http://semantic-domain.blogspot.com.au/2015/03/abstract-binding-trees.html</a></li>
-<li><a href="http://semantic-domain.blogspot.com.au/2015/03/abstract-binding-trees-addendum.html" class="uri">http://semantic-domain.blogspot.com.au/2015/03/abstract-binding-trees-addendum.html</a></li>
-</ul></li>
-</ul>
-<ul>
-<li>Follow up on Conor McBride’s “well founded trees”.</li>
-</ul>
-<p>#begin<sub>quote</sub> jonsterling: Conor’s insight is that you can define the graph of such a function as a well founded tree, and then compute by structural recursion on that tree #end<sub>quote</sub></p>
 <h2 id="learn-more-coq">Learn more Coq</h2>
 <ul>
-<li><p>[[<a href="https://www.labri.fr/perso/casteran/CoqArt/%5DCoq'Art" class="uri">https://www.labri.fr/perso/casteran/CoqArt/]Coq'Art</a>]] (again)</p></li>
+<li><p><a href="https://www.labri.fr/perso/casteran/CoqArt/">Coq’Art</a> (again)</p></li>
 <li><p><a href="https://coq.inria.fr/tutorial/1-basic-predicate-calculus" class="uri">https://coq.inria.fr/tutorial/1-basic-predicate-calculus</a></p></li>
 <li><p><a href="https://coq.inria.fr/tutorial-nahas" class="uri">https://coq.inria.fr/tutorial-nahas</a></p></li>
 <li><p><a href="http://www.di.ens.fr/~zappa/teaching/coq/ecole11/" class="uri">http://www.di.ens.fr/~zappa/teaching/coq/ecole11/</a></p></li>
@@ -213,11 +214,18 @@
 </ul>
 <h2 id="learn-more-agda">Learn more Agda</h2>
 <ul>
-<li>Computer Aided Formal Reasoning course at University of Nottingham <a href="http://www.cs.nott.ac.uk/~psztxa/g53cfr/" class="uri">http://www.cs.nott.ac.uk/~psztxa/g53cfr/</a></li>
+<li><p>Computer Aided Formal Reasoning course at University of Nottingham <a href="http://www.cs.nott.ac.uk/~psztxa/g53cfr/" class="uri">http://www.cs.nott.ac.uk/~psztxa/g53cfr/</a></p></li>
+<li><p><a href="http://wiki.portal.chalmers.se/agda/pmwiki.php?n=Main.Publications">Papers using Agda</a></p></li>
+<li><p>Understand/Demystify “Auto in Agda”</p></li>
+<li><p>Follow up on Conor McBride’s “well founded trees”.</p></li>
 </ul>
+<blockquote>
+<p>jonsterling: Conor’s insight is that you can define the graph of such a function as a well founded tree, and then compute by structural recursion on that tree</p>
+</blockquote>
 <h2 id="homotopy-type-theory">Homotopy Type Theory</h2>
 <ul>
 <li><a href="https://homotopytypetheory.org/book/" class="uri">https://homotopytypetheory.org/book/</a></li>
+<li><a href="https://www.cs.cmu.edu/~rwh/courses/hott/" class="uri">https://www.cs.cmu.edu/~rwh/courses/hott/</a></li>
 </ul>
 <p><strong>*</strong> Category Theory</p>
 <ul>
@@ -248,6 +256,10 @@
 <ul>
 <li><a href="http://eed3si9n.com/learning-scalaz/" class="uri">http://eed3si9n.com/learning-scalaz/</a></li>
 </ul>
+<h3 id="contribute-to-intellij-scala">Contribute to intellij-scala</h3>
+<ul>
+<li><a href="http://blog.jetbrains.com/scala/2016/04/21/how-to-contribute-to-intellij-scala-plugin/" class="uri">http://blog.jetbrains.com/scala/2016/04/21/how-to-contribute-to-intellij-scala-plugin/</a></li>
+</ul>
 <h2 id="focusing">Focusing</h2>
 <ul>
 <li><a href="https://www.cs.cmu.edu/~fp/courses/oregon-m10/04-focusing.pdf" class="uri">https://www.cs.cmu.edu/~fp/courses/oregon-m10/04-focusing.pdf</a></li>
@@ -257,12 +269,12 @@
 <ul>
 <li><a href="https://github.com/sellout/recursion-scheme-talk/blob/master/nanopass-compiler-talk.org" class="uri">https://github.com/sellout/recursion-scheme-talk/blob/master/nanopass-compiler-talk.org</a></li>
 </ul>
-<h2 id="do-some-pipes-programming">Do some pipes programming</h2>
+<h2 id="learn-pipes">Learn pipes</h2>
 <ul>
 <li><a href="https://ocharles.org.uk/talks/2013-09-18-pipes.pdf" class="uri">https://ocharles.org.uk/talks/2013-09-18-pipes.pdf</a></li>
 <li><a href="https://www.schoolofhaskell.com/school/to-infinity-and-beyond/pick-of-the-week/Pipes%20tutorial">https://www.schoolofhaskell.com/school/to-infinity-and-beyond/pick-of-the-week/Pipes%20tutorial</a></li>
 </ul>
-<h2 id="strict-non-strict">Strict / non-strict</h2>
+<h2 id="investigate-strict-v-non-strict">Investigate strict v non-strict</h2>
 <ul>
 <li>strict/cbv (with at least optional call-by-name) v non-strict/lazy/cb-need</li>
 <li>with stream transducers, generators (Simple Generators), pipes, conduits, machines, iteratees, Clojures’s transducers/reducers etc for stream processing. These work well with strict languages.
@@ -318,11 +330,25 @@
 </ul></li>
 <li>Koka</li>
 </ul>
-<h2 id="contribute-to-intellij-scala">Contribute to intellij-scala</h2>
+<h2 id="haskell">Haskell</h2>
 <ul>
-<li><a href="http://blog.jetbrains.com/scala/2016/04/21/how-to-contribute-to-intellij-scala-plugin/" class="uri">http://blog.jetbrains.com/scala/2016/04/21/how-to-contribute-to-intellij-scala-plugin/</a></li>
+<li>argonaut-hs
+<ul>
+<li>Use TH to auto-generate encode/decode instances.</li>
+</ul></li>
+<li><p>Prove that total languages can safely use fusion (because they can evaluated non-strictly).</p></li>
+<li><p>Port otcc to Idris/Haskell.</p></li>
 </ul>
-<h2 id="web-frameworks-in-haskell.">Web frameworks in Haskell.</h2>
+<h3 id="swift-parser-for-haskell">Swift parser for Haskell</h3>
+<ul>
+<li>sigh</li>
+<li>language-swift-quote</li>
+</ul>
+<h3 id="turtle">Turtle</h3>
+<ul>
+<li>Convert the <a href="http://tldp.org/LDP/abs/html/string-manipulation.html">horrors of Bash</a> to the wonders of Turtle Haskell</li>
+</ul>
+<h3 id="web-frameworks-in-haskell.">Web frameworks in Haskell.</h3>
 <ul>
 <li>Try out Scotty, Spock, Yesod, Snap, Servant.
 <ul>
@@ -332,31 +358,17 @@
 <li>Write a REST/JSON server in Haskell.</li>
 <li>Write a “sessionless” web app in Haskell.</li>
 </ul>
+<h2 id="demystifying-homotopy-type-theory">Demystifying Homotopy Type Theory</h2>
+<h2 id="demystifying-advanced-functional-programming">Demystifying Advanced Functional Programming</h2>
 <ul>
-<li><p>Convert the <a href="http://tldp.org/LDP/abs/html/string-manipulation.html">horrors of Bash</a> to the wonders of Turtle Haskell</p></li>
-<li><p>Understand/Demystify “Auto in Agda”</p></li>
-<li>Swift parser for Haskell
-<ul>
-<li>language-swift-quote</li>
-</ul></li>
-<li>argonaut-hs
-<ul>
-<li>Use TH to auto-generate encode/decode instances.</li>
-</ul></li>
-<li><p>Prove that total languages can safely use fusion (because they can evaluated non-strictly).</p></li>
-<li><p>Port otcc to Idris / F* / Haskell.</p></li>
-<li>Write notes/slides/courseware for
-<ul>
-<li>Advanced Functional Programming</li>
-<li>Dependently Typed Functional Programming (with Idris)</li>
-<li>Compilers (for Functional Programming Languages)</li>
-<li>Type Theory including Higher Type Theory (aka H[o]TT)</li>
-</ul></li>
+<li>notes/slides/courseware on advanced FP techniques</li>
 </ul>
+<h2 id="demystifying-dependently-typed-functional-programming-with-idris">Demystifying Dependently Typed Functional Programming with Idris</h2>
 <h2 id="demystifying-compilers">Demystifying Compilers</h2>
 <ul>
 <li>aka course notes/slides/courseware.</li>
 <li>blog series to replace “Let’s write a compiler”</li>
+<li><a href="http://jozefg.bitbucket.org/posts/2015-03-24-pcf.html" class="uri">http://jozefg.bitbucket.org/posts/2015-03-24-pcf.html</a></li>
 <li>“The essense of compilation” compiling a simple language in the smallest possible compiler. (inspired by <a href="http://www.timphilipwilliams.com/posts/2014-05-22-the-essence-of-compilation.html" class="uri">http://www.timphilipwilliams.com/posts/2014-05-22-the-essence-of-compilation.html</a>)</li>
 <li>skeleton
 <ul>
@@ -372,13 +384,6 @@
 <li>Compile to JVM.</li>
 <li>Compile to CLR/CLI.</li>
 </ul></li>
-</ul></li>
-</ul>
-<ul>
-<li><p>Demystifying Programming Languages</p></li>
-<li>Demystifying Dependent Types
-<ul>
-<li>aka course notes/slides for Dependent Types course</li>
 </ul></li>
 </ul>
 <h2 id="demystifying-automated-deduction">Demystifying Automated Deduction</h2>
@@ -411,18 +416,28 @@
 <li>To Scala or not to Scala, yep, that’s the question.</li>
 </ul></li>
 </ul>
+<h2 id="purescript">PureScript</h2>
 <ul>
 <li>Port <a href="https://twitter.com/li_haoyi">Li Haoyi</a>’s Scala-JS examples to PureScript.
 <ul>
 <li><a href="https://gist.github.com/lihaoyi/9443f8e0ecc68d1058ad" class="uri">https://gist.github.com/lihaoyi/9443f8e0ecc68d1058ad</a></li>
 <li>Idris &amp; Glorious GHCJS.</li>
 </ul></li>
-<li><p>Produce something (tech report?) with LaTeX. Perhaps via org-mode.</p></li>
-<li><p>Design and implement a Systems Programming Languages suitable for gamedev.</p></li>
+</ul>
+<h2 id="learn-latex">Learn LaTex</h2>
+<ul>
+<li>Produce something (tech report?) with LaTeX. Perhaps via org-mode.</li>
+</ul>
+<h2 id="pl-suitable-for-gamedev">PL suitable for gamedev</h2>
+<ul>
+<li>Design and implement a Systems Programming Languages suitable for gamedev.</li>
+<li>Gamedev’s would probably be super happy with Rust…</li>
+</ul>
+<h2 id="misc">Misc</h2>
+<ul>
 <li><p>Read “On Bullshit” “spoken word” as “performance art”.</p></li>
 <li><p>Write an essay/book “On Money”. inspired by “On Bullshit” and “On Assholes”</p></li>
 <li><p>Find ADC/Intec shares.</p></li>
-<li><p><a href="http://wiki.portal.chalmers.se/agda/pmwiki.php?n=Main.Publications">Papers using Agda</a></p></li>
 </ul>
         </div>
       </div>
