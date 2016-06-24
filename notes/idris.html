@@ -117,14 +117,31 @@
           </div>
         </div>
         <div class="col-sm-10 content">
-          <ul>
+          <h1 id="error-messages">Error messages</h1>
+<ul>
 <li>Pretty bad error messages. Let’s try to list some:</li>
+<li>This happened when I tried to import Data.Nat which does not exist. However, it doesn’t say in which file!</li>
 </ul>
+<blockquote>
+<p>$ make idris –build calc.ipkg Entering directory `./src’ Can’t find import Data/Nat make: <strong>*</strong> [build] Error 1</p>
+</blockquote>
 <ul>
-<li>Could do ‘implementation Layout String’ in calc.idr because it was defined in Lightyear.Strings (but I wasn’t importing that and Idris was asking for an implementation).</li>
+<li><p>Could do ‘implementation Layout String’ in calc.idr because it was defined in Lightyear.Strings (but I wasn’t importing that and Idris was asking for an implementation).</p></li>
+<li><p>Cannot say “export public”, only “public export”. Error message is:</p></li>
 </ul>
+<blockquote>
+<p>➯ make check doc idris –checkpkg babyml.ipkg Entering directory `./src’ ./Syntax.idr:16:1: error: expected: “)”, “-&gt;”, “;”, “in”, ambiguous use of a left-associative operator, ambiguous use of a non-associative operator, ambiguous use of a right-associative operator, declaration, end of input, matching application expression export public ^ Type checking ./Syntax.idr make: <strong>*</strong> [check] Error 1</p>
+</blockquote>
 <ul>
-<li>No (&gt;&gt;) operator?</li>
+<li>Weird error was due to not having a Show instance on one of my datatypes.</li>
+</ul>
+<blockquote>
+<p>➯ make idris –build babyml.ipkg Entering directory `./src’ Type checking ./TypeCheck.idr TypeCheck.idr:17:9: When checking right hand side of TypeCheck.check with expected type Either TypeError Ty</p>
+<p>When checking an application of function TypeCheck.typeError: Can’t disambiguate since no name has a suitable type: Prelude.List.++, Prelude.Strings.++ make: <strong>*</strong> [build] Error 1</p>
+</blockquote>
+<h1 id="other">Other</h1>
+<ul>
+<li>Expected to have an (&gt;&gt;) operator. Wasn’t there…</li>
 </ul>
         </div>
       </div>

@@ -119,11 +119,27 @@
         <div class="col-sm-10 content">
           <h1 id="now">Now</h1>
 <ul>
-<li>BabyML</li>
-<li>PFPL (book)</li>
+<li>[ ] <a href="http://caml.inria.fr/pub/papers/xleroy-modular_modules-jfp.pdf">A modular module system</a>, Xavier Leroy</li>
+<li>[X] PFPL (book)
+<ul>
+<li>[X] Chapter 1</li>
+<li>[X] Chapter 2</li>
+<li>[X] Chapter 3</li>
+<li>[X] Chapter 4</li>
+<li>[X] Chapter 5</li>
+<li>[X] Chapter 6</li>
+<li>[X] Chapter 7</li>
+<li>at Chapter 8, Function Definitions and Values</li>
+</ul></li>
 <li><a href="https://www.cis.upenn.edu/~bcpierce/sf/">Software Foundations</a> (book)
 <ul>
-<li>currently at Equiv.v assign<sub>aequiv</sub>.</li>
+<li>at Equiv.v assign<sub>aequiv</sub>.</li>
+</ul></li>
+<li>[-] Type Driven Development with Idris
+<ul>
+<li>[X] Chapter 1</li>
+<li>[ ] Chapter 2</li>
+<li>[ ] Chapter 3</li>
 </ul></li>
 </ul>
 <h2 id="so-you-wanna-learn-type-theory">So you wanna learn Type Theory</h2>
@@ -131,31 +147,54 @@
 <ul>
 <li>[X] Watch Frank Pfenning’s <a href="https://www.youtube.com/playlist?list=PL_zaeQ6Mf5FAYNk3GsK9tdj_Ce-eIfH_b">OPLSS-2012 lectures “Proof Theory Foundations”</a>.</li>
 <li>[ ] Read <a href="http://purelytheoretical.com/papers/ATCHC.pdf">A Tutorial on the Curry-Howard Correspondence</a> by Darryl McAdams.</li>
-<li>[ ] Read Frank Pfenning’s <a href="http://www.cs.cmu.edu/~fp/courses/15317-f09/schedule.html">lectures notes on Constructive Logic</a>.</li>
+<li>[ ] Read Frank Pfenning’s <a href="http://www.cs.cmu.edu/~fp/courses/15317-f09/schedule.html">lectures notes on Constructive Logic</a>.
+<ul>
+<li>at Lecture 4, “Proofs as Programs”</li>
+</ul></li>
 <li>[X] Watch Bob Harper’s <a href="https://www.youtube.com/playlist?list=PLGCr8P_YncjXRzdGq2SjKv5F2J8HUFeqN">OPLSS-2012 lectures “Type Theory Foundations”</a>.</li>
 <li>[ ] Read <a href="http://www.cse.chalmers.se/research/group/logic/book/book.pdf">Programming in Martin-Löf Type Theory</a>.</li>
 </ul>
 <h1 id="next">Next</h1>
 <h2 id="demystifying-idris">Demystifying Idris</h2>
 <ul>
+<li>Read “Modular modules” paper by Leroy.
+<ul>
+<li><a href="http://caml.inria.fr/pub/papers/xleroy-modular_modules-jfp.pdf">A modular module system</a> (<a href="http://wiki.call-cc.org/eggref/4/miniML">see here</a>).</li>
+<li><em>Mini ML</em> (and <em>Mini C</em>) is defined in paper.</li>
+</ul></li>
+<li>[ ] <a href="https://www.manning.com/books/type-driven-development-with-idris">Type-Driven Development with Idris</a>, by Edwin Brady (book).</li>
 <li>[ ] Implement a number of simple TT/PLs in Idris/ML (perhaps from TAPL).
 <ul>
 <li><a href="http://ozark.hendrix.edu/~yorgey/490/">STLC in Idris</a> and more (course notes by Brent Yorgey).</li>
 </ul></li>
-<li>[ ] BabyML in Idris
+<li>[-] idris-miniml
 <ul>
-<li>plzoo</li>
+<li>[X] idris-miniml port of plzoo/miniml</li>
+<li>[ ] Extend with ideas from <a href="http://ucsd-progsys.github.io/cse130/homeworks/hw4.html">CSE130’s NanoML</a>.</li>
 <li><a href="https://github.com/hanazuki/miniml" class="uri">https://github.com/hanazuki/miniml</a> (OCaml)</li>
 <li><a href="https://github.com/cadesalaberry/ocaml-practice/tree/master/hw5" class="uri">https://github.com/cadesalaberry/ocaml-practice/tree/master/hw5</a> (OCaml)</li>
 <li><a href="https://github.com/pierthodo/Mini-ML" class="uri">https://github.com/pierthodo/Mini-ML</a> (OCaml)</li>
 <li><a href="https://github.com/timcolonel/socs/tree/master/Comp%20302/hw5/mini-ml">https://github.com/timcolonel/socs/tree/master/Comp%20302/hw5/mini-ml</a> (SML)</li>
 <li><a href="https://github.com/bitonic/ml-w" class="uri">https://github.com/bitonic/ml-w</a> (Haskell)</li>
-<li><a href="https://esumii.github.io/min-caml/index-e.html">Min-Caml (website)</a> <a href="https://esumii.github.io/min-caml/paper.pdf">MinCaml: A Simple and Efficient Compiler for a Minimal Functional Language, Eijiro Sumii (paper)</a></li>
 <li>Coq verification of a MiniML <a href="https://github.com/coq-contribs/miniml" class="uri">https://github.com/coq-contribs/miniml</a></li>
-<li>Mini ML is defined in paper <a href="http://caml.inria.fr/pub/papers/xleroy-modular_modules-jfp.pdf">A modular module system</a> (<a href="http://wiki.call-cc.org/eggref/4/miniML">see here</a>)</li>
+<li>Very interesting looking verified <a href="http://www.cl.cam.ac.uk/~mom22/miniml/">mini-ml</a>.</li>
+</ul></li>
+<li>[ ] BabyML in Idris.
+<ul>
+<li>Haskellish syntax. Type applications. Function signatures.</li>
+<li>MLish with D-H-M type inference / unification.</li>
+<li><a href="http://steshaw.org/hm/">Ian Grant’s Hindly-Milner tutorial</a></li>
+</ul></li>
+<li>MinCaml “port”
+<ul>
+<li><a href="https://esumii.github.io/min-caml/index-e.html">Min-Caml (website)</a> <a href="https://esumii.github.io/min-caml/paper.pdf">paper</a></li>
+<li>Would like to see nanopass ideas applied here but using recursion schemes rather than schemey dynamic typing.</li>
+</ul></li>
+<li>[ ] Build a printf (puffnfresh has great video).
+<ul>
+<li>Other standard dependently-typed examples?</li>
 </ul></li>
 <li>[ ] BabyIdris in Idris</li>
-<li>[ ] <a href="https://www.manning.com/books/type-driven-development-with-idris">Type-Driven Development with Idris</a>, by Edwin Brady (book).</li>
 <li>[ ] Contribute to Idris.
 <ul>
 <li>[ ] Check out Paul Körbitz’s look at Idris internals:
@@ -166,9 +205,17 @@
 </ul></li>
 </ul></li>
 <li>[ ] <a href="https://gist.github.com/edwinb/46da18e2fc6be3f92177ea02ea4b3a1a">Edwin’s code for merge sort</a></li>
-<li>[ ] Courseware: notes/articles/slides.</li>
 <li>Is it possible to build total parser combinators?</li>
 <li>An LALR/LR/LL(k) parser generator would be nice (like Happy or something).</li>
+<li>Try deriving with the elaborator.
+<ul>
+<li><a href="https://gist.github.com/david-christiansen/8c66822a471bf929a22f" class="uri">https://gist.github.com/david-christiansen/8c66822a471bf929a22f</a></li>
+<li><a href="https://github.com/david-christiansen/derive-all-the-instances" class="uri">https://github.com/david-christiansen/derive-all-the-instances</a></li>
+</ul></li>
+<li><a href="http://toss.sourceforge.net/ocaml.html">Implement the NNF of formulas tutorial</a>. Looks like the same as the one from the tail end of ML for the Working Programmer.</li>
+<li>Implement the prover from ML for the Working Programmer.</li>
+<li>Courseware: notes/articles/slides.</li>
+<li>[X] idris-calc port of plzoo/calc</li>
 </ul>
 <h2 id="pl-type-systems-type-inference-semantics-design">PL: Type Systems / Type Inference / Semantics / Design</h2>
 <ul>
@@ -183,11 +230,21 @@
 </ul></li>
 <li>[ ] <a href="http://www.eecs.harvard.edu/~greg/cs256sp2005/" class="uri">http://www.eecs.harvard.edu/~greg/cs256sp2005/</a></li>
 <li>[ ] <a href="https://www.cl.cam.ac.uk/~gw104/dens.pdf">Denotational Semantics notes, Glynn Winskel</a></li>
-<li>[X] <a href="https://www.cis.upenn.edu/~sweirich/icfp-plmw15/slides/pottier.pdf">Type Inference (slides), François Pottier</a></li>
-<li>[ ] <a href="http://gallium.inria.fr/~fpottier/publis/fpottier-elaboration.pdf">Hindley-Milner Elaboration in Applicative Style, Functional pearl, François Pottier</a></li>
-<li>[ ] <a href="https://www.mpi-sws.org/~beta/papers/unicoq.pdf">A Unification Algorithm for COQ Featuring Universe Polymorphism and Overloading</a> (paper)</li>
 <li>[ ] <a href="https://www.cis.upenn.edu/~sweirich/icfp-plmw15/">PLMW @ ICFP 2015 - The Programming Languages Mentoring Workshop</a></li>
 <li>[ ] <a href="http://caml.inria.fr/pub/docs/u3-ocaml/">(UUU) Using, Understanding, and Unraveling The OCaml Language: From Practice to Theory and vice versa</a></li>
+</ul>
+<h3 id="type-inference">Type Inference</h3>
+<ul>
+<li>[X] <a href="https://www.cis.upenn.edu/~sweirich/icfp-plmw15/slides/pottier.pdf">Type Inference (slides), François Pottier</a></li>
+<li><a href="http://www.cs.bham.ac.uk/~krishnan/bidir.pdf">Complete and Easy Bidirectional Typechecking for Higher-Rank Polymorphism</a>, Joshua Dunfield, Neelakantan R. Krishnaswami
+<ul>
+<li>an implementation <a href="https://github.com/ollef/Bidirectional" class="uri">https://github.com/ollef/Bidirectional</a></li>
+<li><a href="http://www.cs.cmu.edu/~joshuad/talks/icfp13/Dunfield_icfp13-talk.pdf">Joshua’s bidir website</a></li>
+<li><a href="http://www.cs.cmu.edu/~joshuad/talks/icfp13/Dunfield_icfp13-talk.pdf">slides</a></li>
+</ul></li>
+<li><a href="http://steshaw.org/hm/">Ian Grant’s Hindly-Milner tutorial</a></li>
+<li>[ ] <a href="http://gallium.inria.fr/~fpottier/publis/fpottier-elaboration.pdf">Hindley-Milner Elaboration in Applicative Style, Functional pearl, François Pottier</a></li>
+<li>[ ] <a href="https://www.mpi-sws.org/~beta/papers/unicoq.pdf">A Unification Algorithm for COQ Featuring Universe Polymorphism and Overloading</a> (paper)</li>
 </ul>
 <h2 id="category-theory-side-of-the-tlc-triangle">Category Theory side of the TLC triangle</h2>
 <ul>
@@ -240,10 +297,26 @@
 <ul>
 <li><a href="http://cstheory.stackexchange.com/questions/19548/how-can-relational-parametricity-be-motivated" class="uri">http://cstheory.stackexchange.com/questions/19548/how-can-relational-parametricity-be-motivated</a></li>
 </ul></li>
+<li>[ ] Demystify “polymorphic recursion”.</li>
+<li>[ ] Demystify “universal polymorphism”.</li>
+<li>[ ] Demystify “existential polymorphism”.
+<ul>
+<li>See <a href="http://lambda-the-ultimate.org/node/4865#comment-78185">Andreas Rossberg’s comment(s) on Lambda the Ultimate</a>.</li>
 </ul></li>
+</ul></li>
+</ul>
+<blockquote>
+<p><strong><strong>It’s second-class vs first-class that matters</strong></strong></p>
+<p>That’s not quite right. You seem to be assuming that you can always statically monomorphise universal polymorphism, but that is only true if polymorphism is second-class (*). And in that case, it is just as true for existential polymorphism (e.g., some SML compilers “monomorphise” modules routinely). As soon as you have first-class polymorphism, though (e.g., higher-ranked polymorphic types), you cannot do that anymore, neither for universal nor for existential polymorphism. Furthermore, as naasking pointed out, you can encode existentials with universals then, so there really is no difference in the degree of static knowledge. In short, the compile time vs run time distinction does not hinge on universal vs existential polymorphism, but on second-class vs first-class polymorphism (and existentials in Haskell happen to be first-class). (*) And in fact, not even then, as Haskell’s counter-example of polymorphic recursion shows – contrary to popular belief, type class polymorphism is not static in Haskell, not even in plain H’98. Common optimisations notwithstanding.</p>
+</blockquote>
+<ul>
+<li>[ ] Encoding existentials with universals. <a href="Http://lambda-the-ultimate.org/node/4865#comment-78207">See here</a>.</li>
+</ul>
+<ul>
 <li>Explain variants such as UTT, OTT, CTT, CoC, CoiC, Idris TT…</li>
 <li><a href="http://www.cs.nott.ac.uk/~psztxa/talks/constructive-06.pdf">Should Extensional Type Theory be considered harmful?</a></li>
-<li><p>Recommended by Stephanie Weirich <a href="http://plmw2014.inria.fr/talks/weirich-plmw14.pdf" class="uri">http://plmw2014.inria.fr/talks/weirich-plmw14.pdf</a></p>
+<li><a href="http://www.cse.chalmers.se/~peterd/papers/historyidentitytype.pdf" class="uri">http://www.cse.chalmers.se/~peterd/papers/historyidentitytype.pdf</a></li>
+<li>Recommended by Stephanie Weirich <a href="http://plmw2014.inria.fr/talks/weirich-plmw14.pdf" class="uri">http://plmw2014.inria.fr/talks/weirich-plmw14.pdf</a>
 <ul>
 <li>Per Martin-Löf. Constructive mathematics and computer programming, 1982</li>
 <li>Nordstrom, Petersson, and Smith. Programming in Martin-Löf’s Type Theory, 1990</li>
@@ -254,10 +327,10 @@
 <li>Homotopy Type Theory: Univalent Foundations of Mathematics, 2013</li>
 </ul></li>
 <li><a href="https://github.com/michaelt/martin-lof">Works of Per Martin-Löf</a>. Jon Sterling recommends especially: Constructive mathematics and computer programming, On the Meanings of the Logical Constants and the Justification of Logical Laws, and Intuitionistic Type Theory.</li>
-<li><p><a href="http://www.jonmsterling.com/pdfs/meaning-explanations.pdf" class="uri">http://www.jonmsterling.com/pdfs/meaning-explanations.pdf</a></p></li>
+<li><a href="http://www.jonmsterling.com/pdfs/meaning-explanations.pdf" class="uri">http://www.jonmsterling.com/pdfs/meaning-explanations.pdf</a></li>
 </ul>
 <ul>
-<li>build courseware notes/articles/slides for TT/DTs course.</li>
+<li>Notes/articles/slides.</li>
 <li><a href="http://jozefg.bitbucket.org/posts/2015-09-27-flavors.html">Two Different Flavors of Type Theory</a>, Danny Gratzer</li>
 </ul>
 <h3 id="implement-dependently-typed-pl">Implement Dependently Typed PL</h3>
@@ -349,17 +422,19 @@
 </ul></li>
 <li>Expand/revise modules reading list <a href="http://steshaw.org/plt/modules" class="uri">http://steshaw.org/plt/modules</a>
 <ul>
-<li><a href="https://github.com/purescript/purescript/issues/1886#issuecomment-225209443">Nice modules reading list from Chris Allen</a></li>
-</ul></li>
 <li><a href="http://caml.inria.fr/pub/papers/xleroy-modular_modules-jfp.pdf">A modular module system</a>, Xavier Leroy</li>
+<li><a href="http://www.mpi-sws.org/~skilpat/modsem/" class="uri">http://www.mpi-sws.org/~skilpat/modsem/</a></li>
+<li><a href="https://web.archive.org/web/20110910021609/http://www.cs.cmu.edu/~rwh/courses/modules/">Bob Harper’s Modules courses</a> (from archive.org)</li>
 <li><a href="https://www.mpi-sws.org/~rossberg/f-ing/" class="uri">https://www.mpi-sws.org/~rossberg/f-ing/</a></li>
 <li><a href="https://www.mpi-sws.org/%7Erossberg/1ml/">https://www.mpi-sws.org/%7Erossberg/1ml/</a>
 <ul>
 <li>1ML approach seems related to an Idris module system</li>
 </ul></li>
-<li><a href="http://www.mpi-sws.org/~skilpat/modsem/" class="uri">http://www.mpi-sws.org/~skilpat/modsem/</a></li>
-<li><a href="https://web.archive.org/web/20110910021609/http://www.cs.cmu.edu/~rwh/courses/modules/">Bob Harper’s Modules courses</a> (from archive.org)</li>
-<li>Does <a href="https://www.mpi-sws.org/~rossberg/mixml/">MixML</a> go too far? i.e. is it principled?</li>
+<li>Does <a href="https://www.mpi-sws.org/~rossberg/mixml/">MixML</a> go too far? i.e. is it “principled”?
+<ul>
+<li>You end up with initialisation ordering issues like in OOP.</li>
+</ul></li>
+</ul></li>
 <li>Common extensions
 <ul>
 <li>separate compilation</li>
@@ -370,6 +445,16 @@
 <li><a href="http://www.cis.upenn.edu/~bcpierce/papers/modules-icfp.ps">Advanced Module Systems - a guide for the perplexed</a> Dreyer and Harper.</li>
 <li><a href="http://www.cs.ox.ac.uk/ralf.hinze/WG2.8/24/slides/derek.pdf">Why Applicator Functors Matter</a></li>
 <li><a href="http://www.ccs.neu.edu/home/amal/course/7480-s12/modules-notes.pdf" class="uri">http://www.ccs.neu.edu/home/amal/course/7480-s12/modules-notes.pdf</a></li>
+<li>OCaml course at Cornell
+<ul>
+<li><a href="http://www.cs.cornell.edu/courses/cs3110/2015fa/">cs3110/2015fa</a> pretty</li>
+<li><a href="http://www.cs.cornell.edu/courses/cs3110/2016sp/lecture_notes.php">cs3110/2016sp</a> more type theory</li>
+</ul></li>
+<li>Rossberg’s SML and sML (successor ML) implementations.
+<ul>
+<li><a href="http://www.mpi-sws.org/~rossberg/hamlet/" class="uri">http://www.mpi-sws.org/~rossberg/hamlet/</a></li>
+<li><a href="http://www.mpi-sws.org/~rossberg/hamlet/#successor-ml" class="uri">http://www.mpi-sws.org/~rossberg/hamlet/#successor-ml</a></li>
+</ul></li>
 </ul>
 <h3 id="modules-and-dependently-typed-languages">Modules and Dependently Typed Languages</h3>
 <ul>
@@ -421,6 +506,8 @@
 <li><a href="https://homotopytypetheory.org/book/" class="uri">https://homotopytypetheory.org/book/</a></li>
 <li><a href="https://www.cs.cmu.edu/~rwh/courses/hott/" class="uri">https://www.cs.cmu.edu/~rwh/courses/hott/</a></li>
 <li><a href="https://mdnahas.github.io/doc/Reading_HoTT_in_Coq.pdf" class="uri">https://mdnahas.github.io/doc/Reading_HoTT_in_Coq.pdf</a></li>
+<li><a href="https://inconsistentuniverse.wordpress.com/2014/02/04/simplicial-sets/">Simplical sets</a> (blog series)</li>
+<li><a href="https://inconsistentuniverse.wordpress.com/2014/02/05/thinking-about-the-design-space-of-higher-dimensional-type-theories/">Thinking about the design space of higher dimensional type theories</a></li>
 </ul>
 <h3 id="category-theory">Category Theory</h3>
 <ul>
@@ -618,11 +705,22 @@
 <ul>
 <li>Would like to be able to generate the lexer from an embedded description. Pretty sure that Manuel Chakravarty did work on this (I have a note somewhere’s).</li>
 <li>Let’s have something like this in Idris (and all the cool PLs). At least a Lex like thing.</li>
+<li><a href="http://programatica.cs.pdx.edu/P/hallgren.pdf">This</a> lexer for Haskell embedded a lexer generator.
+<ul>
+<li>Looks like it was used in hssources (is that a Hackage project?)</li>
+<li>Paper says that the regex generator was based on the presentation in Appel’s Modern Compiler Implementation in ML.</li>
+</ul></li>
 </ul>
 <h2 id="demystifiying-parser-generators">Demystifiying Parser Generators</h2>
 <ul>
-<li>I the approach of <a href="https://hackage.haskell.org/package/BNFC-meta">BNFC-meta</a>. It defines the grammar in the language (even if it’s via TH). Let’s have this in Idris (and the cool PLs). At least something like Happy.</li>
+<li>I like the approach of <a href="https://hackage.haskell.org/package/BNFC-meta">BNFC-meta</a>. It defines the grammar in the language (even if it’s via TH). Let’s have this in Idris (and the cool PLs). At least something like Happy.</li>
 <li>I know there’s supposed to be more general way to parse these days than LR and LALR but perhaps they are slow too (if not, embed those types of grammars instead!).</li>
+<li><a href="https://github.com/ollef/Earley/">Early</a> an embedded Early (context-free) parser combinator library in Haskell.</li>
+<li>Haskell style “layout rule”. PKA Landin’s offside rule.
+<ul>
+<li><a href="https://github.com/ghc/ghc/blob/master/compiler/parser/Lexer.x" class="uri">https://github.com/ghc/ghc/blob/master/compiler/parser/Lexer.x</a></li>
+<li><a href="https://michaeldadams.org/papers/layout_parsing/" class="uri">https://michaeldadams.org/papers/layout_parsing/</a></li>
+</ul></li>
 </ul>
 <h2 id="demystifying-automated-deduction">Demystifying Automated Deduction</h2>
 <ul>
@@ -790,6 +888,13 @@
 <h2 id="demystifying-isabellehol">Demystifying Isabelle/HOL</h2>
 <ul>
 <li><a href="http://homes.soic.indiana.edu/classes/spring2015/csci/b522-jsiek/">CSCI B522 Programming Language Foundations, Jeremy Siek (course)</a></li>
+</ul>
+<h2 id="writing-papers">Writing papers</h2>
+<ul>
+<li>org-mode</li>
+<li><a href="https://github.com/jkitchin/org-ref">org-ref</a></li>
+<li><a href="https://github.com/vikasrawal/orgpaper/blob/master/orgpapers.org" class="uri">https://github.com/vikasrawal/orgpaper/blob/master/orgpapers.org</a></li>
+<li><a href="https://github.com/kawabata/ox-pandoc">ox-pandoc</a></li>
 </ul>
 <h2 id="misc">Misc</h2>
 <ul>
