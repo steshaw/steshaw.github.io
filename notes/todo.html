@@ -117,16 +117,16 @@
           </div>
         </div>
         <div class="col-sm-10 content">
-          <h1 id="fri-08-jul-2016">Fri 08-Jul-2016</h1>
+          <h1 id="todo-now">Todo Now</h1>
+<ul>
+<li>[ ] 1 chapter of TTDwI</li>
+<li><p>[ ] 1 chapter of PiMLTT</p></li>
+<li>References from Edwin Brady’s “Implementation of Idris” paper.
 <ul>
 <li>[ ] <a href="http://www.cs.nott.ac.uk/~psztxa/publ/checking.pdf">Epigram Reloaded: A Standalone Typechecker for ETT</a></li>
 <li>[ ] <a href="https://www.andres-loeh.de/LambdaPi/">A tutorial implementation of a dependently typed lambda calculus</a></li>
-<li>[ ] 1 chapter of TTDwI</li>
-<li>[ ] 1 chapter of PiMLTT</li>
-</ul>
-<h1 id="todo-now">Todo Now</h1>
-<ul>
-<li><p>[ ] <a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.451.2794&amp;rep=rep1&amp;type=pdf">Unification Under a Mixed Prefix</a>, Dale Miller (paper).</p></li>
+<li>[ ] <a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.451.2794&amp;rep=rep1&amp;type=pdf">Unification Under a Mixed Prefix</a>, Dale Miller (paper).</li>
+</ul></li>
 <li>[-] PFPL (book). OPLSS 2016 chapters 1-10, 14-20, 37-38, 46-48.
 <ul>
 <li>[X] I Judgements and Rules
@@ -455,6 +455,10 @@
 </blockquote></li>
 </ul></li>
 <li>[ ] Encoding existentials with universals. <a href="Http://lambda-the-ultimate.org/node/4865#comment-78207">See here</a>.</li>
+<li><p>[ ] “axiom of reducibility” (<a href="http://cstheory.stackexchange.com/questions/7561/whats-the-relation-and-difference-between-calculus-of-inductive-constructions-a">seen here</a>)</p>
+<blockquote>
+<p>Unfortunately, Girard found that this system [Martin-Löf first TT] contradictory, prompting Martin-Löf to adopt “Russel-style” predicative universes, severely limiting the expressiveness of the theory (by effectively removing the axiom of reducibility) and making it slightly more complex (but had the advantage of making it consistent).</p>
+</blockquote></li>
 </ul></li>
 <li>Demystify equality
 <ul>
@@ -462,9 +466,32 @@
 <li>[X] <a href="http://kodu.ut.ee/~varmo/tday-andu/chapman-slides.pdf">A biased history of equality in type theory</a> (slides). Definitional, intentional, extentional, observational, John Major, Axiom K.</li>
 </ul></li>
 <li>Explain variants such as UTT, OTT, CTT, CoC, CIC, ETT, Idris TT…</li>
-<li>CIC
+<li><code>CoC</code> Calculus of Constructions
+<ul>
+<li>[X] <a href="https://ncatlab.org/nlab/show/calculus+of+constructions">nlab on <code>CoC</code></a>
+<ul>
+<li>Notes that <code>CoC</code> is an <strong>intensional</strong> dependent type theory.</li>
+</ul></li>
+<li>[ ] <a href="https://en.wikipedia.org/wiki/Calculus_of_constructions" class="uri">https://en.wikipedia.org/wiki/Calculus_of_constructions</a></li>
+<li>[ ] <a href="https://hal.inria.fr/inria-00076024/document">The calculus of constructions</a> T. Coquand, Gérard Huet (1986)</li>
+<li>The origin of <code>CoC</code> is Coqand’s PhD thesis which is naturally (but unfortunately) in French.</li>
+</ul></li>
+<li><code>CIC</code> Calculus of Inductive Constructions
 <ul>
 <li>[ ] <a href="https://coq.inria.fr/refman/Reference-Manual006.html">Chapter 4 Calculus of Inductive Constructions</a></li>
+<li>[ ] <a href="https://www.cs.uoregon.edu/research/summerschool/summer11/curriculum.html">The Calculus of Inductive Constructions</a>, Hugo Herbelin, OPLSS 2011
+<ul>
+<li>[ ] videos</li>
+<li>[ ] <a href="https://www.cs.uoregon.edu/research/summerschool/summer11/lectures/oplss-herbelin1.pdf">notes</a></li>
+</ul></li>
+<li><a href="http://adam.chlipala.net/papers/ChlipalaPhD/"> Implementing Certified Programming Language Tools in Dependent Type Theory</a> Adam Chlipala’s PhD dissertation
+<ul>
+<li>[ ] Section 2.1</li>
+</ul></li>
+</ul></li>
+<li>Comparing CoC and MLTT
+<ul>
+<li><a href="http://www.cs.ru.nl/~herman/PUBS/CC_CHiso.pdf">The Calculus of Constructions and Higher Order Logic</a>, Herman Geuvers, 1992</li>
 </ul></li>
 <li>Type theory comparisons
 <ul>
@@ -511,6 +538,7 @@
 <li><a href="http://cs.ru.nl/~freek/courses/tt-2013/" class="uri">http://cs.ru.nl/~freek/courses/tt-2013/</a></li>
 <li><a href="http://cs.ru.nl/~freek/courses/tt-2014/" class="uri">http://cs.ru.nl/~freek/courses/tt-2014/</a></li>
 <li><a href="http://cs.ru.nl/~freek/courses/tt-2015/" class="uri">http://cs.ru.nl/~freek/courses/tt-2015/</a></li>
+<li><a href="https://github.com/williamdemeo/TypeFunc">William Demeo’s Type Theory resources</a> (includes many courses etc)</li>
 </ul></li>
 <li><a href="http://jozefg.bitbucket.org/posts/2015-09-27-flavors.html">Two Different Flavors of Type Theory</a>, Danny Gratzer</li>
 <li><a href="http://oxij.org/note/BrutalDepTypes/">Brutal introduction to dependent types</a></li>
@@ -531,14 +559,23 @@
 </ul>
 <h3 id="implement-dependently-typed-pl">Implement Dependently Typed PL</h3>
 <ul>
-<li><p>Recommeded by Stephanie Weirich <a href="http://plmw2014.inria.fr/talks/weirich-plmw14.pdf" class="uri">http://plmw2014.inria.fr/talks/weirich-plmw14.pdf</a>. She says: “Don’t have to start from scratch” – Löh, McBride, Swierstra. “A Tutorial Implementation of a Dependently Typed Lambda Calculus.” – Lectures on implementing Idris (www.idris-lang.org) – My OPLSS 2013 lectures &amp; pi-forall github repository</p></li>
-<li>Dig up my version of Simply Easy[ier]. Do a version in Idris? Perhaps stick to Haskell and implement readline style repl.
+<li><p>Recommended by Stephanie Weirich <a href="http://plmw2014.inria.fr/talks/weirich-plmw14.pdf" class="uri">http://plmw2014.inria.fr/talks/weirich-plmw14.pdf</a>. She says: “Don’t have to start from scratch” – Löh, McBride, Swierstra. “A Tutorial Implementation of a Dependently Typed Lambda Calculus.” – Lectures on implementing Idris (www.idris-lang.org) – My OPLSS 2013 lectures &amp; pi-forall github repository</p></li>
+<li>Existing mini/tutorial DT PLs:
 <ul>
-<li><a href="https://github.com/freebroccolo/dtlc.rs" class="uri">https://github.com/freebroccolo/dtlc.rs</a></li>
+<li><a href="http://www2.tcs.ifi.lmu.de/~abel/miniagda/">MiniAgda</a> by Andreas Abel</li>
+<li><a href="https://github.com/jyp/nano-Agda" class="uri">https://github.com/jyp/nano-Agda</a> by Jean-Philippe Bernardy</li>
+<li><a href="https://github.com/larrytheliquid/uAgda" class="uri">https://github.com/larrytheliquid/uAgda</a> by Jean-Philippe Bernardy</li>
+<li><a href="https://github.com/jyp/sctt" class="uri">https://github.com/jyp/sctt</a> by Jean-Philippe Bernardy</li>
+<li><a href="https://hackage.haskell.org/package/pisigma" class="uri">https://hackage.haskell.org/package/pisigma</a></li>
+<li>LambdaPi / SimplyEasy</li>
+<li>Lennart Augustsson’s SimplyEasier</li>
+<li>pi-forall</li>
 </ul></li>
-<li><a href="https://github.com/jyp/nano-Agda" class="uri">https://github.com/jyp/nano-Agda</a></li>
-<li><a href="https://github.com/jyp/sctt" class="uri">https://github.com/jyp/sctt</a></li>
-<li><p><a href="https://hackage.haskell.org/package/pisigma" class="uri">https://hackage.haskell.org/package/pisigma</a></p></li>
+<li>Dig up my version of Simply Easy[ier].
+<ul>
+<li>[ ] Port to Idris.</li>
+<li>Other have done similar <a href="https://github.com/freebroccolo/dtlc.rs" class="uri">https://github.com/freebroccolo/dtlc.rs</a></li>
+</ul></li>
 <li><p>Contribute to Idris <a href="http://www.idris-lang.org/help-required/" class="uri">http://www.idris-lang.org/help-required/</a></p></li>
 </ul>
 <h3 id="learning-type-theory">Learning Type Theory</h3>
@@ -656,8 +693,8 @@
 <ul>
 <li><code>bound</code>
 <ul>
-<li>[ ] <a href="https://www.schoolofhaskell.com/user/edwardk/bound">Edward Kmett on Bound</a></li>
-<li>[ ] <a href="https://gist.github.com/cartazio/5727196">Higher order bound</a></li>
+<li>[ ] <a href="https://www.schoolofhaskell.com/user/edwardk/bound">Edward Kmett on Bound</a> (article)</li>
+<li>[ ] <a href="https://gist.github.com/cartazio/5727196">Higher order bound</a> (gist)</li>
 </ul></li>
 <li><code>unbound</code>
 <ul>
@@ -685,6 +722,11 @@
 <li>[ ] <a href="http://semantic-domain.blogspot.com.au/2015/03/abstract-binding-trees-addendum.html">Abstract Binding Trees, an addendum</a> – post by Neel Krishnaswami</li>
 <li>[X] Chapter 1 PFPL</li>
 <li>[ ] <a href="http://winterkoninkje.dreamwidth.org/103978.html">Well-typed ABTs</a></li>
+</ul></li>
+<li>Nominal Logic: A First Order Theory of Names and Binding
+<ul>
+<li>[ ] <a href="http://www.cl.cam.ac.uk/~amp12/talks/tacs01.pdf">slides</a></li>
+<li>[ ] <a href="https://www.cl.cam.ac.uk/~amp12/papers/nomlfo/nomlfo.pdf">paper</a></li>
 </ul></li>
 <li><a href="https://github.com/jyp/NameBindingSurvey/blob/master/WhiteBoard.md" class="uri">https://github.com/jyp/NameBindingSurvey/blob/master/WhiteBoard.md</a>
 <ul>
@@ -805,7 +847,8 @@
 </ul>
 <h2 id="demystify-agda">Demystify Agda</h2>
 <ul>
-<li>Computer Aided Formal Reasoning course at University of Nottingham <a href="http://www.cs.nott.ac.uk/~psztxa/g53cfr/" class="uri">http://www.cs.nott.ac.uk/~psztxa/g53cfr/</a></li>
+<li><a href="http://learnyouanagda.liamoc.net/toc.html">Learn you an Agda</a> by Liam O’Connor</li>
+<li><a href="http://www.cs.nott.ac.uk/~psztxa/g53cfr/">Computer Aided Formal Reasoning</a> course at University of Nottingham</li>
 <li><a href="http://wiki.portal.chalmers.se/agda/pmwiki.php?n=Main.Publications">Papers using Agda</a></li>
 <li><a href="http://people.inf.elte.hu/divip/AgdaTutorial/Index.html" class="uri">http://people.inf.elte.hu/divip/AgdaTutorial/Index.html</a></li>
 <li><a href="http://wiki.portal.chalmers.se/agda/pmwiki.php?n=Main.Othertutorials" class="uri">http://wiki.portal.chalmers.se/agda/pmwiki.php?n=Main.Othertutorials</a></li>
@@ -1133,7 +1176,17 @@
 <ul>
 <li><a href="http://homes.soic.indiana.edu/classes/spring2015/csci/b522-jsiek/">CSCI B522 Programming Language Foundations, Jeremy Siek (course)</a></li>
 </ul>
-<h2 id="demystify-compiler-correctness">Demystify Compiler Correctness</h2>
+<h2 id="demystify-verifiedcertified-programming">Demystify Verified/Certified Programming</h2>
+<ul>
+<li><a href="http://adam.chlipala.net/cpdt/">Certified Programming with Dependent Types</a>, Adam Chlipala</li>
+<li><code>[VFPiA]</code> Verified Functional Programming in Agda, Aaron Stump
+<ul>
+<li>[ ] <a href="https://svn.divms.uiowa.edu/repos/clc/projects/agda/book/book.pdf">draft version from August 2015</a></li>
+</ul>
+<blockquote>
+<p>The book is intended as an introduction for undergraduates who do not have a background in Agda, or type theory, or even functional programming. (Note that the book is not intended to be a reference on advanced features of Agda; that would be a great book for others on this list to write!) The goal of VFPiA is an introduction, for beginners, to ideas in applied type theory using Agda.</p>
+</blockquote></li>
+<li>Certified Compilers
 <ul>
 <li>Software Foundations</li>
 <li><a href="http://ltamer.sourceforge.net" class="uri">http://ltamer.sourceforge.net</a></li>
@@ -1142,6 +1195,9 @@
 <li>Leroy lectures at OPLSS</li>
 </ul></li>
 <li>CakeML</li>
+<li>[ ] <a href="http://adam.chlipala.net/papers/ChlipalaPhD/">Implementing Certified Programming Language Tools in Dependent Type Theory</a> Adam Chlipala’s PhD dissertation</li>
+<li>[ ] Program Logic for Certified Compilers, Andrew W. Appel (book)</li>
+</ul></li>
 </ul>
 <h2 id="demystify-nix-and-package-all-the-things">Demystify Nix and Package all the things</h2>
 <ul>
@@ -1246,7 +1302,7 @@
 <li><a href="http://eed3si9n.com/learning-scalaz/" class="uri">http://eed3si9n.com/learning-scalaz/</a></li>
 <li><a href="http://blog.jetbrains.com/scala/2016/04/21/how-to-contribute-to-intellij-scala-plugin/">Contribute to intellij-scala</a></li>
 </ul>
-<h2 id="misc">Misc</h2>
+<h2 id="miscellaneous">Miscellaneous</h2>
 <ul>
 <li>[ ] Find old ADC/Intec shares.</li>
 <li>[ ] Fix old Hakyll blog <a href="http://timbaumann.info/posts/2013-08-04-hakyll-github-and-travis.html" class="uri">http://timbaumann.info/posts/2013-08-04-hakyll-github-and-travis.html</a></li>
