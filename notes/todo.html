@@ -448,7 +448,7 @@
 <li>[ ] Demystify “universal polymorphism”.</li>
 <li>[ ] Demystify “existential polymorphism”.
 <ul>
-<li><p>See <a href="http://lambda-the-ultimate.org/node/4865#comment-78185">Andreas Rossberg’s comment(s) on Lambda the Ultimate</a>. asdf</p>
+<li><p>See <a href="http://lambda-the-ultimate.org/node/4865#comment-78185">Andreas Rossberg’s comment(s) on Lambda the Ultimate</a>.</p>
 <blockquote>
 <p><strong><strong>It’s second-class vs first-class that matters</strong></strong></p>
 <p>That’s not quite right. You seem to be assuming that you can always statically monomorphise universal polymorphism, but that is only true if polymorphism is second-class (*). And in that case, it is just as true for existential polymorphism (e.g., some SML compilers “monomorphise” modules routinely). As soon as you have first-class polymorphism, though (e.g., higher-ranked polymorphic types), you cannot do that anymore, neither for universal nor for existential polymorphism. Furthermore, as naasking pointed out, you can encode existentials with universals then, so there really is no difference in the degree of static knowledge. In short, the compile time vs run time distinction does not hinge on universal vs existential polymorphism, but on second-class vs first-class polymorphism (and existentials in Haskell happen to be first-class). (*) And in fact, not even then, as Haskell’s counter-example of polymorphic recursion shows – contrary to popular belief, type class polymorphism is not static in Haskell, not even in plain H’98. Common optimisations notwithstanding.</p>
