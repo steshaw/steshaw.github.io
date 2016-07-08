@@ -126,6 +126,7 @@
 <li>[ ] <a href="http://www.cs.nott.ac.uk/~psztxa/publ/checking.pdf">Epigram Reloaded: A Standalone Typechecker for ETT</a></li>
 <li>[ ] <a href="https://www.andres-loeh.de/LambdaPi/">A tutorial implementation of a dependently typed lambda calculus</a></li>
 <li>[ ] <a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.451.2794&amp;rep=rep1&amp;type=pdf">Unification Under a Mixed Prefix</a>, Dale Miller (paper).</li>
+<li>[ ] <a href="http://www.cs.nott.ac.uk/~psztxa/publ/pisigma-new.pdf">ΠΣ: Dependent Types without the Sugar</a></li>
 </ul></li>
 <li>[-] PFPL (book). OPLSS 2016 chapters 1-10, 14-20, 37-38, 46-48.
 <ul>
@@ -344,14 +345,14 @@
 <h1 id="todo-next">Todo Next</h1>
 <h2 id="demystify-idris">Demystify Idris</h2>
 <ul>
+<li>[ ] Implement a number of simple TT/PLs in Idris/ML (perhaps from TAPL).
+<ul>
+<li><a href="http://ozark.hendrix.edu/~yorgey/490/">STLC in Idris</a> and more (course notes by Brent Yorgey).</li>
+</ul></li>
 <li>[ ] <a href="https://www.youtube.com/watch?v=4i7KrG1Afbk">Idris: Practical Dependent Types with Practical Examples by Brian McKenna</a> (video)</li>
 <li>[ ] MiniCaml
 <ul>
 <li><a href="https://github.com/lambdataro/zam-test" class="uri">https://github.com/lambdataro/zam-test</a> looks to have OCaml MiniCaml and ZAM.</li>
-</ul></li>
-<li>[ ] Implement a number of simple TT/PLs in Idris/ML (perhaps from TAPL).
-<ul>
-<li><a href="http://ozark.hendrix.edu/~yorgey/490/">STLC in Idris</a> and more (course notes by Brent Yorgey).</li>
 </ul></li>
 <li>[-] idris-miniml
 <ul>
@@ -365,22 +366,10 @@
 <li>Coq verification of a MiniML <a href="https://github.com/coq-contribs/miniml" class="uri">https://github.com/coq-contribs/miniml</a></li>
 <li>Very interesting looking verified <a href="http://www.cl.cam.ac.uk/~mom22/miniml/">mini-ml</a>.</li>
 </ul></li>
-<li>[ ] <a href="https://github.com/steshaw/babyml">BabyML</a> in Idris.
-<ul>
-<li>Haskellish syntax. Type applications. Function signatures.</li>
-<li>MLish with D-H-M type inference / unification.</li>
-<li><a href="http://steshaw.org/hm/">Ian Grant’s Hindly-Milner tutorial</a></li>
-</ul></li>
-<li>MinCaml “port”
-<ul>
-<li><a href="https://esumii.github.io/min-caml/index-e.html">Min-Caml (website)</a> <a href="https://esumii.github.io/min-caml/paper.pdf">paper</a></li>
-<li>Would like to see nanopass ideas applied here but using recursion schemes rather than schemey dynamic typing.</li>
-</ul></li>
 <li>[ ] Build a printf (puffnfresh has great video).
 <ul>
 <li>Other standard dependently-typed examples?</li>
 </ul></li>
-<li>[ ] BabyIdris in Idris</li>
 <li>[ ] Contribute to Idris.
 <ul>
 <li>[ ] Check out Paul Körbitz’s look at Idris internals:
@@ -415,9 +404,12 @@
 <li>[X] <a href="https://eb.host.cs.st-andrews.ac.uk/drafts/impldtp.pdf">Idris, a General Purpose Dependently Typed Programming Language: Design and Implementation</a> – Edwin Brady</li>
 </ul>
 <h2 id="demystify-type-theory">Demystify Type Theory</h2>
+<h3 id="the-theory">The Theory</h3>
 <ul>
+<li>[ ] <a href="http://plato.stanford.edu/entries/type-theory/">Type Theory on SEP</a> by Thierry Coquand</li>
 <li>[ ] <a href="http://www.hedonisticlearning.com/posts/understanding-typing-judgments.html">Understanding typing judgements</a></li>
 <li>[ ] <a href="http://www.cs.ru.nl/~herman/PUBS/IntroTT-improved.pdf">Introduction to Type Theory</a>, Herman Geuvers</li>
+<li>[ ] <a href="http://www.cs.nott.ac.uk/~psztxa/publ/pisigma-new.pdf">ΠΣ: Dependent Types without the Sugar</a></li>
 <li>Liam O’Connor articles:
 <ul>
 <li>[ ] <a href="http://liamoc.net/posts/2015-08-23-verified-compiler.html" class="uri">http://liamoc.net/posts/2015-08-23-verified-compiler.html</a></li>
@@ -462,7 +454,7 @@
 </ul></li>
 <li>Demystify equality
 <ul>
-<li>[X] <a href="http://jozefg.bitbucket.org/posts/2014-08-06-equality.html" class="uri">http://jozefg.bitbucket.org/posts/2014-08-06-equality.html</a> (mentions Axiom K)</li>
+<li>[X] <a href="http://jozefg.bitbucket.org/posts/2014-08-06-equality.html">Equality is Hard</a> by Danny Gratzer. Mentions Axiom K.</li>
 <li>[X] <a href="http://kodu.ut.ee/~varmo/tday-andu/chapman-slides.pdf">A biased history of equality in type theory</a> (slides). Definitional, intentional, extentional, observational, John Major, Axiom K.</li>
 </ul></li>
 <li>Explain variants such as UTT, OTT, CTT, CoC, CIC, ETT, Idris TT…</li>
@@ -557,27 +549,6 @@
 <li>[ ] <a href="http://www.cambridge.org/cr/academic/subjects/computer-science/programming-languages-and-applied-logic/type-theory-and-formal-proof-introduction">Type Theory and Formal Proof, An Introduction</a> by Rob Nederpelt and Herman Geuvers</li>
 <li>Notes/articles/slides/courseware.</li>
 </ul>
-<h3 id="implement-dependently-typed-pl">Implement Dependently Typed PL</h3>
-<ul>
-<li><p>Recommended by Stephanie Weirich <a href="http://plmw2014.inria.fr/talks/weirich-plmw14.pdf" class="uri">http://plmw2014.inria.fr/talks/weirich-plmw14.pdf</a>. She says: “Don’t have to start from scratch” – Löh, McBride, Swierstra. “A Tutorial Implementation of a Dependently Typed Lambda Calculus.” – Lectures on implementing Idris (www.idris-lang.org) – My OPLSS 2013 lectures &amp; pi-forall github repository</p></li>
-<li>Existing mini/tutorial DT PLs:
-<ul>
-<li><a href="http://www2.tcs.ifi.lmu.de/~abel/miniagda/">MiniAgda</a> by Andreas Abel</li>
-<li><a href="https://github.com/jyp/nano-Agda" class="uri">https://github.com/jyp/nano-Agda</a> by Jean-Philippe Bernardy</li>
-<li><a href="https://github.com/larrytheliquid/uAgda" class="uri">https://github.com/larrytheliquid/uAgda</a> by Jean-Philippe Bernardy</li>
-<li><a href="https://github.com/jyp/sctt" class="uri">https://github.com/jyp/sctt</a> by Jean-Philippe Bernardy</li>
-<li><a href="https://hackage.haskell.org/package/pisigma" class="uri">https://hackage.haskell.org/package/pisigma</a></li>
-<li>LambdaPi / SimplyEasy</li>
-<li>Lennart Augustsson’s SimplyEasier</li>
-<li>pi-forall</li>
-</ul></li>
-<li>Dig up my version of Simply Easy[ier].
-<ul>
-<li>[ ] Port to Idris.</li>
-<li>Other have done similar <a href="https://github.com/freebroccolo/dtlc.rs" class="uri">https://github.com/freebroccolo/dtlc.rs</a></li>
-</ul></li>
-<li><p>Contribute to Idris <a href="http://www.idris-lang.org/help-required/" class="uri">http://www.idris-lang.org/help-required/</a></p></li>
-</ul>
 <h3 id="learning-type-theory">Learning Type Theory</h3>
 <p>Adapted from <a href="https://github.com/type-theory/learn-tt" class="uri">https://github.com/type-theory/learn-tt</a></p>
 <ul>
@@ -655,6 +626,40 @@
 <li>[ ] 2015</li>
 </ul></li>
 </ul></li>
+</ul>
+<h3 id="implement-a-dependently-typed-programming-language">Implement a Dependently-Typed Programming Language</h3>
+<ul>
+<li><p>[ ] BabyIdris in Idris</p>
+<ul>
+<li>Start by porting my Simply Easier code scrapped from Augustsson’s blog post.</li>
+<li>Inspired by existing mini/tutorial DT PLs:
+<ul>
+<li><a href="http://www2.tcs.ifi.lmu.de/~abel/miniagda/">MiniAgda</a> by Andreas Abel</li>
+<li><a href="https://github.com/jyp/nano-Agda" class="uri">https://github.com/jyp/nano-Agda</a> by Jean-Philippe Bernardy</li>
+<li><a href="https://github.com/larrytheliquid/uAgda" class="uri">https://github.com/larrytheliquid/uAgda</a> by Jean-Philippe Bernardy</li>
+<li><a href="https://github.com/jyp/sctt" class="uri">https://github.com/jyp/sctt</a> by Jean-Philippe Bernardy</li>
+<li><a href="https://hackage.haskell.org/package/pisigma" class="uri">https://hackage.haskell.org/package/pisigma</a>
+<ul>
+<li>code from the paper <a href="http://www.cs.nott.ac.uk/~psztxa/publ/pisigma-new.pdf">ΠΣ: Dependent Types without the Sugar</a></li>
+</ul></li>
+<li>LambdaPi / SimplyEasy</li>
+<li>Lennart Augustsson’s SimplyEasier</li>
+<li>pi-forall</li>
+<li><a href="https://github.com/freebroccolo/dtlc.rs">dtlc.rs</a> – also inspired by Simply Easy/Easier!</li>
+<li><a href="http://www.cse.chalmers.se/~coquand/def.pdf">A Calculus of Definitions</a> by Coquand (2008). Contains a MiniTT implemented in Haskell.</li>
+</ul></li>
+<li>Implementing your own DT-PL is recommended by Stephanie Weirich in <a href="http://plmw2014.inria.fr/talks/weirich-plmw14.pdf">this talk</a>. Stephanie says: “Don’t have to start from scratch”, refering to. – Löh, McBride, Swierstra. “A Tutorial Implementation of a Dependently Typed Lambda Calculus.”. – <a href="http://www.idris-lang.org/dependently-typed-functional-programming-with-idris-course-videos-and-slides/">Lecture on implementing Idris</a> by Edwin Brady
+<ul>
+<li><a href="http://www.cs.st-andrews.ac.uk/~eb/talks/idris-cph-lec4.pdf">slides</a></li>
+<li><a href="https://vimeo.com/62059837">video</a></li>
+</ul>
+– Her own OPLSS 2014 lectures on pi-forall.
+<ul>
+<li><a href="https://www.cs.uoregon.edu/research/summerschool/summer14/curriculum.html">Designing Dependently-Typed Programming Languages lectures</a>.</li>
+<li><a href="https://github.com/sweirich/pi-forall" class="uri">https://github.com/sweirich/pi-forall</a></li>
+</ul></li>
+</ul></li>
+<li><p>Work on the real thing – <a href="http://www.idris-lang.org/help-required/">contribute to Idris!</a></p></li>
 </ul>
 <h2 id="demystify-pls-type-systems-type-inference-semantics-design">Demystify PLs: Type Systems / Type Inference / Semantics / Design</h2>
 <ul>
@@ -834,7 +839,19 @@
 <li>[ ] <a href="http://gallium.inria.fr/~fpottier/publis/fpottier-elaboration.pdf">Hindley-Milner Elaboration in Applicative Style, Functional pearl, François Pottier</a></li>
 <li>[ ] <a href="https://jonathan.protzenko.fr/papers/iwil15.pdf">Functional Pearl: the Proof Search Monad</a>, Jonathan Protzenko</li>
 </ul></li>
-<li><a href="http://gallium.inria.fr/~xleroy/bibrefs/leroy.html">Xavier Leroys publications</a></li>
+<li>Researchers:
+<ul>
+<li><a href="http://gallium.inria.fr/~xleroy/bibrefs/leroy.html">Xavier Leroy</a></li>
+<li><a href="https://edwinb.wordpress.com/publications/">Edwin Brady</a></li>
+<li><a href="http://strictlypositive.org/publications.html">Conor McBride</a></li>
+<li><a href="http://www.cs.bham.ac.uk/~krishnan/">Neel Krishnaswami</a></li>
+</ul></li>
+<li>Reading Groups
+<ul>
+<li><a href="http://www.mpi-sws.org/~skilpat/plerg/">plerg – Defunct PL reading group at MPI-SWS</a></li>
+<li><a href="http://www.contrib.andrew.cmu.edu/~rjsimmon/concertrg/">concertrg – Defunct PL reading group at CMU</a></li>
+<li>Must be some good “papers we like” groups doing PL-mostly papers</li>
+</ul></li>
 </ul>
 <h2 id="demystify-coq">Demystify Coq</h2>
 <ul>
@@ -1083,15 +1100,29 @@
 <h2 id="demystify-compilers">Demystify Compilers</h2>
 <ul>
 <li>Develop (literate) code, articles, slides, notes, articles.</li>
-<li>Writing/blog series on BabyML / BabyIdris:
+<li>[ ] <a href="https://github.com/steshaw/babyml">BabyML</a> in Idris.
 <ul>
-<li>Let noone ever recommend “Let’s write a compiler” ever again.</li>
-<li>Stephen Diehl is doing a very nice job for a Haskell-like language so let’s stick with CBV and move into DTs.</li>
-<li>“The essense of compilation” compiling a simple language in the smallest possible compiler (<a href="http://www.timphilipwilliams.com/posts/2014-05-22-the-essence-of-compilation.html">inspiration</a>). More than Hutton’s Razor!</li>
-<li><a href="http://jozefg.bitbucket.org/posts/2015-03-24-pcf.html" class="uri">http://jozefg.bitbucket.org/posts/2015-03-24-pcf.html</a></li>
-<li>There seem to be a few Min/Mini-ML/NanoML and NanoAgda’s about.</li>
-<li>Also Simply Easy / Simply Easier / PiSigma and pi-forall.</li>
+<li>MLish: strict/CBV, D-H-M type inference / unification.</li>
+<li>No modules (for now).</li>
+<li>However with Haskellish syntax. Type applications. Function signatures.</li>
+<li>Favour : as in Idris/Agda.</li>
+<li>Use <a href="http://steshaw.org/hm/">Ian Grant’s Hindly-Milner tutorial</a>.</li>
+<li>[ ] Write articles on the different components.
+<ul>
+<li>Someone must stop folks from recommending “Let’s write a compiler”.</li>
+<li>Movation/Inspiration:
+<ul>
+<li>Stephen Diehl’s writing on his Haskell-like language.</li>
+<li><a href="http://www.timphilipwilliams.com/posts/2014-05-22-the-essence-of-compilation.html">The essence of Compilation</a> by Tim Philip Williams.</li>
+<li><a href="http://jozefg.bitbucket.org/posts/2015-03-24-pcf.html">A Tiny Compiler For A Typed Higher Order Language</a> by Danny Gratzer.
+<ul>
+<li>PCF to C</li>
+<li><a href="http://github.com/jozefg/pcf" class="uri">http://github.com/jozefg/pcf</a></li>
 </ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><a href="#BabyIdris" class="uri">#BabyIdris</a></li>
 <li>Main outline
 <ul>
 <li>First there’s a high-level language (probably interpreter or “bytecode” compiler“. Basically the”front-end“.
@@ -1124,7 +1155,13 @@
 <li>Compile to CLR/CLI (pro’ly unnecessary).</li>
 </ul></li>
 </ul></li>
-<li>MinCaml looks great particularly for the middle to backend. Would be nice to have polymorphism (i.e. nicer PL) in the front-end though.</li>
+<li>[ ] Port MinCaml to Idris.
+<ul>
+<li><a href="https://esumii.github.io/min-caml/index-e.html">Min-Caml (website)</a> <a href="https://esumii.github.io/min-caml/paper.pdf">paper</a></li>
+<li>Looks like a nice overview from the middle to backend.</li>
+<li>Would like to see nanopass ideas applied here but using recursion schemes rather than schemey dynamic typing.</li>
+<li>Also nice to add polymorphism in the front-end language if viable.</li>
+</ul></li>
 <li><a href="https://www.cs.indiana.edu/~sabry/teaching/b522/s03/">CSCI B522 Programming Language Foundations Amr Sabry (course)</a>
 <ul>
 <li>MinML/NanoML semantics. Be nice to write it up in `org-mode` and/or <br /><span class="math display">$$\LaTex$$</span><br />.</li>
