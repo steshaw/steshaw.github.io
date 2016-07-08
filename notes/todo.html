@@ -417,6 +417,7 @@
 <h2 id="demystify-type-theory">Demystify Type Theory</h2>
 <ul>
 <li>[ ] <a href="http://www.hedonisticlearning.com/posts/understanding-typing-judgments.html">Understanding typing judgements</a></li>
+<li>[ ] <a href="http://www.cs.ru.nl/~herman/PUBS/IntroTT-improved.pdf">Introduction to Type Theory</a>, Herman Geuvers</li>
 <li>Liam O’Connor articles:
 <ul>
 <li>[ ] <a href="http://liamoc.net/posts/2015-08-23-verified-compiler.html" class="uri">http://liamoc.net/posts/2015-08-23-verified-compiler.html</a></li>
@@ -447,23 +448,24 @@
 <li>[ ] Demystify “universal polymorphism”.</li>
 <li>[ ] Demystify “existential polymorphism”.
 <ul>
-<li>See <a href="http://lambda-the-ultimate.org/node/4865#comment-78185">Andreas Rossberg’s comment(s) on Lambda the Ultimate</a>.</li>
-</ul></li>
-</ul></li>
-</ul>
-<p>#+begin<sub>quote</sub> <strong>*It’s second-class vs first-class that matters*</strong></p>
+<li><p>See <a href="http://lambda-the-ultimate.org/node/4865#comment-78185">Andreas Rossberg’s comment(s) on Lambda the Ultimate</a>. asdf</p>
+<blockquote>
+<p><strong><strong>It’s second-class vs first-class that matters</strong></strong></p>
 <p>That’s not quite right. You seem to be assuming that you can always statically monomorphise universal polymorphism, but that is only true if polymorphism is second-class (*). And in that case, it is just as true for existential polymorphism (e.g., some SML compilers “monomorphise” modules routinely). As soon as you have first-class polymorphism, though (e.g., higher-ranked polymorphic types), you cannot do that anymore, neither for universal nor for existential polymorphism. Furthermore, as naasking pointed out, you can encode existentials with universals then, so there really is no difference in the degree of static knowledge. In short, the compile time vs run time distinction does not hinge on universal vs existential polymorphism, but on second-class vs first-class polymorphism (and existentials in Haskell happen to be first-class). (*) And in fact, not even then, as Haskell’s counter-example of polymorphic recursion shows – contrary to popular belief, type class polymorphism is not static in Haskell, not even in plain H’98. Common optimisations notwithstanding.</p>
-<p>#+end<sub>quote</sub></p>
-<ul>
+</blockquote></li>
+</ul></li>
 <li>[ ] Encoding existentials with universals. <a href="Http://lambda-the-ultimate.org/node/4865#comment-78207">See here</a>.</li>
-</ul>
-<ul>
+</ul></li>
 <li>Demystify equality
 <ul>
 <li>[X] <a href="http://jozefg.bitbucket.org/posts/2014-08-06-equality.html" class="uri">http://jozefg.bitbucket.org/posts/2014-08-06-equality.html</a> (mentions Axiom K)</li>
 <li>[X] <a href="http://kodu.ut.ee/~varmo/tday-andu/chapman-slides.pdf">A biased history of equality in type theory</a> (slides). Definitional, intentional, extentional, observational, John Major, Axiom K.</li>
 </ul></li>
-<li>Explain variants such as UTT, OTT, CTT, CoC, CoiC, Idris TT…</li>
+<li>Explain variants such as UTT, OTT, CTT, CoC, CIC, ETT, Idris TT…</li>
+<li>CIC
+<ul>
+<li>[ ] <a href="https://coq.inria.fr/refman/Reference-Manual006.html">Chapter 4 Calculus of Inductive Constructions</a></li>
+</ul></li>
 <li>Type theory comparisons
 <ul>
 <li>Equality
@@ -524,7 +526,8 @@
 <li>[X] <a href="https://hackage.haskell.org/package/morte-1.6.0/docs/Morte-Tutorial.html">Morte tutorial</a></li>
 </ul></li>
 <li>[ ] <a href="http://winterkoninkje.dreamwidth.org/101420.html">Introduction to recursive types</a> by Wren Romano. An annotated bibliography / reading list.</li>
-<li>Notes/articles/slides.</li>
+<li>[ ] <a href="http://www.cambridge.org/cr/academic/subjects/computer-science/programming-languages-and-applied-logic/type-theory-and-formal-proof-introduction">Type Theory and Formal Proof, An Introduction</a> by Rob Nederpelt and Herman Geuvers</li>
+<li>Notes/articles/slides/courseware.</li>
 </ul>
 <h3 id="implement-dependently-typed-pl">Implement Dependently Typed PL</h3>
 <ul>
@@ -651,12 +654,12 @@
 </ul>
 <h2 id="demystify-name-binding">Demystify Name binding</h2>
 <ul>
-<li><code>bound</code> <code>bound</code>
+<li><code>bound</code>
 <ul>
 <li>[ ] <a href="https://www.schoolofhaskell.com/user/edwardk/bound">Edward Kmett on Bound</a></li>
 <li>[ ] <a href="https://gist.github.com/cartazio/5727196">Higher order bound</a></li>
 </ul></li>
-<li><code>unbound</code> <code>unbound</code>
+<li><code>unbound</code>
 <ul>
 <li><a href="http://hackage.haskell.org/package/unbound" class="uri">http://hackage.haskell.org/package/unbound</a></li>
 <li><a href="https://hackage.haskell.org/package/unbound-generics" class="uri">https://hackage.haskell.org/package/unbound-generics</a></li>
@@ -695,7 +698,7 @@
 <li><a href="http://requestforlogic.blogspot.com.au/2010/11/totally-nameless-representation.html" class="uri">http://requestforlogic.blogspot.com.au/2010/11/totally-nameless-representation.html</a></li>
 <li>Namely Painless
 <ul>
-<li>[X] Namely Painless Technical Report</li>
+<li>[X] <a href="https://nicolaspouillard.fr/publis/jfp-unified-binders.pdf">A unified treatment of syntax with binders</a>, Nicolas Pouillard and François Pottier</li>
 <li>[ ] <a href="https://nicolaspouillard.fr/publis/namely-painless-defense-version.pdf" class="uri">https://nicolaspouillard.fr/publis/namely-painless-defense-version.pdf</a></li>
 </ul></li>
 <li>HOS
@@ -703,6 +706,10 @@
 <li><a href="http://www.cse.chalmers.se/%7Eemax/documents/axelsson2013using.pdf">Using Circular Programs for Higher-Order Syntax, Functional pearl</a>, Emil Axelsson Koen Claessen</li>
 </ul></li>
 <li><a href="https://namebinding.wordpress.com/" class="uri">https://namebinding.wordpress.com/</a></li>
+<li><p><a href="http://www2.tcs.ifi.lmu.de/~schoepp/Docs/bunches.pdf">A Dependent Type Theory with Names and Binding</a> A categorically <em>yikes</em> abstract.</p>
+<blockquote>
+<p>We consider the problem of providing formal support for working with abstract syntax involving variable binders. Gabbay and Pitts have shown in their work on Fraenkel-Mostowski (FM) set theory how to address this through first-class names: in this paper we present a dependent type theory for programming and reasoning with such names. Our development is based on a categorical axiomatisation of names, with freshness as its central notion. An associated adjunction captures constructions known from FM theory: the freshness quantifier N, name-binding, and unique choice of fresh names. The Schanuel topos – the category underlying FM set theory – is an instance of this axiomatisation. Working from the categorical structure, we define a dependent type theory which it models. This uses bunches to integrate the monoidal structure corresponding to freshness, from which we define novel multiplicative dependent products Π∗ and sums Σ∗, as well as a propositions-as-types generalisation H of the freshness quantifier.</p>
+</blockquote></li>
 </ul>
 <h2 id="demystify-proof-theory">Demystify Proof Theory</h2>
 <ul>
@@ -1175,19 +1182,17 @@
 <li>[-] 2016 (<a href="https://www.youtube.com/playlist?list=PLiHLLF-foEez5Dis-VqoGcg3WepdMh4XT">Youtube playlist</a>)
 <ul>
 <li>[X] Programming Languages Background — Robert Harper and Dan Licata</li>
-<li>[-] Category Theory Background — Ed Morehouse</li>
-</ul></li>
-</ul></li>
-</ul>
+<li>[-] Category Theory Background — Ed Morehouse
 <ul>
 <li>[X] Lecture 1</li>
 <li>[X] Lecture 2</li>
 <li>[ ] Lecture 3</li>
-<li>[ ] Lecture 4
-<ul>
+<li>[ ] Lecture 4</li>
+</ul></li>
 <li>[ ] Logical Relations — Patricia Johann</li>
 <li>[ ] Principles of Type Refinement — Noam Zeilberger</li>
 <li>[ ] Logical relations/Compiler verification — Amal Ahmed</li>
+</ul></li>
 </ul></li>
 </ul>
 <h2 id="writing-papers">Writing papers</h2>
