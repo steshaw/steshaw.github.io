@@ -22,10 +22,14 @@
   
 *** Project n Paper ideas
 
-    - elisp backend/codegen
-    - Calculating Correct Compilers in Idris
-    - total parser combinator library
-    - bidirectional type inference
+    - elisp backend/codegen.
+    - Idris in Idris (probably limited the backend/codegen passes).
+    - Using Elaborator reflection to do Idris-in-Idris for high-level to TT
+      transformations.
+    - Nanopass in Idris (perhaps with Idris in Idris). Should be faster.
+    - Calculating Correct Compilers in Idris.
+    - total parser combinator library.
+    - bidirectional type inference.
 
 *** Read "Type Driven Development with Idris"
 
@@ -301,7 +305,7 @@
     - [ ] Demystify "polymorphic recursion".
     - [ ] Demystify "universal polymorphism".
     - [ ] Demystify "relevance" --- something to do with the distinction between
-      TTs that separate Pi and forall and those that don't.
+      TTs that separate Π and ∀ and those that don't.
     - [ ] Demystify "existential polymorphism".
       - See [[http://lambda-the-ultimate.org/node/4865#comment-78185][Andreas Rossberg's comment(s) on Lambda the Ultimate]].
         #+begin_quote
