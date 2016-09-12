@@ -1,7 +1,5 @@
 * Todo Now
 
-  - Contact Jon Sterling about PhD.
-
   - PLC [[https://www.itu.dk/people/sestoft/plc/][Programming Language Concepts]] by Peter Sestoft
     - Courses
       -  http://www.itu.dk/courses/BPRD/E2010/
@@ -19,12 +17,22 @@
     - global coherence
     - resolution algorithm
 
-  - Probably shouldn't have REPL/console command `execute` with alias `exec` when
-    `--execute` and `--exec` are semantically different command line options.
-  
+  - Probably shouldn't have REPL/console command =execute= with alias =exec= when
+    =--execute= and =--exec= are semantically different command line options.
+
+  - Rectify the FIXME IN =IRTS/Lang.hs= about using =LAlt'= for all the IRs.
+
+  - Fix IRTS.Bytecode.isConst -> collapse False cases together.
+
+  - Get -Wall -Wwarn-tabs happening.
+    - Noticing many errors with Intero. Need to turn on GHC warnings. 
+    - There are many non-exhaustive patterns warnings!
+    - -Werror already turns on with "CI" flag.
+
 *** Project n Paper ideas
 
     - elisp backend/codegen.
+      - Consider using the "portable" IR (CodegenInfo->JSON) in order to write the backend in Idris.
     - Idris in Idris (probably limited the backend/codegen passes).
     - Using Elaborator reflection to do Idris-in-Idris for high-level to TT
       transformations.
