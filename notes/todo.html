@@ -118,17 +118,10 @@
         </div>
         <div class="col-sm-10 content">
           <h1 id="todo-now">Todo Now</h1>
+<h2 id="digging-into-type-theory">Digging into Type Theory</h2>
 <ul>
-<li>PLC <a href="https://www.itu.dk/people/sestoft/plc/">Programming Language Concepts</a> by Peter Sestoft
-<ul>
-<li>Courses
-<ul>
-<li><a href="http://www.itu.dk/courses/BPRD/E2010/" class="uri">http://www.itu.dk/courses/BPRD/E2010/</a></li>
-<li><a href="http://www.itu.dk/courses/BPRD/E2011/" class="uri">http://www.itu.dk/courses/BPRD/E2011/</a></li>
-<li><a href="http://www.itu.dk/courses/BPRD/E2012/" class="uri">http://www.itu.dk/courses/BPRD/E2012/</a></li>
-<li><a href="http://www.itu.dk/courses/BPRD/E2013/" class="uri">http://www.itu.dk/courses/BPRD/E2013/</a></li>
-</ul></li>
-</ul></li>
+<li>[ ] “Intuistionistic Type Theory” Per Martin-Loef</li>
+<li>[ ] “Naïve Computational Type Theory” by Robert Constable</li>
 </ul>
 <h2 id="idris">Idris</h2>
 <ul>
@@ -142,12 +135,6 @@
 <li><p>Probably shouldn’t have REPL/console command <code>execute</code> with alias <code>exec</code> when <code>--execute</code> and <code>--exec</code> are semantically different command line options.</p></li>
 <li><p>Rectify the FIXME IN <code>IRTS/Lang.hs</code> about using <code>LAlt'</code> for all the IRs.</p></li>
 <li><p>Fix IRTS.Bytecode.isConst -&gt; collapse False cases together.</p></li>
-<li>Get -Wall -Wwarn-tabs happening.
-<ul>
-<li>Noticing many errors with Intero. Need to turn on GHC warnings.</li>
-<li>There are many non-exhaustive patterns warnings!</li>
-<li>-Werror already turns on with “CI” flag.</li>
-</ul></li>
 </ul>
 <h3 id="project-n-paper-ideas">Project n Paper ideas</h3>
 <ul>
@@ -198,6 +185,19 @@
 </ul></li>
 </ul></li>
 </ul>
+<h1 id="todo-soon">Todo Soon</h1>
+<ul>
+<li>PLC <a href="https://www.itu.dk/people/sestoft/plc/">Programming Language Concepts</a> by Peter Sestoft
+<ul>
+<li>Courses
+<ul>
+<li><a href="http://www.itu.dk/courses/BPRD/E2010/" class="uri">http://www.itu.dk/courses/BPRD/E2010/</a></li>
+<li><a href="http://www.itu.dk/courses/BPRD/E2011/" class="uri">http://www.itu.dk/courses/BPRD/E2011/</a></li>
+<li><a href="http://www.itu.dk/courses/BPRD/E2012/" class="uri">http://www.itu.dk/courses/BPRD/E2012/</a></li>
+<li><a href="http://www.itu.dk/courses/BPRD/E2013/" class="uri">http://www.itu.dk/courses/BPRD/E2013/</a></li>
+</ul></li>
+</ul></li>
+</ul>
 <h1 id="todo-next">Todo Next</h1>
 <h2 id="ultimate-goto">Ultimate GOTO</h2>
 <ul>
@@ -222,17 +222,6 @@
 <li>[ ] Simply Easy (again)</li>
 <li>[ ] Lambda Pi</li>
 <li>[ ] Simply Easier (again)</li>
-</ul>
-<h2 id="idris-tt">Idris’ TT</h2>
-<ul>
-<li>References from Edwin Brady’s “Idris, a General Purpose Dependently Typed Programming Language: Design and Implementation” paper.
-<ul>
-<li>[ ] <a href="http://www.cs.nott.ac.uk/~psztxa/publ/checking.pdf">Epigram Reloaded: A Standalone Typechecker for ETT</a></li>
-<li>[X] <a href="https://www.andres-loeh.de/LambdaPi/">A tutorial implementation of a dependently typed lambda calculus</a></li>
-<li>[ ] <a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.451.2794&amp;rep=rep1&amp;type=pdf">Unification Under a Mixed Prefix</a>, Dale Miller (paper).</li>
-<li>[X] <a href="http://www.cs.nott.ac.uk/~psztxa/publ/pisigma-new.pdf">ΠΣ: Dependent Types without the Sugar</a></li>
-<li>[ ] ? Computation and reasoning: a type theory for computer science, Zhaohui Luo</li>
-</ul></li>
 </ul>
 <h2 id="pfpl">PFPL</h2>
 <ul>
@@ -447,14 +436,11 @@
 <ul>
 <li>Other standard dependently-typed examples?</li>
 </ul></li>
-<li>[ ] Contribute to Idris.
+<li>[-] Check out Paul Körbitz’s look at Idris internals:
 <ul>
-<li>[ ] Check out Paul Körbitz’s look at Idris internals:
-<ul>
-<li>[ ] <a href="http://koerbitz.me/posts/A-Look-at-the-Idris-Internals-Part-I-Overview-and-Parsing.html">Part 1</a></li>
+<li>[X] <a href="http://koerbitz.me/posts/A-Look-at-the-Idris-Internals-Part-I-Overview-and-Parsing.html">Part 1</a></li>
 <li>[ ] <a href="http://koerbitz.me/posts/A-Look-at-the-Idris-Internals-Part-II-Taking-the-Parser-for-a-Spin.html">Part 2</a></li>
 <li>[ ] <a href="http://koerbitz.me/posts/A-Look-at-the-Idris-Internals-Part-III-From-Parsing-to-Elaboration.html">Part 3</a></li>
-</ul></li>
 </ul></li>
 <li>[ ] <a href="https://gist.github.com/edwinb/46da18e2fc6be3f92177ea02ea4b3a1a">Edwin’s code for merge sort</a></li>
 <li>Is it possible to build total parser combinators?
@@ -479,6 +465,17 @@
 <li>Courseware: notes/articles/slides.</li>
 <li>[X] idris-calc port of plzoo/calc</li>
 <li>[X] <a href="https://eb.host.cs.st-andrews.ac.uk/drafts/impldtp.pdf">Idris, a General Purpose Dependently Typed Programming Language: Design and Implementation</a> – Edwin Brady</li>
+</ul>
+<h3 id="idris-tt">Idris’ TT</h3>
+<ul>
+<li>References from Edwin Brady’s “Idris, a General Purpose Dependently Typed Programming Language: Design and Implementation” paper.
+<ul>
+<li>[ ] <a href="http://www.cs.nott.ac.uk/~psztxa/publ/checking.pdf">Epigram Reloaded: A Standalone Typechecker for ETT</a></li>
+<li>[X] <a href="https://www.andres-loeh.de/LambdaPi/">A tutorial implementation of a dependently typed lambda calculus</a></li>
+<li>[ ] <a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.451.2794&amp;rep=rep1&amp;type=pdf">Unification Under a Mixed Prefix</a>, Dale Miller (paper).</li>
+<li>[X] <a href="http://www.cs.nott.ac.uk/~psztxa/publ/pisigma-new.pdf">ΠΣ: Dependent Types without the Sugar</a></li>
+<li>[ ] ? Computation and reasoning: a type theory for computer science, Zhaohui Luo</li>
+</ul></li>
 </ul>
 <h2 id="demystify-type-theory">Demystify Type Theory</h2>
 <h3 id="the-theory">The Theory</h3>
