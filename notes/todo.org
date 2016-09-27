@@ -15,18 +15,26 @@
     - global coherence
     - resolution algorithm
 
-  - Probably shouldn't have REPL/console command =execute= with alias =exec= when
-    =--execute= and =--exec= are semantically different command line options.
+*** Code
 
-  - Rectify the FIXME IN =IRTS/Lang.hs= about using =LAlt'= for all the IRs.
-
-  - Fix IRTS.Bytecode.isConst -> collapse False cases together.
+    - Probably shouldn't have REPL/console command =execute= with alias =exec=
+      when =--execute= and =--exec= are semantically different command line
+      options.
+    - Rectify the FIXME IN =IRTS/Lang.hs= about using =LAlt'= for all the IRs.
+    - Fix IRTS.Bytecode.isConst -> collapse False cases together.
+    - The C codegen isn't invoking =idris-codegen-c=.
+    - The embedded JS/Node codegen's probably should have their library parts
+      moved the Idris library to a JS library (to keep them honest - in that
+      they will only use the Idris library exposed API just as a contributed
+      codegen would have to).
 
 *** Project n Paper ideas
 
     - elisp backend/codegen.
       - Consider using the "portable" IR (CodegenInfo->JSON) in order to write the backend in Idris.
     - Idris in Idris (probably limited the backend/codegen passes).
+      - "How do you structure a large Idris program to take advance of the types"
+      - "How much of a big system can be made total"
     - Using Elaborator reflection to do Idris-in-Idris for high-level to TT
       transformations.
     - Nanopass in Idris (perhaps with Idris in Idris). Should be faster.
@@ -60,7 +68,6 @@
        - [ ] Interactive Editing Commands
        - [ ] REPL Commands
        - [ ] The Packaging System
-
 
 * Todo Soon
 
@@ -222,6 +229,7 @@
 
 ** Demystify Idris
 
+  - [ ] [[https://m.youtube.com/watch?v=AWeT_G04a0A][David Christiansen on the Universe Pattern (video)]]
   - [ ] Implement a number of simple TT/PLs in Idris/ML (perhaps from TAPL).
     - [[http://ozark.hendrix.edu/~yorgey/490/][STLC in Idris]] and more (course notes by Brent Yorgey).
   - [ ] [[https://www.youtube.com/watch?v=4i7KrG1Afbk][Idris: Practical Dependent Types with Practical Examples by
@@ -585,52 +593,76 @@
   - [ ] [[https://www.mpi-sws.org/~beta/papers/unicoq.pdf][A Unification Algorithm for COQ Featuring Universe Polymorphism and Overloading]] (paper)
 ** Demystify Name binding
 
+  - Some references maybe not mentioned below:
+    - http://www.chargueraud.org/research/2009/ln/main.pdf
+    - http://www.cs.ru.nl/~james/RESEARCH/haskell2004.pdf
+    - http://requestforlogic.blogspot.com.au/2010/11/totally-nameless-representation.html
+    - http://www.cs.nott.ac.uk/~psztxa/publ/pisigma.pdf -- uses Locally Nameless
+    - Binders Unbound, http://ozark.hendrix.edu/~yorgey/pub/unbound.pdf
+    - http://bentnib.org/syntaxforfree.pdf
+
   - =bound=
     - [ ] [[https://www.schoolofhaskell.com/user/edwardk/bound][Edward Kmett on Bound]] (article)
     - [ ] [[https://gist.github.com/cartazio/5727196][Higher order bound]] (gist)
     - [ ] http://comonad.com/reader/2014/fast-circular-substitution/
+
   - =unbound=
     - http://hackage.haskell.org/package/unbound
     - https://hackage.haskell.org/package/unbound-generics
     - used in [[https://github.com/sweirich/pi-forall][pi-forall]]
     - Kmett says this "mixes Barendregt with Locally Nameless"
+
   - [[http://www.cs.ru.nl/~james/RESEARCH/haskell2004.pdf][I am not a Number -- I am a Free Variable]] by Conor McBride and James McKinna.
+
   - PHOAS
     - Parametric Higher-Order Abstract Syntax for Mechanized
       Semantics, Adam Chlipala
     - [[https://www.schoolofhaskell.com/user/edwardk/phoas][PHOAS for Free by Edward Kmett]]
+
   - De Bruijn Indices
     - [[http://disciple-devel.blogspot.com.au/2011/08/how-i-learned-to-stop-worrying-and-love.html][How I learned to stop worrying and love De Bruijn indices]] Ben Lippmeier
+
   - Locally Nameless
     - [[http://www.chargueraud.org/research/2009/ln/main.pdf][The Locally Nameless Representation]] Arthur Chargueraud
+
   - Abstract Binding Trees
     - [X] [[http://semantic-domain.blogspot.com.au/2015/03/abstract-binding-trees.html][Abstract Binding Trees]] -- post by Neel Krishnaswami
     - [ ] [[http://semantic-domain.blogspot.com.au/2015/03/abstract-binding-trees-addendum.html][Abstract Binding Trees, an addendum]] -- post by Neel Krishnaswami
     - [X] Chapter 1 PFPL
     - [ ] [[http://winterkoninkje.dreamwidth.org/103978.html][Well-typed ABTs]]
+
   - Nominal Logic: A First Order Theory of Names and Binding
     - [ ] [[http://www.cl.cam.ac.uk/~amp12/talks/tacs01.pdf][slides]]
     - [ ] [[https://www.cl.cam.ac.uk/~amp12/papers/nomlfo/nomlfo.pdf][paper]]
+
   - https://github.com/jyp/NameBindingSurvey/blob/master/WhiteBoard.md
     - https://github.com/jyp/TTNameBinders
     - Names for free
       - [[https://nicolaspouillard.fr/talks/names-for-free-haskell-symposium/names-for-free.html#/][talk]]
       - [[http://www.cse.chalmers.se/~bernardy/NamesForFree.pdf][paper]]
+
   - http://requestforlogic.blogspot.com.au/2010/11/totally-nameless-representation.html
+
   - Namely Painless
     - [X] [[https://nicolaspouillard.fr/publis/jfp-unified-binders.pdf][A unified treatment of syntax with binders]], Nicolas
       Pouillard and François Pottier
     - [ ] https://nicolaspouillard.fr/publis/namely-painless-defense-version.pdf
+
   - HOS
     - [[http://www.cse.chalmers.se/%7Eemax/documents/axelsson2013using.pdf][Using Circular Programs for Higher-Order Syntax, Functional
       pearl]], Emil Axelsson Koen Claessen
+
   - [[http://bentnib.org/syntaxforfree.html][Syntax for Free: Representing Syntax with Binding Using Parametricity]] Robert
     Atkey
+
   - Totally Nameless
     - [ ] [[http://requestforlogic.blogspot.com.au/2010/11/totally-nameless-representation.html][Totally Nameless Representation]] article by Robert J. Simmons
+
   - http://research.microsoft.com/en-us/um/people/simonpj/Papers/inlining/
     (Mentioned in Kmett's bound tutorial)
+
   - [[http://complogic.cs.mcgill.ca/beluga/][Beluga]] seems to be a PL with built in support for name binding (contexts).
+
   - [[http://www2.tcs.ifi.lmu.de/~schoepp/Docs/bunches.pdf][A Dependent Type Theory with Names and Binding]] A categorically /yikes/ abstract.
     #+begin_quote
     We consider the problem of providing formal support for working
@@ -651,6 +683,7 @@
     propositions-as-types generalisation H of the freshness
     quantifier.
     #+end_quote
+
   - Collections of binding techniques:
     - https://namebinding.wordpress.com/
 
@@ -673,11 +706,18 @@
     - first order logic
 ** Demystify Category Theory
 
+  - Resources for learning Categories by Peter Smith
+    - [[http://www.logicmatters.net/resources/pdfs/GentleIntro.pdf][Category Theory: A Gentle Introduction]]
+    - http://www.logicmatters.net/categories/
+    - http://www.logicmatters.net/tyl/category-theory/
+
   - [[http://www.hedonisticlearning.com/posts/you-know-more-about-presheaves-than-you-think.html][You known more about presheaves than you think]]
   - Steven Awodey OPLSS 2012 lecture notes Category Theory
     - http://www.andrew.cmu.edu/user/awodey/SummerSchool/
 
-** Demystify Mathematical Logic & Logic Programming
+** Demystify Logic
+
+  - [[http://www.logicmatters.net/tyl/][Teach Yourself Logic: A Study Guide]] Peter Smith.
 
   - Are there other interesting part of Mathematical Logic other than
     Proof Theory? Wikipedia mentions the following sub fields:
@@ -708,7 +748,7 @@
 
   - [ ] How to Prove It, Velleman.
 
-** Demystify Mathematical Foundations and Increase Mathematical Sophistication
+** Demystify Mathematical Foundations
 
   - [[http://paultaylor.eu/~pt/prafm/html/index.html][Practical Foundations of Mathematics]], Paul Taylor.
 
@@ -945,6 +985,7 @@
 
 ** Demystify Compilers
   - Develop (literate) code, articles, slides, notes, articles.
+  - http://tratt.net/laurie/blog/entries/how_difficult_is_it_to_write_a_compiler.html
   - [ ] [[https://github.com/steshaw/babyml][BabyML]] in Idris.
     - MLish: strict/CBV, D-H-M type inference / unification.
     - No modules (for now).
@@ -1022,6 +1063,9 @@
   - Userspace/"green" threads, Erlang/GHC/Go/Rust style threads.
   - opensourceresearchinstitute.org's proto-runtime -- for parallel tasks (aka
     Erlang style tasks but apparently much more scalable).
+  - [ ] Virtual Machine course
+    - http://www.wolczko.com/CS294/
+    - [[https://www.youtube.com/playlist?list=PLoa_3vdLBIP7dWamrPPWYryPKppncht_i][Video playlist]]
 
 *** Demystify Memory Management / Garbage Collection
   - [ ] Implement a GC. Perhaps in Rust.
@@ -1198,8 +1242,13 @@
       Theory]] Adam Chlipala's PhD dissertation
     - [ ] Program Logic for Certified Compilers, Andrew W. Appel (book)
 
-** Demystify Nix and Package all the things
+** Demystify Packages
 
+  - AKA "Package Management"
+
+  - Nix is cool.
+
+*** Package all the things
   - Nix for your dotfiles.
   - Nix for your development environment configuration.
   - Nix for your own tools (aka etools at Ephox).

@@ -155,6 +155,139 @@
 </ol></li>
 </ul></li>
 </ul>
+<h2 id="abbreviations">Abbreviations</h2>
+<dl>
+<dt><code>PDecl</code></dt>
+<dd>Program declaration. Essentially top of AST.
+</dd>
+<dt><code>PTerm</code></dt>
+<dd>Program Term. The parameter for PDecl. i.e. <code>type PDecl </code> PDecl’ PTerm=.
+</dd>
+<dt><code>FC</code></dt>
+<dd>probably short for FileContext. Contains source positions produced by Parser.
+</dd>
+</dl>
+<h2 id="build-times-imac-late-2009">Build times (iMac late 2009)</h2>
+<ul>
+<li>Clean build but dependencies already built (Stack, GHC 8.0.1)
+<ul>
+<li><code>modularise-ast</code>
+<ul>
+<li>891.74 real 819.78 user 29.68 sys — (14.86 minutes)</li>
+<li>922.26 real 828.76 user 33.22 sys — (15.37 minutes)</li>
+<li>693.39 real 659.26 user 22.45 sys — (11.56 minutes)</li>
+<li>753.93 real 687.58 user 25.12 sys — (12.57 minutes)</li>
+</ul></li>
+<li><code>master</code>
+<ul>
+<li>770.54 real 669.36 user 26.31 sys — (12.84 minutes)</li>
+</ul></li>
+</ul></li>
+</ul>
+<h2 id="ast-and-perhaps-core-refactoring">AST (and perhaps Core) Refactoring</h2>
+<ul>
+<li>[X] importing Idris.AbsSyntaxTree
+<ul>
+<li>[X] src/Idris/AbsSyntax.hs:import Idris.AbsSyntaxTree</li>
+<li>[X] src/Idris/ASTUtils.hs:import Idris.AbsSyntaxTree</li>
+<li>[X] src/Idris/CaseSplit.hs:import Idris.AbsSyntaxTree</li>
+<li>[X] src/Idris/CmdOptions.hs:import Idris.AbsSyntaxTree</li>
+<li>[X] src/Idris/Completion.hs:import Idris.AbsSyntaxTree</li>
+<li>[X] src/Idris/Core/Execute.hs:import Idris.AbsSyntaxTree</li>
+<li>[X] src/Idris/DataOpts.hs:import Idris.AbsSyntaxTree</li>
+<li>[X] src/Idris/DeepSeq.hs:import Idris.AbsSyntaxTree</li>
+<li>[X] src/Idris/Elab/Rewrite.hs:import Idris.AbsSyntaxTree</li>
+<li>[X] src/Idris/Elab/Term.hs:import Idris.AbsSyntaxTree</li>
+<li>[X] src/Idris/Package/Common.hs:import Idris.AbsSyntaxTree</li>
+<li>[X] src/Idris/Package/Parser.hs:import Idris.AbsSyntaxTree</li>
+<li>[X] src/Idris/Prover.hs:import Idris.AbsSyntaxTree</li>
+<li>[X] src/Idris/Providers.hs:import Idris.AbsSyntaxTree</li>
+<li>[X] src/Idris/Reflection.hs:import Idris.AbsSyntaxTree</li>
+<li>[X] src/Idris/REPL/Browse.hs:import Idris.AbsSyntaxTree</li>
+<li>[X] src/Idris/REPL/Commands.hs:import Idris.AbsSyntaxTree</li>
+<li>[X] src/Idris/TypeSearch.hs:import Idris.AbsSyntaxTree</li>
+<li>[X] src/IRTS/Compiler.hs:import Idris.AbsSyntaxTree</li>
+</ul></li>
+<li>[-] importing Idris.AbsSyntax
+<ul>
+<li>[X] src/Idris/Apropos.hs:import Idris.AbsSyntax</li>
+<li>[X] src/Idris/CaseSplit.hs:import Idris.AbsSyntax (</li>
+<li>[X] src/Idris/Chaser.hs:import Idris.AbsSyntax</li>
+<li>[X] src/Idris/CmdOptions.hs:import Idris.AbsSyntax (</li>
+<li>[X] src/Idris/Completion.hs:import Idris.AbsSyntax (runIO)</li>
+<li>[X] src/Idris/Core/Execute.hs:import Idris.AbsSyntax (getIState, getContext)</li>
+<li>[X] src/Idris/Coverage.hs:import Idris.AbsSyntax</li>
+<li>[X] src/Idris/DataOpts.hs:import Idris.AbsSyntax ()</li>
+<li>[X] src/Idris/Delaborate.hs:import Idris.AbsSyntax</li>
+<li>[X] src/Idris/Directives.hs:import Idris.AbsSyntax</li>
+<li>[X] src/Idris/Docs.hs:import Idris.AbsSyntax (</li>
+<li>[X] src/Idris/DSL.hs:import Idris.AbsSyntax</li>
+<li>[X] src/Idris/Elab/AsPat.hs:import Idris.AbsSyntax</li>
+<li>[X] src/Idris/Elab/Clause.hs:import Idris.AbsSyntax</li>
+<li>[X] src/Idris/Elab/Data.hs:import Idris.AbsSyntax</li>
+<li>[X] src/Idris/Elab/Implementation.hs:import Idris.AbsSyntax</li>
+<li>[X] src/Idris/Elab/Interface.hs:import Idris.AbsSyntax</li>
+<li>[X] src/Idris/Elab/Provider.hs:import Idris.AbsSyntax</li>
+<li>[X] src/Idris/Elab/Quasiquote.hs:import Idris.AbsSyntax</li>
+<li>[X] src/Idris/Elab/Record.hs:import Idris.AbsSyntax</li>
+<li>[X] src/Idris/Elab/Rewrite.hs:import Idris.AbsSyntax (addImplBound, getIState)</li>
+<li>[X] src/Idris/Elab/RunElab.hs:import Idris.AbsSyntax</li>
+<li>[X] src/Idris/Elab/Term.hs:import Idris.AbsSyntax (</li>
+<li>[X] src/Idris/Elab/Transform.hs:import Idris.AbsSyntax</li>
+<li>[X] src/Idris/Elab/Type.hs:import Idris.AbsSyntax</li>
+<li>[X] src/Idris/Elab/Utils.hs:import Idris.AbsSyntax</li>
+<li>[X] src/Idris/Elab/Value.hs:import Idris.AbsSyntax</li>
+<li>[X] src/Idris/ElabDecls.hs:import Idris.AbsSyntax</li>
+<li>[X] src/Idris/Erasure.hs:import Idris.AbsSyntax</li>
+<li>[X] src/Idris/Error.hs:import Idris.AbsSyntax</li>
+<li>[X] src/Idris/ErrReverse.hs:import Idris.AbsSyntax</li>
+<li>[X] src/Idris/IBC.hs:import Idris.AbsSyntax</li>
+<li>[X] src/Idris/IdrisDoc.hs:import Idris.AbsSyntax</li>
+<li>[X] src/Idris/Imports.hs:import Idris.AbsSyntax</li>
+<li>[X] src/Idris/Info.hs:import Idris.AbsSyntax (loggingCatsStr)</li>
+<li>[X] src/Idris/Inliner.hs:import Idris.AbsSyntax</li>
+<li>[X] src/Idris/Interactive.hs:import Idris.AbsSyntax</li>
+<li>[X] src/Idris/Main.hs:import Idris.AbsSyntax</li>
+<li>[X] src/Idris/ModeCommon.hs:import Idris.AbsSyntax</li>
+<li>[X] src/Idris/Output.hs:import Idris.AbsSyntax</li>
+<li>[X] src/Idris/Package.hs:import Idris.AbsSyntax</li>
+<li>[X] src/Idris/Parser/Data.hs:import Idris.AbsSyntax</li>
+<li>[X] src/Idris/Parser/Expr.hs:import Idris.AbsSyntax</li>
+<li>[X] src/Idris/Parser/Helpers.hs:import Idris.AbsSyntax</li>
+<li>[X] src/Idris/Parser/Ops.hs:import Idris.AbsSyntax</li>
+<li>[X] src/Idris/Parser.hs:import Idris.AbsSyntax hiding (namespace, params)</li>
+<li>[X] src/Idris/PartialEval.hs:import Idris.AbsSyntax</li>
+<li>[X] src/Idris/Primitives.hs:import Idris.AbsSyntax</li>
+<li>[X] src/Idris/ProofSearch.hs:import Idris.AbsSyntax</li>
+<li>[X] src/Idris/Prover.hs:import Idris.AbsSyntax</li>
+<li>[X] src/Idris/REPL/Browse.hs:import Idris.AbsSyntax (getContext)</li>
+<li>[X] src/Idris/REPL/Parser.hs:import Idris.AbsSyntax</li>
+<li>[X] src/Idris/REPL.hs:import Idris.AbsSyntax</li>
+<li>[X] src/Idris/Transforms.hs:import Idris.AbsSyntax</li>
+<li>[X] src/Idris/TypeSearch.hs:import Idris.AbsSyntax (addUsingConstraints, addImpl, getIState, putIState, implicit)</li>
+<li>[ ] src/Idris/WhoCalls.hs:import Idris.AbsSyntax</li>
+<li>[ ] src/IRTS/CodegenC.hs:import Idris.AbsSyntax</li>
+<li>[ ] src/IRTS/CodegenJavaScript.hs:import Idris.AbsSyntax hiding (TypeCase)</li>
+<li>[ ] src/IRTS/Compiler.hs:import Idris.AbsSyntax</li>
+<li>[ ] src/IRTS/Compiler.hs:import qualified Idris.AbsSyntax as AbsSyntax</li>
+<li>[ ] src/IRTS/Exports.hs:import Idris.AbsSyntax</li>
+</ul></li>
+</ul>
+<h4 id="potential-refactorings">Potential refactorings:</h4>
+<ul>
+<li>Can we lift Opt and option processing functions from AbsSyntax?
+<ul>
+<li>made obvious in Idris.Main.</li>
+</ul></li>
+<li>Can we lift OutputAnnotations from Core.TT?</li>
+<li>Can we lift Name and associated functions from Core.TT?</li>
+</ul>
+<h4 id="errors">Errors</h4>
+<p>See if this happens on <code>master</code>.</p>
+<blockquote>
+<p>OK (5.88s) ffi009: Error: test/ffi009 idris: Foreign Function calls cannot be partially applied, without being inlined. CallStack (from HasCallStack): error, called at src/IRTS/CodegenC.hs:343:36 in idris-0.12.3-LoUXGyrDJU677RY2CaNGaq:IRTS.CodegenC clang: warning: argument unused during compilation: ‘-fno-strict-overflow’</p>
+<p>OK (6.91s) Folding folding001: OK (4.73s)</p>
+</blockquote>
         </div>
       </div>
     </div>

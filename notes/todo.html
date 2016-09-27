@@ -132,9 +132,14 @@
 <li>global coherence</li>
 <li>resolution algorithm</li>
 </ul></li>
-<li><p>Probably shouldn’t have REPL/console command <code>execute</code> with alias <code>exec</code> when <code>--execute</code> and <code>--exec</code> are semantically different command line options.</p></li>
-<li><p>Rectify the FIXME IN <code>IRTS/Lang.hs</code> about using <code>LAlt'</code> for all the IRs.</p></li>
-<li><p>Fix IRTS.Bytecode.isConst -&gt; collapse False cases together.</p></li>
+</ul>
+<h3 id="code">Code</h3>
+<ul>
+<li>Probably shouldn’t have REPL/console command <code>execute</code> with alias <code>exec</code> when <code>--execute</code> and <code>--exec</code> are semantically different command line options.</li>
+<li>Rectify the FIXME IN <code>IRTS/Lang.hs</code> about using <code>LAlt'</code> for all the IRs.</li>
+<li>Fix IRTS.Bytecode.isConst -&gt; collapse False cases together.</li>
+<li>The C codegen isn’t invoking <code>idris-codegen-c</code>.</li>
+<li>The embedded JS/Node codegen’s probably should have their library parts moved the Idris library to a JS library (to keep them honest - in that they will only use the Idris library exposed API just as a contributed codegen would have to).</li>
 </ul>
 <h3 id="project-n-paper-ideas">Project n Paper ideas</h3>
 <ul>
@@ -142,7 +147,11 @@
 <ul>
 <li>Consider using the “portable” IR (CodegenInfo-&gt;JSON) in order to write the backend in Idris.</li>
 </ul></li>
-<li>Idris in Idris (probably limited the backend/codegen passes).</li>
+<li>Idris in Idris (probably limited the backend/codegen passes).
+<ul>
+<li>“How do you structure a large Idris program to take advance of the types”</li>
+<li>“How much of a big system can be made total”</li>
+</ul></li>
 <li>Using Elaborator reflection to do Idris-in-Idris for high-level to TT transformations.</li>
 <li>Nanopass in Idris (perhaps with Idris in Idris). Should be faster.</li>
 <li>Calculating Correct Compilers in Idris.</li>
@@ -411,6 +420,7 @@
 </ul>
 <h2 id="demystify-idris">Demystify Idris</h2>
 <ul>
+<li>[ ] <a href="https://m.youtube.com/watch?v=AWeT_G04a0A">David Christiansen on the Universe Pattern (video)</a></li>
 <li>[ ] Implement a number of simple TT/PLs in Idris/ML (perhaps from TAPL).
 <ul>
 <li><a href="http://ozark.hendrix.edu/~yorgey/490/">STLC in Idris</a> and more (course notes by Brent Yorgey).</li>
@@ -839,6 +849,15 @@
 </ul>
 <h2 id="demystify-name-binding">Demystify Name binding</h2>
 <ul>
+<li>Some references maybe not mentioned below:
+<ul>
+<li><a href="http://www.chargueraud.org/research/2009/ln/main.pdf" class="uri">http://www.chargueraud.org/research/2009/ln/main.pdf</a></li>
+<li><a href="http://www.cs.ru.nl/~james/RESEARCH/haskell2004.pdf" class="uri">http://www.cs.ru.nl/~james/RESEARCH/haskell2004.pdf</a></li>
+<li><a href="http://requestforlogic.blogspot.com.au/2010/11/totally-nameless-representation.html" class="uri">http://requestforlogic.blogspot.com.au/2010/11/totally-nameless-representation.html</a></li>
+<li><a href="http://www.cs.nott.ac.uk/~psztxa/publ/pisigma.pdf" class="uri">http://www.cs.nott.ac.uk/~psztxa/publ/pisigma.pdf</a> – uses Locally Nameless</li>
+<li>Binders Unbound, <a href="http://ozark.hendrix.edu/~yorgey/pub/unbound.pdf" class="uri">http://ozark.hendrix.edu/~yorgey/pub/unbound.pdf</a></li>
+<li><a href="http://bentnib.org/syntaxforfree.pdf" class="uri">http://bentnib.org/syntaxforfree.pdf</a></li>
+</ul></li>
 <li><code>bound</code>
 <ul>
 <li>[ ] <a href="https://www.schoolofhaskell.com/user/edwardk/bound">Edward Kmett on Bound</a> (article)</li>
@@ -852,7 +871,7 @@
 <li>used in <a href="https://github.com/sweirich/pi-forall">pi-forall</a></li>
 <li>Kmett says this “mixes Barendregt with Locally Nameless”</li>
 </ul></li>
-<li><a href="http://www.cs.ru.nl/~james/RESEARCH/haskell2004.pdf">I am not a Number – I am a Free Variable</a> by Conor McBride and James McKinna.</li>
+<li><p><a href="http://www.cs.ru.nl/~james/RESEARCH/haskell2004.pdf">I am not a Number – I am a Free Variable</a> by Conor McBride and James McKinna.</p></li>
 <li>PHOAS
 <ul>
 <li>Parametric Higher-Order Abstract Syntax for Mechanized Semantics, Adam Chlipala</li>
@@ -887,7 +906,7 @@
 <li><a href="http://www.cse.chalmers.se/~bernardy/NamesForFree.pdf">paper</a></li>
 </ul></li>
 </ul></li>
-<li><a href="http://requestforlogic.blogspot.com.au/2010/11/totally-nameless-representation.html" class="uri">http://requestforlogic.blogspot.com.au/2010/11/totally-nameless-representation.html</a></li>
+<li><p><a href="http://requestforlogic.blogspot.com.au/2010/11/totally-nameless-representation.html" class="uri">http://requestforlogic.blogspot.com.au/2010/11/totally-nameless-representation.html</a></p></li>
 <li>Namely Painless
 <ul>
 <li>[X] <a href="https://nicolaspouillard.fr/publis/jfp-unified-binders.pdf">A unified treatment of syntax with binders</a>, Nicolas Pouillard and François Pottier</li>
@@ -897,13 +916,13 @@
 <ul>
 <li><a href="http://www.cse.chalmers.se/%7Eemax/documents/axelsson2013using.pdf">Using Circular Programs for Higher-Order Syntax, Functional pearl</a>, Emil Axelsson Koen Claessen</li>
 </ul></li>
-<li><a href="http://bentnib.org/syntaxforfree.html">Syntax for Free: Representing Syntax with Binding Using Parametricity</a> Robert Atkey</li>
+<li><p><a href="http://bentnib.org/syntaxforfree.html">Syntax for Free: Representing Syntax with Binding Using Parametricity</a> Robert Atkey</p></li>
 <li>Totally Nameless
 <ul>
 <li>[ ] <a href="http://requestforlogic.blogspot.com.au/2010/11/totally-nameless-representation.html">Totally Nameless Representation</a> article by Robert J. Simmons</li>
 </ul></li>
-<li><a href="http://research.microsoft.com/en-us/um/people/simonpj/Papers/inlining/" class="uri">http://research.microsoft.com/en-us/um/people/simonpj/Papers/inlining/</a> (Mentioned in Kmett’s bound tutorial)</li>
-<li><a href="http://complogic.cs.mcgill.ca/beluga/">Beluga</a> seems to be a PL with built in support for name binding (contexts).</li>
+<li><p><a href="http://research.microsoft.com/en-us/um/people/simonpj/Papers/inlining/" class="uri">http://research.microsoft.com/en-us/um/people/simonpj/Papers/inlining/</a> (Mentioned in Kmett’s bound tutorial)</p></li>
+<li><p><a href="http://complogic.cs.mcgill.ca/beluga/">Beluga</a> seems to be a PL with built in support for name binding (contexts).</p></li>
 <li><p><a href="http://www2.tcs.ifi.lmu.de/~schoepp/Docs/bunches.pdf">A Dependent Type Theory with Names and Binding</a> A categorically <em>yikes</em> abstract.</p>
 <blockquote>
 <p>We consider the problem of providing formal support for working with abstract syntax involving variable binders. Gabbay and Pitts have shown in their work on Fraenkel-Mostowski (FM) set theory how to address this through first-class names: in this paper we present a dependent type theory for programming and reasoning with such names. Our development is based on a categorical axiomatisation of names, with freshness as its central notion. An associated adjunction captures constructions known from FM theory: the freshness quantifier N, name-binding, and unique choice of fresh names. The Schanuel topos – the category underlying FM set theory – is an instance of this axiomatisation. Working from the categorical structure, we define a dependent type theory which it models. This uses bunches to integrate the monoidal structure corresponding to freshness, from which we define novel multiplicative dependent products Π∗ and sums Σ∗, as well as a propositions-as-types generalisation H of the freshness quantifier.</p>
@@ -937,14 +956,21 @@
 </ul>
 <h2 id="demystify-category-theory">Demystify Category Theory</h2>
 <ul>
+<li>Resources for learning Categories by Peter Smith
+<ul>
+<li><a href="http://www.logicmatters.net/resources/pdfs/GentleIntro.pdf">Category Theory: A Gentle Introduction</a></li>
+<li><a href="http://www.logicmatters.net/categories/" class="uri">http://www.logicmatters.net/categories/</a></li>
+<li><a href="http://www.logicmatters.net/tyl/category-theory/" class="uri">http://www.logicmatters.net/tyl/category-theory/</a></li>
+</ul></li>
 <li><a href="http://www.hedonisticlearning.com/posts/you-know-more-about-presheaves-than-you-think.html">You known more about presheaves than you think</a></li>
 <li>Steven Awodey OPLSS 2012 lecture notes Category Theory
 <ul>
 <li><a href="http://www.andrew.cmu.edu/user/awodey/SummerSchool/" class="uri">http://www.andrew.cmu.edu/user/awodey/SummerSchool/</a></li>
 </ul></li>
 </ul>
-<h2 id="demystify-mathematical-logic-logic-programming">Demystify Mathematical Logic &amp; Logic Programming</h2>
+<h2 id="demystify-logic">Demystify Logic</h2>
 <ul>
+<li><p><a href="http://www.logicmatters.net/tyl/">Teach Yourself Logic: A Study Guide</a> Peter Smith.</p></li>
 <li>Are there other interesting part of Mathematical Logic other than Proof Theory? Wikipedia mentions the following sub fields:
 <ul>
 <li>Set Theory</li>
@@ -972,7 +998,7 @@
 </ul></li>
 <li><p>[ ] How to Prove It, Velleman.</p></li>
 </ul>
-<h2 id="demystify-mathematical-foundations-and-increase-mathematical-sophistication">Demystify Mathematical Foundations and Increase Mathematical Sophistication</h2>
+<h2 id="demystify-mathematical-foundations">Demystify Mathematical Foundations</h2>
 <ul>
 <li><p><a href="http://paultaylor.eu/~pt/prafm/html/index.html">Practical Foundations of Mathematics</a>, Paul Taylor.</p></li>
 <li>for Heyting algebras
@@ -1268,6 +1294,7 @@
 <h2 id="demystify-compilers">Demystify Compilers</h2>
 <ul>
 <li>Develop (literate) code, articles, slides, notes, articles.</li>
+<li><a href="http://tratt.net/laurie/blog/entries/how_difficult_is_it_to_write_a_compiler.html" class="uri">http://tratt.net/laurie/blog/entries/how_difficult_is_it_to_write_a_compiler.html</a></li>
 <li>[ ] <a href="https://github.com/steshaw/babyml">BabyML</a> in Idris.
 <ul>
 <li>MLish: strict/CBV, D-H-M type inference / unification.</li>
@@ -1363,6 +1390,11 @@
 <li>Tasks/Processes/Threads/Stacks.</li>
 <li>Userspace/“green” threads, Erlang/GHC/Go/Rust style threads.</li>
 <li>opensourceresearchinstitute.org’s proto-runtime – for parallel tasks (aka Erlang style tasks but apparently much more scalable).</li>
+<li>[ ] Virtual Machine course
+<ul>
+<li><a href="http://www.wolczko.com/CS294/" class="uri">http://www.wolczko.com/CS294/</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLoa_3vdLBIP7dWamrPPWYryPKppncht_i">Video playlist</a></li>
+</ul></li>
 </ul>
 <h3 id="demystify-memory-management-garbage-collection">Demystify Memory Management / Garbage Collection</h3>
 <ul>
@@ -1564,7 +1596,12 @@
 <li>[ ] Program Logic for Certified Compilers, Andrew W. Appel (book)</li>
 </ul></li>
 </ul>
-<h2 id="demystify-nix-and-package-all-the-things">Demystify Nix and Package all the things</h2>
+<h2 id="demystify-packages">Demystify Packages</h2>
+<ul>
+<li><p>AKA “Package Management”</p></li>
+<li><p>Nix is cool.</p></li>
+</ul>
+<h3 id="package-all-the-things">Package all the things</h3>
 <ul>
 <li>Nix for your dotfiles.</li>
 <li>Nix for your development environment configuration.</li>
