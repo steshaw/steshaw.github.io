@@ -28,7 +28,7 @@
       they will only use the Idris library exposed API just as a contributed
       codegen would have to).
 
-*** Project n Paper ideas
+*** Project ideas
 
     - elisp backend/codegen.
       - Consider using the "portable" IR (CodegenInfo->JSON) in order to write the backend in Idris.
@@ -228,6 +228,10 @@
       - [ ] B Operational semantics
 
 ** Demystify Idris
+
+  - [ ] Extensible records in Idris
+    - https://github.com/jmars/Records
+    - https://twitter.com/edwinbrady/status/465824408838602752
 
   - [ ] [[https://m.youtube.com/watch?v=AWeT_G04a0A][David Christiansen on the Universe Pattern (video)]]
   - [ ] Implement a number of simple TT/PLs in Idris/ML (perhaps from TAPL).
@@ -451,6 +455,8 @@
       - [ ] Wadler (1989), Theorems for free!
   - [X] [[http://davidchristiansen.dk/tutorials/bidirectional.pdf][Bidirectional Typing Rules: A Tutorial]] David Raymond Christiansen
   - Notes/articles/slides/courseware.
+  - Conor's Frank PL, "Do Be Do Be Do"
+    - http://homepages.inf.ed.ac.uk/slindley/papers/frankly-draft-july2016.pdf
 
 *** Learning Type Theory
    Adapted from https://github.com/type-theory/learn-tt
@@ -984,9 +990,11 @@
   - notes/slides/articles/courseware
 
 ** Demystify Compilers
+
   - Develop (literate) code, articles, slides, notes, articles.
   - http://tratt.net/laurie/blog/entries/how_difficult_is_it_to_write_a_compiler.html
-  - [ ] [[https://github.com/steshaw/babyml][BabyML]] in Idris.
+  - [-] [[https://github.com/steshaw/babyml][BabyML]]
+    - Use Haskell, Idris or OCaml.
     - MLish: strict/CBV, D-H-M type inference / unification.
     - No modules (for now).
     - However with Haskellish syntax. Type applications. Function signatures.
@@ -1000,6 +1008,18 @@
         - [[http://jozefg.bitbucket.org/posts/2015-03-24-pcf.html][A Tiny Compiler For A Typed Higher Order Language]] by Danny Gratzer.
           - PCF to C
           - http://github.com/jozefg/pcf
+    - [X] http://lucacardelli.name/Papers/CompilingML.A4.pdf
+    - [ ] http://caml.inria.fr/pub/papers/xleroy-zinc.pdf
+    - [ ] https://www.microsoft.com/en-us/research/wp-content/uploads/1987/01/slpj-book-1987-small.pdf
+    - [ ] https://www.microsoft.com/en-us/research/publication/implementing-functional-languages-a-tutorial/
+    - [ ] [[http://homepages.inf.ed.ac.uk/wadler/papers/pattern/pattern.pdf][Derivation of a Pattern-Matching Compiler]]
+    - [ ] [[http://moscova.inria.fr/~maranget/papers/ml05e-maranget.pdf][Compiling Pattern Matching to Good Decision Trees]]
+    - [ ] https://esumii.github.io/min-caml/paper.pdf
+    - [ ] http://cs.brown.edu/courses/cs173/2012/book/book.pdf
+    - http://caml.inria.fr/about/papers.en.html
+    - http://www.mpi-sws.org/~rossberg/hamlet/
+    - [X] http://pauillac.inria.fr/~xleroy/talks/zam-kazam05.pdf
+    - http://www.nimblemachines.com/zinc-abstract-machine/
   - [[#BabyIdris]]
   - Main outline
     - First there's a high-level language (probably interpreter or
@@ -1020,32 +1040,38 @@
     - Lexing/Parsing
     - Semantic Analysis (Type Checking)
     - Simple IL/IR generation
-    - Backends
+    - Backends:
       - Simple IL interpreter/engine + runtime.
-      - Compile to native x86 or x86-64 (or x86-64 in with 32 bit pointers).
-      - "transpile" to JS.
-      - "transpile" to C?
-      - "transpile" to Java (pro'ly unnecessary).
-      - Compile to JVM (pro'ly unnecessary).
-      - Compile to CLR/CLI (pro'ly unnecessary).
+      - "transpile" to C/JS/Java.
+      - Compile to machine code: x86 / x86-64 / x86-64 in with 32 bit pointers.
+      - Compile to JVM.
+      - Compile to dotnet/CLR/CLI.
   - [ ] Port MinCaml to Idris.
     - [[https://esumii.github.io/min-caml/index-e.html][Min-Caml (website)]] [[https://esumii.github.io/min-caml/paper.pdf][paper]]
     - Looks like a nice overview from the middle to backend.
     - Would like to see nanopass ideas applied here but using recursion schemes
       rather than schemey dynamic typing.
     - Also nice to add polymorphism in the front-end language if viable.
-  - [[https://www.cs.indiana.edu/~sabry/teaching/b522/s03/][CSCI B522 Programming Language Foundations Amr Sabry (course)]]
-    - MinML/NanoML semantics. Be nice to write it up in `org-mode`
-      and/or $$\LaTex$$.
-    - Also seems to have verifications/proofs in Twelf.
-  - [[https://www.seas.upenn.edu/~cis341/current/#lectures][UPenn cis341 Compilers]] Steve Zdancewic. OCaml. Beautiful slides. *****
-  - [[https://iu.instructure.com/courses/1517577][SP16 Compilers 11241 Jeremy Siek (course)]]
-    - [[https://www.sharelatex.com/project/5637a774990f556d48bab667][course book/notes]]
-    - http://github.com/jsiek/Essentials-of-Compilation
-  - Compiler Construction at Colorado
-    - http://www.cs.colorado.edu/~bec/courses/csci4555-s15/
-    - [[http://www.cs.colorado.edu/~bec/courses/csci4555-s15/reading/notes.pdf][A Problem Course in Compilation: From Python to x86 Assembly]]
-
+  - Would be nice to implement compilers with efficient nanopasses.
+    + Perhaps possible in Haskell via datatypes a la carte and recursion schemes.
+    + Seems that datatypes a la carte is not possible in Idris... Can it be fixed?
+  - Courses:
+    - http://flint.cs.yale.edu/cs421/
+    - [[https://www.seas.upenn.edu/~cis341/current/#lectures][UPenn cis341 Compilers]] Steve Zdancewic. OCaml. Beautiful slides. *****
+    - http://www.cl.cam.ac.uk/teaching/1314/L26/materials.html
+    - [[https://www.cs.indiana.edu/~sabry/teaching/b522/s03/][CSCI B522 Programming Language Foundations Amr Sabry (course)]]
+      - MinML/NanoML semantics. Be nice to write it up in `org-mode`
+        and/or $$\LaTex$$.
+      - Also seems to have verifications/proofs in Twelf.
+    - [[https://iu.instructure.com/courses/1517577][SP16 Compilers 11241 Jeremy Siek (course)]]
+      - [[https://www.sharelatex.com/project/5637a774990f556d48bab667][course book/notes]]
+      - http://github.com/jsiek/Essentials-of-Compilation
+    - Compiler Construction at Colorado
+      - http://www.cs.colorado.edu/~bec/courses/csci4555-s15/
+      - [[http://www.cs.colorado.edu/~bec/courses/csci4555-s15/reading/notes.pdf][A Problem Course in Compilation: From Python to x86 Assembly]]
+    - http://cs.mcgill.ca/~cs520/2015/
+    - https://www.cs.princeton.edu/courses/archive/spring12/cos320/schedule.html
+    - http://www.cse.chalmers.se/edu/year/2011/course/CompFun/
 
 *** Write an efficient nanopass compiler.
    - https://github.com/sellout/recursion-scheme-talk/blob/master/nanopass-compiler-talk.org
@@ -1126,6 +1152,11 @@
   - [ ] How to get a symbolic debugger? Note Poly/ML has one.
 
 ** Lisp/Scheme Implementation
+
+  - https://github.com/jsiek/Essentials-of-Compilation (book)
+  - https://github.com/cgswords/sgc
+
+
   - [[http://www.cs.indiana.edu/%7Edyb/pubs/3imp.pdf][Three Implementation Models for Scheme]] R. Kent Dybvig
 
   - http://norvig.com/silk/
@@ -1166,6 +1197,7 @@
     - [[http://www.iro.umontreal.ca/~feeley/90-min-scc.tar.gz][code tarball]]
 
   - Other Lispy/Schemey implementations:
+    - http://orchid-hybrid.github.io/2014/10/10/notes-on-compilers/
     - https://github.com/Ravenbrook/mps/tree/master/example/scheme
     - https://github.com/gambit/gambit
     - [[http://practical-scheme.net/gauche/][Gauche]]
@@ -1322,8 +1354,8 @@
 
 *** Swift parser for Haskell
 
-  - sigh, language-swift-quote is stalled because of ambiguities in
-    the grammar
+  - Sigh, language-swift-quote is stalled because of ambiguities in
+    the grammar. Revisit now Swift 3.0 has been released?
 
 *** Turtle
 

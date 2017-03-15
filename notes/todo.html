@@ -141,7 +141,7 @@
 <li>The C codegen isn’t invoking <code>idris-codegen-c</code>.</li>
 <li>The embedded JS/Node codegen’s probably should have their library parts moved the Idris library to a JS library (to keep them honest - in that they will only use the Idris library exposed API just as a contributed codegen would have to).</li>
 </ul>
-<h3 id="project-n-paper-ideas">Project n Paper ideas</h3>
+<h3 id="project-ideas">Project ideas</h3>
 <ul>
 <li>elisp backend/codegen.
 <ul>
@@ -420,6 +420,11 @@
 </ul>
 <h2 id="demystify-idris">Demystify Idris</h2>
 <ul>
+<li>[ ] Extensible records in Idris
+<ul>
+<li><a href="https://github.com/jmars/Records" class="uri">https://github.com/jmars/Records</a></li>
+<li><a href="https://twitter.com/edwinbrady/status/465824408838602752" class="uri">https://twitter.com/edwinbrady/status/465824408838602752</a></li>
+</ul></li>
 <li>[ ] <a href="https://m.youtube.com/watch?v=AWeT_G04a0A">David Christiansen on the Universe Pattern (video)</a></li>
 <li>[ ] Implement a number of simple TT/PLs in Idris/ML (perhaps from TAPL).
 <ul>
@@ -664,6 +669,10 @@
 </ul></li>
 <li>[X] <a href="http://davidchristiansen.dk/tutorials/bidirectional.pdf">Bidirectional Typing Rules: A Tutorial</a> David Raymond Christiansen</li>
 <li>Notes/articles/slides/courseware.</li>
+<li>Conor’s Frank PL, “Do Be Do Be Do”
+<ul>
+<li><a href="http://homepages.inf.ed.ac.uk/slindley/papers/frankly-draft-july2016.pdf" class="uri">http://homepages.inf.ed.ac.uk/slindley/papers/frankly-draft-july2016.pdf</a></li>
+</ul></li>
 </ul>
 <h3 id="learning-type-theory">Learning Type Theory</h3>
 <p>Adapted from <a href="https://github.com/type-theory/learn-tt" class="uri">https://github.com/type-theory/learn-tt</a></p>
@@ -1295,8 +1304,9 @@
 <ul>
 <li>Develop (literate) code, articles, slides, notes, articles.</li>
 <li><a href="http://tratt.net/laurie/blog/entries/how_difficult_is_it_to_write_a_compiler.html" class="uri">http://tratt.net/laurie/blog/entries/how_difficult_is_it_to_write_a_compiler.html</a></li>
-<li>[ ] <a href="https://github.com/steshaw/babyml">BabyML</a> in Idris.
+<li>[-] <a href="https://github.com/steshaw/babyml">BabyML</a>
 <ul>
+<li>Use Haskell, Idris or OCaml.</li>
 <li>MLish: strict/CBV, D-H-M type inference / unification.</li>
 <li>No modules (for now).</li>
 <li>However with Haskellish syntax. Type applications. Function signatures.</li>
@@ -1316,6 +1326,18 @@
 </ul></li>
 </ul></li>
 </ul></li>
+<li>[X] <a href="http://lucacardelli.name/Papers/CompilingML.A4.pdf" class="uri">http://lucacardelli.name/Papers/CompilingML.A4.pdf</a></li>
+<li>[ ] <a href="http://caml.inria.fr/pub/papers/xleroy-zinc.pdf" class="uri">http://caml.inria.fr/pub/papers/xleroy-zinc.pdf</a></li>
+<li>[ ] <a href="https://www.microsoft.com/en-us/research/wp-content/uploads/1987/01/slpj-book-1987-small.pdf" class="uri">https://www.microsoft.com/en-us/research/wp-content/uploads/1987/01/slpj-book-1987-small.pdf</a></li>
+<li>[ ] <a href="https://www.microsoft.com/en-us/research/publication/implementing-functional-languages-a-tutorial/" class="uri">https://www.microsoft.com/en-us/research/publication/implementing-functional-languages-a-tutorial/</a></li>
+<li>[ ] <a href="http://homepages.inf.ed.ac.uk/wadler/papers/pattern/pattern.pdf">Derivation of a Pattern-Matching Compiler</a></li>
+<li>[ ] <a href="http://moscova.inria.fr/~maranget/papers/ml05e-maranget.pdf">Compiling Pattern Matching to Good Decision Trees</a></li>
+<li>[ ] <a href="https://esumii.github.io/min-caml/paper.pdf" class="uri">https://esumii.github.io/min-caml/paper.pdf</a></li>
+<li>[ ] <a href="http://cs.brown.edu/courses/cs173/2012/book/book.pdf" class="uri">http://cs.brown.edu/courses/cs173/2012/book/book.pdf</a></li>
+<li><a href="http://caml.inria.fr/about/papers.en.html" class="uri">http://caml.inria.fr/about/papers.en.html</a></li>
+<li><a href="http://www.mpi-sws.org/~rossberg/hamlet/" class="uri">http://www.mpi-sws.org/~rossberg/hamlet/</a></li>
+<li>[X] <a href="http://pauillac.inria.fr/~xleroy/talks/zam-kazam05.pdf" class="uri">http://pauillac.inria.fr/~xleroy/talks/zam-kazam05.pdf</a></li>
+<li><a href="http://www.nimblemachines.com/zinc-abstract-machine/" class="uri">http://www.nimblemachines.com/zinc-abstract-machine/</a></li>
 </ul></li>
 <li><a href="#BabyIdris" class="uri">#BabyIdris</a></li>
 <li>Main outline
@@ -1339,15 +1361,13 @@
 <li>Lexing/Parsing</li>
 <li>Semantic Analysis (Type Checking)</li>
 <li>Simple IL/IR generation</li>
-<li>Backends
+<li>Backends:
 <ul>
 <li>Simple IL interpreter/engine + runtime.</li>
-<li>Compile to native x86 or x86-64 (or x86-64 in with 32 bit pointers).</li>
-<li>“transpile” to JS.</li>
-<li>“transpile” to C?</li>
-<li>“transpile” to Java (pro’ly unnecessary).</li>
-<li>Compile to JVM (pro’ly unnecessary).</li>
-<li>Compile to CLR/CLI (pro’ly unnecessary).</li>
+<li>“transpile” to C/JS/Java.</li>
+<li>Compile to machine code: x86 / x86-64 / x86-64 in with 32 bit pointers.</li>
+<li>Compile to JVM.</li>
+<li>Compile to dotnet/CLR/CLI.</li>
 </ul></li>
 </ul></li>
 <li>[ ] Port MinCaml to Idris.
@@ -1357,12 +1377,21 @@
 <li>Would like to see nanopass ideas applied here but using recursion schemes rather than schemey dynamic typing.</li>
 <li>Also nice to add polymorphism in the front-end language if viable.</li>
 </ul></li>
+<li>Would be nice to implement compilers with efficient nanopasses.
+<ul>
+<li>Perhaps possible in Haskell via datatypes a la carte and recursion schemes.</li>
+<li>Seems that datatypes a la carte is not possible in Idris… Can it be fixed?</li>
+</ul></li>
+<li>Courses:
+<ul>
+<li><a href="http://flint.cs.yale.edu/cs421/" class="uri">http://flint.cs.yale.edu/cs421/</a></li>
+<li><a href="https://www.seas.upenn.edu/~cis341/current/#lectures">UPenn cis341 Compilers</a> Steve Zdancewic. OCaml. Beautiful slides. <strong>***</strong></li>
+<li><a href="http://www.cl.cam.ac.uk/teaching/1314/L26/materials.html" class="uri">http://www.cl.cam.ac.uk/teaching/1314/L26/materials.html</a></li>
 <li><a href="https://www.cs.indiana.edu/~sabry/teaching/b522/s03/">CSCI B522 Programming Language Foundations Amr Sabry (course)</a>
 <ul>
 <li>MinML/NanoML semantics. Be nice to write it up in `org-mode` and/or <br /><span class="math display">$$\LaTex$$</span><br />.</li>
 <li>Also seems to have verifications/proofs in Twelf.</li>
 </ul></li>
-<li><a href="https://www.seas.upenn.edu/~cis341/current/#lectures">UPenn cis341 Compilers</a> Steve Zdancewic. OCaml. Beautiful slides. <strong>***</strong></li>
 <li><a href="https://iu.instructure.com/courses/1517577">SP16 Compilers 11241 Jeremy Siek (course)</a>
 <ul>
 <li><a href="https://www.sharelatex.com/project/5637a774990f556d48bab667">course book/notes</a></li>
@@ -1372,6 +1401,10 @@
 <ul>
 <li><a href="http://www.cs.colorado.edu/~bec/courses/csci4555-s15/" class="uri">http://www.cs.colorado.edu/~bec/courses/csci4555-s15/</a></li>
 <li><a href="http://www.cs.colorado.edu/~bec/courses/csci4555-s15/reading/notes.pdf">A Problem Course in Compilation: From Python to x86 Assembly</a></li>
+</ul></li>
+<li><a href="http://cs.mcgill.ca/~cs520/2015/" class="uri">http://cs.mcgill.ca/~cs520/2015/</a></li>
+<li><a href="https://www.cs.princeton.edu/courses/archive/spring12/cos320/schedule.html" class="uri">https://www.cs.princeton.edu/courses/archive/spring12/cos320/schedule.html</a></li>
+<li><a href="http://www.cse.chalmers.se/edu/year/2011/course/CompFun/" class="uri">http://www.cse.chalmers.se/edu/year/2011/course/CompFun/</a></li>
 </ul></li>
 </ul>
 <h3 id="write-an-efficient-nanopass-compiler.">Write an efficient nanopass compiler.</h3>
@@ -1474,6 +1507,10 @@
 </ul>
 <h2 id="lispscheme-implementation">Lisp/Scheme Implementation</h2>
 <ul>
+<li><a href="https://github.com/jsiek/Essentials-of-Compilation" class="uri">https://github.com/jsiek/Essentials-of-Compilation</a> (book)</li>
+<li><a href="https://github.com/cgswords/sgc" class="uri">https://github.com/cgswords/sgc</a></li>
+</ul>
+<ul>
 <li><p><a href="http://www.cs.indiana.edu/%7Edyb/pubs/3imp.pdf">Three Implementation Models for Scheme</a> R. Kent Dybvig</p></li>
 <li><a href="http://norvig.com/silk/" class="uri">http://norvig.com/silk/</a>
 <ul>
@@ -1523,6 +1560,7 @@
 </ul></li>
 <li>Other Lispy/Schemey implementations:
 <ul>
+<li><a href="http://orchid-hybrid.github.io/2014/10/10/notes-on-compilers/" class="uri">http://orchid-hybrid.github.io/2014/10/10/notes-on-compilers/</a></li>
 <li><a href="https://github.com/Ravenbrook/mps/tree/master/example/scheme" class="uri">https://github.com/Ravenbrook/mps/tree/master/example/scheme</a></li>
 <li><a href="https://github.com/gambit/gambit" class="uri">https://github.com/gambit/gambit</a></li>
 <li><a href="http://practical-scheme.net/gauche/">Gauche</a>
@@ -1692,7 +1730,7 @@
 </ul>
 <h3 id="swift-parser-for-haskell">Swift parser for Haskell</h3>
 <ul>
-<li>sigh, language-swift-quote is stalled because of ambiguities in the grammar</li>
+<li>Sigh, language-swift-quote is stalled because of ambiguities in the grammar. Revisit now Swift 3.0 has been released?</li>
 </ul>
 <h3 id="turtle">Turtle</h3>
 <ul>
