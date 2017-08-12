@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-    <title>Steven Shaw - Posts tagged "Haskell"</title>
+    <title>Steven Shaw - Notes</title>
     <meta name="description" content="Steven Shaw loves programming languages">
     <meta name="author" content="Steven Shaw">
     <meta name="robots" content="index, follow">
@@ -14,9 +14,9 @@
     <!-- Styles -->
     <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
-    <link rel="stylesheet" type="text/css" href="../../css/default.css" />
-    <link rel="stylesheet" type="text/css" href="../../css/syntax-figure.css" />
-    <link rel="stylesheet" type="text/css" href="../../css/syntax.css" />
+    <link rel="stylesheet" type="text/css" href="../css/default.css" />
+    <link rel="stylesheet" type="text/css" href="../css/syntax-figure.css" />
+    <link rel="stylesheet" type="text/css" href="../css/syntax.css" />
     <link href="http://fonts.googleapis.com/css?family=Roboto:900,700,600,500,400italic,400,300,200,100" rel="stylesheet" type="text/css">
 
     <!-- Google analytics { -->
@@ -48,14 +48,14 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="../../">
-            <img src="../../images/pltsrc.png" height="33" width="33" alt="Steven Shaw loves programming languages" />
+          <a class="navbar-brand" href="../">
+            <img src="../images/pltsrc.png" height="33" width="33" alt="Steven Shaw loves programming languages" />
           </a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li class>
-              <a href="../../"><i class="fa fa-home"></i> Home</a>
+              <a href="../"><i class="fa fa-home"></i> Home</a>
             </li>
             <!--
               <li>
@@ -63,7 +63,7 @@
               </li>
             -->
             <li class>
-              <a href="../../talks"><i class="fa fa-comment"></i> Talks</a>
+              <a href="../talks"><i class="fa fa-comment"></i> Talks</a>
             </li>
 <!--
             <li>
@@ -71,7 +71,7 @@
             </li>
 -->
             <li>
-              <a href="../../plt">λΠ PLT</a>
+              <a href="../plt">λΠ PLT</a>
             </li>
 <!--
             <li>
@@ -79,7 +79,7 @@
             </li>
 -->
             <li>
-              <a href="../../radar"><i class="fa fa-bullseye"></i> Radar</a>
+              <a href="../radar"><i class="fa fa-bullseye"></i> Radar</a>
             </li>
             <!-- <li><a href="/tags.html"><i class="fa fa-tags"></i> Tags</a></li>
             <li>
@@ -89,14 +89,14 @@
               </a>
             </li> -->
 <!--
-            <li class="">
+            <li class="active">
               <a href="/notes"><i class="fa fa-sticky-note-o"></i> Notes</a>
             </li>
 -->
           </ul>
           <ul class="nav navbar-nav navbar-right">
             <li class>
-              <a href="../../about"><i class="fa fa-user"></i> About</a>
+              <a href="../about"><i class="fa fa-user"></i> About</a>
             </li>
           </ul>
         </div>
@@ -117,42 +117,43 @@
           </div>
         </div>
         <div class="col-sm-10 content">
-          <div class="page-header">
-  <h1>Posts tagged "Haskell"</h1>
-</div>
-
-<ul class="posts">
-  
-    <li class="list-unstyled">
-      <div class="post-list-title">
-        <a href="../../posts/2017/08/12/haskell-on-spacemacs/index.html">Haskell on Spacemacs</a>
-      </div>
-      <div class="post-list-date">
-        12 August 2017
-      </div>
-    </li>
-  
-    <li class="list-unstyled">
-      <div class="post-list-title">
-        <a href="../../posts/2015/04/29/blogging-with-hakyll/index.html">Blogging with Hakyll</a>
-      </div>
-      <div class="post-list-date">
-        29 April 2015
-      </div>
-    </li>
-  
-    <li class="list-unstyled">
-      <div class="post-list-title">
-        <a href="../../posts/2008/09/15/hyperproductive-monadic-programmer-for-the-21st-century/index.html">Hyperproductive Monadic Programmer for the 21st Century</a>
-      </div>
-      <div class="post-list-date">
-        15 September 2008
-      </div>
-    </li>
-  
+          <h1 id="category-theory">Category Theory</h1>
+<h2 id="monic-epic">Monic / Epic</h2>
+<p>Related vides from Bartosz Milewski:</p>
+<ul>
+<li><a href="https://youtu.be/O2lZkr-aAqk?list=PLbgaMIhjbmEnaH_LTkxLI7FMa2HsnawM_">Category Theory 2.1: Functions, epimorphisms</a></li>
+<li><a href="https://youtu.be/NcT7CGPICzo?list=PLbgaMIhjbmEnaH_LTkxLI7FMa2HsnawM">Category Theory 2.2: Monomorphisms, simple types</a></li>
 </ul>
-
-
+<p>In set theory,</p>
+<ul>
+<li>an injective function is a 1-to-1 mapping.</li>
+<li>a surjective function is “onto”. i.e. the image of the function covers the entire co-domain.</li>
+</ul>
+<p>In CT, these notions abstract to:</p>
+<ul>
+<li>injective (function) = monic morphism or monomorphism</li>
+<li>surjective (function) = epic morphism or epimorphism</li>
+</ul>
+<p>Since CT cannot refer to the elements of a set, these need to be defined in terms only of CT concepts: composition and morphisms. The technique is called “universal property” or “universal construction” because it’s necessary to consider all morphisms in the category.</p>
+<p>Definition of monomorphism:</p>
+<pre class="plain"><code>f is a monomorphism if, f : X → Y such that,
+  for all morphisms g1, g2 : Z → X,
+    f ∘ g1 = f ∘ g2 =&gt; g1 = g2</code></pre>
+<p>Definition of epimorphism:</p>
+<pre class="plain"><code>f is an epimorphism if, f : X → Y such that,
+  for all morphisms g1, g2 : Y → Z,
+    g1 ∘ f = g2 ∘ f =&gt; g1 = g2</code></pre>
+<p>Note: apparently, in CT, isomorphism != monomorphism + epimorphism. I guess you need something a little stronger than in set theory.</p>
+<h2 id="preorders-orders-partial-orders">Preorders / Orders / Partial Orders</h2>
+<ul>
+<li><a href="https://youtu.be/aZjhqkD6k6w?list=PLbgaMIhjbmEnaH_LTkxLI7FMa2HsnawM">Category Theory 3.1: Examples of categories, orders, monoids</a></li>
+</ul>
+<p>TODO</p>
+<h2 id="monoids">Monoids</h2>
+<ul>
+<li><a href="https://youtu.be/aZjhqkD6k6w?list=PLbgaMIhjbmEnaH_LTkxLI7FMa2HsnawM">Category Theory 3.1: Examples of categories, orders, monoids</a></li>
+</ul>
+<p>TODO</p>
         </div>
       </div>
     </div>
@@ -183,7 +184,7 @@
     <!-- JavaScripts -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-    <script src="../../js/octopressify.js"></script>
-    <script src="../../js/blog.js"></script>
+    <script src="../js/octopressify.js"></script>
+    <script src="../js/blog.js"></script>
   </body>
 </html>

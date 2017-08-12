@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-    <title>Steven Shaw - Fermat's Last Theorem</title>
+    <title>Steven Shaw - Haskell on Spacemacs</title>
     <meta name="description" content="Steven Shaw loves programming languages">
     <meta name="author" content="Steven Shaw">
     <meta name="robots" content="index, follow">
@@ -126,57 +126,85 @@
   <div class="header-image-bg">
     <div class="post-header">
       <div class="post-header-content">
-        <h1 class="post-title">Fermat's Last Theorem</h1>
+        <h1 class="post-title">Haskell on Spacemacs</h1>
         
           <h4 class="post-subtitle"></h4>
         
-        <h4 class="post-date"><small><time class="timeago" datetime=" 8 June 2015" pubdate> 8 June 2015</time></small></h4>
+        <h4 class="post-date"><small><time class="timeago" datetime="12 August 2017" pubdate>12 August 2017</time></small></h4>
       </div>
     </div>
   </div>
 </header>
 
 <div class="post-content">
-  <iframe src="https://player.vimeo.com/video/18216532?byline=0&portrait=0" width="500" height="279" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
-<p>This is a wonderful documentary! It’s the story of a simple mathematical problem that went unsolved for centuries. It starts with <em>Pythagoras’ theorem</em>,</p>
-<div class="eqtion">
-<p>x<sup>2</sup> + y<sup>2</sup> = z<sup>2</sup></p>
-</div>
-<p>What are the whole number solutions of this equation?</p>
-<div class="eqtion">
-<p>3<sup>2</sup> + 4<sup>2</sup> = 5<sup>2</sup><br />
-5<sup>2</sup> + 12<sup>2</sup> = 13<sup>2</sup><br />
-…</p>
-</div>
-<p>Fermat wondered if this could be extended to the following equations:</p>
-<div class="eqtion">
-<p>x<sup>3</sup> + y<sup>3</sup> = z<sup>3</sup><br />
-x<sup>4</sup> + y<sup>4</sup> = z<sup>4</sup><br />
-…<br />
-x<sup>n</sup> + y<sup>n</sup> = z<sup>n</sup></p>
-</div>
-<p>Fermat could find no whole number solutions to this more general equation. Fermat’s conjecture was that:</p>
-<div class="eqtion">
-<p>There are no whole number solutions were n &gt; 2.</p>
-</div>
-<p>It was 1637 when Fermat made the marginal note in Arithmetica—a book he was reading at the time—stating his conjecture and mentioning that he had a proof that would not “fit in the margin”. It’s this conjecture that became known as <em>Fermat’s Last Theorem</em>. The proof lay undiscovered for centuries!</p>
-<p>In 1963, a 10 year old boy came across a book in the local library about Fermat’s Last Theorem. He instantly became obsessed with this wonderfully simple problem—a problem simple enough for a 10 year old to understand! This boy was Andrew Wiles. Andrew was so taken with the problem that he eventually became a professor of mathematics. After giving up on the problem for some time, he eventually saw his opportunity as some of the pieces moved into place. He then worked on the problem full-time for <em>7 years</em>. For the first 2 years, he merely explored the problem, not knowing where to begin. Finally, he cracked it! However, there’s a gut wrenching twist to the story that means that the proof takes another year to nail down. I won’t spoil that here.</p>
-<blockquote>
-<p>I never use a computer. I sometimes … write … scribble. I do doodles. I start trying to … to find patterns, really. —Andrew Wiles</p>
-</blockquote>
-<p>References:</p>
+  <p>I’ve been wanting to give Spacemacs another try for Haskell development. In particular, I wanted it to work with <code>intero</code> and <code>hindent</code>.</p>
+<h2 id="install-emacs">Install Emacs</h2>
+<p>I like to use Mitsuharu Yamamoto’s emacs-mac, rather than Aquamacs or emacsformacosx.</p>
+<pre class="shell"><code>$ brew tap railwaycat/emacsmacport
+$ brew cask install emacs-mac
+</code></pre>
+<h2 id="install-dependencies">Install Dependencies</h2>
+<p>The haskell layer in Spacemacs requires a few dependencies. I installed them with Stack.</p>
+<pre class="shell"><code>$ stack install hlint hasktags hoogle ghc-mod intero
+$ stack --resolver nightly-2017-08-12 install apply-refact
+</code></pre>
+<h2 id="haskell-layer">Haskell layer</h2>
+<p>I added the <code>haskell</code> layer plus <code>autocompletion</code> which it seems to require. I also followed the documentation in configuring intero and hindent (though the style “johan-tibell” no longer seems required as hindent no longer supports multiple styles).</p>
+<p>After adding a few other layers, my configuration layers in <code>~/.spacemacs</code> looked like this:</p>
+<div class="sourceCode"><pre class="sourceCode commonlisp"><code class="sourceCode commonlisp">   dotspacemacs-configuration-layers
+   '(
+     ansible
+     auto-completion
+     emacs-lisp
+     git
+     (haskell :variables
+              haskell-completion-backend 'intero
+              haskell-enable-hindent-style <span class="st">&quot;johan-tibell&quot;</span>)
+     helm
+     html
+     javascript
+     markdown
+     org
+     osx
+     (shell :variables
+            shell-default-height <span class="dv">30</span>
+            shell-default-position 'bottom)
+     spell-checking
+     syntax-checking
+     themes-megapack
+     version-control
+     yaml
+     )</code></pre></div>
+<h2 id="project-sidebar">Project sidebar</h2>
+<p>I missed having a project sidebar (such as seems to be the default in editors like Atom). Eventually I found that Spacemacs includes NeoTree which makes a viable project sidebar. Toggle on/off with <code>SPC p t</code> or <code>SPC f t</code> for a file rather than project browser.</p>
+<p><a href="https://github.com/syl20bnr/spacemacs/blob/master/doc/DOCUMENTATION.org#neotree-file-tree">See more in the documentation</a></p>
+<h2 id="tab-bar">Tab bar</h2>
+<p>I also missed having a tab bar (for open files) such as that in Atom. There doesn’t seem to be anything built into Spacemacs for this. I tried the <a href="https://github.com/evacchi/tabbar-layer">tabbar-layer</a> but it was pretty ugly.</p>
+<p>After some searching, I figured I could rely on “helm-mini”. It lets you open search/select files from the open buffers (<code>SPC b b</code>). Also searching/selecting for files in the same project is possible from projectile (<code>SPC p f</code>).</p>
+<h2 id="fill-column-indicator">Fill column indicator</h2>
+<p>I wanted my little indicator for the 80th column. Here, you need to tweak your <code>~/.spacemacs</code> file.</p>
+<div class="sourceCode"><pre class="sourceCode commonlisp"><code class="sourceCode commonlisp">(<span class="kw">defun</span><span class="fu"> dotspacemacs/user-config </span>()
+  (spacemacs/toggle-fill-column-indicator-on)
+  )</code></pre></div>
+<h2 id="theme">Theme</h2>
+<p>It was fun seeing the different themes available for Spacemacs. It’s best to install <code>themes-megapack</code> layer (see my layers configuration above). I don’t mind the default <code>spacemacs-dark</code> theme but here are some of my other favourites:</p>
 <ul>
-<li><a href="http://en.wikipedia.org/wiki/Andrew_Wiles">Andrew Wiles on Wikipedia</a></li>
-<li><a href="http://www.pbs.org/wgbh/nova/physics/andrew-wiles-fermat.html">Andrew Wiles on Solving Fermat</a></li>
+<li><code>deeper-blue</code></li>
+<li><code>dracula</code></li>
+<li><code>sanityinc-solarized-dark</code></li>
+<li><code>solarized-dark</code></li>
 </ul>
+<p>Check out <a href="http://themegallery.robdor.com/">the gallery</a>.</p>
+<p>I finally settled on <code>deeper-blue</code>.</p>
+<img width="800px" style="display:block; margin: 0 auto;" src="../../../../../images/haskell-on-spacemacs.png">
+
 </div>
 
 <div class="post-footer">
   
   <div class="post-footer-row">
     <div class="tags">
-      <i class="fa fa-tags"></i> <a href="../../../../../tags/maths/index.html">maths</a>
+      <i class="fa fa-tags"></i> <a href="../../../../../tags/haskell/index.html">Haskell</a>, <a href="../../../../../tags/emacs/index.html">Emacs</a>, <a href="../../../../../tags/spacemacs/index.html">Spacemacs</a>
     </div>
   </div>
   <div class="clear"></div>
@@ -185,10 +213,8 @@ x<sup>n</sup> + y<sup>n</sup> = z<sup>n</sup></p>
   <div class="post-footer-row">
     <div class="post-nav">
       
-      <a class="btn btn-default" href="../../../../../posts/2015/05/17/continuous-wins/index.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
+      <a class="btn btn-default" href="../../../../../posts/2015/06/08/fermats-last-theorem/index.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
       
-      
-      <a class="btn btn-default" href="../../../../../posts/2017/08/12/haskell-on-spacemacs/index.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
       
     </div>
   </div>

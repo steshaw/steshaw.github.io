@@ -117,13 +117,68 @@
           </div>
         </div>
         <div class="col-sm-10 content">
-          <ul>
-<li>Write a JSON/XML/YAML command line tool.
+          <h1 id="distributed-systems">Distributed Systems</h1>
+<p>Aka “Microservices in the Cloud”.</p>
+<h2 id="cloud">Cloud</h2>
 <ul>
-<li><a href="http://jeroenjanssens.com/2013/09/19/seven-command-line-tools-for-data-science.html" class="uri">http://jeroenjanssens.com/2013/09/19/seven-command-line-tools-for-data-science.html</a></li>
-<li><a href="http://stedolan.github.io/jq/">jq</a>.</li>
-<li><a href="http://trentm.com/json/">json</a>.</li>
+<li>Service Discovery.</li>
+<li>load balancing (resource utilisation).</li>
+<li><p>encryption?</p></li>
+<li>circuit breaker
+<ul>
+<li>Helps prevent cascading failures using a fast-fail service invocation when a service is misbehaving (just for a timeout period and then retried occasionally).</li>
+<li><a href="http://microservices.io/patterns/reliability/circuit-breaker.html" class="uri">http://microservices.io/patterns/reliability/circuit-breaker.html</a></li>
 </ul></li>
+<li>saying “No” to distributed transactions and the alternatives.</li>
+<li>Failures. Partitions. Outages.</li>
+<li><p>CAP theorem.</p></li>
+</ul>
+<h2 id="microservices">Microservices</h2>
+<ul>
+<li>Architecture
+<ul>
+<li>NGINX Microservices Reference Architecture (MRA) – 3 models: Proxy , Router Mesh, Fabric.</li>
+</ul></li>
+<li>Service discovery - local proxy or etcd/consul/zookeeper or Netflix/Spring-Cloud.
+<ul>
+<li>client-side – client communicates to Service Registry (e.g. etcd). e.g. Netflix OSS.</li>
+<li>server-side – client communicates to a router (proxy/load-balancer) which in turn communicates with the Service Registry. e.g. Kubernetes proxy.
+<ul>
+<li>Kubernetes apparently has other ways of avoiding using the proxy pattern (which requires two networks hops per service invocation).</li>
+</ul></li>
+</ul></li>
+<li>Messaging/Queuing v REST (async v sync).</li>
+<li>JSON or binary serialisation.</li>
+<li><p>Service Invocation. Fan-out / Fan-in etc. Error handling. Reactive/Futures.</p></li>
+<li>Microservice Kit.
+<ul>
+<li>configuration, logging, health checks, metrics, distributed-tracing (aka correlation id)</li>
+<li>examples:
+<ul>
+<li>Java
+<ul>
+<li>Dropwizard</li>
+<li>Spring Boot / Spring Cloud</li>
+</ul></li>
+<li>Go
+<ul>
+<li>Gizmo</li>
+<li>Micro</li>
+<li>Go kit</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li>Authentication
+<ul>
+<li>Access token e.g. JSON Web Token. <a href="https://jwt.io" class="uri">https://jwt.io</a></li>
+<li>Web app stateless authentication cookies (ala Rails / PlayFramework).</li>
+</ul></li>
+</ul>
+<h2 id="persistence">Persistence</h2>
+<ul>
+<li>Databases - SQL, NoSQL, NewSQL.</li>
+<li>[Persistent] Queues / Messaging.</li>
+<li>Event streaming / CQRS / Kafka.</li>
 </ul>
         </div>
       </div>
