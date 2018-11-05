@@ -162,9 +162,7 @@ $ stack --resolver nightly-2017-08-12 install apply-refact
 </header>
 
 <div class="post-content">
-  <iframe src="https://player.vimeo.com/video/18216532?byline=0&portrait=0" width="500" height="279" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
-<p>This is a wonderful documentary! It’s the story of a simple mathematical problem that went unsolved for centuries. It starts with <em>Pythagoras’ theorem</em>,</p>
+  <p><a href="https://topdocumentaryfilms.com/fermats-last-theorem/">Femat’s Last Theorem</a> is a wonderful documentary! It’s the story of a simple mathematical problem that went unsolved for centuries. It starts with <em>Pythagoras’ theorem</em>,</p>
 <div class="eqtion">
 <p>x<sup>2</sup> + y<sup>2</sup> = z<sup>2</sup></p>
 </div>
@@ -395,216 +393,10 @@ $ <span class="kw">btrfs</span> filesystem resize max /mnt/root</code></pre></di
   <div class="post-footer-row">
     <div class="post-nav">
       
-      <a class="btn btn-default" href="/posts/2015/05/01/deploying-your-hakyll-site-with-halcyon/index.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
-      
-      
-      <a class="btn btn-default" href="/posts/2015/05/17/continuous-wins/index.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
-      
-    </div>
-  </div>
-  <div class="clear"></div>
-</div>
-
-<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="post-aside comments"></div>
-<script type="text/javascript">
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
-
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-]]></summary>
-</entry>
-<entry>
-    <title>Deploying your Hakyll site with Halcyon</title>
-    <link href="http://steshaw.org/posts/2015/05/01/deploying-your-hakyll-site-with-halcyon/index.html" />
-    <id>http://steshaw.org/posts/2015/05/01/deploying-your-hakyll-site-with-halcyon/index.html</id>
-    <published>2015-05-01T00:00:00Z</published>
-    <updated>2015-05-01T00:00:00Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
-  <div class="cross-posted-to-medium">
-    <a class="btn btn-default">
-      <i class="fa fa-medium"></i> Cross-posted to Medium
-    </a>
-  </div>
-  <div class="header-image-bg">
-    <div class="post-header">
-      <div class="post-header-content">
-        <h1 class="post-title">Deploying your Hakyll site with Halcyon</h1>
-        
-          <h4 class="post-subtitle"></h4>
-        
-        <h4 class="post-date"><small><time class="timeago" datetime=" 1 May 2015" pubdate> 1 May 2015</time></small></h4>
-      </div>
-    </div>
-  </div>
-</header>
-
-<div class="post-content">
-  <p><em>Draft</em></p>
-<ul>
-<li><p>Do not use the CircleCI caching system as it is slower than just using Halcyon.</p></li>
-<li><p>Set up a private S3 bucket.</p></li>
-<li><p>Local builds.</p></li>
-<li><p>Ensure you use the magic files if required.</p>
-<ul>
-<li>I needed alex and happy.</li>
-</ul></li>
-</ul>
-<h2 id="references">References</h2>
-<ul>
-<li><a href="https://github.com/steshaw/steshaw.org" class="uri">https://github.com/steshaw/steshaw.org</a></li>
-<li><a href="https://halcyon.sh/" class="uri">https://halcyon.sh/</a>
-<ul>
-<li><a href="https://halcyon.sh/tutorial/" class="uri">https://halcyon.sh/tutorial/</a></li>
-<li><a href="https://halcyon.sh/reference/" class="uri">https://halcyon.sh/reference/</a></li>
-<li><a href="https://github.com/mietek/halcyon" class="uri">https://github.com/mietek/halcyon</a></li>
-</ul></li>
-<li><a href="https://robots.thoughtbot.com/building-haskell-projects-with-halcyon" class="uri">https://robots.thoughtbot.com/building-haskell-projects-with-halcyon</a>
-<ul>
-<li><a href="https://github.com/thoughtbot/carnival" class="uri">https://github.com/thoughtbot/carnival</a>
-<ul>
-<li><a href="https://github.com/thoughtbot/carnival/blob/master/circle.yml" class="uri">https://github.com/thoughtbot/carnival/blob/master/circle.yml</a></li>
-<li><a href="https://github.com/thoughtbot/carnival/blob/master/bin/halcyon-build" class="uri">https://github.com/thoughtbot/carnival/blob/master/bin/halcyon-build</a></li>
-</ul></li>
-</ul></li>
-</ul>
-</div>
-
-<div class="post-footer">
-  
-  <div class="post-footer-row">
-    <div class="tags">
-      <i class="fa fa-tags"></i> <a href="/tags/hakyll/index.html">Hakyll</a>, <a href="/tags/halcyon/index.html">Halcyon</a>, <a href="/tags/circleci/index.html">CircleCI</a>
-    </div>
-  </div>
-  <div class="clear"></div>
-  
-
-  <div class="post-footer-row">
-    <div class="post-nav">
-      
-      <a class="btn btn-default" href="/posts/2015/04/29/blogging-with-hakyll/index.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
-      
-      
-      <a class="btn btn-default" href="/posts/2015/05/03/increase-size-of-virtualbox-btrfs-partition/index.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
-      
-    </div>
-  </div>
-  <div class="clear"></div>
-</div>
-
-<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="post-aside comments"></div>
-<script type="text/javascript">
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
-
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-]]></summary>
-</entry>
-<entry>
-    <title>Blogging with Hakyll</title>
-    <link href="http://steshaw.org/posts/2015/04/29/blogging-with-hakyll/index.html" />
-    <id>http://steshaw.org/posts/2015/04/29/blogging-with-hakyll/index.html</id>
-    <published>2015-04-29T00:00:00Z</published>
-    <updated>2015-04-29T00:00:00Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
-  <div class="cross-posted-to-medium">
-    <a class="btn btn-default">
-      <i class="fa fa-medium"></i> Cross-posted to Medium
-    </a>
-  </div>
-  <div class="header-image-bg">
-    <div class="post-header">
-      <div class="post-header-content">
-        <h1 class="post-title">Blogging with Hakyll</h1>
-        
-          <h4 class="post-subtitle"></h4>
-        
-        <h4 class="post-date"><small><time class="timeago" datetime="29 April 2015" pubdate>29 April 2015</time></small></h4>
-      </div>
-    </div>
-  </div>
-</header>
-
-<div class="post-content">
-  <p><em>Draft</em></p>
-<h1 id="outline">Outline</h1>
-<ul>
-<li>Hakyll <a href="http://jaspervdj.be/hakyll/" class="uri">http://jaspervdj.be/hakyll/</a></li>
-<li>Getting MathJax working</li>
-<li>Disqus comments</li>
-<li>Google Analytics</li>
-<li>Source code syntax highlighting</li>
-</ul>
-<h3 id="haskell-code">Haskell code</h3>
-<div class="sourceCode"><pre class="sourceCode haskell"><code class="sourceCode haskell"><span class="kw">module</span> <span class="dt">Data.Foo</span>
-
-main <span class="fu">=</span> putStrLn <span class="st">&quot;Hello, world!&quot;</span></code></pre></div>
-<h3 id="emacs-lisp-code">emacs-lisp code</h3>
-<div class="sourceCode"><pre class="sourceCode commonlisp"><code class="sourceCode commonlisp">(<span class="kw">defun</span><span class="fu"> org-xor </span>(a b)
-  <span class="st">&quot;Exclusive or.&quot;</span>
-  (<span class="kw">if</span> a (<span class="kw">not</span> b) b))</code></pre></div>
-<h3 id="an-example">An example</h3>
-<pre class="example"><code>Some example from a text file.
-</code></pre>
-<h3 id="some-yaml">Some yaml</h3>
-<div class="sourceCode" id="switch Markdown processors in _config.yml"><pre class="sourceCode yaml"><code class="sourceCode yaml"><span class="fu">markdown:</span> maruku</code></pre></div>
-<h3 id="some-html">Some html</h3>
-<div class="sourceCode" id="enable MathJax in source/_includes/custom/head.html http://www.mathjax.org/docs/1.1/start.html"><pre class="sourceCode html"><code class="sourceCode html"><span class="kw">&lt;script</span><span class="ot"> type=</span><span class="st">&quot;text/x-mathjax-config&quot;</span><span class="kw">&gt;</span>
-<span class="va">MathJax</span>.<span class="va">Hub</span>.<span class="at">Config</span>(<span class="op">{</span>
-      <span class="dt">tex2jax</span><span class="op">:</span> <span class="op">{</span><span class="dt">inlineMath</span><span class="op">:</span> [[<span class="st">&#39;$&#39;</span><span class="op">,</span><span class="st">&#39;$&#39;</span>]<span class="op">,</span> [<span class="st">&#39;</span><span class="sc">\\</span><span class="st">(&#39;</span><span class="op">,</span><span class="st">&#39;</span><span class="sc">\\</span><span class="st">)&#39;</span>]]<span class="op">}</span>
-      <span class="op">}</span>)<span class="op">;</span>
-<span class="op">&lt;</span><span class="ss">/script&gt;</span>
-<span class="ss">&lt;script type=&quot;text/javascript</span><span class="st">&quot; src=&quot;</span>path<span class="op">-</span>to<span class="op">-</span>mathjax/<span class="va">MathJax</span>.<span class="at">js</span><span class="op">?</span>config<span class="op">=</span>TeX<span class="op">-</span>AMS<span class="op">-</span>MML_HTMLorMML<span class="st">&quot;&gt;&lt;/script&gt;</span></code></pre></div>
-<h3 id="some-tex">Some TeX</h3>
-<pre id="example expression from Paul Snivey&#39;s article http://psnively.github.com/2010/03/13/100-proof.html"><code>$$\forall x, y : \mathbb{Z}, x &gt; 3 \land y &lt; 2 \Rightarrow x^2 - 2y &gt; 5$$
-</code></pre>
-<p>Inline TeX: <br /><span class="math display">∀<em>x</em>, <em>y</em> : ℤ, <em>x</em> &gt; 3 ∧ <em>y</em> &lt; 2 ⇒ <em>x</em><sup>2</sup> − 2<em>y</em> &gt; 5</span><br /></p>
-<h2 id="thanks">Thanks</h2>
-<ul>
-<li><a href="http://begriffs.com/posts/2014-08-12-create-static-site-with-hakyll-github.html">Begriffs on GitHub and Travis CI</a></li>
-<li><a href="https://github.com/willtim/timphilipwilliams.com">Tim William’s Hakyll blog using Boostrap 2.1</a></li>
-<li><a href="http://timbaumann.info/posts/2013-08-04-hakyll-github-and-travis.html" class="uri">http://timbaumann.info/posts/2013-08-04-hakyll-github-and-travis.html</a></li>
-<li><a href="http://jaspervdj.be/hakyll/">Jasper Van der Jeugt’s Hakyll</a></li>
-<li><a href="https://github.com/thomasf/exitwp/" class="uri">https://github.com/thomasf/exitwp/</a></li>
-<li><a href="http://nixos.org/nix/" class="uri">http://nixos.org/nix/</a></li>
-</ul>
-</div>
-
-<div class="post-footer">
-  
-  <div class="post-footer-row">
-    <div class="tags">
-      <i class="fa fa-tags"></i> <a href="/tags/haskell/index.html">Haskell</a>, <a href="/tags/hakyll/index.html">Hakyll</a>
-    </div>
-  </div>
-  <div class="clear"></div>
-  
-
-  <div class="post-footer-row">
-    <div class="post-nav">
-      
       <a class="btn btn-default" href="/posts/2014/07/17/adopting-a-cambridge-culture/index.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
       
       
-      <a class="btn btn-default" href="/posts/2015/05/01/deploying-your-hakyll-site-with-halcyon/index.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      <a class="btn btn-default" href="/posts/2015/05/17/continuous-wins/index.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
       
     </div>
   </div>
@@ -712,7 +504,7 @@ main <span class="fu">=</span> putStrLn <span class="st">&quot;Hello, world!&quo
       <a class="btn btn-default" href="/posts/2012/02/09/hello-mathjax/index.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
       
       
-      <a class="btn btn-default" href="/posts/2015/04/29/blogging-with-hakyll/index.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
+      <a class="btn btn-default" href="/posts/2015/05/03/increase-size-of-virtualbox-btrfs-partition/index.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
       
     </div>
   </div>
