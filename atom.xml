@@ -1539,9 +1539,9 @@ Windows 7 Home Premium x64</p>
 </header>
 
 <div class="post-content">
-  <p>This looks like a great course+book: <a href="http://www.idc.ac.il/tecs/">The elements of computing systems</a>.</p>
+  <p>This looks like a great course and book: <a href="http://www.idc.ac.il/tecs/">The Elements of Computing Systems</a>.</p>
 <div class="figure">
-<img src="http://www.nand2tetris.org/imgs/cover.jpg" title="The book" alt="The Elements of Computing Systems" />
+<img src="/images/nand2tetris-cover.jpeg" title="The book" alt="The Elements of Computing Systems" />
 <p class="caption">The Elements of Computing Systems</p>
 </div>
 </div>
@@ -2542,7 +2542,7 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
 <li><p>Perhaps Tapestry 5 when it’s finished and if the components and community appear :)</p></li>
 </ul>
 <p>There are sooo many web frameworks out there. It <em>is</em> so easy to have the reaction: not another please, please, no no no! There is certainly a need for a few. The move away from “model 2 mvc” frameworks is gaining momentum now (thank goodness). The term “model 2 mvc” seems laughable now :). Web frameworks are getting <a href="http://www.theserverside.com/news/thread.tss?thread_id=39358">compared</a> <a href="http://www.theserverside.com/news/thread.tss?thread_id=44939">all</a> <a href="http://www.theserverside.com/news/thread.tss?thread_id=39484">the</a> <a href="http://www.theserverside.com/news/thread.tss?thread_id=40127">time</a>! The people involved are often parochial and the forums can get heated :) .</p>
-<p>It’d be nice if there were some ideal framework for Java developers (those .NET guys sure have it easy!). The reality is that many frameworks would be suitable. Choose one that works for you and keeps you productive (i.e. avoid model2/action based frameworks if you have much interactive to deal with). I’m currently hoping that Wicket gains an upper hand. <a href="http://jobserve.com">JobServe</a> lists zero Wicket contracts currently though :( .</p>
+<p>It’d be nice if there were some ideal framework for Java developers (those .NET guys sure have it easy!). The reality is that many frameworks would be suitable. Choose one that works for you and keeps you productive (i.e. avoid model2/action based frameworks if you have much interactivity to deal with). I’m currently hoping that Wicket gains an upper hand. <a href="http://jobserve.com">JobServe</a> lists zero Wicket contracts currently though :( .</p>
 </div>
 
 <div class="post-footer">
