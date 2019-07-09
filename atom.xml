@@ -15,7 +15,7 @@
     <id>http://steshaw.org/posts/2017/08/12/haskell-on-spacemacs/index.html</id>
     <published>2017-08-12T00:00:00Z</published>
     <updated>2017-08-12T00:00:00Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -142,7 +142,7 @@ $ stack --resolver nightly-2017-08-12 install apply-refact
     <id>http://steshaw.org/posts/2015/06/08/fermats-last-theorem/index.html</id>
     <published>2015-06-08T00:00:00Z</published>
     <updated>2015-06-08T00:00:00Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -243,7 +243,7 @@ x<sup>n</sup> + y<sup>n</sup> = z<sup>n</sup></p>
     <id>http://steshaw.org/posts/2015/05/17/continuous-wins/index.html</id>
     <published>2015-05-17T00:00:00Z</published>
     <updated>2015-05-17T00:00:00Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -328,7 +328,7 @@ x<sup>n</sup> + y<sup>n</sup> = z<sup>n</sup></p>
     <id>http://steshaw.org/posts/2015/05/03/increase-size-of-virtualbox-btrfs-partition/index.html</id>
     <published>2015-05-03T00:00:00Z</published>
     <updated>2015-05-03T00:00:00Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -428,7 +428,7 @@ $ <span class="kw">btrfs</span> filesystem resize max /mnt/root</code></pre></di
     <id>http://steshaw.org/posts/2014/07/17/adopting-a-cambridge-culture/index.html</id>
     <published>2014-07-17T00:00:00Z</published>
     <updated>2014-07-17T00:00:00Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -536,7 +536,7 @@ $ <span class="kw">btrfs</span> filesystem resize max /mnt/root</code></pre></di
     <id>http://steshaw.org/posts/2012/02/09/moving-to-steshaw-org/index.html</id>
     <published>2012-02-09T12:09:43Z</published>
     <updated>2012-02-09T12:09:43Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -605,7 +605,7 @@ $ <span class="kw">btrfs</span> filesystem resize max /mnt/root</code></pre></di
     <id>http://steshaw.org/posts/2012/02/09/hello-mathjax/index.html</id>
     <published>2012-02-09T00:00:00Z</published>
     <updated>2012-02-09T00:00:00Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -707,7 +707,7 @@ index 9a50a8b..fc9dc37 100644
     <id>http://steshaw.org/posts/2012/02/03/rebooting-with-octopress/index.html</id>
     <published>2012-02-03T00:00:00Z</published>
     <updated>2012-02-03T00:00:00Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -817,7 +817,7 @@ main <span class="fu">=</span> <span class="kw">do</span>
     <id>http://steshaw.org/posts/2010/11/28/hp-pavilion-with-ubuntu-10-10/index.html</id>
     <published>2010-11-28T02:44:29Z</published>
     <updated>2010-11-28T02:44:29Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -917,7 +917,7 @@ main <span class="fu">=</span> <span class="kw">do</span>
     <id>http://steshaw.org/posts/2010/11/23/agile-is-the-status-quo/index.html</id>
     <published>2010-11-23T14:02:56Z</published>
     <updated>2010-11-23T14:02:56Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -997,7 +997,7 @@ main <span class="fu">=</span> <span class="kw">do</span>
     <id>http://steshaw.org/posts/2010/05/22/stonking-new-laptop/index.html</id>
     <published>2010-05-22T10:16:14Z</published>
     <updated>2010-05-22T10:16:14Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -1086,7 +1086,7 @@ Windows 7 Home Premium x64</p>
     <id>http://steshaw.org/posts/2009/08/02/bzr-uniqueness-git/index.html</id>
     <published>2009-08-02T00:32:42Z</published>
     <updated>2009-08-02T00:32:42Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -1157,7 +1157,7 @@ Windows 7 Home Premium x64</p>
     <id>http://steshaw.org/posts/2009/03/19/ibm-to-buyout-sun-microsystems/index.html</id>
     <published>2009-03-19T17:03:27Z</published>
     <updated>2009-03-19T17:03:27Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -1228,7 +1228,7 @@ Windows 7 Home Premium x64</p>
     <id>http://steshaw.org/posts/2009/01/29/webbeans-java-contexts-and-dependency-injection/index.html</id>
     <published>2009-01-29T22:43:01Z</published>
     <updated>2009-01-29T22:43:01Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -1299,7 +1299,7 @@ Windows 7 Home Premium x64</p>
     <id>http://steshaw.org/posts/2008/09/15/hyperproductive-monadic-programmer-for-the-21st-century/index.html</id>
     <published>2008-09-15T02:30:20Z</published>
     <updated>2008-09-15T02:30:20Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -1377,7 +1377,7 @@ Windows 7 Home Premium x64</p>
     <id>http://steshaw.org/posts/2008/08/29/certified-scrummaster/index.html</id>
     <published>2008-08-29T19:30:39Z</published>
     <updated>2008-08-29T19:30:39Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -1446,7 +1446,7 @@ Windows 7 Home Premium x64</p>
     <id>http://steshaw.org/posts/2008/07/30/feature-teams/index.html</id>
     <published>2008-07-30T04:08:20Z</published>
     <updated>2008-07-30T04:08:20Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -1519,7 +1519,7 @@ Windows 7 Home Premium x64</p>
     <id>http://steshaw.org/posts/2008/06/02/from-nand-to-tetris/index.html</id>
     <published>2008-06-02T17:00:26Z</published>
     <updated>2008-06-02T17:00:26Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -1592,7 +1592,7 @@ Windows 7 Home Premium x64</p>
     <id>http://steshaw.org/posts/2008/04/22/ext-js-21-now-gpl/index.html</id>
     <published>2008-04-22T16:29:29Z</published>
     <updated>2008-04-22T16:29:29Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -1665,7 +1665,7 @@ Windows 7 Home Premium x64</p>
     <id>http://steshaw.org/posts/2008/04/10/super-mario-in-javascript/index.html</id>
     <published>2008-04-10T14:46:31Z</published>
     <updated>2008-04-10T14:46:31Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -1735,7 +1735,7 @@ Windows 7 Home Premium x64</p>
     <id>http://steshaw.org/posts/2007/09/18/rob-pike-on-concurrsency/index.html</id>
     <published>2007-09-18T11:29:43Z</published>
     <updated>2007-09-18T11:29:43Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -1804,7 +1804,7 @@ Windows 7 Home Premium x64</p>
     <id>http://steshaw.org/posts/2007/08/24/java-puzzlers/index.html</id>
     <published>2007-08-24T11:14:21Z</published>
     <updated>2007-08-24T11:14:21Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -1873,7 +1873,7 @@ Windows 7 Home Premium x64</p>
     <id>http://steshaw.org/posts/2007/08/14/first-steps-to-scala/index.html</id>
     <published>2007-08-14T11:13:13Z</published>
     <updated>2007-08-14T11:13:13Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -1942,7 +1942,7 @@ Windows 7 Home Premium x64</p>
     <id>http://steshaw.org/posts/2007/07/22/more-praise-for-wicket/index.html</id>
     <published>2007-07-22T20:28:09Z</published>
     <updated>2007-07-22T20:28:09Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -2011,7 +2011,7 @@ Windows 7 Home Premium x64</p>
     <id>http://steshaw.org/posts/2007/06/24/mactax-mac-prices-in-the-uk/index.html</id>
     <published>2007-06-24T13:50:26Z</published>
     <updated>2007-06-24T13:50:26Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -2083,7 +2083,7 @@ Windows 7 Home Premium x64</p>
     <id>http://steshaw.org/posts/2007/06/18/exceptions-checked-or-not/index.html</id>
     <published>2007-06-18T14:39:20Z</published>
     <updated>2007-06-18T14:39:20Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -2159,7 +2159,7 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
     <id>http://steshaw.org/posts/2007/06/11/dscm-mercurial-or-bazaar/index.html</id>
     <published>2007-06-11T22:14:47Z</published>
     <updated>2007-06-11T22:14:47Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -2233,7 +2233,7 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
     <id>http://steshaw.org/posts/2007/05/31/java-closures-again/index.html</id>
     <published>2007-05-31T14:52:30Z</published>
     <updated>2007-05-31T14:52:30Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -2303,7 +2303,7 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
     <id>http://steshaw.org/posts/2007/05/30/gwt-not-just-for-spas/index.html</id>
     <published>2007-05-30T11:13:45Z</published>
     <updated>2007-05-30T11:13:45Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -2372,7 +2372,7 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
     <id>http://steshaw.org/posts/2007/05/30/wifi-or-wifry/index.html</id>
     <published>2007-05-30T11:06:08Z</published>
     <updated>2007-05-30T11:06:08Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -2441,7 +2441,7 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
     <id>http://steshaw.org/posts/2007/05/29/rails-jabs-at-java/index.html</id>
     <published>2007-05-29T23:57:05Z</published>
     <updated>2007-05-29T23:57:05Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -2513,7 +2513,7 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
     <id>http://steshaw.org/posts/2007/05/28/oh-no-not-yet-another-web-framework/index.html</id>
     <published>2007-05-28T17:12:07Z</published>
     <updated>2007-05-28T17:12:07Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -2591,7 +2591,7 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
     <id>http://steshaw.org/posts/2007/05/25/thoughts-on-web-application-frameworks/index.html</id>
     <published>2007-05-25T16:44:28Z</published>
     <updated>2007-05-25T16:44:28Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -2676,7 +2676,7 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
     <id>http://steshaw.org/posts/2007/05/20/saps-innovation-drivers/index.html</id>
     <published>2007-05-20T04:47:19Z</published>
     <updated>2007-05-20T04:47:19Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -2756,7 +2756,7 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
     <id>http://steshaw.org/posts/2007/05/06/guice/index.html</id>
     <published>2007-05-06T18:19:21Z</published>
     <updated>2007-05-06T18:19:21Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -2826,7 +2826,7 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
     <id>http://steshaw.org/posts/2007/05/01/crudpage-for-click/index.html</id>
     <published>2007-05-01T00:44:49Z</published>
     <updated>2007-05-01T00:44:49Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -2895,7 +2895,7 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
     <id>http://steshaw.org/posts/2007/03/17/bertrand-meyer-on-uml/index.html</id>
     <published>2007-03-17T22:15:55Z</published>
     <updated>2007-03-17T22:15:55Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -2986,7 +2986,7 @@ My long search had not been in vain. It had led me to a full appreciation of the
     <id>http://steshaw.org/posts/2007/03/16/wishing-for-scrum/index.html</id>
     <published>2007-03-16T00:20:58Z</published>
     <updated>2007-03-16T00:20:58Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -3057,7 +3057,7 @@ My long search had not been in vain. It had led me to a full appreciation of the
     <id>http://steshaw.org/posts/2007/01/30/give-it-a-rest/index.html</id>
     <published>2007-01-30T00:48:02Z</published>
     <updated>2007-01-30T00:48:02Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -3126,7 +3126,7 @@ My long search had not been in vain. It had led me to a full appreciation of the
     <id>http://steshaw.org/posts/2007/01/03/neal-gafter-on-closures-for-java/index.html</id>
     <published>2007-01-03T14:07:11Z</published>
     <updated>2007-01-03T14:07:11Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -3205,7 +3205,7 @@ My long search had not been in vain. It had led me to a full appreciation of the
     <id>http://steshaw.org/posts/2006/12/17/python3000-nothing-radical/index.html</id>
     <published>2006-12-17T19:17:01Z</published>
     <updated>2006-12-17T19:17:01Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -3274,7 +3274,7 @@ My long search had not been in vain. It had led me to a full appreciation of the
     <id>http://steshaw.org/posts/2006/08/12/scala-language-gets-erlang-style-actors-library/index.html</id>
     <published>2006-08-12T00:06:00Z</published>
     <updated>2006-08-12T00:06:00Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -3343,7 +3343,7 @@ My long search had not been in vain. It had led me to a full appreciation of the
     <id>http://steshaw.org/posts/2006/07/02/csp-for-java-programmers/index.html</id>
     <published>2006-07-02T16:42:00Z</published>
     <updated>2006-07-02T16:42:00Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -3413,7 +3413,7 @@ My long search had not been in vain. It had led me to a full appreciation of the
     <id>http://steshaw.org/posts/2006/06/02/intj-again/index.html</id>
     <published>2006-06-02T20:53:00Z</published>
     <updated>2006-06-02T20:53:00Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -3544,7 +3544,7 @@ Judging
     <id>http://steshaw.org/posts/2006/05/27/got-firefox-15-youve-got-svg/index.html</id>
     <published>2006-05-27T21:21:00Z</published>
     <updated>2006-05-27T21:21:00Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -3619,7 +3619,7 @@ Judging
     <id>http://steshaw.org/posts/2006/05/24/typecase-for-java/index.html</id>
     <published>2006-05-24T18:09:00Z</published>
     <updated>2006-05-24T18:09:00Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -3690,7 +3690,7 @@ Judging
     <id>http://steshaw.org/posts/2006/05/21/software-engineering-radio/index.html</id>
     <published>2006-05-21T20:10:46Z</published>
     <updated>2006-05-21T20:10:46Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -3759,7 +3759,7 @@ Judging
     <id>http://steshaw.org/posts/2006/05/08/playing-with-webstart/index.html</id>
     <published>2006-05-08T10:55:58Z</published>
     <updated>2006-05-08T10:55:58Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -3828,7 +3828,7 @@ Judging
     <id>http://steshaw.org/posts/2006/05/01/xml-abuse/index.html</id>
     <published>2006-05-01T03:19:00Z</published>
     <updated>2006-05-01T03:19:00Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -3897,7 +3897,7 @@ Judging
     <id>http://steshaw.org/posts/2006/04/27/soa-shift-to-success/index.html</id>
     <published>2006-04-27T19:17:00Z</published>
     <updated>2006-04-27T19:17:00Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -3968,7 +3968,7 @@ Judging
     <id>http://steshaw.org/posts/2006/04/23/programming-language-inventor-or-serial-killer/index.html</id>
     <published>2006-04-23T05:07:06Z</published>
     <updated>2006-04-23T05:07:06Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -4037,7 +4037,7 @@ Judging
     <id>http://steshaw.org/posts/2006/04/21/tyger-java-based-open-source-stack-at-jpmorgan/index.html</id>
     <published>2006-04-21T05:17:00Z</published>
     <updated>2006-04-21T05:17:00Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -4106,7 +4106,7 @@ Judging
     <id>http://steshaw.org/posts/2006/04/05/process-engines-and-webflow/index.html</id>
     <published>2006-04-05T12:01:59Z</published>
     <updated>2006-04-05T12:01:59Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -4175,7 +4175,7 @@ Judging
     <id>http://steshaw.org/posts/2006/03/27/xml-the-big-picture/index.html</id>
     <published>2006-03-27T18:17:18Z</published>
     <updated>2006-03-27T18:17:18Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -4244,7 +4244,7 @@ Judging
     <id>http://steshaw.org/posts/2006/03/27/product-development-on-the-mac/index.html</id>
     <published>2006-03-27T17:55:20Z</published>
     <updated>2006-03-27T17:55:20Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -4313,7 +4313,7 @@ Judging
     <id>http://steshaw.org/posts/2006/02/28/spacethe-final-frontier/index.html</id>
     <published>2006-02-28T23:09:06Z</published>
     <updated>2006-02-28T23:09:06Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -4382,7 +4382,7 @@ Judging
     <id>http://steshaw.org/posts/2006/02/25/computer-games-a-blast-from-the-past/index.html</id>
     <published>2006-02-25T07:26:00Z</published>
     <updated>2006-02-25T07:26:00Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -4451,7 +4451,7 @@ Judging
     <id>http://steshaw.org/posts/2006/02/01/when-can-i-get-a-fix-of-language-goodness/index.html</id>
     <published>2006-02-01T03:27:00Z</published>
     <updated>2006-02-01T03:27:00Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -4523,7 +4523,7 @@ Judging
     <id>http://steshaw.org/posts/2006/02/01/code-as-data-closures/index.html</id>
     <published>2006-02-01T00:13:00Z</published>
     <updated>2006-02-01T00:13:00Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -4594,7 +4594,7 @@ Judging
     <id>http://steshaw.org/posts/2006/01/18/w3-principles-of-design/index.html</id>
     <published>2006-01-18T13:13:00Z</published>
     <updated>2006-01-18T13:13:00Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -4664,7 +4664,7 @@ Judging
     <id>http://steshaw.org/posts/2006/01/10/better-is-better-and-worse-is-worse/index.html</id>
     <published>2006-01-10T14:55:00Z</published>
     <updated>2006-01-10T14:55:00Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -4734,7 +4734,7 @@ Judging
     <id>http://steshaw.org/posts/2005/12/07/ruby-on-net/index.html</id>
     <published>2005-12-07T23:01:00Z</published>
     <updated>2005-12-07T23:01:00Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -4805,7 +4805,7 @@ Judging
     <id>http://steshaw.org/posts/2005/12/07/ubuntu-breezy-under-vmware-player/index.html</id>
     <published>2005-12-07T22:31:00Z</published>
     <updated>2005-12-07T22:31:00Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -4880,7 +4880,7 @@ Judging
     <id>http://steshaw.org/posts/2005/12/04/getting-lost-in-the-wikipedia/index.html</id>
     <published>2005-12-04T16:25:00Z</published>
     <updated>2005-12-04T16:25:00Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -4950,7 +4950,7 @@ Judging
     <id>http://steshaw.org/posts/2005/11/13/ubuntu-on-inspiron-9300/index.html</id>
     <published>2005-11-13T19:55:00Z</published>
     <updated>2005-11-13T19:55:00Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -5025,7 +5025,7 @@ Judging
     <id>http://steshaw.org/posts/2005/10/25/dependency-injection-vitally-important-or-totally-irrelevant/index.html</id>
     <published>2005-10-25T12:18:00Z</published>
     <updated>2005-10-25T12:18:00Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -5094,7 +5094,7 @@ Judging
     <id>http://steshaw.org/posts/2005/05/02/javarubygroovy/index.html</id>
     <published>2005-05-02T14:49:00Z</published>
     <updated>2005-05-02T14:49:00Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -5164,7 +5164,7 @@ Judging
     <id>http://steshaw.org/posts/2005/04/24/continuations-for-curmudgeons/index.html</id>
     <published>2005-04-24T20:04:00Z</published>
     <updated>2005-04-24T20:04:00Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -5299,7 +5299,7 @@ catch (<span class="st">:early_exit</span>) {
     <id>http://steshaw.org/posts/2005/02/22/static-versus-dynamic-attitude/index.html</id>
     <published>2005-02-22T05:26:00Z</published>
     <updated>2005-02-22T05:26:00Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -5384,7 +5384,7 @@ catch (<span class="st">:early_exit</span>) {
     <id>http://steshaw.org/posts/2005/02/22/soap-is-brain-dead/index.html</id>
     <published>2005-02-22T04:51:00Z</published>
     <updated>2005-02-22T04:51:00Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -5453,7 +5453,7 @@ catch (<span class="st">:early_exit</span>) {
     <id>http://steshaw.org/posts/2005/02/22/noxml-and-web-service-specifications/index.html</id>
     <published>2005-02-22T04:33:00Z</published>
     <updated>2005-02-22T04:33:00Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -5524,7 +5524,7 @@ catch (<span class="st">:early_exit</span>) {
     <id>http://steshaw.org/posts/2005/02/21/mock-object-framework-talk/index.html</id>
     <published>2005-02-21T13:29:00Z</published>
     <updated>2005-02-21T13:29:00Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -5593,7 +5593,7 @@ catch (<span class="st">:early_exit</span>) {
     <id>http://steshaw.org/posts/2005/02/21/fonts-on-gentoo/index.html</id>
     <published>2005-02-21T02:44:00Z</published>
     <updated>2005-02-21T02:44:00Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -5662,7 +5662,7 @@ catch (<span class="st">:early_exit</span>) {
     <id>http://steshaw.org/posts/2005/02/17/transactional-caches/index.html</id>
     <published>2005-02-17T01:48:00Z</published>
     <updated>2005-02-17T01:48:00Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -5731,7 +5731,7 @@ catch (<span class="st">:early_exit</span>) {
     <id>http://steshaw.org/posts/2005/02/16/interviewing-programmers/index.html</id>
     <published>2005-02-16T10:55:00Z</published>
     <updated>2005-02-16T10:55:00Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -5802,7 +5802,7 @@ catch (<span class="st">:early_exit</span>) {
     <id>http://steshaw.org/posts/2005/01/24/developer-testing-with-kent-beck/index.html</id>
     <published>2005-01-24T01:07:30Z</published>
     <updated>2005-01-24T01:07:30Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -5872,7 +5872,7 @@ catch (<span class="st">:early_exit</span>) {
     <id>http://steshaw.org/posts/2005/01/01/hibernate-in-action/index.html</id>
     <published>2005-01-01T07:06:09Z</published>
     <updated>2005-01-01T07:06:09Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -5950,7 +5950,7 @@ Are the relational data model and (especially) SQL the right choices for periste
     <id>http://steshaw.org/posts/2004/10/22/avoid-round-trips/index.html</id>
     <published>2004-10-22T09:53:52Z</published>
     <updated>2004-10-22T09:53:52Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -6019,7 +6019,7 @@ Are the relational data model and (especially) SQL the right choices for periste
     <id>http://steshaw.org/posts/2004/09/27/movitz-a-lisp-os-platform/index.html</id>
     <published>2004-09-27T13:46:33Z</published>
     <updated>2004-09-27T13:46:33Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -6088,7 +6088,7 @@ Are the relational data model and (especially) SQL the right choices for periste
     <id>http://steshaw.org/posts/2004/09/27/wcl-and-shared-libraries/index.html</id>
     <published>2004-09-27T13:16:46Z</published>
     <updated>2004-09-27T13:16:46Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -6159,7 +6159,7 @@ Are the relational data model and (especially) SQL the right choices for periste
     <id>http://steshaw.org/posts/2004/09/15/cpu-scheduling/index.html</id>
     <published>2004-09-15T21:55:22Z</published>
     <updated>2004-09-15T21:55:22Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -6229,7 +6229,7 @@ Are the relational data model and (especially) SQL the right choices for periste
     <id>http://steshaw.org/posts/2004/09/15/misunderstandings-about-closures/index.html</id>
     <published>2004-09-15T18:12:43Z</published>
     <updated>2004-09-15T18:12:43Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -6301,7 +6301,7 @@ Are the relational data model and (especially) SQL the right choices for periste
     <id>http://steshaw.org/posts/2004/08/30/realplayer10-on-linux/index.html</id>
     <published>2004-08-30T17:42:40Z</published>
     <updated>2004-08-30T17:42:40Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -6370,7 +6370,7 @@ Are the relational data model and (especially) SQL the right choices for periste
     <id>http://steshaw.org/posts/2004/08/30/spring-and-hibernate/index.html</id>
     <published>2004-08-30T14:08:24Z</published>
     <updated>2004-08-30T14:08:24Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -6447,7 +6447,7 @@ Are the relational data model and (especially) SQL the right choices for periste
     <id>http://steshaw.org/posts/2004/08/30/abelson-and-sussman-lectures/index.html</id>
     <published>2004-08-30T07:17:14Z</published>
     <updated>2004-08-30T07:17:14Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -6516,7 +6516,7 @@ Are the relational data model and (especially) SQL the right choices for periste
     <id>http://steshaw.org/posts/2004/08/29/the-koan-of-side-effects/index.html</id>
     <published>2004-08-29T06:17:57Z</published>
     <updated>2004-08-29T06:17:57Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -6585,7 +6585,7 @@ Are the relational data model and (especially) SQL the right choices for periste
     <id>http://steshaw.org/posts/2004/08/22/erlang-the-movie/index.html</id>
     <published>2004-08-22T13:52:14Z</published>
     <updated>2004-08-22T13:52:14Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -6656,7 +6656,7 @@ Are the relational data model and (especially) SQL the right choices for periste
     <id>http://steshaw.org/posts/2004/08/22/swingworker-race-condition/index.html</id>
     <published>2004-08-22T10:46:50Z</published>
     <updated>2004-08-22T10:46:50Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -6725,7 +6725,7 @@ Are the relational data model and (especially) SQL the right choices for periste
     <id>http://steshaw.org/posts/2004/08/18/pairs-as-lambdas/index.html</id>
     <published>2004-08-18T12:37:07Z</published>
     <updated>2004-08-18T12:37:07Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -6822,7 +6822,7 @@ a                 <span class="co">; =&gt; a procedure</span>
     <id>http://steshaw.org/posts/2004/08/14/the-python-paradox/index.html</id>
     <published>2004-08-14T18:14:10Z</published>
     <updated>2004-08-14T18:14:10Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
@@ -6894,7 +6894,7 @@ a                 <span class="co">; =&gt; a procedure</span>
     <id>http://steshaw.org/posts/2004/08/09/neverwinter-nights-on-linux/index.html</id>
     <published>2004-08-09T15:56:34Z</published>
     <updated>2004-08-09T15:56:34Z</updated>
-    <summary type="html"><![CDATA[<header class="page-header">
+    <summary type="html"><![CDATA[<header>
   <div class="cross-posted-to-medium">
     <a class="btn btn-default">
       <i class="fa fa-medium"></i> Cross-posted to Medium
