@@ -136,16 +136,16 @@
 
 <div class="post-content">
   <p>I’d originally allocated the default 8G to my primary partition when installing NixOS. I ran out of disk space when I tried upgrading to KDE 5. This is how I increased the size of the partition.</p>
-<h4 id="shutdown-your-vm.">1. Shutdown your VM.</h4>
-<h4 id="use-virtualbox-tools-to-increase-the-size-of-the-vdi.">2. Use VirtualBox tools to increase the size of the VDI.</h4>
-<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash">$ <span class="kw">VBoxManage</span> modifyhd NixOS.vdi --resize 20000</code></pre></div>
+<p>1. Shutdown your VM.</p>
+<p>2. Use VirtualBox tools to increase the size of the VDI.</p>
+<div class="sourceCode" id="cb1" data-org-language="sh"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1"></a>$ <span class="ex">VBoxManage</span> modifyhd NixOS.vdi --resize 20000</span></code></pre></div>
 <pre class="example"><code>0%...10%...20%...30%...40%...50%...60%...70%...80%...90%...100%
 </code></pre>
-<h4 id="boot-the-vm-from-the-nixos-live-cd.">3. Boot the VM from the NixOS Live CD.</h4>
-<h4 id="login-as-root.">4. Login as <code>root</code>.</h4>
-<h4 id="resize-the-partition-using-fdisk.">5. Resize the partition using <code>fdisk</code>.</h4>
+<p>3. Boot the VM from the NixOS Live CD.</p>
+<p>4. Login as <code>root</code>.</p>
+<p>5. Resize the partition using <code>fdisk</code>.</p>
 <p>You have to delete and recreate the partition. In my case, I’ve only got 1 partition, so it’s partition 1. Here I enter the commands: ‘p’ (print the partition table, ‘d’ (delete the partition), ‘n’ (create a new partition), 4 × ‘&lt;return&gt;’ (accept default), ‘w’ (write/sync the partition table to disk).</p>
-<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash">$ <span class="kw">fdisk</span> /dev/sda</code></pre></div>
+<div class="sourceCode" id="cb3" data-org-language="sh"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1"></a>$ <span class="ex">fdisk</span> /dev/sda</span></code></pre></div>
 <pre class="example"><code>Command (m for help): p
 …
 /dev/sda1     2048 24575999 245739952 11.7G 83 Linux
@@ -161,12 +161,12 @@ Last sector, +sectors or +size{K,M,G,T,P} (2048-40959999, default 40959999): &lt
 Created a new partition 1 of type 'Linux' and of size 19.5 GiB.
 Command (m for help): w
 </code></pre>
-<h4 id="resize-the-filesystem.">6. Resize the filesystem.</h4>
-<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash">$ <span class="kw">mkdir</span> /mnt/root
-$ <span class="kw">mount</span> /dev/sda1 /mnt/root
-$ <span class="kw">btrfs</span> filesystem resize max /mnt/root</code></pre></div>
-<h4 id="reboot-and-boot-from-the-drive.">7. Reboot and boot from the drive.</h4>
-<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash">$ <span class="kw">reboot</span></code></pre></div>
+<p>6. Resize the filesystem.</p>
+<div class="sourceCode" id="cb5" data-org-language="sh"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1"></a>$ <span class="fu">mkdir</span> /mnt/root</span>
+<span id="cb5-2"><a href="#cb5-2"></a>$ <span class="fu">mount</span> /dev/sda1 /mnt/root</span>
+<span id="cb5-3"><a href="#cb5-3"></a>$ <span class="ex">btrfs</span> filesystem resize max /mnt/root</span></code></pre></div>
+<p>7. Reboot and boot from the drive.</p>
+<div class="sourceCode" id="cb6" data-org-language="sh"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1"></a>$ <span class="ex">reboot</span></span></code></pre></div>
 </div>
 
 <div class="post-footer">

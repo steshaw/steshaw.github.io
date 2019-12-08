@@ -137,33 +137,33 @@
 <div class="post-content">
   <p>The <a href="http://swiss.csail.mit.edu/classes/6.001/abelson-sussman-lectures/">SICP video lectures</a> talk about how data is not intrinsic. That is, once you have lambda, you have enough to create all the data structures you want. Of course that is without caring for efficiency.</p>
 <p>Here’s some code I was mucking around with the other night:</p>
-<div class="sourceCode"><pre class="sourceCode scheme"><code class="sourceCode scheme"><span class="co">; Implement pairs (cons, car, cdr) in terms of lambda.</span>
-
-(<span class="kw">define</span><span class="fu"> cons</span>
-  (<span class="kw">lambda</span> (a b)
-    (<span class="kw">lambda</span> (x)
-      (<span class="kw">cond</span> ((<span class="kw">eq?</span> x 'car) a)
-            ((<span class="kw">eq?</span> x 'cdr) b)
-            (<span class="kw">else</span> (error <span class="st">&quot;bad dispatch&quot;</span>))))))
-
-(<span class="kw">define</span><span class="fu"> car</span>
-  (<span class="kw">lambda</span> (pair) (pair 'car)))
-
-(<span class="kw">define</span><span class="fu"> cdr</span>
-  (<span class="kw">lambda</span> (pair) (pair 'cdr)))
-
-<span class="co">; Example to type into the scheme repl.</span>
-(<span class="kw">define</span><span class="fu"> a </span>(<span class="kw">cons</span> <span class="dv">3</span> <span class="dv">4</span>))
-a                 <span class="co">; =&gt; a procedure</span>
-(<span class="kw">car</span> a)           <span class="co">; =&gt; 3</span>
-(<span class="kw">cdr</span> a)           <span class="co">; =&gt; 4</span>
-(a <span class="dv">1</span>)             <span class="co">; error &quot;bad dispatch&quot;</span>
-
-<span class="co">; The following attempts to work out what &quot;error&quot; does. This example will</span>
-<span class="co">; probably display &quot;1&quot; and then exit to the repl with &quot;bad dispatch&quot; error.</span>
-<span class="co">; It may not as Scheme doesn't define the order of evaluation for arguments to</span>
-<span class="co">; a combination.</span>
-(<span class="kw">+</span> (<span class="kw">display</span> <span class="st">&quot;1\n&quot;</span>) (a <span class="dv">99</span>) (<span class="kw">display</span> <span class="st">&quot;2\n&quot;</span>))</code></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode scheme"><code class="sourceCode scheme"><span id="cb1-1"><a href="#cb1-1"></a><span class="co">; Implement pairs (cons, car, cdr) in terms of lambda.</span></span>
+<span id="cb1-2"><a href="#cb1-2"></a></span>
+<span id="cb1-3"><a href="#cb1-3"></a>(<span class="ex">define</span><span class="fu"> cons</span></span>
+<span id="cb1-4"><a href="#cb1-4"></a>  (<span class="kw">lambda</span> (a b)</span>
+<span id="cb1-5"><a href="#cb1-5"></a>    (<span class="kw">lambda</span> (x)</span>
+<span id="cb1-6"><a href="#cb1-6"></a>      (<span class="kw">cond</span> ((<span class="kw">eq?</span> x 'car) a)</span>
+<span id="cb1-7"><a href="#cb1-7"></a>            ((<span class="kw">eq?</span> x 'cdr) b)</span>
+<span id="cb1-8"><a href="#cb1-8"></a>            (<span class="kw">else</span> (error <span class="st">&quot;bad dispatch&quot;</span>))))))</span>
+<span id="cb1-9"><a href="#cb1-9"></a></span>
+<span id="cb1-10"><a href="#cb1-10"></a>(<span class="ex">define</span><span class="fu"> car</span></span>
+<span id="cb1-11"><a href="#cb1-11"></a>  (<span class="kw">lambda</span> (pair) (pair 'car)))</span>
+<span id="cb1-12"><a href="#cb1-12"></a></span>
+<span id="cb1-13"><a href="#cb1-13"></a>(<span class="ex">define</span><span class="fu"> cdr</span></span>
+<span id="cb1-14"><a href="#cb1-14"></a>  (<span class="kw">lambda</span> (pair) (pair 'cdr)))</span>
+<span id="cb1-15"><a href="#cb1-15"></a></span>
+<span id="cb1-16"><a href="#cb1-16"></a><span class="co">; Example to type into the scheme repl.</span></span>
+<span id="cb1-17"><a href="#cb1-17"></a>(<span class="ex">define</span><span class="fu"> a </span>(<span class="kw">cons</span> <span class="dv">3</span> <span class="dv">4</span>))</span>
+<span id="cb1-18"><a href="#cb1-18"></a>a                 <span class="co">; =&gt; a procedure</span></span>
+<span id="cb1-19"><a href="#cb1-19"></a>(<span class="kw">car</span> a)           <span class="co">; =&gt; 3</span></span>
+<span id="cb1-20"><a href="#cb1-20"></a>(<span class="kw">cdr</span> a)           <span class="co">; =&gt; 4</span></span>
+<span id="cb1-21"><a href="#cb1-21"></a>(a <span class="dv">1</span>)             <span class="co">; error &quot;bad dispatch&quot;</span></span>
+<span id="cb1-22"><a href="#cb1-22"></a></span>
+<span id="cb1-23"><a href="#cb1-23"></a><span class="co">; The following attempts to work out what &quot;error&quot; does. This example will</span></span>
+<span id="cb1-24"><a href="#cb1-24"></a><span class="co">; probably display &quot;1&quot; and then exit to the repl with &quot;bad dispatch&quot; error.</span></span>
+<span id="cb1-25"><a href="#cb1-25"></a><span class="co">; It may not as Scheme doesn't define the order of evaluation for arguments to</span></span>
+<span id="cb1-26"><a href="#cb1-26"></a><span class="co">; a combination.</span></span>
+<span id="cb1-27"><a href="#cb1-27"></a>(<span class="op">+</span> (<span class="kw">display</span> <span class="st">&quot;1\n&quot;</span>) (a <span class="dv">99</span>) (<span class="kw">display</span> <span class="st">&quot;2\n&quot;</span>))</span></code></pre></div>
 </div>
 
 <div class="post-footer">

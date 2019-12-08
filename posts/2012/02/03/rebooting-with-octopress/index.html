@@ -137,46 +137,46 @@
 <div class="post-content">
   <p>I’m starting with a clean slate and moving to <a href="http://octopress.org/">Octopress</a>.</p>
 <p>Haskell source code highlighting appears to work out of the box:</p>
-<div class="sourceCode" data-title="Run length encoding" data-link="http://rosettacode.org/wiki/Run-length_encoding#Haskell"><pre class="sourceCode haskell"><code class="sourceCode haskell"><span class="kw">import </span><span class="dt">Data.List</span> (group)
-
-<span class="co">-- Datatypes</span>
-<span class="kw">type</span> <span class="dt">Encoded</span> <span class="fu">=</span> [(<span class="dt">Int</span>, <span class="dt">Char</span>)]  <span class="co">-- An encoded String with form [(times, char), ...]</span>
-<span class="kw">type</span> <span class="dt">Decoded</span> <span class="fu">=</span> <span class="dt">String</span>
-
-<span class="co">-- Takes a decoded string and returns an encoded list of tuples</span>
-<span class="ot">rlencode ::</span> <span class="dt">Decoded</span> <span class="ot">-&gt;</span> <span class="dt">Encoded</span>
-rlencode <span class="fu">=</span> map (\g <span class="ot">-&gt;</span> (length g, head g)) <span class="fu">.</span> group
-
-<span class="co">-- Takes an encoded list of tuples and returns the associated decoded String</span>
-<span class="ot">rldecode ::</span> <span class="dt">Encoded</span> <span class="ot">-&gt;</span> <span class="dt">Decoded</span>
-rldecode <span class="fu">=</span> concatMap decodeTuple
-    <span class="kw">where</span> decodeTuple (n,c) <span class="fu">=</span> replicate n c
-
-<span class="ot">main ::</span> <span class="dt">IO</span> ()
-main <span class="fu">=</span> <span class="kw">do</span>
-  <span class="co">-- Get input</span>
-  putStr <span class="st">&quot;String to encode: &quot;</span>
-  input <span class="ot">&lt;-</span> getLine
-  <span class="co">-- Output encoded and decoded versions of input</span>
-  <span class="kw">let</span> encoded <span class="fu">=</span> rlencode input
-      decoded <span class="fu">=</span> rldecode encoded
-  putStrLn <span class="fu">$</span> <span class="st">&quot;Encoded: &quot;</span> <span class="fu">++</span> show encoded <span class="fu">++</span> <span class="st">&quot;\nDecoded: &quot;</span> <span class="fu">++</span> show decoded</code></pre></div>
+<div class="sourceCode" id="cb1" data-title="Run length encoding" data-link="http://rosettacode.org/wiki/Run-length_encoding#Haskell"><pre class="sourceCode haskell"><code class="sourceCode haskell"><span id="cb1-1"><a href="#cb1-1"></a><span class="kw">import</span> <span class="dt">Data.List</span> (group)</span>
+<span id="cb1-2"><a href="#cb1-2"></a></span>
+<span id="cb1-3"><a href="#cb1-3"></a><span class="co">-- Datatypes</span></span>
+<span id="cb1-4"><a href="#cb1-4"></a><span class="kw">type</span> <span class="dt">Encoded</span> <span class="ot">=</span> [(<span class="dt">Int</span>, <span class="dt">Char</span>)]  <span class="co">-- An encoded String with form [(times, char), ...]</span></span>
+<span id="cb1-5"><a href="#cb1-5"></a><span class="kw">type</span> <span class="dt">Decoded</span> <span class="ot">=</span> <span class="dt">String</span></span>
+<span id="cb1-6"><a href="#cb1-6"></a></span>
+<span id="cb1-7"><a href="#cb1-7"></a><span class="co">-- Takes a decoded string and returns an encoded list of tuples</span></span>
+<span id="cb1-8"><a href="#cb1-8"></a><span class="ot">rlencode ::</span> <span class="dt">Decoded</span> <span class="ot">-&gt;</span> <span class="dt">Encoded</span></span>
+<span id="cb1-9"><a href="#cb1-9"></a>rlencode <span class="ot">=</span> <span class="fu">map</span> (\g <span class="ot">-&gt;</span> (<span class="fu">length</span> g, <span class="fu">head</span> g)) <span class="op">.</span> <span class="fu">group</span></span>
+<span id="cb1-10"><a href="#cb1-10"></a></span>
+<span id="cb1-11"><a href="#cb1-11"></a><span class="co">-- Takes an encoded list of tuples and returns the associated decoded String</span></span>
+<span id="cb1-12"><a href="#cb1-12"></a><span class="ot">rldecode ::</span> <span class="dt">Encoded</span> <span class="ot">-&gt;</span> <span class="dt">Decoded</span></span>
+<span id="cb1-13"><a href="#cb1-13"></a>rldecode <span class="ot">=</span> <span class="fu">concatMap</span> decodeTuple</span>
+<span id="cb1-14"><a href="#cb1-14"></a>    <span class="kw">where</span> decodeTuple (n,c) <span class="ot">=</span> <span class="fu">replicate</span> n c</span>
+<span id="cb1-15"><a href="#cb1-15"></a></span>
+<span id="cb1-16"><a href="#cb1-16"></a><span class="ot">main ::</span> <span class="dt">IO</span> ()</span>
+<span id="cb1-17"><a href="#cb1-17"></a>main <span class="ot">=</span> <span class="kw">do</span></span>
+<span id="cb1-18"><a href="#cb1-18"></a>  <span class="co">-- Get input</span></span>
+<span id="cb1-19"><a href="#cb1-19"></a>  <span class="fu">putStr</span> <span class="st">&quot;String to encode: &quot;</span></span>
+<span id="cb1-20"><a href="#cb1-20"></a>  input <span class="ot">&lt;-</span> <span class="fu">getLine</span></span>
+<span id="cb1-21"><a href="#cb1-21"></a>  <span class="co">-- Output encoded and decoded versions of input</span></span>
+<span id="cb1-22"><a href="#cb1-22"></a>  <span class="kw">let</span> encoded <span class="ot">=</span> rlencode input</span>
+<span id="cb1-23"><a href="#cb1-23"></a>      decoded <span class="ot">=</span> rldecode encoded</span>
+<span id="cb1-24"><a href="#cb1-24"></a>  <span class="fu">putStrLn</span> <span class="op">$</span> <span class="st">&quot;Encoded: &quot;</span> <span class="op">++</span> <span class="fu">show</span> encoded <span class="op">++</span> <span class="st">&quot;\nDecoded: &quot;</span> <span class="op">++</span> <span class="fu">show</span> decoded</span></code></pre></div>
 <p>as does Scala:</p>
-<div class="sourceCode"><pre class="sourceCode scala"><code class="sourceCode scala"><span class="kw">import</span> scala.<span class="fu">collection</span>.<span class="fu">mutable</span>
-
-<span class="kw">def</span> <span class="fu">countWords</span>(text: String) = {
-  <span class="kw">val</span> counts = mutable.<span class="fu">Map</span>[String, Int]()
-  <span class="kw">for</span> (word &lt;- text.<span class="fu">split</span>(<span class="st">&quot;[ ,!.]+&quot;</span>)) {
-    <span class="kw">val</span> lowerWord = word.<span class="fu">toLowerCase</span>
-    <span class="kw">val</span> oldCount = counts.<span class="fu">getOrElse</span>(lowerWord, <span class="dv">0</span>)
-    <span class="fu">counts</span>(lowerWord) = oldCount + <span class="dv">1</span>
-  }
-  counts
-}
-
-<span class="kw">val</span> text = <span class="st">&quot;See Spot run. Run, Spot. Run!&quot;</span>
-
-<span class="fu">countWords</span>(text) foreach println</code></pre></div>
+<div class="sourceCode" id="cb2"><pre class="sourceCode scala"><code class="sourceCode scala"><span id="cb2-1"><a href="#cb2-1"></a><span class="kw">import</span> scala.<span class="fu">collection</span>.<span class="fu">mutable</span></span>
+<span id="cb2-2"><a href="#cb2-2"></a></span>
+<span id="cb2-3"><a href="#cb2-3"></a><span class="kw">def</span> <span class="fu">countWords</span>(text: String) = {</span>
+<span id="cb2-4"><a href="#cb2-4"></a>  <span class="kw">val</span> counts = mutable.<span class="fu">Map</span>[String, Int]()</span>
+<span id="cb2-5"><a href="#cb2-5"></a>  <span class="kw">for</span> (word &lt;- text.<span class="fu">split</span>(<span class="st">&quot;[ ,!.]+&quot;</span>)) {</span>
+<span id="cb2-6"><a href="#cb2-6"></a>    <span class="kw">val</span> lowerWord = word.<span class="fu">toLowerCase</span></span>
+<span id="cb2-7"><a href="#cb2-7"></a>    <span class="kw">val</span> oldCount = counts.<span class="fu">getOrElse</span>(lowerWord, <span class="dv">0</span>)</span>
+<span id="cb2-8"><a href="#cb2-8"></a>    <span class="fu">counts</span>(lowerWord) = oldCount + <span class="dv">1</span></span>
+<span id="cb2-9"><a href="#cb2-9"></a>  }</span>
+<span id="cb2-10"><a href="#cb2-10"></a>  counts</span>
+<span id="cb2-11"><a href="#cb2-11"></a>}</span>
+<span id="cb2-12"><a href="#cb2-12"></a></span>
+<span id="cb2-13"><a href="#cb2-13"></a><span class="kw">val</span> text = <span class="st">&quot;See Spot run. Run, Spot. Run!&quot;</span></span>
+<span id="cb2-14"><a href="#cb2-14"></a></span>
+<span id="cb2-15"><a href="#cb2-15"></a><span class="fu">countWords</span>(text) foreach println</span></code></pre></div>
 </div>
 
 <div class="post-footer">

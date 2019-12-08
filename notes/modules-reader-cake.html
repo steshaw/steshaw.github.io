@@ -119,12 +119,12 @@
 <h1 id="modules-reader-and-the-cake-pattern">Modules, Reader, and the Cake Pattern</h1>
 <p>Something I’ve noted is that folks are happy to allow the compiler to lambda lift for them (to eliminate free variables and make functions “top level”):</p>
 <p>for example:</p>
-<p>– listing 1: let makeAdder n = -&gt; x + n let adder = makeAdder 10 adder 1 =&gt; 11 adder 2 =&gt; 12</p>
+<p>– listing 1: let makeAdder n =  -&gt; x + n let adder = makeAdder 10 adder 1 =&gt; 11 adder 2 =&gt; 12</p>
 <p>translates after lambda lifting to something like:</p>
 <p>– listing 2: let top x n = x + n data Closure t = Closure {v :: t, f :: t -&gt; Integer -&gt; Integer} let makeAdder n = Closure n topLevel let adder = makeAdder 10 (f adder) (v adder) 1 =&gt; 11 (f adder) (v adder) 2 =&gt; 12</p>
 <p>Reader is a similar concept to me — a free variable (often “config”) that can be accessed across many top level functions. However, directly using Reader seems a little like using the encoding in listing 2 above. I’m wondering if a tool — perhaps a compiler — could take care of those details just like the lowering that happens with lambda-lifting.</p>
 <p>This may be related to the idea of “algebraic effects” and overcoming the composabilty problem with monad transformers. I don’t understand the details but here are a couple of references.</p>
-<p><a href="http://edwinb.wordpress.com/2013/03/28/programming-and-reasoning-with-algebraic-effects-and-dependent-types/" class="uri">http://edwinb.wordpress.com/2013/03/28/programming-and-reasoning-with-algebraic-effects-and-dependent-types/</a> <a href="http://math.andrej.com/2012/03/08/programming-with-algebraic-effects-and-handlers/" class="uri">http://math.andrej.com/2012/03/08/programming-with-algebraic-effects-and-handlers/</a></p>
+<p><a href="http://edwinb.wordpress.com/2013/03/28/programming-and-reasoning-with-algebraic-effects-and-dependent-types/">http://edwinb.wordpress.com/2013/03/28/programming-and-reasoning-with-algebraic-effects-and-dependent-types/</a> <a href="http://math.andrej.com/2012/03/08/programming-with-algebraic-effects-and-handlers/">http://math.andrej.com/2012/03/08/programming-with-algebraic-effects-and-handlers/</a></p>
       <footer class="footer text-muted">
         <div class="flex">
           <div class="flex-left">

@@ -21,32 +21,32 @@
   <p><em>Draft</em></p>
 <h1 id="outline">Outline</h1>
 <ul>
-<li>Hakyll <a href="http://jaspervdj.be/hakyll/" class="uri">http://jaspervdj.be/hakyll/</a></li>
+<li>Hakyll <a href="http://jaspervdj.be/hakyll/">http://jaspervdj.be/hakyll/</a></li>
 <li>Getting MathJax working</li>
 <li>Disqus comments</li>
 <li>Google Analytics</li>
 <li>Source code syntax highlighting</li>
 </ul>
 <h3 id="haskell-code">Haskell code</h3>
-<div class="sourceCode"><pre class="sourceCode haskell"><code class="sourceCode haskell"><span class="kw">module</span> <span class="dt">Data.Foo</span>
-
-main <span class="fu">=</span> putStrLn <span class="st">&quot;Hello, world!&quot;</span></code></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><span id="cb1-1"><a href="#cb1-1"></a><span class="kw">module</span> <span class="dt">Data.Foo</span></span>
+<span id="cb1-2"><a href="#cb1-2"></a></span>
+<span id="cb1-3"><a href="#cb1-3"></a>main <span class="ot">=</span> <span class="fu">putStrLn</span> <span class="st">&quot;Hello, world!&quot;</span></span></code></pre></div>
 <h3 id="emacs-lisp-code">emacs-lisp code</h3>
-<div class="sourceCode"><pre class="sourceCode commonlisp"><code class="sourceCode commonlisp">(<span class="kw">defun</span><span class="fu"> org-xor </span>(a b)
-  <span class="st">&quot;Exclusive or.&quot;</span>
-  (<span class="kw">if</span> a (<span class="kw">not</span> b) b))</code></pre></div>
+<div class="sourceCode" id="cb2" data-org-language="emacs-lisp"><pre class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb2-1"><a href="#cb2-1"></a>(<span class="kw">defun</span><span class="fu"> org-xor </span>(a b)</span>
+<span id="cb2-2"><a href="#cb2-2"></a>  <span class="st">&quot;Exclusive or.&quot;</span></span>
+<span id="cb2-3"><a href="#cb2-3"></a>  (<span class="kw">if</span> a (<span class="kw">not</span> b) b))</span></code></pre></div>
 <h3 id="an-example">An example</h3>
 <pre class="example"><code>Some example from a text file.
 </code></pre>
 <h3 id="some-yaml">Some yaml</h3>
-<div class="sourceCode" id="switch Markdown processors in _config.yml"><pre class="sourceCode yaml"><code class="sourceCode yaml"><span class="fu">markdown:</span> maruku</code></pre></div>
+<div class="sourceCode" id="switch Markdown processors in _config.yml"><pre class="sourceCode yaml"><code class="sourceCode yaml"><span id="switch Markdown processors in _config.yml-1"><a href="#switch Markdown processors in _config.yml-1"></a><span class="fu">markdown</span><span class="kw">:</span><span class="at"> maruku</span></span></code></pre></div>
 <h3 id="some-html">Some html</h3>
-<div class="sourceCode" id="enable MathJax in source/_includes/custom/head.html http://www.mathjax.org/docs/1.1/start.html"><pre class="sourceCode html"><code class="sourceCode html"><span class="kw">&lt;script</span><span class="ot"> type=</span><span class="st">&quot;text/x-mathjax-config&quot;</span><span class="kw">&gt;</span>
-<span class="va">MathJax</span>.<span class="va">Hub</span>.<span class="at">Config</span>(<span class="op">{</span>
-      <span class="dt">tex2jax</span><span class="op">:</span> <span class="op">{</span><span class="dt">inlineMath</span><span class="op">:</span> [[<span class="st">&#39;$&#39;</span><span class="op">,</span><span class="st">&#39;$&#39;</span>]<span class="op">,</span> [<span class="st">&#39;</span><span class="sc">\\</span><span class="st">(&#39;</span><span class="op">,</span><span class="st">&#39;</span><span class="sc">\\</span><span class="st">)&#39;</span>]]<span class="op">}</span>
-      <span class="op">}</span>)<span class="op">;</span>
-<span class="op">&lt;</span><span class="ss">/script&gt;</span>
-<span class="ss">&lt;script type=&quot;text/javascript</span><span class="st">&quot; src=&quot;</span>path<span class="op">-</span>to<span class="op">-</span>mathjax/<span class="va">MathJax</span>.<span class="at">js</span><span class="op">?</span>config<span class="op">=</span>TeX<span class="op">-</span>AMS<span class="op">-</span>MML_HTMLorMML<span class="st">&quot;&gt;&lt;/script&gt;</span></code></pre></div>
+<div class="sourceCode" id="enable MathJax in source/_includes/custom/head.html http://www.mathjax.org/docs/1.1/start.html"><pre class="sourceCode html"><code class="sourceCode html"><span id="enable MathJax in source/_includes/custom/head.html http://www.mathjax.org/docs/1.1/start.html-1"><a href="#enable MathJax in source/_includes/custom/head.html http://www.mathjax.org/docs/1.1/start.html-1"></a><span class="kw">&lt;script</span><span class="ot"> type=</span><span class="st">&quot;text/x-mathjax-config&quot;</span><span class="kw">&gt;</span></span>
+<span id="enable MathJax in source/_includes/custom/head.html http://www.mathjax.org/docs/1.1/start.html-2"><a href="#enable MathJax in source/_includes/custom/head.html http://www.mathjax.org/docs/1.1/start.html-2"></a><span class="va">MathJax</span>.<span class="va">Hub</span>.<span class="at">Config</span>(<span class="op">{</span></span>
+<span id="enable MathJax in source/_includes/custom/head.html http://www.mathjax.org/docs/1.1/start.html-3"><a href="#enable MathJax in source/_includes/custom/head.html http://www.mathjax.org/docs/1.1/start.html-3"></a>      <span class="dt">tex2jax</span><span class="op">:</span> <span class="op">{</span><span class="dt">inlineMath</span><span class="op">:</span> [[<span class="st">&#39;$&#39;</span><span class="op">,</span><span class="st">&#39;$&#39;</span>]<span class="op">,</span> [<span class="st">&#39;</span><span class="sc">\\</span><span class="st">(&#39;</span><span class="op">,</span><span class="st">&#39;</span><span class="sc">\\</span><span class="st">)&#39;</span>]]<span class="op">}</span></span>
+<span id="enable MathJax in source/_includes/custom/head.html http://www.mathjax.org/docs/1.1/start.html-4"><a href="#enable MathJax in source/_includes/custom/head.html http://www.mathjax.org/docs/1.1/start.html-4"></a>      <span class="op">}</span>)<span class="op">;</span></span>
+<span id="enable MathJax in source/_includes/custom/head.html http://www.mathjax.org/docs/1.1/start.html-5"><a href="#enable MathJax in source/_includes/custom/head.html http://www.mathjax.org/docs/1.1/start.html-5"></a><span class="kw">&lt;/script&gt;</span></span>
+<span id="enable MathJax in source/_includes/custom/head.html http://www.mathjax.org/docs/1.1/start.html-6"><a href="#enable MathJax in source/_includes/custom/head.html http://www.mathjax.org/docs/1.1/start.html-6"></a><span class="kw">&lt;script</span><span class="ot"> type=</span><span class="st">&quot;text/javascript&quot;</span><span class="ot"> src=</span><span class="st">&quot;path-to-mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML&quot;</span><span class="kw">&gt;&lt;/script&gt;</span></span></code></pre></div>
 <h3 id="some-tex">Some TeX</h3>
 <pre id="example expression from Paul Snivey&#39;s article http://psnively.github.com/2010/03/13/100-proof.html"><code>$$\forall x, y : \mathbb{Z}, x &gt; 3 \land y &lt; 2 \Rightarrow x^2 - 2y &gt; 5$$
 </code></pre>
@@ -55,10 +55,10 @@ main <span class="fu">=</span> putStrLn <span class="st">&quot;Hello, world!&quo
 <ul>
 <li><a href="http://begriffs.com/posts/2014-08-12-create-static-site-with-hakyll-github.html">Begriffs on GitHub and Travis CI</a></li>
 <li><a href="https://github.com/willtim/timphilipwilliams.com">Tim William’s Hakyll blog using Boostrap 2.1</a></li>
-<li><a href="http://timbaumann.info/posts/2013-08-04-hakyll-github-and-travis.html" class="uri">http://timbaumann.info/posts/2013-08-04-hakyll-github-and-travis.html</a></li>
+<li><a href="http://timbaumann.info/posts/2013-08-04-hakyll-github-and-travis.html">http://timbaumann.info/posts/2013-08-04-hakyll-github-and-travis.html</a></li>
 <li><a href="http://jaspervdj.be/hakyll/">Jasper Van der Jeugt’s Hakyll</a></li>
-<li><a href="https://github.com/thomasf/exitwp/" class="uri">https://github.com/thomasf/exitwp/</a></li>
-<li><a href="http://nixos.org/nix/" class="uri">http://nixos.org/nix/</a></li>
+<li><a href="https://github.com/thomasf/exitwp/">https://github.com/thomasf/exitwp/</a></li>
+<li><a href="http://nixos.org/nix/">http://nixos.org/nix/</a></li>
 </ul>
 </div>
 

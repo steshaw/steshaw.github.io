@@ -50,13 +50,13 @@
 </blockquote>
 <p>We really want to avoid every building things with Rails so that folks use our APIs correct and we can avoid having to make things backwardly compatible with the undocumented Rails behaviours.</p>
 <blockquote>
-<p>Was the rewrite worth it? Hell yes it was. Our reliability improved by an order of magnitude. More importantly, our API is not getting more and more fragile as we spin up more databases and backing services. Our codebase got cleaned up and we got rid of a ton of magical gems and implicit assumptions. Co-tenancy issues improved for customers across the board. Our ops team stopped getting massively burned out from getting paged and trying to track down and manually remediate Ruby API outages multiple times a week. And needless to say, our customers were happier too.&quot;</p>
+<p>Was the rewrite worth it? Hell yes it was. Our reliability improved by an order of magnitude. More importantly, our API is not getting more and more fragile as we spin up more databases and backing services. Our codebase got cleaned up and we got rid of a ton of magical gems and implicit assumptions. Co-tenancy issues improved for customers across the board. Our ops team stopped getting massively burned out from getting paged and trying to track down and manually remediate Ruby API outages multiple times a week. And needless to say, our customers were happier too."</p>
 </blockquote>
 <ul>
 <li>Could be that the ops team liked to be busy support Ruby apps. Maybe that’s why they were so down on the JVM.</li>
 </ul>
 <blockquote>
-<p>We now almost never have reliability-impacting events that can be tracked back to the API layer – a massive shift from a year ago. Now when we have timeouts or errors, it’s usually constrained to a single app – because one app is issuing a very inefficient query that causes timeouts or full table scans for their app, or it’s a database-related co-tenancy problem that we can resolve by automatically rebalancing or filtering bad actors.&quot;</p>
+<p>We now almost never have reliability-impacting events that can be tracked back to the API layer – a massive shift from a year ago. Now when we have timeouts or errors, it’s usually constrained to a single app – because one app is issuing a very inefficient query that causes timeouts or full table scans for their app, or it’s a database-related co-tenancy problem that we can resolve by automatically rebalancing or filtering bad actors."</p>
 </blockquote>
 <p>What does it mean?</p>
 <h2 id="faster-builds-tests-and-deploys">Faster builds, tests and deploys</h2>

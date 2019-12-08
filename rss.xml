@@ -45,30 +45,30 @@ $ stack --resolver nightly-2017-08-12 install apply-refact
 <h2 id="haskell-layer">Haskell layer</h2>
 <p>I added the <code>haskell</code> layer plus <code>autocompletion</code> which it seems to require. I also followed the documentation in configuring intero and hindent (though the style “johan-tibell” no longer seems required as hindent no longer supports multiple styles).</p>
 <p>After adding a few other layers, my configuration layers in <code>~/.spacemacs</code> looked like this:</p>
-<div class="sourceCode"><pre class="sourceCode commonlisp"><code class="sourceCode commonlisp">   dotspacemacs-configuration-layers
-   &#39;(
-     ansible
-     auto-completion
-     emacs-lisp
-     git
-     (haskell :variables
-              haskell-completion-backend &#39;intero
-              haskell-enable-hindent-style <span class="st">&quot;johan-tibell&quot;</span>)
-     helm
-     html
-     javascript
-     markdown
-     org
-     osx
-     (shell :variables
-            shell-default-height <span class="dv">30</span>
-            shell-default-position &#39;bottom)
-     spell-checking
-     syntax-checking
-     themes-megapack
-     version-control
-     yaml
-     )</code></pre></div>
+<div class="sourceCode" id="cb3" data-org-language="emacs-lisp"><pre class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb3-1"><a href="#cb3-1"></a>dotspacemacs-configuration-layers</span>
+<span id="cb3-2"><a href="#cb3-2"></a>&#39;(</span>
+<span id="cb3-3"><a href="#cb3-3"></a>  ansible</span>
+<span id="cb3-4"><a href="#cb3-4"></a>  auto-completion</span>
+<span id="cb3-5"><a href="#cb3-5"></a>  emacs-lisp</span>
+<span id="cb3-6"><a href="#cb3-6"></a>  git</span>
+<span id="cb3-7"><a href="#cb3-7"></a>  (haskell :variables</span>
+<span id="cb3-8"><a href="#cb3-8"></a>           haskell-completion-backend &#39;intero</span>
+<span id="cb3-9"><a href="#cb3-9"></a>           haskell-enable-hindent-style <span class="st">&quot;johan-tibell&quot;</span>)</span>
+<span id="cb3-10"><a href="#cb3-10"></a>  helm</span>
+<span id="cb3-11"><a href="#cb3-11"></a>  html</span>
+<span id="cb3-12"><a href="#cb3-12"></a>  javascript</span>
+<span id="cb3-13"><a href="#cb3-13"></a>  markdown</span>
+<span id="cb3-14"><a href="#cb3-14"></a>  org</span>
+<span id="cb3-15"><a href="#cb3-15"></a>  osx</span>
+<span id="cb3-16"><a href="#cb3-16"></a>  (shell :variables</span>
+<span id="cb3-17"><a href="#cb3-17"></a>         shell-default-height <span class="dv">30</span></span>
+<span id="cb3-18"><a href="#cb3-18"></a>         shell-default-position &#39;bottom)</span>
+<span id="cb3-19"><a href="#cb3-19"></a>  spell-checking</span>
+<span id="cb3-20"><a href="#cb3-20"></a>  syntax-checking</span>
+<span id="cb3-21"><a href="#cb3-21"></a>  themes-megapack</span>
+<span id="cb3-22"><a href="#cb3-22"></a>  version-control</span>
+<span id="cb3-23"><a href="#cb3-23"></a>  yaml</span>
+<span id="cb3-24"><a href="#cb3-24"></a>  )</span></code></pre></div>
 <h2 id="project-sidebar">Project sidebar</h2>
 <p>I missed having a project sidebar (such as seems to be the default in editors like Atom). Eventually I found that Spacemacs includes NeoTree which makes a viable project sidebar. Toggle on/off with <code>SPC p t</code> or <code>SPC f t</code> for a file rather than project browser.</p>
 <p><a href="https://github.com/syl20bnr/spacemacs/blob/master/doc/DOCUMENTATION.org#neotree-file-tree">See more in the documentation</a></p>
@@ -77,9 +77,9 @@ $ stack --resolver nightly-2017-08-12 install apply-refact
 <p>After some searching, I figured I could rely on “helm-mini”. It lets you open search/select files from the open buffers (<code>SPC b b</code>). Also searching/selecting for files in the same project is possible from projectile (<code>SPC p f</code>).</p>
 <h2 id="fill-column-indicator">Fill column indicator</h2>
 <p>I wanted my little indicator for the 80th column. Here, you need to tweak your <code>~/.spacemacs</code> file.</p>
-<div class="sourceCode"><pre class="sourceCode commonlisp"><code class="sourceCode commonlisp">(<span class="kw">defun</span><span class="fu"> dotspacemacs/user-config </span>()
-  (spacemacs/toggle-fill-column-indicator-on)
-  )</code></pre></div>
+<div class="sourceCode" id="cb4" data-org-language="emacs-lisp"><pre class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb4-1"><a href="#cb4-1"></a>(<span class="kw">defun</span><span class="fu"> dotspacemacs/user-config </span>()</span>
+<span id="cb4-2"><a href="#cb4-2"></a>  (spacemacs/toggle-fill-column-indicator-on)</span>
+<span id="cb4-3"><a href="#cb4-3"></a>  )</span></code></pre></div>
 <h2 id="theme">Theme</h2>
 <p>It was fun seeing the different themes available for Spacemacs. It’s best to install <code>themes-megapack</code> layer (see my layers configuration above). I don’t mind the default <code>spacemacs-dark</code> theme but here are some of my other favourites:</p>
 <ul>
@@ -345,16 +345,16 @@ x<sup>n</sup> + y<sup>n</sup> = z<sup>n</sup></p>
 
 <div class="post-content">
   <p>I’d originally allocated the default 8G to my primary partition when installing NixOS. I ran out of disk space when I tried upgrading to KDE 5. This is how I increased the size of the partition.</p>
-<h4 id="shutdown-your-vm.">1. Shutdown your VM.</h4>
-<h4 id="use-virtualbox-tools-to-increase-the-size-of-the-vdi.">2. Use VirtualBox tools to increase the size of the VDI.</h4>
-<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash">$ <span class="kw">VBoxManage</span> modifyhd NixOS.vdi --resize 20000</code></pre></div>
+<p>1. Shutdown your VM.</p>
+<p>2. Use VirtualBox tools to increase the size of the VDI.</p>
+<div class="sourceCode" id="cb1" data-org-language="sh"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1"></a>$ <span class="ex">VBoxManage</span> modifyhd NixOS.vdi --resize 20000</span></code></pre></div>
 <pre class="example"><code>0%...10%...20%...30%...40%...50%...60%...70%...80%...90%...100%
 </code></pre>
-<h4 id="boot-the-vm-from-the-nixos-live-cd.">3. Boot the VM from the NixOS Live CD.</h4>
-<h4 id="login-as-root.">4. Login as <code>root</code>.</h4>
-<h4 id="resize-the-partition-using-fdisk.">5. Resize the partition using <code>fdisk</code>.</h4>
+<p>3. Boot the VM from the NixOS Live CD.</p>
+<p>4. Login as <code>root</code>.</p>
+<p>5. Resize the partition using <code>fdisk</code>.</p>
 <p>You have to delete and recreate the partition. In my case, I’ve only got 1 partition, so it’s partition 1. Here I enter the commands: ‘p’ (print the partition table, ‘d’ (delete the partition), ‘n’ (create a new partition), 4 × ‘&lt;return&gt;’ (accept default), ‘w’ (write/sync the partition table to disk).</p>
-<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash">$ <span class="kw">fdisk</span> /dev/sda</code></pre></div>
+<div class="sourceCode" id="cb3" data-org-language="sh"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1"></a>$ <span class="ex">fdisk</span> /dev/sda</span></code></pre></div>
 <pre class="example"><code>Command (m for help): p
 …
 /dev/sda1     2048 24575999 245739952 11.7G 83 Linux
@@ -370,12 +370,12 @@ Last sector, +sectors or +size{K,M,G,T,P} (2048-40959999, default 40959999): &lt
 Created a new partition 1 of type &#39;Linux&#39; and of size 19.5 GiB.
 Command (m for help): w
 </code></pre>
-<h4 id="resize-the-filesystem.">6. Resize the filesystem.</h4>
-<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash">$ <span class="kw">mkdir</span> /mnt/root
-$ <span class="kw">mount</span> /dev/sda1 /mnt/root
-$ <span class="kw">btrfs</span> filesystem resize max /mnt/root</code></pre></div>
-<h4 id="reboot-and-boot-from-the-drive.">7. Reboot and boot from the drive.</h4>
-<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash">$ <span class="kw">reboot</span></code></pre></div>
+<p>6. Resize the filesystem.</p>
+<div class="sourceCode" id="cb5" data-org-language="sh"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1"></a>$ <span class="fu">mkdir</span> /mnt/root</span>
+<span id="cb5-2"><a href="#cb5-2"></a>$ <span class="fu">mount</span> /dev/sda1 /mnt/root</span>
+<span id="cb5-3"><a href="#cb5-3"></a>$ <span class="ex">btrfs</span> filesystem resize max /mnt/root</span></code></pre></div>
+<p>7. Reboot and boot from the drive.</p>
+<div class="sourceCode" id="cb6" data-org-language="sh"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1"></a>$ <span class="ex">reboot</span></span></code></pre></div>
 </div>
 
 <div class="post-footer">
@@ -623,32 +623,32 @@ $ <span class="kw">btrfs</span> filesystem resize max /mnt/root</code></pre></di
 <div class="post-content">
   <p>MathJax isn’t currently supported out-of-the-box with Octopress. The main reason seems to be that the Markdown processor — rdiscount — doesn’t deal with the MathJax escaping very well. However, since <a href="http://maruku.rubyforge.org/math.xhtml">Maruku supports it</a>, I thought I’d try switching over.</p>
 <p>I made the following two changes:</p>
-<pre class="yml" data-title="switch Markdown processors in _config.yml"><code>markdown: maruku</code></pre>
-<div class="sourceCode" data-title="enable MathJax in source/_includes/custom/head.html" data-link="http://www.mathjax.org/docs/1.1/start.html"><pre class="sourceCode html"><code class="sourceCode html"><span class="kw">&lt;script</span><span class="ot"> type=</span><span class="st">&quot;text/x-mathjax-config&quot;</span><span class="kw">&gt;</span>
-<span class="va">MathJax</span>.<span class="va">Hub</span>.<span class="at">Config</span>(<span class="op">{</span>
-      <span class="dt">tex2jax</span><span class="op">:</span> <span class="op">{</span><span class="dt">inlineMath</span><span class="op">:</span> [[<span class="st">&#39;$&#39;</span><span class="op">,</span><span class="st">&#39;$&#39;</span>]<span class="op">,</span> [<span class="st">&#39;</span><span class="sc">\\</span><span class="st">(&#39;</span><span class="op">,</span><span class="st">&#39;</span><span class="sc">\\</span><span class="st">)&#39;</span>]]<span class="op">}</span>
-      <span class="op">}</span>)<span class="op">;</span>
-<span class="op">&lt;</span><span class="ss">/script&gt;</span>
-<span class="ss">&lt;script type=&quot;text/javascript</span><span class="st">&quot; src=&quot;</span>path<span class="op">-</span>to<span class="op">-</span>mathjax/<span class="va">MathJax</span>.<span class="at">js</span><span class="op">?</span>config<span class="op">=</span>TeX<span class="op">-</span>AMS<span class="op">-</span>MML_HTMLorMML<span class="st">&quot;&gt;&lt;/script&gt;</span></code></pre></div>
-<p>This allows for inline <span class="math inline">$\TeX$</span> expressions between dollar signs e.g. <code>$\TeX$</code>. MathJax <em>display</em> expressions (i.e. non-inline) are delimited by double dollar signs:</p>
-<pre class="tex" data-title="example expression from Paul Snivey&#39;s article http://psnively.github.com/2010/03/13/100-proof.html"><code>$$\forall x, y : \mathbb{Z}, x &gt; 3 \land y &lt; 2 \Rightarrow x^2 - 2y &gt; 5$$</code></pre>
+<div class="sourceCode" id="cb1" data-title="switch Markdown processors in _config.yml"><pre class="sourceCode yml"><code class="sourceCode yaml"><span id="cb1-1"><a href="#cb1-1"></a><span class="fu">markdown</span><span class="kw">:</span><span class="at"> maruku</span></span></code></pre></div>
+<div class="sourceCode" id="cb2" data-title="enable MathJax in source/_includes/custom/head.html" data-link="http://www.mathjax.org/docs/1.1/start.html"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb2-1"><a href="#cb2-1"></a><span class="kw">&lt;script</span><span class="ot"> type=</span><span class="st">&quot;text/x-mathjax-config&quot;</span><span class="kw">&gt;</span></span>
+<span id="cb2-2"><a href="#cb2-2"></a><span class="va">MathJax</span>.<span class="va">Hub</span>.<span class="at">Config</span>(<span class="op">{</span></span>
+<span id="cb2-3"><a href="#cb2-3"></a>      <span class="dt">tex2jax</span><span class="op">:</span> <span class="op">{</span><span class="dt">inlineMath</span><span class="op">:</span> [[<span class="st">&#39;$&#39;</span><span class="op">,</span><span class="st">&#39;$&#39;</span>]<span class="op">,</span> [<span class="st">&#39;</span><span class="sc">\\</span><span class="st">(&#39;</span><span class="op">,</span><span class="st">&#39;</span><span class="sc">\\</span><span class="st">)&#39;</span>]]<span class="op">}</span></span>
+<span id="cb2-4"><a href="#cb2-4"></a>      <span class="op">}</span>)<span class="op">;</span></span>
+<span id="cb2-5"><a href="#cb2-5"></a><span class="kw">&lt;/script&gt;</span></span>
+<span id="cb2-6"><a href="#cb2-6"></a><span class="kw">&lt;script</span><span class="ot"> type=</span><span class="st">&quot;text/javascript&quot;</span><span class="ot"> src=</span><span class="st">&quot;path-to-mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML&quot;</span><span class="kw">&gt;&lt;/script&gt;</span></span></code></pre></div>
+<p>This allows for inline <span class="math inline">$\TeX$</span> expressions between dollar signs e.g. <code>$\TeX$</code>. MathJax <em>display</em> expressions (i.e. non-inline) are delimited by double dollar signs:</p>
+<div class="sourceCode" id="cb3" data-title="example expression from Paul Snivey&#39;s article http://psnively.github.com/2010/03/13/100-proof.html"><pre class="sourceCode tex"><code class="sourceCode latex"><span id="cb3-1"><a href="#cb3-1"></a><span class="ss">$$</span><span class="sc">\forall</span><span class="ss"> x, y : </span><span class="sc">\mathbb</span><span class="ss">{Z}, x &gt; 3 </span><span class="sc">\land</span><span class="ss"> y &lt; 2 </span><span class="sc">\Rightarrow</span><span class="ss"> x^2 - 2y &gt; 5$$</span></span></code></pre></div>
 <p>renders as:</p>
 <p><br /><span class="math display">∀<em>x</em>, <em>y</em> : ℤ, <em>x</em> &gt; 3 ∧ <em>y</em> &lt; 2 ⇒ <em>x</em><sup>2</sup> − 2<em>y</em> &gt; 5</span><br /></p>
 <h2 id="right-click-issue">Right-click issue</h2>
 <p>There was also a problem with the theme. When right clicking a MathJax expression, the whole page goes blank! Zete has a great fix for this:</p>
-<div class="sourceCode" data-title="fix for right-click" data-link="http://luikore.github.com/2011/09/good-things-learned-from-octopress/"><pre class="sourceCode diff"><code class="sourceCode diff"><span class="kw">diff --git a/sass/base/_theme.scss b/sass/base/_theme.scss</span>
-index 9a50a8b..fc9dc37 100644
-<span class="dt">--- a/sass/base/_theme.scss</span>
-<span class="dt">+++ b/sass/base/_theme.scss</span>
-<span class="dt">@@ -75,7 +75,7 @@ html {</span>
-   background: $page-bg image-url(&#39;line-tile.png&#39;) top left;
- }
- body {
-<span class="st">-  &gt; div {</span>
-<span class="ot">+  &gt; div#main {</span>
-     background: $sidebar-bg $noise-bg;
-     border-bottom: 1px solid $page-border-bottom;
-     &gt; div {</code></pre></div>
+<div class="sourceCode" id="cb4" data-title="fix for right-click" data-link="http://luikore.github.com/2011/09/good-things-learned-from-octopress/"><pre class="sourceCode diff"><code class="sourceCode diff"><span id="cb4-1"><a href="#cb4-1"></a><span class="kw">diff --git a/sass/base/_theme.scss b/sass/base/_theme.scss</span></span>
+<span id="cb4-2"><a href="#cb4-2"></a>index 9a50a8b..fc9dc37 100644</span>
+<span id="cb4-3"><a href="#cb4-3"></a><span class="dt">--- a/sass/base/_theme.scss</span></span>
+<span id="cb4-4"><a href="#cb4-4"></a><span class="dt">+++ b/sass/base/_theme.scss</span></span>
+<span id="cb4-5"><a href="#cb4-5"></a><span class="dt">@@ -75,7 +75,7 @@ html {</span></span>
+<span id="cb4-6"><a href="#cb4-6"></a>   background: $page-bg image-url(&#39;line-tile.png&#39;) top left;</span>
+<span id="cb4-7"><a href="#cb4-7"></a> }</span>
+<span id="cb4-8"><a href="#cb4-8"></a> body {</span>
+<span id="cb4-9"><a href="#cb4-9"></a><span class="st">-  &gt; div {</span></span>
+<span id="cb4-10"><a href="#cb4-10"></a><span class="va">+  &gt; div#main {</span></span>
+<span id="cb4-11"><a href="#cb4-11"></a>     background: $sidebar-bg $noise-bg;</span>
+<span id="cb4-12"><a href="#cb4-12"></a>     border-bottom: 1px solid $page-border-bottom;</span>
+<span id="cb4-13"><a href="#cb4-13"></a>     &gt; div {</span></code></pre></div>
 <h2 id="futher-reading">Futher reading</h2>
 <ul>
 <li><a href="http://luikore.github.com/2011/09/good-things-learned-from-octopress/">Starting from Octopress</a></li>
@@ -725,46 +725,46 @@ index 9a50a8b..fc9dc37 100644
 <div class="post-content">
   <p>I’m starting with a clean slate and moving to <a href="http://octopress.org/">Octopress</a>.</p>
 <p>Haskell source code highlighting appears to work out of the box:</p>
-<div class="sourceCode" data-title="Run length encoding" data-link="http://rosettacode.org/wiki/Run-length_encoding#Haskell"><pre class="sourceCode haskell"><code class="sourceCode haskell"><span class="kw">import </span><span class="dt">Data.List</span> (group)
-
-<span class="co">-- Datatypes</span>
-<span class="kw">type</span> <span class="dt">Encoded</span> <span class="fu">=</span> [(<span class="dt">Int</span>, <span class="dt">Char</span>)]  <span class="co">-- An encoded String with form [(times, char), ...]</span>
-<span class="kw">type</span> <span class="dt">Decoded</span> <span class="fu">=</span> <span class="dt">String</span>
-
-<span class="co">-- Takes a decoded string and returns an encoded list of tuples</span>
-<span class="ot">rlencode ::</span> <span class="dt">Decoded</span> <span class="ot">-&gt;</span> <span class="dt">Encoded</span>
-rlencode <span class="fu">=</span> map (\g <span class="ot">-&gt;</span> (length g, head g)) <span class="fu">.</span> group
-
-<span class="co">-- Takes an encoded list of tuples and returns the associated decoded String</span>
-<span class="ot">rldecode ::</span> <span class="dt">Encoded</span> <span class="ot">-&gt;</span> <span class="dt">Decoded</span>
-rldecode <span class="fu">=</span> concatMap decodeTuple
-    <span class="kw">where</span> decodeTuple (n,c) <span class="fu">=</span> replicate n c
-
-<span class="ot">main ::</span> <span class="dt">IO</span> ()
-main <span class="fu">=</span> <span class="kw">do</span>
-  <span class="co">-- Get input</span>
-  putStr <span class="st">&quot;String to encode: &quot;</span>
-  input <span class="ot">&lt;-</span> getLine
-  <span class="co">-- Output encoded and decoded versions of input</span>
-  <span class="kw">let</span> encoded <span class="fu">=</span> rlencode input
-      decoded <span class="fu">=</span> rldecode encoded
-  putStrLn <span class="fu">$</span> <span class="st">&quot;Encoded: &quot;</span> <span class="fu">++</span> show encoded <span class="fu">++</span> <span class="st">&quot;\nDecoded: &quot;</span> <span class="fu">++</span> show decoded</code></pre></div>
+<div class="sourceCode" id="cb1" data-title="Run length encoding" data-link="http://rosettacode.org/wiki/Run-length_encoding#Haskell"><pre class="sourceCode haskell"><code class="sourceCode haskell"><span id="cb1-1"><a href="#cb1-1"></a><span class="kw">import</span> <span class="dt">Data.List</span> (group)</span>
+<span id="cb1-2"><a href="#cb1-2"></a></span>
+<span id="cb1-3"><a href="#cb1-3"></a><span class="co">-- Datatypes</span></span>
+<span id="cb1-4"><a href="#cb1-4"></a><span class="kw">type</span> <span class="dt">Encoded</span> <span class="ot">=</span> [(<span class="dt">Int</span>, <span class="dt">Char</span>)]  <span class="co">-- An encoded String with form [(times, char), ...]</span></span>
+<span id="cb1-5"><a href="#cb1-5"></a><span class="kw">type</span> <span class="dt">Decoded</span> <span class="ot">=</span> <span class="dt">String</span></span>
+<span id="cb1-6"><a href="#cb1-6"></a></span>
+<span id="cb1-7"><a href="#cb1-7"></a><span class="co">-- Takes a decoded string and returns an encoded list of tuples</span></span>
+<span id="cb1-8"><a href="#cb1-8"></a><span class="ot">rlencode ::</span> <span class="dt">Decoded</span> <span class="ot">-&gt;</span> <span class="dt">Encoded</span></span>
+<span id="cb1-9"><a href="#cb1-9"></a>rlencode <span class="ot">=</span> <span class="fu">map</span> (\g <span class="ot">-&gt;</span> (<span class="fu">length</span> g, <span class="fu">head</span> g)) <span class="op">.</span> <span class="fu">group</span></span>
+<span id="cb1-10"><a href="#cb1-10"></a></span>
+<span id="cb1-11"><a href="#cb1-11"></a><span class="co">-- Takes an encoded list of tuples and returns the associated decoded String</span></span>
+<span id="cb1-12"><a href="#cb1-12"></a><span class="ot">rldecode ::</span> <span class="dt">Encoded</span> <span class="ot">-&gt;</span> <span class="dt">Decoded</span></span>
+<span id="cb1-13"><a href="#cb1-13"></a>rldecode <span class="ot">=</span> <span class="fu">concatMap</span> decodeTuple</span>
+<span id="cb1-14"><a href="#cb1-14"></a>    <span class="kw">where</span> decodeTuple (n,c) <span class="ot">=</span> <span class="fu">replicate</span> n c</span>
+<span id="cb1-15"><a href="#cb1-15"></a></span>
+<span id="cb1-16"><a href="#cb1-16"></a><span class="ot">main ::</span> <span class="dt">IO</span> ()</span>
+<span id="cb1-17"><a href="#cb1-17"></a>main <span class="ot">=</span> <span class="kw">do</span></span>
+<span id="cb1-18"><a href="#cb1-18"></a>  <span class="co">-- Get input</span></span>
+<span id="cb1-19"><a href="#cb1-19"></a>  <span class="fu">putStr</span> <span class="st">&quot;String to encode: &quot;</span></span>
+<span id="cb1-20"><a href="#cb1-20"></a>  input <span class="ot">&lt;-</span> <span class="fu">getLine</span></span>
+<span id="cb1-21"><a href="#cb1-21"></a>  <span class="co">-- Output encoded and decoded versions of input</span></span>
+<span id="cb1-22"><a href="#cb1-22"></a>  <span class="kw">let</span> encoded <span class="ot">=</span> rlencode input</span>
+<span id="cb1-23"><a href="#cb1-23"></a>      decoded <span class="ot">=</span> rldecode encoded</span>
+<span id="cb1-24"><a href="#cb1-24"></a>  <span class="fu">putStrLn</span> <span class="op">$</span> <span class="st">&quot;Encoded: &quot;</span> <span class="op">++</span> <span class="fu">show</span> encoded <span class="op">++</span> <span class="st">&quot;\nDecoded: &quot;</span> <span class="op">++</span> <span class="fu">show</span> decoded</span></code></pre></div>
 <p>as does Scala:</p>
-<div class="sourceCode"><pre class="sourceCode scala"><code class="sourceCode scala"><span class="kw">import</span> scala.<span class="fu">collection</span>.<span class="fu">mutable</span>
-
-<span class="kw">def</span> <span class="fu">countWords</span>(text: String) = {
-  <span class="kw">val</span> counts = mutable.<span class="fu">Map</span>[String, Int]()
-  <span class="kw">for</span> (word &lt;- text.<span class="fu">split</span>(<span class="st">&quot;[ ,!.]+&quot;</span>)) {
-    <span class="kw">val</span> lowerWord = word.<span class="fu">toLowerCase</span>
-    <span class="kw">val</span> oldCount = counts.<span class="fu">getOrElse</span>(lowerWord, <span class="dv">0</span>)
-    <span class="fu">counts</span>(lowerWord) = oldCount + <span class="dv">1</span>
-  }
-  counts
-}
-
-<span class="kw">val</span> text = <span class="st">&quot;See Spot run. Run, Spot. Run!&quot;</span>
-
-<span class="fu">countWords</span>(text) foreach println</code></pre></div>
+<div class="sourceCode" id="cb2"><pre class="sourceCode scala"><code class="sourceCode scala"><span id="cb2-1"><a href="#cb2-1"></a><span class="kw">import</span> scala.<span class="fu">collection</span>.<span class="fu">mutable</span></span>
+<span id="cb2-2"><a href="#cb2-2"></a></span>
+<span id="cb2-3"><a href="#cb2-3"></a><span class="kw">def</span> <span class="fu">countWords</span>(text: String) = {</span>
+<span id="cb2-4"><a href="#cb2-4"></a>  <span class="kw">val</span> counts = mutable.<span class="fu">Map</span>[String, Int]()</span>
+<span id="cb2-5"><a href="#cb2-5"></a>  <span class="kw">for</span> (word &lt;- text.<span class="fu">split</span>(<span class="st">&quot;[ ,!.]+&quot;</span>)) {</span>
+<span id="cb2-6"><a href="#cb2-6"></a>    <span class="kw">val</span> lowerWord = word.<span class="fu">toLowerCase</span></span>
+<span id="cb2-7"><a href="#cb2-7"></a>    <span class="kw">val</span> oldCount = counts.<span class="fu">getOrElse</span>(lowerWord, <span class="dv">0</span>)</span>
+<span id="cb2-8"><a href="#cb2-8"></a>    <span class="fu">counts</span>(lowerWord) = oldCount + <span class="dv">1</span></span>
+<span id="cb2-9"><a href="#cb2-9"></a>  }</span>
+<span id="cb2-10"><a href="#cb2-10"></a>  counts</span>
+<span id="cb2-11"><a href="#cb2-11"></a>}</span>
+<span id="cb2-12"><a href="#cb2-12"></a></span>
+<span id="cb2-13"><a href="#cb2-13"></a><span class="kw">val</span> text = <span class="st">&quot;See Spot run. Run, Spot. Run!&quot;</span></span>
+<span id="cb2-14"><a href="#cb2-14"></a></span>
+<span id="cb2-15"><a href="#cb2-15"></a><span class="fu">countWords</span>(text) foreach println</span></code></pre></div>
 </div>
 
 <div class="post-footer">
@@ -863,7 +863,7 @@ main <span class="fu">=</span> <span class="kw">do</span>
 <h4 id="plea-to-canoncial-and-manufacturers">Plea to Canoncial and manufacturers</h4>
 <p>Perhaps it’s just that 10.10 is a disaster (at least running native/raw on HP hardware) but I can’t help but think that it’s imperative that Canonical find a way to have manufacturers buy into Ubuntu and test/preinstall it on their hardware. There was a time when Dell were doing this at least in the US and EU (but even then only on a small subset of their range). I used to enjoy the days of searching for solutions for hardware problems, diving into configuration files and configuring X etc. I learnt a lot through those experiences. However, now that I’m older I suppose, I value my time more. I hear this argument from Apple fan boys all the time. Unfortunately it’s true. I do think that Linux and Ubuntu in particular is a better software development platform. The weath of software available using APT is a big part of that. Also that APT uses binary packages. Easy software installations isn’t so important if you don’t experiment with new programming languages and libraries etc that often.</p>
 <h3 id="buy-a-mac">Buy a Mac :)</h3>
-<p>The other option is, of course, to buy a MacBook. Since I already have an iMac in case I need more power, I’ve been thinking about purchasing a 11&quot; MacBook Air next year. I’ve tested one in-store an it seems quite nimble for such a little beast and the screen resolution is the same as my current laptop - 1366x768. I’d certainly have no more need for my 11.6&quot; netbook (which won’t run Ubuntu Unity btw because of gma500/poulbo graphics driver issues - sigh!). Perhaps the 11&quot; wouldn’t cut it for Java development though. I haven’t tried IntelliJ on it in-store yet. A fine but more expensive option is the 13&quot; MacBook Air. The same resolution as a 15&quot; MacBook Pro. Currently the 13&quot; MacBook Air will set up back $2,078.00 including 4G RAM and 3 year warranty. If I had to choose again right now, I’d be picking between 11 and 13 inch MacBook Airs.</p>
+<p>The other option is, of course, to buy a MacBook. Since I already have an iMac in case I need more power, I’ve been thinking about purchasing a 11" MacBook Air next year. I’ve tested one in-store an it seems quite nimble for such a little beast and the screen resolution is the same as my current laptop - 1366x768. I’d certainly have no more need for my 11.6" netbook (which won’t run Ubuntu Unity btw because of gma500/poulbo graphics driver issues - sigh!). Perhaps the 11" wouldn’t cut it for Java development though. I haven’t tried IntelliJ on it in-store yet. A fine but more expensive option is the 13" MacBook Air. The same resolution as a 15" MacBook Pro. Currently the 13" MacBook Air will set up back $2,078.00 including 4G RAM and 3 year warranty. If I had to choose again right now, I’d be picking between 11 and 13 inch MacBook Airs.</p>
 <p>Since I won’t be purchasing a new notebook until next year, I am hoping that the rumoured April MacBook Pro update will make the decision easier. Hoping for higher resolution displays like MacBook Air, cheaper flash/ssd storage option, quad-cores, Mac OS X Lion and cheaper 8G RAM option. Hopefully a combination of Apple and a rising AUD can deliver. It’s quite possible that the AUD could come crashing down before then though :(.</p>
 </div>
 
@@ -939,7 +939,7 @@ main <span class="fu">=</span> <span class="kw">do</span>
 <p>Agile has become a meaningless term. Agile is dying. Everyone is doing agile. The “agile” label is slapped on everything. Once slapped on, it tends to provide a force fields against criticism. Often this is an attempt to get something for nothing (“but you said it would be faster if we had 100% test coverage”) or just simply popularism. One of the worst things about Agile is the unquestioning, unthinking fanboyism that abounds. <strong><em>Agile has become the status quo</em></strong>.</p>
 <p>As a young programmer in the 90s I was entranced by “object-oriented analysis and design” and the glittering lights of the 3 amigos - their respective methodologies and their (Rational) Unified Process. However, by the late 90s, it was the fight against bureaucracy that drew me to XP and the little white book. It was the questioning of the status-quo of the “big” methodologies. Giving working code the respect it deserves.</p>
 <p>What’s <em>not</em> important is that we overemphasise a word, “agile”, that has already become synonymous with software development or software engineering. What is important is the following:</p>
-<ol style="list-style-type: decimal">
+<ol type="1">
 <li><p>Work as productively and economically as we know how</p></li>
 <li><p>Continuously learn in order to hone and master our skills. Yes, you will have to learn new programming languages :). I recommend Haskell, OCaml and Erlang.</p></li>
 <li><p>As always, keep a sceptical eye out and do not to fall prey to dogma.</p></li>
@@ -1014,17 +1014,14 @@ main <span class="fu">=</span> <span class="kw">do</span>
 
 <div class="post-content">
   <p>I’m writing this from my new laptop! <strong>Stop the presses:</strong> it’s <em>not</em> a Mac! :) In fact, I’m trying out Windows Live Writer to publish this post…</p>
-<div class="figure">
-<img src="/images/hp-pavilion-dv6.png" />
-
-</div>
+<p><img src="/images/hp-pavilion-dv6.png" /></p>
 <p>Technical specifications:</p>
 <blockquote>
 <blockquote>
 <p>HP Pavilion dv6 3042TX<br />
 Intel i7-720QM quad-core processor 1.6GHz turbo to 2.8GHz<br />
 8G DDR3 SDRAM<br />
-15.6&quot; HP BrightView LED display @ 1366x768<br />
+15.6" HP BrightView LED display @ 1366x768<br />
 ATI Mobility Radeon HD 5650 with 1G DDR3 dedicated graphics memory<br />
 640G HDD 5400RPM<br />
 Blu-ray ROM<br />
@@ -1033,7 +1030,7 @@ Windows 7 Home Premium x64</p>
 </blockquote>
 </blockquote>
 <p>Got it from Officeworks who do a 5% off any advertised price. The latest Clive Peter’s catalogue has it for $1799 - that’s $200 off the RRP. The Clive Peter’s deal also threw in a wireless MS mouse but Officeworks wouldn’t include any bonuses in their price-match. No matter as I have a mouse and Clive Peters have only just had their doors closed by the administrators! The price of the laptop itself was $1709.05 and to that I added an extended warranty to cover me for 3 years at $189, bringing the total price to $1898.05. I noticed that Harvey Norman are offering 16% off all desktops and laptops this weekend so it might be possible to get a slightly better deal from them (saving an additional $30 or so - no idea about their extended warranty though - maybe you’d lose there). The Geekbench score of this thing is as high as 5600.</p>
-<p>I also considered the new MacBook Pro 15“. Because of the price, it seems only possible to consider the bottom of the range MacBook Pro starting at $2199. On the upside, the cheapest new MacBook Pro 15” is faster than the most expensive older MacBook Pro 17&quot; (according to Geekbench). It’s a dual core i5 2.4GHz machine. I was very disappointed that Apple didn’t make them quad core but I suppose it’s a compromise with battery life - and profit margin ;). Primate Labs lists the Geekbench score of this laptop at <a href="http://www.primatelabs.ca/blog/2010/04/macbookpro-benchmarks/">4806</a> compared to the amazing 5600 that I’m seeing on the 3042TX (according to Geekbench this makes my notebook faster that the most expensive MacBook Pro 17“). The Apple build quality is better but the new HP’s are really getting there. The Mac’s display is more high-res at 1400x900 compared to the HP’s 1366x768. However, it only comes with 4G of RAM by default and a HDD half the size at 320G. Not that it’s really a big deal to me but the MacBook only comes with a 256M graphics card, no Blu-ray and no fingerprint reader. I do miss the vertical screen real estate with the HP but I think it’s a worthwhile compromise. I also miss the MagSafe power port - with the Pavilion you need it connected to the power more often and since the power plug sticks out so far, it’s awkward and relatively easy to get it caught on the lounge/couch/sofa or something. I’ve already got an iMac 27” + 8G of RAM with Snow Leopard so the other upside with this notebook is that I get a copy of Windows 7 should I need to do any .NET development. I’m already taking a look at PowerShell that came preinstalled (many Unix-like aliases are provided but ‘ls’ still looks like a dodgy old ‘DIR’ command – yes, yes – I’m sure there’s heaps of good stuff in there like object-valued pipelines). The extended 3yr warranty for the MacBook is a staggering $579! That would make a total of $2778. If I up-spec the RAM to 8G and the HDD to a 500G 5400rpm (not quite the 640G that I have) and the price leaps to $3,477.99 - very nearly twice as much as what I paid and still no Blu-ray, HDMI out or 1G graphics card… As you can imagine, it is a very difficult price to justify even for the Apple build quality, higher resolution display, battery life and MagSafe power adapter. Don’t worry about the OS, I won’t be using Windows 7 day-to-day. I’ll get all my *nix goodness by installing Ubuntu Lucid Lynx shortly. Then I’ll be able to apt-get all my favourite applications. Apt/dpkg is better than MacPorts - binary packaging is a must for anyone who values their time - something I learned from a year or two with Gentoo prior to making the move to Ubuntu. Also keen to see how OpenSolaris might work out as a notebook OS - all that GNU goodness with ZFS too. I recently heard that FreeBSD has ZFS too so perhaps I should go that way. I do tend to prefer BSD/MIT/X11 over GPL/LGPL.</p>
+<p>I also considered the new MacBook Pro 15“. Because of the price, it seems only possible to consider the bottom of the range MacBook Pro starting at $2199. On the upside, the cheapest new MacBook Pro 15” is faster than the most expensive older MacBook Pro 17" (according to Geekbench). It’s a dual core i5 2.4GHz machine. I was very disappointed that Apple didn’t make them quad core but I suppose it’s a compromise with battery life - and profit margin ;). Primate Labs lists the Geekbench score of this laptop at <a href="http://www.primatelabs.ca/blog/2010/04/macbookpro-benchmarks/">4806</a> compared to the amazing 5600 that I’m seeing on the 3042TX (according to Geekbench this makes my notebook faster that the most expensive MacBook Pro 17“). The Apple build quality is better but the new HP’s are really getting there. The Mac’s display is more high-res at 1400x900 compared to the HP’s 1366x768. However, it only comes with 4G of RAM by default and a HDD half the size at 320G. Not that it’s really a big deal to me but the MacBook only comes with a 256M graphics card, no Blu-ray and no fingerprint reader. I do miss the vertical screen real estate with the HP but I think it’s a worthwhile compromise. I also miss the MagSafe power port - with the Pavilion you need it connected to the power more often and since the power plug sticks out so far, it’s awkward and relatively easy to get it caught on the lounge/couch/sofa or something. I’ve already got an iMac 27” + 8G of RAM with Snow Leopard so the other upside with this notebook is that I get a copy of Windows 7 should I need to do any .NET development. I’m already taking a look at PowerShell that came preinstalled (many Unix-like aliases are provided but ‘ls’ still looks like a dodgy old ‘DIR’ command – yes, yes – I’m sure there’s heaps of good stuff in there like object-valued pipelines). The extended 3yr warranty for the MacBook is a staggering $579! That would make a total of $2778. If I up-spec the RAM to 8G and the HDD to a 500G 5400rpm (not quite the 640G that I have) and the price leaps to $3,477.99 - very nearly twice as much as what I paid and still no Blu-ray, HDMI out or 1G graphics card… As you can imagine, it is a very difficult price to justify even for the Apple build quality, higher resolution display, battery life and MagSafe power adapter. Don’t worry about the OS, I won’t be using Windows 7 day-to-day. I’ll get all my *nix goodness by installing Ubuntu Lucid Lynx shortly. Then I’ll be able to apt-get all my favourite applications. Apt/dpkg is better than MacPorts - binary packaging is a must for anyone who values their time - something I learned from a year or two with Gentoo prior to making the move to Ubuntu. Also keen to see how OpenSolaris might work out as a notebook OS - all that GNU goodness with ZFS too. I recently heard that FreeBSD has ZFS too so perhaps I should go that way. I do tend to prefer BSD/MIT/X11 over GPL/LGPL.</p>
 </div>
 
 <div class="post-footer">
@@ -1317,12 +1314,12 @@ Windows 7 Home Premium x64</p>
 <div class="post-content">
   <p>I recently attended the “Introduction to Scala” course at <a href="http://workingmouse.com/">Working Mouse</a>. The course was run by <a href="http://tmorris.net/">Tony Morris</a> with the help of Tom Adams. I had feared that the course would be a introduction to Scala with Haskell-coloured glasses … and it was just that. However, it was just this that made it interesting. I already know Scala at a basic level so a truly introductory course would have offered little. I knew that Tony was into Haskell and on one hand I wanted to come away with an idea of what a monad was and on the other hand I didn’t want to learn Haskell with Scala syntax. Luck would have it that there turned out to be just two attendees - myself and John Ryan-Brown. Tony was able to accelerate through the introductory material with help from Tom Adams. This freed us up to begin working on monads and emulating type-classes in Scala. It was a really wonderful course that I can’t do justice to in this short post. I did come away knowing what a monad was (but now I’m not quite so sure). I did learn Scala through “Haskell glasses” but that was what was really wonderful about the course.</p>
 <p>So what are monads? Well it appears to be an “ultimate interface” with 3 special methods - return (also called unit), bind and join (where join can be derived from return and bind). My current understanding is that monads are the “ultimate iterator” but I figured I’m supposed to understand that they are an “abstraction over computation”. This is going to take a while to sink in. Here are the signatures for the 3 special methods:</p>
-<div class="sourceCode"><pre class="sourceCode haskell"><code class="sourceCode haskell"><span class="ot">  return ::</span> <span class="dt">Monad</span> m <span class="ot">=&gt;</span> a <span class="ot">-&gt;</span> m a
-<span class="ot">  bind   ::</span> <span class="dt">Monad</span> m <span class="ot">=&gt;</span> m a <span class="ot">-&gt;</span> (a <span class="ot">-&gt;</span> m b) <span class="ot">-&gt;</span> m b
-<span class="ot">  join   ::</span> <span class="dt">Monad</span> m <span class="ot">=&gt;</span> m (m a) <span class="ot">-&gt;</span> m a</code></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><span id="cb1-1"><a href="#cb1-1"></a><span class="ot">  return ::</span> <span class="dt">Monad</span> m <span class="ot">=&gt;</span> a <span class="ot">-&gt;</span> m a</span>
+<span id="cb1-2"><a href="#cb1-2"></a><span class="ot">  bind   ::</span> <span class="dt">Monad</span> m <span class="ot">=&gt;</span> m a <span class="ot">-&gt;</span> (a <span class="ot">-&gt;</span> m b) <span class="ot">-&gt;</span> m b</span>
+<span id="cb1-3"><a href="#cb1-3"></a><span class="ot">  join   ::</span> <span class="dt">Monad</span> m <span class="ot">=&gt;</span> m (m a) <span class="ot">-&gt;</span> m a</span></code></pre></div>
 <p>In terms of List, return is cons, bind is flatMap and join is flatten. I wasn’t familiar with flatMap but it’s a more general version of map. Map can be implemented in terms of bind/flatMap and unit/cons.</p>
-<div class="sourceCode"><pre class="sourceCode scala"><code class="sourceCode scala">    List(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>) <span class="fu">map</span> (n =&gt; n + <span class="dv">1</span>)
-    List(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>) <span class="fu">flatMap</span> (n =&gt; List(n + <span class="dv">1</span>))</code></pre></div>
+<div class="sourceCode" id="cb2"><pre class="sourceCode scala"><code class="sourceCode scala"><span id="cb2-1"><a href="#cb2-1"></a>    List(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>) <span class="fu">map</span> (n =&gt; n + <span class="dv">1</span>)</span>
+<span id="cb2-2"><a href="#cb2-2"></a>    List(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>) <span class="fu">flatMap</span> (n =&gt; List(n + <span class="dv">1</span>))</span></code></pre></div>
 <p>Since then I’ve been learning a little more about Haskell and Category Theory. It’s really great to have a new avenue of things to study. Haskell certainly has come a long way since I looked at it last.</p>
 <p>Oh and the title of this post… Well it’s kind of a bad joke from day 3. After 3 days of indoctrination I realised that it was leading to the conclusion that a new breed of programmer was required - the hyper-productive monadic programmer for the 21st century. This new breed of programmer would eschew side effects and even OOP in preference to algebraic data types, type classes, implicits, higher order functions, monads and higher kinds. They would impress their friends with deep knowledge of mathematical principles and have an IQ 50 points above decent developers of today. These programmers would be trained to be 10x more productive than their imperative colleagues (coding in Java and C#) - allowing some of us to retire for a better life (perhaps as an economist or financial advisor). All that remains is to work out how much of this is hyperbole and how much sound.</p>
 </div>
@@ -1536,10 +1533,9 @@ Windows 7 Home Premium x64</p>
 
 <div class="post-content">
   <p>This looks like a great course and book: <a href="http://www.idc.ac.il/tecs/">The Elements of Computing Systems</a>.</p>
-<div class="figure">
-<img src="/images/nand2tetris-cover.jpeg" title="The book" alt="The Elements of Computing Systems" />
-<p class="caption">The Elements of Computing Systems</p>
-</div>
+<figure>
+<img src="/images/nand2tetris-cover.jpeg" title="The book" alt="" /><figcaption>The Elements of Computing Systems</figcaption>
+</figure>
 </div>
 
 <div class="post-footer">
@@ -2028,8 +2024,8 @@ Windows 7 Home Premium x64</p>
 
 <div class="post-content">
   <p>I would really like to try a Mac as my next computer. I’ve been meaning to ever since they went UNIX :D . Haven’t decided yet between a MacBook, MacBook Pro or iMac. However, I keep coming back to the pricing … particularly here the UK and I hear it’s the same throughout Europe.</p>
-<p>A basic spec 15&quot; MacBook Pro is £1,300 in the UK and only $2,000 in the US… Almost 600USD more expensive :(</p>
-<p>The standard iMac 24&quot; is £1,350 in the UK and only $2,000 in the US… Almost 700USD more expensive :(</p>
+<p>A basic spec 15" MacBook Pro is £1,300 in the UK and only $2,000 in the US… Almost 600USD more expensive :(</p>
+<p>The standard iMac 24" is £1,350 in the UK and only $2,000 in the US… Almost 700USD more expensive :(</p>
 <p>Where does the MacTax go?</p>
 </div>
 
@@ -2694,7 +2690,7 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
 <div class="post-content">
   <p>Here is an interest article from sdtimes about <a href="http://www.sdtimes.com/printArticle/LatestNews-20070501-17.html">SAP’s 7 Drivers of Development Innovation</a>.</p>
 <p>To summarize:</p>
-<ol style="list-style-type: decimal">
+<ol type="1">
 <li>Interview users for requirements, not executives</li>
 <li>Ensure you have an application layer separate from your UI (sometimes called Service Layer)</li>
 <li>SaaS works. i.e. hosted software works</li>
@@ -3145,12 +3141,12 @@ My long search had not been in vain. It had led me to a full appreciation of the
   <p>A <a href="http://www.bejug.org/confluenceBeJUG/display/PARLEYS/Closures+for+Java">interesting talk by Neal Gafter</a>. Neal explains some of the problems with using anonymous inner classes and how closures will address those. With closures for Java being sold to developers it seems like they are much closer to being added to the official language specification. Yippie!</p>
 <p><strong>References from the talk:</strong></p>
 <ul>
-<li><a href="http://www.javac.info" class="uri">http://www.javac.info</a></li>
-<li><a href="http://gafter.blogspot.com/" class="uri">http://gafter.blogspot.com/</a></li>
-<li><a href="http://blogs.sun.com/ahe/" class="uri">http://blogs.sun.com/ahe/</a></li>
-<li><a href="http://blogs.sun.com/gbracha/entry/achieving_closure" class="uri">http://blogs.sun.com/gbracha/entry/achieving_closure</a></li>
-<li><a href="http://blogs.sun.com/jag/entry/the_black_hole_theory_of" class="uri">http://blogs.sun.com/jag/entry/the_black_hole_theory_of</a></li>
-<li><a href="http://en.wikipedia.org/wiki/Closure_%28computer_science%29" class="uri">http://en.wikipedia.org/wiki/Closure_(computer_science)</a></li>
+<li><a href="http://www.javac.info">http://www.javac.info</a></li>
+<li><a href="http://gafter.blogspot.com/">http://gafter.blogspot.com/</a></li>
+<li><a href="http://blogs.sun.com/ahe/">http://blogs.sun.com/ahe/</a></li>
+<li><a href="http://blogs.sun.com/gbracha/entry/achieving_closure">http://blogs.sun.com/gbracha/entry/achieving_closure</a></li>
+<li><a href="http://blogs.sun.com/jag/entry/the_black_hole_theory_of">http://blogs.sun.com/jag/entry/the_black_hole_theory_of</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Closure_%28computer_science%29">http://en.wikipedia.org/wiki/Closure_(computer_science)</a></li>
 </ul>
 <p>Seems <a href="http://www.gafter.com/~neal/resume.html">from Neal’s resume</a> that closures are indeed “proposed for inclusion in JDK7” :)</p>
 </div>
@@ -4822,12 +4818,12 @@ Judging
 
 <div class="post-content">
   <p>I tried the following instructions for getting Ubuntu working on VMwware Player</p>
-<p><a href="http://johnbokma.com/mexit/2005/11/07/vmware-player-ubuntu-installation.html" class="uri">http://johnbokma.com/mexit/2005/11/07/vmware-player-ubuntu-installation.html</a></p>
+<p><a href="http://johnbokma.com/mexit/2005/11/07/vmware-player-ubuntu-installation.html">http://johnbokma.com/mexit/2005/11/07/vmware-player-ubuntu-installation.html</a></p>
 <p>Instructions are for Ubuntu Hoary but worked fine for me. I installed this at work under Windows XP. Now I enjoy Linux goodness on the desktop at work :-). Hopefully this will annoy desktop support services a bit less than me repartitioning the disk and installing Ubuntu directy on the hardware. The downside is that it’s a bit sluggish. I haven’t tried Eclipse yet - still using my Windows version. The upside is that I can still read my Outlook based email and doing event/calendaring there and also access IE only intranet and Windows/IE only software like Mecury TestDirector.</p>
 <p>Note that in order to install VMware toolbox to get copy/paste between host and guest working I have since installed a evaluation version of VMware workstation 5.5. Use the following instructions to get VMware toolbox installed.</p>
-<p><a href="http://www.ubuntux.org/node/25" class="uri">http://www.ubuntux.org/node/25</a></p>
+<p><a href="http://www.ubuntux.org/node/25">http://www.ubuntux.org/node/25</a></p>
 <p>Now that the tools are installed I should be able to go back to the free VMware Player - however I haven’t tried it yet!</p>
-<p>All take a look at <a href="http://johnbokma.com/vmware-player/" class="uri">http://johnbokma.com/vmware-player/</a>. In fact take a look at the whole site <a href="http://johnbokma.com/" class="uri">http://johnbokma.com/</a></p>
+<p>All take a look at <a href="http://johnbokma.com/vmware-player/">http://johnbokma.com/vmware-player/</a>. In fact take a look at the whole site <a href="http://johnbokma.com/">http://johnbokma.com/</a></p>
 </div>
 
 <div class="post-footer">
@@ -4969,10 +4965,10 @@ Judging
   <p>I’ve just been trying out the Live CD of Unbuntu 5.10 this afternoon… and into the evening. I’m really impressed. I’m <em>posting</em> this from my first boot into the live cd! It recognised my hardware very well - the paritions from my external USB drive were mounted, sound card worked, graphics card worked, wireless usb mouse works, touchpad works. Excellent! Just no wireless networking :-(. To get wireless networking working I had to ‘modprobe ipw2200’ and configure the wireless network: ‘ipwconfig eth1 essid’ &amp; ‘ipwconfig eth1 key’, and lastly ‘dhclient’ to request an ip address. You can ‘sudo’ to execute root commands or simply reset the root password via sudo “sudo passwd” and then “su -”.</p>
 <p>I changed the Gnome theme to Clearlooks which I reckon is much nicer that the default Unbuntu theme which is very brown! I’m only on the live cd but I did try installing things - Eclipse, k3b, Gnome desklets, Gmail notifier (and heaps of other stuff). The “Applications-&gt;Add Applications” menu item makes me want to set my Dad up with this distro. Dad has enjoyed Debian in the past but installing software was painful - this is a breeze.</p>
 <p>I wish I was able to eject the live cd in order to test DVD playback but I guess I have to go for a full install for that. I may just be replacing Gentoo after only just getting it up-to-date after behind behind the times for afew months.</p>
-<p>A feature I really miss in the default window manager (metacity) is maximising vertically. I used to use this all the time when I was using another window manager (WindowMaker or Sawmill - can’t remember which). Well, I discovered you can bind a key to do this with metacity. In Unbuntu, go to “System-&gt;Preferences-&gt;Keyboard Shortcuts”. Looks for “Maximize window vertically” and and associate a key. I used ‘F11’ which I had seen mentioned on the forums. I only wish I knew how to add this to the window menu cause that’s where I’m used to using it…</p>
+<p>A feature I really miss in the default window manager (metacity) is maximising vertically. I used to use this all the time when I was using another window manager (WindowMaker or Sawmill - can’t remember which). Well, I discovered you can bind a key to do this with metacity. In Unbuntu, go to “System-&gt;Preferences-&gt;Keyboard Shortcuts”. Looks for “Maximize window vertically” and and associate a key. I used ’ F11’ which I had seen mentioned on the forums. I only wish I knew how to add this to the window menu cause that’s where I’m used to using it…</p>
 <p>Some useful resources:</p>
-<p>Getting MP3 players, DVD players, Macromedia Flash, Java and other “restricted” non-free stuff going <a href="https://wiki.ubuntu.com/RestrictedFormats" class="uri">https://wiki.ubuntu.com/RestrictedFormats</a></p>
-<p>Unbuntu starter guide <a href="http://www.ubuntuguide.org/" class="uri">http://www.ubuntuguide.org/</a> Seems like a more up-to-date version of this is available on the live cd and presumably with a regular install. Just click on the ‘Help (get help with Gnome)’ icon or choose System-&gt;Help and then click ‘Unbuntu 5.10 Starter Guide’.</p>
+<p>Getting MP3 players, DVD players, Macromedia Flash, Java and other “restricted” non-free stuff going <a href="https://wiki.ubuntu.com/RestrictedFormats">https://wiki.ubuntu.com/RestrictedFormats</a></p>
+<p>Unbuntu starter guide <a href="http://www.ubuntuguide.org/">http://www.ubuntuguide.org/</a> Seems like a more up-to-date version of this is available on the live cd and presumably with a regular install. Just click on the ‘Help (get help with Gnome)’ icon or choose System-&gt;Help and then click ‘Unbuntu 5.10 Starter Guide’.</p>
 </div>
 
 <div class="post-footer">
@@ -5110,7 +5106,7 @@ Judging
 </header>
 
 <div class="post-content">
-  <p><a href="http://onestepback.org/articles/groovy/groovyspeed.html" class="uri">http://onestepback.org/articles/groovy/groovyspeed.html</a></p>
+  <p><a href="http://onestepback.org/articles/groovy/groovyspeed.html">http://onestepback.org/articles/groovy/groovyspeed.html</a></p>
 <p>If you read the entire article above please note that closures have <em>indefinite</em> extent , not <em>dynamic</em> extent.</p>
 </div>
 
@@ -5185,68 +5181,68 @@ Judging
 <p>There was no mention of Scheme. When learning about continuations I think it’s best to learn from the source. That source appears to be the Scheme programming language. R5RS includes call-with-current-continuation function usually shortened to call/cc. A really good introduction to Scheme with <a href="http://www.ccs.neu.edu/home/dorai/t-y-scheme/t-y-scheme-Z-H-15.html#node_chap_13">coverage of continuations</a> for <a href="http://www.ccs.neu.edu/home/dorai/t-y-scheme/t-y-scheme-Z-H-16.html#node_chap_14">non-trivial applications</a> is contained in Dorai Sitaram’s <a href="http://www.ccs.neu.edu/home/dorai/t-y-scheme/t-y-scheme.html">Teach Yourself Scheme in Fixnum Days</a> (TYSiFD).</p>
 <p>Sam seems to have some confusion about continuations and there relationship to closures, iterators, generators and coroutines. Just because a language has a “yield” keyword doesn’t mean it has first class continuations. Yield is usually used for generators. One of the highlights of TYSiFD is implementing coroutines with continuations.</p>
 <p>Ruby supports first class continuations. The callcc method is available from the Kernel class. I played around with the code from the Ruby documentation of the <a href="http://www.ruby-doc.org/core/classes/Continuation.html">Continuation class</a>. You really don’t need call/cc for the contrived example there:</p>
-<div class="sourceCode"><pre class="sourceCode ruby"><code class="sourceCode ruby">original_guys = [<span class="st">&quot;Freddie&quot;</span>, <span class="st">&quot;Herbie&quot;</span>, <span class="st">&quot;Ron&quot;</span>, <span class="st">&quot;Max&quot;</span>, <span class="st">&quot;Ringo&quot;</span>]
-
-puts <span class="st">&quot;method 1: (first-class) continuation&quot;</span>
-guys = original_guys.clone
-callcc{|<span class="dt">$k</span>|}
-puts(message = guys.shift)
-<span class="dt">$k</span>.call <span class="kw">unless</span> message =~ <span class="ot">/^R/</span>;
-
-puts
-puts <span class="st">&quot;method 2: continuation with different way of setting global&quot;</span>
-guys = original_guys.clone
-callcc{|k| <span class="dt">$k</span> = k}
-puts (message = guys.shift)
-<span class="dt">$k</span>.call <span class="kw">unless</span> message =~ <span class="ot">/^R/</span>;
-
-puts
-puts <span class="st">&quot;method 3: just a loop&quot;</span>
-guys = original_guys.clone
-loop {
-  message = guys.shift
-  puts message
-  <span class="kw">if</span> (message =~ <span class="ot">/^R/</span>)
-    <span class="kw">break</span>
-  <span class="kw">end</span>
-}
-
-puts
-puts <span class="st">&quot;method 4: (tail) recursion using methods/functions&quot;</span>
-puts <span class="st">&quot;          Ugly - needs guys to be global variable.&quot;</span>
-<span class="dt">$guys</span> = original_guys.clone
-<span class="kw">def</span> myloop
-  message = <span class="dt">$guys</span>.shift
-  puts message
-  <span class="kw">unless</span> message =~ <span class="ot">/^R/</span>
-    myloop
-  <span class="kw">end</span>
-<span class="kw">end</span>
-myloop
-
-puts
-puts <span class="st">&quot;method 5: (tail) recursion using blocks&quot;</span>
-guys = original_guys.clone
-myloop = <span class="dt">Proc</span>.new{
-  message = guys.shift
-  puts message
-  <span class="kw">unless</span> message =~ <span class="ot">/^R/</span>
-    myloop.call
-  <span class="kw">end</span>
-}
-myloop.call
-
-puts
-puts <span class="st">&quot;method 6: using each and catch/raise&quot;</span>
-guys = original_guys.clone
-catch (<span class="st">:early_exit</span>) {
-  guys.each {|item|
-    puts item
-    <span class="kw">if</span> item =~ <span class="ot">/^R/</span>
-      throw <span class="st">:early_exit</span>
-    <span class="kw">end</span>
-  }
-}</code></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode ruby"><code class="sourceCode ruby"><span id="cb1-1"><a href="#cb1-1"></a>original_guys = [<span class="st">&quot;Freddie&quot;</span>, <span class="st">&quot;Herbie&quot;</span>, <span class="st">&quot;Ron&quot;</span>, <span class="st">&quot;Max&quot;</span>, <span class="st">&quot;Ringo&quot;</span>]</span>
+<span id="cb1-2"><a href="#cb1-2"></a></span>
+<span id="cb1-3"><a href="#cb1-3"></a>puts <span class="st">&quot;method 1: (first-class) continuation&quot;</span></span>
+<span id="cb1-4"><a href="#cb1-4"></a>guys = original_guys.clone</span>
+<span id="cb1-5"><a href="#cb1-5"></a>callcc{|<span class="dt">$k</span>|}</span>
+<span id="cb1-6"><a href="#cb1-6"></a>puts(message = guys.shift)</span>
+<span id="cb1-7"><a href="#cb1-7"></a><span class="dt">$k</span>.call <span class="kw">unless</span> message =~ <span class="ot">/^R/</span>;</span>
+<span id="cb1-8"><a href="#cb1-8"></a></span>
+<span id="cb1-9"><a href="#cb1-9"></a>puts</span>
+<span id="cb1-10"><a href="#cb1-10"></a>puts <span class="st">&quot;method 2: continuation with different way of setting global&quot;</span></span>
+<span id="cb1-11"><a href="#cb1-11"></a>guys = original_guys.clone</span>
+<span id="cb1-12"><a href="#cb1-12"></a>callcc{|k| <span class="dt">$k</span> = k}</span>
+<span id="cb1-13"><a href="#cb1-13"></a>puts (message = guys.shift)</span>
+<span id="cb1-14"><a href="#cb1-14"></a><span class="dt">$k</span>.call <span class="kw">unless</span> message =~ <span class="ot">/^R/</span>;</span>
+<span id="cb1-15"><a href="#cb1-15"></a></span>
+<span id="cb1-16"><a href="#cb1-16"></a>puts</span>
+<span id="cb1-17"><a href="#cb1-17"></a>puts <span class="st">&quot;method 3: just a loop&quot;</span></span>
+<span id="cb1-18"><a href="#cb1-18"></a>guys = original_guys.clone</span>
+<span id="cb1-19"><a href="#cb1-19"></a>loop {</span>
+<span id="cb1-20"><a href="#cb1-20"></a>  message = guys.shift</span>
+<span id="cb1-21"><a href="#cb1-21"></a>  puts message</span>
+<span id="cb1-22"><a href="#cb1-22"></a>  <span class="kw">if</span> (message =~ <span class="ot">/^R/</span>)</span>
+<span id="cb1-23"><a href="#cb1-23"></a>    <span class="kw">break</span></span>
+<span id="cb1-24"><a href="#cb1-24"></a>  <span class="kw">end</span></span>
+<span id="cb1-25"><a href="#cb1-25"></a>}</span>
+<span id="cb1-26"><a href="#cb1-26"></a></span>
+<span id="cb1-27"><a href="#cb1-27"></a>puts</span>
+<span id="cb1-28"><a href="#cb1-28"></a>puts <span class="st">&quot;method 4: (tail) recursion using methods/functions&quot;</span></span>
+<span id="cb1-29"><a href="#cb1-29"></a>puts <span class="st">&quot;          Ugly - needs guys to be global variable.&quot;</span></span>
+<span id="cb1-30"><a href="#cb1-30"></a><span class="dt">$guys</span> = original_guys.clone</span>
+<span id="cb1-31"><a href="#cb1-31"></a><span class="kw">def</span> myloop</span>
+<span id="cb1-32"><a href="#cb1-32"></a>  message = <span class="dt">$guys</span>.shift</span>
+<span id="cb1-33"><a href="#cb1-33"></a>  puts message</span>
+<span id="cb1-34"><a href="#cb1-34"></a>  <span class="kw">unless</span> message =~ <span class="ot">/^R/</span></span>
+<span id="cb1-35"><a href="#cb1-35"></a>    myloop</span>
+<span id="cb1-36"><a href="#cb1-36"></a>  <span class="kw">end</span></span>
+<span id="cb1-37"><a href="#cb1-37"></a><span class="kw">end</span></span>
+<span id="cb1-38"><a href="#cb1-38"></a>myloop</span>
+<span id="cb1-39"><a href="#cb1-39"></a></span>
+<span id="cb1-40"><a href="#cb1-40"></a>puts</span>
+<span id="cb1-41"><a href="#cb1-41"></a>puts <span class="st">&quot;method 5: (tail) recursion using blocks&quot;</span></span>
+<span id="cb1-42"><a href="#cb1-42"></a>guys = original_guys.clone</span>
+<span id="cb1-43"><a href="#cb1-43"></a>myloop = <span class="dt">Proc</span>.new{</span>
+<span id="cb1-44"><a href="#cb1-44"></a>  message = guys.shift</span>
+<span id="cb1-45"><a href="#cb1-45"></a>  puts message</span>
+<span id="cb1-46"><a href="#cb1-46"></a>  <span class="kw">unless</span> message =~ <span class="ot">/^R/</span></span>
+<span id="cb1-47"><a href="#cb1-47"></a>    myloop.call</span>
+<span id="cb1-48"><a href="#cb1-48"></a>  <span class="kw">end</span></span>
+<span id="cb1-49"><a href="#cb1-49"></a>}</span>
+<span id="cb1-50"><a href="#cb1-50"></a>myloop.call</span>
+<span id="cb1-51"><a href="#cb1-51"></a></span>
+<span id="cb1-52"><a href="#cb1-52"></a>puts</span>
+<span id="cb1-53"><a href="#cb1-53"></a>puts <span class="st">&quot;method 6: using each and catch/raise&quot;</span></span>
+<span id="cb1-54"><a href="#cb1-54"></a>guys = original_guys.clone</span>
+<span id="cb1-55"><a href="#cb1-55"></a>catch (<span class="st">:early_exit</span>) {</span>
+<span id="cb1-56"><a href="#cb1-56"></a>  guys.each {|item|</span>
+<span id="cb1-57"><a href="#cb1-57"></a>    puts item</span>
+<span id="cb1-58"><a href="#cb1-58"></a>    <span class="kw">if</span> item =~ <span class="ot">/^R/</span></span>
+<span id="cb1-59"><a href="#cb1-59"></a>      throw <span class="st">:early_exit</span></span>
+<span id="cb1-60"><a href="#cb1-60"></a>    <span class="kw">end</span></span>
+<span id="cb1-61"><a href="#cb1-61"></a>  }</span>
+<span id="cb1-62"><a href="#cb1-62"></a>}</span></code></pre></div>
 </div>
 
 <div class="post-footer">
@@ -5317,18 +5313,18 @@ catch (<span class="st">:early_exit</span>) {
 <div class="post-content">
   <p>I think Bill is dead-on-the-money with <a href="http://www.artima.com/weblogs/viewpost.jsp?thread=92979">the different-language, different-mindset thing</a>. Java can make you feel guilty alright :-). Even when you can get over your own guilt, there’s the struggle with your colleagues who may not have a dynamic mindset.</p>
 <p>I’ve been programming in JavaScript lately (actually more ActionScript 2.0 but some browser based JavaScript too). You’d probably return a single object there rather than multiple:</p>
-<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript">    <span class="kw">var</span> context <span class="op">=</span> <span class="va">ExamplePage</span>.<span class="at">process</span>()<span class="op">;</span></code></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span id="cb1-1"><a href="#cb1-1"></a>    <span class="kw">var</span> context <span class="op">=</span> <span class="va">ExamplePage</span>.<span class="at">process</span>()<span class="op">;</span></span></code></pre></div>
 <p>followed by code using context.forumID, context.reply, context.subject and context.body.</p>
 <p>Single objects are constructed easily in JavaScript:</p>
-<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript">    <span class="kw">function</span> <span class="at">process</span>() <span class="op">{</span>
-        <span class="co">// Do some processing...</span>
-        <span class="cf">return</span> <span class="op">{</span>
-            <span class="dt">forumID</span><span class="op">:</span> ...<span class="op">,</span>
-            <span class="dt">reply</span><span class="op">:</span> <span class="st">&quot;a reply&quot;</span><span class="op">,</span>
-            <span class="dt">subject</span><span class="op">:</span> <span class="st">&quot;a subject&quot;</span><span class="op">,</span>
-            <span class="dt">context</span><span class="op">:</span> <span class="st">&quot;a context&quot;</span>
-        <span class="op">}</span>
-    <span class="op">}</span></code></pre></div>
+<div class="sourceCode" id="cb2"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span id="cb2-1"><a href="#cb2-1"></a>    <span class="kw">function</span> <span class="at">process</span>() <span class="op">{</span></span>
+<span id="cb2-2"><a href="#cb2-2"></a>        <span class="co">// Do some processing...</span></span>
+<span id="cb2-3"><a href="#cb2-3"></a>        <span class="cf">return</span> <span class="op">{</span></span>
+<span id="cb2-4"><a href="#cb2-4"></a>            <span class="dt">forumID</span><span class="op">:</span> ...<span class="op">,</span></span>
+<span id="cb2-5"><a href="#cb2-5"></a>            <span class="dt">reply</span><span class="op">:</span> <span class="st">&quot;a reply&quot;</span><span class="op">,</span></span>
+<span id="cb2-6"><a href="#cb2-6"></a>            <span class="dt">subject</span><span class="op">:</span> <span class="st">&quot;a subject&quot;</span><span class="op">,</span></span>
+<span id="cb2-7"><a href="#cb2-7"></a>            <span class="dt">context</span><span class="op">:</span> <span class="st">&quot;a context&quot;</span></span>
+<span id="cb2-8"><a href="#cb2-8"></a>        <span class="op">}</span></span>
+<span id="cb2-9"><a href="#cb2-9"></a>    <span class="op">}</span></span></code></pre></div>
 <p>This is a very lightweight approach. Another poster had a similar solution in Python. There must be a similar way of doing this in Ruby or Groovy.</p>
 <p>It would be great to use Ruby/JRuby, Groovy, JavaScript, Python/Jython or whatever on the Java platform. What’s needed for adoption is buy-in by vendors like Sun and IBM (so that project managers and other developers don’t have a fit when something without the .java or .xml file extension is checked into the repository). It would be nice to have support for these languages in Eclipse (say) with all the usual bells-and-whistles Java programmers have come to rely on to get stuff done - code completion, Javadoc lookup, hyperlinking, refactoring etc. Groovy seems to have alot of momentum including a JSR thing - so maybe something along these lines is not too far away. Maybe it’s already there and I just haven’t looked!</p>
 <p>BTW - have you heard about NoXML? It’s this great new XML technology…</p>
@@ -6743,33 +6739,33 @@ Are the relational data model and (especially) SQL the right choices for periste
 <div class="post-content">
   <p>The <a href="http://swiss.csail.mit.edu/classes/6.001/abelson-sussman-lectures/">SICP video lectures</a> talk about how data is not intrinsic. That is, once you have lambda, you have enough to create all the data structures you want. Of course that is without caring for efficiency.</p>
 <p>Here’s some code I was mucking around with the other night:</p>
-<div class="sourceCode"><pre class="sourceCode scheme"><code class="sourceCode scheme"><span class="co">; Implement pairs (cons, car, cdr) in terms of lambda.</span>
-
-(<span class="kw">define</span><span class="fu"> cons</span>
-  (<span class="kw">lambda</span> (a b)
-    (<span class="kw">lambda</span> (x)
-      (<span class="kw">cond</span> ((<span class="kw">eq?</span> x &#39;car) a)
-            ((<span class="kw">eq?</span> x &#39;cdr) b)
-            (<span class="kw">else</span> (error <span class="st">&quot;bad dispatch&quot;</span>))))))
-
-(<span class="kw">define</span><span class="fu"> car</span>
-  (<span class="kw">lambda</span> (pair) (pair &#39;car)))
-
-(<span class="kw">define</span><span class="fu"> cdr</span>
-  (<span class="kw">lambda</span> (pair) (pair &#39;cdr)))
-
-<span class="co">; Example to type into the scheme repl.</span>
-(<span class="kw">define</span><span class="fu"> a </span>(<span class="kw">cons</span> <span class="dv">3</span> <span class="dv">4</span>))
-a                 <span class="co">; =&gt; a procedure</span>
-(<span class="kw">car</span> a)           <span class="co">; =&gt; 3</span>
-(<span class="kw">cdr</span> a)           <span class="co">; =&gt; 4</span>
-(a <span class="dv">1</span>)             <span class="co">; error &quot;bad dispatch&quot;</span>
-
-<span class="co">; The following attempts to work out what &quot;error&quot; does. This example will</span>
-<span class="co">; probably display &quot;1&quot; and then exit to the repl with &quot;bad dispatch&quot; error.</span>
-<span class="co">; It may not as Scheme doesn&#39;t define the order of evaluation for arguments to</span>
-<span class="co">; a combination.</span>
-(<span class="kw">+</span> (<span class="kw">display</span> <span class="st">&quot;1\n&quot;</span>) (a <span class="dv">99</span>) (<span class="kw">display</span> <span class="st">&quot;2\n&quot;</span>))</code></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode scheme"><code class="sourceCode scheme"><span id="cb1-1"><a href="#cb1-1"></a><span class="co">; Implement pairs (cons, car, cdr) in terms of lambda.</span></span>
+<span id="cb1-2"><a href="#cb1-2"></a></span>
+<span id="cb1-3"><a href="#cb1-3"></a>(<span class="ex">define</span><span class="fu"> cons</span></span>
+<span id="cb1-4"><a href="#cb1-4"></a>  (<span class="kw">lambda</span> (a b)</span>
+<span id="cb1-5"><a href="#cb1-5"></a>    (<span class="kw">lambda</span> (x)</span>
+<span id="cb1-6"><a href="#cb1-6"></a>      (<span class="kw">cond</span> ((<span class="kw">eq?</span> x &#39;car) a)</span>
+<span id="cb1-7"><a href="#cb1-7"></a>            ((<span class="kw">eq?</span> x &#39;cdr) b)</span>
+<span id="cb1-8"><a href="#cb1-8"></a>            (<span class="kw">else</span> (error <span class="st">&quot;bad dispatch&quot;</span>))))))</span>
+<span id="cb1-9"><a href="#cb1-9"></a></span>
+<span id="cb1-10"><a href="#cb1-10"></a>(<span class="ex">define</span><span class="fu"> car</span></span>
+<span id="cb1-11"><a href="#cb1-11"></a>  (<span class="kw">lambda</span> (pair) (pair &#39;car)))</span>
+<span id="cb1-12"><a href="#cb1-12"></a></span>
+<span id="cb1-13"><a href="#cb1-13"></a>(<span class="ex">define</span><span class="fu"> cdr</span></span>
+<span id="cb1-14"><a href="#cb1-14"></a>  (<span class="kw">lambda</span> (pair) (pair &#39;cdr)))</span>
+<span id="cb1-15"><a href="#cb1-15"></a></span>
+<span id="cb1-16"><a href="#cb1-16"></a><span class="co">; Example to type into the scheme repl.</span></span>
+<span id="cb1-17"><a href="#cb1-17"></a>(<span class="ex">define</span><span class="fu"> a </span>(<span class="kw">cons</span> <span class="dv">3</span> <span class="dv">4</span>))</span>
+<span id="cb1-18"><a href="#cb1-18"></a>a                 <span class="co">; =&gt; a procedure</span></span>
+<span id="cb1-19"><a href="#cb1-19"></a>(<span class="kw">car</span> a)           <span class="co">; =&gt; 3</span></span>
+<span id="cb1-20"><a href="#cb1-20"></a>(<span class="kw">cdr</span> a)           <span class="co">; =&gt; 4</span></span>
+<span id="cb1-21"><a href="#cb1-21"></a>(a <span class="dv">1</span>)             <span class="co">; error &quot;bad dispatch&quot;</span></span>
+<span id="cb1-22"><a href="#cb1-22"></a></span>
+<span id="cb1-23"><a href="#cb1-23"></a><span class="co">; The following attempts to work out what &quot;error&quot; does. This example will</span></span>
+<span id="cb1-24"><a href="#cb1-24"></a><span class="co">; probably display &quot;1&quot; and then exit to the repl with &quot;bad dispatch&quot; error.</span></span>
+<span id="cb1-25"><a href="#cb1-25"></a><span class="co">; It may not as Scheme doesn&#39;t define the order of evaluation for arguments to</span></span>
+<span id="cb1-26"><a href="#cb1-26"></a><span class="co">; a combination.</span></span>
+<span id="cb1-27"><a href="#cb1-27"></a>(<span class="op">+</span> (<span class="kw">display</span> <span class="st">&quot;1\n&quot;</span>) (a <span class="dv">99</span>) (<span class="kw">display</span> <span class="st">&quot;2\n&quot;</span>))</span></code></pre></div>
 </div>
 
 <div class="post-footer">
@@ -6838,7 +6834,7 @@ a                 <span class="co">; =&gt; a procedure</span>
 </header>
 
 <div class="post-content">
-  <p><a href="http://www.paulgraham.com/pypar.html" class="uri">http://www.paulgraham.com/pypar.html</a></p>
+  <p><a href="http://www.paulgraham.com/pypar.html">http://www.paulgraham.com/pypar.html</a></p>
 <p>I learnt Python afew years ago. I’ve moved onto Ruby for day to day tasks and am studying Scheme and Common Lisp when I can spare a moment.</p>
 <p>Today I was watching another couple of videos from the <a href="http://swiss.csail.mit.edu/classes/6.001/abelson-sussman-lectures/">Abelson and Sussman collection</a>. It’s about 9G of divx movies. I’m pretty dedicated to my lisp education - I’m only on 32k dialup connection. I watched 6a&amp;b about streams (again) and then got onto the very amusing lectures on meta circular evaluation (7a&amp;b). Very funny - a must see for any lisp enthusiast.</p>
 <p>I was also reviewing multithreading issues in Common Lisp implementations via <a href="http://cormanlisp.com/Multi-threaded%20Lisp.ppt">the slides from Roger Corman’s talk on the subject</a>.</p>

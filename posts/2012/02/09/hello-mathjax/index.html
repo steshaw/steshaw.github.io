@@ -137,32 +137,32 @@
 <div class="post-content">
   <p>MathJax isn’t currently supported out-of-the-box with Octopress. The main reason seems to be that the Markdown processor — rdiscount — doesn’t deal with the MathJax escaping very well. However, since <a href="http://maruku.rubyforge.org/math.xhtml">Maruku supports it</a>, I thought I’d try switching over.</p>
 <p>I made the following two changes:</p>
-<pre class="yml" data-title="switch Markdown processors in _config.yml"><code>markdown: maruku</code></pre>
-<div class="sourceCode" data-title="enable MathJax in source/_includes/custom/head.html" data-link="http://www.mathjax.org/docs/1.1/start.html"><pre class="sourceCode html"><code class="sourceCode html"><span class="kw">&lt;script</span><span class="ot"> type=</span><span class="st">&quot;text/x-mathjax-config&quot;</span><span class="kw">&gt;</span>
-<span class="va">MathJax</span>.<span class="va">Hub</span>.<span class="at">Config</span>(<span class="op">{</span>
-      <span class="dt">tex2jax</span><span class="op">:</span> <span class="op">{</span><span class="dt">inlineMath</span><span class="op">:</span> [[<span class="st">'$'</span><span class="op">,</span><span class="st">'$'</span>]<span class="op">,</span> [<span class="st">'</span><span class="sc">\\</span><span class="st">('</span><span class="op">,</span><span class="st">'</span><span class="sc">\\</span><span class="st">)'</span>]]<span class="op">}</span>
-      <span class="op">}</span>)<span class="op">;</span>
-<span class="op">&lt;</span><span class="ss">/script&gt;</span>
-<span class="ss">&lt;script type=&quot;text/javascript</span><span class="st">&quot; src=&quot;</span>path<span class="op">-</span>to<span class="op">-</span>mathjax/<span class="va">MathJax</span>.<span class="at">js</span><span class="op">?</span>config<span class="op">=</span>TeX<span class="op">-</span>AMS<span class="op">-</span>MML_HTMLorMML<span class="st">&quot;&gt;&lt;/script&gt;</span></code></pre></div>
-<p>This allows for inline <span class="math inline">$\TeX$</span> expressions between dollar signs e.g. <code>$\TeX$</code>. MathJax <em>display</em> expressions (i.e. non-inline) are delimited by double dollar signs:</p>
-<pre class="tex" data-title="example expression from Paul Snivey's article http://psnively.github.com/2010/03/13/100-proof.html"><code>$$\forall x, y : \mathbb{Z}, x &gt; 3 \land y &lt; 2 \Rightarrow x^2 - 2y &gt; 5$$</code></pre>
+<div class="sourceCode" id="cb1" data-title="switch Markdown processors in _config.yml"><pre class="sourceCode yml"><code class="sourceCode yaml"><span id="cb1-1"><a href="#cb1-1"></a><span class="fu">markdown</span><span class="kw">:</span><span class="at"> maruku</span></span></code></pre></div>
+<div class="sourceCode" id="cb2" data-title="enable MathJax in source/_includes/custom/head.html" data-link="http://www.mathjax.org/docs/1.1/start.html"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb2-1"><a href="#cb2-1"></a><span class="kw">&lt;script</span><span class="ot"> type=</span><span class="st">&quot;text/x-mathjax-config&quot;</span><span class="kw">&gt;</span></span>
+<span id="cb2-2"><a href="#cb2-2"></a><span class="va">MathJax</span>.<span class="va">Hub</span>.<span class="at">Config</span>(<span class="op">{</span></span>
+<span id="cb2-3"><a href="#cb2-3"></a>      <span class="dt">tex2jax</span><span class="op">:</span> <span class="op">{</span><span class="dt">inlineMath</span><span class="op">:</span> [[<span class="st">'$'</span><span class="op">,</span><span class="st">'$'</span>]<span class="op">,</span> [<span class="st">'</span><span class="sc">\\</span><span class="st">('</span><span class="op">,</span><span class="st">'</span><span class="sc">\\</span><span class="st">)'</span>]]<span class="op">}</span></span>
+<span id="cb2-4"><a href="#cb2-4"></a>      <span class="op">}</span>)<span class="op">;</span></span>
+<span id="cb2-5"><a href="#cb2-5"></a><span class="kw">&lt;/script&gt;</span></span>
+<span id="cb2-6"><a href="#cb2-6"></a><span class="kw">&lt;script</span><span class="ot"> type=</span><span class="st">&quot;text/javascript&quot;</span><span class="ot"> src=</span><span class="st">&quot;path-to-mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML&quot;</span><span class="kw">&gt;&lt;/script&gt;</span></span></code></pre></div>
+<p>This allows for inline <span class="math inline">$\TeX$</span> expressions between dollar signs e.g. <code>$\TeX$</code>. MathJax <em>display</em> expressions (i.e. non-inline) are delimited by double dollar signs:</p>
+<div class="sourceCode" id="cb3" data-title="example expression from Paul Snivey's article http://psnively.github.com/2010/03/13/100-proof.html"><pre class="sourceCode tex"><code class="sourceCode latex"><span id="cb3-1"><a href="#cb3-1"></a><span class="ss">$$</span><span class="sc">\forall</span><span class="ss"> x, y : </span><span class="sc">\mathbb</span><span class="ss">{Z}, x &gt; 3 </span><span class="sc">\land</span><span class="ss"> y &lt; 2 </span><span class="sc">\Rightarrow</span><span class="ss"> x^2 - 2y &gt; 5$$</span></span></code></pre></div>
 <p>renders as:</p>
 <p><br /><span class="math display">∀<em>x</em>, <em>y</em> : ℤ, <em>x</em> &gt; 3 ∧ <em>y</em> &lt; 2 ⇒ <em>x</em><sup>2</sup> − 2<em>y</em> &gt; 5</span><br /></p>
 <h2 id="right-click-issue">Right-click issue</h2>
 <p>There was also a problem with the theme. When right clicking a MathJax expression, the whole page goes blank! Zete has a great fix for this:</p>
-<div class="sourceCode" data-title="fix for right-click" data-link="http://luikore.github.com/2011/09/good-things-learned-from-octopress/"><pre class="sourceCode diff"><code class="sourceCode diff"><span class="kw">diff --git a/sass/base/_theme.scss b/sass/base/_theme.scss</span>
-index 9a50a8b..fc9dc37 100644
-<span class="dt">--- a/sass/base/_theme.scss</span>
-<span class="dt">+++ b/sass/base/_theme.scss</span>
-<span class="dt">@@ -75,7 +75,7 @@ html {</span>
-   background: $page-bg image-url('line-tile.png') top left;
- }
- body {
-<span class="st">-  &gt; div {</span>
-<span class="ot">+  &gt; div#main {</span>
-     background: $sidebar-bg $noise-bg;
-     border-bottom: 1px solid $page-border-bottom;
-     &gt; div {</code></pre></div>
+<div class="sourceCode" id="cb4" data-title="fix for right-click" data-link="http://luikore.github.com/2011/09/good-things-learned-from-octopress/"><pre class="sourceCode diff"><code class="sourceCode diff"><span id="cb4-1"><a href="#cb4-1"></a><span class="kw">diff --git a/sass/base/_theme.scss b/sass/base/_theme.scss</span></span>
+<span id="cb4-2"><a href="#cb4-2"></a>index 9a50a8b..fc9dc37 100644</span>
+<span id="cb4-3"><a href="#cb4-3"></a><span class="dt">--- a/sass/base/_theme.scss</span></span>
+<span id="cb4-4"><a href="#cb4-4"></a><span class="dt">+++ b/sass/base/_theme.scss</span></span>
+<span id="cb4-5"><a href="#cb4-5"></a><span class="dt">@@ -75,7 +75,7 @@ html {</span></span>
+<span id="cb4-6"><a href="#cb4-6"></a>   background: $page-bg image-url('line-tile.png') top left;</span>
+<span id="cb4-7"><a href="#cb4-7"></a> }</span>
+<span id="cb4-8"><a href="#cb4-8"></a> body {</span>
+<span id="cb4-9"><a href="#cb4-9"></a><span class="st">-  &gt; div {</span></span>
+<span id="cb4-10"><a href="#cb4-10"></a><span class="va">+  &gt; div#main {</span></span>
+<span id="cb4-11"><a href="#cb4-11"></a>     background: $sidebar-bg $noise-bg;</span>
+<span id="cb4-12"><a href="#cb4-12"></a>     border-bottom: 1px solid $page-border-bottom;</span>
+<span id="cb4-13"><a href="#cb4-13"></a>     &gt; div {</span></code></pre></div>
 <h2 id="futher-reading">Futher reading</h2>
 <ul>
 <li><a href="http://luikore.github.com/2011/09/good-things-learned-from-octopress/">Starting from Octopress</a></li>

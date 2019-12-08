@@ -119,25 +119,25 @@
 <p>Aka “Microservices in the Cloud”.</p>
 <h2 id="cloud">Cloud</h2>
 <ul>
-<li>Service Discovery.</li>
-<li>load balancing (resource utilisation).</li>
+<li><p>Service Discovery.</p></li>
+<li><p>load balancing (resource utilisation).</p></li>
 <li><p>encryption?</p></li>
-<li>circuit breaker
+<li><p>circuit breaker</p>
 <ul>
 <li>Helps prevent cascading failures using a fast-fail service invocation when a service is misbehaving (just for a timeout period and then retried occasionally).</li>
-<li><a href="http://microservices.io/patterns/reliability/circuit-breaker.html" class="uri">http://microservices.io/patterns/reliability/circuit-breaker.html</a></li>
+<li><a href="http://microservices.io/patterns/reliability/circuit-breaker.html">http://microservices.io/patterns/reliability/circuit-breaker.html</a></li>
 </ul></li>
-<li>saying “No” to distributed transactions and the alternatives.</li>
-<li>Failures. Partitions. Outages.</li>
+<li><p>saying “No” to distributed transactions and the alternatives.</p></li>
+<li><p>Failures. Partitions. Outages.</p></li>
 <li><p>CAP theorem.</p></li>
 </ul>
 <h2 id="microservices">Microservices</h2>
 <ul>
-<li>Architecture
+<li><p>Architecture</p>
 <ul>
 <li>NGINX Microservices Reference Architecture (MRA) – 3 models: Proxy , Router Mesh, Fabric.</li>
 </ul></li>
-<li>Service discovery - local proxy or etcd/consul/zookeeper or Netflix/Spring-Cloud.
+<li><p>Service discovery - local proxy or etcd/consul/zookeeper or Netflix/Spring-Cloud.</p>
 <ul>
 <li>client-side – client communicates to Service Registry (e.g. etcd). e.g. Netflix OSS.</li>
 <li>server-side – client communicates to a router (proxy/load-balancer) which in turn communicates with the Service Registry. e.g. Kubernetes proxy.
@@ -145,10 +145,10 @@
 <li>Kubernetes apparently has other ways of avoiding using the proxy pattern (which requires two networks hops per service invocation).</li>
 </ul></li>
 </ul></li>
-<li>Messaging/Queuing v REST (async v sync).</li>
-<li>JSON or binary serialisation.</li>
+<li><p>Messaging/Queuing v REST (async v sync).</p></li>
+<li><p>JSON or binary serialisation.</p></li>
 <li><p>Service Invocation. Fan-out / Fan-in etc. Error handling. Reactive/Futures.</p></li>
-<li>Microservice Kit.
+<li><p>Microservice Kit.</p>
 <ul>
 <li>configuration, logging, health checks, metrics, distributed-tracing (aka correlation id)</li>
 <li>examples:
@@ -166,9 +166,9 @@
 </ul></li>
 </ul></li>
 </ul></li>
-<li>Authentication
+<li><p>Authentication</p>
 <ul>
-<li>Access token e.g. JSON Web Token. <a href="https://jwt.io" class="uri">https://jwt.io</a></li>
+<li>Access token e.g. JSON Web Token. <a href="https://jwt.io">https://jwt.io</a></li>
 <li>Web app stateless authentication cookies (ala Rails / PlayFramework).</li>
 </ul></li>
 </ul>

@@ -159,7 +159,7 @@
 <dd>Program declaration. Essentially top of AST.
 </dd>
 <dt><code>PTerm</code></dt>
-<dd>Program Term. The parameter for PDecl. i.e. <code>type PDecl </code> PDecl’ PTerm=.
+<dd>Program Term. The parameter for PDecl. i.e. <code>type PDecl = PDecl' PTerm</code>.
 </dd>
 <dt><code>FC</code></dt>
 <dd>probably short for FileContext. Contains source positions produced by Parser.
@@ -271,7 +271,7 @@
 <li>[X] src/IRTS/Exports.hs:import Idris.AbsSyntax</li>
 </ul></li>
 </ul>
-<h4 id="potential-refactorings">Potential refactorings:</h4>
+<p>Potential refactorings:</p>
 <ul>
 <li>Can we lift Opt and option processing functions from AbsSyntax?
 <ul>
@@ -280,7 +280,7 @@
 <li>Can we lift OutputAnnotations from Core.TT?</li>
 <li>Can we lift Name and associated functions from Core.TT?</li>
 </ul>
-<h4 id="errors">Errors</h4>
+<p>Errors</p>
 <p>See if this happens on <code>master</code>.</p>
 <blockquote>
 <p>OK (5.88s) ffi009: Error: test/ffi009 idris: Foreign Function calls cannot be partially applied, without being inlined. CallStack (from HasCallStack): error, called at src/IRTS/CodegenC.hs:343:36 in idris-0.12.3-LoUXGyrDJU677RY2CaNGaq:IRTS.CodegenC clang: warning: argument unused during compilation: ‘-fno-strict-overflow’</p>
