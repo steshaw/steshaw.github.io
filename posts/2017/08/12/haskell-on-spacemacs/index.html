@@ -58,7 +58,7 @@
           <div class="navbar-brand center-x center-y">
             <div>
               <a href="../../../../../">
-                <img class="logo" src="../../../../../images/pltsrc—150×150.png" alt="Steven Shaw loves programming languages">
+                <img class="logo" src="../../../../../images/pltsrc—150×150.png" alt="λΠ">
               </a>
             </div>
           </div>
@@ -111,11 +111,6 @@
 
     <div class="container">
       <header>
-  <div class="cross-posted-to-medium">
-    <a class="btn btn-default">
-      <i class="fa fa-medium"></i> Cross-posted to Medium
-    </a>
-  </div>
   <div class="header-image-bg">
     <div class="post-header">
       <div class="post-header-content">
@@ -130,14 +125,14 @@
 </header>
 
 <div class="post-content">
-  <p>I’ve been wanting to give Spacemacs another try for Haskell development. In particular, I wanted it to work with <code>intero</code> and <code>hindent</code>.</p>
+  <p>I’ve wanted to give Spacemacs another try for Haskell development. In particular, I wanted it to work with <code>intero</code> and <code>hindent</code>.</p>
 <h2 id="install-emacs">Install Emacs</h2>
 <p>I like to use Mitsuharu Yamamoto’s emacs-mac, rather than Aquamacs or emacsformacosx.</p>
 <pre class="shell"><code>$ brew tap railwaycat/emacsmacport
 $ brew cask install emacs-mac
 </code></pre>
 <h2 id="install-dependencies">Install Dependencies</h2>
-<p>The haskell layer in Spacemacs requires a few dependencies. I installed them with Stack.</p>
+<p>The <code>haskell</code> layer in Spacemacs requires a few dependencies. I installed them with Stack.</p>
 <pre class="shell"><code>$ stack install hlint hasktags hoogle ghc-mod intero
 $ stack --resolver nightly-2017-08-12 install apply-refact
 </code></pre>
@@ -169,11 +164,11 @@ $ stack --resolver nightly-2017-08-12 install apply-refact
 <span id="cb3-23"><a href="#cb3-23"></a>  yaml</span>
 <span id="cb3-24"><a href="#cb3-24"></a>  )</span></code></pre></div>
 <h2 id="project-sidebar">Project sidebar</h2>
-<p>I missed having a project sidebar (such as seems to be the default in editors like Atom). Eventually I found that Spacemacs includes NeoTree which makes a viable project sidebar. Toggle on/off with <code>SPC p t</code> or <code>SPC f t</code> for a file rather than project browser.</p>
+<p>I missed having a project sidebar (such as seems to be the default in editors like Atom). Eventually, I found that Spacemacs includes NeoTree, which makes a viable project sidebar. Toggle on/off with <code>SPC p t</code> or <code>SPC f t</code> for a file rather than project browser.</p>
 <p><a href="https://github.com/syl20bnr/spacemacs/blob/master/doc/DOCUMENTATION.org#neotree-file-tree">See more in the documentation</a></p>
 <h2 id="tab-bar">Tab bar</h2>
-<p>I also missed having a tab bar (for open files) such as that in Atom. There doesn’t seem to be anything built into Spacemacs for this. I tried the <a href="https://github.com/evacchi/tabbar-layer">tabbar-layer</a> but it was pretty ugly.</p>
-<p>After some searching, I figured I could rely on “helm-mini”. It lets you open search/select files from the open buffers (<code>SPC b b</code>). Also searching/selecting for files in the same project is possible from projectile (<code>SPC p f</code>).</p>
+<p>I also missed having a tab bar (for open files) such as that in Atom. There doesn’t seem to be anything built into Spacemacs for this. I tried the <a href="https://github.com/evacchi/tabbar-layer">tabbar-layer</a>, but it was pretty ugly.</p>
+<p>After some searching, I figured I could rely on “helm-mini”. It lets you open search/select files from the open buffers with <code>SPC b b</code>. Also searching/selecting for files in the same project is possible from projectile with <code>SPC p f</code>.</p>
 <h2 id="fill-column-indicator">Fill column indicator</h2>
 <p>I wanted my little indicator for the 80th column. Here, you need to tweak your <code>~/.spacemacs</code> file.</p>
 <div class="sourceCode" id="cb4" data-org-language="emacs-lisp"><pre class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb4-1"><a href="#cb4-1"></a>(<span class="kw">defun</span><span class="fu"> dotspacemacs/user-config </span>()</span>
@@ -191,44 +186,26 @@ $ stack --resolver nightly-2017-08-12 install apply-refact
 <p>I finally settled on <code>deeper-blue</code>.</p>
 <img class="img-responsive" src="../../../../../images/haskell-on-spacemacs.png">
 
+
+  
+    <div class="tags text-right">
+      <i class="fa fa-tags"></i> <a href="../../../../../tags/haskell/index.html">haskell</a>, <a href="../../../../../tags/emacs/index.html">emacs</a>, <a href="../../../../../tags/spacemacs/index.html">spacemacs</a>
+    </div>
+  
 </div>
 
-<div class="post-footer">
-  
-  <div class="post-footer-row">
-    <div class="tags">
-      <i class="fa fa-tags"></i> <a href="../../../../../tags/haskell/index.html">Haskell</a>, <a href="../../../../../tags/emacs/index.html">Emacs</a>, <a href="../../../../../tags/spacemacs/index.html">Spacemacs</a>
-    </div>
-  </div>
-  <div class="clear"></div>
-  
-
-  <div class="post-footer-row">
-    <div class="post-nav">
-      
-      <a class="btn btn-default" href="../../../../../posts/2015/06/08/fermats-last-theorem/index.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
-      
-      
-    </div>
-  </div>
-  <div class="clear"></div>
-</div>
-
-<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="post-aside comments"></div>
-<script type="text/javascript">
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
-
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+<nav>
+  <ul class="pager">
+    
+      <li class="previous">
+        <a class="btn btn-default" href="../../../../../posts/2015/06/08/fermats-last-theorem/index.html">
+          <i class="fa fa-chevron-left"></i> Older
+        </a>
+      </li>
+    
+    
+  </ul>
+</nav>
 
       <footer class="footer text-muted">
         <div class="flex">

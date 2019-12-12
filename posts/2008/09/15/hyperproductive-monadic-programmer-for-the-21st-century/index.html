@@ -58,7 +58,7 @@
           <div class="navbar-brand center-x center-y">
             <div>
               <a href="../../../../../">
-                <img class="logo" src="../../../../../images/pltsrc—150×150.png" alt="Steven Shaw loves programming languages">
+                <img class="logo" src="../../../../../images/pltsrc—150×150.png" alt="λΠ">
               </a>
             </div>
           </div>
@@ -111,11 +111,6 @@
 
     <div class="container">
       <header>
-  <div class="cross-posted-to-medium">
-    <a class="btn btn-default">
-      <i class="fa fa-medium"></i> Cross-posted to Medium
-    </a>
-  </div>
   <div class="header-image-bg">
     <div class="post-header">
       <div class="post-header-content">
@@ -130,56 +125,42 @@
 </header>
 
 <div class="post-content">
-  <p>I recently attended the “Introduction to Scala” course at <a href="http://workingmouse.com/">Working Mouse</a>. The course was run by <a href="http://tmorris.net/">Tony Morris</a> with the help of Tom Adams. I had feared that the course would be a introduction to Scala with Haskell-coloured glasses … and it was just that. However, it was just this that made it interesting. I already know Scala at a basic level so a truly introductory course would have offered little. I knew that Tony was into Haskell and on one hand I wanted to come away with an idea of what a monad was and on the other hand I didn’t want to learn Haskell with Scala syntax. Luck would have it that there turned out to be just two attendees - myself and John Ryan-Brown. Tony was able to accelerate through the introductory material with help from Tom Adams. This freed us up to begin working on monads and emulating type-classes in Scala. It was a really wonderful course that I can’t do justice to in this short post. I did come away knowing what a monad was (but now I’m not quite so sure). I did learn Scala through “Haskell glasses” but that was what was really wonderful about the course.</p>
-<p>So what are monads? Well it appears to be an “ultimate interface” with 3 special methods - return (also called unit), bind and join (where join can be derived from return and bind). My current understanding is that monads are the “ultimate iterator” but I figured I’m supposed to understand that they are an “abstraction over computation”. This is going to take a while to sink in. Here are the signatures for the 3 special methods:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><span id="cb1-1"><a href="#cb1-1"></a><span class="ot">  return ::</span> <span class="dt">Monad</span> m <span class="ot">=&gt;</span> a <span class="ot">-&gt;</span> m a</span>
-<span id="cb1-2"><a href="#cb1-2"></a><span class="ot">  bind   ::</span> <span class="dt">Monad</span> m <span class="ot">=&gt;</span> m a <span class="ot">-&gt;</span> (a <span class="ot">-&gt;</span> m b) <span class="ot">-&gt;</span> m b</span>
-<span id="cb1-3"><a href="#cb1-3"></a><span class="ot">  join   ::</span> <span class="dt">Monad</span> m <span class="ot">=&gt;</span> m (m a) <span class="ot">-&gt;</span> m a</span></code></pre></div>
-<p>In terms of List, return is cons, bind is flatMap and join is flatten. I wasn’t familiar with flatMap but it’s a more general version of map. Map can be implemented in terms of bind/flatMap and unit/cons.</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode scala"><code class="sourceCode scala"><span id="cb2-1"><a href="#cb2-1"></a>    List(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>) <span class="fu">map</span> (n =&gt; n + <span class="dv">1</span>)</span>
-<span id="cb2-2"><a href="#cb2-2"></a>    List(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>) <span class="fu">flatMap</span> (n =&gt; List(n + <span class="dv">1</span>))</span></code></pre></div>
-<p>Since then I’ve been learning a little more about Haskell and Category Theory. It’s really great to have a new avenue of things to study. Haskell certainly has come a long way since I looked at it last.</p>
-<p>Oh and the title of this post… Well it’s kind of a bad joke from day 3. After 3 days of indoctrination I realised that it was leading to the conclusion that a new breed of programmer was required - the hyper-productive monadic programmer for the 21st century. This new breed of programmer would eschew side effects and even OOP in preference to algebraic data types, type classes, implicits, higher order functions, monads and higher kinds. They would impress their friends with deep knowledge of mathematical principles and have an IQ 50 points above decent developers of today. These programmers would be trained to be 10x more productive than their imperative colleagues (coding in Java and C#) - allowing some of us to retire for a better life (perhaps as an economist or financial advisor). All that remains is to work out how much of this is hyperbole and how much sound.</p>
+  <p>I recently attended the “Introduction to Scala” course at <a href="http://workingmouse.com/">Working Mouse</a>. The course was run by <a href="http://tmorris.net/">Tony Morris</a> with the help of Tom Adams. I had feared that the course would be an introduction to Scala with Haskell-coloured glasses … and it was just that. However, it was just this that made it interesting. Already knowing the Scala basics, a truly introductory course would have offered little. I knew that Tony was into Haskell and on the one hand I wanted to come away with an idea of what a monad was and on the other hand I didn’t want to learn Haskell with Scala syntax. Luck would have it that there turned out to be just two attendees, myself and John Ryan-Brown. Tony was able to accelerate through the introductory material with help from Tom Adams. This freed us up to begin working on monads and emulating type-classes in Scala. It was a really excellent course that I can’t do justice to in this short post. I did come away knowing what a monad was (but now I’m not quite so sure). I did learn Scala through “Haskell glasses” but that was what was most intriguing about the course.</p>
+<p>So what is a monad? Well, it appears to be an “ultimate interface” with 3 methods: <code>return</code> (also called <code>unit</code>), <code>bind</code>, and <code>join</code> (where join can be derived from return and bind). My current understanding is that monads are the “ultimate iterator”, but I figure I’m supposed to understand that they are an “abstraction over computation”. This is going to take a while to sink in. Here are the signatures for the 3 Monad methods:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><span id="cb1-1"><a href="#cb1-1"></a><span class="fu">return</span><span class="ot"> ::</span> <span class="dt">Monad</span> m <span class="ot">=&gt;</span> a <span class="ot">-&gt;</span> m a</span>
+<span id="cb1-2"><a href="#cb1-2"></a><span class="ot">bind   ::</span> <span class="dt">Monad</span> m <span class="ot">=&gt;</span> m a <span class="ot">-&gt;</span> (a <span class="ot">-&gt;</span> m b) <span class="ot">-&gt;</span> m b</span>
+<span id="cb1-3"><a href="#cb1-3"></a><span class="ot">join   ::</span> <span class="dt">Monad</span> m <span class="ot">=&gt;</span> m (m a) <span class="ot">-&gt;</span> m a</span></code></pre></div>
+<p>In terms of List, <code>return</code> is <code>cons</code>, <code>bind</code> is <code>flatMap</code> and <code>join</code> is <code>flatten</code>. I wasn’t familiar with <code>flatMap</code>, but it’s a more general version of <code>map</code>. So <code>map</code> can be implemented in terms of <code>bind</code>/<code>flatMap</code> and <code>unit</code>/<code>cons</code>.</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode scala"><code class="sourceCode scala"><span id="cb2-1"><a href="#cb2-1"></a>List(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>) <span class="fu">map</span> (n =&gt; n + <span class="dv">1</span>)</span>
+<span id="cb2-2"><a href="#cb2-2"></a>List(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>) <span class="fu">flatMap</span> (n =&gt; List(n + <span class="dv">1</span>))</span></code></pre></div>
+<p>Since then, I’ve been learning a little more about Haskell and Category Theory. It’s really great to have new avenues for study. Haskell seems to have come a long way since last I looked.</p>
+<p>Oh and the title of this post… Well, it’s a bad joke from day 3. After 3 days of indoctrination, I realised that it was leading to the conclusion that a new breed of programmer was required — the hyper-productive monadic programmer for the 21st century. This new breed of programmer would eschew side effects and even OOP in preference to algebraic data types, type classes, implicits, higher-order functions, monads, and higher kinds. They would impress their friends with deep knowledge of mathematical principles and have an IQ 50 points above decent developers of today. These programmers would be trained to be 10x more productive than their imperative colleagues (coding in Java and C#), allowing some of us to retire for a simpler life. All that remains is to work out how much of this is hyperbole and how much is sound.</p>
+
+  
+    <div class="tags text-right">
+      <i class="fa fa-tags"></i> <a href="../../../../../tags/scala/index.html">scala</a>, <a href="../../../../../tags/functionalprogramming/index.html">functional-programming</a>, <a href="../../../../../tags/categorytheory/index.html">category-theory</a>, <a href="../../../../../tags/haskell/index.html">haskell</a>
+    </div>
+  
 </div>
 
-<div class="post-footer">
-  
-  <div class="post-footer-row">
-    <div class="tags">
-      <i class="fa fa-tags"></i> <a href="../../../../../tags/category-theory/index.html">Category Theory</a>, <a href="../../../../../tags/functional-programming/index.html">Functional Programming</a>, <a href="../../../../../tags/haskell/index.html">Haskell</a>, <a href="../../../../../tags/monads/index.html">Monads</a>, <a href="../../../../../tags/productivity/index.html">Productivity</a>, <a href="../../../../../tags/scala/index.html">Scala</a>
-    </div>
-  </div>
-  <div class="clear"></div>
-  
-
-  <div class="post-footer-row">
-    <div class="post-nav">
-      
-      <a class="btn btn-default" href="../../../../../posts/2008/08/29/certified-scrummaster/index.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
-      
-      
-      <a class="btn btn-default" href="../../../../../posts/2009/01/29/webbeans-java-contexts-and-dependency-injection/index.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
-      
-    </div>
-  </div>
-  <div class="clear"></div>
-</div>
-
-<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="post-aside comments"></div>
-<script type="text/javascript">
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
-
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+<nav>
+  <ul class="pager">
+    
+      <li class="previous">
+        <a class="btn btn-default" href="../../../../../posts/2008/08/29/certified-scrummaster/index.html">
+          <i class="fa fa-chevron-left"></i> Older
+        </a>
+      </li>
+    
+    
+      <li class="next">
+        <a class="btn btn-default" href="../../../../../posts/2009/01/29/webbeans-java-contexts-and-dependency-injection/index.html">
+          Newer <i class="fa fa-chevron-right"></i>
+        </a>
+      </li>
+    
+  </ul>
+</nav>
 
       <footer class="footer text-muted">
         <div class="flex">

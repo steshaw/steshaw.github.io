@@ -58,7 +58,7 @@
           <div class="navbar-brand center-x center-y">
             <div>
               <a href="../../../../../">
-                <img class="logo" src="../../../../../images/pltsrc—150×150.png" alt="Steven Shaw loves programming languages">
+                <img class="logo" src="../../../../../images/pltsrc—150×150.png" alt="λΠ">
               </a>
             </div>
           </div>
@@ -111,11 +111,6 @@
 
     <div class="container">
       <header>
-  <div class="cross-posted-to-medium">
-    <a class="btn btn-default">
-      <i class="fa fa-medium"></i> Cross-posted to Medium
-    </a>
-  </div>
   <div class="header-image-bg">
     <div class="post-header">
       <div class="post-header-content">
@@ -141,8 +136,7 @@
 <span id="cb2-6"><a href="#cb2-6"></a><span class="kw">&lt;script</span><span class="ot"> type=</span><span class="st">&quot;text/javascript&quot;</span><span class="ot"> src=</span><span class="st">&quot;path-to-mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML&quot;</span><span class="kw">&gt;&lt;/script&gt;</span></span></code></pre></div>
 <p>This allows for inline <span class="math inline">$\TeX$</span> expressions between dollar signs e.g. <code>$\TeX$</code>. MathJax <em>display</em> expressions (i.e. non-inline) are delimited by double dollar signs:</p>
 <div class="sourceCode" id="cb3" data-title="example expression from Paul Snivey's article http://psnively.github.com/2010/03/13/100-proof.html"><pre class="sourceCode tex"><code class="sourceCode latex"><span id="cb3-1"><a href="#cb3-1"></a><span class="ss">$$</span><span class="sc">\forall</span><span class="ss"> x, y : </span><span class="sc">\mathbb</span><span class="ss">{Z}, x &gt; 3 </span><span class="sc">\land</span><span class="ss"> y &lt; 2 </span><span class="sc">\Rightarrow</span><span class="ss"> x^2 - 2y &gt; 5$$</span></span></code></pre></div>
-<p>renders as:</p>
-<p><br /><span class="math display">∀<em>x</em>, <em>y</em> : ℤ, <em>x</em> &gt; 3 ∧ <em>y</em> &lt; 2 ⇒ <em>x</em><sup>2</sup> − 2<em>y</em> &gt; 5</span><br /></p>
+<p>renders as: <br /><span class="math display">∀<em>x</em>, <em>y</em> : ℤ, <em>x</em> &gt; 3 ∧ <em>y</em> &lt; 2 ⇒ <em>x</em><sup>2</sup> − 2<em>y</em> &gt; 5</span><br /></p>
 <h2 id="right-click-issue">Right-click issue</h2>
 <p>There was also a problem with the theme. When right clicking a MathJax expression, the whole page goes blank! Zete has a great fix for this:</p>
 <div class="sourceCode" id="cb4" data-title="fix for right-click" data-link="http://luikore.github.com/2011/09/good-things-learned-from-octopress/"><pre class="sourceCode diff"><code class="sourceCode diff"><span id="cb4-1"><a href="#cb4-1"></a><span class="kw">diff --git a/sass/base/_theme.scss b/sass/base/_theme.scss</span></span>
@@ -164,46 +158,32 @@
 <li><a href="http://doswa.com/2011/07/20/mathjax-in-markdown.html">MathJax in Markdown</a></li>
 <li><a href="http://cwoebker.com/posts/latex-math-magic/">LaTeX Math Magic</a></li>
 </ul>
+
+  
+    <div class="tags text-right">
+      <i class="fa fa-tags"></i> <a href="../../../../../tags/web/index.html">web</a>
+    </div>
+  
 </div>
 
-<div class="post-footer">
-  
-  <div class="post-footer-row">
-    <div class="tags">
-      <i class="fa fa-tags"></i> <a href="../../../../../tags/octopress/index.html">Octopress</a>, <a href="../../../../../tags/mathjax/index.html">MathJax</a>
-    </div>
-  </div>
-  <div class="clear"></div>
-  
-
-  <div class="post-footer-row">
-    <div class="post-nav">
-      
-      <a class="btn btn-default" href="../../../../../posts/2012/02/09/moving-to-steshaw-org/index.html" style="float: left;"><i class="fa fa-chevron-left"></i> Prev</a>
-      
-      
-      <a class="btn btn-default" href="../../../../../posts/2014/07/17/adopting-a-cambridge-culture/index.html" style="float: right;">Next <i class="fa fa-chevron-right"></i></a>
-      
-    </div>
-  </div>
-  <div class="clear"></div>
-</div>
-
-<!-- <div id="disqus_thread" class="post-aside comments hidden-phone"></div> -->
-<div id="disqus_thread" class="post-aside comments"></div>
-<script type="text/javascript">
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'steshaw'; // required: replace example with your forum shortname
-
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+<nav>
+  <ul class="pager">
+    
+      <li class="previous">
+        <a class="btn btn-default" href="../../../../../posts/2012/02/09/moving-to-steshaw-org/index.html">
+          <i class="fa fa-chevron-left"></i> Older
+        </a>
+      </li>
+    
+    
+      <li class="next">
+        <a class="btn btn-default" href="../../../../../posts/2014/07/17/adopting-a-cambridge-culture/index.html">
+          Newer <i class="fa fa-chevron-right"></i>
+        </a>
+      </li>
+    
+  </ul>
+</nav>
 
       <footer class="footer text-muted">
         <div class="flex">
