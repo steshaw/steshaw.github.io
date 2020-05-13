@@ -127,25 +127,25 @@
 <div class="post-content">
   <p>I think Bill is dead-on-the-money with <a href="http://www.artima.com/weblogs/viewpost.jsp?thread=92979">the different-language, different-mindset thing</a>. Java can make you feel guilty alright :-). Even when you can get over your own guilt, there’s the struggle with your colleagues who may not have a dynamic mindset.</p>
 <p>I’ve been programming in JavaScript lately (actually more ActionScript 2.0 but some browser based JavaScript too). You’d probably return a single object there rather than multiple:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span id="cb1-1"><a href="#cb1-1"></a>    <span class="kw">var</span> context <span class="op">=</span> <span class="va">ExamplePage</span>.<span class="at">process</span>()<span class="op">;</span></span></code></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span id="cb1-1"><a href="#cb1-1"></a>    <span class="kw">var</span> context <span class="op">=</span> ExamplePage<span class="op">.</span><span class="fu">process</span>()<span class="op">;</span></span></code></pre></div>
 <p>followed by code using context.forumID, context.reply, context.subject and context.body.</p>
 <p>Single objects are constructed easily in JavaScript:</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span id="cb2-1"><a href="#cb2-1"></a>    <span class="kw">function</span> <span class="at">process</span>() <span class="op">{</span></span>
+<div class="sourceCode" id="cb2"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span id="cb2-1"><a href="#cb2-1"></a>    <span class="kw">function</span> <span class="fu">process</span>() {</span>
 <span id="cb2-2"><a href="#cb2-2"></a>        <span class="co">// Do some processing...</span></span>
-<span id="cb2-3"><a href="#cb2-3"></a>        <span class="cf">return</span> <span class="op">{</span></span>
-<span id="cb2-4"><a href="#cb2-4"></a>            <span class="dt">forumID</span><span class="op">:</span> ...<span class="op">,</span></span>
+<span id="cb2-3"><a href="#cb2-3"></a>        <span class="cf">return</span> {</span>
+<span id="cb2-4"><a href="#cb2-4"></a>            <span class="dt">forumID</span><span class="op">:</span> <span class="op">...,</span></span>
 <span id="cb2-5"><a href="#cb2-5"></a>            <span class="dt">reply</span><span class="op">:</span> <span class="st">&quot;a reply&quot;</span><span class="op">,</span></span>
 <span id="cb2-6"><a href="#cb2-6"></a>            <span class="dt">subject</span><span class="op">:</span> <span class="st">&quot;a subject&quot;</span><span class="op">,</span></span>
 <span id="cb2-7"><a href="#cb2-7"></a>            <span class="dt">context</span><span class="op">:</span> <span class="st">&quot;a context&quot;</span></span>
-<span id="cb2-8"><a href="#cb2-8"></a>        <span class="op">}</span></span>
-<span id="cb2-9"><a href="#cb2-9"></a>    <span class="op">}</span></span></code></pre></div>
+<span id="cb2-8"><a href="#cb2-8"></a>        }</span>
+<span id="cb2-9"><a href="#cb2-9"></a>    }</span></code></pre></div>
 <p>This is a very lightweight approach. Another poster had a similar solution in Python. There must be a similar way of doing this in Ruby or Groovy.</p>
 <p>It would be great to use Ruby/JRuby, Groovy, JavaScript, Python/Jython or whatever on the Java platform. What’s needed for adoption is buy-in by vendors like Sun and IBM (so that project managers and other developers don’t have a fit when something without the .java or .xml file extension is checked into the repository). It would be nice to have support for these languages in Eclipse (say) with all the usual bells-and-whistles Java programmers have come to rely on to get stuff done - code completion, Javadoc lookup, hyperlinking, refactoring etc. Groovy seems to have alot of momentum including a JSR thing - so maybe something along these lines is not too far away. Maybe it’s already there and I just haven’t looked!</p>
 <p>BTW - have you heard about NoXML? It’s this great new XML technology…</p>
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a href="../../../../../tags/actionscript/index.html">actionscript</a>, <a href="../../../../../tags/groovy/index.html">groovy</a>, <a href="../../../../../tags/java/index.html">java</a>, <a href="../../../../../tags/javascript/index.html">javascript</a>, <a href="../../../../../tags/python/index.html">python</a>, <a href="../../../../../tags/ruby/index.html">ruby</a>
+      <i class="fa fa-tags"></i> <a title="All pages tagged 'actionscript'." href="../../../../../tags/actionscript/index.html">actionscript</a>, <a title="All pages tagged 'groovy'." href="../../../../../tags/groovy/index.html">groovy</a>, <a title="All pages tagged 'java'." href="../../../../../tags/java/index.html">java</a>, <a title="All pages tagged 'javascript'." href="../../../../../tags/javascript/index.html">javascript</a>, <a title="All pages tagged 'python'." href="../../../../../tags/python/index.html">python</a>, <a title="All pages tagged 'ruby'." href="../../../../../tags/ruby/index.html">ruby</a>
     </div>
   
 </div>
