@@ -90,7 +90,7 @@ $ stack --resolver nightly-2017-08-12 install apply-refact
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;haskell&#39;." href="/tags/haskell/index.html">haskell</a>, <a title="All pages tagged &#39;emacs&#39;." href="/tags/emacs/index.html">emacs</a>, <a title="All pages tagged &#39;spacemacs&#39;." href="/tags/spacemacs/index.html">spacemacs</a>
+      <i class="fa fa-tags"></i> <a href="/tags/haskell/index.html">haskell</a>, <a href="/tags/emacs/index.html">emacs</a>, <a href="/tags/spacemacs/index.html">spacemacs</a>
     </div>
   
 </div>
@@ -165,7 +165,7 @@ x<sup>n</sup> + y<sup>n</sup> = z<sup>n</sup></p>
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;maths&#39;." href="/tags/maths/index.html">maths</a>
+      <i class="fa fa-tags"></i> <a href="/tags/maths/index.html">maths</a>
     </div>
   
 </div>
@@ -229,7 +229,7 @@ x<sup>n</sup> + y<sup>n</sup> = z<sup>n</sup></p>
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;software-engineering&#39;." href="/tags/softwareengineering/index.html">software-engineering</a>
+      <i class="fa fa-tags"></i> <a href="/tags/softwareengineering/index.html">software-engineering</a>
     </div>
   
 </div>
@@ -310,7 +310,7 @@ Command (m for help): w
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;linux&#39;." href="/tags/linux/index.html">linux</a>, <a title="All pages tagged &#39;nixos&#39;." href="/tags/nixos/index.html">nixos</a>
+      <i class="fa fa-tags"></i> <a href="/tags/linux/index.html">linux</a>, <a href="/tags/nixos/index.html">nixos</a>
     </div>
   
 </div>
@@ -378,7 +378,7 @@ Command (m for help): w
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;software-engineering&#39;." href="/tags/softwareengineering/index.html">software-engineering</a>
+      <i class="fa fa-tags"></i> <a href="/tags/softwareengineering/index.html">software-engineering</a>
     </div>
   
 </div>
@@ -428,7 +428,7 @@ Command (m for help): w
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;web&#39;." href="/tags/web/index.html">web</a>
+      <i class="fa fa-tags"></i> <a href="/tags/web/index.html">web</a>
     </div>
   
 </div>
@@ -478,9 +478,9 @@ Command (m for help): w
 <p>I made the following two changes:</p>
 <div class="sourceCode" id="cb1" data-title="switch Markdown processors in _config.yml"><pre class="sourceCode yml"><code class="sourceCode yaml"><span id="cb1-1"><a href="#cb1-1"></a><span class="fu">markdown</span><span class="kw">:</span><span class="at"> maruku</span></span></code></pre></div>
 <div class="sourceCode" id="cb2" data-title="enable MathJax in source/_includes/custom/head.html" data-link="http://www.mathjax.org/docs/1.1/start.html"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb2-1"><a href="#cb2-1"></a><span class="kw">&lt;script</span><span class="ot"> type=</span><span class="st">&quot;text/x-mathjax-config&quot;</span><span class="kw">&gt;</span></span>
-<span id="cb2-2"><a href="#cb2-2"></a>MathJax<span class="op">.</span><span class="at">Hub</span><span class="op">.</span><span class="fu">Config</span>({</span>
-<span id="cb2-3"><a href="#cb2-3"></a>      <span class="dt">tex2jax</span><span class="op">:</span> {<span class="dt">inlineMath</span><span class="op">:</span> [[<span class="st">&#39;$&#39;</span><span class="op">,</span><span class="st">&#39;$&#39;</span>]<span class="op">,</span> [<span class="st">&#39;</span><span class="sc">\\</span><span class="st">(&#39;</span><span class="op">,</span><span class="st">&#39;</span><span class="sc">\\</span><span class="st">)&#39;</span>]]}</span>
-<span id="cb2-4"><a href="#cb2-4"></a>      })<span class="op">;</span></span>
+<span id="cb2-2"><a href="#cb2-2"></a><span class="va">MathJax</span>.<span class="va">Hub</span>.<span class="at">Config</span>(<span class="op">{</span></span>
+<span id="cb2-3"><a href="#cb2-3"></a>      <span class="dt">tex2jax</span><span class="op">:</span> <span class="op">{</span><span class="dt">inlineMath</span><span class="op">:</span> [[<span class="st">&#39;$&#39;</span><span class="op">,</span><span class="st">&#39;$&#39;</span>]<span class="op">,</span> [<span class="st">&#39;</span><span class="sc">\\</span><span class="st">(&#39;</span><span class="op">,</span><span class="st">&#39;</span><span class="sc">\\</span><span class="st">)&#39;</span>]]<span class="op">}</span></span>
+<span id="cb2-4"><a href="#cb2-4"></a>      <span class="op">}</span>)<span class="op">;</span></span>
 <span id="cb2-5"><a href="#cb2-5"></a><span class="kw">&lt;/script&gt;</span></span>
 <span id="cb2-6"><a href="#cb2-6"></a><span class="kw">&lt;script</span><span class="ot"> type=</span><span class="st">&quot;text/javascript&quot;</span><span class="ot"> src=</span><span class="st">&quot;path-to-mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML&quot;</span><span class="kw">&gt;&lt;/script&gt;</span></span></code></pre></div>
 <p>This allows for inline <span class="math inline">$\TeX$</span> expressions between dollar signs e.g. <code>$\TeX$</code>. MathJax <em>display</em> expressions (i.e. non-inline) are delimited by double dollar signs:</p>
@@ -510,7 +510,7 @@ Command (m for help): w
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;web&#39;." href="/tags/web/index.html">web</a>
+      <i class="fa fa-tags"></i> <a href="/tags/web/index.html">web</a>
     </div>
   
 </div>
@@ -601,7 +601,7 @@ Command (m for help): w
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;web&#39;." href="/tags/web/index.html">web</a>
+      <i class="fa fa-tags"></i> <a href="/tags/web/index.html">web</a>
     </div>
   
 </div>
@@ -682,7 +682,7 @@ Command (m for help): w
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;hardware&#39;." href="/tags/hardware/index.html">hardware</a>, <a title="All pages tagged &#39;macbook&#39;." href="/tags/macbook/index.html">macbook</a>, <a title="All pages tagged &#39;linux&#39;." href="/tags/linux/index.html">linux</a>
+      <i class="fa fa-tags"></i> <a href="/tags/hardware/index.html">hardware</a>, <a href="/tags/macbook/index.html">macbook</a>, <a href="/tags/linux/index.html">linux</a>
     </div>
   
 </div>
@@ -743,7 +743,7 @@ Command (m for help): w
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;software-engineering&#39;." href="/tags/softwareengineering/index.html">software-engineering</a>
+      <i class="fa fa-tags"></i> <a href="/tags/softwareengineering/index.html">software-engineering</a>
     </div>
   
 </div>
@@ -817,7 +817,7 @@ Command (m for help): w
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;hardware&#39;." href="/tags/hardware/index.html">hardware</a>, <a title="All pages tagged &#39;macbook&#39;." href="/tags/macbook/index.html">macbook</a>, <a title="All pages tagged &#39;linux&#39;." href="/tags/linux/index.html">linux</a>
+      <i class="fa fa-tags"></i> <a href="/tags/hardware/index.html">hardware</a>, <a href="/tags/macbook/index.html">macbook</a>, <a href="/tags/linux/index.html">linux</a>
     </div>
   
 </div>
@@ -869,7 +869,7 @@ Command (m for help): w
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;dvcs&#39;." href="/tags/dvcs/index.html">dvcs</a>
+      <i class="fa fa-tags"></i> <a href="/tags/dvcs/index.html">dvcs</a>
     </div>
   
 </div>
@@ -921,7 +921,7 @@ Command (m for help): w
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;csharp&#39;." href="/tags/csharp/index.html">csharp</a>, <a title="All pages tagged &#39;functional-programming&#39;." href="/tags/functionalprogramming/index.html">functional-programming</a>, <a title="All pages tagged &#39;java&#39;." href="/tags/java/index.html">java</a>
+      <i class="fa fa-tags"></i> <a href="/tags/csharp/index.html">csharp</a>, <a href="/tags/functionalprogramming/index.html">functional-programming</a>, <a href="/tags/java/index.html">java</a>
     </div>
   
 </div>
@@ -973,7 +973,7 @@ Command (m for help): w
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;java&#39;." href="/tags/java/index.html">java</a>
+      <i class="fa fa-tags"></i> <a href="/tags/java/index.html">java</a>
     </div>
   
 </div>
@@ -1032,7 +1032,7 @@ Command (m for help): w
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;scala&#39;." href="/tags/scala/index.html">scala</a>, <a title="All pages tagged &#39;functional-programming&#39;." href="/tags/functionalprogramming/index.html">functional-programming</a>, <a title="All pages tagged &#39;category-theory&#39;." href="/tags/categorytheory/index.html">category-theory</a>, <a title="All pages tagged &#39;haskell&#39;." href="/tags/haskell/index.html">haskell</a>
+      <i class="fa fa-tags"></i> <a href="/tags/scala/index.html">scala</a>, <a href="/tags/functionalprogramming/index.html">functional-programming</a>, <a href="/tags/categorytheory/index.html">category-theory</a>, <a href="/tags/haskell/index.html">haskell</a>
     </div>
   
 </div>
@@ -1082,7 +1082,7 @@ Command (m for help): w
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;software-engineering&#39;." href="/tags/softwareengineering/index.html">software-engineering</a>
+      <i class="fa fa-tags"></i> <a href="/tags/softwareengineering/index.html">software-engineering</a>
     </div>
   
 </div>
@@ -1136,7 +1136,7 @@ Command (m for help): w
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;software-engineering&#39;." href="/tags/softwareengineering/index.html">software-engineering</a>
+      <i class="fa fa-tags"></i> <a href="/tags/softwareengineering/index.html">software-engineering</a>
     </div>
   
 </div>
@@ -1189,7 +1189,7 @@ Command (m for help): w
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;compilers&#39;." href="/tags/compilers/index.html">compilers</a>, <a title="All pages tagged &#39;operating-systems&#39;." href="/tags/operatingsystems/index.html">operating-systems</a>, <a title="All pages tagged &#39;programming-languages&#39;." href="/tags/programminglanguages/index.html">programming-languages</a>
+      <i class="fa fa-tags"></i> <a href="/tags/compilers/index.html">compilers</a>, <a href="/tags/operatingsystems/index.html">operating-systems</a>, <a href="/tags/programminglanguages/index.html">programming-languages</a>
     </div>
   
 </div>
@@ -1243,7 +1243,7 @@ Command (m for help): w
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;javascript&#39;." href="/tags/javascript/index.html">javascript</a>, <a title="All pages tagged &#39;java&#39;." href="/tags/java/index.html">java</a>, <a title="All pages tagged &#39;web&#39;." href="/tags/web/index.html">web</a>
+      <i class="fa fa-tags"></i> <a href="/tags/javascript/index.html">javascript</a>, <a href="/tags/java/index.html">java</a>, <a href="/tags/web/index.html">web</a>
     </div>
   
 </div>
@@ -1294,7 +1294,7 @@ Command (m for help): w
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;games&#39;." href="/tags/games/index.html">games</a>, <a title="All pages tagged &#39;javascript&#39;." href="/tags/javascript/index.html">javascript</a>, <a title="All pages tagged &#39;web&#39;." href="/tags/web/index.html">web</a>
+      <i class="fa fa-tags"></i> <a href="/tags/games/index.html">games</a>, <a href="/tags/javascript/index.html">javascript</a>, <a href="/tags/web/index.html">web</a>
     </div>
   
 </div>
@@ -1344,7 +1344,7 @@ Command (m for help): w
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;concurrent-programming&#39;." href="/tags/concurrentprogramming/index.html">concurrent-programming</a>, <a title="All pages tagged &#39;erlang&#39;." href="/tags/erlang/index.html">erlang</a>, <a title="All pages tagged &#39;newsqueak&#39;." href="/tags/newsqueak/index.html">newsqueak</a>, <a title="All pages tagged &#39;programming-languages&#39;." href="/tags/programminglanguages/index.html">programming-languages</a>
+      <i class="fa fa-tags"></i> <a href="/tags/concurrentprogramming/index.html">concurrent-programming</a>, <a href="/tags/erlang/index.html">erlang</a>, <a href="/tags/newsqueak/index.html">newsqueak</a>, <a href="/tags/programminglanguages/index.html">programming-languages</a>
     </div>
   
 </div>
@@ -1394,7 +1394,7 @@ Command (m for help): w
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;java&#39;." href="/tags/java/index.html">java</a>
+      <i class="fa fa-tags"></i> <a href="/tags/java/index.html">java</a>
     </div>
   
 </div>
@@ -1444,7 +1444,7 @@ Command (m for help): w
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;scala&#39;." href="/tags/scala/index.html">scala</a>
+      <i class="fa fa-tags"></i> <a href="/tags/scala/index.html">scala</a>
     </div>
   
 </div>
@@ -1494,7 +1494,7 @@ Command (m for help): w
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;java&#39;." href="/tags/java/index.html">java</a>, <a title="All pages tagged &#39;web&#39;." href="/tags/web/index.html">web</a>
+      <i class="fa fa-tags"></i> <a href="/tags/java/index.html">java</a>, <a href="/tags/web/index.html">web</a>
     </div>
   
 </div>
@@ -1547,7 +1547,7 @@ Command (m for help): w
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;macbook&#39;." href="/tags/macbook/index.html">macbook</a>, <a title="All pages tagged &#39;uk&#39;." href="/tags/uk/index.html">uk</a>, <a title="All pages tagged &#39;unix&#39;." href="/tags/unix/index.html">unix</a>, <a title="All pages tagged &#39;humour&#39;." href="/tags/humour/index.html">humour</a>
+      <i class="fa fa-tags"></i> <a href="/tags/macbook/index.html">macbook</a>, <a href="/tags/uk/index.html">uk</a>, <a href="/tags/unix/index.html">unix</a>, <a href="/tags/humour/index.html">humour</a>
     </div>
   
 </div>
@@ -1604,7 +1604,7 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;csharp&#39;." href="/tags/csharp/index.html">csharp</a>, <a title="All pages tagged &#39;java&#39;." href="/tags/java/index.html">java</a>, <a title="All pages tagged &#39;scala&#39;." href="/tags/scala/index.html">scala</a>, <a title="All pages tagged &#39;programming-languages&#39;." href="/tags/programminglanguages/index.html">programming-languages</a>
+      <i class="fa fa-tags"></i> <a href="/tags/csharp/index.html">csharp</a>, <a href="/tags/java/index.html">java</a>, <a href="/tags/scala/index.html">scala</a>, <a href="/tags/programminglanguages/index.html">programming-languages</a>
     </div>
   
 </div>
@@ -1659,7 +1659,7 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;dvcs&#39;." href="/tags/dvcs/index.html">dvcs</a>
+      <i class="fa fa-tags"></i> <a href="/tags/dvcs/index.html">dvcs</a>
     </div>
   
 </div>
@@ -1710,7 +1710,7 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;functional-programming&#39;." href="/tags/functionalprogramming/index.html">functional-programming</a>, <a title="All pages tagged &#39;java&#39;." href="/tags/java/index.html">java</a>
+      <i class="fa fa-tags"></i> <a href="/tags/functionalprogramming/index.html">functional-programming</a>, <a href="/tags/java/index.html">java</a>
     </div>
   
 </div>
@@ -1760,7 +1760,7 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;java&#39;." href="/tags/java/index.html">java</a>
+      <i class="fa fa-tags"></i> <a href="/tags/java/index.html">java</a>
     </div>
   
 </div>
@@ -1810,7 +1810,7 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;humour&#39;." href="/tags/humour/index.html">humour</a>
+      <i class="fa fa-tags"></i> <a href="/tags/humour/index.html">humour</a>
     </div>
   
 </div>
@@ -1863,7 +1863,7 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;humour&#39;." href="/tags/humour/index.html">humour</a>, <a title="All pages tagged &#39;java&#39;." href="/tags/java/index.html">java</a>, <a title="All pages tagged &#39;ruby&#39;." href="/tags/ruby/index.html">ruby</a>
+      <i class="fa fa-tags"></i> <a href="/tags/humour/index.html">humour</a>, <a href="/tags/java/index.html">java</a>, <a href="/tags/ruby/index.html">ruby</a>
     </div>
   
 </div>
@@ -1922,7 +1922,7 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;java&#39;." href="/tags/java/index.html">java</a>, <a title="All pages tagged &#39;web&#39;." href="/tags/web/index.html">web</a>
+      <i class="fa fa-tags"></i> <a href="/tags/java/index.html">java</a>, <a href="/tags/web/index.html">web</a>
     </div>
   
 </div>
@@ -1988,7 +1988,7 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;java&#39;." href="/tags/java/index.html">java</a>, <a title="All pages tagged &#39;javascript&#39;." href="/tags/javascript/index.html">javascript</a>, <a title="All pages tagged &#39;web&#39;." href="/tags/web/index.html">web</a>
+      <i class="fa fa-tags"></i> <a href="/tags/java/index.html">java</a>, <a href="/tags/javascript/index.html">javascript</a>, <a href="/tags/web/index.html">web</a>
     </div>
   
 </div>
@@ -2049,7 +2049,7 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;databases&#39;." href="/tags/databases/index.html">databases</a>, <a title="All pages tagged &#39;saas&#39;." href="/tags/saas/index.html">saas</a>
+      <i class="fa fa-tags"></i> <a href="/tags/databases/index.html">databases</a>, <a href="/tags/saas/index.html">saas</a>
     </div>
   
 </div>
@@ -2100,7 +2100,7 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;java&#39;." href="/tags/java/index.html">java</a>
+      <i class="fa fa-tags"></i> <a href="/tags/java/index.html">java</a>
     </div>
   
 </div>
@@ -2150,7 +2150,7 @@ Compile-time checking of exceptions sounds good in theory, but in practice has n
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;java&#39;." href="/tags/java/index.html">java</a>, <a title="All pages tagged &#39;web&#39;." href="/tags/web/index.html">web</a>
+      <i class="fa fa-tags"></i> <a href="/tags/java/index.html">java</a>, <a href="/tags/web/index.html">web</a>
     </div>
   
 </div>
@@ -2222,7 +2222,7 @@ My long search had not been in vain. It had led me to a full appreciation of the
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;humour&#39;." href="/tags/humour/index.html">humour</a>, <a title="All pages tagged &#39;uml&#39;." href="/tags/uml/index.html">uml</a>
+      <i class="fa fa-tags"></i> <a href="/tags/humour/index.html">humour</a>, <a href="/tags/uml/index.html">uml</a>
     </div>
   
 </div>
@@ -2274,7 +2274,7 @@ My long search had not been in vain. It had led me to a full appreciation of the
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;software-engineering&#39;." href="/tags/softwareengineering/index.html">software-engineering</a>
+      <i class="fa fa-tags"></i> <a href="/tags/softwareengineering/index.html">software-engineering</a>
     </div>
   
 </div>
@@ -2324,7 +2324,7 @@ My long search had not been in vain. It had led me to a full appreciation of the
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;humour&#39;." href="/tags/humour/index.html">humour</a>, <a title="All pages tagged &#39;distributed-computing&#39;." href="/tags/distributedcomputing/index.html">distributed-computing</a>
+      <i class="fa fa-tags"></i> <a href="/tags/humour/index.html">humour</a>, <a href="/tags/distributedcomputing/index.html">distributed-computing</a>
     </div>
   
 </div>
@@ -2384,7 +2384,7 @@ My long search had not been in vain. It had led me to a full appreciation of the
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;functional-programming&#39;." href="/tags/functionalprogramming/index.html">functional-programming</a>, <a title="All pages tagged &#39;java&#39;." href="/tags/java/index.html">java</a>
+      <i class="fa fa-tags"></i> <a href="/tags/functionalprogramming/index.html">functional-programming</a>, <a href="/tags/java/index.html">java</a>
     </div>
   
 </div>
@@ -2434,7 +2434,7 @@ My long search had not been in vain. It had led me to a full appreciation of the
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;python&#39;." href="/tags/python/index.html">python</a>
+      <i class="fa fa-tags"></i> <a href="/tags/python/index.html">python</a>
     </div>
   
 </div>
@@ -2484,7 +2484,7 @@ My long search had not been in vain. It had led me to a full appreciation of the
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;concurrent-programming&#39;." href="/tags/concurrentprogramming/index.html">concurrent-programming</a>, <a title="All pages tagged &#39;scala&#39;." href="/tags/scala/index.html">scala</a>, <a title="All pages tagged &#39;erlang&#39;." href="/tags/erlang/index.html">erlang</a>
+      <i class="fa fa-tags"></i> <a href="/tags/concurrentprogramming/index.html">concurrent-programming</a>, <a href="/tags/scala/index.html">scala</a>, <a href="/tags/erlang/index.html">erlang</a>
     </div>
   
 </div>
@@ -2535,7 +2535,7 @@ My long search had not been in vain. It had led me to a full appreciation of the
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;concurrent-programming&#39;." href="/tags/concurrentprogramming/index.html">concurrent-programming</a>, <a title="All pages tagged &#39;java&#39;." href="/tags/java/index.html">java</a>
+      <i class="fa fa-tags"></i> <a href="/tags/concurrentprogramming/index.html">concurrent-programming</a>, <a href="/tags/java/index.html">java</a>
     </div>
   
 </div>
@@ -2647,7 +2647,7 @@ Judging
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;personality&#39;." href="/tags/personality/index.html">personality</a>
+      <i class="fa fa-tags"></i> <a href="/tags/personality/index.html">personality</a>
     </div>
   
 </div>
@@ -2703,7 +2703,7 @@ Judging
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;web&#39;." href="/tags/web/index.html">web</a>
+      <i class="fa fa-tags"></i> <a href="/tags/web/index.html">web</a>
     </div>
   
 </div>
@@ -2755,7 +2755,7 @@ Judging
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;java&#39;." href="/tags/java/index.html">java</a>, <a title="All pages tagged &#39;modula-3&#39;." href="/tags/modula3/index.html">modula-3</a>, <a title="All pages tagged &#39;programming-languages&#39;." href="/tags/programminglanguages/index.html">programming-languages</a>
+      <i class="fa fa-tags"></i> <a href="/tags/java/index.html">java</a>, <a href="/tags/modula3/index.html">modula-3</a>, <a href="/tags/programminglanguages/index.html">programming-languages</a>
     </div>
   
 </div>
@@ -2805,7 +2805,7 @@ Judging
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;scala&#39;." href="/tags/scala/index.html">scala</a>, <a title="All pages tagged &#39;java&#39;." href="/tags/java/index.html">java</a>
+      <i class="fa fa-tags"></i> <a href="/tags/scala/index.html">scala</a>, <a href="/tags/java/index.html">java</a>
     </div>
   
 </div>
@@ -2855,7 +2855,7 @@ Judging
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;java&#39;." href="/tags/java/index.html">java</a>
+      <i class="fa fa-tags"></i> <a href="/tags/java/index.html">java</a>
     </div>
   
 </div>
@@ -2905,7 +2905,7 @@ Judging
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;xml&#39;." href="/tags/xml/index.html">xml</a>
+      <i class="fa fa-tags"></i> <a href="/tags/xml/index.html">xml</a>
     </div>
   
 </div>
@@ -2957,7 +2957,7 @@ Judging
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;humour&#39;." href="/tags/humour/index.html">humour</a>, <a title="All pages tagged &#39;distributed-computing&#39;." href="/tags/distributedcomputing/index.html">distributed-computing</a>
+      <i class="fa fa-tags"></i> <a href="/tags/humour/index.html">humour</a>, <a href="/tags/distributedcomputing/index.html">distributed-computing</a>
     </div>
   
 </div>
@@ -3007,7 +3007,7 @@ Judging
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;apl&#39;." href="/tags/apl/index.html">apl</a>, <a title="All pages tagged &#39;j-lang&#39;." href="/tags/jlang/index.html">j-lang</a>, <a title="All pages tagged &#39;k-lang&#39;." href="/tags/klang/index.html">k-lang</a>, <a title="All pages tagged &#39;programming-languages&#39;." href="/tags/programminglanguages/index.html">programming-languages</a>
+      <i class="fa fa-tags"></i> <a href="/tags/apl/index.html">apl</a>, <a href="/tags/jlang/index.html">j-lang</a>, <a href="/tags/klang/index.html">k-lang</a>, <a href="/tags/programminglanguages/index.html">programming-languages</a>
     </div>
   
 </div>
@@ -3057,7 +3057,7 @@ Judging
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;java&#39;." href="/tags/java/index.html">java</a>
+      <i class="fa fa-tags"></i> <a href="/tags/java/index.html">java</a>
     </div>
   
 </div>
@@ -3107,7 +3107,7 @@ Judging
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;functional-programming&#39;." href="/tags/functionalprogramming/index.html">functional-programming</a>, <a title="All pages tagged &#39;java&#39;." href="/tags/java/index.html">java</a>
+      <i class="fa fa-tags"></i> <a href="/tags/functionalprogramming/index.html">functional-programming</a>, <a href="/tags/java/index.html">java</a>
     </div>
   
 </div>
@@ -3157,7 +3157,7 @@ Judging
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;xml&#39;." href="/tags/xml/index.html">xml</a>
+      <i class="fa fa-tags"></i> <a href="/tags/xml/index.html">xml</a>
     </div>
   
 </div>
@@ -3207,7 +3207,7 @@ Judging
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;macos&#39;." href="/tags/macos/index.html">macos</a>
+      <i class="fa fa-tags"></i> <a href="/tags/macos/index.html">macos</a>
     </div>
   
 </div>
@@ -3257,7 +3257,7 @@ Judging
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;physics&#39;." href="/tags/physics/index.html">physics</a>
+      <i class="fa fa-tags"></i> <a href="/tags/physics/index.html">physics</a>
     </div>
   
 </div>
@@ -3307,7 +3307,7 @@ Judging
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;games&#39;." href="/tags/games/index.html">games</a>
+      <i class="fa fa-tags"></i> <a href="/tags/games/index.html">games</a>
     </div>
   
 </div>
@@ -3360,7 +3360,7 @@ Judging
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;csharp&#39;." href="/tags/csharp/index.html">csharp</a>, <a title="All pages tagged &#39;programming-languages&#39;." href="/tags/programminglanguages/index.html">programming-languages</a>
+      <i class="fa fa-tags"></i> <a href="/tags/csharp/index.html">csharp</a>, <a href="/tags/programminglanguages/index.html">programming-languages</a>
     </div>
   
 </div>
@@ -3412,7 +3412,7 @@ Judging
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;functional-programming&#39;." href="/tags/functionalprogramming/index.html">functional-programming</a>, <a title="All pages tagged &#39;groovy&#39;." href="/tags/groovy/index.html">groovy</a>
+      <i class="fa fa-tags"></i> <a href="/tags/functionalprogramming/index.html">functional-programming</a>, <a href="/tags/groovy/index.html">groovy</a>
     </div>
   
 </div>
@@ -3463,7 +3463,7 @@ Judging
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;web&#39;." href="/tags/web/index.html">web</a>
+      <i class="fa fa-tags"></i> <a href="/tags/web/index.html">web</a>
     </div>
   
 </div>
@@ -3514,7 +3514,7 @@ Judging
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;lisp&#39;." href="/tags/lisp/index.html">lisp</a>
+      <i class="fa fa-tags"></i> <a href="/tags/lisp/index.html">lisp</a>
     </div>
   
 </div>
@@ -3566,7 +3566,7 @@ Judging
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;dotnet&#39;." href="/tags/dotnet/index.html">dotnet</a>, <a title="All pages tagged &#39;compilers&#39;." href="/tags/compilers/index.html">compilers</a>, <a title="All pages tagged &#39;programming-languages&#39;." href="/tags/programminglanguages/index.html">programming-languages</a>, <a title="All pages tagged &#39;ruby&#39;." href="/tags/ruby/index.html">ruby</a>
+      <i class="fa fa-tags"></i> <a href="/tags/dotnet/index.html">dotnet</a>, <a href="/tags/compilers/index.html">compilers</a>, <a href="/tags/programminglanguages/index.html">programming-languages</a>, <a href="/tags/ruby/index.html">ruby</a>
     </div>
   
 </div>
@@ -3622,7 +3622,7 @@ Judging
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;linux&#39;." href="/tags/linux/index.html">linux</a>
+      <i class="fa fa-tags"></i> <a href="/tags/linux/index.html">linux</a>
     </div>
   
 </div>
@@ -3673,7 +3673,7 @@ Judging
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;compilers&#39;." href="/tags/compilers/index.html">compilers</a>
+      <i class="fa fa-tags"></i> <a href="/tags/compilers/index.html">compilers</a>
     </div>
   
 </div>
@@ -3729,7 +3729,7 @@ Judging
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;gnome&#39;." href="/tags/gnome/index.html">gnome</a>, <a title="All pages tagged &#39;linux&#39;." href="/tags/linux/index.html">linux</a>
+      <i class="fa fa-tags"></i> <a href="/tags/gnome/index.html">gnome</a>, <a href="/tags/linux/index.html">linux</a>
     </div>
   
 </div>
@@ -3779,7 +3779,7 @@ Judging
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;java&#39;." href="/tags/java/index.html">java</a>, <a title="All pages tagged &#39;ruby&#39;." href="/tags/ruby/index.html">ruby</a>
+      <i class="fa fa-tags"></i> <a href="/tags/java/index.html">java</a>, <a href="/tags/ruby/index.html">ruby</a>
     </div>
   
 </div>
@@ -3830,7 +3830,7 @@ Judging
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;functional-programming&#39;." href="/tags/functionalprogramming/index.html">functional-programming</a>, <a title="All pages tagged &#39;groovy&#39;." href="/tags/groovy/index.html">groovy</a>, <a title="All pages tagged &#39;java&#39;." href="/tags/java/index.html">java</a>
+      <i class="fa fa-tags"></i> <a href="/tags/functionalprogramming/index.html">functional-programming</a>, <a href="/tags/groovy/index.html">groovy</a>, <a href="/tags/java/index.html">java</a>
     </div>
   
 </div>
@@ -3946,7 +3946,7 @@ Judging
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;functional-programming&#39;." href="/tags/functionalprogramming/index.html">functional-programming</a>, <a title="All pages tagged &#39;ruby&#39;." href="/tags/ruby/index.html">ruby</a>, <a title="All pages tagged &#39;scheme&#39;." href="/tags/scheme/index.html">scheme</a>
+      <i class="fa fa-tags"></i> <a href="/tags/functionalprogramming/index.html">functional-programming</a>, <a href="/tags/ruby/index.html">ruby</a>, <a href="/tags/scheme/index.html">scheme</a>
     </div>
   
 </div>
@@ -3994,25 +3994,25 @@ Judging
 <div class="post-content">
   <p>I think Bill is dead-on-the-money with <a href="http://www.artima.com/weblogs/viewpost.jsp?thread=92979">the different-language, different-mindset thing</a>. Java can make you feel guilty alright :-). Even when you can get over your own guilt, there’s the struggle with your colleagues who may not have a dynamic mindset.</p>
 <p>I’ve been programming in JavaScript lately (actually more ActionScript 2.0 but some browser based JavaScript too). You’d probably return a single object there rather than multiple:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span id="cb1-1"><a href="#cb1-1"></a>    <span class="kw">var</span> context <span class="op">=</span> ExamplePage<span class="op">.</span><span class="fu">process</span>()<span class="op">;</span></span></code></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span id="cb1-1"><a href="#cb1-1"></a>    <span class="kw">var</span> context <span class="op">=</span> <span class="va">ExamplePage</span>.<span class="at">process</span>()<span class="op">;</span></span></code></pre></div>
 <p>followed by code using context.forumID, context.reply, context.subject and context.body.</p>
 <p>Single objects are constructed easily in JavaScript:</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span id="cb2-1"><a href="#cb2-1"></a>    <span class="kw">function</span> <span class="fu">process</span>() {</span>
+<div class="sourceCode" id="cb2"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span id="cb2-1"><a href="#cb2-1"></a>    <span class="kw">function</span> <span class="at">process</span>() <span class="op">{</span></span>
 <span id="cb2-2"><a href="#cb2-2"></a>        <span class="co">// Do some processing...</span></span>
-<span id="cb2-3"><a href="#cb2-3"></a>        <span class="cf">return</span> {</span>
-<span id="cb2-4"><a href="#cb2-4"></a>            <span class="dt">forumID</span><span class="op">:</span> <span class="op">...,</span></span>
+<span id="cb2-3"><a href="#cb2-3"></a>        <span class="cf">return</span> <span class="op">{</span></span>
+<span id="cb2-4"><a href="#cb2-4"></a>            <span class="dt">forumID</span><span class="op">:</span> ...<span class="op">,</span></span>
 <span id="cb2-5"><a href="#cb2-5"></a>            <span class="dt">reply</span><span class="op">:</span> <span class="st">&quot;a reply&quot;</span><span class="op">,</span></span>
 <span id="cb2-6"><a href="#cb2-6"></a>            <span class="dt">subject</span><span class="op">:</span> <span class="st">&quot;a subject&quot;</span><span class="op">,</span></span>
 <span id="cb2-7"><a href="#cb2-7"></a>            <span class="dt">context</span><span class="op">:</span> <span class="st">&quot;a context&quot;</span></span>
-<span id="cb2-8"><a href="#cb2-8"></a>        }</span>
-<span id="cb2-9"><a href="#cb2-9"></a>    }</span></code></pre></div>
+<span id="cb2-8"><a href="#cb2-8"></a>        <span class="op">}</span></span>
+<span id="cb2-9"><a href="#cb2-9"></a>    <span class="op">}</span></span></code></pre></div>
 <p>This is a very lightweight approach. Another poster had a similar solution in Python. There must be a similar way of doing this in Ruby or Groovy.</p>
 <p>It would be great to use Ruby/JRuby, Groovy, JavaScript, Python/Jython or whatever on the Java platform. What’s needed for adoption is buy-in by vendors like Sun and IBM (so that project managers and other developers don’t have a fit when something without the .java or .xml file extension is checked into the repository). It would be nice to have support for these languages in Eclipse (say) with all the usual bells-and-whistles Java programmers have come to rely on to get stuff done - code completion, Javadoc lookup, hyperlinking, refactoring etc. Groovy seems to have alot of momentum including a JSR thing - so maybe something along these lines is not too far away. Maybe it’s already there and I just haven’t looked!</p>
 <p>BTW - have you heard about NoXML? It’s this great new XML technology…</p>
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;actionscript&#39;." href="/tags/actionscript/index.html">actionscript</a>, <a title="All pages tagged &#39;groovy&#39;." href="/tags/groovy/index.html">groovy</a>, <a title="All pages tagged &#39;java&#39;." href="/tags/java/index.html">java</a>, <a title="All pages tagged &#39;javascript&#39;." href="/tags/javascript/index.html">javascript</a>, <a title="All pages tagged &#39;python&#39;." href="/tags/python/index.html">python</a>, <a title="All pages tagged &#39;ruby&#39;." href="/tags/ruby/index.html">ruby</a>
+      <i class="fa fa-tags"></i> <a href="/tags/actionscript/index.html">actionscript</a>, <a href="/tags/groovy/index.html">groovy</a>, <a href="/tags/java/index.html">java</a>, <a href="/tags/javascript/index.html">javascript</a>, <a href="/tags/python/index.html">python</a>, <a href="/tags/ruby/index.html">ruby</a>
     </div>
   
 </div>
@@ -4062,7 +4062,7 @@ Judging
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;humour&#39;." href="/tags/humour/index.html">humour</a>, <a title="All pages tagged &#39;distributed-computing&#39;." href="/tags/distributedcomputing/index.html">distributed-computing</a>
+      <i class="fa fa-tags"></i> <a href="/tags/humour/index.html">humour</a>, <a href="/tags/distributedcomputing/index.html">distributed-computing</a>
     </div>
   
 </div>
@@ -4114,7 +4114,7 @@ Judging
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;humour&#39;." href="/tags/humour/index.html">humour</a>, <a title="All pages tagged &#39;distributed-computing&#39;." href="/tags/distributedcomputing/index.html">distributed-computing</a>
+      <i class="fa fa-tags"></i> <a href="/tags/humour/index.html">humour</a>, <a href="/tags/distributedcomputing/index.html">distributed-computing</a>
     </div>
   
 </div>
@@ -4164,7 +4164,7 @@ Judging
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;java&#39;." href="/tags/java/index.html">java</a>, <a title="All pages tagged &#39;testing&#39;." href="/tags/testing/index.html">testing</a>
+      <i class="fa fa-tags"></i> <a href="/tags/java/index.html">java</a>, <a href="/tags/testing/index.html">testing</a>
     </div>
   
 </div>
@@ -4214,7 +4214,7 @@ Judging
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;linux&#39;." href="/tags/linux/index.html">linux</a>
+      <i class="fa fa-tags"></i> <a href="/tags/linux/index.html">linux</a>
     </div>
   
 </div>
@@ -4264,7 +4264,7 @@ Judging
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;distributed-computing&#39;." href="/tags/distributedcomputing/index.html">distributed-computing</a>
+      <i class="fa fa-tags"></i> <a href="/tags/distributedcomputing/index.html">distributed-computing</a>
     </div>
   
 </div>
@@ -4316,7 +4316,7 @@ Judging
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;management&#39;." href="/tags/management/index.html">management</a>
+      <i class="fa fa-tags"></i> <a href="/tags/management/index.html">management</a>
     </div>
   
 </div>
@@ -4367,7 +4367,7 @@ Judging
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;testing&#39;." href="/tags/testing/index.html">testing</a>
+      <i class="fa fa-tags"></i> <a href="/tags/testing/index.html">testing</a>
     </div>
   
 </div>
@@ -4426,7 +4426,7 @@ Are the relational data model and (especially) SQL the right choices for periste
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;java&#39;." href="/tags/java/index.html">java</a>
+      <i class="fa fa-tags"></i> <a href="/tags/java/index.html">java</a>
     </div>
   
 </div>
@@ -4476,7 +4476,7 @@ Are the relational data model and (especially) SQL the right choices for periste
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;distributed-systems&#39;." href="/tags/distributedsystems/index.html">distributed-systems</a>, <a title="All pages tagged &#39;erlang&#39;." href="/tags/erlang/index.html">erlang</a>, <a title="All pages tagged &#39;oz&#39;." href="/tags/oz/index.html">oz</a>
+      <i class="fa fa-tags"></i> <a href="/tags/distributedsystems/index.html">distributed-systems</a>, <a href="/tags/erlang/index.html">erlang</a>, <a href="/tags/oz/index.html">oz</a>
     </div>
   
 </div>
@@ -4526,7 +4526,7 @@ Are the relational data model and (especially) SQL the right choices for periste
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;lisp&#39;." href="/tags/lisp/index.html">lisp</a>, <a title="All pages tagged &#39;operating-systems&#39;." href="/tags/operatingsystems/index.html">operating-systems</a>, <a title="All pages tagged &#39;scheme&#39;." href="/tags/scheme/index.html">scheme</a>
+      <i class="fa fa-tags"></i> <a href="/tags/lisp/index.html">lisp</a>, <a href="/tags/operatingsystems/index.html">operating-systems</a>, <a href="/tags/scheme/index.html">scheme</a>
     </div>
   
 </div>
@@ -4578,7 +4578,7 @@ Are the relational data model and (especially) SQL the right choices for periste
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;lisp&#39;." href="/tags/lisp/index.html">lisp</a>, <a title="All pages tagged &#39;java&#39;." href="/tags/java/index.html">java</a>
+      <i class="fa fa-tags"></i> <a href="/tags/lisp/index.html">lisp</a>, <a href="/tags/java/index.html">java</a>
     </div>
   
 </div>
@@ -4629,7 +4629,7 @@ Are the relational data model and (especially) SQL the right choices for periste
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;lisp&#39;." href="/tags/lisp/index.html">lisp</a>, <a title="All pages tagged &#39;operating-systems&#39;." href="/tags/operatingsystems/index.html">operating-systems</a>
+      <i class="fa fa-tags"></i> <a href="/tags/lisp/index.html">lisp</a>, <a href="/tags/operatingsystems/index.html">operating-systems</a>
     </div>
   
 </div>
@@ -4682,7 +4682,7 @@ Are the relational data model and (especially) SQL the right choices for periste
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;functional-programming&#39;." href="/tags/functionalprogramming/index.html">functional-programming</a>, <a title="All pages tagged &#39;csharp&#39;." href="/tags/csharp/index.html">csharp</a>, <a title="All pages tagged &#39;java&#39;." href="/tags/java/index.html">java</a>
+      <i class="fa fa-tags"></i> <a href="/tags/functionalprogramming/index.html">functional-programming</a>, <a href="/tags/csharp/index.html">csharp</a>, <a href="/tags/java/index.html">java</a>
     </div>
   
 </div>
@@ -4732,7 +4732,7 @@ Are the relational data model and (especially) SQL the right choices for periste
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;linux&#39;." href="/tags/linux/index.html">linux</a>
+      <i class="fa fa-tags"></i> <a href="/tags/linux/index.html">linux</a>
     </div>
   
 </div>
@@ -4790,7 +4790,7 @@ Are the relational data model and (especially) SQL the right choices for periste
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;java&#39;." href="/tags/java/index.html">java</a>
+      <i class="fa fa-tags"></i> <a href="/tags/java/index.html">java</a>
     </div>
   
 </div>
@@ -4840,7 +4840,7 @@ Are the relational data model and (especially) SQL the right choices for periste
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;operating-systems&#39;." href="/tags/operatingsystems/index.html">operating-systems</a>, <a title="All pages tagged &#39;scheme&#39;." href="/tags/scheme/index.html">scheme</a>
+      <i class="fa fa-tags"></i> <a href="/tags/operatingsystems/index.html">operating-systems</a>, <a href="/tags/scheme/index.html">scheme</a>
     </div>
   
 </div>
@@ -4890,7 +4890,7 @@ Are the relational data model and (especially) SQL the right choices for periste
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;functional-programming&#39;." href="/tags/functionalprogramming/index.html">functional-programming</a>, <a title="All pages tagged &#39;ocaml&#39;." href="/tags/ocaml/index.html">ocaml</a>, <a title="All pages tagged &#39;humour&#39;." href="/tags/humour/index.html">humour</a>
+      <i class="fa fa-tags"></i> <a href="/tags/functionalprogramming/index.html">functional-programming</a>, <a href="/tags/ocaml/index.html">ocaml</a>, <a href="/tags/humour/index.html">humour</a>
     </div>
   
 </div>
@@ -4942,7 +4942,7 @@ Are the relational data model and (especially) SQL the right choices for periste
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;erlang&#39;." href="/tags/erlang/index.html">erlang</a>, <a title="All pages tagged &#39;humour&#39;." href="/tags/humour/index.html">humour</a>
+      <i class="fa fa-tags"></i> <a href="/tags/erlang/index.html">erlang</a>, <a href="/tags/humour/index.html">humour</a>
     </div>
   
 </div>
@@ -4992,7 +4992,7 @@ Are the relational data model and (especially) SQL the right choices for periste
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;erlang&#39;." href="/tags/erlang/index.html">erlang</a>, <a title="All pages tagged &#39;oz&#39;." href="/tags/oz/index.html">oz</a>, <a title="All pages tagged &#39;java&#39;." href="/tags/java/index.html">java</a>
+      <i class="fa fa-tags"></i> <a href="/tags/erlang/index.html">erlang</a>, <a href="/tags/oz/index.html">oz</a>, <a href="/tags/java/index.html">java</a>
     </div>
   
 </div>
@@ -5070,7 +5070,7 @@ Are the relational data model and (especially) SQL the right choices for periste
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;functional-programming&#39;." href="/tags/functionalprogramming/index.html">functional-programming</a>, <a title="All pages tagged &#39;scheme&#39;." href="/tags/scheme/index.html">scheme</a>
+      <i class="fa fa-tags"></i> <a href="/tags/functionalprogramming/index.html">functional-programming</a>, <a href="/tags/scheme/index.html">scheme</a>
     </div>
   
 </div>
@@ -5123,7 +5123,7 @@ Are the relational data model and (especially) SQL the right choices for periste
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;lisp&#39;." href="/tags/lisp/index.html">lisp</a>, <a title="All pages tagged &#39;python&#39;." href="/tags/python/index.html">python</a>, <a title="All pages tagged &#39;scheme&#39;." href="/tags/scheme/index.html">scheme</a>
+      <i class="fa fa-tags"></i> <a href="/tags/lisp/index.html">lisp</a>, <a href="/tags/python/index.html">python</a>, <a href="/tags/scheme/index.html">scheme</a>
     </div>
   
 </div>
@@ -5178,7 +5178,7 @@ Are the relational data model and (especially) SQL the right choices for periste
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged &#39;games&#39;." href="/tags/games/index.html">games</a>, <a title="All pages tagged &#39;linux&#39;." href="/tags/linux/index.html">linux</a>
+      <i class="fa fa-tags"></i> <a href="/tags/games/index.html">games</a>, <a href="/tags/linux/index.html">linux</a>
     </div>
   
 </div>

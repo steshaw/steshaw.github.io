@@ -129,9 +129,9 @@
 <p>I made the following two changes:</p>
 <div class="sourceCode" id="cb1" data-title="switch Markdown processors in _config.yml"><pre class="sourceCode yml"><code class="sourceCode yaml"><span id="cb1-1"><a href="#cb1-1"></a><span class="fu">markdown</span><span class="kw">:</span><span class="at"> maruku</span></span></code></pre></div>
 <div class="sourceCode" id="cb2" data-title="enable MathJax in source/_includes/custom/head.html" data-link="http://www.mathjax.org/docs/1.1/start.html"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb2-1"><a href="#cb2-1"></a><span class="kw">&lt;script</span><span class="ot"> type=</span><span class="st">&quot;text/x-mathjax-config&quot;</span><span class="kw">&gt;</span></span>
-<span id="cb2-2"><a href="#cb2-2"></a>MathJax<span class="op">.</span><span class="at">Hub</span><span class="op">.</span><span class="fu">Config</span>({</span>
-<span id="cb2-3"><a href="#cb2-3"></a>      <span class="dt">tex2jax</span><span class="op">:</span> {<span class="dt">inlineMath</span><span class="op">:</span> [[<span class="st">'$'</span><span class="op">,</span><span class="st">'$'</span>]<span class="op">,</span> [<span class="st">'</span><span class="sc">\\</span><span class="st">('</span><span class="op">,</span><span class="st">'</span><span class="sc">\\</span><span class="st">)'</span>]]}</span>
-<span id="cb2-4"><a href="#cb2-4"></a>      })<span class="op">;</span></span>
+<span id="cb2-2"><a href="#cb2-2"></a><span class="va">MathJax</span>.<span class="va">Hub</span>.<span class="at">Config</span>(<span class="op">{</span></span>
+<span id="cb2-3"><a href="#cb2-3"></a>      <span class="dt">tex2jax</span><span class="op">:</span> <span class="op">{</span><span class="dt">inlineMath</span><span class="op">:</span> [[<span class="st">'$'</span><span class="op">,</span><span class="st">'$'</span>]<span class="op">,</span> [<span class="st">'</span><span class="sc">\\</span><span class="st">('</span><span class="op">,</span><span class="st">'</span><span class="sc">\\</span><span class="st">)'</span>]]<span class="op">}</span></span>
+<span id="cb2-4"><a href="#cb2-4"></a>      <span class="op">}</span>)<span class="op">;</span></span>
 <span id="cb2-5"><a href="#cb2-5"></a><span class="kw">&lt;/script&gt;</span></span>
 <span id="cb2-6"><a href="#cb2-6"></a><span class="kw">&lt;script</span><span class="ot"> type=</span><span class="st">&quot;text/javascript&quot;</span><span class="ot"> src=</span><span class="st">&quot;path-to-mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML&quot;</span><span class="kw">&gt;&lt;/script&gt;</span></span></code></pre></div>
 <p>This allows for inline <span class="math inline">$\TeX$</span> expressions between dollar signs e.g. <code>$\TeX$</code>. MathJax <em>display</em> expressions (i.e. non-inline) are delimited by double dollar signs:</p>
@@ -161,7 +161,7 @@
 
   
     <div class="tags text-right">
-      <i class="fa fa-tags"></i> <a title="All pages tagged 'web'." href="../../../../../tags/web/index.html">web</a>
+      <i class="fa fa-tags"></i> <a href="../../../../../tags/web/index.html">web</a>
     </div>
   
 </div>
