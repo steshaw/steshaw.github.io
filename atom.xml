@@ -1239,7 +1239,7 @@ Command (m for help): w
 </header>
 
 <div class="post-content">
-  <p>Unfortunately <a href="http://extjs.com/blog/2008/04/21/ext-js-21-and-ext-gwt-10-released-preview-of-ext-js-30">Ext JS 2.1 (and Ext GWT 1.0) have been released under the GPL</a>. This will make Ext more difficult to sell to corporate clients.</p>
+  <p>Unfortunately <a href="https://web.archive.org/web/20091230172923/https://www.extjs.com/blog/2008/04/21/ext-js-21-and-ext-gwt-10-released-preview-of-ext-js-30/">Ext JS 2.1 (and Ext GWT 1.0) have been released under the GPL</a>. This will make Ext more difficult to sell to corporate clients.</p>
 <p>Ext JS 2.0.2 is still available for download under a LGPL licence and can be used with the <a href="http://code.google.com/webtoolkit/">GWT</a> integration found in the <a href="http://gwt-ext.com/download/">GWT-Ext project</a> (not to be confused with Ext GWT). i.e. GWT-Ext 2.0.3 and Ext 2.0.2 are still both LGPL. I wonder if Ext GWT 1.0 (GPL) started life as GWT-Ext 2.0.3 (LGPL)…</p>
 <p>I wonder if a fork will appear… or perhaps a <a href="http://developer.yahoo.com/yui/">Yahoo! UI</a> on <a href="http://code.google.com/webtoolkit/">GWT</a> or a <a href="http://www.tibco.com/devnet/gi/">Tibco GI</a> on <a href="http://code.google.com/webtoolkit/">GWT</a>. Both <a href="http://developer.yahoo.com/yui/">YUI</a> and <a href="http://www.tibco.com/devnet/gi/">GI</a> are BSD and so very business friendly.</p>
 <p>I discovered <a href="http://code.google.com/p/tibcopagebus4gwt/">a promise of a tibcogi4gwt project</a> but nothing more :(</p>
