@@ -1,0 +1,1389 @@
+* Todo Now
+
+** Digging into Type Theory
+
+    - [ ] "Intuistionistic Type Theory" Per Martin-Loef
+    - [ ] "Naïve Computational Type Theory" by Robert Constable
+
+** Idris
+
+  - Continue contributing to Idris via low-hanging fruit.
+
+  - Get involved in [[https://github.com/idris-hackers/software-foundations][Software Foundations in Idris]].
+
+  - type-class related QA for Haskell/Scala folk.
+    - global coherence
+    - resolution algorithm
+
+*** Code
+
+    - Probably shouldn't have REPL/console command =execute= with alias =exec=
+      when =--execute= and =--exec= are semantically different command line
+      options.
+    - Rectify the FIXME IN =IRTS/Lang.hs= about using =LAlt'= for all the IRs.
+    - Fix IRTS.Bytecode.isConst -> collapse False cases together.
+    - The C codegen isn't invoking =idris-codegen-c=.
+    - The embedded JS/Node codegen's probably should have their library parts
+      moved the Idris library to a JS library (to keep them honest - in that
+      they will only use the Idris library exposed API just as a contributed
+      codegen would have to).
+
+*** Project ideas
+
+    - elisp backend/codegen.
+      - Consider using the "portable" IR (CodegenInfo->JSON) in order to write the backend in Idris.
+    - Idris in Idris (probably limited the backend/codegen passes).
+      - "How do you structure a large Idris program to take advance of the types"
+      - "How much of a big system can be made total"
+    - Using Elaborator reflection to do Idris-in-Idris for high-level to TT
+      transformations.
+    - Nanopass in Idris (perhaps with Idris in Idris). Should be faster.
+    - Calculating Correct Compilers in Idris.
+    - total parser combinator library.
+    - bidirectional type inference.
+
+*** Read "Type Driven Development with Idris"
+
+   - [-] [[https://www.manning.com/books/type-driven-development-with-idris][Type-Driven Development with Idris]], by Edwin Brady.
+     - [X] Part 1: Introduction
+       - [X] 1 Overview
+       - [X] 2 Getting Started with Idris
+     - [X] Part 2: Core Idris
+       - [X] 3 Interactive Development with Types
+       - [X] 4 User Defined Data Types
+       - [X] 5 Interactive Programs: Input and Ouput Processing
+       - [X] 6 Programming with First Class Types
+       - [X] 7 Interfaces: Using Constrained Generic Types
+       - [X] 8 Classes: Overloading and Generic Functions
+       - [X] 9 Dependently Typed Programming Idioms
+       - [X] 10 Views: Extending Pattern Matching
+       - [X] 11 Streams and Processes: Working with Infinite Data
+     - [ ] Part 3: Idris and the Real World
+       - [ ] 12 Domain Specific Languages
+       - [ ] 13 The Effects Library: Stateful, Interactive and
+         Side-effecting Programs
+       - [ ] 14 A Case Study: Concurrent Programming
+     - [-] Appendixes:
+       - [X] A Installing Idris & Editor Modes
+       - [ ] Interactive Editing Commands
+       - [ ] REPL Commands
+       - [ ] The Packaging System
+
+* Todo Soon
+
+  - PLC [[https://www.itu.dk/people/sestoft/plc/][Programming Language Concepts]] by Peter Sestoft
+    - Courses
+      -  http://www.itu.dk/courses/BPRD/E2010/
+      -  http://www.itu.dk/courses/BPRD/E2011/
+      -  http://www.itu.dk/courses/BPRD/E2012/
+      -  http://www.itu.dk/courses/BPRD/E2013/
+
+* Todo Next
+
+** Ultimate GOTO
+
+  - x85 asm guide and C calling convention 
+    - http://www.cs.virginia.edu/~evans/cs216/guides/x86.html
+
+  - [[https://davidterei.com/downloads/papers/terei:2009:honours_thesis.pdf][Low Level Virtual Machine for Glasgow Haskell Compiler]] David Terei's Honour's thesis
+    - Check calling convention.
+    - Was there any trouble looking for GC roots with LLVM?
+    - Any other changes required to GC or Runtime?
+
+** pi-forall
+  - [ ] pi-forall
+    - [ ] Work through the remaining differences between version1 and
+      version2. i.e. version1 => version2.
+    - [ ] Work through the full implementation of pi-forall. i.e. version2 => full.
+  - [ ] Simply Easy (again)
+  - [ ] Lambda Pi
+  - [ ] Simply Easier (again)
+
+** PFPL
+  - [-] PFPL (book). OPLSS 2016 chapters 1-10, 14-20, 37-38, 46-48.
+    - [X] I Judgements and Rules
+      - [X] 1 Abstract Syntax
+      - [X] 2 Inductive Definitions
+      - [X] 3 Hypothetical and General Judgements
+    - [X] II Statics and Dynamics
+      - [X] 4 Statics
+      - [X] 5 Dynamics
+      - [X] 6 Type Safety
+      - [X] 7 Evaluation Dynamics
+    - [ ] III Total Functions
+      - [ ] 8 Function Definitions and Values
+      - [ ] 9 System T of Higher-Order Recursion
+    - [ ] IV Finite Data Types
+      - [ ] 10 Product Types
+      - [ ] 11 Sum Types
+    - [ ] V Types and Propositions
+      - [ ] 12 Constructive Logic
+      - [ ] 13 Classical Logic
+    - [ ] VI Infinite Data Types
+      - [ ] 14 Generic Programming
+      - [ ] 15 Inductive and Coinductive Types
+    - [ ] VII Variable Types
+      - [ ] 16 System F of Polymorphic Types
+      - [ ] 17 Abstract Types
+      - [ ] 18 Higher Kinds
+    - [ ] VIII Partiality and Recursive Types
+      - [ ] 19 System PCF of Recursive Functions
+      - [ ] 20 System FPC of Recursive Types
+    - [ ] IX Dynamic Types
+      - [ ] 21 The Untyped λ-Calculus
+      - [ ] 22 Dynamic Typing
+      - [ ] 23 Hybrid Typing
+    - [ ] X Subtyping
+      - [ ] 24 Structual Subtyping
+      - [ ] 25 Behavioural Subtyping
+    - [ ] XI Dynamic Dispatch
+      - [ ] 26 Classes and Methods
+      - [ ] 27 Inheritance
+    - [ ] XII Control Flow
+      - [ ] 28 Control Stacks
+      - [ ] 29 Exceptions
+      - [ ] 30 Continuations
+    - [ ] XIII Symbolic Data
+      - [ ] 31 Symbols
+      - [ ] 32 Fluid Binding
+      - [ ] 33 Dynamic Classification
+    - [ ] XIV Mutable State
+      - [ ] 34 Modernized Algol
+      - [ ] 35 Assignable References
+      - [ ] 36 Lazy Evaluation
+    - [ ] XV Parallelism
+      - [ ] 37 Nested Parallelism
+      - [ ] 38 Futures and Speculations
+    - [ ] XVI Concurrency and Distribution
+      - [ ] 39 Process Calculus
+      - [ ] 40 Concurrent Algol
+      - [ ] 41 Distributed Algol
+    - [ ] XVII Modularity
+      - [ ] 42 Modularity and Linking
+      - [ ] 43 Singleton Kinds and Subkinding
+      - [ ] 44 Type Abstraction and Type Classes
+      - [ ] 45 Heirarchy and Parameterization
+    - [ ] XVIII Equational Reasoning
+      - [ ] 46 Equality for System T
+      - [ ] 47 Equality for System PCF
+      - [ ] 48 Parametricty
+      - [ ] 49 Process Equivalence
+    - [ ] XIX Equational Reasoning
+      - [ ] A Background on Finite Sets
+
+** SF
+  - [[https://www.cis.upenn.edu/~bcpierce/sf/][Software Foundations]]
+    - at =Equiv.v=, =assign_aequiv=.
+
+** So you wanna learn Type Theory
+
+  - [-] [[http://purelytheoretical.com/sywtltt.html][So you wanna learn type theory?]]
+    - [X] Watch Frank Pfenning's [[https://www.youtube.com/playlist?list=PL_zaeQ6Mf5FAYNk3GsK9tdj_Ce-eIfH_b][OPLSS-2012 lectures "Proof Theory Foundations"]].
+    - [ ] Read [[http://purelytheoretical.com/papers/ATCHC.pdf][A Tutorial on the Curry-Howard Correspondence]] by Darryl McAdams.
+    - [-] Read Frank Pfenning's [[http://www.cs.cmu.edu/~fp/courses/15317-f09/schedule.html][course notes on Constructive Logic]] (FPCL).
+      - [X] [[http://www.cs.cmu.edu/~fp/courses/15317-f09/lectures/01-overview.html][Lecture 1: Overview]]
+      - [X] [[http://www.cs.cmu.edu/~fp/courses/15317-f09/lectures/02-natded.html][Lecture 2: Natural Deduction]]
+      - [X] [[http://www.cs.cmu.edu/~fp/courses/15317-f09/lectures/03-harmony.html][Lecture 3: Harmony]]
+      - [X] [[http://www.cs.cmu.edu/~fp/courses/15317-f09/lectures/04-pap.html][Lecture 4: Proofs as Programs]]
+      - [X] [[http://www.cs.cmu.edu/~fp/courses/15317-f09/lectures/05-quant.html][Lecture 5: Quantification]]
+      - [X] [[http://www.cs.cmu.edu/~fp/courses/15317-f09/lectures/06-nat.html][Lecture 6: Natural Numbers]]
+      - [ ] [[http://www.cs.cmu.edu/~fp/courses/15317-f09/lectures/07-classical.html][Lecture 7: Classical Logic]]
+      - [ ] [[http://www.cs.cmu.edu/~fp/courses/15317-f09/lectures/08-classical-programs.html][Lecture 8: Classical Computation]]
+      - [ ] [[http://www.cs.cmu.edu/~fp/courses/15317-f09/lectures/09-seqcalc.html][Lecture 9: Sequent Calculus]]
+      - [ ] [[http://www.cs.cmu.edu/~fp/courses/15317-f09/lectures/10-cutelim.html][Lecture 10: Cut Elimination]]
+      - [ ] [[http://www.cs.cmu.edu/~fp/courses/15317-f09/lectures/11-inversion.html][Lecture 11: Inversion]]
+      - [ ] [[http://www.cs.cmu.edu/~fp/courses/15317-f09/lectures/12-proving.html][Lecture 12: Propositional Theorem Proving]]
+      - [ ] [[http://www.cs.cmu.edu/~fp/courses/15317-f09/lectures/13-lp.html][Lecture 13: Logic Programming]]
+      - [ ] [[http://www.cs.cmu.edu/~fp/courses/15317-f09/lectures/14-prolog.html][Lecture 14: Prolog]]
+    - [X] Watch Bob Harper's [[https://www.youtube.com/playlist?list=PLGCr8P_YncjXRzdGq2SjKv5F2J8HUFeqN][OPLSS-2012 lectures "Type Theory Foundations"]].
+    - [-] Read [[http://www.cse.chalmers.se/research/group/logic/book/book.pdf][Programming in Martin-Löf Type Theory]].
+      - [X] 1 Introduction
+      - [X] 2 The identification of sets, propositions and specifications
+      - [X] 3 Expressions and definitional equality
+      - [-] I Polymorphic sets
+        - [X] 4 The semantics of the judgement forms
+        - [X] 5 General rules
+        - [X] 6 Enumeration sets
+        - [X] 7 Cartesian product of a family of sets
+        - [X] 8 Equality sets
+        - [ ] 9 Natural numbers
+        - [ ] 10 Lists
+        - [ ] 11 Cartesian product of two sets
+        - [ ] 12 Disjoint union of two sets
+        - [ ] 13 Disjoint union of a family of sets
+        - [ ] 14 The set of small sets (The first universe)
+        - [ ] 15 Well-orderings
+        - [ ] 16 General trees
+      - [ ] II Subsets
+        - [ ] 17 Subsets in the basic set theory
+        - [ ] 18 The subset theory
+      - [ ] III Monomorphic sets
+        - [ ] 19 Types
+        - [ ] 20 Defining sets in terms of types
+      - [ ] IV Examples
+        - [ ] 21 Some small examples
+        - [ ] 22 Program derivation
+        - [ ] 23 Specification of abstract data types
+      - [ ] A Constants and their arities
+      - [ ] B Operational semantics
+
+** Demystify Idris
+
+  - [ ] Extensible records in Idris
+    - https://github.com/jmars/Records
+    - https://twitter.com/edwinbrady/status/465824408838602752
+
+  - [ ] [[https://m.youtube.com/watch?v=AWeT_G04a0A][David Christiansen on the Universe Pattern (video)]]
+  - [ ] Implement a number of simple TT/PLs in Idris/ML (perhaps from TAPL).
+    - [[http://ozark.hendrix.edu/~yorgey/490/][STLC in Idris]] and more (course notes by Brent Yorgey).
+  - [ ] [[https://www.youtube.com/watch?v=4i7KrG1Afbk][Idris: Practical Dependent Types with Practical Examples by
+    Brian McKenna]] (video)
+  - [ ] MiniCaml
+    - https://github.com/lambdataro/zam-test looks to have OCaml
+      MiniCaml and ZAM.
+  - [-] idris-miniml
+    - [X] idris-miniml port of plzoo/miniml
+    - [ ] Extend with ideas from [[http://ucsd-progsys.github.io/cse130/homeworks/hw4.html][CSE130's NanoML]].
+    - https://github.com/hanazuki/miniml (OCaml)
+    - https://github.com/cadesalaberry/ocaml-practice/tree/master/hw5 (OCaml)
+    - https://github.com/pierthodo/Mini-ML (OCaml)
+    - https://github.com/timcolonel/socs/tree/master/Comp%20302/hw5/mini-ml (SML)
+    - https://github.com/bitonic/ml-w (Haskell)
+    - Coq verification of a MiniML https://github.com/coq-contribs/miniml
+    - Very interesting looking verified [[http://www.cl.cam.ac.uk/~mom22/miniml/][mini-ml]].
+  - [ ] Build a printf (puffnfresh has great video).
+    - Other standard dependently-typed examples?
+  - [-] Check out  Paul Körbitz's look at Idris internals:
+    - [X] [[http://koerbitz.me/posts/A-Look-at-the-Idris-Internals-Part-I-Overview-and-Parsing.html][Part 1]]
+    - [ ] [[http://koerbitz.me/posts/A-Look-at-the-Idris-Internals-Part-II-Taking-the-Parser-for-a-Spin.html][Part 2]]
+    - [ ] [[http://koerbitz.me/posts/A-Look-at-the-Idris-Internals-Part-III-From-Parsing-to-Elaboration.html][Part 3]]
+  - [ ] [[https://gist.github.com/edwinb/46da18e2fc6be3f92177ea02ea4b3a1a][Edwin's code for merge sort]]
+  - Is it possible to build total parser combinators?
+    - Yes, apparently. See [[http://www.cse.chalmers.se/~nad/publications/danielsson-parser-combinators.html][Total Parser Combinators (paper)]]. This
+      requires the use of dependent types as so is quite
+      interesting. An undergraduate Cambridge student may be taking
+      this up (overhead on #idris). Edwin Brady suggested that a total
+      parser combinator library in Idris would ideally make use of the
+      partial evaluator (see [[https://eb.host.cs.st-andrews.ac.uk/writings/icfp10.pdf][this paper]]).
+  - An LALR/LR/LL(k) parser generator would be nice (like Happy or something).
+  - Try deriving with the elaborator.
+    - https://gist.github.com/david-christiansen/8c66822a471bf929a22f
+    - https://github.com/david-christiansen/derive-all-the-instances
+  - [[http://toss.sourceforge.net/ocaml.html][Implement the NNF of formulas tutorial]]. Looks like the same as the
+    one from the tail end of ML for the Working Programmer.
+  - Implement the prover from ML for the Working Programmer.
+  - Paul Callagan's series on dependent types:
+    - https://pragprog.com/magazines/2013-04/dependent-types
+    - https://pragprog.com/magazines/2013-05/dependent-types-part-ii
+    - https://pragprog.com/magazines/2013-06/unification
+    - https://pragprog.com/magazines/2013-07/dependent-types-iii
+  - Courseware: notes/articles/slides.
+  - [X] idris-calc port of plzoo/calc
+  - [X] [[https://eb.host.cs.st-andrews.ac.uk/drafts/impldtp.pdf][Idris, a General Purpose Dependently Typed Programming Language: Design and Implementation]] -- Edwin Brady
+
+*** Idris' TT
+   - References from Edwin Brady's "Idris, a General Purpose Dependently Typed
+     Programming Language: Design and Implementation" paper.
+     - [ ] [[http://www.cs.nott.ac.uk/~psztxa/publ/checking.pdf][Epigram Reloaded: A Standalone Typechecker for ETT]]
+     - [X] [[https://www.andres-loeh.de/LambdaPi/][A tutorial implementation of a dependently typed lambda calculus]]
+     - [ ] [[http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.451.2794&rep=rep1&type=pdf][Unification Under a Mixed Prefix]], Dale Miller (paper).
+     - [X] [[http://www.cs.nott.ac.uk/~psztxa/publ/pisigma-new.pdf][ΠΣ: Dependent Types without the Sugar]]
+     - [ ] ? Computation and reasoning: a type theory for computer science, Zhaohui Luo
+
+** Demystify Type Theory
+:properties:
+:custom_id: type-theory
+:end:
+*** The Theory
+  - [ ] [[http://plato.stanford.edu/entries/type-theory/][Type Theory on SEP]] by Thierry Coquand.
+  - [ ] [[http://plato.stanford.edu/entries/type-theory-intuitionistic/][Intuitionistic Type Theory on SEP]] by Peter Dybjer and Erik Palmgren.
+  - [ ] [[http://www.hedonisticlearning.com/posts/understanding-typing-judgments.html][Understanding typing judgements]]
+    - I'm up to [[http://www.hedonisticlearning.com/posts/understanding-typing-judgments.html#type-systems][Type Systems]]
+  - [ ] [[http://www.cs.ru.nl/~herman/PUBS/IntroTT-improved.pdf][Introduction to Type Theory]], Herman Geuvers.
+  - [ ] [[http://www.cs.nott.ac.uk/~psztxa/publ/pisigma-new.pdf][ΠΣ: Dependent Types without the Sugar]]
+  - Liam O'Connor articles:
+    - [ ] http://liamoc.net/posts/2015-08-23-verified-compiler.html
+    - [ ] http://liamoc.net/posts/2014-01-01-context-split.html
+  - [ ] Demystify terminology.
+    - [ ] Demystify predicative/impredicative.
+    - [ ] Demystify intensional/extensional.
+    - [ ] Demystify relational parametricity.
+      - [[http://cstheory.stackexchange.com/questions/19548/how-can-relational-parametricity-be-motivated][How can relational parametricity by movitated (Stackoverflow)]]
+    - [ ] Demystify "logical relations". aka apparently: "Tait's
+      method", "the method of computability", "realizability", "Tait’s
+      computability method" (PiMLTT).
+    - [ ] β law (aka beta law). Seen on http://cstheory.stackexchange.com.
+    - [ ] η law (aka eta law). Seen on http://cstheory.stackexchange.com.
+    - [ ] Subject reduction
+    - [ ] Reduction termination
+    - [ ] "Church-Rosser property". Seen in PiMLTT.
+    - [ ] "convertability". Seen in PiMLTT: "equality is
+      convertibility in the sense of combinatory logic".
+    - [ ] "combinatory logic". Seen in PiMLTT.
+    - [ ] "convertability relation". Seen in PiMLTT.
+    - [ ] "ξ conversion is abandoned" (aka Xi conversion), PiMLTT.
+    - [ ] Demystify "parametricity".
+    - [ ] Demystify "first-class polymorphism".
+    - [ ] Demystify "second-class polymorphism".
+    - [ ] Demystify "polymorphic recursion".
+    - [ ] Demystify "universal polymorphism".
+    - [ ] Demystify "relevance" --- something to do with the distinction between
+      TTs that separate Π and ∀ and those that don't.
+    - [ ] Demystify "existential polymorphism".
+      - See [[http://lambda-the-ultimate.org/node/4865#comment-78185][Andreas Rossberg's comment(s) on Lambda the Ultimate]].
+        #+begin_quote
+        **It's second-class vs first-class that matters**
+
+        That's not quite right. You seem to be assuming that you can
+        always statically monomorphise universal polymorphism, but
+        that is only true if polymorphism is second-class (*). And in
+        that case, it is just as true for existential polymorphism
+        (e.g., some SML compilers "monomorphise" modules routinely).
+        As soon as you have first-class polymorphism, though (e.g.,
+        higher-ranked polymorphic types), you cannot do that anymore,
+        neither for universal nor for existential
+        polymorphism. Furthermore, as naasking pointed out, you can
+        encode existentials with universals then, so there really is
+        no difference in the degree of static knowledge.  In short,
+        the compile time vs run time distinction does not hinge on
+        universal vs existential polymorphism, but on second-class vs
+        first-class polymorphism (and existentials in Haskell happen
+        to be first-class).  (*) And in fact, not even then, as
+        Haskell's counter-example of polymorphic recursion shows --
+        contrary to popular belief, type class polymorphism is not
+        static in Haskell, not even in plain H'98. Common
+        optimisations notwithstanding.
+        #+end_quote
+    - [ ] Encoding existentials with universals. [[Http://lambda-the-ultimate.org/node/4865#comment-78207][See here]].
+    - [ ] "axiom of reducibility" ([[http://cstheory.stackexchange.com/questions/7561/whats-the-relation-and-difference-between-calculus-of-inductive-constructions-a][seen here]])
+      #+begin_quote
+      Unfortunately, Girard found that this system [Martin-Löf first TT]
+      contradictory, prompting Martin-Löf to adopt "Russel-style" predicative
+      universes, severely limiting the expressiveness of the theory (by
+      effectively removing the axiom of reducibility) and making it slightly
+      more complex (but had the advantage of making it consistent).
+      #+end_quote
+    - [ ] "occurs-check" ([[https://namebinding.wordpress.com/2010/03/26/optimizing-higher-order-pattern-unification/][seen here]])
+    - [ ] "congruence rules for equality" (seems like structural equality). Seen
+      on OPLSS pi-forall videos.
+    - [ ] "normal form (NF)" / "weak-head normal form (WHNF)"
+  - Demystify equality
+    - [X] [[http://jozefg.bitbucket.org/posts/2014-08-06-equality.html][Equality is Hard]] by Danny Gratzer. Mentions Axiom K.
+    - [X] [[http://kodu.ut.ee/~varmo/tday-andu/chapman-slides.pdf][A biased history of equality in type theory]]
+      (slides). Definitional, intentional, extentional, observational,
+      John Major, Axiom K.
+  - Explain variants such as UTT, OTT, CTT, CoC, CIC, ETT, Idris TT...
+  - =CoC= Calculus of Constructions
+    - [X] [[https://ncatlab.org/nlab/show/calculus+of+constructions][nlab on =CoC=]]
+      - Notes that =CoC= is an _intensional_ dependent type theory.
+    - [ ] https://en.wikipedia.org/wiki/Calculus_of_constructions
+    - [ ] [[https://hal.inria.fr/inria-00076024/document][The calculus of constructions]] T. Coquand, Gérard Huet (1986)
+    - The origin of =CoC= is Coqand's PhD thesis which is naturally (but
+      unfortunately) in French.
+  - =CIC= Calculus of Inductive Constructions
+    - [ ] [[https://coq.inria.fr/refman/Reference-Manual006.html][Chapter 4 Calculus of Inductive Constructions]]
+    - [ ] [[https://www.cs.uoregon.edu/research/summerschool/summer11/curriculum.html][The Calculus of Inductive Constructions]], Hugo Herbelin, OPLSS 2011
+      - [ ] videos
+      - [ ] [[https://www.cs.uoregon.edu/research/summerschool/summer11/lectures/oplss-herbelin1.pdf][notes]]
+    - [[http://adam.chlipala.net/papers/ChlipalaPhD/][ Implementing Certified Programming Language Tools in Dependent Type
+      Theory]] Adam Chlipala's PhD dissertation
+      - [ ] Section 2.1
+  - Comparing CoC and MLTT
+    - [[http://www.cs.ru.nl/~herman/PUBS/CC_CHiso.pdf][The Calculus of Constructions and Higher Order Logic]], Herman Geuvers, 1992
+  - Type theory comparisons
+    - Equality
+      - homogeneous/heterogeneous
+      - intensional/extensional
+      - decidable/undecidable definitional equality (with just how much eta?)
+    - Universes
+      - impredicativity/predicativity
+      - proof-irrelevance
+      - a single universe/(accumulative, polymorphic?) universe hierarchy
+      - large elimination
+    - Recursion and datatypes
+      - eliminators/pattern matching + guardedness/sized types/...
+      - induction-recursion/induction-induction/...
+      - (same for coinduction)
+  - [[http://www.cs.nott.ac.uk/~psztxa/talks/constructive-06.pdf][Should Extensional Type Theory be considered harmful?]]
+  - http://www.cse.chalmers.se/~peterd/papers/historyidentitytype.pdf
+  - Recommended by Stephanie Weirich http://plmw2014.inria.fr/talks/weirich-plmw14.pdf
+    - [X] Per Martin-Löf. Constructive mathematics and computer programming, 1982
+    - [ ] Nordstrom, Petersson, and Smith. Programming in Martin-Löf's Type Theory, 1990
+    - [ ] Barendregt. “Lambda Calculi with Types.” Handbook of Logic in Computer Science II, 1992
+    - [ ] Harper, Honsell, Plotkin. “A Framework for Defining Logics.” JACM 1993
+    - [ ] Aspinall and Hoffman. “Dependent types.” ATTAPL, 2004
+    - [ ] Sørensen and Urzyczyn, Lectures on the Curry-Howard Isomorphism, 2006
+    - [ ] Homotopy Type Theory: Univalent Foundations of Mathematics, 2013
+  - [[https://github.com/michaelt/martin-lof][Works of Per Martin-Löf]]. Jon Sterling recommends especially:
+    - [X] Constructive mathematics and computer programming
+    - [ ] On the Meanings of the Logical Constants and the Justification of
+      Logical Laws
+    - [ ] Intuitionistic Type Theory
+  - [-] Type Theory and it's Meaning Explanations, Jon Sterling
+    - [ ] [[http://www.jonmsterling.com/pdfs/meaning-explanations.pdf][Jon's paper]]
+    - [X] [[https://youtu.be/xMAqniX2Paw][Video of Jon's LambdaConf talk]]
+  - Online courses
+    - http://cs.ru.nl/~freek/courses/tt-2009/
+    - http://cs.ru.nl/~freek/courses/tt-2010/
+    - http://cs.ru.nl/~freek/courses/tt-2011/
+    - http://cs.ru.nl/~freek/courses/tt-2012/
+    - http://cs.ru.nl/~freek/courses/tt-2013/
+    - http://cs.ru.nl/~freek/courses/tt-2014/
+    - http://cs.ru.nl/~freek/courses/tt-2015/
+    - [[https://github.com/williamdemeo/TypeFunc][William Demeo's Type Theory resources]] (includes many courses etc)
+  - [[http://jozefg.bitbucket.org/posts/2015-09-27-flavors.html][Two Different Flavors of Type Theory]], Danny Gratzer
+  - [[http://oxij.org/note/BrutalDepTypes/][Brutal introduction to dependent types]]
+  - [X] http://axisofeval.blogspot.com/2010/11/dependent-types-linkdump.html
+  - [-] Morte intermediate language based on CoC by Gabriel Gonzalez
+    - Uses Boehm-Berarducci encoding which is related to Church
+      encoding, CPS encoding, and F-algebras.
+      - [ ] [[http://okmij.org/ftp/tagless-final/course/Boehm-Berarducci.html][Oleg on Boehm-Beraducci]]
+    - super optimisation by normalisation!
+    - [ ] [[http://www.haskellforall.com/2014/09/morte-intermediate-language-for-super.html][Morte blog post]]
+    - [X] [[https://hackage.haskell.org/package/morte-1.6.0/docs/Morte-Tutorial.html][Morte tutorial]]
+  - [ ] [[http://winterkoninkje.dreamwidth.org/101420.html][Introduction to recursive types]] by Wren Romano. An annotated
+    bibliography / reading list.
+  - [ ] [[http://www.cambridge.org/cr/academic/subjects/computer-science/programming-languages-and-applied-logic/type-theory-and-formal-proof-introduction][Type Theory and Formal Proof, An Introduction]] by Rob Nederpelt and
+    Herman Geuvers
+  - https://coq.inria.fr/cocorico/TheoryBehindCoq
+  - Parametricity and Logical Relations
+    - [X] [[http://www.mpi-sws.org/~dreyer/talks/plmw2014-talk.pdf][Dreyer talk on Parametricity and Kripke Logical Relations]]
+      - [[http://www.mpi-sws.org/~dreyer/parametric/][The Parametric Facebook]]
+    - [ ] Classic papers on parametricity
+      - [ ] Reynolds (1983), Types, abstraction and parametric polymorphism
+      - [ ] Mitchell (1986), Representation independence and data abstraction
+      - [ ] Wadler (1989), Theorems for free!
+  - [X] [[http://davidchristiansen.dk/tutorials/bidirectional.pdf][Bidirectional Typing Rules: A Tutorial]] David Raymond Christiansen
+  - Notes/articles/slides/courseware.
+  - Conor's Frank PL, "Do Be Do Be Do"
+    - http://homepages.inf.ed.ac.uk/slindley/papers/frankly-draft-july2016.pdf
+
+*** Learning Type Theory
+   Adapted from https://github.com/type-theory/learn-tt
+   - [ ] Textbooks
+     - [ ] PFPL
+     - [ ] TAPL
+     - [ ] ATTAPL
+     - [ ] TTFP
+     - [ ] PFM [[http://www.paultaylor.eu/%7Ept/prafm/html/index.html][Practical Foundations of Mathematics]] Paul Taylor
+     - [ ] SF [[https://www.cis.upenn.edu/~bcpierce/sf/][Software Foundations]]
+   - [ ] Proof Assistants
+     - [ ] Coq
+     - [ ] Agda
+     - [ ] Idris
+     - [ ] Twelf
+   - [ ] Type Theory
+     - [ ] The Works of Per Martin-Löf
+       - [ ] 1972
+       - [ ] 1979
+       - [ ] 1984
+     - [ ] Programming In Martin-Löf's Type Theory
+     - [ ] The Works of John Reynolds
+       - [ ] Types, Abstraction and Parametric Polymorphism (Parametricity for System F)
+       - [ ] A Logic For Shared Mutable State
+       - [ ] Course notes on separation logic
+       - [ ] Course notes on denotational semantics
+     - [ ] Computational Type Theory
+       - [ ] Type Theory and its Meaning Explanations
+       - [ ] A Non-Type-Theoretic Definition of Martin-Löf’s Types
+       - [ ] Constructing a type system over operational semantics 
+             (Similar to the above, they're helpful to read together)
+       - [ ] Equality in Lazy Computation System (of general interest)
+       - [ ] Naive Computational Type Theory
+       - [ ] Innovations in CTT using NuPRL
+       - [ ] Two Lectures on Constructive Type Theory
+     - [ ] Homotopy Type Theory
+       - [ ] The HoTT book
+       - [ ] Student's Notes on HoTT
+   - [ ] Proof Theory
+     - [ ] Frank Pfenning's Lecture Notes
+       - [ ] Constructive Logic
+       - [ ] Linear Logic
+       - [ ] Modal Logic
+   - [ ] Category Theory
+     - [ ] Category Theory for Computer Scientists
+     - [ ] Category Theory, Awodey
+     - [ ] [[http://www.cs.cmu.edu/%7Eedmo/research/notes/intro_categorical_semantics.pdf][Introduction to Categorical Semantics for Proof Theory]] OPLSS
+       2015 Ed Morehouse
+   - [ ] Other Goodness
+     - [ ] [[https://mitpress.mit.edu/books/semantics-programming-languages][Semantics of Programming Languages]], Carl Gunter
+     - [ ] OPLSS
+       - [ ] 2012
+       - [ ] 2013
+       - [ ] 2014
+       - [ ] 2015
+
+*** Implement a Dependently-Typed Programming Language
+
+  - [ ] BabyIdris in Idris
+    :properties:
+    :custom_id: BabyIdris
+    :end:
+    - Start by porting my Simply Easier code scrapped from Augustsson's blog post.
+    - Inspired by existing mini/tutorial DT PLs:
+      - LambdaPi / SimplyEasy
+      - Lennart Augustsson's SimplyEasier
+      - pi-forall 2013/2014 branches
+        - https://github.com/jonsterling/ETT-Lite (fork of 2013 branch I think)
+        - https://github.com/jonsterling/Luitzen (fork of 2013 branch I think)
+        - [[https://github.com/reuleaux/pire][pire]] -- a refactorer for pi-forall by [[http://a-rx.info][Andreas Reuleaux]].
+          - Andreas has made the move from industry into research under Simon
+            Thompson at Kent.
+          - Refactorer uses =trifecta= and =unbound= (instead of =parsec= and
+            =unbound=).
+          - [[http://a-rx.info/static/pire/pire.html][Extensive docs]].
+      - [[http://www2.tcs.ifi.lmu.de/~abel/miniagda/][MiniAgda]] by Andreas Abel
+      - https://github.com/jyp/nano-Agda by Jean-Philippe Bernardy
+      - https://github.com/larrytheliquid/uAgda by Jean-Philippe Bernardy
+      - https://github.com/jyp/sctt by Jean-Philippe Bernardy
+      - https://hackage.haskell.org/package/pisigma
+        - code from the paper [[http://www.cs.nott.ac.uk/~psztxa/publ/pisigma-new.pdf][ΠΣ: Dependent Types without the Sugar]]
+      - [[https://github.com/freebroccolo/dtlc.rs][dtlc.rs]] -- also inspired by Simply Easy/Easier! 
+      - [[http://www.cse.chalmers.se/~coquand/def.pdf][A Calculus of Definitions]] by Coquand (2008). Contains a MiniTT
+        implemented in Haskell.
+    - Implementing your own DT-PL is recommended by Stephanie Weirich in [[http://plmw2014.inria.fr/talks/weirich-plmw14.pdf][this
+      talk]]. Stephanie says: "Don’t have to start from scratch", refering to.
+      - Löh, McBride, Swierstra. "A Tutorial Implementation of a Dependently Typed Lambda Calculus.".
+      - [[http://www.idris-lang.org/dependently-typed-functional-programming-with-idris-course-videos-and-slides/][Lecture on implementing Idris]] by Edwin Brady
+        - [[http://www.cs.st-andrews.ac.uk/~eb/talks/idris-cph-lec4.pdf][slides]]
+        - [[https://vimeo.com/62059837][video]]
+      - Her own OPLSS 2013 lectures on pi-forall (2013 branch).
+    - Be sure to check out Stephanie Weirich's OPLSS 2013 _and_ 2014 lectures.
+      - 2014
+        - [[https://www.cs.uoregon.edu/research/summerschool/summer14/curriculum.html][Designing Dependently-Typed Programming Languages]]
+        - https://github.com/sweirich/pi-forall (2014 is on =2014= branch)
+      - 2013
+        - [[https://www.cs.uoregon.edu/research/summerschool/summer13/curriculum.html][Designing Dependently-Typed Programming Languages]]
+        - https://github.com/sweirich/pi-forall/tree/master (2013 is on =master=
+          branch)
+
+  - Work on the real thing -- [[http://www.idris-lang.org/help-required/][contribute to Idris!]]
+
+*** Type Theory in Type Theory
+
+  - Nils Anders Danielsson's "A Formalisation of a Dependently Typed
+  - Language as an Inductive-Recursive Family" James Chapman's "Type Theory
+    Should Eat Itself"
+  - Conor McBride's "Outrageous But Meaningful Coincidences".
+
+** Demystify Programming Languages
+   _Everything_ is programming languages, isn't it? However, leaving this
+   heading to cover topics that don't readily come under [[#type-theory][Type Theory]] etc.
+    - Type Systems
+    - Type Inference
+    - Semantics
+    - Design
+    - Usability
+  - [ ] TAPL (book)
+  - [ ] [[https://www.semanticscholar.org/paper/Natural-Semantics-Kahn/44890ee8966028d0f12ca7a6eb43c41a17871cfe/pdf][Natural Semantics]], Gilles Kahn
+    - [ ] [[https://hal.inria.fr/inria-00076025/document][A simple applicative language, Mini-ML]]
+  - [ ] Type systems for programming languages Didier Rémy (course notes)
+    - [ ] http://pauillac.inria.fr/~remy/mpri/cours1.pdf
+    - [ ] http://pauillac.inria.fr/~remy/mpri/cours2.pdf
+    - [ ] http://pauillac.inria.fr/~remy/mpri/cours3.pdf
+    - [ ] http://pauillac.inria.fr/~remy/mpri/cours4.pdf
+    - [ ] http://pauillac.inria.fr/~remy/mpri/cours5.pdf
+  - [ ] http://www.eecs.harvard.edu/~greg/cs256sp2005/
+  - [ ] [[https://www.cl.cam.ac.uk/~gw104/dens.pdf][Denotational Semantics notes, Glynn Winskel]]
+  - [ ] [[https://www.cis.upenn.edu/~sweirich/icfp-plmw15/][PLMW @ ICFP 2015 - The Programming Languages Mentoring Workshop]]
+  - [ ] [[http://caml.inria.fr/pub/docs/u3-ocaml/][(UUU) Using, Understanding, and Unraveling The OCaml Language: From Practice to Theory and vice versa]]
+
+*** Type Inference
+  - [X] [[https://www.cis.upenn.edu/~sweirich/icfp-plmw15/slides/pottier.pdf][Type Inference (slides), François Pottier]]
+  - [[http://www.cs.bham.ac.uk/~krishnan/bidir.pdf][Complete and Easy Bidirectional Typechecking for Higher-Rank Polymorphism]], Joshua Dunfield, Neelakantan R. Krishnaswami
+    - an implementation https://github.com/ollef/Bidirectional
+    - [[http://www.cs.cmu.edu/~joshuad/talks/icfp13/Dunfield_icfp13-talk.pdf][Joshua's bidir website]]
+    - [[http://www.cs.cmu.edu/~joshuad/talks/icfp13/Dunfield_icfp13-talk.pdf][slides]]
+  - [[http://steshaw.org/hm/][Ian Grant's Hindly-Milner tutorial]]
+  - [ ] [[http://gallium.inria.fr/~fpottier/publis/fpottier-elaboration.pdf][Hindley-Milner Elaboration in Applicative Style, Functional pearl, François Pottier]]
+  - [ ] [[https://www.mpi-sws.org/~beta/papers/unicoq.pdf][A Unification Algorithm for COQ Featuring Universe Polymorphism and Overloading]] (paper)
+** Demystify Name binding
+
+  - Some references maybe not mentioned below:
+    - http://www.chargueraud.org/research/2009/ln/main.pdf
+    - http://www.cs.ru.nl/~james/RESEARCH/haskell2004.pdf
+    - http://requestforlogic.blogspot.com.au/2010/11/totally-nameless-representation.html
+    - http://www.cs.nott.ac.uk/~psztxa/publ/pisigma.pdf -- uses Locally Nameless
+    - Binders Unbound, http://ozark.hendrix.edu/~yorgey/pub/unbound.pdf
+    - http://bentnib.org/syntaxforfree.pdf
+
+  - =bound=
+    - [ ] [[https://www.schoolofhaskell.com/user/edwardk/bound][Edward Kmett on Bound]] (article)
+    - [ ] [[https://gist.github.com/cartazio/5727196][Higher order bound]] (gist)
+    - [ ] http://comonad.com/reader/2014/fast-circular-substitution/
+
+  - =unbound=
+    - http://hackage.haskell.org/package/unbound
+    - https://hackage.haskell.org/package/unbound-generics
+    - used in [[https://github.com/sweirich/pi-forall][pi-forall]]
+    - Kmett says this "mixes Barendregt with Locally Nameless"
+
+  - [[http://www.cs.ru.nl/~james/RESEARCH/haskell2004.pdf][I am not a Number -- I am a Free Variable]] by Conor McBride and James McKinna.
+
+  - PHOAS
+    - Parametric Higher-Order Abstract Syntax for Mechanized
+      Semantics, Adam Chlipala
+    - [[https://www.schoolofhaskell.com/user/edwardk/phoas][PHOAS for Free by Edward Kmett]]
+
+  - De Bruijn Indices
+    - [[http://disciple-devel.blogspot.com.au/2011/08/how-i-learned-to-stop-worrying-and-love.html][How I learned to stop worrying and love De Bruijn indices]] Ben Lippmeier
+
+  - Locally Nameless
+    - [[http://www.chargueraud.org/research/2009/ln/main.pdf][The Locally Nameless Representation]] Arthur Chargueraud
+
+  - Abstract Binding Trees
+    - [X] [[http://semantic-domain.blogspot.com.au/2015/03/abstract-binding-trees.html][Abstract Binding Trees]] -- post by Neel Krishnaswami
+    - [ ] [[http://semantic-domain.blogspot.com.au/2015/03/abstract-binding-trees-addendum.html][Abstract Binding Trees, an addendum]] -- post by Neel Krishnaswami
+    - [X] Chapter 1 PFPL
+    - [ ] [[http://winterkoninkje.dreamwidth.org/103978.html][Well-typed ABTs]]
+
+  - Nominal Logic: A First Order Theory of Names and Binding
+    - [ ] [[http://www.cl.cam.ac.uk/~amp12/talks/tacs01.pdf][slides]]
+    - [ ] [[https://www.cl.cam.ac.uk/~amp12/papers/nomlfo/nomlfo.pdf][paper]]
+
+  - https://github.com/jyp/NameBindingSurvey/blob/master/WhiteBoard.md
+    - https://github.com/jyp/TTNameBinders
+    - Names for free
+      - [[https://nicolaspouillard.fr/talks/names-for-free-haskell-symposium/names-for-free.html#/][talk]]
+      - [[http://www.cse.chalmers.se/~bernardy/NamesForFree.pdf][paper]]
+
+  - http://requestforlogic.blogspot.com.au/2010/11/totally-nameless-representation.html
+
+  - Namely Painless
+    - [X] [[https://nicolaspouillard.fr/publis/jfp-unified-binders.pdf][A unified treatment of syntax with binders]], Nicolas
+      Pouillard and François Pottier
+    - [ ] https://nicolaspouillard.fr/publis/namely-painless-defense-version.pdf
+
+  - HOS
+    - [[http://www.cse.chalmers.se/%7Eemax/documents/axelsson2013using.pdf][Using Circular Programs for Higher-Order Syntax, Functional
+      pearl]], Emil Axelsson Koen Claessen
+
+  - [[http://bentnib.org/syntaxforfree.html][Syntax for Free: Representing Syntax with Binding Using Parametricity]] Robert
+    Atkey
+
+  - Totally Nameless
+    - [ ] [[http://requestforlogic.blogspot.com.au/2010/11/totally-nameless-representation.html][Totally Nameless Representation]] article by Robert J. Simmons
+
+  - http://research.microsoft.com/en-us/um/people/simonpj/Papers/inlining/
+    (Mentioned in Kmett's bound tutorial)
+
+  - [[http://complogic.cs.mcgill.ca/beluga/][Beluga]] seems to be a PL with built in support for name binding (contexts).
+
+  - [[http://www2.tcs.ifi.lmu.de/~schoepp/Docs/bunches.pdf][A Dependent Type Theory with Names and Binding]] A categorically /yikes/ abstract.
+    #+begin_quote
+    We consider the problem of providing formal support for working
+    with abstract syntax involving variable binders. Gabbay and Pitts
+    have shown in their work on Fraenkel-Mostowski (FM) set theory how
+    to address this through first-class names: in this paper we
+    present a dependent type theory for programming and reasoning with
+    such names. Our development is based on a categorical
+    axiomatisation of names, with freshness as its central notion. An
+    associated adjunction captures constructions known from FM theory:
+    the freshness quantifier N, name-binding, and unique choice of
+    fresh names. The Schanuel topos -- the category underlying FM set
+    theory -- is an instance of this axiomatisation. Working from the
+    categorical structure, we define a dependent type theory which it
+    models. This uses bunches to integrate the monoidal structure
+    corresponding to freshness, from which we define novel
+    multiplicative dependent products Π∗ and sums Σ∗, as well as a
+    propositions-as-types generalisation H of the freshness
+    quantifier.
+    #+end_quote
+
+  - Collections of binding techniques:
+    - https://namebinding.wordpress.com/
+
+** Demystify Proof Theory
+
+  - [X] http://jozefg.bitbucket.org/posts/2015-02-11-proof-theory1.html
+  - [ ] [[https://www.cl.cam.ac.uk/~gw104/PLC-mini-course.pdf][Mini-course on proof theory, Pierre-Louis Curien]]
+  - [ ] [[https://www.cs.uoregon.edu/research/summerschool/summer05/lectures/outline.pdf][Constructive Logic notes]] by Robert Harper, 2005 Summer School.
+  - [ ] [[http://logitext.mit.edu/logitext.fcgi/tutorial][Interactive sequent calculus tutorial]]
+  - [ ] [[https://avigad.github.io/logic_and_proof/][Logic and Proof]] Introduction to Lean theorem prover (via Lean.JS)
+  - [ ] Proof Theory Foundations, OPLSS 2014
+    - https://www.cs.uoregon.edu/research/summerschool/summer14/curriculum.html
+    - http://www.cs.mcgill.ca/~bpientka/oplss/
+    - http://www.cs.mcgill.ca/~bpientka/oplss/book.pdf
+  - [[http://math.ucsd.edu/~sbuss/ResearchWeb/handbookI/][An Introduction to Proof Theory]], Samuel R. Buss.
+  - Demystify terminology
+    - propositional logic
+    - predicate calculus
+    - first-order intuitionistic logic
+    - first order logic
+** Demystify Category Theory
+
+  - Resources for learning Categories by Peter Smith
+    - [[http://www.logicmatters.net/resources/pdfs/GentleIntro.pdf][Category Theory: A Gentle Introduction]]
+    - http://www.logicmatters.net/categories/
+    - http://www.logicmatters.net/tyl/category-theory/
+
+  - [[http://www.hedonisticlearning.com/posts/you-know-more-about-presheaves-than-you-think.html][You known more about presheaves than you think]]
+  - Steven Awodey OPLSS 2012 lecture notes Category Theory
+    - http://www.andrew.cmu.edu/user/awodey/SummerSchool/
+
+** Demystify Logic
+
+  - [[http://www.logicmatters.net/tyl/][Teach Yourself Logic: A Study Guide]] Peter Smith.
+
+  - Are there other interesting part of Mathematical Logic other than
+    Proof Theory? Wikipedia mentions the following sub fields:
+    - Set Theory
+    - Model Theory
+    - Recursion Theory
+    - Proof Theory
+
+  - [ ] [[http://oxij.org/note/ReinventingFormalLogic/][Reinventing formal logic]] (article)
+  - [ ] [[http://users.cecs.anu.edu.au/~jks/LogicNotes/][The Logic Notes]], John Slaney, ANU
+
+  - [ ] [[http://www.cse.chalmers.se/~coquand/TRIESTE/][Constructive Logic]] (course), Thierry Coquand
+    - [ ] Introduction to logic
+    - [ ] Distributive lattices as topological spaces (???)
+    - [ ] Krull Dimension (???)
+    - [ ] Prufer Domain (???)
+
+  - [ ] [[http://people.cs.uchicago.edu/~odonnell/Scholar/Technical_papers/Intro_Logic_Prog/description.html][Logic and Logic Programming]]
+
+  - [ ] [[https://www.cs.cmu.edu/~fp/papers/mdorf01.pdf][Logical Frameworks –—— A Brief Introduction]]
+
+  - https://github.com/mietek/haskell-exchange-2015
+  - https://github.com/mietek/formal-logic
+
+  - Frank Pfennings Computation and Deduction Course and notes
+    - https://www.cs.cmu.edu/~fp/courses/comp-ded/handouts.html
+    - Uses Twelf
+
+  - [ ] How to Prove It, Velleman.
+
+** Demystify Mathematical Foundations
+
+  - [[http://paultaylor.eu/~pt/prafm/html/index.html][Practical Foundations of Mathematics]], Paul Taylor.
+
+  - for Heyting algebras
+    - [[http://www.amazon.com/Introduction-Lattices-Order-B-Davey/dp/0521784514][Introduction to Lattices and Order]]
+    - Category Theory by Awodey
+    - [[http://www.math.mcgill.ca/triples/Barr-Wells-ctcs.pdf][Category Theory for Computing Science]]
+    - [[http://www.math.uwaterloo.ca/~snburris/htdocs/ualg.html][A course in Universal Algebra]] [[http://www.math.uwaterloo.ca/~snburris/htdocs/UALG/univ-algebra2012.pdf][PDF]]
+    - https://github.com/UniversalAlgebra/UAResources
+
+  - HoTT book
+
+** Demystify Great Papers
+
+  - [[https://wiki.haskell.org/Research_papers/Functional_pearls][Functional Pearls]]
+    - [ ] I am not a Number (see [[#name-binding][below]]).
+    - http://crypto.stanford.edu/~blynn/haskell/papers.html
+    - [ ] [[http://gallium.inria.fr/~fpottier/publis/fpottier-elaboration.pdf][Hindley-Milner Elaboration in Applicative Style, Functional pearl, François Pottier]]
+    - [ ] [[https://jonathan.protzenko.fr/papers/iwil15.pdf][Functional Pearl: the Proof Search Monad]], Jonathan Protzenko
+  - https://ghc.haskell.org/trac/ghc/wiki/ReadingList
+  - Researchers:
+    - [[http://gallium.inria.fr/~xleroy/bibrefs/leroy.html][Xavier Leroy]]
+    - [[https://edwinb.wordpress.com/publications/][Edwin Brady]]
+    - [[http://strictlypositive.org/publications.html][Conor McBride]]
+    - [[http://www.cs.bham.ac.uk/~krishnan/][Neel Krishnaswami]]
+  - Reading Groups
+    - [[http://www.mpi-sws.org/~skilpat/plerg/][plerg -- Defunct PL reading group at MPI-SWS]] 
+    - [[http://www.contrib.andrew.cmu.edu/~rjsimmon/concertrg/][concertrg -- Defunct PL reading group at CMU]]
+    - Must be some good "papers we like" groups doing PL-mostly papers
+  - [[https://www.cis.upenn.edu/~sweirich/cis670/10/][Advanced Topics in PL]] course by Stephanie Weirich. Classic papers and new
+    research.
+  - [[http://www.sigplan.org/Awards/ICFP/][Most Influential ICFP Paper Award]]
+  - https://github.com/sweirich/tal
+
+** Demystify Coq
+
+  - [[https://www.labri.fr/perso/casteran/CoqArt/][Coq'Art]] -- again but better this time!
+  - https://coq.inria.fr/tutorial/1-basic-predicate-calculus
+  - https://coq.inria.fr/tutorial-nahas
+  - http://www.di.ens.fr/~zappa/teaching/coq/ecole11/
+  - http://adam.chlipala.net/cpdt/
+  - [[http://ilyasergey.net/pnp/][Proofs and Programs]]
+  - https://coq.inria.fr/cocorico/TheoryBehindCoq
+
+** Demystify Agda
+
+  - [[http://learnyouanagda.liamoc.net/toc.html][Learn you an Agda]] by Liam O'Connor
+  - [[http://www.cs.nott.ac.uk/~psztxa/g53cfr/][Computer Aided Formal Reasoning]] course at University of Nottingham
+  - [[http://wiki.portal.chalmers.se/agda/pmwiki.php?n=Main.Publications][Papers using Agda]]
+  - http://people.inf.elte.hu/divip/AgdaTutorial/Index.html
+  - http://wiki.portal.chalmers.se/agda/pmwiki.php?n=Main.Othertutorials
+  - Understand/Demystify "Auto in Agda"
+  - Follow up on Conor McBride's "well founded trees".
+  - Peter Dybjer's lectures from [[https://www.cs.uoregon.edu/research/summerschool/summer15/curriculum.html][OPLSS 2015]]
+    His notes http://www.cse.chalmers.se/~peterd/papers/oplss15.html
+  - [[http://www.cl.cam.ac.uk/~ok259/agda-course-13/][Dependently typed metaprogramming (in Agda)]] course by Conor McBride
+  - http://oxij.org/note/BrutalDepTypes/
+  - Conor's notes from [[https://www.cs.ox.ac.uk/projects/utgp/school/notes.html][Summer School on Generic and Effectful Programming 2015]]
+    - https://github.com/pigworker/SSGEP-datadata
+    - https://www.cs.ox.ac.uk/projects/utgp/school/conor.pdf
+  #+begin_quote
+  jonsterling: Conor's insight is that you can define the graph of
+  such a function as a well founded tree, and then compute by
+  structural recursion on that tree
+  #+end_quote
+  - http://www.itu.dk/courses/SPLG/E2013/
+
+** Demystify Module Systems
+
+   - Start with SML and OCaml module systems.
+     - http://jozefg.bitbucket.org/posts/2015-01-08-modules.html
+     - [[http://stackoverflow.com/questions/15584848/whats-the-difference-if-any-between-standard-mls-module-system-and-ocaml-mod][Rossberg on SML OCaml module systems (StackOverflow)]]
+   - Expand/revise modules reading list http://steshaw.org/plt/modules
+     - [X] [[http://gallium.inria.fr/~xleroy/bibrefs/Leroy-modular-modules.html][A modular module system]], Xavier Leroy
+     - [[http://www.mpi-sws.org/~skilpat/modsem/][Type Systems for Modules (Winter 2010)]] course by Derek Dreyer
+     - [[https://web.archive.org/web/20110910021609/http://www.cs.cmu.edu/~rwh/courses/modules/][Bob Harper's Modules courses]] (from archive.org)
+     - https://www.mpi-sws.org/~rossberg/f-ing/
+     - https://www.mpi-sws.org/%7Erossberg/1ml/ ([[http://lambda-the-ultimate.org/node/5121][LtU commentary]])
+     - Does [[https://www.mpi-sws.org/~rossberg/mixml/][MixML]] go too far? i.e. is it "principled"?
+       - You end up with initialisation ordering issues like in OOP.
+   - Common extensions
+     - separate compilation
+     - first class modules
+     - recursive modules (seemingly the most difficult)
+   - [[https://wiki.mpi-sws.org/star/paramore][Parametricity and Modular Reasoning]] course by Derek Dreyer.
+   - [[http://www.cis.upenn.edu/~bcpierce/papers/modules-icfp.ps][Advanced Module Systems - a guide for the perplexed]] Dreyer and Harper.
+   - [[http://www.cs.ox.ac.uk/ralf.hinze/WG2.8/24/slides/derek.pdf][Why Applicator Functors Matter]]
+   - http://www.ccs.neu.edu/home/amal/course/7480-s12/modules-notes.pdf
+   - OCaml course at Cornell
+     - [[http://www.cs.cornell.edu/courses/cs3110/2015fa/][cs3110/2015fa]] pretty
+     - [[http://www.cs.cornell.edu/courses/cs3110/2016sp/lecture_notes.php][cs3110/2016sp]] more type theory
+   - Rossberg's SML and sML (successor ML) implementations.
+     - http://www.mpi-sws.org/~rossberg/hamlet/
+     - http://www.mpi-sws.org/~rossberg/hamlet/#successor-ml
+   - [[https://github.com/kfl/mosml][Moscow ML]] with a simple runtime based on caml-light.
+   - Pros and Cons of modules
+     - [[http://lambda-the-ultimate.org/node/4865#comment-78074][Some comments from Andreas Rossberg on LtU]]
+
+*** Modules and Dependently Typed Languages
+  - Agda/Coq/Cayenne
+  - [[http://fsl.cs.illinois.edu/images/5/5e/Cayenne.pdf][Cayenne - a language with dependent types]]
+  - Can dependent records do (like in Cayenne)?
+    - surely dependended records don't help with separate compilation.
+  - Agda seems to have a simple module system. See [[http://www.cse.chalmers.se/~ulfn/talks/modules-061220.pdf][these slides]].
+    #+begin_quote
+    You don’t need a fancy module system ... and you tell me why I’m wrong.
+    #+end_quote
+
+*** Relationship with Type Classes
+  - read modular type classes (MTC) in http://steshaw.org/plt/modules.
+    - Update with "modular implicits" in OCaml.
+    - The work of Bruno C. d. S. Oliverira
+      - [[http://www.cs.ox.ac.uk/people/bruno.oliveira/objects.pdf][Objects to Unify Type Classes and GADTs]] with Martin Sulzmann.
+      - [[https://infoscience.epfl.ch/record/150280/files/TypeClasses.pdf][Type Classes as Objects and Implicits]] with Adriaan Moors and
+        Martin Odersky.
+      - [[http://homepages.inf.ed.ac.uk/wadler/papers/implicits/implicits.pdf][The Implicit Calculus: A New Foundation for Generic
+        Programming]] with Tom Schrijvers, Wontae Choi, Wonchan Lee,
+        Kwangkeun Yi, Philip Wadler.
+  - Kmett's type classes versus the world. i.e. global uniqueness of
+    type classes. Kmett says he wants both type classes and an ML
+    style module system.
+  - Investigate modules/type-classes in Agda/Coq/Cayenne.
+  - [[http://www.cs.unibo.it/%7Easperti/PAPERS/tphol09.pdf][Unification Hints]]
+  - [[http://lambda-the-ultimate.org/node/4865#comment-78251][Comments on Type class implementation by Oleg (LtU)]]
+  - http://okmij.org/ftp/Computation/typeclass.html
+  - Coq's "First Class Type Classes" [[http://mattam.org/research/publications/First-Class_Type_Classes.pdf][paper]] [[http://mattam.org/research/publications/First-Class_Type_Classes-Gallium-031108.pdf][slides]].
+** Demystify Datatype Generic Programming
+
+  - polytypic programming or whatevers
+  - [[http://itu.dk/people/asal/pubs/msc-thesis-report.pdf][The Practical Guide to Levitation]], Ahmad Salim Al-Sibahi M.Sc. Thesis
+    - https://github.com/ahmadsalim/MSc-Thesis
+  - [[https://personal.cis.strath.ac.uk/conor.mcbride/levitation.pdf][Gentle Art of Levitation]]
+  - SYB
+  - GHC.Generic - why do people not like this
+  - uniplate etc.
+  - how does this apply (get much better) in a dependently typed setting?
+    - Conor will have talked about this.
+  - http://www.andres-loeh.de/ExploringGH.pdf
+    - Andres recommends =generics-sop= in Haskell these days. Introduction at
+      https://github.com/kosmikus/SSGEP.
+  - Talk from Andres Löh
+    - http://skillsmatter.com/podcast/home/a-haskell-lecture-with-leading-expert-andres-loh
+    - http://www.andres-loeh.de/GP-ITB.pdf
+  - Add a datatype generic programming section to [[http://steshaw.org/plt/][PLT]].
+  - [[http://dreixel.net/research/pdf/gpif.pdf][Generic Programming with Indexed Functors]], Andres Löh, José Pedro Magalhães
+    - port to Idris https://github.com/pbl64k/gpif-idris
+
+** Demystify Homotopy Type Theory
+
+  - https://homotopytypetheory.org/book/
+  - https://www.cs.cmu.edu/~rwh/courses/hott/
+  - https://mdnahas.github.io/doc/Reading_HoTT_in_Coq.pdf
+  - [[https://inconsistentuniverse.wordpress.com/2014/02/04/simplicial-sets/][Simplical sets]] (blog series)
+  - [[https://inconsistentuniverse.wordpress.com/2014/02/05/thinking-about-the-design-space-of-higher-dimensional-type-theories/][Thinking about the design space of higher dimensional type theories]]
+  - Should Toplogy be required:
+    - Topology, Second Edition, James R. Munkres
+
+*** Category Theory
+
+  - Dominic Verity introductory talks
+    - [[https://vimeo.com/17207564][Part 1]]
+    - [[https://youtu.be/yilkBvVDB_w][Part 2]]
+  - http://category-theory.mitpress.mit.edu
+
+*** Categorical Logic
+
+  - http://www.cs.man.ac.uk/~pt/Practical-Foundations/html/index.html
+  - https://ncatlab.org/nlab/show/Sheaves+in+Geometry+and+Logic
+  - https://www.andrew.cmu.edu/user/awodey/catlog/notes/
+  - http://www.mathematik.tu-darmstadt.de/~streicher/CTCL.pdf
+  - [[http://www.mpi-sws.org/~dreyer/courses/catlogic/jacobs.pdf][Categorical Logic and Type Theory]]
+  - [[http://www.edsko.net/tcd/talks/cattheory.pdf][Abstract nonsense for Functional Programmers]]
+
+*** Topos
+
+  - [[https://www.amazon.com/Conceptual-Mathematics-First-Introduction-Categories-ebook/dp/B00AKE1VFE?ie=UTF8&me=&ref_=mt_kindle][Conceptual Mathematics]]
+  - [[http://arxiv.org/pdf/1012.5647v3.pdf][An information introduction to Topos theory]]
+  - https://ncatlab.org/nlab/show/topos
+  - http://www.staff.science.uu.nl/~ooste110/syllabi/toposmoeder.pdf
+  - [[http://math.ucr.edu/home/baez/topos.html][Topos Theory in a Nutshell]]
+
+** Demystify Focusing
+
+  - https://www.cs.cmu.edu/~fp/courses/oregon-m10/04-focusing.pdf
+  - https://www.cs.cmu.edu/~fp/courses/15816-s12/lectures/09-focusing.pdf
+
+** Investigate strict v non-strict
+  - strict/cbv (with at least optional call-by-name) v non-strict/lazy/cb-need
+  - with stream transducers, generators (Simple Generators), pipes, conduits, machines, iteratees, Clojures's transducers/reducers etc for stream processing. These work well with strict languages.
+    - https://dl.dropboxusercontent.com/u/4588997/Machines.pdf
+  - with delimited control for (tree) search.
+    - http://okmij.org/ftp/continuations/#reify-search
+    - tree search was the defining reason from John Huges Why FP Matters IIRC.
+    - isSubstringOf x y = any (isPrefixOf x) (tails y)
+      - Cale Gibbard
+      - http://lambda-the-ultimate.org/node/1277#comment-14313
+      - Noted in FPiS
+  - it's all delimited control.
+  - perhaps we don't need laziness even for modular list/collection methods mentioned by Lennart Augustsson.
+    - http://augustss.blogspot.com.au/2011/05/more-points-for-lazy-evaluation-in.html
+#+BEGIN_SRC
+  any :: (a -> Bool) -> [a] -> Bool
+  any p = or . map p
+#+END_SRC
+  - take a look at the point of laziness article by Robert Harper.
+  - scan FPiS for uses of laziness or call-by-name.
+  - Implement this stuff in Idris and/or Scala to try it out.
+  - CBPV? http://math.andrej.com/2008/11/23/a-toy-call-by-push-value-language/
+
+** Investigate totality / partiality / Turing-completeness etc.
+
+  - https://personal.cis.strath.ac.uk/conor.mcbride/TotallyFree.pdf
+  - http://www.cs.nott.ac.uk/~pszvc/publications/General_Recursion_MSCS_2005.pdf
+
+** Demystify Effects
+  - implement monad transformers
+  - take a look at algebraic effects.
+  - Idris 
+    - https://eb.host.cs.st-andrews.ac.uk/drafts/effects.pdf
+    - [[http://docs.idris-lang.org/en/latest/effects/index.html][Idris Effects Tutorial]]
+  - PureScript
+    - http://www.purescript.org/learn/eff/
+  - Eff
+    - http://www.eff-lang.org
+  - Frank
+    - https://personal.cis.strath.ac.uk/conor.mcbride/pub/Frank/
+    - http://homepages.inf.ed.ac.uk/slindley/papers/frankly-draft-march2014.pdf
+  - Koka
+  - https://github.com/yallop/effects-bibliography
+** Demystify Advanced Functional Programming
+  - recursion schemes
+  - Algebra of Programming.
+  - notes/slides/articles/courseware
+
+** Demystify Compilers
+
+  - Develop (literate) code, articles, slides, notes, articles.
+  - http://tratt.net/laurie/blog/entries/how_difficult_is_it_to_write_a_compiler.html
+  - [-] [[https://github.com/steshaw/babyml][BabyML]]
+    - Use Haskell, Idris or OCaml.
+    - MLish: strict/CBV, D-H-M type inference / unification.
+    - No modules (for now).
+    - However with Haskellish syntax. Type applications. Function signatures.
+    - Favour : as in Idris/Agda.
+    - Use [[http://steshaw.org/hm/][Ian Grant's Hindly-Milner tutorial]].
+    - [ ] Write articles on the different components.
+      - Someone must stop folks from recommending "Let's write a compiler".
+      - Movation/Inspiration:
+        - Stephen Diehl's writing on his Haskell-like language.
+        - [[http://www.timphilipwilliams.com/posts/2014-05-22-the-essence-of-compilation.html][The essence of Compilation]] by Tim Philip Williams.
+        - [[http://jozefg.bitbucket.org/posts/2015-03-24-pcf.html][A Tiny Compiler For A Typed Higher Order Language]] by Danny Gratzer.
+          - PCF to C
+          - http://github.com/jozefg/pcf
+    - [X] http://lucacardelli.name/Papers/CompilingML.A4.pdf
+    - [ ] http://caml.inria.fr/pub/papers/xleroy-zinc.pdf
+    - [ ] https://www.microsoft.com/en-us/research/wp-content/uploads/1987/01/slpj-book-1987-small.pdf
+    - [ ] https://www.microsoft.com/en-us/research/publication/implementing-functional-languages-a-tutorial/
+    - [ ] [[http://homepages.inf.ed.ac.uk/wadler/papers/pattern/pattern.pdf][Derivation of a Pattern-Matching Compiler]]
+    - [ ] [[http://moscova.inria.fr/~maranget/papers/ml05e-maranget.pdf][Compiling Pattern Matching to Good Decision Trees]]
+    - [ ] https://esumii.github.io/min-caml/paper.pdf
+    - [ ] http://cs.brown.edu/courses/cs173/2012/book/book.pdf
+    - http://caml.inria.fr/about/papers.en.html
+    - http://www.mpi-sws.org/~rossberg/hamlet/
+    - [X] http://pauillac.inria.fr/~xleroy/talks/zam-kazam05.pdf
+    - http://www.nimblemachines.com/zinc-abstract-machine/
+  - [[#BabyIdris]]
+  - Main outline
+    - First there's a high-level language (probably interpreter or
+      "bytecode" compiler". Basically the "front-end".
+      - Type checking.
+      - [Parametric] Polymorphism (aka generics).
+      - Type inference. Probably HM/ML sweet spot.
+    - Second, there's the compiler to native machine code with
+      Instruction Selection, Register Allocation, Flow control,
+      calling conventions, first-class functions and closure conversion.
+      Basically the back-end.
+    - Thirdly, there's optimisations like inlining, constant folding,
+      copy propagation etc. This should probably be 2nd.
+    - Fourthly, there's runtime system considerations:
+      - Garbage collection.
+  - Another skeleton:
+    - Introduction to language design with the BabyML.
+    - Lexing/Parsing
+    - Semantic Analysis (Type Checking)
+    - Simple IL/IR generation
+    - Backends:
+      - Simple IL interpreter/engine + runtime.
+      - "transpile" to C/JS/Java.
+      - Compile to machine code: x86 / x86-64 / x86-64 in with 32 bit pointers.
+      - Compile to JVM.
+      - Compile to dotnet/CLR/CLI.
+  - [ ] Port MinCaml to Idris.
+    - [[https://esumii.github.io/min-caml/index-e.html][Min-Caml (website)]] [[https://esumii.github.io/min-caml/paper.pdf][paper]]
+    - Looks like a nice overview from the middle to backend.
+    - Would like to see nanopass ideas applied here but using recursion schemes
+      rather than schemey dynamic typing.
+    - Also nice to add polymorphism in the front-end language if viable.
+  - Would be nice to implement compilers with efficient nanopasses.
+    + Perhaps possible in Haskell via datatypes a la carte and recursion schemes.
+    + Seems that datatypes a la carte is not possible in Idris... Can it be fixed?
+  - Courses:
+    - http://flint.cs.yale.edu/cs421/
+    - [[https://www.seas.upenn.edu/~cis341/current/#lectures][UPenn cis341 Compilers]] Steve Zdancewic. OCaml. Beautiful slides. *****
+    - http://www.cl.cam.ac.uk/teaching/1314/L26/materials.html
+    - [[https://www.cs.indiana.edu/~sabry/teaching/b522/s03/][CSCI B522 Programming Language Foundations Amr Sabry (course)]]
+      - MinML/NanoML semantics. Be nice to write it up in `org-mode`
+        and/or $$\LaTex$$.
+      - Also seems to have verifications/proofs in Twelf.
+    - [[https://iu.instructure.com/courses/1517577][SP16 Compilers 11241 Jeremy Siek (course)]]
+      - [[https://www.sharelatex.com/project/5637a774990f556d48bab667][course book/notes]]
+      - http://github.com/jsiek/Essentials-of-Compilation
+    - Compiler Construction at Colorado
+      - http://www.cs.colorado.edu/~bec/courses/csci4555-s15/
+      - [[http://www.cs.colorado.edu/~bec/courses/csci4555-s15/reading/notes.pdf][A Problem Course in Compilation: From Python to x86 Assembly]]
+    - http://cs.mcgill.ca/~cs520/2015/
+    - https://www.cs.princeton.edu/courses/archive/spring12/cos320/schedule.html
+    - http://www.cse.chalmers.se/edu/year/2011/course/CompFun/
+
+*** Write an efficient nanopass compiler.
+   - https://github.com/sellout/recursion-scheme-talk/blob/master/nanopass-compiler-talk.org
+
+*** Demystify Linkers
+** Demystify Runtime Systems
+
+  - What goes into a runtime?
+  - [ ] [[https://users-cs.au.dk/hosc/local/LaSC-3-4-pp343-380.pdf][A Runtime System]], Andrew W. Appel. Covers the runtime data structures of SML/NJ.
+  - [ ] [[https://realworldocaml.org/v1/en/html/pt03.html][The Runtime System]] Part II, Real World OCaml
+  - http://www.mono-project.com/docs/advanced/runtime/
+  - Multicore considerations.
+  - Write a "bytecode" interpreter.
+  - Tasks/Processes/Threads/Stacks.
+  - Userspace/"green" threads, Erlang/GHC/Go/Rust style threads.
+  - opensourceresearchinstitute.org's proto-runtime -- for parallel tasks (aka
+    Erlang style tasks but apparently much more scalable).
+  - [ ] Virtual Machine course
+    - http://www.wolczko.com/CS294/
+    - [[https://www.youtube.com/playlist?list=PLoa_3vdLBIP7dWamrPPWYryPKppncht_i][Video playlist]]
+
+*** Demystify Memory Management / Garbage Collection
+  - [ ] Implement a GC. Perhaps in Rust.
+    - https://manishearth.github.io/blog/2015/09/01/designing-a-gc-in-rust/
+
+  - Terminology
+    - Mutators (user threads)
+  - Algorithms
+    - Mark/Sweep
+    - Mark/Compact
+    - Tricolour mark/sweep
+    - Semispace/Copying
+    - Train algorithm
+    - Dijkstra's algorithm
+    - Doligez-Leroy
+    - Pauseless
+    - C4
+      - http://www.azul.com/files/c4_paper_acm1.pdf
+      - http://www.azul.com/files/Understanding_Java_Garbage_Collection_v41.pdf
+  - Open source collectors:
+    - open-source language implementations
+      - https://github.com/ocaml/ocaml
+      - https://github.com/ghc/ghc
+      - http://smlnj.org
+      - https://github.com/polyml/polyml/
+      - https://github.com/kfl/mosml
+      - http://mlton.org
+      - https://github.com/melsman/mlkit
+      - https://github.com/urweb/urweb
+    - [[http://www.ravenbrook.com/project/mps/][Memory Pool System]] (not a friendly license but suitable for study)
+  - Classifications
+    - Incremental v Stop-the-world
+    - Incremental v Concurrent v Parallel v Synchronous v ???
+  - http://lua-users.org/wiki/GarbageCollection
+  - [ ] [[http://flyingfrogblog.blogspot.com.au/2010/09/are-multicore-capable-garbage.html][Are multicore-capable garbage collectors hard to write?]] Jon Harrop
+    (answer: no)
+    - [ ] [[http://www.ffconsultancy.com/ocaml/hlvm/][HLVM]] 100 LOC apparently (stop-the-world)
+    - [ ] GHC multicore-friendly GC by Simon Marlow
+    - [ ] [[https://github.com/polyml/polyml/blob/master/libpolyml/gc.cpp][PolyML]]
+    - [ ] Manticore
+  - OCaml multicore
+    - http://www.ocamlpro.com/pub/multi-runtime.pdf
+    - https://github.com/ocamllabs/ocaml-multicore/wiki/Garbage-collector-invariants
+  - [ ] [[http://doc.cat-v.org/inferno/concurrent_gc/][Very Concurrent Mark and Sweep Garbage Collection without Fine-Grain
+    Synchronization]] (aka VCGC).
+  - Multicore considerations
+  - MMTk - collectors written in Java originally for the JikesVM.
+  - https://rwmj.wordpress.com/2009/08/08/ocaml-internals-part-5-garbage-collection/
+  - http://www.mono-project.com/docs/advanced/garbage-collector/sgen/
+  - Papers
+    - [ ] [[http://www3.nd.edu/~dthain/courses/cse40243/spring2006/gc-survey.pdf][Uniprocessor Garbage Collection Techniques]] Paul W. Wilson
+    - [ ] [[https://www.usenix.org/legacy/events/vee05/full_papers/p46-click.pdf][The Pauseless GC Algorithm]] Click Click, Gil Tene, Michael Wolf (2005).
+    - [X] [[http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.406.7321&rep=rep1&type=pdf][The Collie: A Wait-Free Compacting Collector]] Gil Tene and others (2012).
+    - [ ] [[http://welf.se/files/OL16.pdf][Block-Free Concurrent GC: Stack Scanning and Copying]] Erik Osterlund, Welf Löwe
+
+*** Demystify Debuggers
+
+  - [ ] How to get a symbolic debugger? Note Poly/ML has one.
+
+** Lisp/Scheme Implementation
+
+  - https://github.com/jsiek/Essentials-of-Compilation (book)
+  - https://github.com/cgswords/sgc
+
+
+  - [[http://www.cs.indiana.edu/%7Edyb/pubs/3imp.pdf][Three Implementation Models for Scheme]] R. Kent Dybvig
+
+  - http://norvig.com/silk/
+    - Use synrules.scm to get hygenic macros?
+    - Use r4stest.scm to test for R4RS compliance.
+
+  - http://norvig.com/lugm.pdf
+    - The six things you need:
+      1. Read and write.
+      2. Eval and apply.
+      3. Memory management / GC.
+      4. Run-time stack?
+      5. Primitive functions.
+      6. Primitive data types.
+
+  - Introduction to Scheme and it's implementation
+    - ftp://ftp.cs.utexas.edu/pub/garbage/cs345/schintro-v13/schintro_toc.html
+
+  - "Threaded code" interpreters
+    - https://www.complang.tuwien.ac.at/forth/threaded-code.html
+
+  - Cheney on the M.T.A.
+    - "CONS Should Not CONS Its Arguments, Part II: Cheney on the M.T.A", Henry G. Baker
+    - http://home.pipeline.com/~hbaker1/CheneyMTA.html
+
+  - ParentheC https://www.cs.indiana.edu/cgi-pub/c311/lib/exe/fetch.php?media=parenthec.pdf
+
+  - Lambda, the Ultimate Label
+    - http://3e8.org/pub/scheme/doc/lisp-pointers/v7i3/p128-clinger.pdf
+
+  - [[http://www.buildyourownlisp.com/contents][Build Your Own Lisp]] (no GC)
+    - [[http://journal.stuffwithstuff.com/2013/12/08/babys-first-garbage-collector/][Baby's First Garbage Collector]]
+
+  - 90-mins-scc i.e. 90 minutes Scheme to C compiler
+    - [[https://www.youtube.com/watch?v=HIr9eO1kB8g][schemetoc1]]
+    - [[https://www.youtube.com/watch?v=Vxy1x1kaed4][schemetoc2]]
+    - [[http://churchturing.org/y/90-min-scc.pdf][slides]]
+    - [[http://www.iro.umontreal.ca/~feeley/90-min-scc.tar.gz][code tarball]]
+
+  - Other Lispy/Schemey implementations:
+    - http://orchid-hybrid.github.io/2014/10/10/notes-on-compilers/
+    - https://github.com/Ravenbrook/mps/tree/master/example/scheme
+    - https://github.com/gambit/gambit
+    - [[http://practical-scheme.net/gauche/][Gauche]]
+      - https://github.com/shirok/Gauche/
+      - Uses bdw-gc
+    - [[https://racket-lang.org][Racket]] [[https://github.com/racket/racket][GitHub]]
+    - Chez Scheme https://github.com/cisco/ChezScheme
+    - Larceny
+    - Rhizome/pi
+    - Scheme48
+    - SCM
+
+** Demystify Lexer Generators
+
+   - Would like to be able to generate the lexer from an embedded
+     description. Pretty sure that Manuel Chakravarty did work on this
+     (I have a note somewhere's).
+   - Let's have something like this in Idris (and all the cool PLs).
+     At least a Lex like thing.
+   - [[http://programatica.cs.pdx.edu/P/hallgren.pdf][This]] lexer for Haskell embedded a lexer generator.
+     - Looks like it was used in hssources (is that a Hackage
+       project?)
+     - Paper says that the regex generator was based on the
+       presentation in Appel's Modern Compiler Implementation in ML. 
+
+** Demystify Parser Generators
+
+  - I like the approach of [[https://hackage.haskell.org/package/BNFC-meta][BNFC-meta]]. It defines the grammar in the
+    language (even if it's via TH). Let's have this in Idris (and the
+    cool PLs). At least something like Happy.
+  - I know there's supposed to be more general way to parse these days
+    than LR and LALR but perhaps they are slow too (if not, embed
+    those types of grammars instead!).
+  - [[https://github.com/ollef/Earley/][Early]] an embedded Early (context-free) parser combinator library
+    in Haskell.
+  - Haskell style "layout rule". PKA Landin's offside rule.
+    - https://github.com/ghc/ghc/blob/master/compiler/parser/Lexer.x
+    - https://michaeldadams.org/papers/layout_parsing/
+
+** Demystify Automated Deduction
+  - aka course notes/slides for Automated Deduction
+  - The theorem prover from ML for the Working Programmer.
+  - Djinn walkthrough.
+
+** Demystify Twelf
+  - http://jozefg.bitbucket.org/posts/2015-02-28-twelf.html
+
+** Demystify Isabelle/HOL
+
+  - [[http://homes.soic.indiana.edu/classes/spring2015/csci/b522-jsiek/][CSCI B522 Programming Language Foundations, Jeremy Siek (course)]]
+
+** Demystify Verified/Certified Programming
+
+  - [[http://adam.chlipala.net/cpdt/][Certified Programming with Dependent Types]], Adam Chlipala
+  - =[VFPiA]= Verified Functional Programming in Agda, Aaron Stump
+    - [ ] [[https://svn.divms.uiowa.edu/repos/clc/projects/agda/book/book.pdf][draft version from August 2015]]
+
+    #+begin_quote
+    The book is intended as an introduction for undergraduates who do not have a
+    background in Agda, or type theory, or even functional programming.  (Note
+    that the book is not intended to be a reference on advanced features of
+    Agda; that would be a great book for others on this list to write!)  The
+    goal of VFPiA is an introduction, for beginners, to ideas in applied type
+    theory using Agda.
+    #+end_quote
+
+  - Certified Compilers
+    - Software Foundations
+    - http://ltamer.sourceforge.net
+    - CompCert
+      - Leroy lectures at OPLSS
+    - CakeML
+    - [ ] [[http://adam.chlipala.net/papers/ChlipalaPhD/][Implementing Certified Programming Language Tools in Dependent Type
+      Theory]] Adam Chlipala's PhD dissertation
+    - [ ] Program Logic for Certified Compilers, Andrew W. Appel (book)
+
+** Demystify Packages
+
+  - AKA "Package Management"
+
+  - Nix is cool.
+
+*** Package all the things
+  - Nix for your dotfiles.
+  - Nix for your development environment configuration.
+  - Nix for your own tools (aka etools at Ephox).
+  - Nix for your (proprietary) software products.
+
+** OPLSS
+  - [-] OPLSS
+    - [-] 2010
+      - [X] Type Theory Foundations — Robert Harper
+      - [X] Proof Theory Foundations — Frank Pfenning
+      - [ ] Dependently Typed Programming — Conor McBride
+      - [ ] Proofs-as-Processes (in CTT) — Robert Constable
+      - [ ] Proving a Compiler — Xavier Leroy
+      - [X] Software Foundations in Coq — Benjamin Pierce
+      - [X] Essential Coq from Scratch — Andrew Tolmach
+    - [ ] 2011
+    - [ ] 2012
+    - [-] 2013
+      - [ ] Logical Relations — Amal Ahmed
+      - [ ] Type Theory Foundations — Robert Harper
+      - [ ] Dependently-typed Programming in Agda — Dan Licata
+      - [ ] Adventures with types in Haskell — Simon Peyton-Jones
+      - [ ] Linear Logic and Session-based Concurrency — Frank Pfenning
+      - [ ] Software Foundations in Coq — Andrew Tolmach
+      - [X] Designing Dependently-Typed Programming Languages — Stephanie Weirich
+      - [ ] Verifying LLVM Optimizations in Coq — Steve Zdancewic
+    - [-] 2014
+      - [ ] Software Verification — Andrew Appel
+      - [ ] Category Theory — Lars Birkedal
+      - [ ] Parametricity and Relational Reasoning — Derek Dreyer
+      - [ ] Type Theory Foundations — Robert Harper
+      - [ ] Programming in Agda — Ulf Norell
+      - [ ] Certified Programming and State — Greg Morrisett
+      - [ ] Proof Theory Foundations — Brigitte Pientka
+      - [X] Designing Dependently-Typed Programming Languages — Stephanie Weirich
+      - [ ] Software Foundations in Coq — Steve Zdancewic
+      - [ ] Featured Lecture - Tom Ball
+    - [ ] 2015
+      - [ ] Basic Proof Theory — Frank Pfenning
+      - [ ] Introduction to Dependent Type Theory — Robert Harper
+      - [ ] Basic Category Theory: Semantics of Proof Theory — Ed Morehouse
+      - [ ] Inductive and Inductive-Recursive Definitions in Intuitionistic Type Theory — Peter Dybjer
+      - [ ] The Coq Proof Assistant and Its Applications to Programming-Language Semantics — Adam Chlipala
+      - [ ] Logical Relations — Amal Ahmed
+      - [ ] Mark Bickford
+      - [ ] Robert Constable
+    - [-] 2016 ([[https://www.youtube.com/playlist?list=PLiHLLF-foEez5Dis-VqoGcg3WepdMh4XT][Youtube playlist]])
+      - [X] Programming Languages Background — Robert Harper and Dan Licata
+      - [-] Category Theory Background — Ed Morehouse
+        - [X] Lecture 1
+        - [X] Lecture 2
+        - [ ] Lecture 3
+        - [ ] Lecture 4
+      - [ ] Logical Relations — Patricia Johann
+      - [ ] Principles of Type Refinement — Noam Zeilberger
+      - [ ] Logical relations/Compiler verification — Amal Ahmed
+
+** Writing papers
+  - org-mode
+  - [[https://github.com/jkitchin/org-ref][org-ref]]
+  - https://github.com/vikasrawal/orgpaper/blob/master/orgpapers.org
+  - [[https://github.com/kawabata/ox-pandoc][ox-pandoc]]
+
+*** Learn LaTex
+
+ - Produce something (tech report?) with LaTeX. Perhaps via org-mode.
+** Haskell
+
+- Can it be proven that total languages can safely use fusion (because 
+  they can evaluated non-strictly)?
+
+*** Swift parser for Haskell
+
+  - Sigh, language-swift-quote is stalled because of ambiguities in
+    the grammar. Revisit now Swift 3.0 has been released?
+
+*** Turtle
+
+  - Convert the [[http://tldp.org/LDP/abs/html/string-manipulation.html][horrors of Bash]] to the wonders of Turtle Haskell
+
+*** Web frameworks in Haskell.
+   - Try out Scotty, Spock, Yesod, Snap, Servant.
+     - http://www.yesodweb.com/book/yesod-for-haskellers
+   - Write a REST/JSON client in Haskell (Twitter/GitHub client, say).
+   - Write a REST/JSON server in Haskell.
+   - Write a "sessionless" web app in Haskell.
+
+*** Learn pipes
+
+   - https://ocharles.org.uk/talks/2013-09-18-pipes.pdf
+   - https://www.schoolofhaskell.com/school/to-infinity-and-beyond/pick-of-the-week/Pipes%20tutorial
+** PureScript
+
+  - Port [[https://twitter.com/li_haoyi][Li Haoyi]]'s Scala-JS examples to PureScript.
+    - https://gist.github.com/lihaoyi/9443f8e0ecc68d1058ad
+    - Idris & Glorious GHCJS.
+** Scala
+
+  - http://eed3si9n.com/learning-scalaz/
+  - [[http://blog.jetbrains.com/scala/2016/04/21/how-to-contribute-to-intellij-scala-plugin/][Contribute to intellij-scala]]
+
+** Miscellaneous
+  - [ ] Find old ADC/Intec shares.
+  - [ ] Fix old Hakyll blog http://timbaumann.info/posts/2013-08-04-hakyll-github-and-travis.html
+  - [ ] Revise blog's Hakyll code. See https://github.com/gallais/gallais.github.io
+  - [X] [[https://www.coursera.org/learn/learning-how-to-learn/home/welcome][Learning How to Learn]] (Coursera Course)

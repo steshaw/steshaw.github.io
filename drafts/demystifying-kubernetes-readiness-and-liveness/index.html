@@ -1,0 +1,79 @@
+<header>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">Demystifying Kubernetes "readiness" and "liveness"</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime="14 March 2017" pubdate>14 March 2017</time></small></h4>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="post-content">
+  <h1 id="demystifying-kubernetes-readiness-and-liveness">Demystifying Kubernetes “readiness” and “liveness”</h1>
+<p><em>Probably don’t know what I’m doing here</em></p>
+<p>You may have heard phrases like:</p>
+<ul>
+<li>“health and readiness”</li>
+<li>“liveness and readiness”</li>
+</ul>
+<p>As you can see “health” corresponds to “liveness” in Kubernetes.</p>
+<ul>
+<li>“readiness probe” or “readiness check”</li>
+<li>“liveness probe” or “readiness check”</li>
+</ul>
+<h3 id="readiness">Readiness</h3>
+<p>Technical definition:</p>
+<p>“ready” = ready to serve traffic</p>
+<p>If a container is not “ready” it will be removed (or not added if starting up) to load balancers so that traffic will not be directed to it.</p>
+<h3 id="liveness">Liveness</h3>
+<p>Technical definition:</p>
+<p>“live” = container is alive</p>
+<p>Hmm, not that helpful. It’s alive! (insert Frankenstein picture here).</p>
+<p>You might more familiarly know this as a health check.</p>
+<p>If a liveness probe fails multiple times then the container will be restarted.</p>
+<p>Q. Is it the container only or the entire pod that is restarted?</p>
+<p>Q. But shouldn’t there but some relationship between “readiness” and “liveness”?</p>
+<p>Q. Can you be ready but not alive? Q. Can you be live but not ready?</p>
+<p>Q. Should there be a relationship between initial-delay and period of your checks? Since you can tweak the initial-delay and the period of the checks, it’s quite possible to have a situation where your container is ready but not alive or alive but not ready.</p>
+<h2 id="pods">Pods</h2>
+<p>So far, we’ve talked in terms of containers but pods are Kubernetes unit of distribution. All containers in a pod must be ready for the pod to be considered ready. Similiarly for liveness.</p>
+<p>Q. Does Kubernetes restart individual containers or only whole pods? i.e. can live containers be killed when the pod is considered unhealthy. Yes?</p>
+<h2 id="http-response-codes">HTTP response codes</h2>
+<p>Liveness and readiness checks are usually accomplished via HTTP GET. It’s interesting to note that your container is considered to be alive if it responses with codes in the range 200-400. Now a 200 (OK) makes perfect sense but 300 (redirects) and 400 (client errors) less so. Something to be careful about when you implement your liveness/readiness checks. i.e. Just return 200 or 500.</p>
+<h2 id="dependencies-boot-order">Dependencies / Boot order</h2>
+<p>These probes allow your container to be less concerned about the order in which it’s dependencies are started/booted.</p>
+<p>Image your typical monolithic web app. It’s packaged in a container image and needs to talk to a database. Simples (cue picture of Meerkat)! When deploying your application for the first time, neither the database nor your application exist. If your web app is started first, without readiness/liveness checks (XXX: which?), it might start up, start receiving traffic and keep giving the user error messages about database connection issues. With readiness checks, your app will not receive traffic until the database is reachable from your app. Nice. No need to worry about boot order either.</p>
+<p>As a bonus, well more than a bonus, if the database goes down, then your app becomes unready and will stop receiving traffic.</p>
+<p>Q: How to does a “fail whale” in this situation?</p>
+<h3 id="warning-avoid-cycles.">Warning: avoid cycles.</h3>
+<p>If you have cycles in your readiness/dependency graph then your system will not boot (i.e. become ready as a whole). You can see this in the simplest system where A depends on B and B depends on A:</p>
+<ul>
+<li>A -&gt; B</li>
+<li>B -&gt; A</li>
+</ul>
+<p>You start container A. It begins waiting to see B before it’s “ready”.</p>
+<p>You start container B. It begins waiting to see A before it’s “ready”.</p>
+<p>Yikes! Neither will ever become ready.</p>
+<p>This could be much hard to detect in a larger system. It would be nice to have a system in which these dependencies are declared and analysed for cycles. This would give a heads-up in development/integration stages.</p>
+<p>Kubernetes pod configurations do not explicitly declare dependencies. Neither do deployment configurations. That’s ok, these dependencies could be declared in a system at a higher level of abstraction.</p>
+<p>Q. Does Terraform do this?</p>
+<p>Note the similarity from programming languages: modules are often not allowed to have cycles. If a module system does feature cycles, they are often called <a href="https://caml.inria.fr/pub/docs/manual-ocaml/extn.html#sec219">“recursive modules”</a>.</p>
+<p>Q. Does purity make a difference here?</p>
+
+  
+    <div class="tags text-right">
+      <i class="fa fa-tags"></i> 
+    </div>
+  
+</div>
+
+<nav>
+  <ul class="pager">
+    
+    
+  </ul>
+</nav>

@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <title>Steven Shaw - Notes</title>
+    <meta name="description" content="Steven Shaw loves programming languages">
+    <meta name="author" content="Steven Shaw">
+    <meta name="robots" content="index, follow">
+
+    <!-- Styles -->
+    <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="../css/default.css" />
+    <link rel="stylesheet" type="text/css" href="../css/syntax-figure.css" />
+    <link rel="stylesheet" type="text/css" href="../css/syntax.css" />
+<!--
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
+-->
+
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+
+    <!-- Google analytics { -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-62781857-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+    <!-- } -->
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="navbar navbar-default navbar-static-top sm80">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div class="navbar-brand center-x center-y">
+            <div>
+              <a href="../">
+                <img class="logo" src="../images/pltsrc—150×150.png" alt="λΠ">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class>
+              <a href="../"><i class="fa fa-home"></i> Home</a>
+            </li>
+            <!--
+              <li>
+                <a href="/posts.html"><i class="fa fa-inbox"></i> Posts</a>
+              </li>
+            -->
+            <li class>
+              <a href="../talks"><i class="fa fa-comment"></i> Talks</a>
+            </li>
+            <li>
+              <a href="https://steshaw.org/plt/">λΠ PLT</a>
+            </li>
+<!--
+            <li>
+              <a href="http://tlcsrc.github.io"><i class="fa fa-cubes"></i>TLC SRC</a>
+            </li>
+-->
+            <li>
+              <a href="https://steshaw.org/radar/"><i class="fa fa-bullseye"></i> Radar</a>
+            </li>
+            <!-- <li><a href="/tags.html"><i class="fa fa-tags"></i> Tags</a></li>
+            <li>
+              <a href="/rss.xml" class="rss-link">
+                <i class="fa fa-rss"></i>
+                <abbr class="initialism"> RSS</abbr>
+              </a>
+            </li> -->
+<!--
+            <li class="active">
+              <a href="/notes"><i class="fa fa-sticky-note-o"></i> Notes</a>
+            </li>
+-->
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class>
+              <a href="../about"><i class="fa fa-user"></i> About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h1 id="idris-development-notes">Idris Development Notes</h1>
+<ul>
+<li><p>Edwin’s paper, <a href="https://eb.host.cs.st-andrews.ac.uk/drafts/impldtp.pdf">Idris, a General Purpose Dependently Typed Programming Language: Design and Implementation</a>. Covers <code>TT</code>, the elaboration monad, tactic-based elaboration and more.</p></li>
+<li><p><a href="http://idris.readthedocs.io/en/latest/reference/internals.html">Idris’ Internals</a></p></li>
+<li><p>“A Look at the Idris Internals” series by Paul Körbitz.</p>
+<ul>
+<li><a href="http://koerbitz.me/posts/A-Look-at-the-Idris-Internals-Part-I-Overview-and-Parsing.html">Part I: Overview and Parsing</a></li>
+<li><a href="http://koerbitz.me/posts/A-Look-at-the-Idris-Internals-Part-II-Taking-the-Parser-for-a-Spin.html">Part II: Taking the Parser for a Spin</a></li>
+<li><a href="http://koerbitz.me/posts/A-Look-at-the-Idris-Internals-Part-III-From-Parsing-to-Elaboration.html">Part III: From Parsing to Elaboration</a></li>
+<li><a href="http://koerbitz.me/posts/A-Look-at-the-Idris-Internals-Part-IV-From-TT-Onward.html">Part IV: From TT Onward</a></li>
+</ul></li>
+</ul>
+<h2 id="backendcodegen">Backend/Codegen</h2>
+<ul>
+<li>Edwin’s paper on backend/codegen: <a href="https://eb.host.cs.st-andrews.ac.uk/drafts/compile-idris.pdf">Cross-platform Compilers for Functional Languages</a>.</li>
+<li>Edwin’s example backend/codegen: <a href="https://github.com/edwinb/idris-php/">idris-php</a>.</li>
+<li>Other backends/codegens:
+<ul>
+<li><a href="https://github.com/mmhelloworld/idris-jvm/">mmhelloworld/idris-jvm</a></li>
+<li><a href="https://github.com/bamboo/idris-cil/">bamboo/idris-cil</a></li>
+</ul></li>
+<li><a href="https://github.com/idris-lang/Idris-dev/wiki/Idris-back-end-IRs">Idris-backend-IRs</a></li>
+<li>Levels of backend IR:
+<ul>
+<li><ol>
+<li>(IR/case) = ??? FIXME: Does this exist?</li>
+</ol></li>
+<li><ol>
+<li>LDecl (IR/lift) = [Lambda] Lifted Decl = lambda-lifted untyped lambda calculus</li>
+</ol></li>
+<li><ol>
+<li>DDecl (IR/defunc) = Defunctionalised Decl = defunctionalised untyped lambda calculus</li>
+</ol></li>
+<li><ol>
+<li>SDecl (IR/ANF) = Simplified Decl = ANF</li>
+</ol></li>
+</ul></li>
+</ul>
+<h2 id="abbreviations">Abbreviations</h2>
+<dl>
+<dt><code>PDecl</code></dt>
+<dd>Program declaration. Essentially top of AST.
+</dd>
+<dt><code>PTerm</code></dt>
+<dd>Program Term. The parameter for PDecl. i.e. <code>type PDecl = PDecl' PTerm</code>.
+</dd>
+<dt><code>FC</code></dt>
+<dd>probably short for FileContext. Contains source positions produced by Parser.
+</dd>
+</dl>
+<h2 id="build-times-imac-late-2009">Build times (iMac late 2009)</h2>
+<ul>
+<li>Clean build but dependencies already built (Stack, GHC 8.0.1)
+<ul>
+<li><code>modularise-ast</code>
+<ul>
+<li>891.74 real 819.78 user 29.68 sys — (14.86 minutes)</li>
+<li>922.26 real 828.76 user 33.22 sys — (15.37 minutes)</li>
+<li>693.39 real 659.26 user 22.45 sys — (11.56 minutes)</li>
+<li>753.93 real 687.58 user 25.12 sys — (12.57 minutes)</li>
+</ul></li>
+<li><code>master</code>
+<ul>
+<li>770.54 real 669.36 user 26.31 sys — (12.84 minutes)</li>
+</ul></li>
+</ul></li>
+</ul>
+<h2 id="ast-and-perhaps-core-refactoring">AST (and perhaps Core) Refactoring</h2>
+<ul>
+<li>[X] importing Idris.AbsSyntaxTree
+<ul>
+<li>[X] src/Idris/AbsSyntax.hs:import Idris.AbsSyntaxTree</li>
+<li>[X] src/Idris/ASTUtils.hs:import Idris.AbsSyntaxTree</li>
+<li>[X] src/Idris/CaseSplit.hs:import Idris.AbsSyntaxTree</li>
+<li>[X] src/Idris/CmdOptions.hs:import Idris.AbsSyntaxTree</li>
+<li>[X] src/Idris/Completion.hs:import Idris.AbsSyntaxTree</li>
+<li>[X] src/Idris/Core/Execute.hs:import Idris.AbsSyntaxTree</li>
+<li>[X] src/Idris/DataOpts.hs:import Idris.AbsSyntaxTree</li>
+<li>[X] src/Idris/DeepSeq.hs:import Idris.AbsSyntaxTree</li>
+<li>[X] src/Idris/Elab/Rewrite.hs:import Idris.AbsSyntaxTree</li>
+<li>[X] src/Idris/Elab/Term.hs:import Idris.AbsSyntaxTree</li>
+<li>[X] src/Idris/Package/Common.hs:import Idris.AbsSyntaxTree</li>
+<li>[X] src/Idris/Package/Parser.hs:import Idris.AbsSyntaxTree</li>
+<li>[X] src/Idris/Prover.hs:import Idris.AbsSyntaxTree</li>
+<li>[X] src/Idris/Providers.hs:import Idris.AbsSyntaxTree</li>
+<li>[X] src/Idris/Reflection.hs:import Idris.AbsSyntaxTree</li>
+<li>[X] src/Idris/REPL/Browse.hs:import Idris.AbsSyntaxTree</li>
+<li>[X] src/Idris/REPL/Commands.hs:import Idris.AbsSyntaxTree</li>
+<li>[X] src/Idris/TypeSearch.hs:import Idris.AbsSyntaxTree</li>
+<li>[X] src/IRTS/Compiler.hs:import Idris.AbsSyntaxTree</li>
+</ul></li>
+<li>[X] importing Idris.AbsSyntax
+<ul>
+<li>[X] src/Idris/Apropos.hs:import Idris.AbsSyntax</li>
+<li>[X] src/Idris/CaseSplit.hs:import Idris.AbsSyntax (</li>
+<li>[X] src/Idris/Chaser.hs:import Idris.AbsSyntax</li>
+<li>[X] src/Idris/CmdOptions.hs:import Idris.AbsSyntax (</li>
+<li>[X] src/Idris/Completion.hs:import Idris.AbsSyntax (runIO)</li>
+<li>[X] src/Idris/Core/Execute.hs:import Idris.AbsSyntax (getIState, getContext)</li>
+<li>[X] src/Idris/Coverage.hs:import Idris.AbsSyntax</li>
+<li>[X] src/Idris/DataOpts.hs:import Idris.AbsSyntax ()</li>
+<li>[X] src/Idris/Delaborate.hs:import Idris.AbsSyntax</li>
+<li>[X] src/Idris/Directives.hs:import Idris.AbsSyntax</li>
+<li>[X] src/Idris/Docs.hs:import Idris.AbsSyntax (</li>
+<li>[X] src/Idris/DSL.hs:import Idris.AbsSyntax</li>
+<li>[X] src/Idris/Elab/AsPat.hs:import Idris.AbsSyntax</li>
+<li>[X] src/Idris/Elab/Clause.hs:import Idris.AbsSyntax</li>
+<li>[X] src/Idris/Elab/Data.hs:import Idris.AbsSyntax</li>
+<li>[X] src/Idris/Elab/Implementation.hs:import Idris.AbsSyntax</li>
+<li>[X] src/Idris/Elab/Interface.hs:import Idris.AbsSyntax</li>
+<li>[X] src/Idris/Elab/Provider.hs:import Idris.AbsSyntax</li>
+<li>[X] src/Idris/Elab/Quasiquote.hs:import Idris.AbsSyntax</li>
+<li>[X] src/Idris/Elab/Record.hs:import Idris.AbsSyntax</li>
+<li>[X] src/Idris/Elab/Rewrite.hs:import Idris.AbsSyntax (addImplBound, getIState)</li>
+<li>[X] src/Idris/Elab/RunElab.hs:import Idris.AbsSyntax</li>
+<li>[X] src/Idris/Elab/Term.hs:import Idris.AbsSyntax (</li>
+<li>[X] src/Idris/Elab/Transform.hs:import Idris.AbsSyntax</li>
+<li>[X] src/Idris/Elab/Type.hs:import Idris.AbsSyntax</li>
+<li>[X] src/Idris/Elab/Utils.hs:import Idris.AbsSyntax</li>
+<li>[X] src/Idris/Elab/Value.hs:import Idris.AbsSyntax</li>
+<li>[X] src/Idris/ElabDecls.hs:import Idris.AbsSyntax</li>
+<li>[X] src/Idris/Erasure.hs:import Idris.AbsSyntax</li>
+<li>[X] src/Idris/Error.hs:import Idris.AbsSyntax</li>
+<li>[X] src/Idris/ErrReverse.hs:import Idris.AbsSyntax</li>
+<li>[X] src/Idris/IBC.hs:import Idris.AbsSyntax</li>
+<li>[X] src/Idris/IdrisDoc.hs:import Idris.AbsSyntax</li>
+<li>[X] src/Idris/Imports.hs:import Idris.AbsSyntax</li>
+<li>[X] src/Idris/Info.hs:import Idris.AbsSyntax (loggingCatsStr)</li>
+<li>[X] src/Idris/Inliner.hs:import Idris.AbsSyntax</li>
+<li>[X] src/Idris/Interactive.hs:import Idris.AbsSyntax</li>
+<li>[X] src/Idris/Main.hs:import Idris.AbsSyntax</li>
+<li>[X] src/Idris/ModeCommon.hs:import Idris.AbsSyntax</li>
+<li>[X] src/Idris/Output.hs:import Idris.AbsSyntax</li>
+<li>[X] src/Idris/Package.hs:import Idris.AbsSyntax</li>
+<li>[X] src/Idris/Parser/Data.hs:import Idris.AbsSyntax</li>
+<li>[X] src/Idris/Parser/Expr.hs:import Idris.AbsSyntax</li>
+<li>[X] src/Idris/Parser/Helpers.hs:import Idris.AbsSyntax</li>
+<li>[X] src/Idris/Parser/Ops.hs:import Idris.AbsSyntax</li>
+<li>[X] src/Idris/Parser.hs:import Idris.AbsSyntax hiding (namespace, params)</li>
+<li>[X] src/Idris/PartialEval.hs:import Idris.AbsSyntax</li>
+<li>[X] src/Idris/Primitives.hs:import Idris.AbsSyntax</li>
+<li>[X] src/Idris/ProofSearch.hs:import Idris.AbsSyntax</li>
+<li>[X] src/Idris/Prover.hs:import Idris.AbsSyntax</li>
+<li>[X] src/Idris/REPL/Browse.hs:import Idris.AbsSyntax (getContext)</li>
+<li>[X] src/Idris/REPL/Parser.hs:import Idris.AbsSyntax</li>
+<li>[X] src/Idris/REPL.hs:import Idris.AbsSyntax</li>
+<li>[X] src/Idris/Transforms.hs:import Idris.AbsSyntax</li>
+<li>[X] src/Idris/TypeSearch.hs:import Idris.AbsSyntax (addUsingConstraints, addImpl, getIState, putIState, implicit)</li>
+<li>[X] src/Idris/WhoCalls.hs:import Idris.AbsSyntax</li>
+<li>[X] src/IRTS/CodegenC.hs:import Idris.AbsSyntax</li>
+<li>[X] src/IRTS/CodegenJavaScript.hs:import Idris.AbsSyntax hiding (TypeCase)</li>
+<li>[X] src/IRTS/Compiler.hs:import Idris.AbsSyntax</li>
+<li>[X] src/IRTS/Compiler.hs:import qualified Idris.AbsSyntax as AbsSyntax</li>
+<li>[X] src/IRTS/Exports.hs:import Idris.AbsSyntax</li>
+</ul></li>
+</ul>
+<p>Potential refactorings:</p>
+<ul>
+<li>Can we lift Opt and option processing functions from AbsSyntax?
+<ul>
+<li>made obvious in Idris.Main.</li>
+</ul></li>
+<li>Can we lift OutputAnnotations from Core.TT?</li>
+<li>Can we lift Name and associated functions from Core.TT?</li>
+</ul>
+<p>Errors</p>
+<p>See if this happens on <code>master</code>.</p>
+<blockquote>
+<p>OK (5.88s) ffi009: Error: test/ffi009 idris: Foreign Function calls cannot be partially applied, without being inlined. CallStack (from HasCallStack): error, called at src/IRTS/CodegenC.hs:343:36 in idris-0.12.3-LoUXGyrDJU677RY2CaNGaq:IRTS.CodegenC clang: warning: argument unused during compilation: ‘-fno-strict-overflow’</p>
+<p>OK (6.91s) Folding folding001: OK (4.73s)</p>
+</blockquote>
+      <footer class="footer text-muted">
+        <div class="flex">
+          <div class="flex-left">
+            <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+              <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" />
+            </a>
+          </div>
+          <div class="flex-center text-center">
+            ©️  Steven Shaw 2004-2019
+          </div>
+          <div class="flex-right text-right">
+            <a href="#">Back to top <i class="fa fa-arrow-up"></i></a>
+          </div>
+        </div>
+        <div class="entry-unrelated text-center small">
+          Built with <a href="https://jaspervdj.be/hakyll/">Hakyll</a>,
+          <a href="https://pandoc.org/">Pandoc</a>,
+          <a href="https://getbootstrap.com/docs/3.3/">Bootstrap 3.3</a>
+          and <a href="https://fontawesome.com/">Font Awesome</a>
+        </div>
+      </footer>
+    </div>
+
+    <!-- JavaScripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="../js/octopressify.js"></script>
+    <script src="../js/blog.js"></script>
+  </body>
+</html>

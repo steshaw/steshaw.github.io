@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <title>Steven Shaw - Haskell on Spacemacs</title>
+    <meta name="description" content="Steven Shaw loves programming languages">
+    <meta name="author" content="Steven Shaw">
+    <meta name="robots" content="index, follow">
+
+    <!-- Styles -->
+    <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../../css/default.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../../css/syntax-figure.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../../css/syntax.css" />
+<!--
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
+-->
+
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+
+    <!-- Google analytics { -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-62781857-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+    <!-- } -->
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="navbar navbar-default navbar-static-top sm80">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div class="navbar-brand center-x center-y">
+            <div>
+              <a href="../../../../../">
+                <img class="logo" src="../../../../../images/pltsrc—150×150.png" alt="λΠ">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class>
+              <a href="../../../../../"><i class="fa fa-home"></i> Home</a>
+            </li>
+            <!--
+              <li>
+                <a href="/posts.html"><i class="fa fa-inbox"></i> Posts</a>
+              </li>
+            -->
+            <li class>
+              <a href="../../../../../talks"><i class="fa fa-comment"></i> Talks</a>
+            </li>
+            <li>
+              <a href="https://steshaw.org/plt/">λΠ PLT</a>
+            </li>
+<!--
+            <li>
+              <a href="http://tlcsrc.github.io"><i class="fa fa-cubes"></i>TLC SRC</a>
+            </li>
+-->
+            <li>
+              <a href="https://steshaw.org/radar/"><i class="fa fa-bullseye"></i> Radar</a>
+            </li>
+            <!-- <li><a href="/tags.html"><i class="fa fa-tags"></i> Tags</a></li>
+            <li>
+              <a href="/rss.xml" class="rss-link">
+                <i class="fa fa-rss"></i>
+                <abbr class="initialism"> RSS</abbr>
+              </a>
+            </li> -->
+<!--
+            <li class="">
+              <a href="/notes"><i class="fa fa-sticky-note-o"></i> Notes</a>
+            </li>
+-->
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class>
+              <a href="../../../../../about"><i class="fa fa-user"></i> About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <header>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">Haskell on Spacemacs</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime="12 August 2017" pubdate>12 August 2017</time></small></h4>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="post-content">
+  <p>I’ve wanted to give Spacemacs another try for Haskell development. In particular, I wanted it to work with <code>intero</code> and <code>hindent</code>.</p>
+<h2 id="install-emacs">Install Emacs</h2>
+<p>I like to use Mitsuharu Yamamoto’s emacs-mac, rather than Aquamacs or emacsformacosx.</p>
+<pre class="shell"><code>$ brew tap railwaycat/emacsmacport
+$ brew cask install emacs-mac
+</code></pre>
+<h2 id="install-dependencies">Install Dependencies</h2>
+<p>The <code>haskell</code> layer in Spacemacs requires a few dependencies. I installed them with Stack.</p>
+<pre class="shell"><code>$ stack install hlint hasktags hoogle ghc-mod intero
+$ stack --resolver nightly-2017-08-12 install apply-refact
+</code></pre>
+<h2 id="haskell-layer">Haskell layer</h2>
+<p>I added the <code>haskell</code> layer plus <code>autocompletion</code> which it seems to require. I also followed the documentation in configuring intero and hindent (though the style “johan-tibell” no longer seems required as hindent no longer supports multiple styles).</p>
+<p>After adding a few other layers, my configuration layers in <code>~/.spacemacs</code> looked like this:</p>
+<div class="sourceCode" id="cb3" data-org-language="emacs-lisp"><pre class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb3-1"><a href="#cb3-1"></a>dotspacemacs-configuration-layers</span>
+<span id="cb3-2"><a href="#cb3-2"></a>'(</span>
+<span id="cb3-3"><a href="#cb3-3"></a>  ansible</span>
+<span id="cb3-4"><a href="#cb3-4"></a>  auto-completion</span>
+<span id="cb3-5"><a href="#cb3-5"></a>  emacs-lisp</span>
+<span id="cb3-6"><a href="#cb3-6"></a>  git</span>
+<span id="cb3-7"><a href="#cb3-7"></a>  (haskell :variables</span>
+<span id="cb3-8"><a href="#cb3-8"></a>           haskell-completion-backend 'intero</span>
+<span id="cb3-9"><a href="#cb3-9"></a>           haskell-enable-hindent-style <span class="st">&quot;johan-tibell&quot;</span>)</span>
+<span id="cb3-10"><a href="#cb3-10"></a>  helm</span>
+<span id="cb3-11"><a href="#cb3-11"></a>  html</span>
+<span id="cb3-12"><a href="#cb3-12"></a>  javascript</span>
+<span id="cb3-13"><a href="#cb3-13"></a>  markdown</span>
+<span id="cb3-14"><a href="#cb3-14"></a>  org</span>
+<span id="cb3-15"><a href="#cb3-15"></a>  osx</span>
+<span id="cb3-16"><a href="#cb3-16"></a>  (shell :variables</span>
+<span id="cb3-17"><a href="#cb3-17"></a>         shell-default-height <span class="dv">30</span></span>
+<span id="cb3-18"><a href="#cb3-18"></a>         shell-default-position 'bottom)</span>
+<span id="cb3-19"><a href="#cb3-19"></a>  spell-checking</span>
+<span id="cb3-20"><a href="#cb3-20"></a>  syntax-checking</span>
+<span id="cb3-21"><a href="#cb3-21"></a>  themes-megapack</span>
+<span id="cb3-22"><a href="#cb3-22"></a>  version-control</span>
+<span id="cb3-23"><a href="#cb3-23"></a>  yaml</span>
+<span id="cb3-24"><a href="#cb3-24"></a>  )</span></code></pre></div>
+<h2 id="project-sidebar">Project sidebar</h2>
+<p>I missed having a project sidebar (such as seems to be the default in editors like Atom). Eventually, I found that Spacemacs includes NeoTree, which makes a viable project sidebar. Toggle on/off with <code>SPC p t</code> or <code>SPC f t</code> for a file rather than project browser.</p>
+<p><a href="https://github.com/syl20bnr/spacemacs/blob/master/doc/DOCUMENTATION.org#neotree-file-tree">See more in the documentation</a></p>
+<h2 id="tab-bar">Tab bar</h2>
+<p>I also missed having a tab bar (for open files) such as that in Atom. There doesn’t seem to be anything built into Spacemacs for this. I tried the <a href="https://github.com/evacchi/tabbar-layer">tabbar-layer</a>, but it was pretty ugly.</p>
+<p>After some searching, I figured I could rely on “helm-mini”. It lets you open search/select files from the open buffers with <code>SPC b b</code>. Also searching/selecting for files in the same project is possible from projectile with <code>SPC p f</code>.</p>
+<h2 id="fill-column-indicator">Fill column indicator</h2>
+<p>I wanted my little indicator for the 80th column. Here, you need to tweak your <code>~/.spacemacs</code> file.</p>
+<div class="sourceCode" id="cb4" data-org-language="emacs-lisp"><pre class="sourceCode commonlisp"><code class="sourceCode commonlisp"><span id="cb4-1"><a href="#cb4-1"></a>(<span class="kw">defun</span><span class="fu"> dotspacemacs/user-config </span>()</span>
+<span id="cb4-2"><a href="#cb4-2"></a>  (spacemacs/toggle-fill-column-indicator-on)</span>
+<span id="cb4-3"><a href="#cb4-3"></a>  )</span></code></pre></div>
+<h2 id="theme">Theme</h2>
+<p>It was fun seeing the different themes available for Spacemacs. It’s best to install <code>themes-megapack</code> layer (see my layers configuration above). I don’t mind the default <code>spacemacs-dark</code> theme but here are some of my other favourites:</p>
+<ul>
+<li><code>deeper-blue</code></li>
+<li><code>dracula</code></li>
+<li><code>sanityinc-solarized-dark</code></li>
+<li><code>solarized-dark</code></li>
+</ul>
+<p>Check out <a href="http://themegallery.robdor.com/">the gallery</a>.</p>
+<p>I finally settled on <code>deeper-blue</code>.</p>
+<img class="img-responsive" src="../../../../../images/haskell-on-spacemacs.png">
+
+
+  
+    <div class="tags text-right">
+      <i class="fa fa-tags"></i> <a href="../../../../../tags/haskell/index.html">haskell</a>, <a href="../../../../../tags/emacs/index.html">emacs</a>, <a href="../../../../../tags/spacemacs/index.html">spacemacs</a>
+    </div>
+  
+</div>
+
+<nav>
+  <ul class="pager">
+    
+      <li class="previous">
+        <a class="btn btn-default" href="../../../../../posts/2015/06/08/fermats-last-theorem/index.html">
+          <i class="fa fa-chevron-left"></i> Older
+        </a>
+      </li>
+    
+    
+  </ul>
+</nav>
+
+      <footer class="footer text-muted">
+        <div class="flex">
+          <div class="flex-left">
+            <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+              <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" />
+            </a>
+          </div>
+          <div class="flex-center text-center">
+            ©️  Steven Shaw 2004-2019
+          </div>
+          <div class="flex-right text-right">
+            <a href="#">Back to top <i class="fa fa-arrow-up"></i></a>
+          </div>
+        </div>
+        <div class="entry-unrelated text-center small">
+          Built with <a href="https://jaspervdj.be/hakyll/">Hakyll</a>,
+          <a href="https://pandoc.org/">Pandoc</a>,
+          <a href="https://getbootstrap.com/docs/3.3/">Bootstrap 3.3</a>
+          and <a href="https://fontawesome.com/">Font Awesome</a>
+        </div>
+      </footer>
+    </div>
+
+    <!-- JavaScripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="../../../../../js/octopressify.js"></script>
+    <script src="../../../../../js/blog.js"></script>
+  </body>
+</html>

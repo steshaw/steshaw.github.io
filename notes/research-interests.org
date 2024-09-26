@@ -1,0 +1,20 @@
+
+- programming languages
+- type theory
+- type systems
+- functional programming
+- dependently-typed functional programming
+- compilers
+  - support for program analysis
+  - support for interactive proof/program development
+  - support for IDE features
+  - support for refactoring
+- runtime systems
+- module systems
+
+- mechanised meta-theory
+- verified/certified programming
+- proof assistants
+- automated theorem provers
+- automated reasoning
+- logical frameworks

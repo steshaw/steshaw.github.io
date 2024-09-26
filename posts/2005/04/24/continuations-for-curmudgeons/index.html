@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <title>Steven Shaw - Continuations for curmudgeons</title>
+    <meta name="description" content="Steven Shaw loves programming languages">
+    <meta name="author" content="Steven Shaw">
+    <meta name="robots" content="index, follow">
+
+    <!-- Styles -->
+    <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../../css/default.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../../css/syntax-figure.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../../css/syntax.css" />
+<!--
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
+-->
+
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+
+    <!-- Google analytics { -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-62781857-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+    <!-- } -->
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="navbar navbar-default navbar-static-top sm80">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div class="navbar-brand center-x center-y">
+            <div>
+              <a href="../../../../../">
+                <img class="logo" src="../../../../../images/pltsrc—150×150.png" alt="λΠ">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class>
+              <a href="../../../../../"><i class="fa fa-home"></i> Home</a>
+            </li>
+            <!--
+              <li>
+                <a href="/posts.html"><i class="fa fa-inbox"></i> Posts</a>
+              </li>
+            -->
+            <li class>
+              <a href="../../../../../talks"><i class="fa fa-comment"></i> Talks</a>
+            </li>
+            <li>
+              <a href="https://steshaw.org/plt/">λΠ PLT</a>
+            </li>
+<!--
+            <li>
+              <a href="http://tlcsrc.github.io"><i class="fa fa-cubes"></i>TLC SRC</a>
+            </li>
+-->
+            <li>
+              <a href="https://steshaw.org/radar/"><i class="fa fa-bullseye"></i> Radar</a>
+            </li>
+            <!-- <li><a href="/tags.html"><i class="fa fa-tags"></i> Tags</a></li>
+            <li>
+              <a href="/rss.xml" class="rss-link">
+                <i class="fa fa-rss"></i>
+                <abbr class="initialism"> RSS</abbr>
+              </a>
+            </li> -->
+<!--
+            <li class="">
+              <a href="/notes"><i class="fa fa-sticky-note-o"></i> Notes</a>
+            </li>
+-->
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class>
+              <a href="../../../../../about"><i class="fa fa-user"></i> About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <header>
+  <div class="header-image-bg">
+    <div class="post-header">
+      <div class="post-header-content">
+        <h1 class="post-title">Continuations for curmudgeons</h1>
+        
+          <h4 class="post-subtitle"></h4>
+        
+        <h4 class="post-date"><small><time class="timeago" datetime="24 April 2005" pubdate>24 April 2005</time></small></h4>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="post-content">
+  <p>Sam Ruby has a much praised blog entry entitled “<a href="http://www.intertwingly.net/blog/2005/04/13/Continuations-for-Curmudgeons">Continuations for Curmudgeons</a>”.</p>
+<p>I didn’t like the tone of the article which seem to treat the C programmers as some kind of dinosaur with no interest in other languages (or language features).</p>
+<p>There was no mention of Scheme. When learning about continuations I think it’s best to learn from the source. That source appears to be the Scheme programming language. R5RS includes call-with-current-continuation function usually shortened to call/cc. A really good introduction to Scheme with <a href="http://www.ccs.neu.edu/home/dorai/t-y-scheme/t-y-scheme-Z-H-15.html#node_chap_13">coverage of continuations</a> for <a href="http://www.ccs.neu.edu/home/dorai/t-y-scheme/t-y-scheme-Z-H-16.html#node_chap_14">non-trivial applications</a> is contained in Dorai Sitaram’s <a href="http://www.ccs.neu.edu/home/dorai/t-y-scheme/t-y-scheme.html">Teach Yourself Scheme in Fixnum Days</a> (TYSiFD).</p>
+<p>Sam seems to have some confusion about continuations and there relationship to closures, iterators, generators and coroutines. Just because a language has a “yield” keyword doesn’t mean it has first class continuations. Yield is usually used for generators. One of the highlights of TYSiFD is implementing coroutines with continuations.</p>
+<p>Ruby supports first class continuations. The callcc method is available from the Kernel class. I played around with the code from the Ruby documentation of the <a href="http://www.ruby-doc.org/core/classes/Continuation.html">Continuation class</a>. You really don’t need call/cc for the contrived example there:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode ruby"><code class="sourceCode ruby"><span id="cb1-1"><a href="#cb1-1"></a>original_guys = [<span class="st">&quot;Freddie&quot;</span>, <span class="st">&quot;Herbie&quot;</span>, <span class="st">&quot;Ron&quot;</span>, <span class="st">&quot;Max&quot;</span>, <span class="st">&quot;Ringo&quot;</span>]</span>
+<span id="cb1-2"><a href="#cb1-2"></a></span>
+<span id="cb1-3"><a href="#cb1-3"></a>puts <span class="st">&quot;method 1: (first-class) continuation&quot;</span></span>
+<span id="cb1-4"><a href="#cb1-4"></a>guys = original_guys.clone</span>
+<span id="cb1-5"><a href="#cb1-5"></a>callcc{|<span class="dt">$k</span>|}</span>
+<span id="cb1-6"><a href="#cb1-6"></a>puts(message = guys.shift)</span>
+<span id="cb1-7"><a href="#cb1-7"></a><span class="dt">$k</span>.call <span class="kw">unless</span> message =~ <span class="ot">/^R/</span>;</span>
+<span id="cb1-8"><a href="#cb1-8"></a></span>
+<span id="cb1-9"><a href="#cb1-9"></a>puts</span>
+<span id="cb1-10"><a href="#cb1-10"></a>puts <span class="st">&quot;method 2: continuation with different way of setting global&quot;</span></span>
+<span id="cb1-11"><a href="#cb1-11"></a>guys = original_guys.clone</span>
+<span id="cb1-12"><a href="#cb1-12"></a>callcc{|k| <span class="dt">$k</span> = k}</span>
+<span id="cb1-13"><a href="#cb1-13"></a>puts (message = guys.shift)</span>
+<span id="cb1-14"><a href="#cb1-14"></a><span class="dt">$k</span>.call <span class="kw">unless</span> message =~ <span class="ot">/^R/</span>;</span>
+<span id="cb1-15"><a href="#cb1-15"></a></span>
+<span id="cb1-16"><a href="#cb1-16"></a>puts</span>
+<span id="cb1-17"><a href="#cb1-17"></a>puts <span class="st">&quot;method 3: just a loop&quot;</span></span>
+<span id="cb1-18"><a href="#cb1-18"></a>guys = original_guys.clone</span>
+<span id="cb1-19"><a href="#cb1-19"></a>loop {</span>
+<span id="cb1-20"><a href="#cb1-20"></a>  message = guys.shift</span>
+<span id="cb1-21"><a href="#cb1-21"></a>  puts message</span>
+<span id="cb1-22"><a href="#cb1-22"></a>  <span class="kw">if</span> (message =~ <span class="ot">/^R/</span>)</span>
+<span id="cb1-23"><a href="#cb1-23"></a>    <span class="kw">break</span></span>
+<span id="cb1-24"><a href="#cb1-24"></a>  <span class="kw">end</span></span>
+<span id="cb1-25"><a href="#cb1-25"></a>}</span>
+<span id="cb1-26"><a href="#cb1-26"></a></span>
+<span id="cb1-27"><a href="#cb1-27"></a>puts</span>
+<span id="cb1-28"><a href="#cb1-28"></a>puts <span class="st">&quot;method 4: (tail) recursion using methods/functions&quot;</span></span>
+<span id="cb1-29"><a href="#cb1-29"></a>puts <span class="st">&quot;          Ugly - needs guys to be global variable.&quot;</span></span>
+<span id="cb1-30"><a href="#cb1-30"></a><span class="dt">$guys</span> = original_guys.clone</span>
+<span id="cb1-31"><a href="#cb1-31"></a><span class="kw">def</span> myloop</span>
+<span id="cb1-32"><a href="#cb1-32"></a>  message = <span class="dt">$guys</span>.shift</span>
+<span id="cb1-33"><a href="#cb1-33"></a>  puts message</span>
+<span id="cb1-34"><a href="#cb1-34"></a>  <span class="kw">unless</span> message =~ <span class="ot">/^R/</span></span>
+<span id="cb1-35"><a href="#cb1-35"></a>    myloop</span>
+<span id="cb1-36"><a href="#cb1-36"></a>  <span class="kw">end</span></span>
+<span id="cb1-37"><a href="#cb1-37"></a><span class="kw">end</span></span>
+<span id="cb1-38"><a href="#cb1-38"></a>myloop</span>
+<span id="cb1-39"><a href="#cb1-39"></a></span>
+<span id="cb1-40"><a href="#cb1-40"></a>puts</span>
+<span id="cb1-41"><a href="#cb1-41"></a>puts <span class="st">&quot;method 5: (tail) recursion using blocks&quot;</span></span>
+<span id="cb1-42"><a href="#cb1-42"></a>guys = original_guys.clone</span>
+<span id="cb1-43"><a href="#cb1-43"></a>myloop = <span class="dt">Proc</span>.new{</span>
+<span id="cb1-44"><a href="#cb1-44"></a>  message = guys.shift</span>
+<span id="cb1-45"><a href="#cb1-45"></a>  puts message</span>
+<span id="cb1-46"><a href="#cb1-46"></a>  <span class="kw">unless</span> message =~ <span class="ot">/^R/</span></span>
+<span id="cb1-47"><a href="#cb1-47"></a>    myloop.call</span>
+<span id="cb1-48"><a href="#cb1-48"></a>  <span class="kw">end</span></span>
+<span id="cb1-49"><a href="#cb1-49"></a>}</span>
+<span id="cb1-50"><a href="#cb1-50"></a>myloop.call</span>
+<span id="cb1-51"><a href="#cb1-51"></a></span>
+<span id="cb1-52"><a href="#cb1-52"></a>puts</span>
+<span id="cb1-53"><a href="#cb1-53"></a>puts <span class="st">&quot;method 6: using each and catch/raise&quot;</span></span>
+<span id="cb1-54"><a href="#cb1-54"></a>guys = original_guys.clone</span>
+<span id="cb1-55"><a href="#cb1-55"></a>catch (<span class="st">:early_exit</span>) {</span>
+<span id="cb1-56"><a href="#cb1-56"></a>  guys.each {|item|</span>
+<span id="cb1-57"><a href="#cb1-57"></a>    puts item</span>
+<span id="cb1-58"><a href="#cb1-58"></a>    <span class="kw">if</span> item =~ <span class="ot">/^R/</span></span>
+<span id="cb1-59"><a href="#cb1-59"></a>      throw <span class="st">:early_exit</span></span>
+<span id="cb1-60"><a href="#cb1-60"></a>    <span class="kw">end</span></span>
+<span id="cb1-61"><a href="#cb1-61"></a>  }</span>
+<span id="cb1-62"><a href="#cb1-62"></a>}</span></code></pre></div>
+
+  
+    <div class="tags text-right">
+      <i class="fa fa-tags"></i> <a href="../../../../../tags/functionalprogramming/index.html">functional-programming</a>, <a href="../../../../../tags/ruby/index.html">ruby</a>, <a href="../../../../../tags/scheme/index.html">scheme</a>
+    </div>
+  
+</div>
+
+<nav>
+  <ul class="pager">
+    
+      <li class="previous">
+        <a class="btn btn-default" href="../../../../../posts/2005/02/22/noxml-and-web-service-specifications/index.html">
+          <i class="fa fa-chevron-left"></i> Older
+        </a>
+      </li>
+    
+    
+      <li class="next">
+        <a class="btn btn-default" href="../../../../../posts/2005/05/02/javarubygroovy/index.html">
+          Newer <i class="fa fa-chevron-right"></i>
+        </a>
+      </li>
+    
+  </ul>
+</nav>
+
+      <footer class="footer text-muted">
+        <div class="flex">
+          <div class="flex-left">
+            <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+              <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" />
+            </a>
+          </div>
+          <div class="flex-center text-center">
+            ©️  Steven Shaw 2004-2019
+          </div>
+          <div class="flex-right text-right">
+            <a href="#">Back to top <i class="fa fa-arrow-up"></i></a>
+          </div>
+        </div>
+        <div class="entry-unrelated text-center small">
+          Built with <a href="https://jaspervdj.be/hakyll/">Hakyll</a>,
+          <a href="https://pandoc.org/">Pandoc</a>,
+          <a href="https://getbootstrap.com/docs/3.3/">Bootstrap 3.3</a>
+          and <a href="https://fontawesome.com/">Font Awesome</a>
+        </div>
+      </footer>
+    </div>
+
+    <!-- JavaScripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="../../../../../js/octopressify.js"></script>
+    <script src="../../../../../js/blog.js"></script>
+  </body>
+</html>
